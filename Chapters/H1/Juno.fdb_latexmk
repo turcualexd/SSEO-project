@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1709992506 "c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H1/Juno.tex" "Juno.pdf" "Juno" 1709992507 0
+["pdflatex"] 1709996532 "c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H1/Juno.tex" "Juno.pdf" "Juno" 1709996533 0
   "../../Config/commands.tex" 1709992427 182 d189f1db397e6bad16cf2fc0b6673e63 ""
-  "../../Config/formats.tex" 1709992427 453 3176c6f7eefef3c05f8cefd7aba65ab1 ""
+  "../../Config/formats.tex" 1709992777 403 2832655cdf944cac5306925545d394fb ""
   "../../Config/input.tex" 1709989407 73 668980f2390ad3fdd9d515a07fd44a82 ""
   "../../Config/packages.tex" 1709987885 182 4f08315c50af0f1c8034f8d48d8d743c ""
   "Body.tex" 1709992138 28 fb18fad96896c7756a5f8b8d57e7129b ""
@@ -51,9 +51,9 @@
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1681893161 29940 9473d58112bc8a88f5505b823a053dde ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1625494067 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
   "Images/thrust_full.pdf" 1709675067 34598 732f6c547e2628afded6caf65f8c4f07 ""
-  "Juno.aux" 1709992507 298 225e141631b14d4ab1ca9d1fc1b2d275 "pdflatex"
+  "Juno.aux" 1709996533 303 425e2f065840ee79fe30f21c741a502d "pdflatex"
   "Juno.tex" 1709992505 148 c17931ef344890e1b0c81f6587b917f6 ""
-  "Sections/01_prova.tex" 1709992439 69 807b8ce1ac9ef6b9e06bb6d7218c6f42 ""
+  "Sections/01_prova.tex" 1709996531 97 016c571de86cf4d3f81eda46bdb20e22 ""
   "c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H1/Juno.tex" 1709992505 148 c17931ef344890e1b0c81f6587b917f6 ""
   (generated)
   "Juno.aux"

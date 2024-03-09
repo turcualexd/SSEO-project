@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  9 MAR 2024 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  9 MAR 2024 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -513,21 +513,21 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <Images/thrust_full.pdf, id=1, 513.92pt x 385.44pt>
 File: Images/thrust_full.pdf Graphic file (type pdf)
 <use Images/thrust_full.pdf>
-Package pdftex.def Info: Images/thrust_full.pdf  used on input line 4.
+Package pdftex.def Info: Images/thrust_full.pdf  used on input line 6.
 (pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
 )) [1
 
 {C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Images/thrust_full.pdf>] (Juno.aux) ) 
 Here is how much of TeX's memory you used:
  5053 strings out of 476361
- 72745 string characters out of 5788046
+ 72750 string characters out of 5788046
  1851993 words of memory out of 5000000
  25411 multiletter control sequences out of 15000+600000
  529875 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,6n,96p,385b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,6n,96p,385b,238s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb>
-Output written on Juno.pdf (1 page, 50589 bytes).
+Output written on Juno.pdf (1 page, 51632 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
