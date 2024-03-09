@@ -1,0 +1,9 @@
+% Centred figure command
+\newcommand{\cfig}[3]{
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=#2\linewidth]{Images/#1}
+    \caption{#3}
+	\label{fig:#1}
+\end{figure}
+}
