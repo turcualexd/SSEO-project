@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  9 MAR 2024 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  9 MAR 2024 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -510,36 +510,21 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (Body.tex (Chapters/H1/Body.tex (Chapters/H1//Sections/01_prova.tex
-<Chapters/H1//Images/thrust_full.pdf, id=1, 513.92pt x 385.44pt>
-File: Chapters/H1//Images/thrust_full.pdf Graphic file (type pdf)
-<use Chapters/H1//Images/thrust_full.pdf>
-Package pdftex.def Info: Chapters/H1//Images/thrust_full.pdf  used on input line 4.
-(pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
-)) (Chapters/H2/Body.tex (Chapters/H2//Sections/01_prova.tex
-<Chapters/H2//Images/thrust_top3.pdf, id=2, 513.92pt x 385.44pt>
-File: Chapters/H2//Images/thrust_top3.pdf Graphic file (type pdf)
-<use Chapters/H2//Images/thrust_top3.pdf>
-Package pdftex.def Info: Chapters/H2//Images/thrust_top3.pdf  used on input line 4.
-(pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
-))) [1
+)) (Body.tex (Chapters/H1/Body.tex (Chapters/H1//Sections/01_goals.tex) (Chapters/H1//Sections/02_drivers.tex) (Chapters/H1//Sections/03_functional_analysis.tex) (Chapters/H1//Sections/04_phases.tex) (Chapters/H1//Sections/05_conops.tex) (Chapters/H1//Sections/06_payload.tex) (Chapters/H1//Sections/07_mission_analysis.tex))) [1
 
-{C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Chapters/H1//Images/thrust_full.pdf> <./Chapters/H2//Images/thrust_top3.pdf
-
-pdfTeX warning: pdflatex (file ./Chapters/H2//Images/thrust_top3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (SSEO_final_report.aux) ) 
+{C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (SSEO_final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 5121 strings out of 476361
- 74842 string characters out of 5788046
+ 5129 strings out of 476361
+ 75550 string characters out of 5788046
  1852993 words of memory out of 5000000
- 25457 multiletter control sequences out of 15000+600000
+ 25466 multiletter control sequences out of 15000+600000
  529875 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,6n,96p,380b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,5n,96p,380b,142s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb>
-Output written on SSEO_final_report.pdf (1 page, 69971 bytes).
+Output written on SSEO_final_report.pdf (1 page, 18292 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 17 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
