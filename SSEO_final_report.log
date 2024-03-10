@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  10 MAR 2024 18:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  10 MAR 2024 21:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -512,25 +512,29 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (Body.tex (Chapters/H1/Body.tex (Chapters/H1/Sections/01_goals.tex) (Chapters/H1/Sections/02_drivers.tex
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 15.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 10.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 15.
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 10.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 15.
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 10.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 10.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 15.
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 10.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 10.
+ (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )) (Chapters/H1/Sections/03_functional_analysis.tex) (Chapters/H1/Sections/04_phases.tex) (Chapters/H1/Sections/05_conops.tex) (Chapters/H1/Sections/06_payload.tex) (Chapters/H1/Sections/07_mission_analysis.tex))) [1
 
 {C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (SSEO_final_report.aux)
@@ -540,17 +544,17 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5190 strings out of 474436
- 75142 string characters out of 5741955
- 1932190 words of memory out of 5000000
- 27427 multiletter control sequences out of 15000+600000
- 592358 words of font info for 74 fonts, out of 8000000 for 9000
+ 5234 strings out of 474436
+ 75778 string characters out of 5741955
+ 1935190 words of memory out of 5000000
+ 27464 multiletter control sequences out of 15000+600000
+ 593861 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,5n,99p,434b,242s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb>
-Output written on SSEO_final_report.pdf (1 page, 36528 bytes).
+ 83i,5n,99p,1486b,242s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb>
+Output written on SSEO_final_report.pdf (1 page, 47221 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
