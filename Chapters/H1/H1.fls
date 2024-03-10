@@ -343,6 +343,8 @@ INPUT Sections/04_phases.tex
 INPUT ./Sections/04_phases.tex
 INPUT ./Sections/04_phases.tex
 INPUT Sections/04_phases.tex
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpmn8t.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpbn8t.tfm
 INPUT ./Sections/05_conops.tex
 INPUT ./Sections/05_conops.tex
 INPUT ./Sections/05_conops.tex
@@ -373,6 +375,11 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/kpfonts/jkpmn8t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpmn8r.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpmne.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/kpfonts/jkpbn8t.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpbn8r.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpbne.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc
 INPUT H1.aux
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb
