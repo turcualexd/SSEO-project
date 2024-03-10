@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1710083732.14353 "/Users/Chiara/Documents/GitHub/SSEO-project/Chapters/H1/H1.tex" "H1.pdf" "H1" 1710083732.71945 0
+["pdflatex"] 1710105104.13037 "/Users/Chiara/Documents/GitHub/SSEO-project/Chapters/H1/H1.tex" "H1.pdf" "H1" 1710105104.7336 0
   "../../Config/commands.tex" 1709994431.81424 174 d189f1db397e6bad16cf2fc0b6673e63 ""
   "../../Config/formats.tex" 1709994431.81438 383 2832655cdf944cac5306925545d394fb ""
   "../../Config/input.tex" 1709994431.8146 69 668980f2390ad3fdd9d515a07fd44a82 ""
@@ -29,6 +29,7 @@
   "/Users/Chiara/Documents/GitHub/SSEO-project/Chapters/H1/H1.tex" 1710082878.62272 139 c17931ef344890e1b0c81f6587b917f6 ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1710006804.26486 95607 034e0737ccfe37fc78b0169eb44187f4 ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1710006792.07423 24235850 3a2e8fa33ba0d03a926a8dacc025c0d7 ""
+  "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/kpfonts/kpfonts-expert.enc" 1710006799.16803 2639 b7bbeb66c016cde6fdcad9263fe54a4a ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn8r.tfm" 1710006798.82743 1704 3498d78dbc645488e6991702d2fcd9f1 ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn8t.tfm" 1710006798.83348 20836 dd27a1f6f898752c993b50a7bfb0552d ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbne.tfm" 1710006799.01671 1476 e4f5cafc64b9daf0d44d4aebfd40a855 ""
@@ -37,6 +38,7 @@
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmne.tfm" 1710006798.99446 1492 3cce7d7b67660bfd355425290695c6a6 ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbn8a.pfb" 1710006799.29175 32613 389be7e28026f4a9ed02e6bc2426509b ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmn8a.pfb" 1710006799.22184 35294 e88bb6b7bdd82f594dee041ddea9423c ""
+  "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmne.pfb" 1710006799.27512 18013 a3754f8df0b4dd3a76b5353fabb31650 ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpbn8t.vf" 1710006799.12328 1800 bde6e91770b65baf214fcc34f4229391 ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmn8t.vf" 1710006799.05716 1800 3acf620f6c07a0390a9d216a40a331bc ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty" 1710006803.71688 51697 f8f08183cd2080d9d18a41432d651dfb ""
@@ -51,9 +53,9 @@
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpexa.fd" 1710006799.32788 320 b222867dc9ceaccb99f5c780072d4c87 ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/titlesec/titlesec.sty" 1710006796.42377 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "Body.tex" 1710082878.62085 233 6b38c20ea159060a1b3e448744e37175 ""
-  "H1.aux" 1710083732.57117 1138 2f6f7665d280ff5b1d683fc74dc2d8bd "pdflatex"
+  "H1.aux" 1710105104.58211 1138 2f6f7665d280ff5b1d683fc74dc2d8bd "pdflatex"
   "H1.tex" 1710082878.62272 139 c17931ef344890e1b0c81f6587b917f6 ""
-  "Sections/01_goals.tex" 1710083730.99108 68 bfda6300ae41cd58ed5b2405f9bd0385 ""
+  "Sections/01_goals.tex" 1710105103.56152 2628 4fa65590a14a07c64abf309c8423ba04 ""
   "Sections/02_drivers.tex" 1710082878.62313 47 1889820bef8997a684156e1df91361cc ""
   "Sections/03_functional_analysis.tex" 1710082878.6233 63 deb41974fc86da6ae5dbea3df00a10da ""
   "Sections/04_phases.tex" 1710082878.62346 50 58cba8d07904bf27787b9c1c71072d68 ""
