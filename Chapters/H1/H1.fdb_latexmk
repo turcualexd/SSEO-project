@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1710163468 "/Users/marcellopareschi/Desktop/orbital mechanics/SSEO-project/Chapters/H1/H1.tex" "H1.pdf" "H1" 1710163469 0
-  "../../Config/commands.tex" 1710163423 175 43dee875475ca6fd0c35e35a3a9e1ad5 ""
+["pdflatex"] 1710163906 "/Users/marcellopareschi/Desktop/orbital mechanics/SSEO-project/Chapters/H1/H1.tex" "H1.pdf" "H1" 1710163908 0
+  "../../Config/commands.tex" 1710163872 174 dfb70c4dc65aeb564f0afa1b7b1407a1 ""
   "../../Config/formats.tex" 1709994171 383 2832655cdf944cac5306925545d394fb ""
   "../../Config/input.tex" 1709994171 69 668980f2390ad3fdd9d515a07fd44a82 ""
-  "../../Config/packages.tex" 1709994171 175 4f08315c50af0f1c8034f8d48d8d743c ""
+  "../../Config/packages.tex" 1710163904 194 76e0ca5cb5e264f460577bba99d56a8a ""
   "/Users/marcellopareschi/Desktop/orbital mechanics/SSEO-project/Chapters/H1/H1.tex" 1710083500 139 c17931ef344890e1b0c81f6587b917f6 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -31,6 +31,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/size10.clo" 1667332637 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def" 1663965824 19448 1e988b341dda20961a6b931bcde55519 ""
@@ -53,7 +54,7 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1701013409 7883460 0a1d58b08410e0574fdd64a1e45b0f38 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "Body.tex" 1710084431 233 6b38c20ea159060a1b3e448744e37175 ""
-  "H1.aux" 1710163469 1636 61af4702c483d3fad8e8523a106705f6 "pdflatex"
+  "H1.aux" 1710163908 1636 82111fca197bd865dec646a27a35c069 "pdflatex"
   "H1.tex" 1710083500 139 c17931ef344890e1b0c81f6587b917f6 ""
   "Images/Prova.png" 1710149142 239969 3d3aaa1e9082fc0fc203deb250b0ce79 ""
   "Sections/01_goals.tex" 1710147869 46 6e78db98c0bba6106f55af5bed069dda ""

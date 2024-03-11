@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.26)  11 MAR 2024 14:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.26)  11 MAR 2024 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -407,7 +407,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen163
 \Gin@req@width=\dimen164
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip55
 \enit@outerparindent=\dimen165
@@ -415,14 +415,21 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box54
 \enit@count@id=\count278
 \enitdp@description=\count279
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count280
+\float@exts=\toks25
+\float@box=\box55
+\@float@everytoks=\toks26
+\@floatcapt=\box56
 ) (../../Config/formats.tex) (../../Config/commands.tex))
 LaTeX Font Info:    Trying to load font information for T1+jkp on input line 6.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count280
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box57
 ) (./H1.aux)
 \openout1 = `H1.aux'.
 
@@ -493,17 +500,17 @@ LaTeX Font Info:    ... okay on input line 6.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
+\scratchcounter=\count282
 \scratchdimen=\dimen166
-\scratchbox=\box56
-\nofMPsegments=\count282
-\nofMParguments=\count283
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count284
+\scratchbox=\box58
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count285
 \MPscratchDim=\dimen167
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -515,19 +522,19 @@ File: Images/Prova.png Graphic file (type png)
 <use Images/Prova.png>
 Package pdftex.def Info: Images/Prova.png  used on input line 4.
 (pdftex.def)             Requested size: 512.14963pt x 122.30379pt.
-) (./Sections/06_payload.tex) (./Sections/07_mission_analysis.tex)) [1
+) (./Sections/06_payload.tex [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2 <./Images/Prova.png>] (./H1.aux) ) 
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./Sections/07_mission_analysis.tex)) [2 <./Images/Prova.png>] (./H1.aux) ) 
 Here is how much of TeX's memory you used:
- 5053 strings out of 476025
- 71280 string characters out of 5790016
+ 5127 strings out of 476025
+ 72493 string characters out of 5790016
  1858388 words of memory out of 5000000
- 25440 multiletter control sequences out of 15000+600000
+ 25510 multiletter control sequences out of 15000+600000
  540875 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,6n,96p,403b,242s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,6n,96p,403b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb>
-Output written on H1.pdf (2 pages, 155586 bytes).
+Output written on H1.pdf (2 pages, 155639 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream
