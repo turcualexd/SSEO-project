@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.26)  10 MAR 2024 20:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.26)  11 MAR 2024 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -510,22 +510,32 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./Body.tex (./Chapters/H1/Body.tex (./Chapters/H1//Sections/01_goals.tex) (./Chapters/H1//Sections/02_drivers.tex) (./Chapters/H1//Sections/03_functional_analysis.tex) (./Chapters/H1//Sections/04_phases.tex) (./Chapters/H1//Sections/05_conops.tex) (./Chapters/H1//Sections/06_payload.tex) (./Chapters/H1//Sections/07_mission_analysis.tex))) [1
+)) (./Body.tex (./Chapters/H1/Body.tex (./Chapters/H1//Sections/01_goals.tex) (./Chapters/H1//Sections/02_drivers.tex) (./Chapters/H1//Sections/03_functional_analysis.tex) (./Chapters/H1//Sections/04_phases.tex) (./Chapters/H1//Sections/05_conops.tex
+<Chapters/H1//Images/Prova.png, id=1, 1210.5225pt x 289.08pt>
+File: Chapters/H1//Images/Prova.png Graphic file (type png)
+<use Chapters/H1//Images/Prova.png>
+Package pdftex.def Info: Chapters/H1//Images/Prova.png  used on input line 4.
+(pdftex.def)             Requested size: 409.72125pt x 97.84479pt.
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./SSEO_final_report.aux) ) 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Chapters/H1//Sections/06_payload.tex) (./Chapters/H1//Sections/07_mission_analysis.tex))) [1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2 <./Chapters/H1//Images/Prova.png>] (./SSEO_final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 5070 strings out of 476025
- 72123 string characters out of 5790016
+ 5090 strings out of 476025
+ 72583 string characters out of 5790016
  1858388 words of memory out of 5000000
- 25456 multiletter control sequences out of 15000+600000
+ 25468 multiletter control sequences out of 15000+600000
  540875 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,5n,96p,400b,142s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,6n,96p,400b,242s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb>
-Output written on SSEO_final_report.pdf (1 page, 27924 bytes).
+Output written on SSEO_final_report.pdf (2 pages, 155711 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 25 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
