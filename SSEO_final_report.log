@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  10 MAR 2024 21:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  11 MAR 2024 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -409,7 +409,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen163
 \Gin@req@width=\dimen164
-)) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip55
 \enit@outerparindent=\dimen165
@@ -417,14 +417,21 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box54
 \enit@count@id=\count282
 \enitdp@description=\count283
+)) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count284
+\float@exts=\toks26
+\float@box=\box55
+\@float@everytoks=\toks27
+\@floatcapt=\box56
 ) (Config/formats.tex) (Config/commands.tex))
 LaTeX Font Info:    Trying to load font information for T1+jkp on input line 6.
  (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count284
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count285
+\l__pdf_internal_box=\box57
 ) (SSEO_final_report.aux)
 \openout1 = `SSEO_final_report.aux'.
 
@@ -495,42 +502,62 @@ LaTeX Font Info:    ... okay on input line 6.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
+\scratchcounter=\count286
 \scratchdimen=\dimen166
-\scratchbox=\box56
-\nofMPsegments=\count286
-\nofMParguments=\count287
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count288
+\scratchbox=\box58
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count289
 \MPscratchDim=\dimen167
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks29
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (Body.tex (Chapters/H1/Body.tex (Chapters/H1/Sections/01_goals.tex) (Chapters/H1/Sections/02_drivers.tex) (Chapters/H1/Sections/03_functional_analysis.tex) (Chapters/H1/Sections/04_phases.tex) (Chapters/H1/Sections/05_conops.tex) (Chapters/H1/Sections/06_payload.tex) (Chapters/H1/Sections/07_mission_analysis.tex))) [1
+)) (Body.tex (Chapters/H1/Body.tex (Chapters/H1/Sections/01_goals.tex
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 25.
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ot1jkp.fd
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+)
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 25.
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpmia.fd
+File: ujkpmia.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 25.
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsya.fd
+File: ujkpsya.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 25.
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyb.fd
+File: ujkpsyb.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 25.
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyc.fd
+File: ujkpsyc.fd 2006/08/15 v1.0
+)) (Chapters/H1/Sections/02_drivers.tex) (Chapters/H1/Sections/03_functional_analysis.tex) (Chapters/H1/Sections/04_phases.tex) (Chapters/H1/Sections/05_conops.tex) (Chapters/H1/Sections/06_payload.tex) (Chapters/H1/Sections/07_mission_analysis.tex))) [1
 
-{/Users/Chiara/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] (SSEO_final_report.aux)
+{/Users/Chiara/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] [2] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5051 strings out of 474436
- 73434 string characters out of 5739103
- 1934187 words of memory out of 5000000
- 27316 multiletter control sequences out of 15000+600000
- 575657 words of font info for 44 fonts, out of 8000000 for 9000
+ 5254 strings out of 474436
+ 77165 string characters out of 5739103
+ 1937187 words of memory out of 5000000
+ 27490 multiletter control sequences out of 15000+600000
+ 586412 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,5n,99p,810b,142s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,8n,99p,810b,226s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}</Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmne.pfb>
-Output written on SSEO_final_report.pdf (1 page, 32136 bytes).
+Output written on SSEO_final_report.pdf (2 pages, 34163 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
+ 26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

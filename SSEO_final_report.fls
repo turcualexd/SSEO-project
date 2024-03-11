@@ -98,6 +98,10 @@ INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
 INPUT ./Config/formats.tex
 INPUT ./Config/formats.tex
 INPUT Config/formats.tex
@@ -160,6 +164,53 @@ INPUT ./Chapters/H1/Sections/01_goals.tex
 INPUT Chapters/H1/Sections/01_goals.tex
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn8t.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn8t.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ot1jkp.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ot1jkp.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ot1jkp.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ot1jkp.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn7t.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn7t.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn7t.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmi.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmi.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmi.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsy.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsy.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsy.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpex.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpex.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpex.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpmia.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpmia.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpmia.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpmia.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmia.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmia.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmia.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsya.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsya.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsya.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsya.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsya.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsya.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsya.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyb.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyb.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyb.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyb.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsyb.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsyb.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsyb.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyc.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyc.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyc.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyc.fd
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsyc.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsyc.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpsyc.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpexa.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpexa.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpexa.tfm
 INPUT ./Chapters/H1/Sections/02_drivers.tex
 INPUT ./Chapters/H1/Sections/02_drivers.tex
 INPUT Chapters/H1/Sections/02_drivers.tex
