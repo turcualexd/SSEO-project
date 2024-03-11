@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  10 MAR 2024 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  11 MAR 2024 09:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -535,24 +535,62 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 9.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-)) (Chapters/H1/Sections/03_functional_analysis.tex) (Chapters/H1/Sections/04_phases.tex) (Chapters/H1/Sections/05_conops.tex) (Chapters/H1/Sections/06_payload.tex) (Chapters/H1/Sections/07_mission_analysis.tex))) [1
+)
+Chapters/H1/Sections/02_drivers.tex:15: Undefined control sequence.
+<recently read> \mi 
+                    
+l.15 ...n LEO are needed to shield up to 0.65 $\mi
+                                                   T$, while the on Jupiter ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Chapters/H1/Sections/02_drivers.tex:15: Undefined control sequence.
+<recently read> \mi 
+                    
+l.15 ...intesity of the magnetic field is 518 $\mi
+                                                   T$. The measured value me...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Chapters/H1/Sections/02_drivers.tex:15: Undefined control sequence.
+<recently read> \mi 
+                    
+l.15 ...asured by JUNO at its perijove is 776 $\mi
+                                                   T$, 50 \% higher than exp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (Chapters/H1/Sections/03_functional_analysis.tex) (Chapters/H1/Sections/04_phases.tex) (Chapters/H1/Sections/05_conops.tex) (Chapters/H1/Sections/06_payload.tex) (Chapters/H1/Sections/07_mission_analysis.tex))) [1
 
 {C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 5234 strings out of 474436
- 75778 string characters out of 5741955
+ 5235 strings out of 474436
+ 75780 string characters out of 5741955
  1936190 words of memory out of 5000000
- 27464 multiletter control sequences out of 15000+600000
+ 27465 multiletter control sequences out of 15000+600000
  593861 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,5n,99p,2072b,242s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,5n,99p,2123b,242s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on SSEO_final_report.pdf (1 page, 55970 bytes).
+Output written on SSEO_final_report.pdf (1 page, 57157 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
