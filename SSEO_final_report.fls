@@ -211,6 +211,7 @@ INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpexa.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpexa.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpexa.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn8t.tfm
 INPUT ./Chapters/H1/Sections/02_drivers.tex
 INPUT ./Chapters/H1/Sections/02_drivers.tex
 INPUT Chapters/H1/Sections/02_drivers.tex
@@ -255,6 +256,9 @@ INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmn8t.vf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn8r.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmne.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpbn8t.vf
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn8r.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbne.tfm
 INPUT SSEO_final_report.aux
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/kpfonts/kpfonts-expert.enc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc
