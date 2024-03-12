@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.26)  11 MAR 2024 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.26)  12 MAR 2024 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -517,24 +517,24 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (./Body.tex (./Sections/01_goals.tex) (./Sections/02_drivers.tex) (./Sections/03_functional_analysis.tex) (./Sections/04_phases.tex) (./Sections/05_conops.tex
-<Images/Prova.png, id=1, 1210.5225pt x 289.08pt>
-File: Images/Prova.png Graphic file (type png)
-<use Images/Prova.png>
-Package pdftex.def Info: Images/Prova.png  used on input line 4.
-(pdftex.def)             Requested size: 512.14963pt x 122.30379pt.
+<Images/ConOps.png, id=1, 858.20625pt x 345.99263pt>
+File: Images/ConOps.png Graphic file (type png)
+<use Images/ConOps.png>
+Package pdftex.def Info: Images/ConOps.png  used on input line 4.
+(pdftex.def)             Requested size: 512.14963pt x 206.47794pt.
 ) (./Sections/06_payload.tex [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./Sections/07_mission_analysis.tex)) [2 <./Images/Prova.png>] (./H1.aux) ) 
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./Sections/07_mission_analysis.tex)) [2 <./Images/ConOps.png>] (./H1.aux) ) 
 Here is how much of TeX's memory you used:
  5127 strings out of 476025
- 72493 string characters out of 5790016
+ 72505 string characters out of 5790016
  1858388 words of memory out of 5000000
  25510 multiletter control sequences out of 15000+600000
  540875 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,6n,96p,403b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb>
-Output written on H1.pdf (2 pages, 155639 bytes).
+Output written on H1.pdf (2 pages, 80325 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream
