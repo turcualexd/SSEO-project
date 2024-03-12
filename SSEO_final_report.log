@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  12 MAR 2024 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  12 MAR 2024 16:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -519,27 +519,27 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (Body.tex (Chapters/H1/Body.tex (Chapters/H1/Sections/01_goals.tex
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 30.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 34.
  (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 30.
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 34.
  (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 30.
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 34.
  (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 34.
  (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 30.
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 34.
  (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-Overfull \hbox (206.7989pt too wide) in paragraph at lines 30--45
+Overfull \hbox (206.7989pt too wide) in paragraph at lines 34--49
  [][] 
  []
 
@@ -560,7 +560,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  83i,8n,99p,811b,270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}</Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmne.pfb>
-Output written on SSEO_final_report.pdf (2 pages, 34984 bytes).
+Output written on SSEO_final_report.pdf (2 pages, 34987 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
