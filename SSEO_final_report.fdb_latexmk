@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1710250201.57158 "/Users/Chiara/Documents/GitHub/SSEO-project/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1710250202.19358 0
+["pdflatex"] 1710251255.30464 "/Users/Chiara/Documents/GitHub/SSEO-project/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1710251255.91551 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc" 1710006688.80306 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1710006689.12372 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii" 1710006698.33854 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -65,7 +65,7 @@
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/titlesec/titlesec.sty" 1710006796.42377 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "Body.tex" 1710082878.62042 27 8f0579380894724efc7d7bcfe8613e71 ""
   "Chapters/H1/Body.tex" 1710082878.62085 233 6b38c20ea159060a1b3e448744e37175 ""
-  "Chapters/H1/Sections/01_goals.tex" 1710250200.40657 3750 c65351ce53125bffc4403b98c97c3946 ""
+  "Chapters/H1/Sections/01_goals.tex" 1710251254.74701 3951 8173317859f89b266844a119e375cb12 ""
   "Chapters/H1/Sections/02_drivers.tex" 1710082878.62313 47 1889820bef8997a684156e1df91361cc ""
   "Chapters/H1/Sections/03_functional_analysis.tex" 1710082878.6233 63 deb41974fc86da6ae5dbea3df00a10da ""
   "Chapters/H1/Sections/04_phases.tex" 1710082878.62346 50 58cba8d07904bf27787b9c1c71072d68 ""
@@ -76,7 +76,7 @@
   "Config/formats.tex" 1709994431.81438 383 2832655cdf944cac5306925545d394fb ""
   "Config/input.tex" 1709994431.8146 69 668980f2390ad3fdd9d515a07fd44a82 ""
   "Config/packages.tex" 1710170229.36976 194 76e0ca5cb5e264f460577bba99d56a8a ""
-  "SSEO_final_report.aux" 1710250202.01816 1390 683d61aa43690b2f17994d3ccc3359c1 "pdflatex"
+  "SSEO_final_report.aux" 1710251255.75947 1390 683d61aa43690b2f17994d3ccc3359c1 "pdflatex"
   "SSEO_final_report.tex" 1709994431.81617 132 94bc2b7b899e41707975e1b994d29e99 ""
   (generated)
   "SSEO_final_report.aux"
