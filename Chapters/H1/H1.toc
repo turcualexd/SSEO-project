@@ -13,7 +13,7 @@
 \contentsline {section}{\numberline {6}ConOps}{4}{section.6}%
 \contentsline {section}{\numberline {7}Payload analysis}{4}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Instruments overview}{4}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Payload and Goals correlation}{5}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Payload and Phases/ConOps correlation}{5}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Mission analysis}{6}{section.8}%
-\contentsline {section}{Bibliography}{6}{section.8}%
+\contentsline {subsection}{\numberline {7.2}Payload and Goals correlation}{6}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Payload and Phases/ConOps correlation}{6}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Mission analysis}{7}{section.8}%
+\contentsline {section}{Bibliography}{7}{section.8}%
