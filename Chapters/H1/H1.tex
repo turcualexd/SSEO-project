@@ -2,9 +2,16 @@
 \usepackage{import}
 
 \import{../../Config/}{input}
+\addbibresource{../../bibliography.bib}
+\def\doc{chapter}
 
 \begin{document}
 
-\import{}{Body}
+\pagenumbering{roman}
+% title page
+\tableofcontents
+
+\pagenumbering{arabic}
+\bodyandbib
 
 \end{document}
