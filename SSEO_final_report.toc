@@ -1,0 +1,19 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Contents}{i}{chapter*.1}%
+\contentsline {chapter}{Homework 1}{1}{chapter*.2}%
+\contentsline {section}{\numberline {1.1}High level goals}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Mission drivers}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Functional analysis}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Main mission phases}{3}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Launch}{3}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Cruise}{3}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Insertion}{4}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Science Operations}{4}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}Deorbit}{4}{subsection.1.4.5}%
+\contentsline {section}{\numberline {1.5}ConOps}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Payload analysis}{4}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Instruments overview}{4}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Payload and Goals correlation}{5}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Payload and Phases/ConOps correlation}{5}{subsection.1.6.3}%
+\contentsline {section}{\numberline {1.7}Mission analysis}{6}{section.1.7}%
+\contentsline {section}{Bibliography}{6}{section.1.7}%

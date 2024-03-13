@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'SSEO_final_report.blg'
-[94] biber-MSWIN64:340> INFO - === 
-[127] Biber.pm:419> INFO - Reading 'SSEO_final_report.bcf'
-[220] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[220] Biber.pm:979> INFO - Found 1 citekeys in bib section 1
-[220] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[237] Biber.pm:4419> INFO - Processing section 1
-[248] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 1
-[306] bibtex.pm:1713> INFO - LaTeX decoding ...
-[316] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[351] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[351] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[351] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[351] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[353] bbl.pm:660> INFO - Writing 'SSEO_final_report.bbl' with encoding 'UTF-8'
-[353] bbl.pm:763> INFO - Output to SSEO_final_report.bbl
+[95] biber-MSWIN64:340> INFO - === 
+[128] Biber.pm:419> INFO - Reading 'SSEO_final_report.bcf'
+[221] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[222] Biber.pm:979> INFO - Found 1 citekeys in bib section 1
+[222] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[239] Biber.pm:4419> INFO - Processing section 1
+[250] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 1
+[300] bibtex.pm:1713> INFO - LaTeX decoding ...
+[310] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[345] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[346] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[346] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[346] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[347] bbl.pm:660> INFO - Writing 'SSEO_final_report.bbl' with encoding 'UTF-8'
+[348] bbl.pm:763> INFO - Output to SSEO_final_report.bbl

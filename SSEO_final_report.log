@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  12 MAR 2024 19:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  13 MAR 2024 01:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,7 +603,7 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -831,53 +831,72 @@ Package biblatex Info: ... and expl3
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (Config//formats.tex
-Package hyperref Info: Option `colorlinks' set `true' on input line 36.
+))) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen179
+\ar@mcellbox=\box58
+\extrarowheight=\dimen180
+\NC@list=\toks28
+\extratabsurround=\skip79
+\backup@length=\skip80
+\ar@cellbox=\box59
+)
+\TX@col@width=\dimen181
+\TX@old@table=\dimen182
+\TX@old@col=\dimen183
+\TX@target=\dimen184
+\TX@delta=\dimen185
+\TX@cols=\count431
+\TX@ftn=\toks29
+) (Config//formats.tex
+Package hyperref Info: Option `colorlinks' set `true' on input line 31.
 ) (Config//commands.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+jkp on input line 7.
+LaTeX Font Info:    Trying to load font information for T1+jkp on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ) (SSEO_final_report.aux)
 \openout1 = `SSEO_final_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 7.
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 7.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 8.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 7.
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 7.
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 7.
-LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -915,17 +934,17 @@ LaTeX Font Info:    ... okay on input line 7.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count431
-\scratchdimen=\dimen179
-\scratchbox=\box58
-\nofMPsegments=\count432
-\nofMParguments=\count433
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count434
-\MPscratchDim=\dimen180
-\MPnumerator=\count435
-\makeMPintoPDFobject=\count436
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count432
+\scratchdimen=\dimen186
+\scratchbox=\box60
+\nofMPsegments=\count433
+\nofMParguments=\count434
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count435
+\MPscratchDim=\dimen187
+\MPnumerator=\count436
+\makeMPintoPDFobject=\count437
+\everyMPtoPDFconversion=\toks31
 ) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -935,7 +954,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 7.
+Package hyperref Info: Link coloring ON on input line 8.
  (SSEO_final_report.out) (SSEO_final_report.out)
 \@outlinefile=\write4
 \openout4 = `SSEO_final_report.out'.
@@ -953,44 +972,79 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
  (SSEO_final_report.bbl)
-Package biblatex Info: Reference section=0 on input line 7.
-Package biblatex Info: Reference segment=0 on input line 7.
- (Body.tex
-Chapter 1.
-\blx@maxsegment@1=\count437
-\blx@sectionciteorder@1=\count438
+Package biblatex Info: Reference section=0 on input line 8.
+Package biblatex Info: Reference segment=0 on input line 8.
+ (SSEO_final_report.toc
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 4.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+)
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 4.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
+File: ujkpmia.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 4.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
+File: ujkpsya.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 4.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
+File: ujkpsyb.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 4.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
+File: ujkpsyc.fd 2006/08/15 v1.0
+))
+\tf@toc=\write5
+\openout5 = `SSEO_final_report.toc'.
+
+ [1
+
+
+{C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (Body.tex
+\blx@maxsegment@1=\count438
+\blx@sectionciteorder@1=\count439
 Package biblatex Info: Reference section=1 on input line 1.
 Package biblatex Info: Setting label 'refsection:1' on input line 1.
-(Chapters/H1/Body.tex (Chapters/H1//Sections/01_goals.tex) (Chapters/H1//Sections/02_drivers.tex) (Chapters/H1//Sections/03_functional_analysis.tex
-<Chapters/H1//Images/functional_analysis.pdf, id=40, 1656.9403pt x 1837.61531pt>
+ (Chapters/H1/Body.tex (Chapters/H1//Sections/01_goals.tex) (Chapters/H1//Sections/02_drivers.tex [1
+
+{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 13.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
+)) (Chapters/H1//Sections/03_functional_analysis.tex
+<Chapters/H1//Images/functional_analysis.pdf, id=112, 1656.9403pt x 1837.61531pt>
 File: Chapters/H1//Images/functional_analysis.pdf Graphic file (type pdf)
 <use Chapters/H1//Images/functional_analysis.pdf>
 Package pdftex.def Info: Chapters/H1//Images/functional_analysis.pdf  used on input line 7.
-(pdftex.def)             Requested size: 256.07481pt x 283.98624pt.
-) (Chapters/H1//Sections/04_phases.tex) (Chapters/H1//Sections/05_conops.tex) (Chapters/H1//Sections/06_payload.tex) (Chapters/H1//Sections/07_mission_analysis.tex))
+(pdftex.def)             Requested size: 409.72125pt x 454.38359pt.
+) (Chapters/H1//Sections/04_phases.tex [2] [3 <./Chapters/H1//Images/functional_analysis.pdf>]) (Chapters/H1//Sections/05_conops.tex
+<Chapters/H1//Images/ConOps.png, id=132, 939.51pt x 336.95888pt>
+File: Chapters/H1//Images/ConOps.png Graphic file (type png)
+<use Chapters/H1//Images/ConOps.png>
+Package pdftex.def Info: Chapters/H1//Images/ConOps.png  used on input line 6.
+(pdftex.def)             Requested size: 512.14963pt x 183.68265pt.
+) (Chapters/H1//Sections/06_payload.tex [4 <./Chapters/H1//Images/ConOps.png>]) (Chapters/H1//Sections/07_mission_analysis.tex [5]))
 Package biblatex Info: Reference section=0 on input line 1.
-) [1
-
-
-{C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Chapters/H1//Images/functional_analysis.pdf>] (SSEO_final_report.aux)
+) [6] (SSEO_final_report.aux)
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 0B826631B4A6969B18A02E7B4FB24ED3;1119.
+(rerunfilecheck)             Checksum: 88ADD4B3D72C3EF2792879D576B9964C;2421.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22578 strings out of 476361
- 393655 string characters out of 5788046
- 1858993 words of memory out of 5000000
- 42683 multiletter control sequences out of 15000+600000
- 546266 words of font info for 47 fonts, out of 8000000 for 9000
+ 22965 strings out of 476361
+ 400186 string characters out of 5788046
+ 1867993 words of memory out of 5000000
+ 42992 multiletter control sequences out of 15000+600000
+ 575470 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,6n,98p,735b,1765s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb>
-Output written on SSEO_final_report.pdf (1 page, 129708 bytes).
+ 87i,10n,98p,2354b,1903s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on SSEO_final_report.pdf (7 pages, 248802 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
