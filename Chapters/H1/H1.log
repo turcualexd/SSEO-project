@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  13 MAR 2024 01:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  13 MAR 2024 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -974,23 +974,23 @@ Package biblatex Info: ... file 'H1.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (H1.toc
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 7.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 7.
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 7.
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 7.
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 7.
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 ))
@@ -1004,43 +1004,43 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \blx@sectionciteorder@1=\count438
 Package biblatex Info: Reference section=1 on input line 15.
 Package biblatex Info: Setting label 'refsection:1' on input line 15.
- (Body.tex (Sections/01_goals.tex) (Sections/02_drivers.tex
+ (Body.tex (Sections/01_introduction.tex) (Sections/02_goals.tex) (Sections/03_drivers.tex
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 13.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-) [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]) (Sections/03_functional_analysis.tex
-<Images/functional_analysis.pdf, id=108, 1656.9403pt x 1837.61531pt>
+) [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]) (Sections/04_functional_analysis.tex
+<Images/functional_analysis.pdf, id=113, 1656.9403pt x 1837.61531pt>
 File: Images/functional_analysis.pdf Graphic file (type pdf)
 <use Images/functional_analysis.pdf>
 Package pdftex.def Info: Images/functional_analysis.pdf  used on input line 7.
 (pdftex.def)             Requested size: 409.72125pt x 454.38359pt.
-) (Sections/04_phases.tex [2] [3 <./Images/functional_analysis.pdf>]) (Sections/05_conops.tex
-<Images/ConOps.png, id=126, 939.51pt x 336.95888pt>
+) (Sections/05_phases.tex [2] [3 <./Images/functional_analysis.pdf>]) (Sections/06_conops.tex
+<Images/ConOps.png, id=131, 939.51pt x 336.95888pt>
 File: Images/ConOps.png Graphic file (type png)
 <use Images/ConOps.png>
 Package pdftex.def Info: Images/ConOps.png  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 183.68265pt.
-) (Sections/06_payload.tex [4 <./Images/ConOps.png>]) (Sections/07_mission_analysis.tex [5]))
+) (Sections/07_payload.tex [4 <./Images/ConOps.png>]) (Sections/08_mission_analysis.tex [5]))
 Package biblatex Info: Reference section=0 on input line 15.
  [6] (H1.aux)
 Package rerunfilecheck Info: File `H1.out' has not changed.
-(rerunfilecheck)             Checksum: 8C17706F1CED40FBB6AA209BEA995326;2194.
+(rerunfilecheck)             Checksum: 08ECE362E7C8FFCFD7ADBE9078C42254;2298.
 Package logreq Info: Writing requests to 'H1.run.xml'.
 \openout1 = `H1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22919 strings out of 476361
- 398236 string characters out of 5788046
+ 22930 strings out of 476361
+ 398575 string characters out of 5788046
  1870993 words of memory out of 5000000
- 42961 multiletter control sequences out of 15000+600000
+ 42968 multiletter control sequences out of 15000+600000
  564470 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,10n,98p,2320b,1905s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on H1.pdf (7 pages, 247791 bytes).
+Output written on H1.pdf (7 pages, 248758 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
