@@ -17,4 +17,9 @@
 \contentsline {subsection}{\numberline {1.7.2}Payload and Goals correlation}{5}{subsection.1.7.2}%
 \contentsline {subsection}{\numberline {1.7.3}Payload and Phases/ConOps correlation}{5}{subsection.1.7.3}%
 \contentsline {section}{\numberline {1.8}Mission analysis}{6}{section.1.8}%
-\contentsline {section}{Bibliography}{6}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Launch and cruise}{6}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Jupiter insertion}{6}{subsection.1.8.2}%
+\contentsline {subsection}{\numberline {1.8.3}Science operations}{6}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.8.4}Extended mission}{6}{subsection.1.8.4}%
+\contentsline {subsection}{\numberline {1.8.5}Mission disposal}{6}{subsection.1.8.5}%
+\contentsline {section}{Bibliography}{6}{subsection.1.8.5}%

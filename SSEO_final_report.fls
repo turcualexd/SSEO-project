@@ -471,6 +471,7 @@ INPUT Chapters\H1\Sections\03_drivers.tex
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
@@ -522,7 +523,6 @@ INPUT Chapters\H1\Sections\07_payload.tex
 INPUT .\Chapters\H1\Sections\07_payload.tex
 INPUT .\Chapters\H1\Sections\07_payload.tex
 INPUT Chapters\H1\Sections\07_payload.tex
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT .\Chapters\H1\Sections\08_mission_analysis.tex
 INPUT .\Chapters\H1\Sections\08_mission_analysis.tex
 INPUT Chapters\H1\Sections\08_mission_analysis.tex
