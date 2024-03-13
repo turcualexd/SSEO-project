@@ -6,15 +6,10 @@
 \contentsline {section}{\numberline {1.3}Mission drivers}{1}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Functional analysis}{2}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Main mission phases}{3}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Launch}{3}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Cruise}{3}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Insertion}{4}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Science Operations}{4}{subsection.1.5.4}%
-\contentsline {subsection}{\numberline {1.5.5}Deorbit}{4}{subsection.1.5.5}%
 \contentsline {section}{\numberline {1.6}ConOps}{4}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Payload analysis}{4}{section.1.7}%
 \contentsline {subsection}{\numberline {1.7.1}Instruments overview}{4}{subsection.1.7.1}%
 \contentsline {subsection}{\numberline {1.7.2}Payload and Goals correlation}{5}{subsection.1.7.2}%
 \contentsline {subsection}{\numberline {1.7.3}Payload and Phases/ConOps correlation}{5}{subsection.1.7.3}%
-\contentsline {section}{\numberline {1.8}Mission analysis}{6}{section.1.8}%
-\contentsline {section}{Bibliography}{6}{section.1.8}%
+\contentsline {section}{\numberline {1.8}Mission analysis}{5}{section.1.8}%
+\contentsline {section}{Bibliography}{5}{section.1.8}%
