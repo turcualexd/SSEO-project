@@ -1,9 +1,46 @@
 % Centred figure command
 \newcommand{\cfig}[3]{
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=#2\linewidth]{Images/#1}
     \caption{#3}
 	\label{fig:#1}
 \end{figure}
+}
+
+% Create new chapter (with sub-bibliography)
+\newcommand{\newchapter}[2]{
+\setcounter{chapter}{#1}
+\setcounter{section}{0}
+\chapter*{#2}
+\addcontentsline{toc}{chapter}{#2}
+\begin{refsection}
+	\import{Chapters/H#1/}{Body}
+	\printbibliography[heading=subbibintoc,title=Bibliography]
+\end{refsection}
+}
+
+\newcommand{\mychapter}[2]{
+    \setcounter{chapter}{#1}
+    \setcounter{section}{0}
+    \chapter*{#2}
+    \addcontentsline{toc}{chapter}{#2}
+}
+
+% Create body and bibliography of the chapter
+\newcommand{\bodyandbib}{
+\begin{refsection}
+	\import{}{Body}
+	\printbibliography[heading=bibintoc,title=Bibliography]
+\end{refsection}
+}
+
+% If/Else to customize final report and chapters separately
+\def\docctrl{chapter}
+\newcommand{\case}[2]{
+	\ifx\doc\docctrl
+		#1
+	\else
+		#2
+	\fi
 }

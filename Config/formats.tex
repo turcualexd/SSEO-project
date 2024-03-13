@@ -7,6 +7,9 @@
   bottom=2cm
 }
 
+% Define color
+\definecolor{bluePoli}{cmyk}{0.4,0.1,0,0.4}
+
 % General formats
 \setlist{wide,nosep,itemsep=3pt,topsep=3pt}
 \setlength\parindent{0pt}
@@ -15,7 +18,47 @@
 \hyphenpenalty=10000
 \hbadness=10000
 
-% Title format
-\title{\vspace{-20mm}\huge\textbf{\tt}\vspace{-8mm}}
-\date{\vspace{-10mm}}
-\author{\vspace{-10mm}}
+% Links format
+\hypersetup{
+	colorlinks=true,
+	linkcolor=bluePoli,
+	anchorcolor=black,
+	citecolor=bluePoli,
+	filecolor=black,
+	menucolor=black,
+	runcolor=black,
+	urlcolor=black,
+}
+
+% Change TOC color
+\let\oldtoc\tableofcontents
+\renewcommand{\tableofcontents}{
+	{\hypersetup{linkcolor=black}
+	\oldtoc
+	\pagebreak}
+}
+
+% Change caption setup
+\captionsetup[figure]{labelfont={color=bluePoli}}
+%\captionsetup[table]{labelfont={color=bluePoli}}
+
+% Chapter format
+\titleformat{\chapter}
+{\color{bluePoli}\normalfont\Huge\bfseries}
+{}{0em}{}
+\titlespacing*{\chapter}
+{0pt}{2ex}{3ex}
+
+% Section format
+\titleformat{\section}
+{\color{bluePoli}\normalfont\Large\bfseries}
+{\color{bluePoli}\thesection}{1em}{}
+\titlespacing*{\section}
+{0pt}{2ex}{1ex}
+
+% Subsection format
+\titleformat{\subsection}
+{\color{bluePoli}\normalfont\large\bfseries}
+{\color{bluePoli}\thesubsection}{1em}{}
+\titlespacing*{\subsection}
+{0pt}{2ex}{1ex}
