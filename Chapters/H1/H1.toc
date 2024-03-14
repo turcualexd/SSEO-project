@@ -1,5 +1,6 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{Contents}{i}{Doc-Start}%
+\contentsline {section}{Notation}{ii}{section*.1}%
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}High level goals}{1}{section.2}%
 \contentsline {section}{\numberline {3}Mission drivers}{1}{section.3}%
@@ -8,7 +9,12 @@
 \contentsline {section}{\numberline {6}ConOps}{4}{section.6}%
 \contentsline {section}{\numberline {7}Payload analysis}{4}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Instruments overview}{4}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Payload and Goals correlation}{5}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Payload and Phases/ConOps correlation}{5}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Mission analysis}{5}{section.8}%
-\contentsline {section}{Bibliography}{5}{section.8}%
+\contentsline {subsection}{\numberline {7.2}Payload and Goals correlation}{6}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Payload and Phases/ConOps correlation}{7}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Mission analysis}{7}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Launch and cruise}{7}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Jupiter insertion}{7}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Science operations}{7}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Extended mission}{7}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Mission disposal}{7}{subsection.8.5}%
+\contentsline {section}{Bibliography}{7}{subsection.8.5}%
