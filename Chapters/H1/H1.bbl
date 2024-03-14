@@ -43,6 +43,30 @@
       \field{title}{Orbital Mechanics for Engineering Students}
       \field{year}{2014}
     \endentry
+    \entry{Key_requirmetns}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a9270188b461105ad09fb611fb4aadca}{%
+           family={Randy\bibnamedelima Dodge},
+           familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Chuck\bibnamedelimb E.\bibnamedelimi Rasbach},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim R\bibinitperiod},
+           suffix={Mark\bibnamedelimb A.\bibnamedelimi Boyles},
+           suffixi={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{fullhash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{bibnamehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{authorbibnamehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{authornamehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{authorfullhash}{a9270188b461105ad09fb611fb4aadca}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Key and Driving Requirements for the Juno Payload Suite of Instruments}
+      \field{year}{2012}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
