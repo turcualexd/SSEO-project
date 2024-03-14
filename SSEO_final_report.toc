@@ -15,7 +15,6 @@
 \contentsline {section}{\numberline {1.8}Mission analysis}{8}{section.1.8}%
 \contentsline {subsection}{\numberline {1.8.1}Launch and cruise}{8}{subsection.1.8.1}%
 \contentsline {subsection}{\numberline {1.8.2}Jupiter insertion}{8}{subsection.1.8.2}%
-\contentsline {subsection}{\numberline {1.8.3}Science operations}{8}{subsection.1.8.3}%
-\contentsline {subsection}{\numberline {1.8.4}Extended mission}{8}{subsection.1.8.4}%
-\contentsline {subsection}{\numberline {1.8.5}Mission disposal}{8}{subsection.1.8.5}%
-\contentsline {section}{Bibliography}{8}{subsection.1.8.5}%
+\contentsline {subsection}{\numberline {1.8.3}Science operations and extended mission}{9}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.8.4}Mission disposal}{9}{subsection.1.8.4}%
+\contentsline {section}{Bibliography}{9}{subsection.1.8.4}%
