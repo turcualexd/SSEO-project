@@ -1,0 +1,25 @@
+\setcounter{section}{0}
+\phantomsection
+\section*{Notation}
+\addcontentsline{toc}{section}{Notation}
+\label{sec:notation}
+
+% To break column: \columnbreak
+
+\newsavebox\ltmcbox
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\begin{multicols}{2}
+    \renewcommand{\arraystretch}{1.2}
+	\raggedcolumns
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{c>{\raggedright\arraybackslash}X}
+		\textbf{ABC} & explanation 1 \\
+		\textbf{DEF} & explanation 2
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
+\end{multicols}
