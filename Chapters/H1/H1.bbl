@@ -19,29 +19,60 @@
 
 \refsection{1}
   \datalist[entry]{nty/global//global/global}
-    \entry{curtis_book}{book}{}
+    \entry{Juno_launch}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{NASA press kit}
+      \field{note}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/JunoLaunch.pdf}}
+      \field{title}{Advanced Global Optimisation Tools for Mission Analysis and Design}
+      \field{year}{2011}
+    \endentry
+    \entry{Key_requirements}{article}{}
       \name{author}{1}{}{%
-        {{hash=55a7280b2d9a909f02706fed0fe1f209}{%
-           family={Curtis},
-           familyi={C\bibinitperiod},
-           given={Howard\bibnamedelima D.},
-           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a9270188b461105ad09fb611fb4aadca}{%
+           family={Randy\bibnamedelima Dodge},
+           familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Chuck\bibnamedelimb E.\bibnamedelimi Rasbach},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim R\bibinitperiod},
+           suffix={Mark\bibnamedelimb A.\bibnamedelimi Boyles},
+           suffixi={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{55a7280b2d9a909f02706fed0fe1f209}
-      \strng{fullhash}{55a7280b2d9a909f02706fed0fe1f209}
-      \strng{bibnamehash}{55a7280b2d9a909f02706fed0fe1f209}
-      \strng{authorbibnamehash}{55a7280b2d9a909f02706fed0fe1f209}
-      \strng{authornamehash}{55a7280b2d9a909f02706fed0fe1f209}
-      \strng{authorfullhash}{55a7280b2d9a909f02706fed0fe1f209}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \strng{namehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{fullhash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{bibnamehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{authorbibnamehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{authornamehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{authorfullhash}{a9270188b461105ad09fb611fb4aadca}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Orbital Mechanics for Engineering Students}
-      \field{year}{2014}
+      \field{howpublished}{Paper}
+      \field{title}{Key and Driving Requirements for the Juno Payload Suite of Instruments}
+      \field{year}{2012}
+    \endentry
+    \entry{pannelli}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d46f21ead07f61acd265e34dfaad003e}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Stephen\bibnamedelimb F\bibnamedelimb Dawson\bibnamedelimb Paul\bibnamedelimb Stella\bibnamedelimb William\bibnamedelimb McAlpine\bibnamedelima Brian},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d46f21ead07f61acd265e34dfaad003e}
+      \strng{fullhash}{d46f21ead07f61acd265e34dfaad003e}
+      \strng{bibnamehash}{d46f21ead07f61acd265e34dfaad003e}
+      \strng{authorbibnamehash}{d46f21ead07f61acd265e34dfaad003e}
+      \strng{authornamehash}{d46f21ead07f61acd265e34dfaad003e}
+      \strng{authorfullhash}{d46f21ead07f61acd265e34dfaad003e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://ntrs.nasa.gov/citations/20130010565}
+      \field{title}{JUNO Photovoltaic Power at Jupiter}
+      \field{year}{2012}
     \endentry
   \enddatalist
 \endrefsection
