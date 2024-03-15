@@ -2367,7 +2367,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">../../bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1" intorder="1">curtis_book</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">pannelli</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

@@ -477,6 +477,7 @@ INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
 INPUT .\Chapters\H1\Sections\01_introduction.tex
 INPUT .\Chapters\H1\Sections\01_introduction.tex
 INPUT Chapters\H1\Sections\01_introduction.tex
@@ -501,7 +502,6 @@ INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7c.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm

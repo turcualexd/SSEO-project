@@ -11,10 +11,10 @@
 \contentsline {section}{\numberline {1.7}Payload analysis}{5}{section.1.7}%
 \contentsline {subsection}{\numberline {1.7.1}Instruments overview}{5}{subsection.1.7.1}%
 \contentsline {subsection}{\numberline {1.7.2}Payload and Goals correlation}{7}{subsection.1.7.2}%
-\contentsline {subsection}{\numberline {1.7.3}Payload and Phases/ConOps correlation}{8}{subsection.1.7.3}%
-\contentsline {section}{\numberline {1.8}Mission analysis}{8}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Launch and cruise}{8}{subsection.1.8.1}%
-\contentsline {subsection}{\numberline {1.8.2}Jupiter insertion}{8}{subsection.1.8.2}%
-\contentsline {subsection}{\numberline {1.8.3}Science operations and extended mission}{9}{subsection.1.8.3}%
-\contentsline {subsection}{\numberline {1.8.4}Mission disposal}{9}{subsection.1.8.4}%
+\contentsline {subsection}{\numberline {1.7.3}Payload and Phases/ConOps correlation}{7}{subsection.1.7.3}%
+\contentsline {section}{\numberline {1.8}Mission analysis}{7}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Launch and cruise}{7}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Jupiter approach and insertion}{8}{subsection.1.8.2}%
+\contentsline {subsection}{\numberline {1.8.3}Science operations and extended mission}{8}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.8.4}Mission disposal}{8}{subsection.1.8.4}%
 \contentsline {section}{Bibliography}{9}{subsection.1.8.4}%

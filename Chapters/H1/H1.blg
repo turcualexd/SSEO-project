@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'H1.blg'
-[123] biber-MSWIN64:340> INFO - === 
-[167] Biber.pm:419> INFO - Reading 'H1.bcf'
-[287] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[287] Biber.pm:979> INFO - Found 1 citekeys in bib section 1
-[287] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[308] Biber.pm:4419> INFO - Processing section 1
-[322] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
-[381] bibtex.pm:1713> INFO - LaTeX decoding ...
-[400] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
-[440] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[440] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[441] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[441] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[442] bbl.pm:660> INFO - Writing 'H1.bbl' with encoding 'UTF-8'
-[443] bbl.pm:763> INFO - Output to H1.bbl
+[122] biber-MSWIN64:340> INFO - === 
+[164] Biber.pm:419> INFO - Reading 'H1.bcf'
+[280] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[280] Biber.pm:979> INFO - Found 1 citekeys in bib section 1
+[281] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[302] Biber.pm:4419> INFO - Processing section 1
+[317] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
+[379] bibtex.pm:1713> INFO - LaTeX decoding ...
+[390] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
+[427] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[427] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[427] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[427] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[429] bbl.pm:660> INFO - Writing 'H1.bbl' with encoding 'UTF-8'
+[429] bbl.pm:763> INFO - Output to H1.bbl
