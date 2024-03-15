@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  14 MAR 2024 01:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  15 MAR 2024 12:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -942,211 +942,124 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LT@p@ftn=\toks30
 ))) (Config//formats.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
-) (Config//commands.tex))
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
-Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+jkp on input line 8.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkp.fd
-File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
-) (SSEO_final_report.aux)
-\openout1 = `SSEO_final_report.aux'.
+) (Config//commands.tex
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 8.
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 8.
+Config//commands.tex:28: LaTeX Error: Command \title already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 }
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Config//commands.tex:28: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 }
+      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Config//commands.tex:28: Missing $ inserted.
+<inserted text> 
+                $
+l.28 }
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 28.
+(C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+)
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 28.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 8.
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 8.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 28.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 8.
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 8.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 28.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 8.
-LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 8.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpexa.fd
-File: ujkpexa.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=512.14963pt
-* \textheight=731.23584pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
-* \topmargin=-52.36449pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count447
-\scratchdimen=\dimen196
-\scratchbox=\box110
-\nofMPsegments=\count448
-\nofMParguments=\count449
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count450
-\MPscratchDim=\dimen197
-\MPnumerator=\count451
-\makeMPintoPDFobject=\count452
-\everyMPtoPDFconversion=\toks32
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: longtable package is loaded.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
-Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)
-Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 8.
- (SSEO_final_report.out) (SSEO_final_report.out)
-\@outlinefile=\write4
-\openout4 = `SSEO_final_report.out'.
-
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `SSEO_final_report.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
- (SSEO_final_report.bbl)
-Package biblatex Info: Reference section=0 on input line 8.
-Package biblatex Info: Reference segment=0 on input line 8.
- (SSEO_final_report.toc
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 4.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
-File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
-)
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 4.
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 28.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 4.
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 28.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 28.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 4.
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 28.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
-))
-\tf@toc=\write5
-\openout5 = `SSEO_final_report.toc'.
+)
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 28.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpexa.fd
+File: ujkpexa.fd 2006/08/15 v1.0
+)
+Config//commands.tex:28: Missing number, treated as zero.
+<to be read again> 
+                   p
+l.28 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
- [1
+Config//commands.tex:28: You already have nine parameters.
+\reserved@a ...\expandafter \title \reserved@b #10
+                                                  p{
+l.28 }
+      
+I'm going to ignore the # sign you just used,
+as well as the token that followed it.
+
+Config//commands.tex:28: Illegal parameter number in definition of \title.
+<to be read again> 
+                   1
+l.28 }
+      
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
 
-{C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (Body.tex
-\blx@maxsegment@1=\count453
-\blx@sectionciteorder@1=\count454
-Package biblatex Info: Reference section=1 on input line 1.
-Package biblatex Info: Setting label 'refsection:1' on input line 1.
- (Chapters/H1/Body.tex (Chapters/H1//Sections/00_notation.tex
-\ltmcbox=\box111
-) [1
+! LaTeX Error: File `../../Config/title_page_chapter.tex' not found.
 
-] (Chapters/H1//Sections/01_introduction.tex) (Chapters/H1//Sections/02_goals.tex) (Chapters/H1//Sections/03_drivers.tex
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
-File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-) [2{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]) (Chapters/H1//Sections/04_functional_analysis.tex
-<Chapters/H1//Images/functional_analysis.pdf, id=128, 1656.9403pt x 1837.61531pt>
-File: Chapters/H1//Images/functional_analysis.pdf Graphic file (type pdf)
-<use Chapters/H1//Images/functional_analysis.pdf>
-Package pdftex.def Info: Chapters/H1//Images/functional_analysis.pdf  used on input line 7.
-(pdftex.def)             Requested size: 409.72125pt x 454.38359pt.
-) (Chapters/H1//Sections/05_phases.tex [3] [4 <./Chapters/H1//Images/functional_analysis.pdf>]) (Chapters/H1//Sections/06_conops.tex
-<Chapters/H1//Images/ConOps.png, id=149, 939.51pt x 336.95888pt>
-File: Chapters/H1//Images/ConOps.png Graphic file (type png)
-<use Chapters/H1//Images/ConOps.png>
-Package pdftex.def Info: Chapters/H1//Images/ConOps.png  used on input line 6.
-(pdftex.def)             Requested size: 512.14963pt x 183.68265pt.
-) (Chapters/H1//Sections/07_payload.tex [5 <./Chapters/H1//Images/ConOps.png>]
-<Chapters/H1//Images/Strumenti Juno.jpg, id=160, 1606.0pt x 1159.33125pt>
-File: Chapters/H1//Images/Strumenti Juno.jpg Graphic file (type jpg)
-<use Chapters/H1//Images/Strumenti Juno.jpg>
-Package pdftex.def Info: Chapters/H1//Images/Strumenti Juno.jpg  used on input line 30.
-(pdftex.def)             Requested size: 512.14963pt x 369.71991pt.
- [6] [7 <./Chapters/H1//Images/Strumenti Juno.jpg>]) (Chapters/H1//Sections/08_mission_analysis.tex))
-Package biblatex Info: Reference section=0 on input line 1.
-) [8] (SSEO_final_report.aux)
-Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 53BAAB90495A153CF28E58008B715D65;2842.
-Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
-\openout1 = `SSEO_final_report.run.xml'.
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
- ) 
+Enter file name: 
+Config//commands.tex:28: Emergency stop.
+<read *> 
+         
+l.28 }
+      ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
 Here is how much of TeX's memory you used:
- 23395 strings out of 476361
- 409021 string characters out of 5788046
- 1871993 words of memory out of 5000000
- 43387 multiletter control sequences out of 15000+600000
- 575470 words of font info for 85 fonts, out of 8000000 for 9000
+ 21368 strings out of 476361
+ 369334 string characters out of 5788046
+ 1851993 words of memory out of 5000000
+ 41525 multiletter control sequences out of 15000+600000
+ 523805 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,10n,98p,2370b,1903s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on SSEO_final_report.pdf (9 pages, 696095 bytes).
-PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 87i,4n,98p,453b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Config//commands.tex:28:  ==> Fatal error occurred, no output PDF file produced!
