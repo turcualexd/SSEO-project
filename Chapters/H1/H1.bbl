@@ -19,7 +19,16 @@
 
 \refsection{1}
   \datalist[entry]{nty/global//global/global}
-    \entry{Key_requirmetns}{article}{}
+    \entry{Juno_launch}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{NASA press kit}
+      \field{note}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/JunoLaunch.pdf}}
+      \field{title}{Advanced Global Optimisation Tools for Mission Analysis and Design}
+      \field{year}{2011}
+    \endentry
+    \entry{Key_requirements}{article}{}
       \name{author}{1}{}{%
         {{hash=a9270188b461105ad09fb611fb4aadca}{%
            family={Randy\bibnamedelima Dodge},
@@ -43,8 +52,29 @@
       \field{title}{Key and Driving Requirements for the Juno Payload Suite of Instruments}
       \field{year}{2012}
     \endentry
+    \entry{pannelli}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d46f21ead07f61acd265e34dfaad003e}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Stephen\bibnamedelimb F\bibnamedelimb Dawson\bibnamedelimb Paul\bibnamedelimb Stella\bibnamedelimb William\bibnamedelimb McAlpine\bibnamedelima Brian},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d46f21ead07f61acd265e34dfaad003e}
+      \strng{fullhash}{d46f21ead07f61acd265e34dfaad003e}
+      \strng{bibnamehash}{d46f21ead07f61acd265e34dfaad003e}
+      \strng{authorbibnamehash}{d46f21ead07f61acd265e34dfaad003e}
+      \strng{authornamehash}{d46f21ead07f61acd265e34dfaad003e}
+      \strng{authorfullhash}{d46f21ead07f61acd265e34dfaad003e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://ntrs.nasa.gov/citations/20130010565}
+      \field{title}{JUNO Photovoltaic Power at Jupiter}
+      \field{year}{2012}
+    \endentry
   \enddatalist
-  \missing{curtis_book}
 \endrefsection
 \endinput
 
