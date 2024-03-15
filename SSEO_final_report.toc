@@ -18,4 +18,3 @@
 \contentsline {subsection}{\numberline {1.8.3}Science operations}{8}{subsection.1.8.3}%
 \contentsline {subsection}{\numberline {1.8.4}Extended mission}{8}{subsection.1.8.4}%
 \contentsline {subsection}{\numberline {1.8.5}Mission disposal}{8}{subsection.1.8.5}%
-\contentsline {section}{Bibliography}{8}{subsection.1.8.5}%
