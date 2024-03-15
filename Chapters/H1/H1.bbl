@@ -28,6 +28,76 @@
       \field{title}{Advanced Global Optimisation Tools for Mission Analysis and Design}
       \field{year}{2011}
     \endentry
+    \entry{look_inside_juno_mission}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6b4abdd86ffba2654cb9815f5e0be02a}{%
+           family={Grammier},
+           familyi={G\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{fullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{bibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.jpl.nasa.gov/missions/juno}
+      \field{title}{A Look Inside the Juno Mission to Jupiter}
+      \field{year}{2008}
+    \endentry
+    \entry{NASA2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8f3e93a380f883d9b3e36d1582bba3fe}{%
+           family={Laboratory},
+           familyi={L\bibinitperiod},
+           given={NASA\bibnamedelimb Jet\bibnamedelima Propulsion},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{fullhash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{bibnamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authorbibnamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authornamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authorfullhash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/juno/}}
+      \field{title}{NASA online press kit}
+      \field{year}{2024}
+    \endentry
+    \entry{NASA1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8f3e93a380f883d9b3e36d1582bba3fe}{%
+           family={Laboratory},
+           familyi={L\bibinitperiod},
+           given={NASA\bibnamedelimb Jet\bibnamedelima Propulsion},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{fullhash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{bibnamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authorbibnamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authornamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authorfullhash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://www.jpl.nasa.gov/news/nasas-juno-mission-expands-into-the-future}}
+      \field{title}{NASA’s Juno Mission Expands Into the Future}
+      \field{year}{2024}
+    \endentry
     \entry{Key_requirements}{article}{}
       \name{author}{1}{}{%
         {{hash=a9270188b461105ad09fb611fb4aadca}{%
