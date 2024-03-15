@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  15 MAR 2024 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  15 MAR 2024 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1076,11 +1076,11 @@ Package biblatex Info: ... file 'H1.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config//Poli_logo.pdf, id=74, 527.9725pt x 414.54875pt>
+<../../Config//Poli_logo.pdf, id=74, 527.9725pt x 415.5525pt>
 File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config//Poli_logo.pdf>
 Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
-(pdftex.def)             Requested size: 307.2929pt x 241.2734pt.
+(pdftex.def)             Requested size: 307.2929pt x 241.8576pt.
 LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 37.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
@@ -1122,25 +1122,25 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [1]) (Sections/04_functional_analysis.tex
-<Images/functional_analysis.pdf, id=128, 1656.9403pt x 1837.61531pt>
+<Images/functional_analysis.pdf, id=130, 1656.9403pt x 1837.61531pt>
 File: Images/functional_analysis.pdf Graphic file (type pdf)
 <use Images/functional_analysis.pdf>
 Package pdftex.def Info: Images/functional_analysis.pdf  used on input line 6.
 (pdftex.def)             Requested size: 332.89412pt x 369.19894pt.
 ) (Sections/05_phases.tex [2 <./Images/functional_analysis.pdf>]) (Sections/06_conops.tex
-<Images/ConOps.pdf, id=141, 1596.39159pt x 499.24263pt>
+<Images/ConOps.pdf, id=143, 1596.39159pt x 499.24263pt>
 File: Images/ConOps.pdf Graphic file (type pdf)
 <use Images/ConOps.pdf>
 Package pdftex.def Info: Images/ConOps.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
-) (Sections/07_payload.tex [3 <./Images/ConOps.pdf>] [4]
-<Images/Strumenti Juno.jpg, id=163, 1606.0pt x 1159.33125pt>
+) [3 <./Images/ConOps.pdf>] (Sections/07_payload.tex [4]
+<Images/Strumenti Juno.jpg, id=165, 1606.0pt x 1159.33125pt>
 File: Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Images/Strumenti Juno.jpg  used on input line 31.
 (pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
  [5 <./Images/Strumenti Juno.jpg>]) (Sections/08_mission_analysis.tex
-<Images/orbits.png, id=174, 305.943pt x 509.2626pt>
+<Images/orbits.png, id=176, 305.943pt x 509.2626pt>
 File: Images/orbits.png Graphic file (type png)
 <use Images/orbits.png>
 Package pdftex.def Info: Images/orbits.png  used on input line 7.
@@ -1159,17 +1159,17 @@ Package logreq Info: Writing requests to 'H1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23531 strings out of 476361
- 410339 string characters out of 5788046
+ 23571 strings out of 476361
+ 410870 string characters out of 5788046
  1869993 words of memory out of 5000000
- 43511 multiletter control sequences out of 15000+600000
- 604724 words of font info for 124 fonts, out of 8000000 for 9000
+ 43542 multiletter control sequences out of 15000+600000
+ 625764 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,10n,98p,2346b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H1.pdf (10 pages, 826481 bytes).
+ 87i,13n,98p,2348b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H1.pdf (10 pages, 833016 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
+ 254 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)
  170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
