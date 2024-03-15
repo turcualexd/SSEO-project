@@ -72,7 +72,7 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url: https://www.jpl.nasa.gov/missions/juno}
+      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/missions/juno}}
       \field{title}{A Look Inside the Juno Mission to Jupiter}
       \field{year}{2008}
     \endentry
@@ -118,8 +118,8 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url: https://www.jpl.nasa.gov/missions/juno}
-      \field{title}{Overwiw of Juno mission to Jupiter}
+      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/missions/juno}}
+      \field{title}{Overwiew of Juno mission to Jupiter}
       \field{year}{2006}
     \endentry
     \entry{fact_sheet}{misc}{}
@@ -141,7 +141,7 @@
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url: https://www.nasa.gov/}
+      \field{howpublished}{Site: \url{https://www.nasa.gov/}}
       \field{title}{Juno Mission to Jupiter}
       \field{year}{2022}
     \endentry
@@ -235,7 +235,7 @@
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url: https://ntrs.nasa.gov/citations/20130010565}
+      \field{howpublished}{Site: \url{https://ntrs.nasa.gov/citations/20130010565}}
       \field{title}{JUNO Photovoltaic Power at Jupiter}
       \field{year}{2012}
     \endentry
