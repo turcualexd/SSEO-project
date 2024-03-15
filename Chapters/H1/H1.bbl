@@ -19,6 +19,39 @@
 
 \refsection{1}
   \datalist[entry]{nty/global//global/global}
+    \entry{Juno_launch}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{NASA press kit}
+      \field{note}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/JunoLaunch.pdf}}
+      \field{title}{Advanced Global Optimisation Tools for Mission Analysis and Design}
+      \field{year}{2011}
+    \endentry
+    \entry{Key_requirements}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a9270188b461105ad09fb611fb4aadca}{%
+           family={Randy\bibnamedelima Dodge},
+           familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Chuck\bibnamedelimb E.\bibnamedelimi Rasbach},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim R\bibinitperiod},
+           suffix={Mark\bibnamedelimb A.\bibnamedelimi Boyles},
+           suffixi={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{fullhash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{bibnamehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{authorbibnamehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{authornamehash}{a9270188b461105ad09fb611fb4aadca}
+      \strng{authorfullhash}{a9270188b461105ad09fb611fb4aadca}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Key and Driving Requirements for the Juno Payload Suite of Instruments}
+      \field{year}{2012}
+    \endentry
     \entry{pannelli}{misc}{}
       \name{author}{1}{}{%
         {{hash=d46f21ead07f61acd265e34dfaad003e}{%

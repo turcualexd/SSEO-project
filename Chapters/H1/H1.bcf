@@ -2368,6 +2368,8 @@
   </bcf:bibdata>
   <bcf:section number="1">
     <bcf:citekey order="1" intorder="1">pannelli</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Key_requirements</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Juno_launch</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

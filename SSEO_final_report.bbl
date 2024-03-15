@@ -19,27 +19,29 @@
 
 \refsection{1}
   \datalist[entry]{nty/global//global/global}
-    \entry{pannelli}{misc}{}
+    \entry{curtis_book}{book}{}
       \name{author}{1}{}{%
-        {{hash=d46f21ead07f61acd265e34dfaad003e}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Stephen\bibnamedelimb F\bibnamedelimb Dawson\bibnamedelimb Paul\bibnamedelimb Stella\bibnamedelimb William\bibnamedelimb McAlpine\bibnamedelima Brian},
-           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=55a7280b2d9a909f02706fed0fe1f209}{%
+           family={Curtis},
+           familyi={C\bibinitperiod},
+           given={Howard\bibnamedelima D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
-      \strng{namehash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{fullhash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{bibnamehash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{authorbibnamehash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{authornamehash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{authorfullhash}{d46f21ead07f61acd265e34dfaad003e}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{55a7280b2d9a909f02706fed0fe1f209}
+      \strng{fullhash}{55a7280b2d9a909f02706fed0fe1f209}
+      \strng{bibnamehash}{55a7280b2d9a909f02706fed0fe1f209}
+      \strng{authorbibnamehash}{55a7280b2d9a909f02706fed0fe1f209}
+      \strng{authornamehash}{55a7280b2d9a909f02706fed0fe1f209}
+      \strng{authorfullhash}{55a7280b2d9a909f02706fed0fe1f209}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://ntrs.nasa.gov/citations/20130010565}
-      \field{title}{JUNO Photovoltaic Power at Jupiter}
-      \field{year}{2012}
+      \field{title}{Orbital Mechanics for Engineering Students}
+      \field{year}{2014}
     \endentry
   \enddatalist
 \endrefsection
