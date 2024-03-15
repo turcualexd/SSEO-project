@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  14 MAR 2024 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  15 MAR 2024 11:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,7 +1064,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'H1.bbl' found.
- (H1.bbl)
+ (H1.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                curtis_book
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (H1.toc
@@ -1105,19 +1113,22 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [1{C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]) (Sections/04_functional_analysis.tex
-<Images/functional_analysis.pdf, id=122, 1656.9403pt x 1837.61531pt>
+
+LaTeX Warning: Citation 'curtis_book' on page 2 undefined on input line 5.
+
+<Images/functional_analysis.pdf, id=121, 1656.9403pt x 1837.61531pt>
 File: Images/functional_analysis.pdf Graphic file (type pdf)
 <use Images/functional_analysis.pdf>
 Package pdftex.def Info: Images/functional_analysis.pdf  used on input line 7.
 (pdftex.def)             Requested size: 409.72125pt x 454.38359pt.
 ) (Sections/05_phases.tex [2] [3 <./Images/functional_analysis.pdf>]) (Sections/06_conops.tex
-<Images/ConOps.png, id=143, 939.51pt x 336.95888pt>
+<Images/ConOps.png, id=141, 939.51pt x 336.95888pt>
 File: Images/ConOps.png Graphic file (type png)
 <use Images/ConOps.png>
 Package pdftex.def Info: Images/ConOps.png  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 183.68265pt.
 ) (Sections/07_payload.tex [4 <./Images/ConOps.png>]
-<Images/Strumenti Juno.jpg, id=157, 1606.0pt x 1159.33125pt>
+<Images/Strumenti Juno.jpg, id=155, 1606.0pt x 1159.33125pt>
 File: Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Images/Strumenti Juno.jpg  used on input line 30.
@@ -1136,17 +1147,17 @@ Package logreq Info: Writing requests to 'H1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23170 strings out of 474436
- 399773 string characters out of 5741955
+ 23161 strings out of 474436
+ 399568 string characters out of 5741955
  1946190 words of memory out of 5000000
- 45109 multiletter control sequences out of 15000+600000
- 610252 words of font info for 85 fonts, out of 8000000 for 9000
+ 45104 multiletter control sequences out of 15000+600000
+ 604861 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,10n,102p,2336b,1907s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on H1.pdf (9 pages, 697610 bytes).
+<C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on H1.pdf (9 pages, 684254 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

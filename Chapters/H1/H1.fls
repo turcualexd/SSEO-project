@@ -548,10 +548,6 @@ INPUT Sections\08_mission_analysis.tex
 INPUT .\Sections\08_mission_analysis.tex
 INPUT .\Sections\08_mission_analysis.tex
 INPUT Sections\08_mission_analysis.tex
-INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
-INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit8t.vf
-INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8r.tfm
-INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmite.tfm
 INPUT H1.aux
 INPUT .\H1.out
 INPUT .\H1.out
@@ -563,8 +559,6 @@ INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jk
 INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmi.pfb
 INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmia.pfb
 INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmia.pfb
-INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmit8a.pfb
-INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmit8a.pfb
 INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmn8a.pfb
 INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmn8a.pfb
 INPUT C:\Users\ricky\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmne.pfb
