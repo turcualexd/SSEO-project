@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  15 MAR 2024 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  15 MAR 2024 23:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,162 +603,190 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
+) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen179
+\ar@mcellbox=\box57
+\extrarowheight=\dimen180
+\NC@list=\toks28
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box58
+)
+\TX@col@width=\dimen181
+\TX@old@table=\dimen182
+\TX@old@col=\dimen183
+\TX@target=\dimen184
+\TX@delta=\dimen185
+\TX@cols=\count304
+\TX@ftn=\toks29
+) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen186
+\WF@size=\dimen187
+\c@WF@wrappedlines=\count305
+\WF@box=\box59
+\WF@everypar=\toks30
+Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count304
+\lrq@indent=\count306
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count305
-\c@listtotal=\count306
-\c@listcount=\count307
-\c@liststart=\count308
-\c@liststop=\count309
-\c@citecount=\count310
-\c@citetotal=\count311
-\c@multicitecount=\count312
-\c@multicitetotal=\count313
-\c@instcount=\count314
-\c@maxnames=\count315
-\c@minnames=\count316
-\c@maxitems=\count317
-\c@minitems=\count318
-\c@citecounter=\count319
-\c@maxcitecounter=\count320
-\c@savedcitecounter=\count321
-\c@uniquelist=\count322
-\c@uniquename=\count323
-\c@refsection=\count324
-\c@refsegment=\count325
-\c@maxextratitle=\count326
-\c@maxextratitleyear=\count327
-\c@maxextraname=\count328
-\c@maxextradate=\count329
-\c@maxextraalpha=\count330
-\c@abbrvpenalty=\count331
-\c@highnamepenalty=\count332
-\c@lownamepenalty=\count333
-\c@maxparens=\count334
-\c@parenlevel=\count335
-\blx@tempcnta=\count336
-\blx@tempcntb=\count337
-\blx@tempcntc=\count338
-\c@blx@maxsection=\count339
-\blx@maxsegment@0=\count340
-\blx@notetype=\count341
-\blx@parenlevel@text=\count342
-\blx@parenlevel@foot=\count343
-\blx@sectionciteorder@0=\count344
-\blx@sectionciteorderinternal@0=\count345
-\blx@entrysetcounter=\count346
-\blx@biblioinstance=\count347
-\labelnumberwidth=\skip57
-\labelalphawidth=\skip58
-\biblabelsep=\skip59
-\bibitemsep=\skip60
-\bibnamesep=\skip61
-\bibinitsep=\skip62
-\bibparsep=\skip63
-\bibhang=\skip64
+\c@tabx@nest=\count307
+\c@listtotal=\count308
+\c@listcount=\count309
+\c@liststart=\count310
+\c@liststop=\count311
+\c@citecount=\count312
+\c@citetotal=\count313
+\c@multicitecount=\count314
+\c@multicitetotal=\count315
+\c@instcount=\count316
+\c@maxnames=\count317
+\c@minnames=\count318
+\c@maxitems=\count319
+\c@minitems=\count320
+\c@citecounter=\count321
+\c@maxcitecounter=\count322
+\c@savedcitecounter=\count323
+\c@uniquelist=\count324
+\c@uniquename=\count325
+\c@refsection=\count326
+\c@refsegment=\count327
+\c@maxextratitle=\count328
+\c@maxextratitleyear=\count329
+\c@maxextraname=\count330
+\c@maxextradate=\count331
+\c@maxextraalpha=\count332
+\c@abbrvpenalty=\count333
+\c@highnamepenalty=\count334
+\c@lownamepenalty=\count335
+\c@maxparens=\count336
+\c@parenlevel=\count337
+\blx@tempcnta=\count338
+\blx@tempcntb=\count339
+\blx@tempcntc=\count340
+\c@blx@maxsection=\count341
+\blx@maxsegment@0=\count342
+\blx@notetype=\count343
+\blx@parenlevel@text=\count344
+\blx@parenlevel@foot=\count345
+\blx@sectionciteorder@0=\count346
+\blx@sectionciteorderinternal@0=\count347
+\blx@entrysetcounter=\count348
+\blx@biblioinstance=\count349
+\labelnumberwidth=\skip59
+\labelalphawidth=\skip60
+\biblabelsep=\skip61
+\bibitemsep=\skip62
+\bibnamesep=\skip63
+\bibinitsep=\skip64
+\bibparsep=\skip65
+\bibhang=\skip66
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count348
-\c@maxcomprange=\count349
-\c@mincompwidth=\count350
+\c@mincomprange=\count350
+\c@maxcomprange=\count351
+\c@mincompwidth=\count352
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count351
-\c@savedafterword=\count352
-\c@annotator=\count353
-\c@savedannotator=\count354
-\c@author=\count355
-\c@savedauthor=\count356
-\c@bookauthor=\count357
-\c@savedbookauthor=\count358
-\c@commentator=\count359
-\c@savedcommentator=\count360
-\c@editor=\count361
-\c@savededitor=\count362
-\c@editora=\count363
-\c@savededitora=\count364
-\c@editorb=\count365
-\c@savededitorb=\count366
-\c@editorc=\count367
-\c@savededitorc=\count368
-\c@foreword=\count369
-\c@savedforeword=\count370
-\c@holder=\count371
-\c@savedholder=\count372
-\c@introduction=\count373
-\c@savedintroduction=\count374
-\c@namea=\count375
-\c@savednamea=\count376
-\c@nameb=\count377
-\c@savednameb=\count378
-\c@namec=\count379
-\c@savednamec=\count380
-\c@translator=\count381
-\c@savedtranslator=\count382
-\c@shortauthor=\count383
-\c@savedshortauthor=\count384
-\c@shorteditor=\count385
-\c@savedshorteditor=\count386
-\c@labelname=\count387
-\c@savedlabelname=\count388
-\c@institution=\count389
-\c@savedinstitution=\count390
-\c@lista=\count391
-\c@savedlista=\count392
-\c@listb=\count393
-\c@savedlistb=\count394
-\c@listc=\count395
-\c@savedlistc=\count396
-\c@listd=\count397
-\c@savedlistd=\count398
-\c@liste=\count399
-\c@savedliste=\count400
-\c@listf=\count401
-\c@savedlistf=\count402
-\c@location=\count403
-\c@savedlocation=\count404
-\c@organization=\count405
-\c@savedorganization=\count406
-\c@origlocation=\count407
-\c@savedoriglocation=\count408
-\c@origpublisher=\count409
-\c@savedorigpublisher=\count410
-\c@publisher=\count411
-\c@savedpublisher=\count412
-\c@language=\count413
-\c@savedlanguage=\count414
-\c@origlanguage=\count415
-\c@savedoriglanguage=\count416
-\c@pageref=\count417
-\c@savedpageref=\count418
-\shorthandwidth=\skip65
-\shortjournalwidth=\skip66
-\shortserieswidth=\skip67
-\shorttitlewidth=\skip68
-\shortauthorwidth=\skip69
-\shorteditorwidth=\skip70
-\locallabelnumberwidth=\skip71
-\locallabelalphawidth=\skip72
-\localshorthandwidth=\skip73
-\localshortjournalwidth=\skip74
-\localshortserieswidth=\skip75
-\localshorttitlewidth=\skip76
-\localshortauthorwidth=\skip77
-\localshorteditorwidth=\skip78
+\c@afterword=\count353
+\c@savedafterword=\count354
+\c@annotator=\count355
+\c@savedannotator=\count356
+\c@author=\count357
+\c@savedauthor=\count358
+\c@bookauthor=\count359
+\c@savedbookauthor=\count360
+\c@commentator=\count361
+\c@savedcommentator=\count362
+\c@editor=\count363
+\c@savededitor=\count364
+\c@editora=\count365
+\c@savededitora=\count366
+\c@editorb=\count367
+\c@savededitorb=\count368
+\c@editorc=\count369
+\c@savededitorc=\count370
+\c@foreword=\count371
+\c@savedforeword=\count372
+\c@holder=\count373
+\c@savedholder=\count374
+\c@introduction=\count375
+\c@savedintroduction=\count376
+\c@namea=\count377
+\c@savednamea=\count378
+\c@nameb=\count379
+\c@savednameb=\count380
+\c@namec=\count381
+\c@savednamec=\count382
+\c@translator=\count383
+\c@savedtranslator=\count384
+\c@shortauthor=\count385
+\c@savedshortauthor=\count386
+\c@shorteditor=\count387
+\c@savedshorteditor=\count388
+\c@labelname=\count389
+\c@savedlabelname=\count390
+\c@institution=\count391
+\c@savedinstitution=\count392
+\c@lista=\count393
+\c@savedlista=\count394
+\c@listb=\count395
+\c@savedlistb=\count396
+\c@listc=\count397
+\c@savedlistc=\count398
+\c@listd=\count399
+\c@savedlistd=\count400
+\c@liste=\count401
+\c@savedliste=\count402
+\c@listf=\count403
+\c@savedlistf=\count404
+\c@location=\count405
+\c@savedlocation=\count406
+\c@organization=\count407
+\c@savedorganization=\count408
+\c@origlocation=\count409
+\c@savedoriglocation=\count410
+\c@origpublisher=\count411
+\c@savedorigpublisher=\count412
+\c@publisher=\count413
+\c@savedpublisher=\count414
+\c@language=\count415
+\c@savedlanguage=\count416
+\c@origlanguage=\count417
+\c@savedoriglanguage=\count418
+\c@pageref=\count419
+\c@savedpageref=\count420
+\shorthandwidth=\skip67
+\shortjournalwidth=\skip68
+\shortserieswidth=\skip69
+\shorttitlewidth=\skip70
+\shortauthorwidth=\skip71
+\shorteditorwidth=\skip72
+\locallabelnumberwidth=\skip73
+\locallabelalphawidth=\skip74
+\localshorthandwidth=\skip75
+\localshortjournalwidth=\skip76
+\localshortserieswidth=\skip77
+\localshorttitlewidth=\skip78
+\localshortauthorwidth=\skip79
+\localshorteditorwidth=\skip80
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -768,19 +796,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count419
-\c@textcitetotal=\count420
-\c@textcitemaxnames=\count421
-\c@biburlbigbreakpenalty=\count422
-\c@biburlbreakpenalty=\count423
-\c@biburlnumpenalty=\count424
-\c@biburlucpenalty=\count425
-\c@biburllcpenalty=\count426
+\c@textcitecount=\count421
+\c@textcitetotal=\count422
+\c@textcitemaxnames=\count423
+\c@biburlbigbreakpenalty=\count424
+\c@biburlbreakpenalty=\count425
+\c@biburlnumpenalty=\count426
+\c@biburlucpenalty=\count427
+\c@biburllcpenalty=\count428
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count427
+\c@smartand=\count429
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -790,8 +818,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count428
-\c@bbx:relatedtotal=\count429
+\c@bbx:relatedcount=\count430
+\c@bbx:relatedtotal=\count431
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -820,8 +848,8 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2023-05-11 L3 programming layer (loader) 
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count430
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count432
+\l__pdf_internal_box=\box60
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2023-05-11 L3 programming layer (loader) 
@@ -831,49 +859,29 @@ Package biblatex Info: ... and expl3
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen179
-\ar@mcellbox=\box58
-\extrarowheight=\dimen180
-\NC@list=\toks28
-\extratabsurround=\skip79
-\backup@length=\skip80
-\ar@cellbox=\box59
-)
-\TX@col@width=\dimen181
-\TX@old@table=\dimen182
-\TX@old@col=\dimen183
-\TX@target=\dimen184
-\TX@delta=\dimen185
-\TX@cols=\count431
-\TX@ftn=\toks29
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count432
-\mult@box=\box60
-\multicol@leftmargin=\dimen186
-\c@unbalance=\count433
-\c@collectmore=\count434
-\doublecol@number=\count435
-\multicoltolerance=\count436
-\multicolpretolerance=\count437
-\full@width=\dimen187
-\page@free=\dimen188
-\premulticols=\dimen189
-\postmulticols=\dimen190
+\c@tracingmulticols=\count433
+\mult@box=\box61
+\multicol@leftmargin=\dimen188
+\c@unbalance=\count434
+\c@collectmore=\count435
+\doublecol@number=\count436
+\multicoltolerance=\count437
+\multicolpretolerance=\count438
+\full@width=\dimen189
+\page@free=\dimen190
+\premulticols=\dimen191
+\postmulticols=\dimen192
 \multicolsep=\skip81
 \multicolbaselineskip=\skip82
-\partial@page=\box61
-\last@line=\box62
-\maxbalancingoverflow=\dimen191
-\mult@rightbox=\box63
-\mult@grightbox=\box64
-\mult@firstbox=\box65
-\mult@gfirstbox=\box66
-\@tempa=\box67
+\partial@page=\box62
+\last@line=\box63
+\maxbalancingoverflow=\dimen193
+\mult@rightbox=\box64
+\mult@grightbox=\box65
+\mult@firstbox=\box66
+\mult@gfirstbox=\box67
 \@tempa=\box68
 \@tempa=\box69
 \@tempa=\box70
@@ -909,15 +917,16 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box100
 \@tempa=\box101
 \@tempa=\box102
-\c@minrows=\count438
-\c@columnbadness=\count439
-\c@finalcolumnbadness=\count440
-\last@try=\dimen192
-\multicolovershoot=\dimen193
-\multicolundershoot=\dimen194
-\mult@nat@firstbox=\box103
-\colbreak@box=\box104
-\mc@col@check@num=\count441
+\@tempa=\box103
+\c@minrows=\count439
+\c@columnbadness=\count440
+\c@finalcolumnbadness=\count441
+\last@try=\dimen194
+\multicolovershoot=\dimen195
+\multicolundershoot=\dimen196
+\mult@nat@firstbox=\box104
+\colbreak@box=\box105
+\mc@col@check@num=\count442
 )) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
 Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
@@ -928,138 +937,236 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip84
 \LTpre=\skip85
 \LTpost=\skip86
-\LTchunksize=\count442
-\LTcapwidth=\dimen195
-\LT@head=\box105
-\LT@firsthead=\box106
-\LT@foot=\box107
-\LT@lastfoot=\box108
-\LT@gbox=\box109
-\LT@cols=\count443
-\LT@rows=\count444
-\c@LT@tables=\count445
-\c@LT@chunks=\count446
-\LT@p@ftn=\toks30
+\LTchunksize=\count443
+\LTcapwidth=\dimen197
+\LT@head=\box106
+\LT@firsthead=\box107
+\LT@foot=\box108
+\LT@lastfoot=\box109
+\LT@gbox=\box110
+\LT@cols=\count444
+\LT@rows=\count445
+\c@LT@tables=\count446
+\c@LT@chunks=\count447
+\LT@p@ftn=\toks31
 ))) (Config//formats.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
-) (Config//commands.tex
+) (Config//commands.tex))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+LaTeX Font Info:    Trying to load font information for T1+jkp on input line 8.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkp.fd
+File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
+) (SSEO_final_report.aux)
+\openout1 = `SSEO_final_report.aux'.
 
-Config//commands.tex:28: LaTeX Error: Command \title already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 }
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Config//commands.tex:28: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 }
-      
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Config//commands.tex:28: Missing $ inserted.
-<inserted text> 
-                $
-l.28 }
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 28.
-(C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
-File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
-)
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 28.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 8.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 28.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 28.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 28.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
-File: ujkpmia.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 28.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
-File: ujkpsya.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 28.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
-File: ujkpsyb.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 28.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
-File: ujkpsyc.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 28.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 8.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-Config//commands.tex:28: Missing number, treated as zero.
-<to be read again> 
-                   p
-l.28 }
-      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
-Config//commands.tex:28: You already have nine parameters.
-\reserved@a ...\expandafter \title \reserved@b #10
-                                                  p{
-l.28 }
-      
-I'm going to ignore the # sign you just used,
-as well as the token that followed it.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=731.23584pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Config//commands.tex:28: Illegal parameter number in definition of \title.
-<to be read again> 
-                   1
-l.28 }
-      
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
+(C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count448
+\scratchdimen=\dimen198
+\scratchbox=\box111
+\nofMPsegments=\count449
+\nofMParguments=\count450
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count451
+\MPscratchDim=\dimen199
+\MPnumerator=\count452
+\makeMPintoPDFobject=\count453
+\everyMPtoPDFconversion=\toks33
+) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 8.
+ (SSEO_final_report.out) (SSEO_final_report.out)
+\@outlinefile=\write4
+\openout4 = `SSEO_final_report.out'.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `SSEO_final_report.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
+ (SSEO_final_report.bbl)
+Package biblatex Info: Reference section=0 on input line 8.
+Package biblatex Info: Reference segment=0 on input line 8.
+ (SSEO_final_report.toc
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 4.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+)
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 4.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
+File: ujkpmia.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 4.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
+File: ujkpsya.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 4.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
+File: ujkpsyb.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 4.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
+File: ujkpsyc.fd 2006/08/15 v1.0
+))
+\tf@toc=\write5
+\openout5 = `SSEO_final_report.toc'.
+
+ (Body.tex [1
 
 
-! LaTeX Error: File `../../Config/title_page_chapter.tex' not found.
+{C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+\blx@maxsegment@1=\count454
+\blx@sectionciteorder@1=\count455
+Package biblatex Info: Reference section=1 on input line 1.
+Package biblatex Info: Setting label 'refsection:1' on input line 1.
+ (Chapters/H1/Body.tex (Chapters/H1//Sections/00_notation.tex
+\ltmcbox=\box112
+) [2
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Chapters/H1//Sections/01_introduction.tex) (Chapters/H1//Sections/02_goals.tex) (Chapters/H1//Sections/03_drivers.tex
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
+) [3]) (Chapters/H1//Sections/04_functional_analysis.tex
+<Chapters/H1//Images/functional_analysis.pdf, id=155, 1656.9403pt x 1837.61531pt>
+File: Chapters/H1//Images/functional_analysis.pdf Graphic file (type pdf)
+<use Chapters/H1//Images/functional_analysis.pdf>
+Package pdftex.def Info: Chapters/H1//Images/functional_analysis.pdf  used on input line 6.
+(pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
+) (Chapters/H1//Sections/05_phases.tex [4 <./Chapters/H1//Images/functional_analysis.pdf>]) (Chapters/H1//Sections/06_conops.tex
+<Chapters/H1//Images/ConOps.pdf, id=170, 1596.39159pt x 499.24263pt>
+File: Chapters/H1//Images/ConOps.pdf Graphic file (type pdf)
+<use Chapters/H1//Images/ConOps.pdf>
+Package pdftex.def Info: Chapters/H1//Images/ConOps.pdf  used on input line 6.
+(pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
+) [5 <./Chapters/H1//Images/ConOps.pdf>] (Chapters/H1//Sections/07_payload.tex [6]
+<Chapters/H1//Images/Strumenti Juno.jpg, id=202, 1606.0pt x 1159.33125pt>
+File: Chapters/H1//Images/Strumenti Juno.jpg Graphic file (type jpg)
+<use Chapters/H1//Images/Strumenti Juno.jpg>
+Package pdftex.def Info: Chapters/H1//Images/Strumenti Juno.jpg  used on input line 31.
+(pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
+ [7 <./Chapters/H1//Images/Strumenti Juno.jpg>]) (Chapters/H1//Sections/08_mission_analysis.tex
+<Chapters/H1//Images/orbits.png, id=213, 305.943pt x 509.2626pt>
+File: Chapters/H1//Images/orbits.png Graphic file (type png)
+<use Chapters/H1//Images/orbits.png>
+Package pdftex.def Info: Chapters/H1//Images/orbits.png  used on input line 7.
+(pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
+ [8 <./Chapters/H1//Images/orbits.png (PNG copy)>]))
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 1.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
+File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
+) [9]
+Package biblatex Info: Reference section=0 on input line 1.
+) [10] (SSEO_final_report.aux)
+Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
+(rerunfilecheck)             Checksum: B869272D77D50B6E7F802AB630625CF7;2882.
+Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
+\openout1 = `SSEO_final_report.run.xml'.
 
-Enter file name: 
-Config//commands.tex:28: Emergency stop.
-<read *> 
-         
-l.28 }
-      ^^M
-*** (cannot \read from terminal in nonstop modes)
-
- 
+ ) 
 Here is how much of TeX's memory you used:
- 21368 strings out of 476361
- 369334 string characters out of 5788046
- 1851993 words of memory out of 5000000
- 41525 multiletter control sequences out of 15000+600000
- 523805 words of font info for 60 fonts, out of 8000000 for 9000
+ 23622 strings out of 476361
+ 414145 string characters out of 5788046
+ 1870993 words of memory out of 5000000
+ 43577 multiletter control sequences out of 15000+600000
+ 597413 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,4n,98p,453b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Config//commands.tex:28:  ==> Fatal error occurred, no output PDF file produced!
+ 87i,13n,98p,1956b,1903s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on SSEO_final_report.pdf (10 pages, 809563 bytes).
+PDF statistics:
+ 319 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+

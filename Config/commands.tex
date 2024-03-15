@@ -31,6 +31,12 @@
 \end{refsection}
 }
 
+% Create first page
+\newcommand{\firstpage}[1]{
+	\def\tit{#1}
+	\import{../../Config/}{title_page_chapter}
+}
+
 % Create body and bibliography of the chapter
 \newcommand{\bodyandbib}{
 \begin{refsection}
