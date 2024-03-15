@@ -28,6 +28,52 @@
       \field{title}{Advanced Global Optimisation Tools for Mission Analysis and Design}
       \field{year}{2011}
     \endentry
+    \entry{Overview_Juno}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6b4abdd86ffba2654cb9815f5e0be02a}{%
+           family={Grammier},
+           familyi={G\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{fullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{bibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{An overview of the Juno mission Jupiter}
+      \field{year}{2006}
+    \endentry
+    \entry{2006_overview}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6b4abdd86ffba2654cb9815f5e0be02a}{%
+           family={Grammier},
+           familyi={G\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{fullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{bibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.jpl.nasa.gov/missions/juno}
+      \field{title}{OVERVIEW OF THE JUNO MISSION TO JUPITER}
+      \field{year}{2006}
+    \endentry
     \entry{Key_requirements}{article}{}
       \name{author}{1}{}{%
         {{hash=a9270188b461105ad09fb611fb4aadca}{%
@@ -73,6 +119,49 @@
       \field{howpublished}{https://ntrs.nasa.gov/citations/20130010565}
       \field{title}{JUNO Photovoltaic Power at Jupiter}
       \field{year}{2012}
+    \endentry
+    \entry{Juno_mission}{article}{}
+      \name{author}{1}{}{%
+        {{hash=02aa520c44ce6be25a13d1a83cad556f}{%
+           family={Thorpe},
+           familyi={T\bibinitperiod},
+           given={S.J.\bibnamedelimi Bolton\bibnamedelimb J.\bibnamedelimi Lunine\bibnamedelimb D.\bibnamedelimi Stevenson\bibnamedelimb J.E.P.\bibnamedelimi Connerney\bibnamedelimb S.\bibnamedelimi Levin\bibnamedelimb T.C.\bibnamedelimi Owen\bibnamedelimb F.\bibnamedelimi Bagenal\bibnamedelimb D.\bibnamedelimi Gautier\bibnamedelimb A.P.\bibnamedelimi Ingersoll\bibnamedelimb G.S.\bibnamedelimi Orton\bibnamedelimb T.\bibnamedelimi Guillot\bibnamedelimb W.\bibnamedelimi Hubbard.\bibnamedelimi J.\bibnamedelimi Bloxham\bibnamedelimb A.\bibnamedelimi Coradini\bibnamedelimb S.K.\bibnamedelimi Stephen\bibnamedelimb P.\bibnamedelimi Mokashi\bibnamedelimb R.\bibnamedelimi Thorne\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{02aa520c44ce6be25a13d1a83cad556f}
+      \strng{fullhash}{02aa520c44ce6be25a13d1a83cad556f}
+      \strng{bibnamehash}{02aa520c44ce6be25a13d1a83cad556f}
+      \strng{authorbibnamehash}{02aa520c44ce6be25a13d1a83cad556f}
+      \strng{authornamehash}{02aa520c44ce6be25a13d1a83cad556f}
+      \strng{authorfullhash}{02aa520c44ce6be25a13d1a83cad556f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{The Juno mission}
+      \field{year}{2015}
+    \endentry
+    \entry{video_1h}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f22794f69ce5910cb4be68ff9026570d}{%
+           family={Various},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{bibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://www.youtube.com/watch?v=ka6OERznXh4}}
+      \field{title}{Mission Juno - Great documentary on Jupiter and NASA's Juno probe}
+      \field{year}{2013}
     \endentry
   \enddatalist
 \endrefsection

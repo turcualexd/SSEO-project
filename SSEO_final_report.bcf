@@ -2358,27 +2358,18 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">../../bibliography.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
   </bcf:section>
   <!-- SECTION 1 -->
   <bcf:bibdata section="1">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">../../bibliography.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1" intorder="1">2006_overview</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">video_1h</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">Overview_Juno</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">video_1h</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Juno_mission</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">video_1h</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Juno_mission</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">video_1h</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">video_1h</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">pannelli</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Key_requirements</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">pannelli</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Key_requirements</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Juno_launch</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
