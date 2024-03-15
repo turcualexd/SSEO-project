@@ -1,12 +1,13 @@
 # Fdb version 4
-["biber SSEO_final_report"] 1710418933 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1710490175 0
-  "./bibliography.bib" 1710441693 2097 8c146673724aa1ee0c531b7f9721fd27 ""
+["biber SSEO_final_report"] 1710497648 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1710497652 0
+  "./bibliography.bib" 1710497647 2987 943c42e167634530115d87dca9f7b2da ""
   "SSEO_final_report.bcf" 1710490174 108049 82f51467604ead75488b7087e76ab37f "pdflatex"
+  "bibliography.bib" 1710497647 2987 943c42e167634530115d87dca9f7b2da ""
   (generated)
   "SSEO_final_report.bbl"
   "SSEO_final_report.blg"
   (rewritten before read)
-["pdflatex"] 1710490172 "/Users/marcellopareschi/Desktop/orbital mechanics/SSEO-project/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1710490175 0
+["pdflatex"] 1710490172 "/Users/marcellopareschi/Desktop/orbital mechanics/SSEO-project/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1710497652 0
   "/Users/marcellopareschi/Desktop/orbital mechanics/SSEO-project/SSEO_final_report.tex" 1710335198 245 e16779d741fa42ec5cd3233198e539eb ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc" 1240420913 2639 b7bbeb66c016cde6fdcad9263fe54a4a ""
@@ -169,7 +170,7 @@
   "Config//packages.tex" 1710418889 439 a7c7d62a4731cd67039a578c487f55f0 ""
   "Config/input.tex" 1710335198 60 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "SSEO_final_report.aux" 1710490174 5966 8a2fa3571041d23f0f4e2fcf3b662bd9 "pdflatex"
-  "SSEO_final_report.bbl" 1710441737 1542 9e193c813ef9ed9252f424f1b02531d1 "biber SSEO_final_report"
+  "SSEO_final_report.bbl" 1710497652 1542 9e193c813ef9ed9252f424f1b02531d1 "biber SSEO_final_report"
   "SSEO_final_report.out" 1710490174 2842 53baab90495a153cf28e58008b715d65 "pdflatex"
   "SSEO_final_report.run.xml" 1710490174 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
   "SSEO_final_report.tex" 1710335198 245 e16779d741fa42ec5cd3233198e539eb ""
