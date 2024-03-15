@@ -50,6 +50,29 @@
       \field{title}{A Look Inside the Juno Mission to Jupiter}
       \field{year}{2008}
     \endentry
+    \entry{fact_sheet}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=21a372abd2a5c641d5991cd08474c753}{%
+           family={Laboratory},
+           familyi={L\bibinitperiod},
+           given={Jet\bibnamedelima Propulsion},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{fullhash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{bibnamehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{authorbibnamehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{authornamehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{authorfullhash}{21a372abd2a5c641d5991cd08474c753}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.nasa.gov/}
+      \field{title}{Juno Mission to Jupiter}
+      \field{year}{2022}
+    \endentry
     \entry{NASA2}{misc}{}
       \name{author}{1}{}{%
         {{hash=8f3e93a380f883d9b3e36d1582bba3fe}{%
@@ -64,7 +87,7 @@
       \strng{authorbibnamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
       \strng{authornamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
       \strng{authorfullhash}{8f3e93a380f883d9b3e36d1582bba3fe}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -88,7 +111,7 @@
       \strng{authorbibnamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
       \strng{authornamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
       \strng{authorfullhash}{8f3e93a380f883d9b3e36d1582bba3fe}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}

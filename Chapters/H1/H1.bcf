@@ -2367,18 +2367,19 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">../../bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1" intorder="1">pannelli</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">fact_sheet</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">pannelli</bcf:citekey>
     <bcf:citekey order="3" intorder="1">Juno_launch</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">look_inside_juno_mission</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">NASA2</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">NASA1</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Juno_launch</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">look_inside_juno_mission</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">NASA2</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">NASA1</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Key_requirements</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">look_inside_juno_mission</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">NASA2</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">NASA1</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">look_inside_juno_mission</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">NASA2</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">NASA1</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Key_requirements</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Juno_launch</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

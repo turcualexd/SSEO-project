@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.26)  15 MAR 2024 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.26)  15 MAR 2024 19:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1118,25 +1118,25 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14
  (/usr/local/texlive/2023/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [1]) (./Sections/04_functional_analysis.tex
-<Images/functional_analysis.pdf, id=129, 1656.9403pt x 1837.61531pt>
+<Images/functional_analysis.pdf, id=131, 1656.9403pt x 1837.61531pt>
 File: Images/functional_analysis.pdf Graphic file (type pdf)
 <use Images/functional_analysis.pdf>
 Package pdftex.def Info: Images/functional_analysis.pdf  used on input line 6.
 (pdftex.def)             Requested size: 332.89412pt x 369.19894pt.
 ) (./Sections/05_phases.tex [2 <./Images/functional_analysis.pdf>]) (./Sections/06_conops.tex
-<Images/ConOps.pdf, id=143, 1596.39159pt x 499.24263pt>
+<Images/ConOps.pdf, id=145, 1596.39159pt x 499.24263pt>
 File: Images/ConOps.pdf Graphic file (type pdf)
 <use Images/ConOps.pdf>
 Package pdftex.def Info: Images/ConOps.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
 ) (./Sections/07_payload.tex [3 <./Images/ConOps.pdf>] [4]
-<Images/Strumenti Juno.jpg, id=178, 1606.0pt x 1159.33125pt>
+<Images/Strumenti Juno.jpg, id=180, 1606.0pt x 1159.33125pt>
 File: Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Images/Strumenti Juno.jpg  used on input line 31.
 (pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
  [5 <./Images/Strumenti Juno.jpg>]) (./Sections/08_mission_analysis.tex
-<Images/orbits.png, id=189, 305.943pt x 509.2626pt>
+<Images/orbits.png, id=191, 305.943pt x 509.2626pt>
 File: Images/orbits.png Graphic file (type png)
 <use Images/orbits.png>
 Package pdftex.def Info: Images/orbits.png  used on input line 7.
@@ -1155,18 +1155,18 @@ Package logreq Info: Writing requests to 'H1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23393 strings out of 476025
- 402934 string characters out of 5790016
+ 23397 strings out of 476025
+ 403078 string characters out of 5790016
  1868388 words of memory out of 5000000
- 43419 multiletter control sequences out of 15000+600000
+ 43422 multiletter control sequences out of 15000+600000
  604724 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,10n,96p,2366b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H1.pdf (10 pages, 805191 bytes).
+Output written on H1.pdf (10 pages, 805396 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
  170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

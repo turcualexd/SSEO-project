@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[1] Config.pm:310> INFO - Logfile is 'H1.blg'
-[235] biber-darwin:340> INFO - === Fri Mar 15, 2024, 17:44:49
-[296] Biber.pm:419> INFO - Reading 'H1.bcf'
-[586] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[587] Biber.pm:979> INFO - Found 6 citekeys in bib section 1
-[587] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[641] Biber.pm:4419> INFO - Processing section 1
-[669] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
-[673] bibtex.pm:1713> INFO - LaTeX decoding ...
-[711] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
-[816] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[816] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[816] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[816] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[828] bbl.pm:660> INFO - Writing 'H1.bbl' with encoding 'UTF-8'
-[833] bbl.pm:763> INFO - Output to H1.bbl
+[0] Config.pm:310> INFO - Logfile is 'H1.blg'
+[193] biber-darwin:340> INFO - === Fri Mar 15, 2024, 19:10:27
+[231] Biber.pm:419> INFO - Reading 'H1.bcf'
+[408] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[408] Biber.pm:979> INFO - Found 7 citekeys in bib section 1
+[408] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[439] Biber.pm:4419> INFO - Processing section 1
+[459] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
+[462] bibtex.pm:1713> INFO - LaTeX decoding ...
+[489] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
+[578] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[578] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[578] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[578] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[589] bbl.pm:660> INFO - Writing 'H1.bbl' with encoding 'UTF-8'
+[594] bbl.pm:763> INFO - Output to H1.bbl
