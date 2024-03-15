@@ -8,6 +8,17 @@
 \end{figure}
 }
 
+% Figure on right side
+\newcommand{\rfig}[3]{
+\begin{wrapfigure}{r}{#2\linewidth}
+	\centering
+	\includegraphics[width=\linewidth]{Images/#1}
+	\caption{#3}
+	\label{fig:#1}
+	\vspace*{-13pt}
+\end{wrapfigure}
+}
+
 % Create new chapter (with sub-bibliography)
 \newcommand{\newchapter}[2]{
 \setcounter{chapter}{#1}
@@ -20,17 +31,11 @@
 \end{refsection}
 }
 
-\newcommand{\mychapter}[2]{
-    \setcounter{chapter}{#1}
-    \setcounter{section}{0}
-    \chapter*{#2}
-    \addcontentsline{toc}{chapter}{#2}
-}
-
 % Create body and bibliography of the chapter
 \newcommand{\bodyandbib}{
 \begin{refsection}
 	\import{}{Body}
+	\pagebreak
 	\printbibliography[heading=bibintoc,title=Bibliography]
 \end{refsection}
 }
@@ -43,4 +48,17 @@
 	\else
 		#2
 	\fi
+}
+
+% Poli logo image
+\newcommand{\polilogo}{
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{Poli_logo}
+\end{figure}
+}
+
+% Insert mail with link
+\newcommand{\mail}[1]{
+	\href{mailto:#1@mail.polimi.it}{#1@mail.polimi.it}
 }
