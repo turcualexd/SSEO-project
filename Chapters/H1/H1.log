@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  14 MAR 2024 01:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  15 MAR 2024 17:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,30 +849,36 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen185
 \TX@cols=\count430
 \TX@ftn=\toks29
+) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen186
+\WF@size=\dimen187
+\c@WF@wrappedlines=\count431
+\WF@box=\box60
+\WF@everypar=\toks30
+Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count431
-\mult@box=\box60
-\multicol@leftmargin=\dimen186
-\c@unbalance=\count432
-\c@collectmore=\count433
-\doublecol@number=\count434
-\multicoltolerance=\count435
-\multicolpretolerance=\count436
-\full@width=\dimen187
-\page@free=\dimen188
-\premulticols=\dimen189
-\postmulticols=\dimen190
+\c@tracingmulticols=\count432
+\mult@box=\box61
+\multicol@leftmargin=\dimen188
+\c@unbalance=\count433
+\c@collectmore=\count434
+\doublecol@number=\count435
+\multicoltolerance=\count436
+\multicolpretolerance=\count437
+\full@width=\dimen189
+\page@free=\dimen190
+\premulticols=\dimen191
+\postmulticols=\dimen192
 \multicolsep=\skip81
 \multicolbaselineskip=\skip82
-\partial@page=\box61
-\last@line=\box62
-\maxbalancingoverflow=\dimen191
-\mult@rightbox=\box63
-\mult@grightbox=\box64
-\mult@firstbox=\box65
-\mult@gfirstbox=\box66
-\@tempa=\box67
+\partial@page=\box62
+\last@line=\box63
+\maxbalancingoverflow=\dimen193
+\mult@rightbox=\box64
+\mult@grightbox=\box65
+\mult@firstbox=\box66
+\mult@gfirstbox=\box67
 \@tempa=\box68
 \@tempa=\box69
 \@tempa=\box70
@@ -908,15 +914,16 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box100
 \@tempa=\box101
 \@tempa=\box102
-\c@minrows=\count437
-\c@columnbadness=\count438
-\c@finalcolumnbadness=\count439
-\last@try=\dimen192
-\multicolovershoot=\dimen193
-\multicolundershoot=\dimen194
-\mult@nat@firstbox=\box103
-\colbreak@box=\box104
-\mc@col@check@num=\count440
+\@tempa=\box103
+\c@minrows=\count438
+\c@columnbadness=\count439
+\c@finalcolumnbadness=\count440
+\last@try=\dimen194
+\multicolovershoot=\dimen195
+\multicolundershoot=\dimen196
+\mult@nat@firstbox=\box104
+\colbreak@box=\box105
+\mc@col@check@num=\count441
 )) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
 Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
@@ -927,18 +934,18 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip84
 \LTpre=\skip85
 \LTpost=\skip86
-\LTchunksize=\count441
-\LTcapwidth=\dimen195
-\LT@head=\box105
-\LT@firsthead=\box106
-\LT@foot=\box107
-\LT@lastfoot=\box108
-\LT@gbox=\box109
-\LT@cols=\count442
-\LT@rows=\count443
-\c@LT@tables=\count444
-\c@LT@chunks=\count445
-\LT@p@ftn=\toks30
+\LTchunksize=\count442
+\LTcapwidth=\dimen197
+\LT@head=\box106
+\LT@firsthead=\box107
+\LT@foot=\box108
+\LT@lastfoot=\box109
+\LT@gbox=\box110
+\LT@cols=\count443
+\LT@rows=\count444
+\c@LT@tables=\count445
+\c@LT@chunks=\count446
+\LT@p@ftn=\toks31
 ))) (../../Config//formats.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 ) (../../Config//commands.tex))
@@ -1023,17 +1030,17 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count446
-\scratchdimen=\dimen196
-\scratchbox=\box110
-\nofMPsegments=\count447
-\nofMParguments=\count448
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count449
-\MPscratchDim=\dimen197
-\MPnumerator=\count450
-\makeMPintoPDFobject=\count451
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count447
+\scratchdimen=\dimen198
+\scratchbox=\box111
+\nofMPsegments=\count448
+\nofMParguments=\count449
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count450
+\MPscratchDim=\dimen199
+\MPnumerator=\count451
+\makeMPintoPDFobject=\count452
+\everyMPtoPDFconversion=\toks33
 ) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1046,6 +1053,7 @@ Package caption Info: longtable package is loaded.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 8.
  (H1.out) (H1.out)
@@ -1067,82 +1075,101 @@ Package biblatex Info: ... file 'H1.bbl' found.
  (H1.bbl)
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
- (H1.toc
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 11.
+ (../../Config/title_page_chapter.tex
+<../../Config//Poli_logo.pdf, id=74, 527.9725pt x 414.54875pt>
+File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
+<use ../../Config//Poli_logo.pdf>
+Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
+(pdftex.def)             Requested size: 307.2929pt x 241.2734pt.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 37.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 11.
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 37.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 11.
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 37.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 37.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 11.
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 37.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
-))
+) [1
+
+{C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <../../Config//Poli_logo.pdf>]) (H1.toc)
 \tf@toc=\write5
 \openout5 = `H1.toc'.
 
- [1
-
-{C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-\blx@maxsegment@1=\count452
-\blx@sectionciteorder@1=\count453
-Package biblatex Info: Reference section=1 on input line 14.
-Package biblatex Info: Setting label 'refsection:1' on input line 14.
+\blx@maxsegment@1=\count453
+\blx@sectionciteorder@1=\count454
+Package biblatex Info: Reference section=1 on input line 19.
+Package biblatex Info: Setting label 'refsection:1' on input line 19.
  (Body.tex (Sections/00_notation.tex
-\ltmcbox=\box111
-) [2] (Sections/01_introduction.tex) (Sections/02_goals.tex) (Sections/03_drivers.tex
+\ltmcbox=\box112
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \case
+         {\pagenumbering{arabic}}{} [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Sections/01_introduction.tex) (Sections/02_goals.tex) (Sections/03_drivers.tex
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-) [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]) (Sections/04_functional_analysis.tex
-<Images/functional_analysis.pdf, id=122, 1656.9403pt x 1837.61531pt>
+) [1]) (Sections/04_functional_analysis.tex
+<Images/functional_analysis.pdf, id=128, 1656.9403pt x 1837.61531pt>
 File: Images/functional_analysis.pdf Graphic file (type pdf)
 <use Images/functional_analysis.pdf>
-Package pdftex.def Info: Images/functional_analysis.pdf  used on input line 7.
-(pdftex.def)             Requested size: 409.72125pt x 454.38359pt.
-) (Sections/05_phases.tex [2] [3 <./Images/functional_analysis.pdf>]) (Sections/06_conops.tex
-<Images/ConOps.png, id=143, 939.51pt x 336.95888pt>
-File: Images/ConOps.png Graphic file (type png)
-<use Images/ConOps.png>
-Package pdftex.def Info: Images/ConOps.png  used on input line 6.
-(pdftex.def)             Requested size: 512.14963pt x 183.68265pt.
-) (Sections/07_payload.tex [4 <./Images/ConOps.png>]
-<Images/Strumenti Juno.jpg, id=154, 1606.0pt x 1159.33125pt>
+Package pdftex.def Info: Images/functional_analysis.pdf  used on input line 6.
+(pdftex.def)             Requested size: 332.89412pt x 369.19894pt.
+) (Sections/05_phases.tex [2 <./Images/functional_analysis.pdf>]) (Sections/06_conops.tex
+<Images/ConOps.pdf, id=141, 1596.39159pt x 499.24263pt>
+File: Images/ConOps.pdf Graphic file (type pdf)
+<use Images/ConOps.pdf>
+Package pdftex.def Info: Images/ConOps.pdf  used on input line 6.
+(pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
+) (Sections/07_payload.tex [3 <./Images/ConOps.pdf>] [4]
+<Images/Strumenti Juno.jpg, id=163, 1606.0pt x 1159.33125pt>
 File: Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Images/Strumenti Juno.jpg>
-Package pdftex.def Info: Images/Strumenti Juno.jpg  used on input line 30.
-(pdftex.def)             Requested size: 512.14963pt x 369.71991pt.
- [5] [6 <./Images/Strumenti Juno.jpg>]) (Sections/08_mission_analysis.tex))
-Package biblatex Info: Reference section=0 on input line 14.
- [7] (H1.aux)
+Package pdftex.def Info: Images/Strumenti Juno.jpg  used on input line 31.
+(pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
+ [5 <./Images/Strumenti Juno.jpg>]) (Sections/08_mission_analysis.tex
+<Images/orbits.png, id=174, 305.943pt x 509.2626pt>
+File: Images/orbits.png Graphic file (type png)
+<use Images/orbits.png>
+Package pdftex.def Info: Images/orbits.png  used on input line 7.
+(pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
+ [6 <./Images/orbits.png (PNG copy)>])) [7]
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
+File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
+)
+Package biblatex Info: Reference section=0 on input line 19.
+ [8] (H1.aux)
 Package rerunfilecheck Info: File `H1.out' has not changed.
-(rerunfilecheck)             Checksum: CC480E0203A4257D1A2EDC125954AE70;2593.
+(rerunfilecheck)             Checksum: 829B1EF66F52DDDD8A48BBF930A25C04;2638.
 Package logreq Info: Writing requests to 'H1.run.xml'.
 \openout1 = `H1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23346 strings out of 476361
- 406716 string characters out of 5788046
- 1871993 words of memory out of 5000000
- 43353 multiletter control sequences out of 15000+600000
- 564470 words of font info for 81 fonts, out of 8000000 for 9000
+ 23531 strings out of 476361
+ 410339 string characters out of 5788046
+ 1869993 words of memory out of 5000000
+ 43511 multiletter control sequences out of 15000+600000
+ 604724 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,10n,98p,2336b,1905s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on H1.pdf (9 pages, 694928 bytes).
+ 87i,10n,98p,2346b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H1.pdf (10 pages, 826481 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

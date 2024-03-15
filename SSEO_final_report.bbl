@@ -16,5 +16,34 @@
   {}
 \endgroup
 
+
+\refsection{1}
+  \datalist[entry]{nty/global//global/global}
+    \entry{curtis_book}{book}{}
+      \name{author}{1}{}{%
+        {{hash=55a7280b2d9a909f02706fed0fe1f209}{%
+           family={Curtis},
+           familyi={C\bibinitperiod},
+           given={Howard\bibnamedelima D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{55a7280b2d9a909f02706fed0fe1f209}
+      \strng{fullhash}{55a7280b2d9a909f02706fed0fe1f209}
+      \strng{bibnamehash}{55a7280b2d9a909f02706fed0fe1f209}
+      \strng{authorbibnamehash}{55a7280b2d9a909f02706fed0fe1f209}
+      \strng{authornamehash}{55a7280b2d9a909f02706fed0fe1f209}
+      \strng{authorfullhash}{55a7280b2d9a909f02706fed0fe1f209}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Orbital Mechanics for Engineering Students}
+      \field{year}{2014}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
