@@ -2,12 +2,7 @@
 \phantomsection
 \section*{Notation}
 \addcontentsline{toc}{section}{Notation}
-\label{sec:notation}
-
-% To break column: \columnbreak
-
-\newsavebox\ltmcbox
-\renewcommand\tabularxcolumn[1]{m{#1}}
+\label{sec:notation1}
 
 \begin{multicols}{2}
     \renewcommand{\arraystretch}{1.2}
@@ -15,14 +10,24 @@
 	\setbox\ltmcbox\vbox{
 	\makeatletter\col@number\@ne
 	\begin{xltabular}{\linewidth}{c>{\raggedright\arraybackslash}X}
+		\textbf{MAG} & Magnetometer \\
+		\textbf{HGA} & High Gain Antenna \\
+		$\boldsymbol{\Delta V}$ & Velocity budget \\
+		\textbf{DSN} & Deep Space Network \\
 		\textbf{LEOP} & Launch and early orbit phase \\
 		\textbf{SECO} & Second engine cut off \\
+		\textbf{L+} & Time after launch \\
 		\textbf{PJ} & Perijove number \\
-		\textbf{JOI} & Jupiter Orbit Insertion\\
-		\textbf{HGA} & High Gain Antenna \\
-		\textbf{GSO} & Gravity Science Orbit \\
 		\textbf{MWR} & Microwave Radiometer \\
-		\textbf{PRM} & Period reduction maneuver \\
+		\textbf{JEDI} & Jupiter Energetic-particle Detector Instrument \\
+		\textbf{JADE} & Jovian Auroral Distribution Experiment \\
+		\textbf{UVS} & Ultraviolet Spectrograph \\
+		\textbf{JIRAM} & Juno Infra-Red Auroral Mapper \\
+		\textbf{EGA} & Earth Gravity Assist \\
+		\textbf{JOI} & Jupiter Orbit Insertion \\
+		\textbf{DSM} & Deep Space Manoeuvre \\
+		\textbf{PRM} & Period Reduction Maneuver \\
+		\textbf{GSO} & Gravity Science Orbit
 	\end{xltabular}
 	\unskip
 	\unpenalty
