@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  15 MAR 2024 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  21 MAR 2024 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -950,6 +950,8 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LT@p@ftn=\toks31
 ))) (../../Config//formats.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
+Package biblatex Info: Redefining '\supercite' on input line 35.
+\ltmcbox=\box111
 ) (../../Config//commands.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1034,7 +1036,7 @@ LaTeX Font Info:    ... okay on input line 8.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count447
 \scratchdimen=\dimen198
-\scratchbox=\box111
+\scratchbox=\box112
 \nofMPsegments=\count448
 \nofMParguments=\count449
 \everyMPshowfont=\toks32
@@ -1112,9 +1114,7 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \blx@sectionciteorder@1=\count454
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex
-\ltmcbox=\box112
-) [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Sections/01_introduction.tex) (Sections/02_goals.tex) (Sections/03_drivers.tex
+ (Body.tex (Sections/00_notation.tex) [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Sections/01_introduction.tex) (Sections/02_goals.tex) (Sections/03_drivers.tex
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
@@ -1168,14 +1168,14 @@ Package logreq Info: Writing requests to 'H1.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  23649 strings out of 476361
- 413400 string characters out of 5788046
- 1869993 words of memory out of 5000000
+ 413401 string characters out of 5788046
+ 1870993 words of memory out of 5000000
  43604 multiletter control sequences out of 15000+600000
  625764 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,13n,98p,1922b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H1.pdf (10 pages, 1172804 bytes).
+Output written on H1.pdf (10 pages, 1173008 bytes).
 PDF statistics:
  325 PDF objects out of 1000 (max. 8388607)
  65 named destinations out of 1000 (max. 500000)
