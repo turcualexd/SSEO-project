@@ -172,7 +172,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>nty</bcf:value>
+      <bcf:value>none</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -2367,47 +2367,83 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1" intorder="1">pannelli</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Key_requirements</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">fact_sheet</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">2006_overview</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">video_1h</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">video_1h</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Overview_Juno</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">video_1h</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Juno_mission</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">video_1h</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Juno_mission</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">video_1h</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">video_1h</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">Key_requirements</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">pannelli</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">batterie</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">fact_sheet</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">2006_overview</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Rad_vault</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">atmosphere</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">look_inside_juno_mission</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">NASA2</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">NASA1</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">look_inside_juno_mission</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">NASA2</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">NASA1</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">Key_requirements</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Overview_Juno</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">batterie</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">spaceflight101</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">NASA_horizons</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">fact_sheet</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">NASA2</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">NASA1</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 2 -->
+  <bcf:bibdata section="2">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="2">
+    <bcf:citekey order="1" intorder="1">fact_sheet</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="nty">
+  <bcf:sortingtemplate name="none">
     <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    <bcf:sort order="2">
+      <bcf:sortitem order="1">intciteorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="1"
-                name="nty/global//global/global"
+                name="none/global//global/global"
                 type="entry"
-                sortingtemplatename="nty"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="2"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"

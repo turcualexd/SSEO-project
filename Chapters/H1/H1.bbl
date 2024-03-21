@@ -18,38 +18,29 @@
 
 
 \refsection{1}
-  \datalist[entry]{nty/global//global/global}
-    \entry{Juno_launch}{misc}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{NASA press kit}
-      \field{note}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/JunoLaunch.pdf}}
-      \field{title}{Advanced Global Optimisation Tools for Mission Analysis and Design}
-      \field{year}{2011}
-    \endentry
-    \entry{Overview_Juno}{article}{}
+  \datalist[entry]{none/global//global/global}
+    \entry{fact_sheet}{misc}{}
       \name{author}{1}{}{%
-        {{hash=6b4abdd86ffba2654cb9815f5e0be02a}{%
-           family={Grammier},
-           familyi={G\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
+        {{hash=21a372abd2a5c641d5991cd08474c753}{%
+           family={Laboratory},
+           familyi={L\bibinitperiod},
+           given={Jet\bibnamedelima Propulsion},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
-      \strng{namehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{fullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{bibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{namehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{fullhash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{bibnamehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{authorbibnamehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{authornamehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{authorfullhash}{21a372abd2a5c641d5991cd08474c753}
       \field{extraname}{1}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Paper}
-      \field{title}{An overview of the Juno mission Jupiter}
-      \field{year}{2006}
+      \field{howpublished}{Site: \url{https://www.nasa.gov/}}
+      \field{title}{Juno Mission to Jupiter}
+      \field{year}{2022}
     \endentry
     \entry{2006_overview}{misc}{}
       \name{author}{1}{}{%
@@ -65,14 +56,90 @@
       \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
       \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
       \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \field{extraname}{2}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://www.jpl.nasa.gov/missions/juno}
-      \field{title}{OVERVIEW OF THE JUNO MISSION TO JUPITER}
+      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/missions/juno}}
+      \field{title}{Overview of the Juno Mission to Jupiter}
       \field{year}{2006}
+    \endentry
+    \entry{video_1h}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f22794f69ce5910cb4be68ff9026570d}{%
+           family={Various},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{bibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://www.youtube.com/watch?v=ka6OERznXh4}}
+      \field{title}{Mission Juno - Great documentary on Jupiter and NASA's Juno probe}
+      \field{year}{2013}
+    \endentry
+    \entry{Overview_Juno}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6b4abdd86ffba2654cb9815f5e0be02a}{%
+           family={Grammier},
+           familyi={G\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{fullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{bibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{An overview of the Juno mission Jupiter}
+      \field{year}{2006}
+    \endentry
+    \entry{Juno_mission}{article}{}
+      \name{author}{1}{}{%
+        {{hash=02aa520c44ce6be25a13d1a83cad556f}{%
+           family={Thorpe},
+           familyi={T\bibinitperiod},
+           given={S.J.\bibnamedelimi Bolton\bibnamedelimb J.\bibnamedelimi Lunine\bibnamedelimb D.\bibnamedelimi Stevenson\bibnamedelimb J.E.P.\bibnamedelimi Connerney\bibnamedelimb S.\bibnamedelimi Levin\bibnamedelimb T.C.\bibnamedelimi Owen\bibnamedelimb F.\bibnamedelimi Bagenal\bibnamedelimb D.\bibnamedelimi Gautier\bibnamedelimb A.P.\bibnamedelimi Ingersoll\bibnamedelimb G.S.\bibnamedelimi Orton\bibnamedelimb T.\bibnamedelimi Guillot\bibnamedelimb W.\bibnamedelimi Hubbard.\bibnamedelimi J.\bibnamedelimi Bloxham\bibnamedelimb A.\bibnamedelimi Coradini\bibnamedelimb S.K.\bibnamedelimi Stephen\bibnamedelimb P.\bibnamedelimi Mokashi\bibnamedelimb R.\bibnamedelimi Thorne\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{02aa520c44ce6be25a13d1a83cad556f}
+      \strng{fullhash}{02aa520c44ce6be25a13d1a83cad556f}
+      \strng{bibnamehash}{02aa520c44ce6be25a13d1a83cad556f}
+      \strng{authorbibnamehash}{02aa520c44ce6be25a13d1a83cad556f}
+      \strng{authornamehash}{02aa520c44ce6be25a13d1a83cad556f}
+      \strng{authorfullhash}{02aa520c44ce6be25a13d1a83cad556f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{The Juno mission}
+      \field{year}{2015}
+    \endentry
+    \entry{Juno_launch}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{NASA press kit}
+      \field{note}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/JunoLaunch.pdf}}
+      \field{title}{Advanced Global Optimisation Tools for Mission Analysis and Design}
+      \field{year}{2011}
     \endentry
     \entry{Key_requirements}{article}{}
       \name{author}{1}{}{%
@@ -90,8 +157,8 @@
       \strng{authorbibnamehash}{a9270188b461105ad09fb611fb4aadca}
       \strng{authornamehash}{a9270188b461105ad09fb611fb4aadca}
       \strng{authorfullhash}{a9270188b461105ad09fb611fb4aadca}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -112,37 +179,15 @@
       \strng{authorbibnamehash}{d46f21ead07f61acd265e34dfaad003e}
       \strng{authornamehash}{d46f21ead07f61acd265e34dfaad003e}
       \strng{authorfullhash}{d46f21ead07f61acd265e34dfaad003e}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://ntrs.nasa.gov/citations/20130010565}
-      \field{title}{JUNO Photovoltaic Power at Jupiter}
+      \field{howpublished}{Site: \url{https://ntrs.nasa.gov/citations/20130010565}}
+      \field{title}{Juno Photovoltaic Power at Jupiter}
       \field{year}{2012}
     \endentry
-    \entry{Juno_mission}{article}{}
-      \name{author}{1}{}{%
-        {{hash=02aa520c44ce6be25a13d1a83cad556f}{%
-           family={Thorpe},
-           familyi={T\bibinitperiod},
-           given={S.J.\bibnamedelimi Bolton\bibnamedelimb J.\bibnamedelimi Lunine\bibnamedelimb D.\bibnamedelimi Stevenson\bibnamedelimb J.E.P.\bibnamedelimi Connerney\bibnamedelimb S.\bibnamedelimi Levin\bibnamedelimb T.C.\bibnamedelimi Owen\bibnamedelimb F.\bibnamedelimi Bagenal\bibnamedelimb D.\bibnamedelimi Gautier\bibnamedelimb A.P.\bibnamedelimi Ingersoll\bibnamedelimb G.S.\bibnamedelimi Orton\bibnamedelimb T.\bibnamedelimi Guillot\bibnamedelimb W.\bibnamedelimi Hubbard.\bibnamedelimi J.\bibnamedelimi Bloxham\bibnamedelimb A.\bibnamedelimi Coradini\bibnamedelimb S.K.\bibnamedelimi Stephen\bibnamedelimb P.\bibnamedelimi Mokashi\bibnamedelimb R.\bibnamedelimi Thorne\bibnamedelima R.},
-           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \strng{namehash}{02aa520c44ce6be25a13d1a83cad556f}
-      \strng{fullhash}{02aa520c44ce6be25a13d1a83cad556f}
-      \strng{bibnamehash}{02aa520c44ce6be25a13d1a83cad556f}
-      \strng{authorbibnamehash}{02aa520c44ce6be25a13d1a83cad556f}
-      \strng{authornamehash}{02aa520c44ce6be25a13d1a83cad556f}
-      \strng{authorfullhash}{02aa520c44ce6be25a13d1a83cad556f}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Paper}
-      \field{title}{The Juno mission}
-      \field{year}{2015}
-    \endentry
-    \entry{video_1h}{misc}{}
+    \entry{batterie}{misc}{}
       \name{author}{1}{}{%
         {{hash=f22794f69ce5910cb4be68ff9026570d}{%
            family={Various},
@@ -154,14 +199,181 @@
       \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
       \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
       \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Website}
-      \field{note}{Site: \url{https://www.youtube.com/watch?v=ka6OERznXh4}}
-      \field{title}{Mission Juno - Great documentary on Jupiter and NASA's Juno probe}
-      \field{year}{2013}
+      \field{note}{Site: \url{https://spaceflight101.com/juno/spacecraft-information/}}
+      \field{title}{Spacecraft Information}
+      \field{year}{2024}
+    \endentry
+    \entry{Rad_vault}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1ea42210608fc521bff03c1b57641bff}{%
+           family={vault},
+           familyi={v\bibinitperiod},
+           given={Installing\bibnamedelima Juno's},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={radiation},
+           prefixi={r\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ea42210608fc521bff03c1b57641bff}
+      \strng{fullhash}{1ea42210608fc521bff03c1b57641bff}
+      \strng{bibnamehash}{1ea42210608fc521bff03c1b57641bff}
+      \strng{authorbibnamehash}{1ea42210608fc521bff03c1b57641bff}
+      \strng{authornamehash}{1ea42210608fc521bff03c1b57641bff}
+      \strng{authorfullhash}{1ea42210608fc521bff03c1b57641bff}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://www.nasa.gov/image-article/installing-junos-radiation-vault/}}
+      \field{title}{Radiation vault characteristics}
+      \field{year}{2024}
+    \endentry
+    \entry{atmosphere}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=88f8533425775f59b8bc206277efa3f2}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Connerney},
+           giveni={C\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{88f8533425775f59b8bc206277efa3f2}
+      \strng{fullhash}{88f8533425775f59b8bc206277efa3f2}
+      \strng{bibnamehash}{88f8533425775f59b8bc206277efa3f2}
+      \strng{authorbibnamehash}{88f8533425775f59b8bc206277efa3f2}
+      \strng{authornamehash}{88f8533425775f59b8bc206277efa3f2}
+      \strng{authorfullhash}{88f8533425775f59b8bc206277efa3f2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Journal of Geophysical Research: Planet}
+      \field{note}{Site: \url{https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2018GL077312}}
+      \field{title}{A New Model of Jupiter's Magnetic Field from Juno'sFirst Nine Orbits}
+      \field{year}{2018}
+    \endentry
+    \entry{look_inside_juno_mission}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6b4abdd86ffba2654cb9815f5e0be02a}{%
+           family={Grammier},
+           familyi={G\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{fullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{bibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/missions/juno}}
+      \field{title}{A Look Inside the Juno Mission to Jupiter}
+      \field{year}{2008}
+    \endentry
+    \entry{NASA2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8f3e93a380f883d9b3e36d1582bba3fe}{%
+           family={Laboratory},
+           familyi={L\bibinitperiod},
+           given={NASA\bibnamedelimb Jet\bibnamedelima Propulsion},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{fullhash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{bibnamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authorbibnamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authornamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authorfullhash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/juno/}}
+      \field{title}{NASA online press kit}
+      \field{year}{2024}
+    \endentry
+    \entry{NASA1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8f3e93a380f883d9b3e36d1582bba3fe}{%
+           family={Laboratory},
+           familyi={L\bibinitperiod},
+           given={NASA\bibnamedelimb Jet\bibnamedelima Propulsion},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{fullhash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{bibnamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authorbibnamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authornamehash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \strng{authorfullhash}{8f3e93a380f883d9b3e36d1582bba3fe}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://www.jpl.nasa.gov/news/nasas-juno-mission-expands-into-the-future}}
+      \field{title}{NASA’s Juno Mission Expands Into the Future}
+      \field{year}{2024}
+    \endentry
+    \entry{spaceflight101}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f22794f69ce5910cb4be68ff9026570d}{%
+           family={Various},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{bibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://spaceflight101.com/juno/juno-mission-trajectory-design/}}
+      \field{title}{Juno Mission and Trajectory Design}
+      \field{year}{2024}
+    \endentry
+    \entry{NASA_horizons}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=df7d714b65ab7678beee028abda41a75}{%
+           family={Horizons},
+           familyi={H\bibinitperiod},
+           given={NASA},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{df7d714b65ab7678beee028abda41a75}
+      \strng{fullhash}{df7d714b65ab7678beee028abda41a75}
+      \strng{bibnamehash}{df7d714b65ab7678beee028abda41a75}
+      \strng{authorbibnamehash}{df7d714b65ab7678beee028abda41a75}
+      \strng{authornamehash}{df7d714b65ab7678beee028abda41a75}
+      \strng{authorfullhash}{df7d714b65ab7678beee028abda41a75}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://ssd.jpl.nasa.gov/horizons/}}
+      \field{title}{Ephemerides Data}
+      \field{year}{2024}
     \endentry
   \enddatalist
 \endrefsection
