@@ -1,3 +1,13 @@
+% If/Else to customize final report and chapters separately
+\def\docctrl{chapter}
+\newcommand{\case}[2]{
+	\ifx\doc\docctrl
+		#1
+	\else
+		#2
+	\fi
+}
+
 % Centred figure command
 \newcommand{\cfig}[3]{
 \begin{figure}[H]
@@ -20,13 +30,14 @@
 }
 
 % Create new chapter (with sub-bibliography)
-\newcommand{\newchapter}[2]{
+\newcommand{\newchapter}[1]{
 \setcounter{chapter}{#1}
 \setcounter{section}{0}
-\chapter*{#2}
-\addcontentsline{toc}{chapter}{#2}
+\chapter*{Homework #1}
+\addcontentsline{toc}{chapter}{Homework #1}
 \begin{refsection}
 	\import{Chapters/H#1/}{Body}
+	\pagebreak
 	\printbibliography[heading=subbibintoc,title=Bibliography]
 \end{refsection}
 }
@@ -34,7 +45,7 @@
 % Create first page
 \newcommand{\firstpage}[1]{
 	\def\tit{#1}
-	\import{../../Config/}{title_page_chapter}
+	\case{\import{../../Config/}{title_page_chapter}}{\import{Config/}{title_page_chapter}}
 }
 
 % Create body and bibliography of the chapter
@@ -44,16 +55,6 @@
 	\pagebreak
 	\printbibliography[heading=bibintoc,title=Bibliography]
 \end{refsection}
-}
-
-% If/Else to customize final report and chapters separately
-\def\docctrl{chapter}
-\newcommand{\case}[2]{
-	\ifx\doc\docctrl
-		#1
-	\else
-		#2
-	\fi
 }
 
 % Poli logo image
