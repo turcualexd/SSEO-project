@@ -7,8 +7,8 @@
 \contentsline {section}{\numberline {4}Functional analysis}{2}{section.4}%
 \contentsline {section}{\numberline {5}Main mission phases}{3}{section.5}%
 \contentsline {section}{\numberline {6}ConOps}{3}{section.6}%
-\contentsline {section}{\numberline {7}Payload analysis}{3}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Instruments overview}{3}{subsection.7.1}%
+\contentsline {section}{\numberline {7}Payload analysis}{4}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Instruments overview}{4}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Payload and Goals correlation}{5}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Payload and Phases/ConOps correlation}{6}{subsection.7.3}%
 \contentsline {section}{\numberline {8}Mission analysis}{6}{section.8}%
