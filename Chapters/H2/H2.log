@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  22 MAR 2024 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  22 MAR 2024 18:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1080,7 +1080,7 @@ Package biblatex Info: ... file 'H2.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config/Poli_logo.pdf, id=30, 527.9725pt x 415.5525pt>
+<../../Config/Poli_logo.pdf, id=38, 527.9725pt x 415.5525pt>
 File: ../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/Poli_logo.pdf  used on input line 6.
@@ -1115,31 +1115,31 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
  (Body.tex (Sections/00_notation.tex) [1] (Sections/01_ma_and_dv.tex) (Sections/02_prop_architecture.tex
-<Images/axis.jpg, id=62, 791.95876pt x 278.03876pt>
+<Images/axis.jpg, id=72, 791.95876pt x 278.03876pt>
 File: Images/axis.jpg Graphic file (type jpg)
 <use Images/axis.jpg>
 Package pdftex.def Info: Images/axis.jpg  used on input line 8.
 (pdftex.def)             Requested size: 435.3303pt x 152.83693pt.
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 16.
+<Images/spin_direction.jpg, id=75, 495.65175pt x 187.902pt>
+File: Images/spin_direction.jpg Graphic file (type jpg)
+<use Images/spin_direction.jpg>
+Package pdftex.def Info: Images/spin_direction.jpg  used on input line 18.
+(pdftex.def)             Requested size: 332.89412pt x 126.20619pt.
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 20.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
-<Images/foto_thruster.jpg, id=65, 678.535pt x 360.34625pt>
+<Images/foto_thruster.jpg, id=81, 678.535pt x 360.34625pt>
 File: Images/foto_thruster.jpg Graphic file (type jpg)
 <use Images/foto_thruster.jpg>
-Package pdftex.def Info: Images/foto_thruster.jpg  used on input line 19.
-(pdftex.def)             Requested size: 384.11221pt x 203.98639pt.
-<Images/spin_direction.jpg, id=66, 495.65175pt x 187.902pt>
-File: Images/spin_direction.jpg Graphic file (type jpg)
-<use Images/spin_direction.jpg>
-Package pdftex.def Info: Images/spin_direction.jpg  used on input line 21.
-(pdftex.def)             Requested size: 384.11221pt x 145.62253pt.
+Package pdftex.def Info: Images/foto_thruster.jpg  used on input line 26.
+(pdftex.def)             Requested size: 358.50317pt x 190.38876pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 
-      [1 <./Images/axis.jpg> <./Images/foto_thruster.jpg>]) (Sections/03_reverse_prop.tex)) [2 <./Images/spin_direction.jpg>]
+l.27 
+      [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/axis.jpg> <./Images/spin_direction.jpg>]) (Sections/03_reverse_prop.tex)) [2 <./Images/foto_thruster.jpg>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1156,23 +1156,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H2.out' has not changed.
-(rerunfilecheck)             Checksum: 9A23BF9FB46D70F43407A4EA34A44A7E;1068.
+(rerunfilecheck)             Checksum: F86028956D324A80792D769689F9673E;1406.
 Package logreq Info: Writing requests to 'H2.run.xml'.
 \openout1 = `H2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23256 strings out of 474436
- 400757 string characters out of 5741955
- 1934190 words of memory out of 5000000
- 45220 multiletter control sequences out of 15000+600000
+ 23266 strings out of 474436
+ 401000 string characters out of 5741955
+ 1936190 words of memory out of 5000000
+ 45226 multiletter control sequences out of 15000+600000
  662730 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,9n,102p,1508b,1922s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H2.pdf (5 pages, 280452 bytes).
+<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H2.pdf (5 pages, 293454 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -569,6 +569,12 @@ INPUT .\Images\axis.jpg
 INPUT .\Images\axis.jpg
 INPUT .\Images\axis.jpg
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
+INPUT .\Images\spin_direction.jpg
+INPUT Images\spin_direction.jpg
+INPUT .\Images\spin_direction.jpg
+INPUT .\Images\spin_direction.jpg
+INPUT .\Images\spin_direction.jpg
+INPUT .\Images\spin_direction.jpg
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
@@ -580,12 +586,6 @@ INPUT .\Images\foto_thruster.jpg
 INPUT .\Images\foto_thruster.jpg
 INPUT .\Images\foto_thruster.jpg
 INPUT .\Images\foto_thruster.jpg
-INPUT .\Images\spin_direction.jpg
-INPUT Images\spin_direction.jpg
-INPUT .\Images\spin_direction.jpg
-INPUT .\Images\spin_direction.jpg
-INPUT .\Images\spin_direction.jpg
-INPUT .\Images\spin_direction.jpg
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
@@ -595,6 +595,7 @@ INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
 INPUT .\Sections\03_reverse_prop.tex
 INPUT .\Sections\03_reverse_prop.tex
 INPUT Sections\03_reverse_prop.tex
@@ -627,6 +628,8 @@ INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jk
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmit8a.pfb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmn8a.pfb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmn8a.pfb
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmne.pfb
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmne.pfb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpsy.pfb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpsy.pfb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpttmn8a.pfb

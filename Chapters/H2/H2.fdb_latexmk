@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H2"] 1711106341.67402 "H2.bcf" "H2.bbl" "H2" 1711106544.65945 0
-  "../../bibliography.bib" 1711105737 5813 5711c2121a42a15be3e17abf08bb9d43 ""
-  "H2.bcf" 1711106544 107316 9660bb2ca4b6869302ff781ec816e3db "pdflatex"
+["biber H2"] 1711126513.1565 "H2.bcf" "H2.bbl" "H2" 1711127696.77481 0
+  "../../bibliography.bib" 1711123266 6077 f08ddf06933c42bf6da3d06876ed8c0d ""
+  "H2.bcf" 1711127696 107448 09bd784adf87e47c368af4fd096c61ec "pdflatex"
   (generated)
   "H2.bbl"
   "H2.blg"
   (rewritten before read)
-["pdflatex"] 1711106542.35815 "c:/Users/paolo/Documents/GitHub/SSEO-project/Chapters/H2/H2.tex" "H2.pdf" "H2" 1711106544.66038 0
+["pdflatex"] 1711127694.57237 "c:/Users/paolo/Documents/GitHub/SSEO-project/Chapters/H2/H2.tex" "H2.pdf" "H2" 1711127696.77624 0
   "../../Config/Poli_logo.pdf" 1711096942 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config/commands.tex" 1711096942 1522 79a87f151e8bb55c34c99cccd4558b41 ""
   "../../Config/formats.tex" 1711096942 1789 a28d3049733e043b1996fefbcb6a97f4 ""
@@ -17,6 +17,7 @@
   "C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1710519952 95607 034e0737ccfe37fc78b0169eb44187f4 ""
   "C:/Users/paolo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1709996701 24233102 ffd0b880f648f975b92d2d4a3809c2a4 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
+  "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc" 1674488844 2639 b7bbeb66c016cde6fdcad9263fe54a4a ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/kpfonts/jkpbn8r.tfm" 1674488844 1704 3498d78dbc645488e6991702d2fcd9f1 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/kpfonts/jkpbn8t.tfm" 1674488844 20836 dd27a1f6f898752c993b50a7bfb0552d ""
@@ -46,6 +47,7 @@
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb" 1674488844 30461 69b749e6d9e6ecbcbda833c4699db58d ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb" 1674488844 37692 ff65f49f493de879aca846e1811bfa1f ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb" 1674488844 35294 e88bb6b7bdd82f594dee041ddea9423c ""
+  "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb" 1674488844 18013 a3754f8df0b4dd3a76b5353fabb31650 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb" 1674488844 25860 1e4d17fc7bf1d0b47e9b47e6099f1971 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb" 1674488844 29290 b94d44d3fae42765ed5c2398183bb1ca ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpbn8t.vf" 1674488844 1800 bde6e91770b65baf214fcc34f4229391 ""
@@ -158,20 +160,20 @@
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H2.aux" 1711106544 2585 b242d076884e77fdc8f383ff3969accc "pdflatex"
-  "H2.bbl" 1711106344 2560 8af5c8f7895c3f484b0139342da7b67c "biber H2"
-  "H2.out" 1711106544 1068 9a23bf9fb46d70f43407a4ea34a44a7e "pdflatex"
-  "H2.run.xml" 1711106544 2299 de1ff631824165bc5d0e9227c082121d "pdflatex"
-  "H2.tex" 1711096942 309 89c6e0dd82f4e82c9af482c2655963ed ""
-  "H2.toc" 1711106544 535 335dd761afc382cacda79e9827cf3b58 "pdflatex"
+  "H2.aux" 1711127696 3114 54a66e1e38e3e40cd804e5b716be5ecf "pdflatex"
+  "H2.bbl" 1711126516 3728 5d5784cdfbc1df1c346ba4f76eda22d4 "biber H2"
+  "H2.out" 1711127696 1406 f86028956d324a80792d769689f9673e "pdflatex"
+  "H2.run.xml" 1711127696 2299 de1ff631824165bc5d0e9227c082121d "pdflatex"
+  "H2.tex" 1711126573 309 89c6e0dd82f4e82c9af482c2655963ed ""
+  "H2.toc" 1711127696 710 7f2a038301487807e16b3a4abfd1f040 "pdflatex"
   "Images/axis.jpg" 1711098131 45590 1b0cb2fb4e6857938cf818c1c22b8105 ""
   "Images/foto_thruster.jpg" 1711097986 45847 5fc9493e0180bd7b092a2366f653c806 ""
   "Images/spin_direction.jpg" 1711098080 64955 ac8e65894da5f47f17ef02dfd23dc973 ""
-  "Sections/00_notation.tex" 1711102685 795 4b9e29b06ccef3fd5fa196a03d6075d3 ""
+  "Sections/00_notation.tex" 1711126509 834 2b183334d4a02dd87f4b54926d0d745e ""
   "Sections/01_ma_and_dv.tex" 1711096942 123 8c2b919bc2c6d5c0a4141059a013fa93 ""
-  "Sections/02_prop_architecture.tex" 1711106541 1946 2c066ac0d4f1be1df07d93ba54ebef52 ""
+  "Sections/02_prop_architecture.tex" 1711127693 4569 4ae371a2a14aeb148b4eafa7415b8484 ""
   "Sections/03_reverse_prop.tex" 1711096942 80 67a7e5672fae1c22503ad10a7bd33cc5 ""
-  "c:/Users/paolo/Documents/GitHub/SSEO-project/Chapters/H2/H2.tex" 1711096942 309 89c6e0dd82f4e82c9af482c2655963ed ""
+  "c:/Users/paolo/Documents/GitHub/SSEO-project/Chapters/H2/H2.tex" 1711126573 309 89c6e0dd82f4e82c9af482c2655963ed ""
   (generated)
   "H2.aux"
   "H2.bcf"

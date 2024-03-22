@@ -61,6 +61,31 @@
       \field{note}{Site: \url{https://www.nammo.com/wp-content/uploads/2021/03/2021-Nammo-Westcott-Liquid-Engine-LEROS1B.pdf}}
       \field{title}{Leros 1-b engine}
     \endentry
+    \entry{junno_inner}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1f38713a359af2dce5019a1ed3b581fa}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi Pavlak},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{fullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{bibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorbibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{AIAA space forum}
+      \field{note}{Site: \url{https://arc.aiaa.org/}}
+      \field{title}{Maneuver Design for the Juno Mission: Inner Cruise}
+      \field{year}{2018}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  22 MAR 2024 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  22 MAR 2024 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1081,7 +1081,7 @@ Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (Config/title_page_chapter.tex
-<Config/Poli_logo.pdf, id=105, 527.9725pt x 415.5525pt>
+<Config/Poli_logo.pdf, id=113, 527.9725pt x 415.5525pt>
 File: Config/Poli_logo.pdf Graphic file (type pdf)
 <use Config/Poli_logo.pdf>
 Package pdftex.def Info: Config/Poli_logo.pdf  used on input line 6.
@@ -1130,31 +1130,31 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [2]) (Chapters/H1/Sections/04_functional_analysis.tex
-<Chapters/H1/Images/functional_analysis.pdf, id=202, 1656.9403pt x 1837.61531pt>
+<Chapters/H1/Images/functional_analysis.pdf, id=212, 1656.9403pt x 1837.61531pt>
 File: Chapters/H1/Images/functional_analysis.pdf Graphic file (type pdf)
 <use Chapters/H1/Images/functional_analysis.pdf>
 Package pdftex.def Info: Chapters/H1/Images/functional_analysis.pdf  used on input line 6.
 (pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
 ) (Chapters/H1/Sections/05_phases.tex [3 <./Chapters/H1/Images/functional_analysis.pdf>]) (Chapters/H1/Sections/06_conops.tex
-<Chapters/H1/Images/ConOps.pdf, id=217, 1596.39159pt x 499.24263pt>
+<Chapters/H1/Images/ConOps.pdf, id=227, 1596.39159pt x 499.24263pt>
 File: Chapters/H1/Images/ConOps.pdf Graphic file (type pdf)
 <use Chapters/H1/Images/ConOps.pdf>
 Package pdftex.def Info: Chapters/H1/Images/ConOps.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
 ) [4 <./Chapters/H1/Images/ConOps.pdf>] (Chapters/H1/Sections/07_payload.tex [5]
-<Chapters/H1/Images/Strumenti Juno.jpg, id=250, 1606.0pt x 1159.33125pt>
+<Chapters/H1/Images/Strumenti Juno.jpg, id=260, 1606.0pt x 1159.33125pt>
 File: Chapters/H1/Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Chapters/H1/Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Chapters/H1/Images/Strumenti Juno.jpg  used on input line 31.
 (pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
  [6 <./Chapters/H1/Images/Strumenti Juno.jpg>]) (Chapters/H1/Sections/08_mission_analysis.tex
-<Chapters/H1/Images/orbits.png, id=260, 305.943pt x 509.2626pt>
+<Chapters/H1/Images/orbits.png, id=270, 305.943pt x 509.2626pt>
 File: Chapters/H1/Images/orbits.png Graphic file (type png)
 <use Chapters/H1/Images/orbits.png>
 Package pdftex.def Info: Chapters/H1/Images/orbits.png  used on input line 7.
 (pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
  [7 <./Chapters/H1/Images/orbits.png (PNG copy)>]
-<Chapters/H1/Images/orbits_jupiter.jpg, id=275, 2609.75pt x 919.435pt>
+<Chapters/H1/Images/orbits_jupiter.jpg, id=285, 2609.75pt x 919.435pt>
 File: Chapters/H1/Images/orbits_jupiter.jpg Graphic file (type jpg)
 <use Chapters/H1/Images/orbits_jupiter.jpg>
 Package pdftex.def Info: Chapters/H1/Images/orbits_jupiter.jpg  used on input line 53.
@@ -1173,36 +1173,46 @@ Package biblatex Info: Setting label 'refsection:2' on input line 2.
  (Chapters/H2/Body.tex (Chapters/H2/Sections/00_notation.tex) [10
 
 ] (Chapters/H2/Sections/01_ma_and_dv.tex) (Chapters/H2/Sections/02_prop_architecture.tex
-<Chapters/H2/Images/axis.jpg, id=314, 791.95876pt x 278.03876pt>
+<Chapters/H2/Images/axis.jpg, id=324, 791.95876pt x 278.03876pt>
 File: Chapters/H2/Images/axis.jpg Graphic file (type jpg)
 <use Chapters/H2/Images/axis.jpg>
 Package pdftex.def Info: Chapters/H2/Images/axis.jpg  used on input line 8.
 (pdftex.def)             Requested size: 435.3303pt x 152.83693pt.
-) (Chapters/H2/Sections/03_reverse_prop.tex)) [11 <./Chapters/H2/Images/axis.jpg>]
+<Chapters/H2/Images/spin_direction.jpg, id=327, 495.65175pt x 187.902pt>
+File: Chapters/H2/Images/spin_direction.jpg Graphic file (type jpg)
+<use Chapters/H2/Images/spin_direction.jpg>
+Package pdftex.def Info: Chapters/H2/Images/spin_direction.jpg  used on input line 18.
+(pdftex.def)             Requested size: 332.89412pt x 126.20619pt.
+<Chapters/H2/Images/foto_thruster.jpg, id=333, 678.535pt x 360.34625pt>
+File: Chapters/H2/Images/foto_thruster.jpg Graphic file (type jpg)
+<use Chapters/H2/Images/foto_thruster.jpg>
+Package pdftex.def Info: Chapters/H2/Images/foto_thruster.jpg  used on input line 26.
+(pdftex.def)             Requested size: 358.50317pt x 190.38876pt.
+ [11 <./Chapters/H2/Images/axis.jpg> <./Chapters/H2/Images/spin_direction.jpg>]) (Chapters/H2/Sections/03_reverse_prop.tex)) [12 <./Chapters/H2/Images/foto_thruster.jpg>]
 Package biblatex Info: Reference section=0 on input line 2.
-) [12] (SSEO_final_report.aux)
+) [13] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 50CEC76338AEA11A927B799EDEA7CACA;4039.
+(rerunfilecheck)             Checksum: 2C4932E3603E171DD0AEF1EFEC6C4929;4387.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23640 strings out of 474436
- 412115 string characters out of 5741955
+ 23688 strings out of 474436
+ 413610 string characters out of 5741955
  1945190 words of memory out of 5000000
- 45482 multiletter control sequences out of 15000+600000
+ 45521 multiletter control sequences out of 15000+600000
  678716 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,13n,102p,1944b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (14 pages, 1229922 bytes).
+Output written on SSEO_final_report.pdf (15 pages, 1353243 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 244 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

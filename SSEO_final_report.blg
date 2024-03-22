@@ -1,25 +1,25 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'SSEO_final_report.blg'
-[140] biber-MSWIN64:340> INFO - === 
-[182] Biber.pm:419> INFO - Reading 'SSEO_final_report.bcf'
-[304] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[306] Biber.pm:979> INFO - Found 16 citekeys in bib section 1
-[306] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[306] Biber.pm:979> INFO - Found 1 citekeys in bib section 2
-[306] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[332] Biber.pm:4419> INFO - Processing section 1
-[346] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 1
-[401] bibtex.pm:1713> INFO - LaTeX decoding ...
-[430] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[508] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[508] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[508] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[508] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[518] Biber.pm:4419> INFO - Processing section 2
-[518] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 2
-[554] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[554] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[554] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[554] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[555] bbl.pm:660> INFO - Writing 'SSEO_final_report.bbl' with encoding 'UTF-8'
-[562] bbl.pm:763> INFO - Output to SSEO_final_report.bbl
+[152] biber-MSWIN64:340> INFO - === 
+[197] Biber.pm:419> INFO - Reading 'SSEO_final_report.bcf'
+[323] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[324] Biber.pm:979> INFO - Found 16 citekeys in bib section 1
+[324] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[324] Biber.pm:979> INFO - Found 3 citekeys in bib section 2
+[324] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[351] Biber.pm:4419> INFO - Processing section 1
+[365] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 1
+[430] bibtex.pm:1713> INFO - LaTeX decoding ...
+[462] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[556] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[556] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[556] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[556] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[569] Biber.pm:4419> INFO - Processing section 2
+[569] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 2
+[622] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[623] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[624] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[624] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[630] bbl.pm:660> INFO - Writing 'SSEO_final_report.bbl' with encoding 'UTF-8'
+[645] bbl.pm:763> INFO - Output to SSEO_final_report.bbl
