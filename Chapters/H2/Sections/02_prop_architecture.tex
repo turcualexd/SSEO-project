@@ -1,3 +1,23 @@
 \section{Propulsion system architecture}
 \label{sec:prop_architecture}
 
+% descrizione del sdr 
+
+The spacecraft axes are defined as shown in \autoref{fig:axis}: the +Z axis is aligned with the HGA, the +X is aligned with the MAG boom while the +Y axis is in the direction of cross product between +Z and +X.
+
+\cfig{axis}{0.85}{Axis description}
+
+\subsection{ME and RCS}
+% diciamo cosa abbiamo a bordo, tank e nozzles
+Juno is equipped with a dual mode propulsion subsystem: the bi-propellant ME uses the hypergolic couple Hydrazine and Nitrogen tetroxide($N_2H_4 - N_2O_4$). This engine is utilized during the DSMs, JOI and PRM.  The RCS uses only Hydrazine as mono-propellant and it is used for TCMs, attitude control and SK. 
+
+The ME is a Leros-1b, was built by Nammo \cite{Leros},  
+and produces about 662 N of thrust with $I_s$ of 318.6 $s$. It is and mounted inside the body of the spacecraft along the -Z-axis, centred between the propellant tanks and under the electronic vault. This solution has probably been adopted due to space requirements inside the Atlas V fairing. The ME is also shielded by an hatch that opens when a manuever is needed. 
+The RCS is composed by four REMs, each of them mounted along the plus and minus Y axes, as shown in \autoref{fig:spin_direction} and housing three thrusters providing a thrust of 4.5 N with $I_s$ of 220$s$. The REMs are installed on pylons, raised respectively by 74 cm on the top deck and about 26 cm on the lower deck. Moreover, always with the need of limiting the interaction of the exhaust gasses with the on board instruments, mainly mounted on the top deck, and solar panels, the axial thrusters are canted 10 \textdegree  away from the Z-axis while the lateral thrusters are canted 5\textdegree away from the X-axis and 12.5\textdegree toward the Z-axis 
+
+
+\cfig{foto_thruster}{0.75}{RCS fordward mount}
+
+\cfig{spin_direction}{0.75}{Forward and Aft deck view}
+
+
