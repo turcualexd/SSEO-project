@@ -422,6 +422,45 @@
       \field{note}{Site: \url{https://www.nammo.com/wp-content/uploads/2021/03/2021-Nammo-Westcott-Liquid-Engine-LEROS1B.pdf}}
       \field{title}{Leros 1-b engine}
     \endentry
+    \entry{s405}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=62fe1804969ebabf198b89b19325673b}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Dr.\bibnamedelimi Edward.\bibnamedelimi J.\bibnamedelimi Wucherer},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{62fe1804969ebabf198b89b19325673b}
+      \strng{fullhash}{62fe1804969ebabf198b89b19325673b}
+      \strng{bibnamehash}{62fe1804969ebabf198b89b19325673b}
+      \strng{authorbibnamehash}{62fe1804969ebabf198b89b19325673b}
+      \strng{authornamehash}{62fe1804969ebabf198b89b19325673b}
+      \strng{authorfullhash}{62fe1804969ebabf198b89b19325673b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{AIAA space forum}
+      \field{note}{Site: \url{https://arc.aiaa.org/doi/epdf/10.2514/6.2013-4053}}
+      \field{title}{Improving and Testing S-405 Catalyst}
+      \field{year}{2013}
+    \endentry
+    \entry{RCS_info}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online Communication}
+      \field{note}{Site: \url{https://spaceref.com/press-release/aerojet-rocketdyne-propulsion-plays-critical-role-in-juno-mission-to-study-jupiter/#:~:text=Aerojet%20Rocketdyne%2C%20a%20subsidiary%20of%20Aerojet%20Rocketdyne%20Holdings%2C,more%20about%20its%20origins%2C%20structure%2C%20atmosphere%20and%20magnetosphere.}}
+      \field{title}{Aerojet Rocketdyne Propulsion Plays Critical Role in Juno Mission to Study Jupiter}
+      \field{year}{2016}
+    \endentry
+    \entry{RCS_values}{misc}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{http://www.astronautix.com/m/mr-111.html}}
+      \field{title}{MR-111C datasheet}
+    \endentry
     \entry{junno_inner}{misc}{}
       \name{author}{1}{}{%
         {{hash=1f38713a359af2dce5019a1ed3b581fa}{%
@@ -438,8 +477,8 @@
       \strng{authorbibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
       \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
       \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{AIAA space forum}

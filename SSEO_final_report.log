@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  22 MAR 2024 17:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  23 MAR 2024 08:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1061,7 +1061,6 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 8.
- (SSEO_final_report.out) (SSEO_final_report.out)
 \@outlinefile=\write4
 \openout4 = `SSEO_final_report.out'.
 
@@ -1078,10 +1077,22 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
  (SSEO_final_report.bbl)
-Package biblatex Info: Reference section=0 on input line 8.
-Package biblatex Info: Reference segment=0 on input line 8.
- (Config/title_page_chapter.tex
-<Config/Poli_logo.pdf, id=113, 527.9725pt x 415.5525pt>
+Runaway argument?
+{Site: \url {https://spaceref.com/press-release/aerojet-rocketdyne-pr\ETC.
+c:/Users/paolo/Documents/GitHub/SSEO-project/SSEO_final_report.tex:8: File ended while scanning use of \field.
+<inserted text> 
+                \par 
+l.8 \begin{document}
+                    
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Package biblatex Info: Reference section=2 on input line 8.
+Package biblatex Info: Reference section/segment=2/0 on input line 8.
+(Config/title_page_chapter.tex
+<Config/Poli_logo.pdf, id=3, 527.9725pt x 415.5525pt>
 File: Config/Poli_logo.pdf Graphic file (type pdf)
 <use Config/Poli_logo.pdf>
 Package pdftex.def Info: Config/Poli_logo.pdf  used on input line 6.
@@ -1107,112 +1118,208 @@ LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 3
 File: ujkpsyc.fd 2006/08/15 v1.0
 ) [1
 
-{C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Config/Poli_logo.pdf>]) (SSEO_final_report.toc)
+{C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Config/Poli_logo.pdf>])
+No file SSEO_final_report.toc.
 \tf@toc=\write5
 \openout5 = `SSEO_final_report.toc'.
 
- [1
+[1
 
 ] (Body.tex
-\blx@maxsegment@1=\count457
-\blx@sectionciteorder@1=\count458
-Package biblatex Info: Reference section=1 on input line 1.
-Package biblatex Info: Setting label 'refsection:1' on input line 1.
- (Chapters/H1/Body.tex (Chapters/H1/Sections/00_notation.tex)
+Body.tex:1: Missing number, treated as zero.
+<to be read again> 
+                   \global 
+l.1 \newchapter{1}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Body.tex:1: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.1 \newchapter{1}
+                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Body.tex:1: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H1/.
+l.1 \newchapter{1}
+                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Body.tex:1: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.1 \newchapter{1}
+                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Body.tex:1: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H1/.
+l.1 \newchapter{1}
+                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Body.tex:1: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.1 \newchapter{1}
+                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Body.tex:1: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H1/.
+l.1 \newchapter{1}
+                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+(C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+
+LaTeX Warning: Empty bibliography on input line 1.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 \case
-         {\pagenumbering{arabic}}{} [1
+l.2 \newchapter{2}
+                   [1
 
-{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Chapters/H1/Sections/01_introduction.tex) (Chapters/H1/Sections/02_goals.tex) (Chapters/H1/Sections/03_drivers.tex
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
-File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-) [2]) (Chapters/H1/Sections/04_functional_analysis.tex
-<Chapters/H1/Images/functional_analysis.pdf, id=212, 1656.9403pt x 1837.61531pt>
-File: Chapters/H1/Images/functional_analysis.pdf Graphic file (type pdf)
-<use Chapters/H1/Images/functional_analysis.pdf>
-Package pdftex.def Info: Chapters/H1/Images/functional_analysis.pdf  used on input line 6.
-(pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
-) (Chapters/H1/Sections/05_phases.tex [3 <./Chapters/H1/Images/functional_analysis.pdf>]) (Chapters/H1/Sections/06_conops.tex
-<Chapters/H1/Images/ConOps.pdf, id=227, 1596.39159pt x 499.24263pt>
-File: Chapters/H1/Images/ConOps.pdf Graphic file (type pdf)
-<use Chapters/H1/Images/ConOps.pdf>
-Package pdftex.def Info: Chapters/H1/Images/ConOps.pdf  used on input line 6.
-(pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
-) [4 <./Chapters/H1/Images/ConOps.pdf>] (Chapters/H1/Sections/07_payload.tex [5]
-<Chapters/H1/Images/Strumenti Juno.jpg, id=260, 1606.0pt x 1159.33125pt>
-File: Chapters/H1/Images/Strumenti Juno.jpg Graphic file (type jpg)
-<use Chapters/H1/Images/Strumenti Juno.jpg>
-Package pdftex.def Info: Chapters/H1/Images/Strumenti Juno.jpg  used on input line 31.
-(pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
- [6 <./Chapters/H1/Images/Strumenti Juno.jpg>]) (Chapters/H1/Sections/08_mission_analysis.tex
-<Chapters/H1/Images/orbits.png, id=270, 305.943pt x 509.2626pt>
-File: Chapters/H1/Images/orbits.png Graphic file (type png)
-<use Chapters/H1/Images/orbits.png>
-Package pdftex.def Info: Chapters/H1/Images/orbits.png  used on input line 7.
-(pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
- [7 <./Chapters/H1/Images/orbits.png (PNG copy)>]
-<Chapters/H1/Images/orbits_jupiter.jpg, id=285, 2609.75pt x 919.435pt>
-File: Chapters/H1/Images/orbits_jupiter.jpg Graphic file (type jpg)
-<use Chapters/H1/Images/orbits_jupiter.jpg>
-Package pdftex.def Info: Chapters/H1/Images/orbits_jupiter.jpg  used on input line 53.
-(pdftex.def)             Requested size: 460.93153pt x 162.39066pt.
-)) [8 <./Chapters/H1/Images/orbits_jupiter.jpg>]
-LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 1.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
-File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
-)
-Package biblatex Info: Reference section=0 on input line 1.
- [9]
-\blx@maxsegment@2=\count459
-\blx@sectionciteorder@2=\count460
-Package biblatex Info: Reference section=2 on input line 2.
-Package biblatex Info: Setting label 'refsection:2' on input line 2.
- (Chapters/H2/Body.tex (Chapters/H2/Sections/00_notation.tex) [10
+]
+Body.tex:2: Missing number, treated as zero.
+<to be read again> 
+                   \global 
+l.2 \newchapter{2}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-] (Chapters/H2/Sections/01_ma_and_dv.tex) (Chapters/H2/Sections/02_prop_architecture.tex
-<Chapters/H2/Images/axis.jpg, id=324, 791.95876pt x 278.03876pt>
-File: Chapters/H2/Images/axis.jpg Graphic file (type jpg)
-<use Chapters/H2/Images/axis.jpg>
-Package pdftex.def Info: Chapters/H2/Images/axis.jpg  used on input line 8.
-(pdftex.def)             Requested size: 435.3303pt x 152.83693pt.
-<Chapters/H2/Images/spin_direction.jpg, id=327, 495.65175pt x 187.902pt>
-File: Chapters/H2/Images/spin_direction.jpg Graphic file (type jpg)
-<use Chapters/H2/Images/spin_direction.jpg>
-Package pdftex.def Info: Chapters/H2/Images/spin_direction.jpg  used on input line 18.
-(pdftex.def)             Requested size: 332.89412pt x 126.20619pt.
-<Chapters/H2/Images/foto_thruster.jpg, id=333, 678.535pt x 360.34625pt>
-File: Chapters/H2/Images/foto_thruster.jpg Graphic file (type jpg)
-<use Chapters/H2/Images/foto_thruster.jpg>
-Package pdftex.def Info: Chapters/H2/Images/foto_thruster.jpg  used on input line 26.
-(pdftex.def)             Requested size: 358.50317pt x 190.38876pt.
- [11 <./Chapters/H2/Images/axis.jpg> <./Chapters/H2/Images/spin_direction.jpg>]) (Chapters/H2/Sections/03_reverse_prop.tex)) [12 <./Chapters/H2/Images/foto_thruster.jpg>]
-Package biblatex Info: Reference section=0 on input line 2.
-) [13] (SSEO_final_report.aux)
+Body.tex:2: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.2 \newchapter{2}
+                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Body.tex:2: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H2/.
+l.2 \newchapter{2}
+                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Body.tex:2: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.2 \newchapter{2}
+                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Body.tex:2: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H2/.
+l.2 \newchapter{2}
+                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Body.tex:2: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.2 \newchapter{2}
+                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Body.tex:2: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H2/.
+l.2 \newchapter{2}
+                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+(C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+
+LaTeX Warning: Empty bibliography on input line 2.
+
+) [2
+
+]
+
+Package caption Warning: Unused \captionsetup[table] on input line 57.
+See the caption package documentation for explanation.
+
+\blx@sectionciteorder@2=\count457
+(SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 2C4932E3603E171DD0AEF1EFEC6C4929;4387.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `SSEO_final_report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SSEO_final_report.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  98C3E696E44AFC3F8B33E52EAEC99EA2;278.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                SSEO_final_report
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 3)
+
+### semi simple group (level 3) entered at line 381 (\begingroup)
+### semi simple group (level 2) entered at line 8 (\begingroup)
+### semi simple group (level 1) entered at line 8 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 23688 strings out of 474436
- 413610 string characters out of 5741955
- 1945190 words of memory out of 5000000
- 45521 multiletter control sequences out of 15000+600000
- 678716 words of font info for 175 fonts, out of 8000000 for 9000
+ 22832 strings out of 474436
+ 392848 string characters out of 5741955
+ 1932190 words of memory out of 5000000
+ 44851 multiletter control sequences out of 15000+600000
+ 609062 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,13n,102p,1944b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (15 pages, 1353243 bytes).
+ 87i,6n,102p,1511b,2365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb>
+Output written on SSEO_final_report.pdf (4 pages, 69513 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
