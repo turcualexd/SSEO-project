@@ -116,6 +116,7 @@
       \strng{authorbibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
       \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
       \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \field{extraname}{1}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -124,6 +125,39 @@
       \field{note}{Site: \url{https://arc.aiaa.org/}}
       \field{title}{Maneuver Design for the Juno Mission: Inner Cruise}
       \field{year}{2018}
+    \endentry
+    \entry{2tankshe}{misc}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://www.missionjuno.swri.edu/launch}}
+      \field{title}{AMOUNT OF FUEL}
+    \endentry
+    \entry{he_tank}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5bf2c942cf2ff665b17c6854e3c4a11d}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Dr.\bibnamedelimi Mary\bibnamedelimb M.\bibnamedelimi Mellott},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \strng{fullhash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \strng{bibnamehash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \strng{authorbibnamehash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \strng{authornamehash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \strng{authorfullhash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Nasa SSDCA}
+      \field{note}{Site: \url{https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-040A}}
+      \field{title}{NSSDCA/COSPAR ID: 2011-040A}
+      \field{year}{2022}
     \endentry
   \enddatalist
 \endrefsection

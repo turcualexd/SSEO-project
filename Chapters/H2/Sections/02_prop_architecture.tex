@@ -3,34 +3,41 @@
 
 % descrizione del sdr 
 
-The spacecraft axes are defined as shown in \autoref{fig:axis}: the +Z-axis is aligned with the HGA, the +X-axis is aligned with the MAG boom while the +Y-axis is in the direction of cross product between +Z-axis and +X-axis.
+The spacecraft axes are defined as shown in \autoref{fig:axis}: the spacecraft is spinning along the +Z-axis, aligned with the HGA. The +X-axis is aligned with the MAG boom while the +Y-axis is in the direction of cross product between +Z-axis and +X-axis.
 
 \cfig{axis}{0.65}{Axis description}
 
 \subsection{Main Engine and RCS}
 \label{sec:me and rcs}
 % diciamo cosa abbiamo a bordo, tank e nozzles
-Juno is equipped with a dual mode propulsion subsystem: the bi-propellant ME uses the hypergolic couple hydrazine and nitrogen tetroxide($N_2H_4 - N_2O_4$).
-The ME is a Leros-1b, built by Nammo \cite{Leros}, and produces about 662 N of thrust with a $I_s$ of 318.6 $s$. This engine is utilized during the DSMs, JOI and PRM. It is mounted inside the body of the spacecraft along the -Z-axis, centred between the propellant tanks and under the electronic vault. This solution has probably been adopted due to space requirements inside the Atlas V fairing and safety precautions during the cruise phase. The ME is also shielded by a hatch that opens when a manuever is needed.
-The RCS uses only hydrazine as mono-propellant and it is used for TCMs, attitude control and SK. The catalyst used to decompose the hydrazine is the S-405, an iridium on alumina formulation that grants decomposition of the monopropellant over a broad range of temperatures\cite{s405}. % qui non ho trovato le temperature, lascio? 
-The whole RCS is composed by four REMs, each of them mounted along the $\pm$Y-axis, as shown in \autoref{fig:spin_direction}. Each pylon houses three thrusters , the MR-111C by Aerojet Rocketdyne\cite{RCS_info}, providing a thrust of 4.5 N with $I_s$ of 220$s$ . Electrical power is required to operate the feeding, heating valves and the catalytic bed, amounting to a maximum of around 13 W at maximum\cite{RCS_values}. 
+Juno is equipped with a dual mode propulsion subsystem: the bi-propellant ME uses the hypergolic couple hydrazine and nitrogen tetroxide ($N_2H_4 - N_2O_4$) and RCS uses hydrazine as monopropellant. This choice has been made to simplify the design: fewer tanks are needed as fuel tanks are shared between the two systems. Moreover, the choice of this specific hypergolic couple is dictated by the storage requirements of the mission: in a five-year cruise reliability and sturdiness of the propulsive system was one of the main driver of the mission. Electric thrusters were discarded as TRL 9 technologies were required: other limitations such as power budget, an highly radioactive environment, weight and space inside the spacecraft required a more simple and light solution.  
+The ME is a Leros-1b, built by Nammo \cite{Leros}, and produces about 662 N of thrust with a $I_{s, ME}$ of 318.6 \;$s$. This engine is utilized during the DSMs, JOI and PRM. RIFERIMENTO ALLA SECTION PRECEDENTE It is mounted inside the body of the spacecraft along the -Z-axis, centred between the propellant tanks and under the electronic vault. This solution has probably been adopted due to space requirements inside the Atlas V fairing and safety precautions during the cruise phase. The ME is also shielded by a hatch that opens when a manuever is needed.
+The RCS is used for TCMs, attitude control and general SK. The catalyst used to decompose the hydrazine is the S-405, based on iridium and aluminum\cite{s405}.
+The whole RCS is composed by four REMs, each of them mounted along the $\pm$Y-axis on a pylon, as shown in \autoref{fig:spin2}. Each pylon houses three thrusters, the MR-111C by Aerojet Rocketdyne\cite{RCS_info}, pointed in different directions, providing a thrust of 4.5 N with $I_{s, RCS}$ of 220\;$s$ each. Electrical power is required to operate the feeding valves, heating valves and the catalytic bed, amounting to a maximum of around 13 W at maximum\cite{RCS_values}. 
 
-\cfig{spin_direction}{0.65}{Forward and Aft deck view}
+\cfig{spin2}{0.65}{Forward and Aft deck view}
 
-The REMs are installed on pylons, raised respectively by 74 cm on the top deck and about 26 cm on the lower deck as shown in \autoref{fig:foto_thruster}. Moreover, with the need of limiting the interaction of the exhaust gasses with the on board instruments, mainly mounted on the top deck, and solar panels, the axial thrusters are canted 10\textdegree away from the Z-axis while the lateral thrusters are canted 5\textdegree away from the X-axis and 12.5\textdegree toward the Z-axis \cite{junno_inner}.
+The pylons are raised respectively by 74 cm on the forward deck and about 26 cm on the aft deck as shown in \autoref{fig:foto_thruster}. With the need of limiting even more the interaction of the exhaust gasses with the on board instruments, mainly mounted on the top deck, and solar panels, the axial thrusters are canted 10\textdegree \; away from the Z-axis while the lateral thrusters are canted 5\textdegree \; away from the X-axis and 12.5\textdegree \; toward the Z-axis \cite{junno_inner}. This particular configuration of RCS is required since no RW nor any type of active attitude control is present on board the spacecraft: the ability of decoupling the forces and the momentum was thus required.
+Lateral thrusters are denominated with letter "L" while axial thrusters are denominated with letter "A", as can be seen bot from \autoref{fig:spin2} and \autoref{fig:foto_thruster}. This configuration increased the overall reliability of the propulsion system as "A" thrusters could be used as replacement of the ME for small manuevers. 
+
 \subsection{Maneuver Implementation Modes}
+\label{sec: manuever implemementation modes}
 
-Juno's manuever can be performed in two different modes: $vector\;mode$ and $turn-burn-turn$.
+Juno's manuever can be performed in two different modes: $vector-mode$ and $turn-burn-turn$. 
 
-The $vector\;mode$ consists of separated and coordinated axial and lateral burns from RCS thrusters, with the lateral thrusters denominated by letter "L" and axial thrusters denominated by letter "A" in both \autoref{fig:spin_direction} and \autoref{fig:foto_thruster}. As seen in \autoref{sec:me and rcs} the thrusters are not exactly perpendicular one to the other, so during a $vector\;mode$ manuever an induced axial $\Delta V$ is generated and must be compensated.
+The $vector-mode$ consists of separated and coordinated axial and lateral burns from RCS thrusters. As seen in \autoref{sec:me and rcs} the thrusters are not exactly perpendicular one to the other, so during a $vector-mode$ manuever an induced axial $\Delta V$ is generated and must be compensated.
 
 \cfig{foto_thruster}{0.65}{RCS fordward mount}
 
-The $turn-burn-turn$ mode consists in a sequence of RCS and ME burns: first the spacecraft slews to the design spinning rate of 5 RPM, than the ME is ignited and the manuever is performed. At last, the spacecraft slews back to its nominal spinning rate. This mode is used during all the ME burns. In this kind of manuever the RCS uses the "L" thrusters on the REMs. 
+The $turn-burn-turn$ mode consists in a sequence of RCS and ME burns: first the spacecraft slews to the design spinning rate of 5 RPM, than the ME is ignited and the manuever is performed. At last, the spacecraft slews back to its nominal spinning rate. This mode is used during all the ME burns. In this kind of manuever the RCS uses the "L" thrusters on the REMs. All ME manuevers are so performed. 
 
-\subsection{Tanks} DA CAMBIARE IN BASE ALLE INFO SULL'ELIO
+\subsection{Tanks} 
+\label{sec: tanks}
+Juno's tanks are equally distributed throughout its hexagonal shaped body. four tanks are needed to store hydrazine and two tanks are needed to store the oxidizer. As can be seen from \autoref{fig:foto_thruster}, the oxidizer ones (green tanks) are located along the X-axis, while fuel ones (blue ones) are placed in the remaining bays. All six tanks have a sphere-like shape for two main reasons: the sphere allows to have the most internal volume with the lowest possible surface and so both weight and heat exchange are limited.
 
-Juno's tanks are equally distributed throughout its hexagonal shaped body. 4 tanks are needed to store hydrazine and 2 tanks are needed to store the oxidizer. As can be seen from \autoref{fig:foto_thruster}, the oxidizer ones (green tanks) are located along the X-axis, while fuel ones (blue ones) are placed in the remaining bays. The 2 tanks containing the supercritic helium needed to pressurize the propellant system are placed below the oxidizer tanks. A system of valves regulates the pressure inside the tanks to allow nominal operations of the ME and RCS. MEFs are planned to flush the main propellant line and to increase the precision of the different manuevers. 
+The two tanks\cite{2tankshe} containing the supercritic helium needed to pressurize the propellant system are placed near solar wing one and solar wing two. Unlike fuel and oxidizer tanks, helium ones do not have a sphere like shape due to volume management inside the bays\cite{he_tank}: cylindrical tanks allows to fill better the gaps present under the main tanks. The positioning of the pressurant tanks breaks even more the symmetry of the mass distribution: this feature, in concomitance with the distribution of the propellant tanks, will make the COM not shifting only along the Z-axis unless other precautions were made in placing other internal components. 
+
+A system of valves regulates the pressure inside the tanks to allow nominal operations of the ME and RCS. All the tanks are insulated from their surroundings and heating elements are present on both tanks and feeding lines to ensure safe and nominal temperature inlet for the ME\cite{Leros}. MEFs are planned to flush the main propellant line and to increase the precision of the different manuevers. 
 In order to accomplish its mission, Juno holds about 2.000 Kg of propellant: about 1280 kg of fuel and 720 kg of oxidizer \cite{junno_inner}. A more detailed analysis of tanks will be conducted in QUI METTIAMO IL RIFERIMENTO AL SIZING
  
 % riferimento alla section con il dimensionamento 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  23 MAR 2024 09:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  24 MAR 2024 22:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1120,26 +1120,26 @@ File: Images/axis.jpg Graphic file (type jpg)
 <use Images/axis.jpg>
 Package pdftex.def Info: Images/axis.jpg  used on input line 8.
 (pdftex.def)             Requested size: 332.89412pt x 116.87305pt.
-<Images/spin_direction.jpg, id=78, 495.65175pt x 187.902pt>
-File: Images/spin_direction.jpg Graphic file (type jpg)
-<use Images/spin_direction.jpg>
-Package pdftex.def Info: Images/spin_direction.jpg  used on input line 18.
-(pdftex.def)             Requested size: 332.89412pt x 126.20619pt.
+<Images/spin2.png, id=78, 499.26524pt x 201.75375pt>
+File: Images/spin2.png Graphic file (type png)
+<use Images/spin2.png>
+Package pdftex.def Info: Images/spin2.png  used on input line 18.
+(pdftex.def)             Requested size: 332.89412pt x 134.52473pt.
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 20.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
-<Images/foto_thruster.jpg, id=84, 678.535pt x 360.34625pt>
-File: Images/foto_thruster.jpg Graphic file (type jpg)
-<use Images/foto_thruster.jpg>
-Package pdftex.def Info: Images/foto_thruster.jpg  used on input line 27.
-(pdftex.def)             Requested size: 332.89412pt x 176.78564pt.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 
-      [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/axis.jpg> <./Images/spin_direction.jpg>]) (Sections/03_reverse_prop.tex)) [2 <./Images/foto_thruster.jpg>]
+l.22 
+      [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/axis.jpg> <./Images/spin2.png>]
+<Images/foto_thruster.jpg, id=100, 678.535pt x 360.34625pt>
+File: Images/foto_thruster.jpg Graphic file (type jpg)
+<use Images/foto_thruster.jpg>
+Package pdftex.def Info: Images/foto_thruster.jpg  used on input line 30.
+(pdftex.def)             Requested size: 332.89412pt x 176.78564pt.
+) (Sections/03_reverse_prop.tex)) [2 <./Images/foto_thruster.jpg>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1162,17 +1162,17 @@ Package logreq Info: Writing requests to 'H2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23278 strings out of 474436
- 401403 string characters out of 5741955
- 1938190 words of memory out of 5000000
- 45235 multiletter control sequences out of 15000+600000
+ 23286 strings out of 474436
+ 401544 string characters out of 5741955
+ 1937190 words of memory out of 5000000
+ 45241 multiletter control sequences out of 15000+600000
  662730 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,9n,102p,1508b,1922s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H2.pdf (5 pages, 299209 bytes).
+Output written on H2.pdf (5 pages, 540083 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
+ 173 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
