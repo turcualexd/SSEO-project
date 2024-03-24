@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  21 MAR 2024 18:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  24 MAR 2024 22:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1080,7 +1080,7 @@ Package biblatex Info: ... file 'H2.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config//Poli_logo.pdf, id=26, 527.9725pt x 415.5525pt>
+<../../Config//Poli_logo.pdf, id=31, 527.9725pt x 415.5525pt>
 File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config//Poli_logo.pdf>
 Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
@@ -1119,7 +1119,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.19 \bodyandbib
-                 [1]
+                 [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1132,23 +1132,23 @@ See the caption package documentation for explanation.
 
 [2] (H2.aux)
 Package rerunfilecheck Info: File `H2.out' has not changed.
-(rerunfilecheck)             Checksum: C68A174737FE86360DD16853F048E940;955.
+(rerunfilecheck)             Checksum: 7F415EAB7928FDB81C58EEFBF7EA86A1;1177.
 Package logreq Info: Writing requests to 'H2.run.xml'.
 \openout1 = `H2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23330 strings out of 476361
- 405948 string characters out of 5788046
- 1857993 words of memory out of 5000000
- 43380 multiletter control sequences out of 15000+600000
- 610270 words of font info for 138 fonts, out of 8000000 for 9000
+ 23355 strings out of 476361
+ 406290 string characters out of 5788046
+ 1865993 words of memory out of 5000000
+ 43390 multiletter control sequences out of 15000+600000
+ 616216 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,9n,98p,1508b,1920s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H2.pdf (4 pages, 102057 bytes).
+ 87i,11n,98p,1508b,1920s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H2.pdf (4 pages, 135293 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

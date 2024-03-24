@@ -1,3 +1,45 @@
 \section{Reverse engineering of propulsion system}
 \label{sec:reverse_prop}
 
+As described in (REFERENCE), the propulsion system counts four tanks for storing hydrazine, two tanks for storing NTO and two tanks for storing helium.
+To better understand the reasoning behind this choice, a reverse sizing for both the propellants and the pressurizer has been conducted given the data on the engine, the $\Delta V$ highlighted in TABLE REF and the total dry mass $M_{dry}$ of the spacecraft.
+All the process has taken into account the standardized margins from ESA. (CITE ESA MARGINS)
+
+\subsection{Fuel and oxidizer tanks sizing}
+\label{subsec:fuel_ox_sizing}
+
+\begin{enumerate}[itemsep=5mm]
+    \item
+    The first values that have been computed are the necessary masses for the propellants through Tsiolkovsky equation. Since the ME and the RCS are fed by the same system but operate differently, their respective $\Delta V$ have to be calculated independently. To simplify the problem, all the $\Delta V$ for each engine type have been summed up. Then the budget for the ME is assumed to be completely spent before the budget for the RCS. Applying these suppositions, a good margin can be obtained on the masses.
+    \begin{gather}
+        M_{p,rcs} = 1.02 \cdot 1.2 \cdot M_{dry} \cdot \left[ \exp \left( \frac{1.05 \cdot \Delta V_{rcs}}{I_{s,rcs} \cdot g_0} \right) - 1 \right]
+        \\
+        M_{p,me} = 1.02 \cdot \left( 1.2 \cdot M_{dry} + M_{p,rcs} \right) \cdot \left[ \exp \left( \frac{1.05 \cdot \Delta V_{me}}{I_{s,me} \cdot g_0} \right) - 1 \right]
+    \end{gather}
+
+    \item
+    From $M_{p,me}$ and $M_{p,rcs}$, the masses of fuel and oxidizer are then computed. This is done by knowing the nominal $O/F$ ratio of the ME (CITE LEROS) and that the RCS only uses hydrazine as propellant.
+    Exploiting the density of the propellants, the total volumes for fuel and oxidizer are retrieved.
+    \begin{gather}
+        M_{ox} = \frac{O/F}{O/F + 1} \cdot M_{p,me}
+        \\
+        M_{f} = \frac{1}{O/F + 1} \cdot M_{p,me} + M_{p,rcs}
+    \end{gather}
+
+    \item
+    Having the total volumes of propellants, they have been split among the number of spherical tanks. Since the radius $r_{tank}$ obtained for the two types of tanks are very similar and having two different tanks is inconvenient, the larger one was selected.
+
+    \item
+    The pressure of the tanks $p_{tank}$ is kept constant (as described in (REFERENCE)). From the pressure and the volume of one tank, the required thickness $t_{tank}$ can be computed by choosing the material, characterized by its density $\rho$ and its tensile strength $\sigma$.
+    \begin{equation}
+        t_{tank} = \frac{r_{tank} p_{tank}}{2 \sigma}
+    \end{equation}
+
+    \item
+    The dry mass of one tank is then computed to select the material:
+    \begin{equation}
+        M_{tank} = \frac{4}{3} \pi \rho \left[ \left( r_{tank} + t_{tank} \right)^3 - r_{tank}^3 \right]
+    \end{equation}
+\end{enumerate}
+
+Three different materials have been taken into consideration, and the lighter configuration has been selected.

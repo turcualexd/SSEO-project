@@ -591,9 +591,16 @@ INPUT Sections\03_reverse_prop.tex
 INPUT .\Sections\03_reverse_prop.tex
 INPUT .\Sections\03_reverse_prop.tex
 INPUT Sections\03_reverse_prop.tex
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.fd
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.fd
@@ -613,6 +620,8 @@ INPUT H2.run.xml
 OUTPUT H2.run.xml
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbn8a.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbn8a.pfb
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpex.pfb
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpex.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmi.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmi.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmia.pfb
@@ -621,5 +630,9 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jk
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmit8a.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmn8a.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmn8a.pfb
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmne.pfb
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmne.pfb
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpsy.pfb
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpsy.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpttmn8a.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpttmn8a.pfb
