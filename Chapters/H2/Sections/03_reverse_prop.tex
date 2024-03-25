@@ -3,7 +3,7 @@
 
 As described in (REFERENCE), the propulsion system counts four tanks for storing hydrazine, two tanks for storing NTO and two tanks for storing helium.
 To better understand the reasoning behind this choice, a reverse sizing for both the propellants and the pressurizer has been conducted given the data on the engine, the $\Delta V$ highlighted in TABLE REF and the total dry mass $M_{dry}$ of the spacecraft.
-All the process has taken into account the standardized margins from ESA. (CITE ESA MARGINS)
+All the process has taken into account the standardized margins from ESA. \cite{esa_margins}
 
 \subsection{Fuel and oxidizer tanks sizing}
 \label{subsec:fuel_ox_sizing}
@@ -18,7 +18,7 @@ All the process has taken into account the standardized margins from ESA. (CITE 
     \end{gather}
 
     \item
-    From $M_{p,me}$ and $M_{p,rcs}$, the masses of fuel and oxidizer are then computed. This is done by knowing the nominal $O/F$ ratio of the ME (CITE LEROS) and that the RCS only uses hydrazine as propellant.
+    From $M_{p,me}$ and $M_{p,rcs}$, the masses of fuel and oxidizer are then computed. This is done by knowing the nominal $O/F$ ratio of the ME \cite{Leros} and that the RCS only uses hydrazine as propellant.
     Exploiting the density of the propellants, the total volumes for fuel and oxidizer are retrieved.
     \begin{gather}
         M_{ox} = \frac{O/F}{O/F + 1} \cdot M_{p,me}
@@ -43,3 +43,86 @@ All the process has taken into account the standardized margins from ESA. (CITE 
 \end{enumerate}
 
 Three different materials have been taken into consideration, and the lighter configuration has been selected.
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.3}
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        & \textbf{Ti6Al4V} & \textbf{Al7075} & \textbf{Stainless steel} \\
+        \hline
+        $\boldsymbol{\sigma \; [\textrm{\textbf{MPa}}]}$ &
+        950 & 510 & 1400 \\
+        \hline
+        $\boldsymbol{\rho \; [\textrm{\textbf{kg/m}}^3]}$ &
+        4500 & 2810 & 8100 \\
+        \hline
+        \hline
+        $\boldsymbol{t_{tank} \; [\textrm{\textbf{mm}}]}$ &
+        000 & 000 & 000 \\
+        \hline
+        $\boldsymbol{M_{tank} \; [\textrm{\textbf{kg}}]}$ &
+        \cellcolor{bluePoli!25}000 & 000 & 000 \\
+        \hline
+    \end{tabular}
+    \caption{Properties of the materials tested for the sizing of the tanks}
+    \label{table:materials}
+\end{table}
+
+\subsection{Pressurizer tanks sizing}
+\label{subsec:helium_sizing}
+
+\begin{enumerate}[itemsep=5mm]
+    \item
+    As a first approximation, the pressure for the helium tanks is supposed to be ten times the pressure for the propellant tanks $p_{tank}$, and helium is considered to be a perfect gas (actually it is in a supercritical state).
+    The temperature $T_{tank}$ for the tanks is assumed to be $20$ °C. Starting from these assumptions, the mass and the volume of the total required helium is computed as follows:
+    \begin{gather}
+        M_{He} = 1.2 \cdot \frac{p_{tank} \cdot 6 V_{tank} \cdot \gamma_{He}}{\left( 1 - 1/10 \right) R_{He} T_{tank}}
+        \\
+        V_{He} = \frac{M_{He} R_{He} T_{tank}}{10 p_{tank}}
+    \end{gather}
+
+    \item
+    Since the two tanks are cylindrical (REFERENCE), the geometry is undefined given only the volume of one tank. To add the missing constraint, a minimization of the total surface is assumed, which can minimize the internal stress due to pressure and the heat transfer through the walls (REFERENCE?).
+    \begin{align}
+        r_{tank,He} &= \left( \frac{1/2 V_{He}}{2 \pi} \right)^{1/3}
+        \\
+        h_{tank,He} &= \frac{1/2 V_{He}}{r_{tank,He}^2 \pi}
+    \end{align}
+
+    \item
+    As already done in \autoref{subsec:fuel_ox_sizing}, the thickness $t_{tank,He}$ is computed for the materials in \autoref{table:materials} as:
+    \begin{equation}
+        t_{tank,He} = \frac{r_{tank,He} \cdot 10 p_{tank}}{2 \sigma}
+    \end{equation}
+
+    \item
+    The dry mass of one tank is then computed to select the material:
+    \begin{equation}
+        M_{tank,He} = \rho \, h_{tank,He} \, \pi \, \left[ \left( r_{tank,He} + t_{tank,He} \right)^2 - r_{tank,He}^2 \right] + 2 \, \rho \, t_{tank,He} \, r_{tank,He}^2 \, \pi
+    \end{equation}
+\end{enumerate}
+
+As for the propellants tanks, titanium alloy appears to be the lightest solution (\autoref{table:sizing_helium}). This is the material most likely used for the tanks on the real satellite, and it is the most widely used in space due to its high strength to mass ratio and corrosion resistance.
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.3}
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        & \textbf{Ti6Al4V} & \textbf{Al7075} & \textbf{Stainless steel} \\
+        \hline
+        $\boldsymbol{t_{tank} \; [\textrm{\textbf{mm}}]}$ &
+        000 & 000 & 000 \\
+        \hline
+        $\boldsymbol{M_{tank} \; [\textrm{\textbf{kg}}]}$ &
+        \cellcolor{bluePoli!25}000 & 000 & 000 \\
+        \hline
+    \end{tabular}
+    \caption{Thickness and mass of helium tanks for different materials}
+    \label{table:sizing_helium}
+\end{table}
+
+\subsection{Comparison between real and sized system}
+\label{subsec:sizing_comparison}
+

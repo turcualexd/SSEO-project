@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  24 MAR 2024 18:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  25 MAR 2024 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1081,7 +1081,7 @@ Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (Config/title_page_chapter.tex
-<Config//Poli_logo.pdf, id=101, 527.9725pt x 415.5525pt>
+<Config//Poli_logo.pdf, id=106, 527.9725pt x 415.5525pt>
 File: Config//Poli_logo.pdf Graphic file (type pdf)
 <use Config//Poli_logo.pdf>
 Package pdftex.def Info: Config//Poli_logo.pdf  used on input line 6.
@@ -1130,31 +1130,31 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [2]) (Chapters/H1//Sections/04_functional_analysis.tex
-<Chapters/H1//Images/functional_analysis.pdf, id=197, 1656.9403pt x 1837.61531pt>
+<Chapters/H1//Images/functional_analysis.pdf, id=203, 1656.9403pt x 1837.61531pt>
 File: Chapters/H1//Images/functional_analysis.pdf Graphic file (type pdf)
 <use Chapters/H1//Images/functional_analysis.pdf>
 Package pdftex.def Info: Chapters/H1//Images/functional_analysis.pdf  used on input line 6.
 (pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
 ) (Chapters/H1//Sections/05_phases.tex [3 <./Chapters/H1//Images/functional_analysis.pdf>]) (Chapters/H1//Sections/06_conops.tex
-<Chapters/H1//Images/ConOps.pdf, id=212, 1596.39159pt x 499.24263pt>
+<Chapters/H1//Images/ConOps.pdf, id=218, 1596.39159pt x 499.24263pt>
 File: Chapters/H1//Images/ConOps.pdf Graphic file (type pdf)
 <use Chapters/H1//Images/ConOps.pdf>
 Package pdftex.def Info: Chapters/H1//Images/ConOps.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
 ) [4 <./Chapters/H1//Images/ConOps.pdf>] (Chapters/H1//Sections/07_payload.tex [5]
-<Chapters/H1//Images/Strumenti Juno.jpg, id=245, 1606.0pt x 1159.33125pt>
+<Chapters/H1//Images/Strumenti Juno.jpg, id=251, 1606.0pt x 1159.33125pt>
 File: Chapters/H1//Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Chapters/H1//Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Chapters/H1//Images/Strumenti Juno.jpg  used on input line 31.
 (pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
  [6 <./Chapters/H1//Images/Strumenti Juno.jpg>]) (Chapters/H1//Sections/08_mission_analysis.tex
-<Chapters/H1//Images/orbits.png, id=255, 305.943pt x 509.2626pt>
+<Chapters/H1//Images/orbits.png, id=261, 305.943pt x 509.2626pt>
 File: Chapters/H1//Images/orbits.png Graphic file (type png)
 <use Chapters/H1//Images/orbits.png>
 Package pdftex.def Info: Chapters/H1//Images/orbits.png  used on input line 7.
 (pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
  [7 <./Chapters/H1//Images/orbits.png (PNG copy)>]
-<Chapters/H1//Images/orbits_jupiter.jpg, id=270, 2609.75pt x 919.435pt>
+<Chapters/H1//Images/orbits_jupiter.jpg, id=276, 2609.75pt x 919.435pt>
 File: Chapters/H1//Images/orbits_jupiter.jpg Graphic file (type jpg)
 <use Chapters/H1//Images/orbits_jupiter.jpg>
 Package pdftex.def Info: Chapters/H1//Images/orbits_jupiter.jpg  used on input line 53.
@@ -1176,23 +1176,23 @@ Package biblatex Info: Setting label 'refsection:2' on input line 2.
 Package biblatex Info: Reference section=0 on input line 2.
 ) [12] (SSEO_final_report.aux)
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 9AAC34A0464EA0D6388DA8E362339C5D;3921.
+(rerunfilecheck)             Checksum: 8CC35C0A9A1A04AEAFAA88CA02EEC208;4150.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23801 strings out of 476361
- 418877 string characters out of 5788046
+ 23828 strings out of 476361
+ 419426 string characters out of 5788046
  1869993 words of memory out of 5000000
- 43714 multiletter control sequences out of 15000+600000
+ 43726 multiletter control sequences out of 15000+600000
  632934 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,13n,98p,1944b,1877s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (14 pages, 1181998 bytes).
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on SSEO_final_report.pdf (14 pages, 1202684 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 

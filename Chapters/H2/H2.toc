@@ -5,4 +5,6 @@
 \contentsline {section}{\numberline {2}Propulsion system architecture}{1}{section.2}%
 \contentsline {section}{\numberline {3}Reverse engineering of propulsion system}{1}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Fuel and oxidizer tanks sizing}{1}{subsection.3.1}%
-\contentsline {section}{Bibliography}{2}{equation.3.6}%
+\contentsline {subsection}{\numberline {3.2}Pressurizer tanks sizing}{2}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Comparison between real and sized system}{2}{subsection.3.3}%
+\contentsline {section}{Bibliography}{3}{subsection.3.3}%

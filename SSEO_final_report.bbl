@@ -402,6 +402,48 @@
       \field{title}{Juno Mission to Jupiter}
       \field{year}{2022}
     \endentry
+    \entry{esa_margins}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d514c60212474a803f48a06974d89110}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={European\bibnamedelima Space},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d514c60212474a803f48a06974d89110}
+      \strng{fullhash}{d514c60212474a803f48a06974d89110}
+      \strng{bibnamehash}{d514c60212474a803f48a06974d89110}
+      \strng{authorbibnamehash}{d514c60212474a803f48a06974d89110}
+      \strng{authornamehash}{d514c60212474a803f48a06974d89110}
+      \strng{authorfullhash}{d514c60212474a803f48a06974d89110}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Margin philosophy for science assessment studies}
+      \field{year}{2012}
+    \endentry
+    \entry{Leros}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fb2f7c65f5d2d087cd52f151c468dda8}{%
+           family={Nammo},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{fullhash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{bibnamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authorbibnamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authornamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authorfullhash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Journal of Geophysical Research: Planet}
+      \field{note}{Site: \url{https://www.nammo.com/wp-content/uploads/2021/03/2021-Nammo-Westcott-Liquid-Engine-LEROS1B.pdf}}
+      \field{title}{Leros 1-b engine}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
