@@ -43,23 +43,23 @@
     \endentry
     \entry{Leros}{misc}{}
       \name{author}{1}{}{%
-        {{hash=c73572c2d8da7c97f281d34f83caae96}{%
-           family={Nemmo},
+        {{hash=fb2f7c65f5d2d087cd52f151c468dda8}{%
+           family={Nammo},
            familyi={N\bibinitperiod}}}%
       }
-      \strng{namehash}{c73572c2d8da7c97f281d34f83caae96}
-      \strng{fullhash}{c73572c2d8da7c97f281d34f83caae96}
-      \strng{bibnamehash}{c73572c2d8da7c97f281d34f83caae96}
-      \strng{authorbibnamehash}{c73572c2d8da7c97f281d34f83caae96}
-      \strng{authornamehash}{c73572c2d8da7c97f281d34f83caae96}
-      \strng{authorfullhash}{c73572c2d8da7c97f281d34f83caae96}
+      \strng{namehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{fullhash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{bibnamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authorbibnamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authornamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authorfullhash}{fb2f7c65f5d2d087cd52f151c468dda8}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Journal of Geophysical Research: Planet}
       \field{note}{Site: \url{https://www.nammo.com/wp-content/uploads/2021/03/2021-Nammo-Westcott-Liquid-Engine-LEROS1B.pdf}}
-      \field{title}{Leros 1-b engine}
+      \field{title}{Leros-1b engine}
     \endentry
     \entry{s405}{misc}{}
       \name{author}{1}{}{%
@@ -131,7 +131,7 @@
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{note}{Site: \url{https://www.missionjuno.swri.edu/launch}}
-      \field{title}{AMOUNT OF FUEL}
+      \field{title}{Launch}
     \endentry
     \entry{he_tank}{misc}{}
       \name{author}{1}{}{%
@@ -158,6 +158,32 @@
       \field{note}{Site: \url{https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-040A}}
       \field{title}{NSSDCA/COSPAR ID: 2011-040A}
       \field{year}{2022}
+    \endentry
+    \entry{slosh}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=458ee50e83813098f01f2b813b3e0e5d}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Sathya\bibnamedelima Gangadharan},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{458ee50e83813098f01f2b813b3e0e5d}
+      \strng{fullhash}{458ee50e83813098f01f2b813b3e0e5d}
+      \strng{bibnamehash}{458ee50e83813098f01f2b813b3e0e5d}
+      \strng{authorbibnamehash}{458ee50e83813098f01f2b813b3e0e5d}
+      \strng{authornamehash}{458ee50e83813098f01f2b813b3e0e5d}
+      \strng{authorfullhash}{458ee50e83813098f01f2b813b3e0e5d}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{AIAA Modeling and Simulation Technologies Conference 10 - 13 August 2009, Chicago, Illinois}
+      \field{note}{Site: \url{https://arc.aiaa.org/}}
+      \field{title}{Modeling of Fuel Slosh in a Spin Stabilized Spacecraft with On-Axis Propellant Tanks Implemented with Diaphragms}
+      \field{year}{2009}
     \endentry
   \enddatalist
 \endrefsection
