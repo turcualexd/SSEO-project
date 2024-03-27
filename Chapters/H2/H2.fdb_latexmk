@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H2"] 1711474448.4361 "H2.bcf" "H2.bbl" "H2" 1711547482.68174 0
+["biber H2"] 1711474448.4361 "H2.bcf" "H2.bbl" "H2" 1711552767.58028 0
   "../../bibliography.bib" 1711468932 7514 e3189ad2a05408d4a2cf719574cb16fc ""
-  "H2.bcf" 1711547482 107882 43b6a681779866284bdb90aae5958da8 "pdflatex"
+  "H2.bcf" 1711552767 107882 43b6a681779866284bdb90aae5958da8 "pdflatex"
   (generated)
   "H2.bbl"
   "H2.blg"
   (rewritten before read)
-["pdflatex"] 1711547480.22715 "c:/Users/paolo/Documents/GitHub/SSEO-project/Chapters/H2/H2.tex" "H2.pdf" "H2" 1711547482.68286 0
+["pdflatex"] 1711552764.82373 "c:/Users/paolo/Documents/GitHub/SSEO-project/Chapters/H2/H2.tex" "H2.pdf" "H2" 1711552767.58123 0
   "../../Config/Poli_logo.pdf" 1711096942 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config/commands.tex" 1711096942 1522 79a87f151e8bb55c34c99cccd4558b41 ""
   "../../Config/formats.tex" 1711096942 1789 a28d3049733e043b1996fefbcb6a97f4 ""
@@ -160,19 +160,19 @@
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H2.aux" 1711547482 4295 746862ee2836caf8cfe305c1384a97c3 "pdflatex"
+  "H2.aux" 1711552767 4295 746862ee2836caf8cfe305c1384a97c3 "pdflatex"
   "H2.bbl" 1711474452 8410 0bd21fd2b8bf9e4299f70ccaee9cc3b5 "biber H2"
-  "H2.out" 1711547482 1406 f86028956d324a80792d769689f9673e "pdflatex"
-  "H2.run.xml" 1711547482 2299 de1ff631824165bc5d0e9227c082121d "pdflatex"
+  "H2.out" 1711552767 1406 f86028956d324a80792d769689f9673e "pdflatex"
+  "H2.run.xml" 1711552767 2299 de1ff631824165bc5d0e9227c082121d "pdflatex"
   "H2.tex" 1711474876 309 89c6e0dd82f4e82c9af482c2655963ed ""
-  "H2.toc" 1711547482 710 81d4fa3f1941391564d5d110ae38dd77 "pdflatex"
+  "H2.toc" 1711552767 710 81d4fa3f1941391564d5d110ae38dd77 "pdflatex"
   "Images/architettura_prop.pdf" 1711547456 41131 9add46d33f01d58a94e421dbd877acb1 ""
   "Images/axis.jpg" 1711098131 45590 1b0cb2fb4e6857938cf818c1c22b8105 ""
   "Images/foto_thruster.jpg" 1711097986 45847 5fc9493e0180bd7b092a2366f653c806 ""
   "Images/spin2.png" 1711309912 314310 0047fe2a9c30ab2fac3c360674419861 ""
-  "Sections/00_notation.tex" 1711314193 953 0a8548c90967b729c99a5a393089abe2 ""
+  "Sections/00_notation.tex" 1711552763 987 fa602f9021627e3d3b31ec1c425a1d6f ""
   "Sections/01_ma_and_dv.tex" 1711096942 123 8c2b919bc2c6d5c0a4141059a013fa93 ""
-  "Sections/02_prop_architecture.tex" 1711547479 7425 5756f5fd493d0877301e96c8bd9674f8 ""
+  "Sections/02_prop_architecture.tex" 1711552763 7438 513ef44a65582102bf0066a5f337cbcb ""
   "Sections/03_reverse_prop.tex" 1711096942 80 67a7e5672fae1c22503ad10a7bd33cc5 ""
   "c:/Users/paolo/Documents/GitHub/SSEO-project/Chapters/H2/H2.tex" 1711474876 309 89c6e0dd82f4e82c9af482c2655963ed ""
   (generated)
