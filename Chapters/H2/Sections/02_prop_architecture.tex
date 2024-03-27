@@ -18,7 +18,9 @@ The whole RCS is composed by four REMs, each of them mounted along the $\pm$Y-ax
 \cfig{spin2}{0.65}{Forward and Aft deck view}
 
 The pylons are raised respectively by 74 cm on the forward deck and about 26 cm on the aft deck as shown in \autoref{fig:foto_thruster}. With the need of limiting even more the interaction of the exhaust gasses with the on board instruments, mainly mounted on the top deck, and solar panels, the axial thrusters are canted 10\textdegree \; away from the Z-axis while the lateral thrusters are canted 5\textdegree \; away from the X-axis and 12.5\textdegree \; toward the Z-axis \cite{junno_inner}. This particular configuration of RCS is required since no RW nor any type of active attitude control is present on board the spacecraft: the ability of decoupling the forces and the momentum was thus needed.
-Lateral thrusters are denominated with letter "L" while axial thrusters are denominated with letter "A", as can be seen both from \autoref{fig:spin2} and \autoref{fig:foto_thruster}. This configuration increased the overall reliability of the propulsion system as "A" thrusters could be used as replacement of the ME for small manuevers. 
+Lateral thrusters are denominated with letter "L" while axial thrusters are denominated with letter "A", as can be seen both from \autoref{fig:spin2} and \autoref{fig:foto_thruster}. This configuration increased the overall reliability of the propulsion system as "A" thrusters could be used as replacement of the ME for small manuevers. A simplified model of the propulsion system has been developed in \autoref{fig:architettura_prop}.
+
+\cfig{architettura_prop}{0.7}{Propulsion system architecture}
 
 \subsection{Maneuver Implementation Modes}
 \label{sec: manuever implemementation modes}
@@ -28,7 +30,6 @@ Juno's manuever can be performed in two different modes: $vector-mode$ and $turn
 The $vector-mode$ consists of separated and coordinated axial and lateral burns from RCS thrusters. As seen in \autoref{sec:me and rcs} the thrusters are not exactly perpendicular one to the other, so during a $vector-mode$ manuever an induced axial $\Delta V$ is generated and must be compensated.
 
 \cfig{foto_thruster}{0.65}{RCS fordward mount}
-\cfig{architettura_prop2}{0.65}{prova}
 
 The $turn-burn-turn$ mode consists in a sequence of RCS and ME burns: first the spacecraft slews to the design spinning rate of 5 RPM, than the ME is ignited and the manuever is performed. At last, the spacecraft slews back to its nominal spinning rate. This mode is used during all the ME burns. In this kind of manuever the RCS uses the "L" thrusters on the REMs. All ME manuevers are so performed. 
 
