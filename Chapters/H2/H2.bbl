@@ -1,0 +1,374 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{launch_period}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c0eed6e1d68277fb2fc3354399991312}{%
+           family={Theres\bibnamedelimb D.\bibnamedelimi Kowalkowski},
+           familyi={T\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Try\bibnamedelima Lam},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0eed6e1d68277fb2fc3354399991312}
+      \strng{fullhash}{c0eed6e1d68277fb2fc3354399991312}
+      \strng{bibnamehash}{c0eed6e1d68277fb2fc3354399991312}
+      \strng{authorbibnamehash}{c0eed6e1d68277fb2fc3354399991312}
+      \strng{authornamehash}{c0eed6e1d68277fb2fc3354399991312}
+      \strng{authorfullhash}{c0eed6e1d68277fb2fc3354399991312}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Launch Period Development for the Juno Mission to Jupiter}
+      \field{year}{2008}
+    \endentry
+    \entry{atlasV_juno}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a360c4fc14a4154127893257542f05ba}{%
+           family={Alliance},
+           familyi={A\bibinitperiod},
+           given={United\bibnamedelima Launch},
+           giveni={U\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a360c4fc14a4154127893257542f05ba}
+      \strng{fullhash}{a360c4fc14a4154127893257542f05ba}
+      \strng{bibnamehash}{a360c4fc14a4154127893257542f05ba}
+      \strng{authorbibnamehash}{a360c4fc14a4154127893257542f05ba}
+      \strng{authornamehash}{a360c4fc14a4154127893257542f05ba}
+      \strng{authorfullhash}{a360c4fc14a4154127893257542f05ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Site: \url{https://www.google.com/url?sa=t}}
+      \field{title}{Atlas V Juno}
+      \field{year}{2011}
+    \endentry
+    \entry{pre_launch_update}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6a33194dcf83f0bf7911883f7339a98d}{%
+           family={Nybakken},
+           familyi={N\bibinitperiod},
+           given={Rick},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a33194dcf83f0bf7911883f7339a98d}
+      \strng{fullhash}{6a33194dcf83f0bf7911883f7339a98d}
+      \strng{bibnamehash}{6a33194dcf83f0bf7911883f7339a98d}
+      \strng{authorbibnamehash}{6a33194dcf83f0bf7911883f7339a98d}
+      \strng{authornamehash}{6a33194dcf83f0bf7911883f7339a98d}
+      \strng{authorfullhash}{6a33194dcf83f0bf7911883f7339a98d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{The Juno Mission to Jupiter: A pre-launch update}
+      \field{year}{2011}
+    \endentry
+    \entry{juno_navigation}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2ef1287e4b260667d90d15d8fb72da9d}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Paul\bibnamedelimb F.\bibnamedelimi Thompson},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \strng{fullhash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \strng{bibnamehash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \strng{authorbibnamehash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \strng{authornamehash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \strng{authorfullhash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno navigation for Jupiter orbit insertion}
+      \field{year}{2017}
+    \endentry
+    \entry{fact_sheet}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=21a372abd2a5c641d5991cd08474c753}{%
+           family={Laboratory},
+           familyi={L\bibinitperiod},
+           given={Jet\bibnamedelima Propulsion},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{fullhash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{bibnamehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{authorbibnamehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{authornamehash}{21a372abd2a5c641d5991cd08474c753}
+      \strng{authorfullhash}{21a372abd2a5c641d5991cd08474c753}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Site: \url{https://www.nasa.gov/}}
+      \field{title}{Juno Mission to Jupiter}
+      \field{year}{2022}
+    \endentry
+    \entry{junno_inner}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1f38713a359af2dce5019a1ed3b581fa}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi Pavlak},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{fullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{bibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorbibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{AIAA space forum}
+      \field{note}{Site: \url{https://arc.aiaa.org/}}
+      \field{title}{Maneuver Design for the Juno Mission: Inner Cruise}
+      \field{year}{2018}
+    \endentry
+    \entry{otm}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7dd4178ab1901bf41fd8bcb234bc606e}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Paul\bibnamedelimb W.\bibnamedelimi Stumpf},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dd4178ab1901bf41fd8bcb234bc606e}
+      \strng{fullhash}{7dd4178ab1901bf41fd8bcb234bc606e}
+      \strng{bibnamehash}{7dd4178ab1901bf41fd8bcb234bc606e}
+      \strng{authorbibnamehash}{7dd4178ab1901bf41fd8bcb234bc606e}
+      \strng{authornamehash}{7dd4178ab1901bf41fd8bcb234bc606e}
+      \strng{authorfullhash}{7dd4178ab1901bf41fd8bcb234bc606e}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{JPL open repository}
+      \field{note}{Site: \url{https://dataverse.jpl.nasa.gov/file.xhtml?fileId=58768&version=1.1&toolType=PREVIEW}}
+      \field{title}{MANEUVER OPERATIONS DURING JUNO’S APPROACH, ORBIT INSERTION, AND EARLY ORBIT PHASE}
+      \field{year}{2017}
+    \endentry
+    \entry{nasa_otm}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=660fc93f5673788e32d95d5c620c6511}{%
+           family={Stephens},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{660fc93f5673788e32d95d5c620c6511}
+      \strng{fullhash}{660fc93f5673788e32d95d5c620c6511}
+      \strng{bibnamehash}{660fc93f5673788e32d95d5c620c6511}
+      \strng{authorbibnamehash}{660fc93f5673788e32d95d5c620c6511}
+      \strng{authornamehash}{660fc93f5673788e32d95d5c620c6511}
+      \strng{authorfullhash}{660fc93f5673788e32d95d5c620c6511}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Planetary Data System}
+      \field{note}{Site: \url{https://pds.nasa.gov/ds-view/pds/viewMissionProfile.jsp?MISSION_NAME=JUNO}}
+      \field{title}{Juno Mission Plan Document}
+      \field{year}{2011}
+    \endentry
+    \entry{spaceflight101}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f22794f69ce5910cb4be68ff9026570d}{%
+           family={Various},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{bibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://spaceflight101.com/juno/juno-mission-trajectory-design/}}
+      \field{title}{Juno Mission and Trajectory Design}
+      \field{year}{2024}
+    \endentry
+    \entry{Leros}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fb2f7c65f5d2d087cd52f151c468dda8}{%
+           family={Nammo},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{fullhash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{bibnamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authorbibnamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authornamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authorfullhash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Journal of Geophysical Research: Planet}
+      \field{note}{Site: \url{https://www.nammo.com/wp-content/uploads/2021/03/2021-Nammo-Westcott-Liquid-Engine-LEROS1B.pdf}}
+      \field{title}{Leros-1b engine}
+    \endentry
+    \entry{s405}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=62fe1804969ebabf198b89b19325673b}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Dr.\bibnamedelimi Edward.\bibnamedelimi J.\bibnamedelimi Wucherer},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{62fe1804969ebabf198b89b19325673b}
+      \strng{fullhash}{62fe1804969ebabf198b89b19325673b}
+      \strng{bibnamehash}{62fe1804969ebabf198b89b19325673b}
+      \strng{authorbibnamehash}{62fe1804969ebabf198b89b19325673b}
+      \strng{authornamehash}{62fe1804969ebabf198b89b19325673b}
+      \strng{authorfullhash}{62fe1804969ebabf198b89b19325673b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{AIAA space forum}
+      \field{note}{Site: \url{https://arc.aiaa.org/doi/epdf/10.2514/6.2013-4053}}
+      \field{title}{Improving and Testing S-405 Catalyst}
+      \field{year}{2013}
+    \endentry
+    \entry{RCS_info}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online Communication}
+      \field{note}{Site: \url{https://www.proquest.com}}
+      \field{title}{Aerojet Rocketdyne Propulsion plays role in Juno mission}
+      \field{year}{2016}
+    \endentry
+    \entry{RCS_values}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{http://www.astronautix.com/m/mr-111.html}}
+      \field{title}{MR-111C datasheet}
+    \endentry
+    \entry{2tankshe}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://www.missionjuno.swri.edu/launch}}
+      \field{title}{Launch}
+    \endentry
+    \entry{he_tank}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5bf2c942cf2ff665b17c6854e3c4a11d}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Dr.\bibnamedelimi Mary\bibnamedelimb M.\bibnamedelimi Mellott},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \strng{fullhash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \strng{bibnamehash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \strng{authorbibnamehash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \strng{authornamehash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \strng{authorfullhash}{5bf2c942cf2ff665b17c6854e3c4a11d}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Nasa SSDCA}
+      \field{note}{Site: \url{https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-040A}}
+      \field{title}{NSSDCA/COSPAR ID: 2011-040A}
+      \field{year}{2022}
+    \endentry
+    \entry{slosh}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=458ee50e83813098f01f2b813b3e0e5d}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Sathya\bibnamedelima Gangadharan},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{458ee50e83813098f01f2b813b3e0e5d}
+      \strng{fullhash}{458ee50e83813098f01f2b813b3e0e5d}
+      \strng{bibnamehash}{458ee50e83813098f01f2b813b3e0e5d}
+      \strng{authorbibnamehash}{458ee50e83813098f01f2b813b3e0e5d}
+      \strng{authornamehash}{458ee50e83813098f01f2b813b3e0e5d}
+      \strng{authorfullhash}{458ee50e83813098f01f2b813b3e0e5d}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{AIAA Modeling and Simulation Technologies Conference 10 - 13 August 2009, Chicago, Illinois}
+      \field{note}{Site: \url{https://arc.aiaa.org/}}
+      \field{title}{Modeling of Fuel Slosh in a Spin Stabilized Spacecraft with On-Axis Propellant Tanks Implemented with Diaphragms}
+      \field{year}{2009}
+    \endentry
+    \entry{esa_margins}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d514c60212474a803f48a06974d89110}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={European\bibnamedelima Space},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d514c60212474a803f48a06974d89110}
+      \strng{fullhash}{d514c60212474a803f48a06974d89110}
+      \strng{bibnamehash}{d514c60212474a803f48a06974d89110}
+      \strng{authorbibnamehash}{d514c60212474a803f48a06974d89110}
+      \strng{authornamehash}{d514c60212474a803f48a06974d89110}
+      \strng{authorfullhash}{d514c60212474a803f48a06974d89110}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Margin philosophy for science assessment studies}
+      \field{year}{2012}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

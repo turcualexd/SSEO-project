@@ -1,0 +1,15 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Contents}{i}{section*.2}%
+\contentsline {section}{Notation}{i}{section*.3}%
+\contentsline {section}{\numberline {1}Mission analysis and $\Delta V$ budget}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Rationale of the mission analysis}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Simulation of the interplantary trajectory}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Propulsion system architecture}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Main Engine and RCS}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Maneuver Implementation Modes}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Tanks}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Reverse engineering of propulsion system}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Fuel and oxidizer tanks sizing}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Pressurizer tanks sizing}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Computation of actual propellants usage}{7}{subsection.3.3}%
+\contentsline {section}{Bibliography}{8}{table.caption.14}%
