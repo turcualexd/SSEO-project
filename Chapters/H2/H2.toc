@@ -1,7 +1,10 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{Contents}{i}{section*.2}%
 \contentsline {section}{Notation}{i}{section*.3}%
-\contentsline {section}{\numberline {1}Mission analysis and $\Delta V$ budget}{1}{section.1}%
+\contentsline {section}{\numberline {1}Mission analysis and $\boldsymbol {\Delta V}$ budget}{1}{section.1}%
 \contentsline {section}{\numberline {2}Propulsion system architecture}{1}{section.2}%
 \contentsline {section}{\numberline {3}Reverse engineering of propulsion system}{1}{section.3}%
-\contentsline {section}{Bibliography}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Fuel and oxidizer tanks sizing}{1}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Pressurizer tanks sizing}{2}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Computation of actual propellants usage}{2}{subsection.3.3}%
+\contentsline {section}{Bibliography}{4}{table.caption.7}%
