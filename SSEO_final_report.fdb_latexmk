@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber SSEO_final_report"] 1711632256.49496 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1711634978.77926 0
-  "SSEO_final_report.bcf" 1711634978 111089 f263807d7918dd131a2d6f7d05d9f489 "pdflatex"
-  "bibliography.bib" 1711468932 7514 e3189ad2a05408d4a2cf719574cb16fc ""
+["biber SSEO_final_report"] 1711639461.16847 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1711639473.23011 0
+  "SSEO_final_report.bcf" 1711639472 111735 cf9e68c1a07abb7328af49ed209691a8 "pdflatex"
+  "bibliography.bib" 1711637199 8148 5d569916df09b7138de38dd69cb11720 ""
   (generated)
   "SSEO_final_report.bbl"
   "SSEO_final_report.blg"
   (rewritten before read)
-["pdflatex"] 1711634975.91999 "c:/Users/paolo/Documents/GitHub/SSEO-project/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1711634978.78025 0
+["pdflatex"] 1711639470.15756 "c:/Users/paolo/Documents/GitHub/SSEO-project/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1711639473.23113 0
   "Body.tex" 1711096942 30 67a9b52dac108777071e7d3d67dcae18 ""
   "C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1711632253 95607 034e0737ccfe37fc78b0169eb44187f4 ""
   "C:/Users/paolo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1709996701 24233102 ffd0b880f648f975b92d2d4a3809c2a4 ""
@@ -187,8 +187,8 @@
   "Chapters/H2/Images/foto_thruster.jpg" 1711097986 45847 5fc9493e0180bd7b092a2366f653c806 ""
   "Chapters/H2/Images/spin2.png" 1711309912 314310 0047fe2a9c30ab2fac3c360674419861 ""
   "Chapters/H2/Sections/00_notation.tex" 1711633664 1054 ecd40df8d277ef74df41b8ccd098fa82 ""
-  "Chapters/H2/Sections/01_ma_and_dv.tex" 1711634814 1925 0bbb5a343232b38d7e15bc23d83055af ""
-  "Chapters/H2/Sections/02_prop_architecture.tex" 1711634971 7435 bcb69755cb627d8c2f273b44ceb70555 ""
+  "Chapters/H2/Sections/01_ma_and_dv.tex" 1711639454 2324 dbb3f908a1dcae0277992aeaa3e1f160 ""
+  "Chapters/H2/Sections/02_prop_architecture.tex" 1711635429 7556 9cb1fd95ccb7eb52b34886e3ca7f7c5b ""
   "Chapters/H2/Sections/03_reverse_prop.tex" 1711628180 84 f98ad44278f100e31049b3c6596c9f66 ""
   "Config/Poli_logo.pdf" 1711096942 40200 4b51719258b4eb427d3de9091da52c22 ""
   "Config/commands.tex" 1711096942 1522 79a87f151e8bb55c34c99cccd4558b41 ""
@@ -196,12 +196,12 @@
   "Config/input.tex" 1710335341 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "Config/packages.tex" 1711632243 548 4883c80665992578f54f38e4d812c757 ""
   "Config/title_page_chapter.tex" 1711096942 1237 37606b3b29c6c05108acd46da5d641db ""
-  "SSEO_final_report.aux" 1711634978 13845 2c02e3d61af15524d18209cb2e167231 "pdflatex"
-  "SSEO_final_report.bbl" 1711632259 25702 3282513eb3e4cbcdaed828b8d9be5e4b "biber SSEO_final_report"
-  "SSEO_final_report.out" 1711634978 4387 2c4932e3603e171dd0aef1efec6c4929 "pdflatex"
-  "SSEO_final_report.run.xml" 1711634978 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
+  "SSEO_final_report.aux" 1711639472 14632 258f874e79028a4b0346182baae5d495 "pdflatex"
+  "SSEO_final_report.bbl" 1711639463 28994 a2fdc47d8e8db1a061371f6bcecc7732 "biber SSEO_final_report"
+  "SSEO_final_report.out" 1711639472 4387 2c4932e3603e171dd0aef1efec6c4929 "pdflatex"
+  "SSEO_final_report.run.xml" 1711639472 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
   "SSEO_final_report.tex" 1711096942 302 b4660636688eb40853cc4b918fb5ca99 ""
-  "SSEO_final_report.toc" 1711634978 2238 3f4c33abc5a09906d6e7d2964670673a "pdflatex"
+  "SSEO_final_report.toc" 1711639472 2238 3f4c33abc5a09906d6e7d2964670673a "pdflatex"
   "c:/Users/paolo/Documents/GitHub/SSEO-project/SSEO_final_report.tex" 1711096942 302 b4660636688eb40853cc4b918fb5ca99 ""
   (generated)
   "SSEO_final_report.aux"

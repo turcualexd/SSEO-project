@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  28 MAR 2024 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  28 MAR 2024 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1179,26 +1179,26 @@ Package biblatex Info: Setting label 'refsection:2' on input line 2.
  (Chapters/H2/Body.tex (Chapters/H2/Sections/00_notation.tex) [10
 
 ] (Chapters/H2/Sections/01_ma_and_dv.tex) (Chapters/H2/Sections/02_prop_architecture.tex
-<Chapters/H2/Images/axis.jpg, id=323, 791.95876pt x 278.03876pt>
+<Chapters/H2/Images/axis.jpg, id=333, 791.95876pt x 278.03876pt>
 File: Chapters/H2/Images/axis.jpg Graphic file (type jpg)
 <use Chapters/H2/Images/axis.jpg>
 Package pdftex.def Info: Chapters/H2/Images/axis.jpg  used on input line 8.
 (pdftex.def)             Requested size: 332.89412pt x 116.87305pt.
  [11 <./Chapters/H2/Images/axis.jpg>]
-<Chapters/H2/Images/spin2.png, id=337, 499.26524pt x 201.75375pt>
+<Chapters/H2/Images/spin2.png, id=351, 499.26524pt x 201.75375pt>
 File: Chapters/H2/Images/spin2.png Graphic file (type png)
 <use Chapters/H2/Images/spin2.png>
 Package pdftex.def Info: Chapters/H2/Images/spin2.png  used on input line 19.
 (pdftex.def)             Requested size: 384.11221pt x 155.22156pt.
-<Chapters/H2/Images/architettura_prop.pdf, id=344, 522.99388pt x 358.4592pt>
+<Chapters/H2/Images/architettura_prop.pdf, id=353, 522.99388pt x 358.4592pt>
 File: Chapters/H2/Images/architettura_prop.pdf Graphic file (type pdf)
 <use Chapters/H2/Images/architettura_prop.pdf>
-Package pdftex.def Info: Chapters/H2/Images/architettura_prop.pdf  used on input line 24.
-(pdftex.def)             Requested size: 256.07481pt x 175.52074pt.
-<Chapters/H2/Images/foto_thruster.jpg, id=346, 678.535pt x 360.34625pt>
+Package pdftex.def Info: Chapters/H2/Images/architettura_prop.pdf  used on input line 21.
+(pdftex.def)             Requested size: 307.2929pt x 210.62488pt.
+<Chapters/H2/Images/foto_thruster.jpg, id=360, 678.535pt x 360.34625pt>
 File: Chapters/H2/Images/foto_thruster.jpg Graphic file (type jpg)
 <use Chapters/H2/Images/foto_thruster.jpg>
-Package pdftex.def Info: Chapters/H2/Images/foto_thruster.jpg  used on input line 33.
+Package pdftex.def Info: Chapters/H2/Images/foto_thruster.jpg  used on input line 36.
 (pdftex.def)             Requested size: 332.89412pt x 176.78564pt.
  [12 <./Chapters/H2/Images/spin2.png> <./Chapters/H2/Images/architettura_prop.pdf>]) (Chapters/H2/Sections/03_reverse_prop.tex)) [13 <./Chapters/H2/Images/foto_thruster.jpg>]
 Package biblatex Info: Reference section=0 on input line 2.
@@ -1214,17 +1214,17 @@ Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23790 strings out of 474436
- 415887 string characters out of 5741955
- 1946190 words of memory out of 5000000
- 45610 multiletter control sequences out of 15000+600000
+ 23802 strings out of 474436
+ 416302 string characters out of 5741955
+ 1947190 words of memory out of 5000000
+ 45619 multiletter control sequences out of 15000+600000
  678716 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,13n,102p,1944b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (16 pages, 1628472 bytes).
+Output written on SSEO_final_report.pdf (16 pages, 1634370 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
+ 482 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
  275 words of extra memory for PDF output out of 10000 (max. 10000000)
 
