@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  23 MAR 2024 08:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  28 MAR 2024 15:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -621,10 +621,16 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen185
 \TX@cols=\count307
 \TX@ftn=\toks30
+) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count308
+\multirow@dima=\skip60
+\bigstrutjot=\dimen186
 ) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen186
-\WF@size=\dimen187
-\c@WF@wrappedlines=\count308
+\wrapoverhang=\dimen187
+\WF@size=\dimen188
+\c@WF@wrappedlines=\count309
 \WF@box=\box59
 \WF@everypar=\toks31
 Package: wrapfig 2003/01/31  v 3.6
@@ -632,69 +638,69 @@ Package: wrapfig 2003/01/31  v 3.6
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count309
+\lrq@indent=\count310
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count310
-\c@listtotal=\count311
-\c@listcount=\count312
-\c@liststart=\count313
-\c@liststop=\count314
-\c@citecount=\count315
-\c@citetotal=\count316
-\c@multicitecount=\count317
-\c@multicitetotal=\count318
-\c@instcount=\count319
-\c@maxnames=\count320
-\c@minnames=\count321
-\c@maxitems=\count322
-\c@minitems=\count323
-\c@citecounter=\count324
-\c@maxcitecounter=\count325
-\c@savedcitecounter=\count326
-\c@uniquelist=\count327
-\c@uniquename=\count328
-\c@refsection=\count329
-\c@refsegment=\count330
-\c@maxextratitle=\count331
-\c@maxextratitleyear=\count332
-\c@maxextraname=\count333
-\c@maxextradate=\count334
-\c@maxextraalpha=\count335
-\c@abbrvpenalty=\count336
-\c@highnamepenalty=\count337
-\c@lownamepenalty=\count338
-\c@maxparens=\count339
-\c@parenlevel=\count340
-\blx@tempcnta=\count341
-\blx@tempcntb=\count342
-\blx@tempcntc=\count343
-\c@blx@maxsection=\count344
-\blx@maxsegment@0=\count345
-\blx@notetype=\count346
-\blx@parenlevel@text=\count347
-\blx@parenlevel@foot=\count348
-\blx@sectionciteorder@0=\count349
-\blx@sectionciteorderinternal@0=\count350
-\blx@entrysetcounter=\count351
-\blx@biblioinstance=\count352
-\labelnumberwidth=\skip59
-\labelalphawidth=\skip60
-\biblabelsep=\skip61
-\bibitemsep=\skip62
-\bibnamesep=\skip63
-\bibinitsep=\skip64
-\bibparsep=\skip65
-\bibhang=\skip66
+\c@tabx@nest=\count311
+\c@listtotal=\count312
+\c@listcount=\count313
+\c@liststart=\count314
+\c@liststop=\count315
+\c@citecount=\count316
+\c@citetotal=\count317
+\c@multicitecount=\count318
+\c@multicitetotal=\count319
+\c@instcount=\count320
+\c@maxnames=\count321
+\c@minnames=\count322
+\c@maxitems=\count323
+\c@minitems=\count324
+\c@citecounter=\count325
+\c@maxcitecounter=\count326
+\c@savedcitecounter=\count327
+\c@uniquelist=\count328
+\c@uniquename=\count329
+\c@refsection=\count330
+\c@refsegment=\count331
+\c@maxextratitle=\count332
+\c@maxextratitleyear=\count333
+\c@maxextraname=\count334
+\c@maxextradate=\count335
+\c@maxextraalpha=\count336
+\c@abbrvpenalty=\count337
+\c@highnamepenalty=\count338
+\c@lownamepenalty=\count339
+\c@maxparens=\count340
+\c@parenlevel=\count341
+\blx@tempcnta=\count342
+\blx@tempcntb=\count343
+\blx@tempcntc=\count344
+\c@blx@maxsection=\count345
+\blx@maxsegment@0=\count346
+\blx@notetype=\count347
+\blx@parenlevel@text=\count348
+\blx@parenlevel@foot=\count349
+\blx@sectionciteorder@0=\count350
+\blx@sectionciteorderinternal@0=\count351
+\blx@entrysetcounter=\count352
+\blx@biblioinstance=\count353
+\labelnumberwidth=\skip61
+\labelalphawidth=\skip62
+\biblabelsep=\skip63
+\bibitemsep=\skip64
+\bibnamesep=\skip65
+\bibinitsep=\skip66
+\bibparsep=\skip67
+\bibhang=\skip68
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count353
-\c@maxcomprange=\count354
-\c@mincompwidth=\count355
+\c@mincomprange=\count354
+\c@maxcomprange=\count355
+\c@mincompwidth=\count356
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -704,88 +710,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count356
-\c@savedafterword=\count357
-\c@annotator=\count358
-\c@savedannotator=\count359
-\c@author=\count360
-\c@savedauthor=\count361
-\c@bookauthor=\count362
-\c@savedbookauthor=\count363
-\c@commentator=\count364
-\c@savedcommentator=\count365
-\c@editor=\count366
-\c@savededitor=\count367
-\c@editora=\count368
-\c@savededitora=\count369
-\c@editorb=\count370
-\c@savededitorb=\count371
-\c@editorc=\count372
-\c@savededitorc=\count373
-\c@foreword=\count374
-\c@savedforeword=\count375
-\c@holder=\count376
-\c@savedholder=\count377
-\c@introduction=\count378
-\c@savedintroduction=\count379
-\c@namea=\count380
-\c@savednamea=\count381
-\c@nameb=\count382
-\c@savednameb=\count383
-\c@namec=\count384
-\c@savednamec=\count385
-\c@translator=\count386
-\c@savedtranslator=\count387
-\c@shortauthor=\count388
-\c@savedshortauthor=\count389
-\c@shorteditor=\count390
-\c@savedshorteditor=\count391
-\c@labelname=\count392
-\c@savedlabelname=\count393
-\c@institution=\count394
-\c@savedinstitution=\count395
-\c@lista=\count396
-\c@savedlista=\count397
-\c@listb=\count398
-\c@savedlistb=\count399
-\c@listc=\count400
-\c@savedlistc=\count401
-\c@listd=\count402
-\c@savedlistd=\count403
-\c@liste=\count404
-\c@savedliste=\count405
-\c@listf=\count406
-\c@savedlistf=\count407
-\c@location=\count408
-\c@savedlocation=\count409
-\c@organization=\count410
-\c@savedorganization=\count411
-\c@origlocation=\count412
-\c@savedoriglocation=\count413
-\c@origpublisher=\count414
-\c@savedorigpublisher=\count415
-\c@publisher=\count416
-\c@savedpublisher=\count417
-\c@language=\count418
-\c@savedlanguage=\count419
-\c@origlanguage=\count420
-\c@savedoriglanguage=\count421
-\c@pageref=\count422
-\c@savedpageref=\count423
-\shorthandwidth=\skip67
-\shortjournalwidth=\skip68
-\shortserieswidth=\skip69
-\shorttitlewidth=\skip70
-\shortauthorwidth=\skip71
-\shorteditorwidth=\skip72
-\locallabelnumberwidth=\skip73
-\locallabelalphawidth=\skip74
-\localshorthandwidth=\skip75
-\localshortjournalwidth=\skip76
-\localshortserieswidth=\skip77
-\localshorttitlewidth=\skip78
-\localshortauthorwidth=\skip79
-\localshorteditorwidth=\skip80
+\c@afterword=\count357
+\c@savedafterword=\count358
+\c@annotator=\count359
+\c@savedannotator=\count360
+\c@author=\count361
+\c@savedauthor=\count362
+\c@bookauthor=\count363
+\c@savedbookauthor=\count364
+\c@commentator=\count365
+\c@savedcommentator=\count366
+\c@editor=\count367
+\c@savededitor=\count368
+\c@editora=\count369
+\c@savededitora=\count370
+\c@editorb=\count371
+\c@savededitorb=\count372
+\c@editorc=\count373
+\c@savededitorc=\count374
+\c@foreword=\count375
+\c@savedforeword=\count376
+\c@holder=\count377
+\c@savedholder=\count378
+\c@introduction=\count379
+\c@savedintroduction=\count380
+\c@namea=\count381
+\c@savednamea=\count382
+\c@nameb=\count383
+\c@savednameb=\count384
+\c@namec=\count385
+\c@savednamec=\count386
+\c@translator=\count387
+\c@savedtranslator=\count388
+\c@shortauthor=\count389
+\c@savedshortauthor=\count390
+\c@shorteditor=\count391
+\c@savedshorteditor=\count392
+\c@labelname=\count393
+\c@savedlabelname=\count394
+\c@institution=\count395
+\c@savedinstitution=\count396
+\c@lista=\count397
+\c@savedlista=\count398
+\c@listb=\count399
+\c@savedlistb=\count400
+\c@listc=\count401
+\c@savedlistc=\count402
+\c@listd=\count403
+\c@savedlistd=\count404
+\c@liste=\count405
+\c@savedliste=\count406
+\c@listf=\count407
+\c@savedlistf=\count408
+\c@location=\count409
+\c@savedlocation=\count410
+\c@organization=\count411
+\c@savedorganization=\count412
+\c@origlocation=\count413
+\c@savedoriglocation=\count414
+\c@origpublisher=\count415
+\c@savedorigpublisher=\count416
+\c@publisher=\count417
+\c@savedpublisher=\count418
+\c@language=\count419
+\c@savedlanguage=\count420
+\c@origlanguage=\count421
+\c@savedoriglanguage=\count422
+\c@pageref=\count423
+\c@savedpageref=\count424
+\shorthandwidth=\skip69
+\shortjournalwidth=\skip70
+\shortserieswidth=\skip71
+\shorttitlewidth=\skip72
+\shortauthorwidth=\skip73
+\shorteditorwidth=\skip74
+\locallabelnumberwidth=\skip75
+\locallabelalphawidth=\skip76
+\localshorthandwidth=\skip77
+\localshortjournalwidth=\skip78
+\localshortserieswidth=\skip79
+\localshorttitlewidth=\skip80
+\localshortauthorwidth=\skip81
+\localshorteditorwidth=\skip82
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -795,19 +801,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count424
-\c@textcitetotal=\count425
-\c@textcitemaxnames=\count426
-\c@biburlbigbreakpenalty=\count427
-\c@biburlbreakpenalty=\count428
-\c@biburlnumpenalty=\count429
-\c@biburlucpenalty=\count430
-\c@biburllcpenalty=\count431
+\c@textcitecount=\count425
+\c@textcitetotal=\count426
+\c@textcitemaxnames=\count427
+\c@biburlbigbreakpenalty=\count428
+\c@biburlbreakpenalty=\count429
+\c@biburlnumpenalty=\count430
+\c@biburlucpenalty=\count431
+\c@biburllcpenalty=\count432
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count432
+\c@smartand=\count433
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -817,8 +823,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count433
-\c@bbx:relatedtotal=\count434
+\c@bbx:relatedcount=\count434
+\c@bbx:relatedtotal=\count435
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -847,7 +853,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2024-02-20 L3 programming layer (loader) 
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count435
+\l__color_backend_stack_int=\count436
 \l__pdf_internal_box=\box60
 ))
 Package biblatex Info: ... and expl3
@@ -860,24 +866,24 @@ Package: xparse 2024-02-18 L3 Experimental document command parser
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count436
+\c@tracingmulticols=\count437
 \mult@box=\box61
-\multicol@leftmargin=\dimen188
-\c@unbalance=\count437
-\c@collectmore=\count438
-\doublecol@number=\count439
-\multicoltolerance=\count440
-\multicolpretolerance=\count441
-\full@width=\dimen189
-\page@free=\dimen190
-\premulticols=\dimen191
-\postmulticols=\dimen192
-\multicolsep=\skip81
-\multicolbaselineskip=\skip82
+\multicol@leftmargin=\dimen189
+\c@unbalance=\count438
+\c@collectmore=\count439
+\doublecol@number=\count440
+\multicoltolerance=\count441
+\multicolpretolerance=\count442
+\full@width=\dimen190
+\page@free=\dimen191
+\premulticols=\dimen192
+\postmulticols=\dimen193
+\multicolsep=\skip83
+\multicolbaselineskip=\skip84
 \partial@page=\box62
 \last@line=\box63
 \mc@boxedresult=\box64
-\maxbalancingoverflow=\dimen193
+\maxbalancingoverflow=\dimen194
 \mult@rightbox=\box65
 \mult@grightbox=\box66
 \mult@firstbox=\box67
@@ -918,36 +924,36 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box102
 \@tempa=\box103
 \@tempa=\box104
-\c@minrows=\count442
-\c@columnbadness=\count443
-\c@finalcolumnbadness=\count444
-\last@try=\dimen194
-\multicolovershoot=\dimen195
-\multicolundershoot=\dimen196
+\c@minrows=\count443
+\c@columnbadness=\count444
+\c@finalcolumnbadness=\count445
+\last@try=\dimen195
+\multicolovershoot=\dimen196
+\multicolundershoot=\dimen197
 \mult@nat@firstbox=\box105
 \colbreak@box=\box106
-\mc@col@check@num=\count445
+\mc@col@check@num=\count446
 )) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
 Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
 Package: ltablex 2014/08/13 v1.1 Modified tabularx
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
-\LTleft=\skip83
-\LTright=\skip84
-\LTpre=\skip85
-\LTpost=\skip86
-\LTchunksize=\count446
-\LTcapwidth=\dimen197
+\LTleft=\skip85
+\LTright=\skip86
+\LTpre=\skip87
+\LTpost=\skip88
+\LTchunksize=\count447
+\LTcapwidth=\dimen198
 \LT@head=\box107
 \LT@firsthead=\box108
 \LT@foot=\box109
 \LT@lastfoot=\box110
 \LT@gbox=\box111
-\LT@cols=\count447
-\LT@rows=\count448
-\c@LT@tables=\count449
-\c@LT@chunks=\count450
+\LT@cols=\count448
+\LT@rows=\count449
+\c@LT@tables=\count450
+\c@LT@chunks=\count451
 \LT@p@ftn=\toks32
 ))) (Config/formats.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
@@ -1035,16 +1041,16 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count451
-\scratchdimen=\dimen198
+\scratchcounter=\count452
+\scratchdimen=\dimen199
 \scratchbox=\box113
-\nofMPsegments=\count452
-\nofMParguments=\count453
+\nofMPsegments=\count453
+\nofMParguments=\count454
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count454
-\MPscratchDim=\dimen199
-\MPnumerator=\count455
-\makeMPintoPDFobject=\count456
+\MPscratchCnt=\count455
+\MPscratchDim=\dimen256
+\MPnumerator=\count456
+\makeMPintoPDFobject=\count457
 \everyMPtoPDFconversion=\toks34
 ) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1061,6 +1067,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 8.
+ (SSEO_final_report.out) (SSEO_final_report.out)
 \@outlinefile=\write4
 \openout4 = `SSEO_final_report.out'.
 
@@ -1077,22 +1084,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
  (SSEO_final_report.bbl)
-Runaway argument?
-{Site: \url {https://spaceref.com/press-release/aerojet-rocketdyne-pr\ETC.
-c:/Users/paolo/Documents/GitHub/SSEO-project/SSEO_final_report.tex:8: File ended while scanning use of \field.
-<inserted text> 
-                \par 
-l.8 \begin{document}
-                    
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Package biblatex Info: Reference section=2 on input line 8.
-Package biblatex Info: Reference section/segment=2/0 on input line 8.
-(Config/title_page_chapter.tex
-<Config/Poli_logo.pdf, id=3, 527.9725pt x 415.5525pt>
+Package biblatex Info: Reference section=0 on input line 8.
+Package biblatex Info: Reference segment=0 on input line 8.
+ (Config/title_page_chapter.tex
+<Config/Poli_logo.pdf, id=113, 527.9725pt x 415.5525pt>
 File: Config/Poli_logo.pdf Graphic file (type pdf)
 <use Config/Poli_logo.pdf>
 Package pdftex.def Info: Config/Poli_logo.pdf  used on input line 6.
@@ -1118,208 +1113,118 @@ LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 3
 File: ujkpsyc.fd 2006/08/15 v1.0
 ) [1
 
-{C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Config/Poli_logo.pdf>])
-No file SSEO_final_report.toc.
+{C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Config/Poli_logo.pdf>]) (SSEO_final_report.toc)
 \tf@toc=\write5
 \openout5 = `SSEO_final_report.toc'.
 
-[1
+ [1
 
 ] (Body.tex
-Body.tex:1: Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.1 \newchapter{1}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-Body.tex:1: Missing endcsname inserted.
-<to be read again> 
-                   relax 
-l.1 \newchapter{1}
-                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-Body.tex:1: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H1/.
-l.1 \newchapter{1}
-                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-Body.tex:1: Missing endcsname inserted.
-<to be read again> 
-                   relax 
-l.1 \newchapter{1}
-                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-Body.tex:1: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H1/.
-l.1 \newchapter{1}
-                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-Body.tex:1: Missing endcsname inserted.
-<to be read again> 
-                   relax 
-l.1 \newchapter{1}
-                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-Body.tex:1: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H1/.
-l.1 \newchapter{1}
-                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-(C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-
-LaTeX Warning: Empty bibliography on input line 1.
-
-
+\blx@maxsegment@1=\count458
+\blx@sectionciteorder@1=\count459
+Package biblatex Info: Reference section=1 on input line 1.
+Package biblatex Info: Setting label 'refsection:1' on input line 1.
+ (Chapters/H1/Body.tex (Chapters/H1/Sections/00_notation.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2 \newchapter{2}
-                   [1
+l.3 \case
+         {\pagenumbering{arabic}}{} [1
 
-]
-Body.tex:2: Missing number, treated as zero.
-<to be read again> 
-                   \global 
-l.2 \newchapter{2}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Chapters/H1/Sections/01_introduction.tex) (Chapters/H1/Sections/02_goals.tex) (Chapters/H1/Sections/03_drivers.tex
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14.
+ (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
+) [2]) (Chapters/H1/Sections/04_functional_analysis.tex
+<Chapters/H1/Images/functional_analysis.pdf, id=212, 1656.9403pt x 1837.61531pt>
+File: Chapters/H1/Images/functional_analysis.pdf Graphic file (type pdf)
+<use Chapters/H1/Images/functional_analysis.pdf>
+Package pdftex.def Info: Chapters/H1/Images/functional_analysis.pdf  used on input line 6.
+(pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
+) (Chapters/H1/Sections/05_phases.tex [3 <./Chapters/H1/Images/functional_analysis.pdf>]) (Chapters/H1/Sections/06_conops.tex
+<Chapters/H1/Images/ConOps.pdf, id=227, 1596.39159pt x 499.24263pt>
+File: Chapters/H1/Images/ConOps.pdf Graphic file (type pdf)
+<use Chapters/H1/Images/ConOps.pdf>
+Package pdftex.def Info: Chapters/H1/Images/ConOps.pdf  used on input line 6.
+(pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
+) [4 <./Chapters/H1/Images/ConOps.pdf>] (Chapters/H1/Sections/07_payload.tex [5]
+<Chapters/H1/Images/Strumenti Juno.jpg, id=260, 1606.0pt x 1159.33125pt>
+File: Chapters/H1/Images/Strumenti Juno.jpg Graphic file (type jpg)
+<use Chapters/H1/Images/Strumenti Juno.jpg>
+Package pdftex.def Info: Chapters/H1/Images/Strumenti Juno.jpg  used on input line 31.
+(pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
+ [6 <./Chapters/H1/Images/Strumenti Juno.jpg>]) (Chapters/H1/Sections/08_mission_analysis.tex
+<Chapters/H1/Images/orbits.png, id=270, 305.943pt x 509.2626pt>
+File: Chapters/H1/Images/orbits.png Graphic file (type png)
+<use Chapters/H1/Images/orbits.png>
+Package pdftex.def Info: Chapters/H1/Images/orbits.png  used on input line 7.
+(pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
+ [7 <./Chapters/H1/Images/orbits.png (PNG copy)>]
+<Chapters/H1/Images/orbits_jupiter.jpg, id=285, 2609.75pt x 919.435pt>
+File: Chapters/H1/Images/orbits_jupiter.jpg Graphic file (type jpg)
+<use Chapters/H1/Images/orbits_jupiter.jpg>
+Package pdftex.def Info: Chapters/H1/Images/orbits_jupiter.jpg  used on input line 53.
+(pdftex.def)             Requested size: 460.93153pt x 162.39066pt.
+)) [8 <./Chapters/H1/Images/orbits_jupiter.jpg>]
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 1.
+ (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
+File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
+)
+Package biblatex Info: Reference section=0 on input line 1.
+ [9]
+\blx@maxsegment@2=\count460
+\blx@sectionciteorder@2=\count461
+Package biblatex Info: Reference section=2 on input line 2.
+Package biblatex Info: Setting label 'refsection:2' on input line 2.
+ (Chapters/H2/Body.tex (Chapters/H2/Sections/00_notation.tex) [10
 
-Body.tex:2: Missing endcsname inserted.
-<to be read again> 
-                   relax 
-l.2 \newchapter{2}
-                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-Body.tex:2: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H2/.
-l.2 \newchapter{2}
-                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-Body.tex:2: Missing endcsname inserted.
-<to be read again> 
-                   relax 
-l.2 \newchapter{2}
-                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-Body.tex:2: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H2/.
-l.2 \newchapter{2}
-                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-Body.tex:2: Missing endcsname inserted.
-<to be read again> 
-                   relax 
-l.2 \newchapter{2}
-                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-Body.tex:2: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: relax invalid in file name. Lost: /Chapters/H2/.
-l.2 \newchapter{2}
-                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-(C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-
-LaTeX Warning: Empty bibliography on input line 2.
-
-) [2
-
-]
-
-Package caption Warning: Unused \captionsetup[table] on input line 57.
-See the caption package documentation for explanation.
-
-\blx@sectionciteorder@2=\count457
-(SSEO_final_report.aux)
+] (Chapters/H2/Sections/01_ma_and_dv.tex) (Chapters/H2/Sections/02_prop_architecture.tex
+<Chapters/H2/Images/axis.jpg, id=323, 791.95876pt x 278.03876pt>
+File: Chapters/H2/Images/axis.jpg Graphic file (type jpg)
+<use Chapters/H2/Images/axis.jpg>
+Package pdftex.def Info: Chapters/H2/Images/axis.jpg  used on input line 8.
+(pdftex.def)             Requested size: 332.89412pt x 116.87305pt.
+ [11 <./Chapters/H2/Images/axis.jpg>]
+<Chapters/H2/Images/spin2.png, id=337, 499.26524pt x 201.75375pt>
+File: Chapters/H2/Images/spin2.png Graphic file (type png)
+<use Chapters/H2/Images/spin2.png>
+Package pdftex.def Info: Chapters/H2/Images/spin2.png  used on input line 19.
+(pdftex.def)             Requested size: 384.11221pt x 155.22156pt.
+<Chapters/H2/Images/architettura_prop.pdf, id=344, 522.99388pt x 358.4592pt>
+File: Chapters/H2/Images/architettura_prop.pdf Graphic file (type pdf)
+<use Chapters/H2/Images/architettura_prop.pdf>
+Package pdftex.def Info: Chapters/H2/Images/architettura_prop.pdf  used on input line 24.
+(pdftex.def)             Requested size: 256.07481pt x 175.52074pt.
+<Chapters/H2/Images/foto_thruster.jpg, id=346, 678.535pt x 360.34625pt>
+File: Chapters/H2/Images/foto_thruster.jpg Graphic file (type jpg)
+<use Chapters/H2/Images/foto_thruster.jpg>
+Package pdftex.def Info: Chapters/H2/Images/foto_thruster.jpg  used on input line 33.
+(pdftex.def)             Requested size: 332.89412pt x 176.78564pt.
+ [12 <./Chapters/H2/Images/spin2.png> <./Chapters/H2/Images/architettura_prop.pdf>]) (Chapters/H2/Sections/03_reverse_prop.tex)) [13 <./Chapters/H2/Images/foto_thruster.jpg>]
+Package biblatex Info: Reference section=0 on input line 2.
+) [14] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package rerunfilecheck Warning: File `SSEO_final_report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `SSEO_final_report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  98C3E696E44AFC3F8B33E52EAEC99EA2;278.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                SSEO_final_report
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
+(rerunfilecheck)             Checksum: 2C4932E3603E171DD0AEF1EFEC6C4929;4387.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
- )
-(\end occurred inside a group at level 3)
-
-### semi simple group (level 3) entered at line 381 (\begingroup)
-### semi simple group (level 2) entered at line 8 (\begingroup)
-### semi simple group (level 1) entered at line 8 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 22832 strings out of 474436
- 392848 string characters out of 5741955
- 1932190 words of memory out of 5000000
- 44851 multiletter control sequences out of 15000+600000
- 609062 words of font info for 81 fonts, out of 8000000 for 9000
+ 23790 strings out of 474436
+ 415887 string characters out of 5741955
+ 1946190 words of memory out of 5000000
+ 45610 multiletter control sequences out of 15000+600000
+ 678716 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,6n,102p,1511b,2365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb>
-Output written on SSEO_final_report.pdf (4 pages, 69513 bytes).
+ 87i,13n,102p,1944b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on SSEO_final_report.pdf (16 pages, 1628472 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 275 words of extra memory for PDF output out of 10000 (max. 10000000)
 
