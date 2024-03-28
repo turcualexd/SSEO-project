@@ -1261,6 +1261,17 @@ INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpsyc.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpsyc.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpexa.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpexa.tfm
+INPUT .\Chapters\H2\\Images\trajectory.eps
+INPUT Chapters\H2\\Images\trajectory.eps
+INPUT .\Chapters\H2\\Images\trajectory.eps
+INPUT .\Chapters\H2\\Images\trajectory.eps
+INPUT .\Chapters\H2\\Images\trajectory-eps-converted-to.pdf
+INPUT .\Chapters\H2\\Images\trajectory-eps-converted-to.pdf
+INPUT .\Chapters\H2\\Images\trajectory.eps
+INPUT .\Chapters\H2\\Images\trajectory-eps-converted-to.pdf
+INPUT .\Chapters\H2\\Images\trajectory-eps-converted-to.pdf
+INPUT .\Chapters\H2\\Images\trajectory-eps-converted-to.pdf
+INPUT .\Chapters\H2\\Images\trajectory-eps-converted-to.pdf
 INPUT .\Chapters\H2\\Sections\02_prop_architecture.tex
 INPUT .\Chapters\H2\\Sections\02_prop_architecture.tex
 INPUT .\Chapters\H2\\Sections\02_prop_architecture.tex
@@ -1275,6 +1286,7 @@ INPUT Chapters\H2\\Sections\03_reverse_prop.tex
 INPUT .\Chapters\H2\\Sections\03_reverse_prop.tex
 INPUT .\Chapters\H2\\Sections\03_reverse_prop.tex
 INPUT Chapters\H2\\Sections\03_reverse_prop.tex
+INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpbn7t.vf
 INPUT SSEO_final_report.aux
 INPUT .\SSEO_final_report.out
 INPUT .\SSEO_final_report.out
@@ -1288,6 +1300,8 @@ INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpbmia.pfb
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpbmia.pfb
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpbn8a.pfb
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpbn8a.pfb
+INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpex.pfb
+INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpex.pfb
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpmi.pfb
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpmi.pfb
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpmia.pfb

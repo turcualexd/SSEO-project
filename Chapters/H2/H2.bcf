@@ -2355,7 +2355,14 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">../../bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1" intorder="1">fact_sheet</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">launch_period</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">atlasV_juno</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">launch_period</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">pre_launch_update</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">launch_period</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">launch_period</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">juno_navigation</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">fact_sheet</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

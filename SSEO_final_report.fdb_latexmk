@@ -1,12 +1,13 @@
 # Fdb version 4
-["biber SSEO_final_report"] 1711470036 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1711474934 0
-  "./bibliography.bib" 1711468381 5950 f145ca0b33022be05fe7314b0023c2c6 ""
-  "SSEO_final_report.bcf" 1711474933 110151 04d5259d722fed2e5798e4f4a0c4945f "pdflatex"
+["biber SSEO_final_report"] 1711641034 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1711641037 0
+  "./bibliography.bib" 1711641034 6307 5b6fa296ba78e198d07d181cd9e25f8e ""
+  "SSEO_final_report.bcf" 1711640978 110475 a07009f45bcd35a6d1cad0c72273fe6d "pdflatex"
+  "bibliography.bib" 1711641034 6307 5b6fa296ba78e198d07d181cd9e25f8e ""
   (generated)
   "SSEO_final_report.bbl"
   "SSEO_final_report.blg"
   (rewritten before read)
-["pdflatex"] 1711474931 "c:/Users/danie/Documents/GitHub/SSEO-project/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1711474934 0
+["pdflatex"] 1711640976 "c:/Users/danie/Documents/GitHub/SSEO-project/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1711641037 0
   "Body.tex" 1711228372 30 67a9b52dac108777071e7d3d67dcae18 ""
   "C:/Miktex/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc" 1674488844 2639 b7bbeb66c016cde6fdcad9263fe54a4a ""
@@ -46,6 +47,7 @@
   "C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb" 1674488844 30150 4444da69a5beffe59b1fbf4cdfec7227 ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpbmia.pfb" 1674488844 30406 41faa118093d1dedc2208a6694914719 ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb" 1674488844 32613 e064ce644a24deb273c8f670630798ba ""
+  "C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb" 1674488844 26063 1691ba566b0401a2658e6574f5f241e5 ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb" 1674488844 29813 d05f8d6ea0d8afa920af22dddafc33f2 ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb" 1674488844 30461 69b749e6d9e6ecbcbda833c4699db58d ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb" 1674488844 37692 ff65f49f493de879aca846e1811bfa1f ""
@@ -53,6 +55,7 @@
   "C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb" 1674488844 18013 a3754f8df0b4dd3a76b5353fabb31650 ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb" 1674488844 25860 1e4d17fc7bf1d0b47e9b47e6099f1971 ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb" 1674488844 29290 b94d44d3fae42765ed5c2398183bb1ca ""
+  "C:/Miktex/fonts/vf/public/kpfonts/jkpbn7t.vf" 1674488844 984 cb10e437de92fc0b8181a6322b62c9aa ""
   "C:/Miktex/fonts/vf/public/kpfonts/jkpbn8t.vf" 1674488844 1800 bde6e91770b65baf214fcc34f4229391 ""
   "C:/Miktex/fonts/vf/public/kpfonts/jkpmit8t.vf" 1674488844 1804 fe65055d8ef06903d74a3f6f34728152 ""
   "C:/Miktex/fonts/vf/public/kpfonts/jkpmn7c.vf" 1674488844 948 0ed5db617d744e3cca3bcade1853e77a ""
@@ -178,12 +181,13 @@
   "Chapters/H1//Sections/03_drivers.tex" 1711228373 5060 47eefaf588ee8de29c081742b5031cc1 ""
   "Chapters/H1//Sections/04_functional_analysis.tex" 1711228373 351 c51ae413a6452a65bae73cf2c5162dae ""
   "Chapters/H1//Sections/05_phases.tex" 1711228373 2580 eb05c48a794c6aee4bd74b2c5c1698c8 ""
-  "Chapters/H1//Sections/06_conops.tex" 1711228373 254 9bc68fbedce0a62514ca7db683eb3f3c ""
+  "Chapters/H1//Sections/06_conops.tex" 1711640962 243 25fdf3065f829879a2f3630b07b653df ""
   "Chapters/H1//Sections/07_payload.tex" 1711228373 9139 67dc33ea8d7d930e8131958a8ee50b3e ""
   "Chapters/H1//Sections/08_mission_analysis.tex" 1711228373 7215 177e84d28dd54eb4bf6d66d06bf2c7af ""
   "Chapters/H1/Body.tex" 1711228372 366 2f6ac9b625779a21058c16dc58775d48 ""
+  "Chapters/H2//Images/trajectory.eps" 1711627826 353283 ee1c9a573e3dc04ba457585c5e375d81 ""
   "Chapters/H2//Sections/00_notation.tex" 1711461966 562 280ef15846933e996218becb4d909c73 ""
-  "Chapters/H2//Sections/01_ma_and_dv.tex" 1711474930 3764 9211698dc6b6ae545ce8e9360d732f01 ""
+  "Chapters/H2//Sections/01_ma_and_dv.tex" 1711640767 9648 be50bced5962a46f809b71556388a652 ""
   "Chapters/H2//Sections/02_prop_architecture.tex" 1711228373 75 9794fd1a0642ea6c14cd78fb5f696503 ""
   "Chapters/H2//Sections/03_reverse_prop.tex" 1711461967 80 67a7e5672fae1c22503ad10a7bd33cc5 ""
   "Chapters/H2/Body.tex" 1711228373 189 b2d8c6f56cddaea098a78575f1681bdb ""
@@ -193,12 +197,12 @@
   "Config//packages.tex" 1711461967 523 a7070a05affe66c3c37dbaa6c7143f53 ""
   "Config/input.tex" 1711035838 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "Config/title_page_chapter.tex" 1711228373 1237 37606b3b29c6c05108acd46da5d641db ""
-  "SSEO_final_report.aux" 1711474933 11826 4ffdee8f6971ea5f20d0c40312790af5 "pdflatex"
-  "SSEO_final_report.bbl" 1711470039 21979 416b5e7bdea53c0693d6f9e7c96f6952 "biber SSEO_final_report"
-  "SSEO_final_report.out" 1711474933 3921 9aac34a0464ea0d6388da8e362339c5d "pdflatex"
-  "SSEO_final_report.run.xml" 1711474933 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
+  "SSEO_final_report.aux" 1711640978 13054 12c34e09b8d00b8187bc3ead86a27dd1 "pdflatex"
+  "SSEO_final_report.bbl" 1711641037 23008 f2861a43021b6dcd51d7eb58439fc8d1 "biber SSEO_final_report"
+  "SSEO_final_report.out" 1711640978 4444 e71bdbcd441b6b790a474c60d354acaf "pdflatex"
+  "SSEO_final_report.run.xml" 1711640978 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
   "SSEO_final_report.tex" 1711228373 302 b4660636688eb40853cc4b918fb5ca99 ""
-  "SSEO_final_report.toc" 1711474933 1972 06c81974705a2808ec8962722e409d70 "pdflatex"
+  "SSEO_final_report.toc" 1711640978 2189 0419ed4aa2e7c537da02c6dc0dfda5f7 "pdflatex"
   "c:/Users/danie/Documents/GitHub/SSEO-project/SSEO_final_report.tex" 1711228373 302 b4660636688eb40853cc4b918fb5ca99 ""
   (generated)
   "SSEO_final_report.aux"

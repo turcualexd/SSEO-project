@@ -259,29 +259,6 @@
       \field{title}{A New Model of Jupiter's Magnetic Field from Juno'sFirst Nine Orbits}
       \field{year}{2018}
     \endentry
-    \entry{look_inside_juno_mission}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=6b4abdd86ffba2654cb9815f5e0be02a}{%
-           family={Grammier},
-           familyi={G\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{fullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{bibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/missions/juno}}
-      \field{title}{A Look Inside the Juno Mission to Jupiter}
-      \field{year}{2008}
-    \endentry
     \entry{NASA2}{misc}{}
       \name{author}{1}{}{%
         {{hash=8f3e93a380f883d9b3e36d1582bba3fe}{%
@@ -380,28 +357,6 @@
 
 \refsection{2}
   \datalist[entry]{none/global//global/global}
-    \entry{atlasV_juno}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=a360c4fc14a4154127893257542f05ba}{%
-           family={Alliance},
-           familyi={A\bibinitperiod},
-           given={United\bibnamedelima Launch},
-           giveni={U\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \strng{namehash}{a360c4fc14a4154127893257542f05ba}
-      \strng{fullhash}{a360c4fc14a4154127893257542f05ba}
-      \strng{bibnamehash}{a360c4fc14a4154127893257542f05ba}
-      \strng{authorbibnamehash}{a360c4fc14a4154127893257542f05ba}
-      \strng{authornamehash}{a360c4fc14a4154127893257542f05ba}
-      \strng{authorfullhash}{a360c4fc14a4154127893257542f05ba}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Site: \url{https://www.google.com/url?sa=t}}
-      \field{title}{Atlas V Juno}
-      \field{year}{2011}
-    \endentry
     \entry{launch_period}{article}{}
       \name{author}{1}{}{%
         {{hash=c0eed6e1d68277fb2fc3354399991312}{%
@@ -416,13 +371,81 @@
       \strng{authorbibnamehash}{c0eed6e1d68277fb2fc3354399991312}
       \strng{authornamehash}{c0eed6e1d68277fb2fc3354399991312}
       \strng{authorfullhash}{c0eed6e1d68277fb2fc3354399991312}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
       \field{title}{Launch Period Development for the Juno Mission to Jupiter}
       \field{year}{2008}
+    \endentry
+    \entry{atlasV_juno}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a360c4fc14a4154127893257542f05ba}{%
+           family={Alliance},
+           familyi={A\bibinitperiod},
+           given={United\bibnamedelima Launch},
+           giveni={U\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a360c4fc14a4154127893257542f05ba}
+      \strng{fullhash}{a360c4fc14a4154127893257542f05ba}
+      \strng{bibnamehash}{a360c4fc14a4154127893257542f05ba}
+      \strng{authorbibnamehash}{a360c4fc14a4154127893257542f05ba}
+      \strng{authornamehash}{a360c4fc14a4154127893257542f05ba}
+      \strng{authorfullhash}{a360c4fc14a4154127893257542f05ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Site: \url{https://www.google.com/url?sa=t}}
+      \field{title}{Atlas V Juno}
+      \field{year}{2011}
+    \endentry
+    \entry{pre_launch_update}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6a33194dcf83f0bf7911883f7339a98d}{%
+           family={Nybakken},
+           familyi={N\bibinitperiod},
+           given={Rick},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a33194dcf83f0bf7911883f7339a98d}
+      \strng{fullhash}{6a33194dcf83f0bf7911883f7339a98d}
+      \strng{bibnamehash}{6a33194dcf83f0bf7911883f7339a98d}
+      \strng{authorbibnamehash}{6a33194dcf83f0bf7911883f7339a98d}
+      \strng{authornamehash}{6a33194dcf83f0bf7911883f7339a98d}
+      \strng{authorfullhash}{6a33194dcf83f0bf7911883f7339a98d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{The Juno Mission to Jupiter: A pre-launch update}
+      \field{year}{2011}
+    \endentry
+    \entry{juno_navigation}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2ef1287e4b260667d90d15d8fb72da9d}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Paul\bibnamedelimb F.\bibnamedelimi Thompson},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \strng{fullhash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \strng{bibnamehash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \strng{authorbibnamehash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \strng{authornamehash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \strng{authorfullhash}{2ef1287e4b260667d90d15d8fb72da9d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno navigation for Jupiter orbit insertion}
+      \field{year}{2017}
     \endentry
     \entry{fact_sheet}{misc}{}
       \name{author}{1}{}{%
@@ -438,8 +461,8 @@
       \strng{authorbibnamehash}{21a372abd2a5c641d5991cd08474c753}
       \strng{authornamehash}{21a372abd2a5c641d5991cd08474c753}
       \strng{authorfullhash}{21a372abd2a5c641d5991cd08474c753}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Site: \url{https://www.nasa.gov/}}
