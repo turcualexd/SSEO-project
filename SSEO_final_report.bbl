@@ -380,28 +380,6 @@
 
 \refsection{2}
   \datalist[entry]{none/global//global/global}
-    \entry{fact_sheet}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=21a372abd2a5c641d5991cd08474c753}{%
-           family={Laboratory},
-           familyi={L\bibinitperiod},
-           given={Jet\bibnamedelima Propulsion},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{21a372abd2a5c641d5991cd08474c753}
-      \strng{fullhash}{21a372abd2a5c641d5991cd08474c753}
-      \strng{bibnamehash}{21a372abd2a5c641d5991cd08474c753}
-      \strng{authorbibnamehash}{21a372abd2a5c641d5991cd08474c753}
-      \strng{authornamehash}{21a372abd2a5c641d5991cd08474c753}
-      \strng{authorfullhash}{21a372abd2a5c641d5991cd08474c753}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Site: \url{https://www.nasa.gov/}}
-      \field{title}{Juno Mission to Jupiter}
-      \field{year}{2022}
-    \endentry
     \entry{esa_margins}{article}{}
       \name{author}{1}{}{%
         {{hash=d514c60212474a803f48a06974d89110}{%
@@ -416,8 +394,8 @@
       \strng{authorbibnamehash}{d514c60212474a803f48a06974d89110}
       \strng{authornamehash}{d514c60212474a803f48a06974d89110}
       \strng{authorfullhash}{d514c60212474a803f48a06974d89110}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -436,8 +414,8 @@
       \strng{authorbibnamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
       \strng{authornamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
       \strng{authorfullhash}{fb2f7c65f5d2d087cd52f151c468dda8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Journal of Geophysical Research: Planet}

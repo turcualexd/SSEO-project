@@ -1,7 +1,7 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{Contents}{i}{section*.2}%
 \contentsline {section}{Notation}{i}{section*.3}%
-\contentsline {section}{\numberline {1}Mission analysis and $\Delta V$ budget}{1}{section.1}%
+\contentsline {section}{\numberline {1} Mission analysis and $\boldsymbol {\Delta V}$ budget }{1}{section.1}%
 \contentsline {section}{\numberline {2}Propulsion system architecture}{1}{section.2}%
 \contentsline {section}{\numberline {3}Reverse engineering of propulsion system}{1}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Fuel and oxidizer tanks sizing}{1}{subsection.3.1}%
