@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber H2"] 1711387738 "H2.bcf" "H2.bbl" "H2" 1711627310 0
+["biber H2"] 1711634110 "H2.bcf" "H2.bbl" "H2" 1711641498 0
   "../../bibliography.bib" 1711381545 7348 d698a0aa0fcfaf8918c797dc9b025182 ""
-  "H2.bcf" 1711627310 107317 064989059fe6c8523eda76e514df17b3 "pdflatex"
+  "H2.bcf" 1711641498 107383 7825971d954613e28257510792ea4319 "pdflatex"
   (generated)
   "H2.bbl"
   "H2.blg"
   (rewritten before read)
-["pdflatex"] 1711627309 "c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H2/H2.tex" "H2.pdf" "H2" 1711627310 0
+["pdflatex"] 1711641496 "c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H2/H2.tex" "H2.pdf" "H2" 1711641498 0
   "../../Config//Poli_logo.pdf" 1710543185 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config//commands.tex" 1711038509 1522 79a87f151e8bb55c34c99cccd4558b41 ""
-  "../../Config//formats.tex" 1711037417 1789 a28d3049733e043b1996fefbcb6a97f4 ""
-  "../../Config//packages.tex" 1711387705 569 1b4fb3e85dbe8eb6fcb3988e076da87a ""
+  "../../Config//formats.tex" 1711639755 1818 04a9bcdee2dae368f8a5b3a24938da5e ""
+  "../../Config//packages.tex" 1711639598 569 1b4fb3e85dbe8eb6fcb3988e076da87a ""
   "../../Config/input.tex" 1710503640 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "../../Config/title_page_chapter.tex" 1710543185 1237 37606b3b29c6c05108acd46da5d641db ""
   "Body.tex" 1711040769 189 b2d8c6f56cddaea098a78575f1681bdb ""
@@ -176,16 +176,16 @@
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H2.aux" 1711627310 3650 b266e3cc55c4cd43deeab4970688fbad "pdflatex"
-  "H2.bbl" 1711387741 2557 b13617f8f3301d7629891bdb0aac4795 "biber H2"
-  "H2.out" 1711627310 1650 f29328c0e9d63df3396137c36430be2e "pdflatex"
-  "H2.run.xml" 1711627310 2299 de1ff631824165bc5d0e9227c082121d "pdflatex"
+  "H2.aux" 1711641498 4410 a25d6aa7d5756aab23cc797a921e1fcc "pdflatex"
+  "H2.bbl" 1711634112 2557 b13617f8f3301d7629891bdb0aac4795 "biber H2"
+  "H2.out" 1711641498 1643 5e6a311ed33aa2c95d81f5b33d0cd9fd "pdflatex"
+  "H2.run.xml" 1711641498 2299 de1ff631824165bc5d0e9227c082121d "pdflatex"
   "H2.tex" 1711302070 309 89c6e0dd82f4e82c9af482c2655963ed ""
-  "H2.toc" 1711627310 772 f526f714c2a1d27346583a0935d0f42e "pdflatex"
-  "Sections/00_notation.tex" 1711393686 578 8d279156bd242cf09ad467a7b1024873 ""
+  "H2.toc" 1711641498 772 19a2944ac4feec3b9ad2f6ef900b05bb "pdflatex"
+  "Sections/00_notation.tex" 1711641496 2324 df66f9e9e5a61a107b3b405cd4c0af6f ""
   "Sections/01_ma_and_dv.tex" 1711627306 272 8ee6cd070dd41eb487ede1e2c80e5b73 ""
   "Sections/02_prop_architecture.tex" 1711040607 75 9794fd1a0642ea6c14cd78fb5f696503 ""
-  "Sections/03_reverse_prop.tex" 1711393816 6763 9b3522648b7938747cb899bbf9119811 ""
+  "Sections/03_reverse_prop.tex" 1711640107 9688 dd12c5f005d9d8c0a85651b35955248f ""
   "c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H2/H2.tex" 1711302070 309 89c6e0dd82f4e82c9af482c2655963ed ""
   (generated)
   "H2.aux"

@@ -141,10 +141,10 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
@@ -348,6 +348,11 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT ..\..\Config\\formats.tex
 INPUT ..\..\Config\\formats.tex
 INPUT ..\..\Config\\formats.tex
