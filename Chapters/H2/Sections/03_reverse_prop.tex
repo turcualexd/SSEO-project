@@ -1,10 +1,10 @@
 \section{Reverse engineering of propulsion system}
 \label{sec:reverse_prop}
 
-As described in (REFERENCE), the propulsion system counts four tanks for storing hydrazine, two tanks for storing NTO and two tanks for storing helium.
-To better understand the reasoning behind this choice, a reverse sizing for both the propellants and the pressurizer has been conducted given the data on the engine, the $\Delta V$ highlighted in TABLE REF and the total dry mass $M_{dry}$ \textcolor{red}{CITE} of the spacecraft.
+As described in \autoref{subsec:tanks}, the propulsion system counts four tanks for storing hydrazine, two tanks for storing NTO and two tanks for storing helium.
+To better understand the reasoning behind this choice, a reverse sizing for both the propellants and the pressurizer has been conducted given the data on the engine, the $\Delta V$ highlighted in \autoref{table:deltav} and the total dry mass $M_{dry}$ \textcolor{red}{CITE} of the spacecraft.
 All the process has taken into account the standardized margins from ESA. \cite{esa_margins}
-Since the actual mission has greatly deviated from its initial design, a second propellant sizing was also performed on the real manoeuvres up to $7^{\textrm{th}}$ June 2021 \textcolor{red}{CITE} plus the required de-orbit to check the compliance with the design masses. 
+Since the actual mission has greatly deviated from its initial design, a second propellant sizing was also performed on the real manoeuvres up to $7^{\textrm{th}}$ June 2021 \textcolor{red}{CITE} plus the required de-orbit to check the compliance with the design masses.
 
 \subsection{Fuel and oxidizer tanks sizing}
 \label{subsec:fuel_ox_sizing}
@@ -53,7 +53,7 @@ Since the actual mission has greatly deviated from its initial design, a second 
     Having the total volumes of propellants, they have been split among the number of spherical tanks. Since the radius $r_{tank}$ obtained for the two types of tanks are very similar and having two different tanks is inconvenient, the larger one was selected.
 
     \item
-    The pressure of the tanks $p_{tank}$ is kept constant (as described in (REFERENCE)). From the pressure and the volume of one tank, the required thickness $t_{tank}$ can be computed by choosing the material, characterized by its density $\rho$ and its tensile strength $\sigma$.
+    The pressure of the tanks $p_{tank}$ is kept constant (as described in \autoref{subsec:tanks}). From the pressure and the volume of one tank, the required thickness $t_{tank}$ can be computed by choosing the material, characterized by its density $\rho$ and its tensile strength $\sigma$.
     \begin{equation}
         t_{tank} = \frac{r_{tank} p_{tank}}{2 \sigma}
     \end{equation}
@@ -106,7 +106,7 @@ Three different materials have been taken into consideration, and the lighter co
     \end{gather}
 
     \item
-    Since the two tanks are cylindrical (REFERENCE), the geometry is undefined given only the volume of one tank. To add the missing constraint, a minimization of the total surface is assumed, which can minimize the internal stress due to pressure and the heat transfer through the walls (REFERENCE?).
+    Since the two tanks are cylindrical, the geometry is undefined given only the volume of one tank. To add the missing constraint, a minimization of the total surface is assumed, which can minimize the internal stress due to pressure and the heat transfer through the walls (\autoref{subsec:tanks}).
     \begin{align}
         r_{tank,He} &= \left( \frac{1/2 V_{He}}{2 \pi} \right)^{1/3}
         \\
@@ -148,7 +148,7 @@ As for the propellants tanks, titanium alloy appears to be the lightest solution
 
 \subsection{Computation of actual propellants usage}
 \label{subsec:real_prop_usage}
-The second sizing relies on the same procedure highlighted in \autoref{subsec:fuel_ox_sizing} with the difference that it starts from the launch mass $M_{launch} = M^{(0)}$ \textcolor{red}{CITE} and considers the $\Delta V$ from the second column of TABLE REF in chronological order. \autoref{eq:me_iteration} and \autoref{eq:rcs_iteration} are thus modified as follows:
+The second sizing relies on the same procedure highlighted in \autoref{subsec:fuel_ox_sizing} with the difference that it starts from the launch mass $M_{launch} = M^{(0)}$ \textcolor{red}{CITE} and considers the $\Delta V$ from the second column of \autoref{table:deltav} in chronological order. \autoref{eq:me_iteration} and \autoref{eq:rcs_iteration} are thus modified as follows:
 \begin{gather}
     M_{p,me}^{(i+1)} = M^{(i)} \cdot \left[ 1 - \exp \left( \frac{-\Delta V^{(i)}} {I_{s,me} \cdot g_0} \right) \right] + M_{p,me}^{(i)} \\
     M_{p,rcs}^{(i+1)} = M^{(i)} \cdot \left[ 1 - \exp \left( \frac{-\Delta V^{(i)}} {I_{s,rcs} \cdot g_0} \right) \right] + M_{p,rcs}^{(i)}
