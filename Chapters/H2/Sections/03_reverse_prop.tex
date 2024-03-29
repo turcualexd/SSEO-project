@@ -1,23 +1,26 @@
 \section{Reverse engineering of propulsion system}
 \label{sec:reverse_prop}
 
-As described in (REFERENCE), the propulsion system counts four tanks for storing hydrazine, two tanks for storing NTO and two tanks for storing helium.
-To better understand the reasoning behind this choice, a reverse sizing for both the propellants and the pressurizer has been conducted given the data on the engine, the $\Delta V$ highlighted in TABLE REF and the total dry mass $M_{dry}$ \textcolor{red}{CITE} of the spacecraft.
+As described in \autoref{subsec:tanks}, the propulsion system counts four tanks for storing hydrazine, two tanks for storing NTO and two tanks for storing helium.
+To better understand the reasoning behind this choice, a reverse sizing for both the propellants and the pressurizer has been conducted given the data on the engine, the $\Delta V$ highlighted in \autoref{table:deltav} and the total dry mass $M_{dry}$ \cite{masses_ref} of the spacecraft.
 All the process has taken into account the standardized margins from ESA. \cite{esa_margins}
-Since the actual mission has greatly deviated from its initial design, a second propellant sizing was also performed on the real manoeuvres up to $7^{\textrm{th}}$ June 2021 \textcolor{red}{CITE} plus the required de-orbit to check the compliance with the design masses. 
+Since the actual mission has greatly deviated from its initial design, a second propellant sizing was also performed on the real manoeuvres up to $7^{\textrm{th}}$ June 2021 \cite{juno_inner} \cite{otm} \cite{prm_redesign} plus the required de-orbit to check the compliance with the design masses.
 
 \subsection{Fuel and oxidizer tanks sizing}
 \label{subsec:fuel_ox_sizing}
 
 \begin{enumerate}[itemsep=5mm]
     \item
-    To estimate the masses of the propellants, Tsiolkovsky rocket equation has been applied iteratively on the $\Delta V$ of the first column of TABLE REF. This process needs the dry mass $M_{dry} = M^{(0)}$ of the spacecraft as first input and starts from the last $\Delta V$ (the de-orbit burn) incrementing the computed total mass $M^{(i)}$ after each iteration.
+    To estimate the masses of the propellants, Tsiolkovsky rocket equation has been applied iteratively on the $\Delta V$ of the first column of TABLE REF. This process needs the dry mass $M_{dry} = M^{(0)}$ of the spacecraft as first input and starts from the last $\Delta V$ (the de-orbit burn) incrementing the computed total mass $M^{(i)}$ and the propellant mass $M_{p,me}^{(i)}$ or $M_{p,rcs}^{(i)}$ after each iteration.
     \begin{gather}
         M_{p,me}^{(i+1)} = M^{(i)} \cdot \left[ \exp \left( \frac{1.05 \cdot \Delta V^{(i)}} {I_{s,me} \cdot g_0} \right) - 1 \right] + M_{p,me}^{(i)} 
         \label{eq:me_iteration} \\
         M_{p,rcs}^{(i+1)} = M^{(i)} \cdot \left[ \exp \left( \frac{2 \cdot \Delta V^{(i)}} {I_{s,rcs} \cdot g_0} \right) - 1 \right] + M_{p,rcs}^{(i)}
-        \label{eq:rcs_iteration}
-    \end{gather} 
+        \label{eq:rcs_iteration} \\
+        M^{(i+1)} = M^{(i)} + M_{p,me}^{(i)}
+        \qquad \textrm{or} \qquad
+        M^{(i+1)} = M^{(i)} + M_{p,rcs}^{(i)}
+    \end{gather}
     where the respective formula is applied based on which engine type performs the i-th manoeuvre.
     
     \item
@@ -25,22 +28,21 @@ Since the actual mission has greatly deviated from its initial design, a second 
     Exploiting the density of the propellants, the total volumes for fuel and oxidizer are retrieved.
     \begin{gather}
         M_{f} = \frac{1}{O/F + 1} \cdot M_{p,me} + M_{p,rcs} 
-        \label{eq:fuel_mass} \\
+        \\
         M_{ox} = \frac{O/F}{O/F + 1} \cdot M_{p,me}
-        \label{eq:ox_mass}
     \end{gather}
-    The estimated masses are rather similar to the real ones, as it can be seen in \autoref{table:materials}
+    The estimated masses are rather similar to the real ones, as it can be seen in \autoref{table:masses}.
 
     \begin{table}[H]
         \renewcommand{\arraystretch}{1.3}
         \centering
         \begin{tabular}{|c|c|c|c|}
             \hline
-            & \textbf{Estimated masses [kg]} & \textbf{Real masses [kg]} \textcolor{red}{CITE} & \textbf{Relative error [\%]} \\
+            & \textbf{Estimated masses [kg]} & \textbf{Real masses [kg]} \cite{masses_ref} & \textbf{Relative error [\%]} \\
             \hline
-            $\boldsymbol{M_{f}}$ & 1310.5 & 1280 & 2.38 \\
+            $\boldsymbol{M_{f}}$ & 1309.5 & 1280 & 2.304 \\
             \hline
-            $\boldsymbol{M_{ox}}$ & 752.6 & 752 & 0.08 \\
+            $\boldsymbol{M_{ox}}$ & 751.9 & 752 & 0.013 \\
             \hline
         \end{tabular}
         \caption{Comparison between estimated and real masses}
@@ -51,7 +53,7 @@ Since the actual mission has greatly deviated from its initial design, a second 
     Having the total volumes of propellants, they have been split among the number of spherical tanks. Since the radius $r_{tank}$ obtained for the two types of tanks are very similar and having two different tanks is inconvenient, the larger one was selected.
 
     \item
-    The pressure of the tanks $p_{tank}$ is kept constant (as described in (REFERENCE)). From the pressure and the volume of one tank, the required thickness $t_{tank}$ can be computed by choosing the material, characterized by its density $\rho$ and its tensile strength $\sigma$.
+    The pressure of the tanks $p_{tank}$ is kept constant (as described in \autoref{subsec:tanks}). From the pressure and the volume of one tank, the required thickness $t_{tank}$ can be computed by choosing the material, characterized by its density $\rho$ and its tensile strength $\sigma$.
     \begin{equation}
         t_{tank} = \frac{r_{tank} p_{tank}}{2 \sigma}
     \end{equation}
@@ -83,7 +85,7 @@ Three different materials have been taken into consideration, and the lighter co
         0.50 & 0.93 & 0.34 \\
         \hline
         $\boldsymbol{M_{tank} \; [\textrm{\textbf{kg}}]}$ &
-        5.55 & 6.46 & 6.77 \\
+        5.45 & 6.35 & 6.66 \\
         \hline
     \end{tabular}
     \caption{Properties of the materials tested for the sizing of the tanks}
@@ -104,7 +106,7 @@ Three different materials have been taken into consideration, and the lighter co
     \end{gather}
 
     \item
-    Since the two tanks are cylindrical (REFERENCE), the geometry is undefined given only the volume of one tank. To add the missing constraint, a minimization of the total surface is assumed, which can minimize the internal stress due to pressure and the heat transfer through the walls (REFERENCE?).
+    Since the two tanks are cylindrical, the geometry is undefined given only the volume of one tank. To add the missing constraint, a minimization of the total surface is assumed, which can minimize the internal stress due to pressure and the heat transfer through the walls (\autoref{subsec:tanks}).
     \begin{align}
         r_{tank,He} &= \left( \frac{1/2 V_{He}}{2 \pi} \right)^{1/3}
         \\
@@ -134,10 +136,10 @@ As for the propellants tanks, titanium alloy appears to be the lightest solution
         & \textbf{Ti6Al4V} & \textbf{Al7075} & \textbf{Stainless steel} \\
         \hline
         $\boldsymbol{t_{tank,He} \; [\textrm{\textbf{mm}}]}$ &
-        3.60 & 6.71 & 2.45 \\
+        3.58 & 6.68 & 2.43 \\
         \hline
         $\boldsymbol{M_{tank,He} \; [\textrm{\textbf{kg}}]}$ &
-        31.14 & 36.34 & 37.99 \\
+        30.62 & 35.73 & 37.51 \\
         \hline
     \end{tabular}
     \caption{Thickness and mass of helium tanks for different materials}
@@ -146,7 +148,7 @@ As for the propellants tanks, titanium alloy appears to be the lightest solution
 
 \subsection{Computation of actual propellants usage}
 \label{subsec:real_prop_usage}
-The second sizing relies on the same procedure highlighted in \autoref{subsec:fuel_ox_sizing} with the difference that it starts from the launch mass $M_{launch} = M^{(0)}$ \textcolor{red}{CITE} and considers the $\Delta V$ from the second column of TABLE REF in chronological order. \autoref{eq:me_iteration} and \autoref{eq:rcs_iteration} are thus modified as follows:
+The second sizing relies on the same procedure highlighted in \autoref{subsec:fuel_ox_sizing} with the difference that it starts from the launch mass $M_{launch} = M^{(0)}$ \cite{masses_ref} and considers the $\Delta V$ from the second column of \autoref{table:deltav} in chronological order. \autoref{eq:me_iteration} and \autoref{eq:rcs_iteration} are thus modified as follows:
 \begin{gather}
     M_{p,me}^{(i+1)} = M^{(i)} \cdot \left[ 1 - \exp \left( \frac{-\Delta V^{(i)}} {I_{s,me} \cdot g_0} \right) \right] + M_{p,me}^{(i)} \\
     M_{p,rcs}^{(i+1)} = M^{(i)} \cdot \left[ 1 - \exp \left( \frac{-\Delta V^{(i)}} {I_{s,rcs} \cdot g_0} \right) \right] + M_{p,rcs}^{(i)}

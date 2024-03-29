@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  21 MAR 2024 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  29 MAR 2024 09:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -467,13 +467,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box55
 \@float@everytoks=\toks27
 \@floatcapt=\box56
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
@@ -621,10 +631,16 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen185
 \TX@cols=\count303
 \TX@ftn=\toks29
+) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count304
+\multirow@dima=\skip60
+\bigstrutjot=\dimen186
 ) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen186
-\WF@size=\dimen187
-\c@WF@wrappedlines=\count304
+\wrapoverhang=\dimen187
+\WF@size=\dimen188
+\c@WF@wrappedlines=\count305
 \WF@box=\box59
 \WF@everypar=\toks30
 Package: wrapfig 2003/01/31  v 3.6
@@ -632,69 +648,69 @@ Package: wrapfig 2003/01/31  v 3.6
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count305
+\lrq@indent=\count306
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count306
-\c@listtotal=\count307
-\c@listcount=\count308
-\c@liststart=\count309
-\c@liststop=\count310
-\c@citecount=\count311
-\c@citetotal=\count312
-\c@multicitecount=\count313
-\c@multicitetotal=\count314
-\c@instcount=\count315
-\c@maxnames=\count316
-\c@minnames=\count317
-\c@maxitems=\count318
-\c@minitems=\count319
-\c@citecounter=\count320
-\c@maxcitecounter=\count321
-\c@savedcitecounter=\count322
-\c@uniquelist=\count323
-\c@uniquename=\count324
-\c@refsection=\count325
-\c@refsegment=\count326
-\c@maxextratitle=\count327
-\c@maxextratitleyear=\count328
-\c@maxextraname=\count329
-\c@maxextradate=\count330
-\c@maxextraalpha=\count331
-\c@abbrvpenalty=\count332
-\c@highnamepenalty=\count333
-\c@lownamepenalty=\count334
-\c@maxparens=\count335
-\c@parenlevel=\count336
-\blx@tempcnta=\count337
-\blx@tempcntb=\count338
-\blx@tempcntc=\count339
-\c@blx@maxsection=\count340
-\blx@maxsegment@0=\count341
-\blx@notetype=\count342
-\blx@parenlevel@text=\count343
-\blx@parenlevel@foot=\count344
-\blx@sectionciteorder@0=\count345
-\blx@sectionciteorderinternal@0=\count346
-\blx@entrysetcounter=\count347
-\blx@biblioinstance=\count348
-\labelnumberwidth=\skip59
-\labelalphawidth=\skip60
-\biblabelsep=\skip61
-\bibitemsep=\skip62
-\bibnamesep=\skip63
-\bibinitsep=\skip64
-\bibparsep=\skip65
-\bibhang=\skip66
+\c@tabx@nest=\count307
+\c@listtotal=\count308
+\c@listcount=\count309
+\c@liststart=\count310
+\c@liststop=\count311
+\c@citecount=\count312
+\c@citetotal=\count313
+\c@multicitecount=\count314
+\c@multicitetotal=\count315
+\c@instcount=\count316
+\c@maxnames=\count317
+\c@minnames=\count318
+\c@maxitems=\count319
+\c@minitems=\count320
+\c@citecounter=\count321
+\c@maxcitecounter=\count322
+\c@savedcitecounter=\count323
+\c@uniquelist=\count324
+\c@uniquename=\count325
+\c@refsection=\count326
+\c@refsegment=\count327
+\c@maxextratitle=\count328
+\c@maxextratitleyear=\count329
+\c@maxextraname=\count330
+\c@maxextradate=\count331
+\c@maxextraalpha=\count332
+\c@abbrvpenalty=\count333
+\c@highnamepenalty=\count334
+\c@lownamepenalty=\count335
+\c@maxparens=\count336
+\c@parenlevel=\count337
+\blx@tempcnta=\count338
+\blx@tempcntb=\count339
+\blx@tempcntc=\count340
+\c@blx@maxsection=\count341
+\blx@maxsegment@0=\count342
+\blx@notetype=\count343
+\blx@parenlevel@text=\count344
+\blx@parenlevel@foot=\count345
+\blx@sectionciteorder@0=\count346
+\blx@sectionciteorderinternal@0=\count347
+\blx@entrysetcounter=\count348
+\blx@biblioinstance=\count349
+\labelnumberwidth=\skip61
+\labelalphawidth=\skip62
+\biblabelsep=\skip63
+\bibitemsep=\skip64
+\bibnamesep=\skip65
+\bibinitsep=\skip66
+\bibparsep=\skip67
+\bibhang=\skip68
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count349
-\c@maxcomprange=\count350
-\c@mincompwidth=\count351
+\c@mincomprange=\count350
+\c@maxcomprange=\count351
+\c@mincompwidth=\count352
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -704,88 +720,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count352
-\c@savedafterword=\count353
-\c@annotator=\count354
-\c@savedannotator=\count355
-\c@author=\count356
-\c@savedauthor=\count357
-\c@bookauthor=\count358
-\c@savedbookauthor=\count359
-\c@commentator=\count360
-\c@savedcommentator=\count361
-\c@editor=\count362
-\c@savededitor=\count363
-\c@editora=\count364
-\c@savededitora=\count365
-\c@editorb=\count366
-\c@savededitorb=\count367
-\c@editorc=\count368
-\c@savededitorc=\count369
-\c@foreword=\count370
-\c@savedforeword=\count371
-\c@holder=\count372
-\c@savedholder=\count373
-\c@introduction=\count374
-\c@savedintroduction=\count375
-\c@namea=\count376
-\c@savednamea=\count377
-\c@nameb=\count378
-\c@savednameb=\count379
-\c@namec=\count380
-\c@savednamec=\count381
-\c@translator=\count382
-\c@savedtranslator=\count383
-\c@shortauthor=\count384
-\c@savedshortauthor=\count385
-\c@shorteditor=\count386
-\c@savedshorteditor=\count387
-\c@labelname=\count388
-\c@savedlabelname=\count389
-\c@institution=\count390
-\c@savedinstitution=\count391
-\c@lista=\count392
-\c@savedlista=\count393
-\c@listb=\count394
-\c@savedlistb=\count395
-\c@listc=\count396
-\c@savedlistc=\count397
-\c@listd=\count398
-\c@savedlistd=\count399
-\c@liste=\count400
-\c@savedliste=\count401
-\c@listf=\count402
-\c@savedlistf=\count403
-\c@location=\count404
-\c@savedlocation=\count405
-\c@organization=\count406
-\c@savedorganization=\count407
-\c@origlocation=\count408
-\c@savedoriglocation=\count409
-\c@origpublisher=\count410
-\c@savedorigpublisher=\count411
-\c@publisher=\count412
-\c@savedpublisher=\count413
-\c@language=\count414
-\c@savedlanguage=\count415
-\c@origlanguage=\count416
-\c@savedoriglanguage=\count417
-\c@pageref=\count418
-\c@savedpageref=\count419
-\shorthandwidth=\skip67
-\shortjournalwidth=\skip68
-\shortserieswidth=\skip69
-\shorttitlewidth=\skip70
-\shortauthorwidth=\skip71
-\shorteditorwidth=\skip72
-\locallabelnumberwidth=\skip73
-\locallabelalphawidth=\skip74
-\localshorthandwidth=\skip75
-\localshortjournalwidth=\skip76
-\localshortserieswidth=\skip77
-\localshorttitlewidth=\skip78
-\localshortauthorwidth=\skip79
-\localshorteditorwidth=\skip80
+\c@afterword=\count353
+\c@savedafterword=\count354
+\c@annotator=\count355
+\c@savedannotator=\count356
+\c@author=\count357
+\c@savedauthor=\count358
+\c@bookauthor=\count359
+\c@savedbookauthor=\count360
+\c@commentator=\count361
+\c@savedcommentator=\count362
+\c@editor=\count363
+\c@savededitor=\count364
+\c@editora=\count365
+\c@savededitora=\count366
+\c@editorb=\count367
+\c@savededitorb=\count368
+\c@editorc=\count369
+\c@savededitorc=\count370
+\c@foreword=\count371
+\c@savedforeword=\count372
+\c@holder=\count373
+\c@savedholder=\count374
+\c@introduction=\count375
+\c@savedintroduction=\count376
+\c@namea=\count377
+\c@savednamea=\count378
+\c@nameb=\count379
+\c@savednameb=\count380
+\c@namec=\count381
+\c@savednamec=\count382
+\c@translator=\count383
+\c@savedtranslator=\count384
+\c@shortauthor=\count385
+\c@savedshortauthor=\count386
+\c@shorteditor=\count387
+\c@savedshorteditor=\count388
+\c@labelname=\count389
+\c@savedlabelname=\count390
+\c@institution=\count391
+\c@savedinstitution=\count392
+\c@lista=\count393
+\c@savedlista=\count394
+\c@listb=\count395
+\c@savedlistb=\count396
+\c@listc=\count397
+\c@savedlistc=\count398
+\c@listd=\count399
+\c@savedlistd=\count400
+\c@liste=\count401
+\c@savedliste=\count402
+\c@listf=\count403
+\c@savedlistf=\count404
+\c@location=\count405
+\c@savedlocation=\count406
+\c@organization=\count407
+\c@savedorganization=\count408
+\c@origlocation=\count409
+\c@savedoriglocation=\count410
+\c@origpublisher=\count411
+\c@savedorigpublisher=\count412
+\c@publisher=\count413
+\c@savedpublisher=\count414
+\c@language=\count415
+\c@savedlanguage=\count416
+\c@origlanguage=\count417
+\c@savedoriglanguage=\count418
+\c@pageref=\count419
+\c@savedpageref=\count420
+\shorthandwidth=\skip69
+\shortjournalwidth=\skip70
+\shortserieswidth=\skip71
+\shorttitlewidth=\skip72
+\shortauthorwidth=\skip73
+\shorteditorwidth=\skip74
+\locallabelnumberwidth=\skip75
+\locallabelalphawidth=\skip76
+\localshorthandwidth=\skip77
+\localshortjournalwidth=\skip78
+\localshortserieswidth=\skip79
+\localshorttitlewidth=\skip80
+\localshortauthorwidth=\skip81
+\localshorteditorwidth=\skip82
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -795,19 +811,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count420
-\c@textcitetotal=\count421
-\c@textcitemaxnames=\count422
-\c@biburlbigbreakpenalty=\count423
-\c@biburlbreakpenalty=\count424
-\c@biburlnumpenalty=\count425
-\c@biburlucpenalty=\count426
-\c@biburllcpenalty=\count427
+\c@textcitecount=\count421
+\c@textcitetotal=\count422
+\c@textcitemaxnames=\count423
+\c@biburlbigbreakpenalty=\count424
+\c@biburlbreakpenalty=\count425
+\c@biburlnumpenalty=\count426
+\c@biburlucpenalty=\count427
+\c@biburllcpenalty=\count428
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count428
+\c@smartand=\count429
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -817,8 +833,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count429
-\c@bbx:relatedtotal=\count430
+\c@bbx:relatedcount=\count430
+\c@bbx:relatedtotal=\count431
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -847,7 +863,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2023-05-11 L3 programming layer (loader) 
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count431
+\l__color_backend_stack_int=\count432
 \l__pdf_internal_box=\box60
 ))
 Package biblatex Info: ... and expl3
@@ -860,23 +876,23 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count432
+\c@tracingmulticols=\count433
 \mult@box=\box61
-\multicol@leftmargin=\dimen188
-\c@unbalance=\count433
-\c@collectmore=\count434
-\doublecol@number=\count435
-\multicoltolerance=\count436
-\multicolpretolerance=\count437
-\full@width=\dimen189
-\page@free=\dimen190
-\premulticols=\dimen191
-\postmulticols=\dimen192
-\multicolsep=\skip81
-\multicolbaselineskip=\skip82
+\multicol@leftmargin=\dimen189
+\c@unbalance=\count434
+\c@collectmore=\count435
+\doublecol@number=\count436
+\multicoltolerance=\count437
+\multicolpretolerance=\count438
+\full@width=\dimen190
+\page@free=\dimen191
+\premulticols=\dimen192
+\postmulticols=\dimen193
+\multicolsep=\skip83
+\multicolbaselineskip=\skip84
 \partial@page=\box62
 \last@line=\box63
-\maxbalancingoverflow=\dimen193
+\maxbalancingoverflow=\dimen194
 \mult@rightbox=\box64
 \mult@grightbox=\box65
 \mult@firstbox=\box66
@@ -917,38 +933,43 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box101
 \@tempa=\box102
 \@tempa=\box103
-\c@minrows=\count438
-\c@columnbadness=\count439
-\c@finalcolumnbadness=\count440
-\last@try=\dimen194
-\multicolovershoot=\dimen195
-\multicolundershoot=\dimen196
+\c@minrows=\count439
+\c@columnbadness=\count440
+\c@finalcolumnbadness=\count441
+\last@try=\dimen195
+\multicolovershoot=\dimen196
+\multicolundershoot=\dimen197
 \mult@nat@firstbox=\box104
 \colbreak@box=\box105
-\mc@col@check@num=\count441
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
+\mc@col@check@num=\count442
+) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
 Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
 Package: ltablex 2014/08/13 v1.1 Modified tabularx
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip83
-\LTright=\skip84
-\LTpre=\skip85
-\LTpost=\skip86
-\LTchunksize=\count442
-\LTcapwidth=\dimen197
+\LTleft=\skip85
+\LTright=\skip86
+\LTpre=\skip87
+\LTpost=\skip88
+\LTchunksize=\count443
+\LTcapwidth=\dimen198
 \LT@head=\box106
 \LT@firsthead=\box107
 \LT@foot=\box108
 \LT@lastfoot=\box109
 \LT@gbox=\box110
-\LT@cols=\count443
-\LT@rows=\count444
-\c@LT@tables=\count445
-\c@LT@chunks=\count446
+\LT@cols=\count444
+\LT@rows=\count445
+\c@LT@tables=\count446
+\c@LT@chunks=\count447
 \LT@p@ftn=\toks31
-))) (../../Config//formats.tex
+)))) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks32
+\minrowclearance=\skip89
+\rownum=\count448
+) (../../Config//formats.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 Package biblatex Info: Redefining '\supercite' on input line 35.
 \ltmcbox=\box111
@@ -1021,7 +1042,7 @@ LaTeX Font Info:    ... okay on input line 8.
 * \footskip=30.0pt
 * \marginparwidth=57.0pt
 * \marginparsep=11.0pt
-* \columnsep=10.0pt
+* \columnsep=2.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -1034,17 +1055,17 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count447
-\scratchdimen=\dimen198
+\scratchcounter=\count449
+\scratchdimen=\dimen199
 \scratchbox=\box112
-\nofMPsegments=\count448
-\nofMParguments=\count449
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count450
-\MPscratchDim=\dimen199
-\MPnumerator=\count451
-\makeMPintoPDFobject=\count452
-\everyMPtoPDFconversion=\toks33
+\nofMPsegments=\count450
+\nofMParguments=\count451
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count452
+\MPscratchDim=\dimen256
+\MPnumerator=\count453
+\makeMPintoPDFobject=\count454
+\everyMPtoPDFconversion=\toks34
 ) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1110,8 +1131,8 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \tf@toc=\write5
 \openout5 = `H1.toc'.
 
-\blx@maxsegment@1=\count453
-\blx@sectionciteorder@1=\count454
+\blx@maxsegment@1=\count455
+\blx@sectionciteorder@1=\count456
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
  (Body.tex (Sections/00_notation.tex) [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Sections/01_introduction.tex) (Sections/02_goals.tex) (Sections/03_drivers.tex
@@ -1136,19 +1157,19 @@ File: Images/ConOps.pdf Graphic file (type pdf)
 Package pdftex.def Info: Images/ConOps.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
 ) [3 <./Images/ConOps.pdf>] (Sections/07_payload.tex [4]
-<Images/Strumenti Juno.jpg, id=206, 1606.0pt x 1159.33125pt>
+<Images/Strumenti Juno.jpg, id=205, 1606.0pt x 1159.33125pt>
 File: Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Images/Strumenti Juno.jpg  used on input line 31.
 (pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
  [5 <./Images/Strumenti Juno.jpg>]) (Sections/08_mission_analysis.tex
-<Images/orbits.png, id=217, 305.943pt x 509.2626pt>
+<Images/orbits.png, id=216, 305.943pt x 509.2626pt>
 File: Images/orbits.png Graphic file (type png)
 <use Images/orbits.png>
 Package pdftex.def Info: Images/orbits.png  used on input line 7.
 (pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
  [6 <./Images/orbits.png (PNG copy)>]
-<Images/orbits_jupiter.jpg, id=232, 2609.75pt x 919.435pt>
+<Images/orbits_jupiter.jpg, id=231, 2609.75pt x 919.435pt>
 File: Images/orbits_jupiter.jpg Graphic file (type jpg)
 <use Images/orbits_jupiter.jpg>
 Package pdftex.def Info: Images/orbits_jupiter.jpg  used on input line 53.
@@ -1167,17 +1188,17 @@ Package logreq Info: Writing requests to 'H1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23649 strings out of 476361
- 413401 string characters out of 5788046
+ 24177 strings out of 476361
+ 420173 string characters out of 5788046
  1870993 words of memory out of 5000000
- 43604 multiletter control sequences out of 15000+600000
+ 44123 multiletter control sequences out of 15000+600000
  625764 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,13n,98p,1922b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,14n,98p,1922b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H1.pdf (10 pages, 1173008 bytes).
+Output written on H1.pdf (10 pages, 1172420 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
  175 words of extra memory for PDF output out of 10000 (max. 10000000)
 

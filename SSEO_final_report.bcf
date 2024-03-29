@@ -2389,12 +2389,12 @@
     <bcf:citekey order="20" intorder="1">atmosphere</bcf:citekey>
     <bcf:citekey order="21" intorder="1">Juno_launch</bcf:citekey>
     <bcf:citekey order="22" intorder="1">Juno_launch</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Juno_launch</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">look_inside_juno_mission</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">2006_overview</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">Juno_launch</bcf:citekey>
     <bcf:citekey order="25" intorder="1">NASA2</bcf:citekey>
     <bcf:citekey order="26" intorder="1">NASA1</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Juno_launch</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">look_inside_juno_mission</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">2006_overview</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Juno_launch</bcf:citekey>
     <bcf:citekey order="29" intorder="1">NASA2</bcf:citekey>
     <bcf:citekey order="30" intorder="1">NASA1</bcf:citekey>
     <bcf:citekey order="31" intorder="1">Key_requirements</bcf:citekey>
@@ -2416,7 +2416,43 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
-    <bcf:citekey order="1" intorder="1">esa_margins</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">launch_period</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">atlasV_juno</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">launch_period</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">pre_launch_update</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">launch_period</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">launch_period</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">juno_navigation</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">juno_inner</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">juno_inner</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">juno_inner</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">juno_inner</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">juno_inner</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">otm</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">otm</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">otm</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">nasa_otm</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">spaceflight101</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Leros</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">s405</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">RCS_info</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">RCS_values</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">juno_inner</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Leros</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">2tankshe</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">he_tank</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">Leros</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">slosh</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">juno_inner</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">masses_ref</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">esa_margins</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">juno_inner</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">otm</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">prm_redesign</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Leros</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">masses_ref</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">masses_ref</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">esa_margins</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
