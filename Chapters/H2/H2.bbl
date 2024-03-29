@@ -59,7 +59,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Site: \url{https://www.google.com/url?sa=t}}
+      \field{howpublished}{Site: \url{https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010a.pdf?sfvrsn=f84bb59e_2}}
       \field{title}{Atlas V Juno}
       \field{year}{2011}
     \endentry
@@ -110,29 +110,7 @@
       \field{title}{Juno navigation for Jupiter orbit insertion}
       \field{year}{2017}
     \endentry
-    \entry{fact_sheet}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=21a372abd2a5c641d5991cd08474c753}{%
-           family={Laboratory},
-           familyi={L\bibinitperiod},
-           given={Jet\bibnamedelima Propulsion},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{21a372abd2a5c641d5991cd08474c753}
-      \strng{fullhash}{21a372abd2a5c641d5991cd08474c753}
-      \strng{bibnamehash}{21a372abd2a5c641d5991cd08474c753}
-      \strng{authorbibnamehash}{21a372abd2a5c641d5991cd08474c753}
-      \strng{authornamehash}{21a372abd2a5c641d5991cd08474c753}
-      \strng{authorfullhash}{21a372abd2a5c641d5991cd08474c753}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Site: \url{https://www.nasa.gov/}}
-      \field{title}{Juno Mission to Jupiter}
-      \field{year}{2022}
-    \endentry
-    \entry{junno_inner}{misc}{}
+    \entry{juno_inner}{misc}{}
       \name{author}{1}{}{%
         {{hash=1f38713a359af2dce5019a1ed3b581fa}{%
            family={al},
@@ -149,8 +127,8 @@
       \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
       \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{AIAA space forum}
@@ -181,7 +159,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{JPL open repository}
       \field{note}{Site: \url{https://dataverse.jpl.nasa.gov/file.xhtml?fileId=58768&version=1.1&toolType=PREVIEW}}
-      \field{title}{MANEUVER OPERATIONS DURING JUNO’S APPROACH, ORBIT INSERTION, AND EARLY ORBIT PHASE}
+      \field{title}{Maneuver Operations During Juno's Approach, ORBIT INSERTION, AND EARLY ORBIT PHASE}
       \field{year}{2017}
     \endentry
     \entry{nasa_otm}{misc}{}
@@ -246,7 +224,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{Journal of Geophysical Research: Planet}
       \field{note}{Site: \url{https://www.nammo.com/wp-content/uploads/2021/03/2021-Nammo-Westcott-Liquid-Engine-LEROS1B.pdf}}
-      \field{title}{Leros-1b engine}
+      \field{title}{Leros 1b engine}
     \endentry
     \entry{s405}{misc}{}
       \name{author}{1}{}{%
@@ -262,8 +240,8 @@
       \strng{authorbibnamehash}{62fe1804969ebabf198b89b19325673b}
       \strng{authornamehash}{62fe1804969ebabf198b89b19325673b}
       \strng{authorfullhash}{62fe1804969ebabf198b89b19325673b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{AIAA space forum}
@@ -346,6 +324,28 @@
       \field{title}{Modeling of Fuel Slosh in a Spin Stabilized Spacecraft with On-Axis Propellant Tanks Implemented with Diaphragms}
       \field{year}{2009}
     \endentry
+    \entry{masses_ref}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b72ac823d25cea6b75733918733a005d}{%
+           family={JPL},
+           familyi={J\bibinitperiod},
+           given={NASA},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{fullhash}{b72ac823d25cea6b75733918733a005d}
+      \strng{bibnamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authorbibnamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authornamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authorfullhash}{b72ac823d25cea6b75733918733a005d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/juno/facts/}}
+      \field{title}{Juno Quick Facts}
+      \field{year}{2011}
+    \endentry
     \entry{esa_margins}{article}{}
       \name{author}{1}{}{%
         {{hash=d514c60212474a803f48a06974d89110}{%
@@ -367,6 +367,31 @@
       \field{howpublished}{Paper}
       \field{title}{Margin philosophy for science assessment studies}
       \field{year}{2012}
+    \endentry
+    \entry{prm_redesign}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1f38713a359af2dce5019a1ed3b581fa}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi Pavlak},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{fullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{bibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorbibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \field{extraname}{6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno trajectory redesign following PRM cancellation}
+      \field{year}{2017}
     \endentry
   \enddatalist
 \endrefsection
