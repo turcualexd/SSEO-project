@@ -11,12 +11,14 @@ Since the actual mission has greatly deviated from its initial design, a second 
 
 \begin{enumerate}[itemsep=5mm]
     \item
-    To estimate the masses of the propellants, Tsiolkovsky rocket equation has been applied iteratively on the $\Delta V$ of the first column of TABLE REF. This process needs the dry mass $M_{dry} = M^{(0)}$ of the spacecraft as first input and starts from the last $\Delta V$ (the de-orbit burn) incrementing the computed total mass $M^{(i)}$ and the propellant mass $M_{p,me}^{(i)}$ or $M_{p,rcs}^{(i)}$ after each iteration.
+    To estimate the masses of the propellants, Tsiolkovsky rocket equation has been applied iteratively on the $\Delta V$ of the first column of \autoref{table:deltav}. This process needs the dry mass $M_{dry} = M^{(0)}$ of the spacecraft as first input and starts from the last $\Delta V$ (the de-orbit burn) incrementing the computed total mass $M^{(i)}$ and the propellant mass $M_{p,me}^{(i)}$ or $M_{p,rcs}^{(i)}$ after each iteration.
     \begin{gather}
         M_{p,me}^{(i+1)} = M^{(i)} \cdot \left[ \exp \left( \frac{1.05 \cdot \Delta V^{(i)}} {I_{s,me} \cdot g_0} \right) - 1 \right] + M_{p,me}^{(i)} 
         \label{eq:me_iteration} \\
         M_{p,rcs}^{(i+1)} = M^{(i)} \cdot \left[ \exp \left( \frac{2 \cdot \Delta V^{(i)}} {I_{s,rcs} \cdot g_0} \right) - 1 \right] + M_{p,rcs}^{(i)}
-        \label{eq:rcs_iteration} \\
+        \label{eq:rcs_iteration}
+    \end{gather}
+    \begin{gather}
         M^{(i+1)} = M^{(i)} + M_{p,me}^{(i)}
         \qquad \textrm{or} \qquad
         M^{(i+1)} = M^{(i)} + M_{p,rcs}^{(i)}
