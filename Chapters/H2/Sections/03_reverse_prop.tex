@@ -2,8 +2,8 @@
 \label{sec:reverse_prop}
 
 As described in \autoref{subsec:tanks}, the propulsion system counts four tanks for storing hydrazine, two tanks for storing NTO and two tanks for storing helium.
-To better understand the reasoning behind this choice, a reverse sizing for both the propellants and the pressurizer has been conducted given the data on the engine, the $\Delta V$ highlighted in \autoref{table:deltav} and the total dry mass $M_{dry}$ \cite{masses_ref} of the spacecraft.
-All the process has taken into account the standardized margins from ESA. \cite{esa_margins}
+To better understand the reasoning behind this choice, a reverse sizing for both the propellants and the pressurizer has been conducted given the data on the engines, the $\Delta V$ highlighted in \autoref{table:deltav} and the total dry mass $M_{dry}$ \cite{masses_ref} of the spacecraft.
+The whole process has taken into account the standardized margins from ESA. \cite{esa_margins}
 Since the actual mission has greatly deviated from its initial design, a second propellant sizing was also performed on the real manoeuvres up to $7^{\textrm{th}}$ June 2021 \cite{juno_inner} \cite{otm} \cite{prm_redesign} plus the required de-orbit to check the compliance with the design masses.
 
 \subsection{Fuel and oxidizer tanks sizing}
@@ -26,7 +26,7 @@ Since the actual mission has greatly deviated from its initial design, a second 
     where the respective formula is applied based on which engine type performs the i-th manoeuvre.
     
     \item
-    From the final $M_{p,me}$ and $M_{p,rcs}$, the masses of fuel and oxidizer are then computed. This is done by knowing the nominal $O/F$ ratio of the ME \cite{Leros} and that the RCS only uses hydrazine as propellant.
+    From the final $M_{p,me}$ and $M_{p,rcs}$, the masses of fuel and oxidizer are then computed. This is done by knowing the nominal $O/F$ ratio (0.85) of the ME \cite{Leros} and that the RCS only uses hydrazine as propellant.
     Exploiting the density of the propellants, the total volumes for fuel and oxidizer are retrieved.
     \begin{gather}
         M_{f} = \frac{1}{O/F + 1} \cdot M_{p,me} + M_{p,rcs} 
@@ -53,6 +53,20 @@ Since the actual mission has greatly deviated from its initial design, a second 
 
     \item
     Having the total volumes of propellants, they have been split among the number of spherical tanks. Since the radius $r_{tank}$ obtained for the two types of tanks are very similar and having two different tanks is inconvenient, the larger one was selected.
+
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \begin{tabular}{|>{\cellcolor{bluePoli!25}}c|c|}
+            \hline
+            \textbf{Fuel tank radius [cm]} & \textbf{Oxidizer tank radius [cm]} \\
+            \hline
+            43.99 & 40.91 \\
+            \hline
+        \end{tabular}
+        \caption{Comparison between obtained radii}
+        \label{table:radii}
+    \end{table}
 
     \item
     The pressure of the tanks $p_{tank}$ is kept constant (as described in \autoref{subsec:tanks}). From the pressure and the volume of one tank, the required thickness $t_{tank}$ can be computed by choosing the material, characterized by its density $\rho$ and its tensile strength $\sigma$.
@@ -100,7 +114,7 @@ Three different materials have been taken into consideration, and the lighter co
 \begin{enumerate}[itemsep=5mm]
     \item
     As a first approximation, the pressure for the helium tanks is supposed to be ten times the pressure for the propellant tanks $p_{tank}$, and helium is considered to be a perfect gas (actually it is in a supercritical state).
-    The temperature $T_{tank}$ for the tanks is assumed to be $20$ °C. Starting from these assumptions, the mass and the volume of the total required helium is computed as follows:
+    The temperature $T_{tank}$ for the tanks is assumed to be $20$ °C. Starting from these assumptions, the mass and the volume of the total required helium are computed as follows:
     \begin{gather}
         M_{He} = 1.2 \cdot \frac{p_{tank} \cdot 6 V_{tank} \cdot \gamma_{He}}{\left( 1 - 1/10 \right) R_{He} T_{tank}}
         \\
@@ -156,7 +170,7 @@ The second sizing relies on the same procedure highlighted in \autoref{subsec:fu
     M_{p,rcs}^{(i+1)} = M^{(i)} \cdot \left[ 1 - \exp \left( \frac{-\Delta V^{(i)}} {I_{s,rcs} \cdot g_0} \right) \right] + M_{p,rcs}^{(i)}
 \end{gather}
 
-where the ESA margins \cite{esa_margins} were not applied since the actually performed manoeuvres were utilized.
+where the ESA margins \cite{esa_margins} were not applied since the actually performed manoeuvre values were utilized.
 The real and consumed masses are reported in \autoref{table:real_masses}.
 
 \begin{table}[H]
