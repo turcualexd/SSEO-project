@@ -1,8 +1,6 @@
 \section{Propulsion system architecture}
 \label{sec:prop_architecture}
 
-% descrizione del sdr
-
 The spacecraft axes are defined as shown in \autoref{fig:axis}: the spacecraft is spinning along the +Z-axis, aligned with the HGA. The +X-axis is aligned with the MAG boom while the +Y-axis is in the direction of cross product between +Z-axis and +X-axis.
 
 \cfig{axis}{0.65}{Axis description}
@@ -11,8 +9,8 @@ The spacecraft axes are defined as shown in \autoref{fig:axis}: the spacecraft i
 \label{subsec:me_rcs}
 
 Juno is equipped with a dual mode propulsion subsystem: the bi-propellant ME uses the hypergolic couple hydrazine and nitrogen tetroxide ($N_2H_4 - N_2O_4$) and RCS uses hydrazine as monopropellant. This choice has been made to simplify the design: fewer tanks are needed as fuel ones are shared between the two systems. Moreover, the choice of this specific hypergolic couple is dictated by the storage requirements of the mission: in a five-year cruise reliability and sturdiness of the propulsive system were among the main drivers of the mission. Electric thrusters were discarded as TRL-9 technologies were required: other limitations such as power budget, an highly radioactive environment, weight and space inside the spacecraft required a more simple and light solution. 
- 
-The ME is a Leros 1b, built by Nammo \cite{Leros}, and produces about 662 N of thrust with $I_{s,me} = 318.6$ s. This particular engine is certified for a 42 minutes continuos burn and has a cumulative life of 342 minutes.  This engine is utilized during the DSMs, JOI and PRM. It is mounted inside the body of the spacecraft along the -Z-axis, centred between the propellant tanks and under the electronic vault. This solution has probably been adopted due to space requirements inside the Atlas V fairing and safety precautions during the cruise phase. The ME is also shielded by a hatch that opens when a manoeuvre is needed.
+
+The ME is a Leros 1b, built by Nammo \cite{Leros}, and produces about 662 N of thrust with $I_{s,me} = 318.6$ s. This particular engine is certified for a 42 minutes continuos burn and has a cumulative life of 342 minutes. The manoeuvres shown in \autoref{table:deltav} are compliant with this constraint. This engine is utilized during the DSMs, JOI and PRM. It is mounted inside the body of the spacecraft along the -Z-axis, centred between the propellant tanks and under the electronic vault. This solution has probably been adopted due to space requirements inside the Atlas V fairing and safety precautions during the cruise phase. The ME is also shielded by a hatch that opens when a manoeuvre is needed.
 The RCS is used for TCMs, attitude control and general SK. The catalyst used to decompose the hydrazine is the S-405, based on iridium and aluminum\cite{s405}.
 The whole RCS is composed by four REMs, each of them mounted along the $\pm$Y-axis on a pylon, as shown in \autoref{fig:spin2}. Each pylon houses three thrusters, the MR-111C by Aerojet Rocketdyne\cite{RCS_info}, pointed in different directions, providing a thrust of 4.5 N with $I_{s,rcs} = 220$ s each. Electrical power is required to operate the feeding valves, heating valves and the catalytic bed, amounting to a maximum of around 13 W\cite{RCS_values}. 
 
@@ -21,7 +19,7 @@ The whole RCS is composed by four REMs, each of them mounted along the $\pm$Y-ax
 \rfig{architettura_prop}{0.55}{Propulsion system architecture}
 
 The pylons are raised respectively by 74 cm on the forward deck and about 26 cm on the aft deck as shown in \autoref{fig:foto_thruster}.
- With the need of limiting even more the interaction of the exhaust gasses with the on board instruments, mainly mounted on the top deck, the HGA and solar panels, the axial thrusters are canted 10° away from the Z-axis while the lateral thrusters are canted 5° away from the X-axis and 12.5° toward the Z-axis \cite{junno_inner}. This particular configuration of RCS is required since no RW nor any other type of active attitude control is present on board the spacecraft: the ability of decoupling the forces and the momentum was thus needed.
+ With the need of limiting even more the interaction of the exhaust gasses with the on board instruments, mainly mounted on the top deck, the HGA and solar panels, the axial thrusters are canted 10° away from the Z-axis while the lateral thrusters are canted 5° away from the X-axis and 12.5° toward the Z-axis \cite{juno_inner}. This particular configuration of RCS is required since no RW nor any other type of active attitude control is present on board the spacecraft: the ability of decoupling the forces and the momentum was thus needed.
 Lateral thrusters are denominated with letter "L" while axial thrusters are denominated with letter "A", as can be seen both from \autoref{fig:spin2} and \autoref{fig:foto_thruster}. This configuration increased the overall reliability of the propulsion system as "A" thrusters could be used as replacement of the ME for small manoeuvres. A simplified scheme of the propulsion system has been developed in \autoref{fig:architettura_prop}.
 
 \subsection{Manoeuvre Implementation Modes}
@@ -44,4 +42,4 @@ The two tanks\cite{2tankshe} containing the supercritical helium needed to press
 A system of valves regulates the pressure inside the tanks to allow nominal operations of the ME and RCS. All the tanks are insulated from their surroundings and heating elements are present on both tanks and feeding lines to ensure safe and nominal temperature inlet for the ME\cite{Leros}.
 One of the main problems with managing liquid in space is the need of guiding the fuel to the feeding lines of the engines to avoid mixture of gas in the combustion chamber and thus reducing the mass flow, compromising the correct functioning of the propulsion system. Moreover, liquid propellants produce sloshing movement that apply a small amount of forces and moments inside the tanks, causing an unsteady oscillatory spin. Juno is a spin stabilized spacecraft so the induced forces causes a movement of nutation. A Propellant Expulsion Device (PED) is thus needed: the spinning of the spacecraft helps guiding the fuel to the most exterior part of the tanks were fuel lines are located\cite{slosh}.
 MEFs are planned to flush the main propellant line and to increase the precision of the different manoeuvres.
-In order to accomplish its mission, Juno holds about $2000$ kg of propellant: about $1280$ kg of fuel and $720$ kg of oxidizer \cite{junno_inner}. A more detailed analysis of tanks will be conducted in \autoref{subsec:fuel_ox_sizing}.
+In order to accomplish its mission, Juno holds about $2000$ kg of propellant: about $1280$ kg of fuel and $720$ kg of oxidizer \cite{juno_inner}. A more detailed analysis of tanks will be conducted in \autoref{subsec:fuel_ox_sizing}.

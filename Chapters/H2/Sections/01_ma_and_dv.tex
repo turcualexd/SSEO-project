@@ -101,7 +101,9 @@ Moreover, the low $\Delta V_{fb}$ value in \autoref{table:solution} indicates th
 {\texorpdfstring{$\boldsymbol{\Delta V}$}{Delta-V} budget}
 \label{subsec:deltav_budget}
 
-A summary of the planned, performed and simulated manoeuvres is exposed in \autoref{table:deltav}. The design column is referred to the pre-launch schedule, while the performed column is 
+A summary of the planned, performed and simulated manoeuvres is exposed in \autoref{table:deltav}. The design column is referred to the pre-launch schedule, while the performed column is relative to the actual mission.
+The designed mission never saw life since various problems occurred during the cruise phase: from a nominal capture orbit with a period of 107 days and a science orbit of 11 days, the new scheduled orbits were of 53.5 days and 14 days respectively.
+For this precise reason the performed values differ from the design ones, especially the JOI, which was related to a different capture orbit, and the PC, which was not meant to be performed originally. The simulated PRM has been evaluated from the designed 107 days orbit to the 11 days orbit. The final two columns show the required ME burn times for the designed and the performed mission respectively.
 
 \begin{table}[H]
     \renewcommand{\arraystretch}{1.3}
@@ -110,16 +112,16 @@ A summary of the planned, performed and simulated manoeuvres is exposed in \auto
         \hline
         \textbf{Manoeuvres} & \textbf{Design} [m/s] & \textbf{Perf.} [m/s] & \textbf{Sim.} [m/s] & \textbf{$\boldsymbol{\tau_{ME}}$ Design} [min] & \textbf{$\boldsymbol{\tau_{ME}}$ Perf.} [min]  \\
         \hline
-        TCM-$1\div2$ (RCS) \cite{junno_inner} & 4.4 & 1.71 & - & - & - \\
+        TCM-$1\div2$ (RCS) \cite{juno_inner} & 4.4 & 1.71 & - & - & - \\
         \hline 
-        \multicolumn{1}{|c|}{DSM-1 (ME) \cite{junno_inner}} & \multicolumn{1}{c|}{360.1} & \multicolumn{1}{c|}{344.16} & \multirow{2}{*}{722.51} & \multicolumn{1}{c|}{30.97} & \multicolumn{1}{c|}{29.71} \\
+        \multicolumn{1}{|c|}{DSM-1 (ME) \cite{juno_inner}} & \multicolumn{1}{c|}{360.1} & \multicolumn{1}{c|}{344.16} & \multirow{2}{*}{722.51} & \multicolumn{1}{c|}{30.97} & \multicolumn{1}{c|}{29.71} \\
         \cline{1-3}
         \cline{5-6}
-        \multicolumn{1}{|c|}{DSM-2 (ME) \cite{junno_inner}} & \multicolumn{1}{c|}{394.8} & \multicolumn{1}{c|}{387.94} & & \multicolumn{1}{c|}{30.07} & \multicolumn{1}{c|}{29.77} \\
+        \multicolumn{1}{|c|}{DSM-2 (ME) \cite{juno_inner}} & \multicolumn{1}{c|}{394.8} & \multicolumn{1}{c|}{387.94} & & \multicolumn{1}{c|}{30.07} & \multicolumn{1}{c|}{29.77} \\
         \hline
-        TCM-$4\div15$ (RCS) \cite{junno_inner} & 32.5 & 7.89 & - & - & - \\
+        TCM-$4\div15$ (RCS) \cite{juno_inner} & 32.5 & 7.89 & - & - & - \\
         \hline
-        MEF (ME) \cite{junno_inner} & 3.3 & 3.3 & - & - & - \\
+        MEF (ME) \cite{juno_inner} & 3.3 & 3.3 & - & - & - \\
         \hline
         JOI (ME) \cite{otm} & $424.07^{\;I}$ & 541.73 & 424.07 & 27.86 & 35.65 \\
         \hline
@@ -140,13 +142,18 @@ A summary of the planned, performed and simulated manoeuvres is exposed in \auto
     \label{table:deltav}
 \end{table}
 
-$\,^{I}$ This value has been assumed equal to the one calculated from the insertion on the 107-days orbit. 
-
-$\,^{II}$ This value has been calculated as each of the 30 nominal science orbits require 4 m/s of $\Delta V$.
-
-$\,^{III}$ This value is referred to the plane change of the 53-days orbit as no other trajectories required this manoeuvre. 
-
-$\,^{IV}$ Value assumed to be equal between the 11-days orbit and the 14-days orbit. 
-
-$\,^{V}$ This value has been updated from the nominal 75 m/s since the De-orbit manoeuvre will be performed from a 53-days orbit and not from a 14-days orbit. 
-
+{
+\small
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\linewidth}{lX}
+    $\,^{I}$ & This value has been assumed equal to the one calculated from the insertion on the 107-days orbit. 
+    \\
+    $\,^{II}$ & This value has been calculated as each of the 30 nominal science orbits require 4 m/s of $\Delta V$.
+    \\
+    $\,^{III}$ & This value is referred to the plane change of the 53-days orbit as no other trajectories required this manoeuvre. 
+    \\
+    $\,^{IV}$ & This value is assumed equal between the 11-days orbit and the 14-days orbit.
+    \\
+    $\,^{V}$ & This value has been updated from the nominal 75 m/s since the De-orbit manoeuvre will be performed from a 53-days orbit and not from a 14-days orbit.
+\end{tabularx}
+}

@@ -110,7 +110,7 @@
       \field{title}{Juno navigation for Jupiter orbit insertion}
       \field{year}{2017}
     \endentry
-    \entry{junno_inner}{misc}{}
+    \entry{juno_inner}{misc}{}
       \name{author}{1}{}{%
         {{hash=1f38713a359af2dce5019a1ed3b581fa}{%
            family={al},
@@ -324,6 +324,28 @@
       \field{title}{Modeling of Fuel Slosh in a Spin Stabilized Spacecraft with On-Axis Propellant Tanks Implemented with Diaphragms}
       \field{year}{2009}
     \endentry
+    \entry{masses_ref}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b72ac823d25cea6b75733918733a005d}{%
+           family={JPL},
+           familyi={J\bibinitperiod},
+           given={NASA},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{fullhash}{b72ac823d25cea6b75733918733a005d}
+      \strng{bibnamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authorbibnamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authornamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authorfullhash}{b72ac823d25cea6b75733918733a005d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/juno/facts/}}
+      \field{title}{Juno Quick Facts}
+      \field{year}{2011}
+    \endentry
     \entry{esa_margins}{article}{}
       \name{author}{1}{}{%
         {{hash=d514c60212474a803f48a06974d89110}{%
@@ -338,13 +360,38 @@
       \strng{authorbibnamehash}{d514c60212474a803f48a06974d89110}
       \strng{authornamehash}{d514c60212474a803f48a06974d89110}
       \strng{authorfullhash}{d514c60212474a803f48a06974d89110}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
       \field{title}{Margin philosophy for science assessment studies}
       \field{year}{2012}
+    \endentry
+    \entry{prm_redesign}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1f38713a359af2dce5019a1ed3b581fa}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi Pavlak},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{fullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{bibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorbibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \field{extraname}{6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno trajectory redesign following PRM cancellation}
+      \field{year}{2017}
     \endentry
   \enddatalist
 \endrefsection
