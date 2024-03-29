@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  29 MAR 2024 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  29 MAR 2024 23:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1143,38 +1143,39 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37     \item F
-                rom DSM position to fly-by at Earth. [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
+l.38     \item f
+                rom fly-by position to Jupiter. [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
 
 pdfTeX warning: pdflatex (file ./Images/trajectory.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/trajectory.pdf, id=122, 513.92pt x 385.44pt>
+<Images/trajectory.pdf, id=124, 513.92pt x 385.44pt>
 File: Images/trajectory.pdf Graphic file (type pdf)
 <use Images/trajectory.pdf>
 Package pdftex.def Info: Images/trajectory.pdf  used on input line 63.
 (pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
 [2 <./Images/trajectory.pdf>]) (Sections/02_prop_architecture.tex
-<Images/axis.jpg, id=159, 791.95876pt x 278.03876pt>
+<Images/axis.jpg, id=161, 791.95876pt x 278.03876pt>
 File: Images/axis.jpg Graphic file (type jpg)
 <use Images/axis.jpg>
 Package pdftex.def Info: Images/axis.jpg  used on input line 6.
-(pdftex.def)             Requested size: 332.89412pt x 116.87305pt.
+(pdftex.def)             Requested size: 384.11221pt x 134.85287pt.
  [3 <./Images/axis.jpg>]
-<Images/spin2.png, id=175, 499.26524pt x 201.75375pt>
+<Images/spin2.png, id=176, 499.26524pt x 201.75375pt>
 File: Images/spin2.png Graphic file (type png)
 <use Images/spin2.png>
 Package pdftex.def Info: Images/spin2.png  used on input line 17.
-(pdftex.def)             Requested size: 384.11221pt x 155.22156pt.
-<Images/architettura_prop.pdf, id=177, 542.025pt x 391.4625pt>
-File: Images/architettura_prop.pdf Graphic file (type pdf)
-<use Images/architettura_prop.pdf>
-Package pdftex.def Info: Images/architettura_prop.pdf  used on input line 19.
-(pdftex.def)             Requested size: 281.68385pt x 203.4422pt.
-<Images/foto_thruster.jpg, id=184, 678.535pt x 360.34625pt>
+(pdftex.def)             Requested size: 394.35739pt x 159.36215pt.
+<Images/foto_thruster.jpg, id=178, 678.535pt x 360.34625pt>
 File: Images/foto_thruster.jpg Graphic file (type jpg)
 <use Images/foto_thruster.jpg>
-Package pdftex.def Info: Images/foto_thruster.jpg  used on input line 34.
-(pdftex.def)             Requested size: 332.89412pt x 176.78564pt.
- [4 <./Images/spin2.png> <./Images/architettura_prop.pdf>]) (Sections/03_reverse_prop.tex [5 <./Images/foto_thruster.jpg>] [6])) [7]
+Package pdftex.def Info: Images/foto_thruster.jpg  used on input line 21.
+(pdftex.def)             Requested size: 281.68385pt x 149.5904pt.
+ [4 <./Images/spin2.png> <./Images/foto_thruster.jpg>]
+<Images/architettura_prop.pdf, id=197, 542.025pt x 391.4625pt>
+File: Images/architettura_prop.pdf Graphic file (type pdf)
+<use Images/architettura_prop.pdf>
+Package pdftex.def Info: Images/architettura_prop.pdf  used on input line 40.
+(pdftex.def)             Requested size: 281.68385pt x 203.4422pt.
+) (Sections/03_reverse_prop.tex [5 <./Images/architettura_prop.pdf>] [6])) [7]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1182,23 +1183,23 @@ File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 Package biblatex Info: Reference section=0 on input line 19.
  [8] (H2.aux)
 Package rerunfilecheck Info: File `H2.out' has not changed.
-(rerunfilecheck)             Checksum: E8D8D886C08181DE46ADCA35BE1154E2;2754.
+(rerunfilecheck)             Checksum: C83CB5FDCF9E6A48D248EED669982C4C;2754.
 Package logreq Info: Writing requests to 'H2.run.xml'.
 \openout1 = `H2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24232 strings out of 476361
- 420366 string characters out of 5788046
- 1900993 words of memory out of 5000000
- 44174 multiletter control sequences out of 15000+600000
+ 24234 strings out of 476361
+ 420395 string characters out of 5788046
+ 1899993 words of memory out of 5000000
+ 44175 multiletter control sequences out of 15000+600000
  668110 words of font info for 223 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,17n,98p,1508b,1960s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H2.pdf (10 pages, 1042103 bytes).
+Output written on H2.pdf (10 pages, 1042780 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
