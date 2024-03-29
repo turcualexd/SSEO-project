@@ -7,25 +7,25 @@
 \subsection{Rationale of the mission analysis}
 \label{subsec:rationale_ma}
 
-The mission analysis previously described could be split into two macro-categories:
+The mission analysis previously described could be split into two macro-phases:
 \begin{itemize}
     \item from launch to the interplanetary transfer, including DSMs and the Earth fly-by;
     \item planetary phase around Jupiter.
 \end{itemize}
-The main objectives of the mission analysis were to keep the overall launch energy $C_3$ and deterministic $\Delta V$ as low as possible, compliant with the constraints imposed by the navigation and spacecraft operational requirements. Regarding the interplanetary transfer, two main options were available, both including an EGA. The first option, named as "$2- dV\,EGA$", contemplated a launch window time frame in October-November 2011. However, the latter was discarded since the approach angle at Jupiter would have resulted in a latitude farther away from the equator. This would have brought to higher radiation levels, hence a reduced time available for the science operations \cite{launch_period}. The second option, named as "$2+  dV\,EGA$", contemplated a launch window time frame in August 2011 and it ended up being the chosen one. A viable back-up of this transfer would have happened in October 2012, since the basic features of "$2+ dV\,EGA$" repeat every 13 months.
+The main objectives of the mission analysis were to keep the overall launch energy $C_3$ and deterministic $\Delta V$ as low as possible, compliant with the constraints imposed by the navigation and spacecraft operational requirements. Regarding the interplanetary transfer, two main options were available, both including an EGA. The first option, named as "$2- dV\,EGA$", contemplated a launch window time frame in October-November 2011. However, the latter was discarded since the approach angle at Jupiter would have resulted in a latitude farther away from the equator. This would have brought to higher radiation levels, hence a reduced time available for the science operations \cite{launch_period}. The second option, named as "$2+  dV\,EGA$", contemplated a launch window time frame in August 2011 and it ended up being the chosen one. A viable back-up for this transfer would have happened in October 2012, since the basic features of "$2+ dV\,EGA$" repeat every 13 months.
 Regarding the interplanetary trajectory constraints, they could be divided into three categories:
 
 \begin{itemize} 
     \item \textbf{Launch energy $\boldsymbol{C_3}$ and timing constraints.} Fixing an initial value for the energy provided by the launcher, different possibilities of departure date could be analyzed. Every launch date defined a trajectory that was characterized by a required $C_3$ and deterministic $\Delta V$.
-    The maximum $C_3 = 31.1 \; \textrm{km}^2 / \textrm{s}^2$ was defined by the Atlas V551 launcher \cite{atlasV_juno}. Analyzing Juno's ephemeris for the actual launch date, the calculated value is $C_3 = 31.08 \; \textrm{km}^2 / \textrm{s}^2$. The trajectory reconstructed through the optimization problem and explained in \autoref{subsec:simulation_interplanetary_trajectory}, revealed a value of $C_3 =  29.34 \; \textrm{km}^2 / \textrm{s}^2$, with departure date on $18^{\textrm{th}}$ August 2011. Restricting the launch window domain around $5^{\textrm{th}}$ August 2011 (the actual one) the value is $C_3 = 30.40 \; \textrm{km}^2 / \textrm{s}^2$. In the non-restricted window for departure, the trend of the decreasing $C_3$ over time can be evaluated in the work of Kowalkowski and Lam\cite{launch_period}.
+    The maximum $C_3 = 31.1 \; \textrm{km}^2 / \textrm{s}^2$ was defined by the Atlas V551 launcher \cite{atlasV_juno}. Analyzing Juno's ephemeris for the actual launch date, the calculated value is $C_3 = 31.08 \; \textrm{km}^2 / \textrm{s}^2$. The trajectory reconstructed through the optimization problem and explained in \autoref{subsec:simulation_interplanetary_trajectory}, revealed a value of $C_3 =  29.34 \; \textrm{km}^2 / \textrm{s}^2$, with departure date on $18^{\textrm{th}}$ August 2011. Restricting the launch window domain around $5^{\textrm{th}}$ August 2011 (the actual one) the value is $C_3 = 30.40 \; \textrm{km}^2 / \textrm{s}^2$. In the non-restricted window for departure, the trend of the $C_3$ over time can be evaluated in the work of Kowalkowski and Lam\cite{launch_period}.
     \item \textbf{Interplanetary events.} The milestones of this phase were DSMs and EGA. The fly-by was constrained to happen at a fixed altitude of $800$ km well above ISS, but it could be lowered up to $500$ km.
-    This last decrease on the altitude value could have improved the robustness of the trajectory in the case of eventual delays in DSMs, decreasing also the $\Delta V$ of the mission and the final radiation at Jupiter arrival \cite{pre_launch_update}. However, the most challenging task was the selection of the DSM dates, in fact this choice would have affected the required launch $C_3$ and overall mission $\Delta V$ \cite{launch_period}.
-    Moreover, DSM manoeuvre required to be split into two equally lasting burns, separated by two days. This was required by engine capabilities, described in \autoref{subsec:me_rcs}. As precaution, due to anomalous pressure and temperature values of the oxidizer feeding line during DSM-1, the two manoeuvres ended up being performed two weeks apart.
-    An additional problem arose from the $2+ dV\,EGA$ interplanetary structure and the needs to perform the DSM at aphelion and have real-time visibility. This constraint was set up by imposing a SEP angle greater than 10° for acquisition of data, and SEP angle greater than 3° for execution of the manoeuvre.
-    This difference was due to the need of seven days to plan the manoeuvre on ground after the necessary two days of data collection. In the eventuality of a burn before solar conjunction, an adequate time to re-try failed attempts was considered.
-    In addition, another constraint regarding telecommunications and navigation was due to the positioning of the toroidal antenna (LGA), used for ground link in the early phases.
-    To ensure a good signal with this antenna, the ELA was constrained to be within $\pm$ 10° around 90°. Furthermore, since Doppler data is of very little value when ELA is too close to 90° the combined range for the ELA resulted to be of 80° $\div$ 87° and 93° $\div$ 100°.
-    \item \textbf{Jupiter arrival timing and geometry.} Jupiter arrival and insertion was constrained by multiple aspects. First of all, since a direct injection into the science orbit would have been too expensive, the burn was split into two manoeuvres (JOI and PRM), saving over 170 m/s \cite{launch_period} related to gravity losses. Furthermore, in order to avoid longitudes at which the magnetic field is stronger, JOI and PRM dates had to be accurately selected. In addition, due to the critical nature of JOI, the manoeuvre had to take place during the overlapping coverage of two DSN complexes. Since the longest one was provided by Goldstone-Canberra, the burn and pre-burn events had to happen during that time frame. As far as PRM was concerned, dual DSN coverage was not required. However, the optimal date for PRM could be selected in order to minimize the overall $\Delta V$ and to manoeuvre at lower magnetic field longitudes. Lastly, the perijove was bounded to be at distances higher than 4500 km over the 1 bar pressure level of the atmosphere, allowing to operate in the hole of the torus that describes the highest radiation levels.
+    This last decrease of the altitude value could have improved the robustness of the trajectory in the case of eventual delays in DSMs, decreasing also the $\Delta V$ of the mission and the intensity of the radiation at Jupiter arrival \cite{pre_launch_update}. However, the most challenging task was the selection of the DSM dates, in fact this choice would have affected the required launch $C_3$ and overall mission $\Delta V$ \cite{launch_period}.
+    Moreover, DSM had to be split into two equally lasting burns, separated by two days. This was dictated by engine capabilities, described in \autoref{subsec:me_rcs}. As precaution, due to anomalous pressure and temperature values of the oxidizer feeding line during DSM-1, the two manoeuvres ended up being performed two weeks apart.
+    An additional problem arose from the $2+ dV\,EGA$ interplanetary structure and the needs to perform the DSM at aphelion while having real-time visibility. This constraint was set up by imposing a SEP angle greater than 10° for acquisition of data, and SEP angle greater than 3° for execution of the manoeuvre.
+    This difference was due to the need of seven days to plan the manoeuvre on ground after the necessary two days of data collection. In the eventuality of a burn before solar conjunction, an adequate time to retry failed attempts was considered.
+    Another constraint regarding telecommunications and navigation was due to the positioning of the toroidal antenna (TLGA) which is used for ground link in the early phases and is mounted on the aft deck and aligned with the -Z-axis, as shown in \autoref{fig:axis}.
+    To ensure a good signal with this antenna, the ELA was constrained to be within $\pm$ 10° around 90°: since Doppler data is of very little value when ELA is too close to 90°, the combined range for the ELA resulted to be of 80° $\div$ 87° and 93° $\div$ 100°.
+    \item \textbf{Jupiter arrival timing and geometry.} Jupiter arrival and insertion was constrained by multiple aspects. First of all, since a direct injection into the science orbit would have been too expensive, the burn was split into two manoeuvres (JOI and PRM), saving over 170 m/s \cite{launch_period} related to gravity losses. In order to avoid longitudes at which the magnetic field is stronger, JOI and PRM dates had to be accurately selected. In addition, due to the critical nature of JOI, the manoeuvre had to take place during the overlapping coverage of two DSN complexes. Since the longest one was provided by Goldstone-Canberra, the burn and pre-burn events had to happen during that time frame. As far as PRM was concerned, dual DSN coverage was not required. However, the optimal date for PRM could be selected in order to minimize the overall $\Delta V$ and to manoeuvre at lower magnetic field longitudes. Lastly, the perijove was bounded to be at distances higher than 4500 km over the 1 bar pressure level of the atmosphere, allowing to operate in the hole of the torus that describes the highest radiation levels.
 \end{itemize}
 
 \subsection{Simulation of the interplanetary trajectory}
@@ -33,18 +33,18 @@ Regarding the interplanetary trajectory constraints, they could be divided into 
 
 To reconstruct the interplanetary phase, a simulation was set up in \textit{Matlab}. The implemented model considered three heliocentric legs, linked with the patched-conics method:
 \begin{itemize}
-    \item From Earth to DSM position.
-    \item From DSM position to fly-by at Earth.
-    \item From fly-by position to Jupiter.
+    \item from Earth to DSM position;
+    \item from DSM position to fly-by at Earth;
+    \item from fly-by position to Jupiter.
 \end{itemize}
 In order to minimize the total $\Delta V$ of the mission, a cost function was defined. This is determined by the sum of four contributions:
 \begin{itemize}
-    \item $\Delta V_{esc,E}$: escape from Earth heliocentric orbit into the first interplanetary leg
-    \item $\Delta V_{dsm}$: deep space manoeuvre
-    \item $\Delta V_{fb}$: burn manoeuvre at Earth's fly-by hyperbola pericentre
-    \item $\Delta V_{inj,J}$: injection into Jupiter's heliocentric orbit
+    \item $\Delta V_{esc,E}$: escape from Earth heliocentric orbit into the first interplanetary leg;
+    \item $\Delta V_{dsm}$: deep space manoeuvre;
+    \item $\Delta V_{fb}$: burn manoeuvre at Earth's fly-by hyperbola pericentre;
+    \item $\Delta V_{inj,J}$: injection into Jupiter's heliocentric orbit.
 \end{itemize}
-The calculation were based assuming analytical ephemeris for the planets and the Lambert's method was used to design the paths. The  implementation was constrained by various inputs, according to the development of the mission:
+The calculations were based on analytical ephemeris for the planets and the Lambert method was used to design the paths. The implementation was constrained by various inputs, according to the development of the mission:
 \begin{itemize}
     \item Earth departure date, defined in the interval from 05/08/2011 to 26/08/2011
     \item DSMs condensed in one impulsive burn
@@ -89,7 +89,7 @@ The obtained results are coherent with the actual mission data \cite{juno_naviga
 Indeed, not all of the $\Delta V$s had to be performed by the main engine:
 \begin{itemize}
     \item $\Delta V_{esc,E}$ was executed by the upper stage of the Atlas V551, in the limits of the launcher performance $C_3$.
-    \item $\Delta V_{inj,J}$ was due to the rendezvous at Jupiter. The only burn required to enter an elliptical orbit had to be given at the pericentre of the hyperbola. The impulsive $\Delta V$ can be calculated as follows, considering $e_{cap} = 0.9884$ and $r_p = 75237.6$ km in relation to the designed 107-day orbit: 
+    \item $\Delta V_{inj,J}$ was due to the rendezvous at Jupiter. The only burn required to enter an elliptical orbit had to be given at the pericentre of the hyperbola. The impulsive $\Delta V$ can be calculated as follows, considering $e_{cap} = 0.9884$ and $r_p = 75237.6$ km in relation to the designed 107 days orbit: 
     \begin{equation}
         \Delta V_{JOI} = v_{\infty} \left( \sqrt{1 + \frac{2\mu_{J}}{r_p v_{\infty}^2}} - \sqrt{\frac{\mu_{J} (1 + e_{cap})}{r_p v_{\infty}^2}}\right) =  424.07 \; \textrm{m/s}
     \end{equation}
@@ -103,7 +103,7 @@ Moreover, the low $\Delta V_{fb}$ value in \autoref{table:solution} indicates th
 
 A summary of the planned, performed and simulated manoeuvres is exposed in \autoref{table:deltav}. The design column is referred to the pre-launch schedule, while the performed column is relative to the actual mission.
 The designed mission never saw life since various problems occurred during the cruise phase: from a nominal capture orbit with a period of 107 days and a science orbit of 11 days, the new scheduled orbits were of 53.5 days and 14 days respectively.
-For this precise reason the performed values differ from the design ones, especially the JOI, which was related to a different capture orbit, and the PC, which was not meant to be performed originally. The simulated PRM has been evaluated from the designed 107 days orbit to the 11 days orbit. The final two columns show the required ME burn times for the designed and the performed mission respectively.
+For this precise reason the performed values differ from the design ones, especially the JOI, which was related to a different capture orbit, and the PC, which was not meant to be performed originally. The whole simulation has been performed on the designed 107 days orbit and the 11 days one. The final two columns show the required ME burn times for the designed and the performed mission respectively.
 
 \begin{table}[H]
     \renewcommand{\arraystretch}{1.3}
@@ -146,14 +146,14 @@ For this precise reason the performed values differ from the design ones, especi
 \small
 \renewcommand{\arraystretch}{1.1}
 \begin{tabularx}{\linewidth}{lX}
-    $\,^{I}$ & This value has been assumed equal to the one calculated from the insertion on the 107-days orbit. 
+    $\,^{I}$ & This value has been assumed equal to the one calculated from the insertion on the 107 days orbit. 
     \\
-    $\,^{II}$ & This value has been calculated as each of the 30 nominal science orbits require 4 m/s of $\Delta V$.
+    $\,^{II}$ & This value assumes 30 nominal science orbits with a required $\Delta V$ of 4 m/s.
     \\
-    $\,^{III}$ & This value is referred to the plane change of the 53-days orbit as no other trajectories required this manoeuvre. 
+    $\,^{III}$ & This value is referred to the plane change of the 53 days orbit as no other trajectories required this manoeuvre. 
     \\
-    $\,^{IV}$ & This value is assumed equal between the 11-days orbit and the 14-days orbit.
+    $\,^{IV}$ & This value is assumed equal between the 11 days orbit and the 14 days orbit.
     \\
-    $\,^{V}$ & This value has been updated from the nominal 75 m/s since the De-orbit manoeuvre will be performed from a 53-days orbit and not from a 14-days orbit.
+    $\,^{V}$ & This value has been updated from the nominal 75 m/s since the de-orbit manoeuvre will be performed from a 53 days orbit and not from a 14 days orbit.
 \end{tabularx}
 }
