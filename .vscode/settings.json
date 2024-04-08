@@ -3,6 +3,7 @@
         "baseband",
         "beamwidth",
         "downconverter",
+        "subcarrier",
         "TLGA"
     ]
 }

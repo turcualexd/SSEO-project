@@ -37,18 +37,28 @@ Other limiting factors were present in designing the HGA in the form of thermal 
 \subsection{MGA \& LGAs}
 \label{subsec:mga e lga}
 
-One MGA and two LGA are mounted onboard Juno. Their position can be seen in \autoref{fig:antennas_positioning}.
+One MGA and two LGAs are mounted onboard Juno. Their position can be seen in \autoref{fig:antennas_positioning}.
 
 The MGA is a conical horn style antenna and it is aligned with the +Z-axis as the HGA and it is used during cruise, safe mode and manuevers. It is capable of both LHCP and RHCP for redundancy and communicates with the DSN only in X-band, using the same frequencies of the HGA. This antenna provides at least 18.1 dBic while receiving and 18.8 dBic in transmitting, with a 3 dB beamwidth of $\pm$ 10.3° and $\pm$ 9.3° respectively. 
 
-The two identical and coupled LGAs are pointing in opposite directions, one mounted on the forward deck (FLGA) and the other on the aft deck (ALGA). The LGAs have a choked horn design and transmit on the same X-band frequencies as the MGA and HGA. While delivering inferior performances regarding the minimum required boresight, at 8.7 dB in receiving and 7.7 dB in transmitting, they operate with an higher 3 dB beamwidth at around $\pm$ 40°\cite{juno_telecommunication}.
+The two identical and coupled LGAs are pointing in opposite directions, one mounted on the forward deck (FLGA) and the other on the aft deck (ALGA). LGAs have a choked horn design and transmit on the same X-band frequencies as the MGA and HGA. While delivering inferior performances regarding the minimum required boresight, at 8.7 dB in receiving and 7.7 dB in transmitting, they operate with a higher 3 dB beamwidth at around $\pm$ 40°\cite{juno_telecommunication}. 
 
 The LGAs are used mainly at a distance inferior to 0.5 AU from Earth and during manuevers, when orientation of the spacecraft does not allow HGA communications. During DSMs, the three antennas are used in sequence with the TLGA.
-
 
 \subsection{TLGA}
 \label{subsec:tlga}
 
-\subsection{Ground stations}
+The TLGA is placed on the aft deck of Juno, aligned with solar wing $\#$1. This antenna works at the same X-band frequency of the other antennas but differs from them since it is a biconical horn design and it is able to produce a RHCP pattern symmetrical around Juno's spin axis: this characteristic is needed to ensure continuous coverage during all critical events, such as the DSMs, JOI, PRM and OTMs, when the attitude does not allow for direct Earth pointing. 
+This antenna transmits only in a carrier or subcarrier configuration, where no ranging nor telemetry signals are modulated onto the carrier. During ME manuevers Juno encodes MFSK tones by modulating a varying frequency subcarrier onto the carrier. Every subcarrier frequency is associated to a particular event or state of the spacecraft and allows a complete knowledge of Juno's health. The particular advantage of using a subcarrier is the capability of providing an additional channel of transmission: it allows different signals to be received together as one and then to be separated out by the receiver.
 
+% A subcarrier is a secondary modulated signal frequency modulated into the main frequency (the carrier) to provide an additional channel of transmission. It allows for a single transmission to carry more than one separate signal.
+% In order to maximize the directivity of the antenna and keeping the phase as uniform as possible across torus of the antenna
+
+A toroidal antenna pattern can be produced by a dipole, but this design limits heavily the maximum gain reachable to around 2.2 dB, insufficient to provide communications between Juno and Earth. Thus, a biconical antenna with corrugated horn has been developed, allowing for a compact and efficient design: this configuration allows to achieve values lower 20 dB in return losses over the entire used X-band\cite{telecommunication_antennas}. 
+The RHCP pattern is achieved through a four-layer meander-line polarizer, built to minimize RF losses. As the HGA described in \autoref{subsec:hga}, the TLGA is also covered in a Germanium Kapton blanket to minimize high energy electrons' flux. Gains required for the TLGA are of 5.5 dBic while receiving and 6.5 dBic while transmitting, with a beamwidth of $\pm$ 10° in both reception and transmission at $\pm$ 90° with respect to the boresight angle\cite{juno_telecommunication}. 
+
+
+
+\subsection{Ground stations}
+\label{subsec:gs}
 
