@@ -2462,6 +2462,15 @@
   </bcf:bibdata>
   <bcf:section number="3">
     <bcf:citekey order="3" intorder="1">2006_overview</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">ka_uplink</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">telecommunication_antennas</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">telecommunication_antennas</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">telecommunication_antennas</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">germanio</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">juno_telecommunication</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

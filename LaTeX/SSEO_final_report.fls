@@ -848,6 +848,9 @@ INPUT Chapters\H3\Sections\03_sizing.tex
 INPUT .\Chapters\H3\Sections\03_sizing.tex
 INPUT .\Chapters\H3\Sections\03_sizing.tex
 INPUT Chapters\H3\Sections\03_sizing.tex
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit7c.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit7c.vf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmitc.tfm
 INPUT SSEO_final_report.aux
 INPUT .\SSEO_final_report.out
 INPUT .\SSEO_final_report.out

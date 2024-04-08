@@ -758,6 +758,88 @@
       \field{title}{Overview of the Juno Mission to Jupiter}
       \field{year}{2006}
     \endentry
+    \entry{juno_telecommunication}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Anthony\bibnamedelimb P\bibnamedelima Mittskus},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{fullhash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{bibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authorbibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno Telecommunications}
+      \field{year}{2012}
+    \endentry
+    \entry{ka_uplink}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4b8377b53a140de219b564cf137de15e}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Dustin\bibnamedelima Buccino},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{fullhash}{4b8377b53a140de219b564cf137de15e}
+      \strng{bibnamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authorbibnamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authornamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authorfullhash}{4b8377b53a140de219b564cf137de15e}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno Gravity Science: Five Years of Radio Science Operations with Ka-band Uplink}
+      \field{year}{2022}
+    \endentry
+    \entry{telecommunication_antennas}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Anthony\bibnamedelimb P\bibnamedelima Mittskus},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{fullhash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{bibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authorbibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \field{extraname}{3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Telecommunications Antennas for the Juno Mission to Jupiter}
+      \field{year}{2012}
+    \endentry
+    \entry{germanio}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Site: \url{kapton.com}}
+      \field{title}{DuPont™ Kapton}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

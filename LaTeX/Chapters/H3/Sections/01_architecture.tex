@@ -17,25 +17,37 @@ For this reason, the HGA can operate in 3 different modes:
 \item \textbf{X/X \& X/Ka}: simultaneous transmission on X-band (uplink and downlink), together with a coherent Ka-band downlink at 32 GHz and X-band uplink;
 \item \textbf{X/X \& Ka/Ka}: phase coherent X-band uplink and downlink together with a phase coherent Ka-band uplink at 34 GHz and downlink.
 \end{itemize}
-Five antennas are mounted onboard Juno with different orientations, positions and capabilities: one HGA, one MGA, two LGAs and one TLGA.
+Five antennas are mounted onboard Juno with different orientations, positions and capabilities: one HGA, one MGA, two LGAs and one TLGA. 
 
-% parlare dei sui transponder
+In order to process different signals at different frequencies, Juno has two SDSTs, capable of performing different tasks. The prime unit provides X/X and X/Ka link, whereas the secondary unit only operates on the single X-band. Each SDST is composed of four different units: the DPM, the down converter, the power converter and the exciter unit. 
+The DPM is responsible for managing the data incoming from the downconverter, encoding them and providing X-band baseband telemetry. The downconverter module converts the incoming 7.15 GHz signal into an intermediate frequency at 4/3 F1, where F1, approximately 9.55 MHz, is the fundamental frequency from which up and downlink frequencies are derived. The power converter is responsible for supplying a steady voltage to all SDST modules and the exciter is responsible for taking as an input telemetry, DOR, ranging and for phase-modulating the downlink carrier \cite{juno_telecommunication}\cite{ka_uplink}. 
+
+The SDST is responsible for generating the X-band downlink carrier by coherently multiplying the frequency of the uplink carrier by a turn-around ratio of 880/749. All X-band signals are amplified by one of two 25 W TWTAs. 
+
 
 \subsection{HGA}
-\label{sec:hga}
+\label{subsec:hga}
 
 % doppio scopo: comunicare e scienza. frequenze, dimensioni, come è fatta
 
-The HGA is the principal means of communications with Earth throughout most of the cruise and science mission. The most limiting factor in designing the HGA was the need of both transmitting and receiving on X-band and Ka-band without limiting the performance of any signal: due to the significant distance between Juno and DSN antennas and the limited transmitter power, HGA gain maximization was a priority. Constrains on dish dimension and in the attitude control of the spin stabilized spacecraft were present: first the Atlas V fairing limited the HGA dish diameter to 2.5 meters, then the presence of massive solar arrays prohibited the ability to point the main beam to anything tighter than about $\pm$ 0.25°.
+The HGA\cite{juno_telecommunication}\cite{telecommunication_antennas} is the principal means of communications with Earth throughout most of the cruise and science mission. It is mounted on the forward deck, aligned with the spin axis of the spacecraft, as shown in \autoref{fig:antennas_positioning}. Due to the significant distance between Juno and DSN antennas and the limited transmitter power, HGA gain maximization was a priority. Constrains on dish dimension and in the attitude control of the spin stabilized spacecraft were present: the Atlas V fairing limited the HGA dish diameter to 2.5 meters, then the presence of massive solar arrays prevented pointing the main beam to anything tighter than about $\pm$ 0.25°. The latter limitation would have led to an insufficient gain in the HGA, preventing closing the link with Earth. The most limiting factor in designing the HGA was the need of both transmitting and receiving on X-band and Ka-band without limiting  excessively the performance of any signal. Because of these requirements, a dual reflector Gregorian style optics was installed. The latter consists in a parabolic main reflector and an elliptical sub-reflector, making the whole system low mass and compact\cite{telecommunication_antennas}. The outer annular region is made so that the radiated field of the X-band is 180° out of phase with the inner region aperture field: the resulted beamwidth of the Ka-band is approximately the same as the X-band one. This modification created almost no performance degradation on X-band link. Based on frequency and operational mode, different polarizations are utilized: X-band uses RHCP for both uplink and downlink, while Ka-band uses RHCP for downlink and LHCP for uplink\cite{juno_telecommunication}. Required gain is about 44 dB for the X-band in both uplink and downlink and around 47 dB for the Ka-band. Beamwidth in all frequencies is $\pm$ 0.25°.
 
+Other limiting factors were present in designing the HGA in the form of thermal and structural constraints: the stability in pointing at low temperatures is granted by a very stiff graphite composite. Moreover, the HGA's shielding from the high temperature oscillation (from -175°C to 135°C) and radiation dose experienced during both cruise and jovian phase, is accomplished using a thermal blanket made of a carbon loaded Germanium Kapton material\cite{telecommunication_antennas}\cite{germanio}. As a result, the performances were only affected by a loss of 0.25 dB at X-band and a 0.5 dB loss on the Ka-band. 
 
-% posizionamento 
+\subsection{MGA \& LGAs}
+\label{subsec:mga e lga}
 
-\subsection{MGH}
+One MGA and two LGA are mounted onboard Juno. Their position can be seen in \autoref{fig:antennas_positioning}.
 
-\subsection{LGA}
+The MGA is a conical horn style antenna and it is aligned with the +Z-axis as the HGA and it is used during cruise, safe mode and manuevers. It is capable of both LHCP and RHCP for redundancy and communicates with the DSN only in X-band, using the same frequencies of the HGA. This antenna provides at least 18.1 dBic while receiving and 18.8 dBic in transmitting, with a 3 dB beamwidth of $\pm$ 10.3° and $\pm$ 9.3° respectively. 
+
+The two identical and coupled LGAs are pointing in opposite directions, one mounted on the forward deck (FLGA) and the other on the aft deck (ALGA). The LGAs have a choked horn design and transmit on the same X-band frequencies as the MGA and HGA. While delivering inferior performances regarding the minimum required boresight, at 8.7 dB in receiving and 7.7 dB in transmitting, they operate with an higher 3 dB beamwidth at around $\pm$ 40°\cite{juno_telecommunication}.
+
+The LGAs are used mainly at a distance inferior to 0.5 AU from Earth and during manuevers, when orientation of the spacecraft does not allow HGA communications. During DSMs, the three antennas are used in sequence with the TLGA.
+
 
 \subsection{TLGA}
+\label{subsec:tlga}
 
 \subsection{Ground stations}
 

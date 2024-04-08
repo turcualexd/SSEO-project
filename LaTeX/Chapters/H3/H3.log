@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  6 APR 2024 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  8 APR 2024 12:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1101,7 +1101,7 @@ Package biblatex Info: ... file 'H3.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config/Poli_logo.pdf, id=46, 527.9725pt x 415.5525pt>
+<../../Config/Poli_logo.pdf, id=42, 527.9725pt x 415.5525pt>
 File: ../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/Poli_logo.pdf  used on input line 6.
@@ -1135,8 +1135,8 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \blx@sectionciteorder@1=\count459
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex) [1] (Sections/01_architecture.tex
-<Images/antennas_positioning.jpg, id=82, 513.117pt x 325.215pt>
+ (Body.tex (Sections/00_notation.tex) [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Sections/01_architecture.tex
+<Images/antennas_positioning.jpg, id=78, 513.117pt x 325.215pt>
 File: Images/antennas_positioning.jpg Graphic file (type jpg)
 <use Images/antennas_positioning.jpg>
 Package pdftex.def Info: Images/antennas_positioning.jpg  used on input line 4.
@@ -1144,12 +1144,12 @@ Package pdftex.def Info: Images/antennas_positioning.jpg  used on input line 4.
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 13.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-)) (Sections/02_rationale.tex) (Sections/03_sizing.tex))
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \bodyandbib
-                 [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/antennas_positioning.jpg>]
+l.37 \subsection{MGA \& LGAs}
+                              [1 <./Images/antennas_positioning.jpg>]) (Sections/02_rationale.tex) (Sections/03_sizing.tex)) [2]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1160,29 +1160,29 @@ Package biblatex Info: Reference section=0 on input line 19.
 Package caption Warning: Unused \captionsetup[table] on input line 57.
 See the caption package documentation for explanation.
 
-[2] (H3.aux)
+[3] (H3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H3.out' has not changed.
-(rerunfilecheck)             Checksum: 8061D766B2FE3BC0EB826E9445380BBD;1161.
+(rerunfilecheck)             Checksum: 303ADE7BF7ADC0131BC752E1E0734E9C;1132.
 Package logreq Info: Writing requests to 'H3.run.xml'.
 \openout1 = `H3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23763 strings out of 474436
- 407853 string characters out of 5741955
- 1936190 words of memory out of 5000000
- 45718 multiletter control sequences out of 15000+600000
- 655560 words of font info for 129 fonts, out of 8000000 for 9000
+ 23789 strings out of 474436
+ 408653 string characters out of 5741955
+ 1942190 words of memory out of 5000000
+ 45738 multiletter control sequences out of 15000+600000
+ 656296 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,14n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,14n,102p,2107b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H3.pdf (4 pages, 227331 bytes).
+Output written on H3.pdf (5 pages, 237826 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
