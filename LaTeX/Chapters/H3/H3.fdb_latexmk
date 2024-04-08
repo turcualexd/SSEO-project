@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H3"] 0 "H3.bcf" "H3.bbl" "H3" 1712609240 -1
+["biber H3"] 0 "H3.bcf" "H3.bbl" "H3" 1712613578 -1
   "../../bibliography.bib" 1712563480 9378 2cb2b567cfc876e4ba666181904ac221 ""
-  "H3.bcf" 1712609240 106747 e44ebd9d94656c6c2392ad51defc0019 "pdflatex"
+  "H3.bcf" 1712613577 106747 e44ebd9d94656c6c2392ad51defc0019 "pdflatex"
   (generated)
   "H3.bbl"
   "H3.blg"
   (rewritten before read)
-["pdflatex"] 1712609238 "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H3/H3.tex" "H3.pdf" "H3" 1712609240 0
+["pdflatex"] 1712613576 "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H3/H3.tex" "H3.pdf" "H3" 1712613578 0
   "../../Config//Poli_logo.pdf" 1712563480 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config//commands.tex" 1712563480 1522 79a87f151e8bb55c34c99cccd4558b41 ""
   "../../Config//formats.tex" 1712563480 1818 04a9bcdee2dae368f8a5b3a24938da5e ""
@@ -165,16 +165,16 @@
   "C:/Miktex/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1711643108 97205 3fb51b557d06aae17c4f86c5a0b69e11 ""
   "C:/Users/danie/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1671211142 10771596 76531b1fe281d06023726f73b68370e1 ""
-  "H3.aux" 1712609240 2148 2a338adf355974a361032180864e6286 "pdflatex"
-  "H3.bbl" 1712563743 1569 9fc988e582741c421f734387a991393a "biber H3"
-  "H3.out" 1712609240 920 3ccebdcb2fafd47e8010287bbeb32463 "pdflatex"
-  "H3.run.xml" 1712609240 2299 ca9eb91dcb9d7c85ff5931f342d9e347 "pdflatex"
+  "H3.aux" 1712613577 2150 a0266fbc36ba0a3cda788d3a72104dc8 "pdflatex"
+  "H3.bbl" 1712611695 1569 9fc988e582741c421f734387a991393a "biber H3"
+  "H3.out" 1712613577 922 6625910761a70419ebc2661ab4de3617 "pdflatex"
+  "H3.run.xml" 1712613577 2299 ca9eb91dcb9d7c85ff5931f342d9e347 "pdflatex"
   "H3.tex" 1712563480 309 3db3ef8654341b1c44e26de83b67d5fb ""
-  "H3.toc" 1712609240 506 80fa89feba4cc8a924bd47b95f662216 "pdflatex"
+  "H3.toc" 1712613577 508 2a6ff62d192dcf9660a77916268d6333 "pdflatex"
   "Sections/00_notation.tex" 1712563480 779 a930fb689d79276b8ce1d4c52b9bfb45 ""
   "Sections/01_architecture.tex" 1712563480 62 f4d6c4ff8d6a5f16a568aa6c8c16ea4b ""
   "Sections/02_rationale.tex" 1712563480 66 0b7a81bf842c0280dffa00aad0216292 ""
-  "Sections/03_sizing.tex" 1712609235 2301 49ab2b85c112d67f133bf0bdc881a736 ""
+  "Sections/03_sizing.tex" 1712613573 2507 932734582b3c4080c69a159a65767962 ""
   "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H3/H3.tex" 1712563480 309 3db3ef8654341b1c44e26de83b67d5fb ""
   (generated)
   "H3.aux"

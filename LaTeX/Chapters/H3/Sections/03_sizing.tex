@@ -4,12 +4,12 @@
 The reverse sizing of the TMTC system is based on the link budget equation that represents a power balance between the transmitted signal and the receiver noise. The same equation can be applied on both uplink and downlink. It is valid for all the architectures, both that transmit data or tones
 
 \begin{equation}
-    \frac{P_{rx}}{N_0} = \frac{P_{tx} G_{tx} G_{rx} L_{tot}}{k T_{eq}} > \left( \frac{P_{rx}}{N_0} \right)_{min}
+    \dfrac{P_{rx}}{N_0} = \dfrac{P_{tx} G_{tx} G_{rx} L_{tot}}{k T_{eq}} > \left( \dfrac{P_{rx}}{N_0} \right)_{min}
 \end{equation}
 
 For antennas that broadcast data, an additional equation is used to constrain the sizing.
 \begin{equation}
-    \frac{E_b}{N_0} = \frac{P_{tx} G_{tx} G_{rx} L_{tot}}{k T_{eq} R} > \left( \frac{E_b}{N_0} \right)_{min}
+    \dfrac{E_b}{N_0} = \dfrac{P_{tx} G_{tx} G_{rx} L_{tot}}{k T_{eq} R} > \left( \dfrac{E_b}{N_0} \right)_{min}
 \end{equation}
 
 $L_{tot}$ considers the following losses:
@@ -34,21 +34,17 @@ From the literature, some other parameters where recovered:
 
 The link budget equation can be expressed in a dB form, each term is then calculated as follows:
 
-\begin{gather}
-    G = 10 \cdot \log_{10}\left(\frac{\pi d \mu}{\lambda}\right)
-    \qquad
-    \theta_{bw} = 65.3 \cdot \frac{\lambda}{d}   
+\vspace{3mm}
+\centering
+\def\arraystretch{2}
+\begin{tabular}{ccc}
+    $G = 10 \cdot \log_{10}\left(\dfrac{\pi d \mu}{\lambda}\right)$ &  \hspace{20mm} & $\theta_{bw} = 65.3 \cdot \dfrac{\lambda}{d}$ \\
+    $L_{s} = 20 \cdot log_{10}\left(\dfrac{\lambda}{4 \pi d_{JE}}\right)$ &  \hspace{20mm} & $L_{p} = -12 \cdot \left(\dfrac{\eta}{\theta_{bw}}\right)$ 
     \\
-    L_{space} = 20 \cdot log_{10}\left(\frac{\lambda}{4 \pi d_{JE}}\right)
-    \qquad
-    L_{point} = -12 \cdot \left(\frac{\eta}{\theta_{bw}}\right) 
+    $EIRP_{dw} = P_{tx} + G_{J} + L_{cb} + L_{cv}$ &  \hspace{20mm} & $EIRP_{up} = P_{tx} + G_{g}$
     \\
-    EIRP_{dw} = P_{tx} + G_{tx} + L_{cable} + L_{cover} 
-    \qquad
-    EIRP_{up} = P_{tx} + G_{tx}
+    $P_{rx,dw} = EIRP_{dw} + G_{g} + L_{s} + L_{a} + L_{p}$ &  \hspace{20mm} & $P_{rx,up} = EIRP_{up} + G_{J} + L_{a} +  L_{s} + L_{p} + L_{cv}$
     \\
-    P_{rx,dw} = EIRP_{dw} + G_{rx}  
-    \qquad
-    P_{rx,up} = EIRP_{up} + G_{rx} + L_{space} + L_{point} + L_{cover}
-\end{gather} 
+    $\dfrac{P}{N_{0}} = P_{rx} - N_{0}$ & \hspace{20mm} & $\dfrac{E_b}{N_{0}} = \dfrac{P}{N_{0}} - 10\log_{10}$ \\
+\end{tabular} 
 

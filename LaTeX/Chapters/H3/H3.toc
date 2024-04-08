@@ -5,4 +5,4 @@
 \contentsline {section}{\numberline {2}Rationale of TMTC system}{1}{section.2}%
 \contentsline {section}{\numberline {3}Reverse sizing of TMTC system}{1}{section.3}%
 \contentsline {subsection}{\numberline {3.1}HGA links sizing}{1}{subsection.3.1}%
-\contentsline {section}{Bibliography}{2}{equation.3.7}%
+\contentsline {section}{Bibliography}{2}{subsection.3.1}%
