@@ -1,3 +1,54 @@
-\section{Sizing of TMTC system}
+\section{Reverse sizing of TMTC system}
 \label{sec:TMTC_sizing}
+
+The reverse sizing of the TMTC system is based on the link budget equation that represents a power balance between the transmitted signal and the receiver noise. The same equation can be applied on both uplink and downlink. It is valid for all the architectures, both that transmit data or tones
+
+\begin{equation}
+    \frac{P_{rx}}{N_0} = \frac{P_{tx} G_{tx} G_{rx} L_{tot}}{k T_{eq}} > \left( \frac{P_{rx}}{N_0} \right)_{min}
+\end{equation}
+
+For antennas that broadcast data, an additional equation is used to constrain the sizing.
+\begin{equation}
+    \frac{E_b}{N_0} = \frac{P_{tx} G_{tx} G_{rx} L_{tot}}{k T_{eq} R} > \left( \frac{E_b}{N_0} \right)_{min}
+\end{equation}
+
+$L_{tot}$ considers the following losses:
+\begin{equation}
+    L_{tot} = L_{cable} \cdot L_{space} \cdot L_{point,tx} \cdot L_{point,rx} \cdot L_{atm} \cdot L_{cover}
+\end{equation}
+
+For each communication link, different minimum required ratios are defined. In particular, $\dfrac{E_b}{N_0}$ must also satisfy the Shannon theorem by ensuring a value higher than $-1.59$ dB. 
+
+\subsection{HGA links sizing}
+\label{subsec:hga_sizing}
+
+The HGA as described in (sec) is used for the downlink of telemetry and scientific data during the science orbits around Jupiter. It has been sized in the following scenario: 
+\begin{itemize}
+    \item the maximum distance from Earth $r_{JE} = 6.5$ AU;
+    \item the minimum datarate $R = 18$ kbps has to be ensured regarding the distance.
+\end{itemize}
+
+From the literature, some other parameters where recovered: 
+
+% tabella
+
+The link budget equation can be expressed in a dB form, each term is then calculated as follows:
+
+\begin{gather}
+    G = 10 \cdot \log_{10}\left(\frac{\pi d \mu}{\lambda}\right)
+    \qquad
+    \theta_{bw} = 65.3 \cdot \frac{\lambda}{d}   
+    \\
+    L_{space} = 20 \cdot log_{10}\left(\frac{\lambda}{4 \pi d_{JE}}\right)
+    \qquad
+    L_{point} = -12 \cdot \left(\frac{\eta}{\theta_{bw}}\right) 
+    \\
+    EIRP_{dw} = P_{tx} + G_{tx} + L_{cable} + L_{cover} 
+    \qquad
+    EIRP_{up} = P_{tx} + G_{tx}
+    \\
+    P_{rx,dw} = EIRP_{dw} + G_{rx}  
+    \qquad
+    P_{rx,up} = EIRP_{up} + G_{rx} + L_{space} + L_{point} + L_{cover}
+\end{gather} 
 

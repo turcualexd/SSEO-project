@@ -37,5 +37,6 @@
 \contentsline {section}{Notation}{19}{section*.27}%
 \contentsline {section}{\numberline {3.1}TMTC architecture}{20}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Rationale of TMTC system}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Sizing of TMTC system}{20}{section.3.3}%
-\contentsline {section}{Bibliography}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Reverse sizing of TMTC system}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}HGA links sizing}{20}{subsection.3.3.1}%
+\contentsline {section}{Bibliography}{21}{equation.3.3.21}%
