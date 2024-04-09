@@ -2,6 +2,11 @@
 \contentsline {section}{Contents}{i}{section*.2}%
 \contentsline {section}{Notation}{i}{section*.3}%
 \contentsline {section}{\numberline {1}TMTC system architecture}{1}{section.1}%
-\contentsline {section}{\numberline {2}Rationale of TMTC system}{1}{section.2}%
-\contentsline {section}{\numberline {3}Sizing of TMTC system}{1}{section.3}%
-\contentsline {section}{Bibliography}{2}{section.3}%
+\contentsline {subsection}{\numberline {1.1}HGA}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}MGA \& LGAs}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}TLGA}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Ground stations}{2}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Rationale of TMTC system}{3}{section.2}%
+\contentsline {section}{\numberline {3}Reverse sizing of TMTC system}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}HGA links sizing}{3}{subsection.3.1}%
+\contentsline {section}{Bibliography}{5}{table.caption.7}%
