@@ -1,6 +1,6 @@
-PWD c:\Users\turcu\Desktop\Progetti\SSEO-project
+PWD c:\Users\turcu\Desktop\Progetti\SSEO-project\LaTeX
 INPUT C:\Users\turcu\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\turcu\Desktop\Progetti\SSEO-project\SSEO_final_report.tex
+INPUT c:\Users\turcu\Desktop\Progetti\SSEO-project\LaTeX\SSEO_final_report.tex
 OUTPUT SSEO_final_report.log
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
