@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H3"] 1712610851.46172 "H3.bcf" "H3.bbl" "H3" 1712613424.09455 0
+["biber H3"] 1712610851.46172 "H3.bcf" "H3.bbl" "H3" 1712645763.4205 0
   "../../bibliography.bib" 1712566189 10638 e92fcb975a159c6ad39cfec86339dff6 ""
-  "H3.bcf" 1712613423 108100 29130682378345fc087306cc99180787 "pdflatex"
+  "H3.bcf" 1712645762 108100 29130682378345fc087306cc99180787 "pdflatex"
   (generated)
   "H3.bbl"
   "H3.blg"
   (rewritten before read)
-["pdflatex"] 1712613421.70316 "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H3/H3.tex" "H3.pdf" "H3" 1712613424.09549 0
+["pdflatex"] 1712645760.83862 "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H3/H3.tex" "H3.pdf" "H3" 1712645763.42145 0
   "../../Config/Poli_logo.pdf" 1712439791 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config/commands.tex" 1712439791 1522 79a87f151e8bb55c34c99cccd4558b41 ""
   "../../Config/formats.tex" 1712439791 1818 04a9bcdee2dae368f8a5b3a24938da5e ""
@@ -164,18 +164,18 @@
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H3.aux" 1712613423 3790 be72209e0ba686505d2fe9b0820a35cc "pdflatex"
+  "H3.aux" 1712645762 3790 be72209e0ba686505d2fe9b0820a35cc "pdflatex"
   "H3.bbl" 1712610854 5227 fa2e2a923d7a30ade4acf7663fc26039 "biber H3"
-  "H3.out" 1712613423 1132 303ade7bf7adc0131bc752e1e0734e9c "pdflatex"
-  "H3.run.xml" 1712613423 2299 ca9eb91dcb9d7c85ff5931f342d9e347 "pdflatex"
-  "H3.tex" 1712613418 309 3db3ef8654341b1c44e26de83b67d5fb ""
-  "H3.toc" 1712613423 710 c58b96dd1782960febad7bd824d0a420 "pdflatex"
+  "H3.out" 1712645762 1132 303ade7bf7adc0131bc752e1e0734e9c "pdflatex"
+  "H3.run.xml" 1712645762 2299 ca9eb91dcb9d7c85ff5931f342d9e347 "pdflatex"
+  "H3.tex" 1712645759 309 3db3ef8654341b1c44e26de83b67d5fb ""
+  "H3.toc" 1712645762 710 c58b96dd1782960febad7bd824d0a420 "pdflatex"
   "Images/antennas_positioning.jpg" 1712439791 112885 a22faf2bb42b828d8fbe6610a9b51093 ""
   "Sections/00_notation.tex" 1712613418 1250 b1ca2b86954b70d1883fce521eb308fe ""
-  "Sections/01_architecture.tex" 1712613418 9232 408bdaeea54b646df879e938ec1a2f8a ""
+  "Sections/01_architecture.tex" 1712645759 9301 8242f612991506047ca5ade33f7612f2 ""
   "Sections/02_rationale.tex" 1712439791 66 0b7a81bf842c0280dffa00aad0216292 ""
   "Sections/03_sizing.tex" 1712439791 60 e740e00ac5770c45ab63dec8c02acbd7 ""
-  "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H3/H3.tex" 1712613418 309 3db3ef8654341b1c44e26de83b67d5fb ""
+  "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H3/H3.tex" 1712645759 309 3db3ef8654341b1c44e26de83b67d5fb ""
   (generated)
   "H3.aux"
   "H3.bcf"
