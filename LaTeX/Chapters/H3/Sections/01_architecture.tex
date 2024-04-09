@@ -6,23 +6,23 @@
 % cosa fa il systema di tmtc, a che banda opera. quante antenne ha.
 % perchè serve una doppia banda per comunicare ( X + Ka )
 
-The Juno TMTC subsystem purpose is to communicate data about the status of the spacecraft, download scientific data and to receive commands to and from the DSN antennas. Both the uplink and downlink are performed in X-band frequency: 7.15 GHz the downlink and 8.40 GHz the uplink. One of the main goals of the mission is to study Jupiter's gravity field: this is accomplished by exploiting the difference in doppler effect of the telecommunication from the model and the real jovian gravity field. Due to the harsh environment that Juno faces and the need to measure precisely the residual frequency, transmission on both X-band Ka-band during gravity science is needed. 
+The Juno TMTC subsystem purpose is to communicate data about the status of the spacecraft, download scientific data and to receive commands to and from the DSN antennas. Both the uplink and downlink are performed in X-band frequency: 7.15 GHz the downlink and 8.40 GHz the uplink. One of the main goals of the mission is to study Jupiter's gravity field: this is accomplished by exploiting the difference in doppler effect of the telecommunication from the model and the real jovian gravity field. Due to the harsh environment that Juno faces and the need to measure precisely the residual frequency, transmission on both X-band Ka-band during gravity science is needed. The Ka-band has an advantage on the X-band since the noise due to interplanetary plasma is inversely proportional to the wavelength, higher on the Ka-band, making the measurements more accurate. 
 For this reason, the HGA can operate in 3 different modes: 
 
 \begin{itemize}
 \item \textbf{X/X}: uplink and downlink are coherent and performed in X-band;
-\end{itemize}
-
-\begin{itemize}
 \item \textbf{X/X \& X/Ka}: simultaneous transmission on X-band (uplink and downlink), together with a coherent Ka-band downlink at 32 GHz and X-band uplink;
 \item \textbf{X/X \& Ka/Ka}: phase coherent X-band uplink and downlink together with a phase coherent Ka-band uplink at 34 GHz and downlink.
 \end{itemize}
+
+In order to calibrate the dispersive noise contribution when receiving X-band and Ka-band signals simultaneously, Juno is equipped with a KaTS. This instrument is capable of receiving a Ka-band uplink unmodulated carrier from DSN and to generate a Ka-band downlink unmodulated carrier coherent with the uplink to maintain the phase stability from ground communication, on which the quality of the experiments depends\cite{juno_telecommunication}.
+
 Five antennas are mounted onboard Juno with different orientations, positions and capabilities: one HGA, one MGA, two LGAs and one TLGA. 
 
 In order to process different signals at different frequencies, Juno has two SDSTs, capable of performing different tasks. The prime unit provides X/X and X/Ka link, whereas the secondary unit only operates on the single X-band. Each SDST is composed of four different units: the DPM, the down converter, the power converter and the exciter unit. 
 The DPM is responsible for managing the data incoming from the downconverter, encoding them and providing X-band baseband telemetry. The downconverter module converts the incoming 7.15 GHz signal into an intermediate frequency at 4/3 F1, where F1, approximately 9.55 MHz, is the fundamental frequency from which up and downlink frequencies are derived. The power converter is responsible for supplying a steady voltage to all SDST modules and the exciter is responsible for taking as an input telemetry, DOR, ranging and for phase-modulating the downlink carrier \cite{juno_telecommunication}\cite{ka_uplink}. 
 
-The SDST is responsible for generating the X-band downlink carrier by coherently multiplying the frequency of the uplink carrier by a turn-around ratio of 880/749. All X-band signals are amplified by one of two 25 W TWTAs. 
+The SDST is responsible for generating the X-band downlink carrier by coherently multiplying the frequency of the uplink carrier by a turn-around ratio of 880/749. All X-band signals are amplified by one of two 25 W TWTAs\cite{juno_telecommunication}.  
 
 
 \subsection{HGA}
@@ -58,7 +58,11 @@ The RHCP pattern is achieved through a four-layer meander-line polarizer, built 
 \subsection{Ground stations}
 \label{subsec:gs}
 
-In order to retrieve data, Juno relies on the antennas of NASA's DSN, a system of three complexes spread around the globe, separated by approximately 120°: one is located in Goldstone, California; one in Madrid, Spain, and one in Canberra, Australia. This configuration allows for constant observation of spacecraft while Earth rotates\cite{juno_telecommunication}.
+In order to retrieve data, Juno relies on the antennas of NASA's DSN, a system of three complexes spread around the globe, separated by approximately 120°: one is located in Goldstone, California; one in Madrid, Spain, and one in Canberra, Australia. This configuration allows for constant observation of spacecraft while Earth rotates\cite{juno_telecommunication}. Each site is fitted with one 70-meter diameter antenna and a set of 34-m diameter antennas. 
+
+All antennas are capable of receiving and transmitting in X-band, however only the smaller ones are also capable of receiving in Ka-band. DSS-25 antenna in Goldstone is the sole capable of Ka-band uplink: all Juno's closest approach periods to Jupiter are planned such that this particular antenna is in sight.
+
+Since the troposphere introduces delays in the Doppler signal path, in order to retrieve a more accurate reading during gravity science, DSS-25 is equipped with a AWVR that measures the wet component of the troposphere ad various frequencies, including 31.4 GHz, where Ka-band signal are performed. The wet component delays are statistically combined with data considering effects from surface meteorology to have a full evaluation of the delays in the Doppler signals\cite{calibration_performance}. 
 
 In \autoref{fig:dsn_hga} it is possible to observe a simplified scheme of Juno's communication architecture.
 \cfig{dsn_hga}{0.75}{Ground Station and Juno communication scheme}

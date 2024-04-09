@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  9 APR 2024 21:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  9 APR 2024 23:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1148,12 +1148,12 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \subsection{MGA \& LGAs}
-                              [1 <./Images/antennas_positioning.jpg>]
-<Images/dsn_hga.jpg, id=104, 581.17125pt x 310.15875pt>
+l.34 
+      [1 <./Images/antennas_positioning.jpg>]
+<Images/dsn_hga.jpg, id=106, 581.17125pt x 310.15875pt>
 File: Images/dsn_hga.jpg Graphic file (type jpg)
 <use Images/dsn_hga.jpg>
-Package pdftex.def Info: Images/dsn_hga.jpg  used on input line 64.
+Package pdftex.def Info: Images/dsn_hga.jpg  used on input line 68.
 (pdftex.def)             Requested size: 384.11221pt x 204.9941pt.
  [2]) (Sections/02_rationale.tex) (Sections/03_sizing.tex)) [3 <./Images/dsn_hga.jpg>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
@@ -1178,17 +1178,17 @@ Package logreq Info: Writing requests to 'H3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23807 strings out of 474436
- 409016 string characters out of 5741955
+ 23811 strings out of 474436
+ 409213 string characters out of 5741955
  1942190 words of memory out of 5000000
- 45753 multiletter control sequences out of 15000+600000
+ 45756 multiletter control sequences out of 15000+600000
  656296 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,14n,102p,2107b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H3.pdf (6 pages, 315540 bytes).
+Output written on H3.pdf (6 pages, 317771 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
