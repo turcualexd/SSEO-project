@@ -1,6 +1,6 @@
-PWD c:\Users\turcu\Desktop\Progetti\SSEO-project\Chapters\H3
+PWD c:\Users\turcu\Desktop\Progetti\SSEO-project\LaTeX\Chapters\H3
 INPUT C:\Users\turcu\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\turcu\Desktop\Progetti\SSEO-project\Chapters\H3\H3.tex
+INPUT c:\Users\turcu\Desktop\Progetti\SSEO-project\LaTeX\Chapters\H3\H3.tex
 OUTPUT H3.log
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H3"] 1712223916 "H3.bcf" "H3.bbl" "H3" 1712311820 0
+["biber H3"] 1712223916 "H3.bcf" "H3.bbl" "H3" 1712326407 0
   "../../bibliography.bib" 1711727754 9378 2cb2b567cfc876e4ba666181904ac221 ""
-  "H3.bcf" 1712311820 107259 c17b3d6ebd49db3605609b7090b2167e "pdflatex"
+  "H3.bcf" 1712326407 107259 c17b3d6ebd49db3605609b7090b2167e "pdflatex"
   (generated)
   "H3.bbl"
   "H3.blg"
   (rewritten before read)
-["pdflatex"] 1712311818 "c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H3/H3.tex" "H3.pdf" "H3" 1712311820 0
+["pdflatex"] 1712326405 "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H3/H3.tex" "H3.pdf" "H3" 1712326407 0
   "../../Config//Poli_logo.pdf" 1710546785 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config//commands.tex" 1711717693 1522 79a87f151e8bb55c34c99cccd4558b41 ""
   "../../Config//formats.tex" 1711727754 1818 04a9bcdee2dae368f8a5b3a24938da5e ""
@@ -154,17 +154,17 @@
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604489012 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H3.aux" 1712311820 1931 e2856d8a930bf5d18cdba297fb1c136e "pdflatex"
+  "H3.aux" 1712326407 1945 deb1f0a4a66f35be4b87e65039a3b9af "pdflatex"
   "H3.bbl" 1712223947 1569 9fc988e582741c421f734387a991393a "biber H3"
-  "H3.out" 1712311820 731 c1616a6467ae1cbe2e170b64ba453741 "pdflatex"
-  "H3.run.xml" 1712311820 2299 ca9eb91dcb9d7c85ff5931f342d9e347 "pdflatex"
+  "H3.out" 1712326407 769 ed1a61086ff47f257801b1a9d462cd52 "pdflatex"
+  "H3.run.xml" 1712326407 2299 ca9eb91dcb9d7c85ff5931f342d9e347 "pdflatex"
   "H3.tex" 1712223912 309 3db3ef8654341b1c44e26de83b67d5fb ""
-  "H3.toc" 1712311820 413 ddd862f95ce0812a166bc1e7fbef9ab4 "pdflatex"
+  "H3.toc" 1712326407 420 247aad9c1f77833d4bfba89b9f7a1963 "pdflatex"
   "Sections/00_notation.tex" 1712311816 779 a930fb689d79276b8ce1d4c52b9bfb45 ""
-  "Sections/01_architecture.tex" 1712311403 62 f4d6c4ff8d6a5f16a568aa6c8c16ea4b ""
+  "Sections/01_architecture.tex" 1712326401 69 f07da963e40e53b7485ce87f38b48443 ""
   "Sections/02_rationale.tex" 1712311403 66 0b7a81bf842c0280dffa00aad0216292 ""
   "Sections/03_sizing.tex" 1712311403 60 e740e00ac5770c45ab63dec8c02acbd7 ""
-  "c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H3/H3.tex" 1712223912 309 3db3ef8654341b1c44e26de83b67d5fb ""
+  "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H3/H3.tex" 1712223912 309 3db3ef8654341b1c44e26de83b67d5fb ""
   (generated)
   "H3.aux"
   "H3.bcf"

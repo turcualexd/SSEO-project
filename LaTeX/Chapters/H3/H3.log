@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  5 APR 2024 12:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  5 APR 2024 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H3/H3.tex
-(c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H3/H3.tex
+**c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H3/H3.tex
+(c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H3/H3.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-11> (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -1153,21 +1153,21 @@ See the caption package documentation for explanation.
 
 [2] (H3.aux)
 Package rerunfilecheck Info: File `H3.out' has not changed.
-(rerunfilecheck)             Checksum: C1616A6467AE1CBE2E170B64BA453741;731.
+(rerunfilecheck)             Checksum: ED1A61086FF47F257801B1A9D462CD52;769.
 Package logreq Info: Writing requests to 'H3.run.xml'.
 \openout1 = `H3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  23844 strings out of 476361
- 412574 string characters out of 5788046
+ 412712 string characters out of 5788046
  1858993 words of memory out of 5000000
  43884 multiletter control sequences out of 15000+600000
  603100 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,14n,98p,1508b,1857s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,14n,98p,1514b,1857s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H3.pdf (4 pages, 93529 bytes).
+Output written on H3.pdf (4 pages, 93573 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
