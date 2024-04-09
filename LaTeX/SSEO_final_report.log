@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  8 APR 2024 22:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  9 APR 2024 21:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -986,7 +986,11 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+jkp on input line 8.
  (C:\Miktex\tex/latex/kpfonts\t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
-) (SSEO_final_report.aux)
+) (SSEO_final_report.aux
+
+LaTeX Warning: Label `table:deltav' multiply defined.
+
+)
 \openout1 = `SSEO_final_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 8.
@@ -1206,7 +1210,7 @@ File: Chapters/H2//Images/trajectory.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapters/H2//Images/trajectory.pdf  used on input line 63.
 (pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
 [12 <./Chapters/H2//Images/trajectory.pdf>]) (Chapters/H2//Sections/02_prop_architecture.tex
-<Chapters/H2//Images/axis.jpg, id=443, 791.95876pt x 278.03876pt>
+<Chapters/H2//Images/axis.jpg, id=442, 791.95876pt x 278.03876pt>
 File: Chapters/H2//Images/axis.jpg Graphic file (type jpg)
 <use Chapters/H2//Images/axis.jpg>
 Package pdftex.def Info: Chapters/H2//Images/axis.jpg  used on input line 6.
@@ -1240,24 +1244,27 @@ Package biblatex Info: Setting label 'refsection:3' on input line 3.
 ] (Chapters/H3//Sections/01_architecture.tex) (Chapters/H3//Sections/02_rationale.tex) (Chapters/H3//Sections/03_sizing.tex)) [20]
 Package biblatex Info: Reference section=0 on input line 3.
 ) [21] (SSEO_final_report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: BA06B7B03C092890050DBCAC8B4AFF85;6767.
+(rerunfilecheck)             Checksum: B88E5C66BEDBC2D7A6B2174C6C74BA72;6768.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24496 strings out of 475385
- 420410 string characters out of 2793321
- 1217529 words of memory out of 3000000
+ 24495 strings out of 475385
+ 420397 string characters out of 2793321
+ 1217569 words of memory out of 3000000
  45253 multiletter control sequences out of 15000+600000
  625082 words of font info for 219 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,98p,1950b,1875s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (23 pages, 2094466 bytes).
+Output written on SSEO_final_report.pdf (23 pages, 2095536 bytes).
 PDF statistics:
- 1112 PDF objects out of 1200 (max. 8388607)
- 159 named destinations out of 1000 (max. 500000)
+ 1111 PDF objects out of 1200 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
  384 words of extra memory for PDF output out of 10000 (max. 10000000)
 
