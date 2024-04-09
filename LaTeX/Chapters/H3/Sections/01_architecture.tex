@@ -51,14 +51,15 @@ The LGAs are used mainly at a distance inferior to 0.5 AU from Earth and during 
 The TLGA is placed on the aft deck of Juno, aligned with solar wing $\#$1. This antenna works at the same X-band frequency of the other antennas but differs from them since it is a biconical horn design and it is able to produce a RHCP pattern symmetrical around Juno's spin axis: this characteristic is needed to ensure continuous coverage during all critical events, such as the DSMs, JOI, PRM and OTMs, when the attitude does not allow for direct Earth pointing. 
 This antenna transmits only in a carrier or subcarrier configuration, where no ranging nor telemetry signals are modulated onto the carrier. During ME manuevers Juno encodes MFSK tones by modulating a varying frequency subcarrier onto the carrier. Every subcarrier frequency is associated to a particular event or state of the spacecraft and allows a complete knowledge of Juno's health. The particular advantage of using a subcarrier is the capability of providing an additional channel of transmission: it allows different signals to be received together as one and then to be separated out by the receiver.
 
-% A subcarrier is a secondary modulated signal frequency modulated into the main frequency (the carrier) to provide an additional channel of transmission. It allows for a single transmission to carry more than one separate signal.
-% In order to maximize the directivity of the antenna and keeping the phase as uniform as possible across torus of the antenna
 
 A toroidal antenna pattern can be produced by a dipole, but this design limits heavily the maximum gain reachable to around 2.2 dB, insufficient to provide communications between Juno and Earth. Thus, a biconical antenna with corrugated horn has been developed, allowing for a compact and efficient design: this configuration allows to achieve values lower 20 dB in return losses over the entire used X-band\cite{telecommunication_antennas}. 
 The RHCP pattern is achieved through a four-layer meander-line polarizer, built to minimize RF losses. As the HGA described in \autoref{subsec:hga}, the TLGA is also covered in a Germanium Kapton blanket to minimize high energy electrons' flux. Gains required for the TLGA are of 5.5 dBic while receiving and 6.5 dBic while transmitting, with a beamwidth of $\pm$ 10° in both reception and transmission at $\pm$ 90° with respect to the boresight angle\cite{juno_telecommunication}. 
 
-
-
 \subsection{Ground stations}
 \label{subsec:gs}
+
+In order to retrieve data, Juno relies on the antennas of NASA's DSN, a system of three complexes spread around the globe, separated by approximately 120°: one is located in Goldstone, California; one in Madrid, Spain, and one in Canberra, Australia. This configuration allows for constant observation of spacecraft while Earth rotates\cite{juno_telecommunication}.
+
+In \autoref{fig:dsn_hga} it is possible to observe a simplified scheme of Juno's communication architecture.
+\cfig{dsn_hga}{0.75}{Ground Station and Juno communication scheme}
 
