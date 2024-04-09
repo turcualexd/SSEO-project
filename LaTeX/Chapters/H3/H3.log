@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  9 APR 2024 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  9 APR 2024 22:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1143,12 +1143,12 @@ Package biblatex Info: Setting label 'refsection:1' on input line 19.
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 27.
  (C:\Miktex\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-)))
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \bodyandbib
-                 [1] [2]
+l.73 T
+      he link budget equation can be expressed in a dB form, each term is th... [1])) [2]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Miktex\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1156,23 +1156,23 @@ File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 Package biblatex Info: Reference section=0 on input line 19.
  [3] (H3.aux)
 Package rerunfilecheck Info: File `H3.out' has not changed.
-(rerunfilecheck)             Checksum: C67EFD0E1B0775BAAF52F5964586E74F;923.
+(rerunfilecheck)             Checksum: D975D815D7B1258DF9DC211A3BA9ECFE;923.
 Package logreq Info: Writing requests to 'H3.run.xml'.
 \openout1 = `H3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23783 strings out of 475385
- 401059 string characters out of 2793321
- 1188104 words of memory out of 3000000
- 44768 multiletter control sequences out of 15000+600000
- 578443 words of font info for 150 fonts, out of 8000000 for 9000
+ 23788 strings out of 475385
+ 401133 string characters out of 2793321
+ 1185131 words of memory out of 3000000
+ 44772 multiletter control sequences out of 15000+600000
+ 593867 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,97p,1514b,1873s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H3.pdf (5 pages, 140223 bytes).
+Output written on H3.pdf (5 pages, 143236 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

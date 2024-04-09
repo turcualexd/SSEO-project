@@ -59,23 +59,24 @@ From the literature, some other parameters where recovered:
         \hline
         $\boldsymbol{L_{c}}$ \textbf{[dB]} &\multicolumn{2}{c|}{$-0.25$} & \multicolumn{2}{c|}{$-0.5$}\\
         \hline
-        $\boldsymbol{T_{s}}$ \textbf{[K]} & $21$ & $401.25$ & $21$ & $770.63$ \\
+        $\boldsymbol{T_{sys}}$ \textbf{[K]} & $21$ & $401.25$ & $21$ & $770.63$ \\
         \hline
         $\boldsymbol{\left(P/N_0\right)_{min}}$ \textbf{[dB-Hz]} & $43.64$ & $49.13$ & $26.50$ & $42.57$ \\
         \hline
         $\boldsymbol{\left(E_b/N_0\right)_{min}}$ \textbf{[dB]} & $-0.1$ & $9.6$ & $-$ & $-$ \\
         \hline
     \end{tabular}
-    \caption{Overall mission budget and simulation}
-    \label{table:deltav}
+    \caption{HGA data for sizing}
+    \label{table:dati_HGA}
 \end{table}
-
+\pagebreak
 The link budget equation can be expressed in a dB form, each term is then calculated as follows:
 
-\vspace{3mm}
-\centering
+\vspace{6mm}
+\begin{center}
 \def\arraystretch{2}
 \begin{tabular}{ccc}
+    
     $G = 10 \cdot \log_{10}\left(\dfrac{\pi d \mu}{\lambda}\right)$ &  \hspace{20mm} & $\theta_{bw} = 65.3 \cdot \dfrac{\lambda}{d}$ \\
     $L_{s} = 20 \cdot log_{10}\left(\dfrac{\lambda}{4 \pi d_{JE}}\right)$ &  \hspace{20mm} & $L_{p} = -12 \cdot \left(\dfrac{\eta}{\theta_{bw}}\right)$ 
     \\
@@ -84,5 +85,43 @@ The link budget equation can be expressed in a dB form, each term is then calcul
     $P_{rx,dw} = EIRP_{dw} + G_{g} + L_{s} + L_{a} + L_{p}$ &  \hspace{20mm} & $P_{rx,up} = EIRP_{up} + G_{HGA} + L_{a} +  L_{s} + L_{p} + L_{cv}$
     \\
     $\dfrac{P}{N_{0}} = P_{rx} - N_{0}$ & \hspace{20mm} & $\dfrac{E_b}{N_{0}} = \dfrac{P}{N_{0}} - 10\log_{10}$ \\
-\end{tabular} 
+\end{tabular}
+\end{center}
 
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.3}
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        & \textbf{X-Down} & \textbf{X-Up} & \textbf{Ka-Down}& \textbf{Ka-Up} \\
+        \hline
+        $\boldsymbol{G_{HGA}}$ \textbf{[dB]} & $44.25$ & $42.79$ & $56.50$ & $55.90$ \\
+        \hline
+        $\boldsymbol{G_g}$ \textbf{[dB]} & $66.93$ & $65.47$ & $79.17$ & $78.57$ \\
+        \hline
+        $\boldsymbol{\theta_{bw,HGA}} \textbf{[deg]}$  & $0.932$ & $1.10$ &\multicolumn{2}{c|}{$0.438 \,^{I}$}\\
+        \hline
+        $\boldsymbol{\theta_{bw,g}}$ \textbf{[deg]} & $0.069$ & $0.081$ & $0.017$ & $0.018$ \\
+        \hline
+        $\boldsymbol{L_{s}}$ \textbf{[dB]} & $-290.63$ & $-289.17$ & $-302.88$ & $-302.28$ \\
+        \hline
+        $\boldsymbol{L_{p}}$ \textbf{[dB]} & $-0.904$ & $-0.646$ & $-4.09$ & $-4.51$ \\
+        \hline
+        $\boldsymbol{EIRP}$ \textbf{[dBm]} & $85.98$ & $138.02$ & $87.98$ & $151.12$ \\
+        \hline
+        $\boldsymbol{N_{0}}$ \textbf{[dB/Hz]} & $-185.38$ & $-172.57$ & $-185.38$ & $-169.73$ \\
+        \hline
+        $\boldsymbol{P_{rx}}$ \textbf{[dBm]} & $-138.83$ & $-109.46$ & $-140.90$ & $-101.36$ \\
+        \hline
+        $\boldsymbol{\left(P/N_0\right)}$ \textbf{[dB-Hz]} & $46.55$ & $63.11$ & $44.47$ & $68.38$ \\
+        \hline
+        $\boldsymbol{\left(P/N_0\right)_{mar}}$ \textbf{[dB-Hz]} & $2.91$ & $13.98$ & $17.97$ & $25.81$ \\
+        \hline
+        $\boldsymbol{\left(E_b/N_0\right)}$ \textbf{[dB]} & $4.00$ & $30.10$ & $-$ & $-$ \\
+        \hline
+        $\boldsymbol{\left(E_b/N_0\right)_{mar}}$ \textbf{[dB]} & $4.10$ & $20.50$ & $-$ & $-$ \\
+        \hline
+    \end{tabular}
+    \caption{Results for HGA}
+    \label{table:results_HGA}
+\end{table}
