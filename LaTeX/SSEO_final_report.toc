@@ -35,12 +35,8 @@
 \contentsline {section}{Bibliography}{18}{table.caption.25}%
 \contentsline {chapter}{Homework 3}{19}{chapter*.26}%
 \contentsline {section}{Notation}{19}{section*.27}%
-\contentsline {section}{\numberline {3.1}TMTC architecture}{20}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}HGA}{20}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}MGH}{20}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}LGA}{20}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}TLGA}{20}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Ground stations}{20}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.1}TMTC system architecture}{20}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Rationale of TMTC system}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Sizing of TMTC system}{20}{section.3.3}%
-\contentsline {section}{Bibliography}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Reverse sizing of TMTC system}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}HGA links sizing}{20}{subsection.3.3.1}%
+\contentsline {section}{Bibliography}{22}{table.caption.29}%
