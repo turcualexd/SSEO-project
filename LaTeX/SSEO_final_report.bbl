@@ -758,30 +758,6 @@
       \field{title}{Overview of the Juno Mission to Jupiter}
       \field{year}{2006}
     \endentry
-    \entry{108_telecom}{article}{}
-      \name{author}{1}{}{%
-        {{hash=fb97bd06fb9da89507a2b8e6e8d89e47}{%
-           family={al},
-           familyi={a\bibinitperiod},
-           given={Ryan\bibnamedelima Mukai},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{fb97bd06fb9da89507a2b8e6e8d89e47}
-      \strng{fullhash}{fb97bd06fb9da89507a2b8e6e8d89e47}
-      \strng{bibnamehash}{fb97bd06fb9da89507a2b8e6e8d89e47}
-      \strng{authorbibnamehash}{fb97bd06fb9da89507a2b8e6e8d89e47}
-      \strng{authornamehash}{fb97bd06fb9da89507a2b8e6e8d89e47}
-      \strng{authorfullhash}{fb97bd06fb9da89507a2b8e6e8d89e47}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Paper}
-      \field{title}{Juno Telecommunications}
-      \field{year}{2012}
-    \endentry
   \enddatalist
 \endrefsection
 \endinput

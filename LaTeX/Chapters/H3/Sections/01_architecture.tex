@@ -1,4 +1,4 @@
-\section{TMTC system architecture}
+\section{TMTC architecture}
 \label{sec:TMTC_architecture}
 
 \rfig{antennas_positioning}{0.55}{Location of telecommunication antennas}
@@ -6,64 +6,37 @@
 % cosa fa il systema di tmtc, a che banda opera. quante antenne ha.
 % perchè serve una doppia banda per comunicare ( X + Ka )
 
-The Juno TMTC subsystem purpose is to communicate data about the status of the spacecraft, download scientific data and to receive commands to and from the DSN antennas. Both the uplink and downlink are performed in X-band frequency: 7.15 GHz the downlink and 8.40 GHz the uplink. One of the main goals of the mission is to study Jupiter's gravity field: this is accomplished by exploiting the difference in doppler effect of the telecommunication from the model and the real jovian gravity field. Due to the harsh environment that Juno faces and the need to measure precisely the residual frequency, transmission on both X-band Ka-band during gravity science is needed. The Ka-band has an advantage on the X-band since the noise due to interplanetary plasma is inversely proportional to the wavelength, higher on the Ka-band, making the measurements more accurate. 
+The Juno TMTC subsystem purpose is to communicate data about the status of the spacecraft, download scientific data and to receive commands to and from the DSN antennas. Both the uplink and downlink are performed in X-band frequency: 7.15 GHz the downlink and 8.40 GHz the uplink. One of the main goals of the mission is to study Jupiter's gravity field: this is accomplished by exploiting the difference in doppler effect of the telecommunication from the model and the real jovian gravity field. Due to the harsh environment that Juno faces and the need to measure precisely the residual frequency, transmission on both X-band Ka-band during gravity science is needed. 
 For this reason, the HGA can operate in 3 different modes: 
 
 \begin{itemize}
 \item \textbf{X/X}: uplink and downlink are coherent and performed in X-band;
+\end{itemize}
+
+\begin{itemize}
 \item \textbf{X/X \& X/Ka}: simultaneous transmission on X-band (uplink and downlink), together with a coherent Ka-band downlink at 32 GHz and X-band uplink;
 \item \textbf{X/X \& Ka/Ka}: phase coherent X-band uplink and downlink together with a phase coherent Ka-band uplink at 34 GHz and downlink.
 \end{itemize}
+Five antennas are mounted onboard Juno with different orientations, positions and capabilities: one HGA, one MGA, two LGAs and one TLGA.
 
-In order to calibrate the dispersive noise contribution when receiving X-band and Ka-band signals simultaneously, Juno is equipped with a KaTS. This instrument is capable of receiving a Ka-band uplink unmodulated carrier from DSN and to generate a Ka-band downlink unmodulated carrier coherent with the uplink to maintain the phase stability from ground communication, on which the quality of the experiments depends\cite{juno_telecommunication}.
-
-Five antennas are mounted onboard Juno with different orientations, positions and capabilities: one HGA, one MGA, two LGAs and one TLGA. 
-
-In order to process different signals at different frequencies, Juno has two SDSTs, capable of performing different tasks. The prime unit provides X/X and X/Ka link, whereas the secondary unit only operates on the single X-band. Each SDST is composed of four different units: the DPM, the down converter, the power converter and the exciter unit. 
-The DPM is responsible for managing the data incoming from the downconverter, encoding them and providing X-band baseband telemetry. The downconverter module converts the incoming 7.15 GHz signal into an intermediate frequency at 4/3 F1, where F1, approximately 9.55 MHz, is the fundamental frequency from which up and downlink frequencies are derived. The power converter is responsible for supplying a steady voltage to all SDST modules and the exciter is responsible for taking as an input telemetry, DOR, ranging and for phase-modulating the downlink carrier \cite{juno_telecommunication}\cite{ka_uplink}. 
-
-The SDST is responsible for generating the X-band downlink carrier by coherently multiplying the frequency of the uplink carrier by a turn-around ratio of 880/749. All X-band signals are amplified by one of two 25 W TWTAs\cite{juno_telecommunication}.  
-
+% parlare dei sui transponder
 
 \subsection{HGA}
 \label{subsec:hga}
 
 % doppio scopo: comunicare e scienza. frequenze, dimensioni, come è fatta
 
-The HGA\cite{juno_telecommunication}\cite{telecommunication_antennas} is the principal means of communications with Earth throughout most of the cruise and science mission. It is mounted on the forward deck, aligned with the spin axis of the spacecraft, as shown in \autoref{fig:antennas_positioning}. Due to the significant distance between Juno and DSN antennas and the limited transmitter power, HGA gain maximization was a priority. Constrains on dish dimension and in the attitude control of the spin stabilized spacecraft were present: the Atlas V fairing limited the HGA dish diameter to 2.5 meters, then the presence of massive solar arrays prevented pointing the main beam to anything tighter than about $\pm$ 0.25°. The latter limitation would have led to an insufficient gain in the HGA, preventing closing the link with Earth. The most limiting factor in designing the HGA was the need of both transmitting and receiving on X-band and Ka-band without limiting  excessively the performance of any signal. Because of these requirements, a dual reflector Gregorian style optics was installed. The latter consists in a parabolic main reflector and an elliptical sub-reflector, making the whole system low mass and compact\cite{telecommunication_antennas}. The outer annular region is made so that the radiated field of the X-band is 180° out of phase with the inner region aperture field: the resulted beamwidth of the Ka-band is approximately the same as the X-band one. This modification created almost no performance degradation on X-band link. Based on frequency and operational mode, different polarizations are utilized: X-band uses RHCP for both uplink and downlink, while Ka-band uses RHCP for downlink and LHCP for uplink\cite{juno_telecommunication}. Required gain is about 44 dB for the X-band in both uplink and downlink and around 47 dB for the Ka-band. Beamwidth in all frequencies is $\pm$ 0.25°.
+The HGA is the principal means of communications with Earth throughout most of the cruise and science mission. It is mounted on the forward deck, aligned with the spin axis of the spacecraft, as shown in \autoref{fig:antennas_positioning}. Due to the significant distance between Juno and DSN antennas and the limited transmitter power, HGA gain maximization was a priority. Constrains on dish dimension and in the attitude control of the spin stabilized spacecraft were present: the Atlas V fairing limited the HGA dish diameter to 2.5 meters, then the presence of massive solar arrays prohibited the ability to point the main beam to anything tighter than about $\pm$ 0.25°. The latter limitation would have led to an insufficient gain in the HGA, preventing closing the link with Earth. The most limiting factor in designing the HGA was the need of both transmitting and receiving on X-band and Ka-band without limiting the performance of any signal. Because of these requirements, a dual reflector Gregorian style optics was installed. The latter consists in a parabolic main reflector and an elliptical sub-reflector, making the whole system low mass and compact. To obtain 
+ 
+\subsection{MGA}
+\label{subsec:mga}
 
-Other limiting factors were present in designing the HGA in the form of thermal and structural constraints: the stability in pointing at low temperatures is granted by a very stiff graphite composite. Moreover, the HGA's shielding from the high temperature oscillation (from -175°C to 135°C) and radiation dose experienced during both cruise and jovian phase, is accomplished using a thermal blanket made of a carbon loaded Germanium Kapton material\cite{telecommunication_antennas}\cite{germanio}. As a result, the performances were only affected by a loss of 0.25 dB at X-band and a 0.5 dB loss on the Ka-band. 
-
-\subsection{MGA \& LGAs}
-\label{subsec:mga e lga}
-
-One MGA and two LGAs are mounted onboard Juno. Their position can be seen in \autoref{fig:antennas_positioning}.
-
-The MGA is a conical horn style antenna and it is aligned with the +Z-axis as the HGA and it is used during cruise, safe mode and manuevers. It is capable of both LHCP and RHCP for redundancy and communicates with the DSN only in X-band, using the same frequencies of the HGA. This antenna provides at least 18.1 dBic while receiving and 18.8 dBic in transmitting, with a 3 dB beamwidth of $\pm$ 10.3° and $\pm$ 9.3° respectively. 
-
-The two identical and coupled LGAs are pointing in opposite directions, one mounted on the forward deck (FLGA) and the other on the aft deck (ALGA). LGAs have a choked horn design and transmit on the same X-band frequencies as the MGA and HGA. While delivering inferior performances regarding the minimum required boresight, at 8.7 dB in receiving and 7.7 dB in transmitting, they operate with a higher 3 dB beamwidth at around $\pm$ 40°\cite{juno_telecommunication}. 
-
-The LGAs are used mainly at a distance inferior to 0.5 AU from Earth and during manuevers, when orientation of the spacecraft does not allow HGA communications. During DSMs, the three antennas are used in sequence with the TLGA. This suit of antennas is also used during MWR science configuration.
+\subsection{LGA}
+\label{subsec:lga}
 
 \subsection{TLGA}
 \label{subsec:tlga}
 
-The TLGA is placed on the aft deck of Juno, aligned with solar wing $\#$1. This antenna works at the same X-band frequency of the other antennas but differs from them since it is a biconical horn design and it is able to produce a RHCP pattern symmetrical around Juno's spin axis: this characteristic is needed to ensure continuous coverage during all critical events, such as the DSMs, JOI, PRM and OTMs, when the attitude does not allow for direct Earth pointing. 
-This antenna transmits only in a carrier or subcarrier configuration, where no ranging nor telemetry signals are modulated onto the carrier. During ME manuevers Juno encodes MFSK tones by modulating a varying frequency subcarrier onto the carrier. Every subcarrier frequency is associated to a particular event or state of the spacecraft and allows a complete knowledge of Juno's health. The particular advantage of using a subcarrier is the capability of providing an additional channel of transmission: it allows different signals to be received together as one and then to be separated out by the receiver.
-
-
-A toroidal antenna pattern can be produced by a dipole, but this design limits heavily the maximum gain reachable to around 2.2 dB, insufficient to provide communications between Juno and Earth. Thus, a biconical antenna with corrugated horn has been developed, allowing for a compact and efficient design: this configuration allows to achieve values lower 20 dB in return losses over the entire used X-band\cite{telecommunication_antennas}. 
-The RHCP pattern is achieved through a four-layer meander-line polarizer, built to minimize RF losses. As the HGA described in \autoref{subsec:hga}, the TLGA is also covered in a Germanium Kapton blanket to minimize high energy electrons' flux. Gains required for the TLGA are of 5.5 dBic while receiving and 6.5 dBic while transmitting, with a beamwidth of $\pm$ 10° in both reception and transmission at $\pm$ 90° with respect to the boresight angle\cite{juno_telecommunication}. 
-
 \subsection{Ground stations}
-\label{subsec:gs}
 
-In order to retrieve data, Juno relies on the antennas of NASA's DSN, a system of three complexes spread around the globe, separated by approximately 120°: one is located in Goldstone, California; one in Madrid, Spain, and one in Canberra, Australia. This configuration allows for constant observation of spacecraft while Earth rotates\cite{juno_telecommunication}. Each site is fitted with one 70-meter diameter antenna and a set of 34-m diameter antennas. 
-
-All antennas are capable of receiving and transmitting in X-band, however only the smaller ones are also capable of receiving in Ka-band. DSS-25 antenna in Goldstone is the sole capable of Ka-band uplink: all Juno's closest approach periods to Jupiter are planned such that this particular antenna is in sight.
-
-Since the troposphere introduces delays in the Doppler signal path, in order to retrieve a more accurate reading during gravity science, DSS-25 is equipped with a AWVR that measures the wet component of the troposphere ad various frequencies, including 31.4 GHz, where Ka-band signal are performed. The wet component delays are statistically combined with data considering effects from surface meteorology to have a full evaluation of the delays in the Doppler signals\cite{calibration_performance}. 
-
-In \autoref{fig:dsn_hga} it is possible to observe a simplified scheme of Juno's communication architecture.
-\cfig{dsn_hga}{0.75}{Ground Station and Juno communication scheme}
 
