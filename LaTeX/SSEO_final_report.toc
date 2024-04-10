@@ -35,8 +35,8 @@
 \contentsline {section}{Bibliography}{18}{table.caption.25}%
 \contentsline {chapter}{Homework 3}{19}{chapter*.26}%
 \contentsline {section}{Notation}{19}{section*.27}%
-\contentsline {section}{\numberline {3.1}TMTC architecture}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.1}TMTC system architecture}{20}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Rationale of TMTC system}{20}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Reverse sizing of TMTC system}{20}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}HGA links sizing}{20}{subsection.3.3.1}%
-\contentsline {section}{Bibliography}{21}{table.caption.28}%
+\contentsline {section}{Bibliography}{22}{table.caption.29}%
