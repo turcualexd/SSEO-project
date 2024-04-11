@@ -19,28 +19,6 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
-    \entry{2006_overview}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=6b4abdd86ffba2654cb9815f5e0be02a}{%
-           family={Grammier},
-           familyi={G\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{fullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{bibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/missions/juno}}
-      \field{title}{Overview of the Juno Mission to Jupiter}
-      \field{year}{2006}
-    \endentry
     \entry{juno_telecommunication}{article}{}
       \name{author}{1}{}{%
         {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
@@ -58,8 +36,8 @@
       \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -83,8 +61,8 @@
       \strng{authornamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authorfullhash}{4b8377b53a140de219b564cf137de15e}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -108,8 +86,8 @@
       \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
       \field{extraname}{3}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -147,6 +125,38 @@
       \field{howpublished}{Paper}
       \field{title}{Calibration and Performance of Juno Radio Science Data}
       \field{year}{2020}
+    \endentry
+    \entry{communication_support}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4b8377b53a140de219b564cf137de15e}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Dustin\bibnamedelima Buccino},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{fullhash}{4b8377b53a140de219b564cf137de15e}
+      \strng{bibnamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authorbibnamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authornamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authorfullhash}{4b8377b53a140de219b564cf137de15e}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Detecting Juno’s "Heartbeat": Communications Support during Critical Events of the Juno Mission}
+      \field{year}{2020}
+    \endentry
+    \entry{dsn_sito}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://science.nasa.gov/learn/basics-of-space-flight/chapter18-3/}}
+      \field{title}{Deep Space Network}
     \endentry
   \enddatalist
 \endrefsection
