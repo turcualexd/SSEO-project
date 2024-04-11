@@ -1,12 +1,10 @@
 \section{TMTC system architecture}
 \label{sec:TMTC_architecture}
 
-\rfig{antennas_positioning}{0.55}{Location of telecommunication antennas}
+\rfig{antennas_positioning}{0.5}{Location of telecommunication antennas}
 
-% cosa fa il systema di tmtc, a che banda opera. quante antenne ha.
-% perchè serve una doppia banda per comunicare ( X + Ka )
-
-The Juno TMTC subsystem purpose is to communicate data about the status of the spacecraft, download scientific data and to receive commands to and from the DSN antennas. Both the uplink and downlink are performed in X-band frequency: 7.15 GHz the downlink and 8.40 GHz the uplink. One of the main goals of the mission is to study Jupiter's gravity field: this is accomplished by exploiting the difference in doppler effect of the telecommunication from the model and the real jovian gravity field. Due to the harsh environment that Juno faces and the need to measure precisely the residual frequency, transmission on both X-band Ka-band during gravity science is needed. The Ka-band has an advantage on the X-band since the noise due to interplanetary plasma is inversely proportional to the wavelength, higher on the Ka-band, making the measurements more accurate. 
+The Juno TMTC subsystem purpose is to communicate data about the status of the spacecraft, download scientific data and to receive commands to and from the DSN antennas. Both the uplink and downlink are performed in X-band frequency: 7.15 GHz the downlink and 8.40 GHz the uplink. The selection of this band was imposed by pre-existing DSN facilities. It allows to transmit relatively large datarates over wide distances with low atmospheric attenuation.
+One of the main goals of the mission is to study Jupiter's gravity field: this is accomplished by exploiting the difference in doppler effect of the telecommunication from the model and the real jovian gravity field. Due to the harsh environment that Juno faces and the need to measure precisely the residual frequency, transmission on both X-band and Ka-band during gravity science is needed. The Ka-band has an advantage on the X-band since the noise due to interplanetary plasma is inversely proportional to the wavelength, higher on the Ka-band, making the measurements more accurate. 
 For this reason, the HGA can operate in 3 different modes: 
 
 \begin{itemize}
@@ -24,6 +22,8 @@ The DPM is responsible for managing the data incoming from the downconverter, en
 
 The SDST is responsible for generating the X-band downlink carrier by coherently multiplying the frequency of the uplink carrier by a turn-around ratio of 880/749. All X-band signals are amplified by one of two 25 W TWTAs\cite{juno_telecommunication}.  
 
+Before the transmission of the signal actuated by the antennas, the data is manipulated with modulation and encoding techniques. The chosen modulation is BPSK which ensure a good use of spectrum and relatively low BER. Moreover, it was flight-proven and requires less complex on-board architecture.
+Encoding is performed in two ways depending on the type of the transmission: the Reed-Solomon algorithm allowed lower BER to be reached, while Turbocode 1/6 was used for larger for larger datarates of transmission. 
 
 \subsection{HGA}
 \label{subsec:hga}
