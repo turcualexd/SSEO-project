@@ -1126,13 +1126,13 @@ INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpbne.tfm
+INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT .\Images\dsn_hga.jpg
 INPUT Images\dsn_hga.jpg
 INPUT .\Images\dsn_hga.jpg
 INPUT .\Images\dsn_hga.jpg
 INPUT .\Images\dsn_hga.jpg
 INPUT .\Images\dsn_hga.jpg
-INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT .\Sections\02_phases.tex
 INPUT .\Sections\02_phases.tex
 INPUT .\Sections\02_phases.tex
@@ -1152,6 +1152,7 @@ INPUT Sections\03_sizing.tex
 INPUT .\Sections\03_sizing.tex
 INPUT .\Sections\03_sizing.tex
 INPUT Sections\03_sizing.tex
+INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmn7t.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmn7t.tfm
@@ -1213,7 +1214,6 @@ INPUT Images\ebn0.pdf
 INPUT .\Images\ebn0.pdf
 INPUT .\Images\ebn0.pdf
 INPUT .\Images\ebn0.pdf
-INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpbne.tfm
