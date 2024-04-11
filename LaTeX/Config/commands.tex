@@ -29,6 +29,24 @@
 \end{wrapfigure}
 }
 
+% Two figures side by side
+\newcommand{\twofig}[5]{
+\begin{figure}[H]
+	\begin{minipage}{0.48\linewidth}
+		\centering
+		\includegraphics[width=#5\linewidth]{Images/#1}
+		\caption{#2}
+		\label{fig:#1}
+	\end{minipage}\hfill
+	\begin{minipage}{0.48\linewidth}
+		\centering
+		\includegraphics[width=#5\linewidth]{Images/#3}
+		\caption{#4}
+		\label{fig:#3}
+	\end{minipage}
+\end{figure}
+}
+
 % Create new chapter (with sub-bibliography)
 \newcommand{\newchapter}[1]{
 \setcounter{chapter}{#1}
@@ -69,3 +87,20 @@
 \newcommand{\mail}[1]{
 	\href{mailto:#1@mail.polimi.it}{#1@mail.polimi.it}
 }
+
+% Custom font size
+\newlength{\mylength}
+\makeatletter
+\newcommand{\cfs}[1]{%
+  \normalsize
+  \@defaultunits\mylength=#1pt\relax\@nnil
+  \edef\@tempa{{\strip@pt\mylength}}%
+  \ifx\protect\@typeset@protect
+     \edef\@currsize{\noexpand\mycfs\@tempa}% store calculated size
+  \fi
+  \mylength=1.2\mylength
+  \edef\@tempa{\@tempa{\strip@pt\mylength}}%
+  \expandafter\fontsize\@tempa
+  \selectfont
+}
+\makeatother

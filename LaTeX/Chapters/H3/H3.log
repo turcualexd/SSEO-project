@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  11 APR 2024 00:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  12 APR 2024 00:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -977,7 +977,9 @@ Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 Package biblatex Info: Redefining '\supercite' on input line 35.
 \ltmcbox=\box111
-) (../../Config//commands.tex))
+) (../../Config//commands.tex
+\mylength=\skip89
+))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1105,7 +1107,7 @@ Package biblatex Info: ... file 'H3.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config//Poli_logo.pdf, id=47, 527.9725pt x 415.5525pt>
+<../../Config//Poli_logo.pdf, id=43, 527.9725pt x 415.5525pt>
 File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config//Poli_logo.pdf>
 Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
@@ -1140,7 +1142,7 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
  (Body.tex (Sections/00_notation.tex) [1] (Sections/01_architecture.tex
-<Images/antennas_positioning.jpg, id=80, 513.117pt x 325.215pt>
+<Images/antennas_positioning.jpg, id=75, 513.117pt x 325.215pt>
 File: Images/antennas_positioning.jpg Graphic file (type jpg)
 <use Images/antennas_positioning.jpg>
 Package pdftex.def Info: Images/antennas_positioning.jpg  used on input line 4.
@@ -1154,18 +1156,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.34 
       [1 <./Images/antennas_positioning.jpg>]
-<Images/dsn_hga.jpg, id=108, 581.17125pt x 310.15875pt>
+<Images/dsn_hga.jpg, id=103, 581.17125pt x 310.15875pt>
 File: Images/dsn_hga.jpg Graphic file (type jpg)
 <use Images/dsn_hga.jpg>
 Package pdftex.def Info: Images/dsn_hga.jpg  used on input line 68.
 (pdftex.def)             Requested size: 384.11221pt x 204.9941pt.
- [2]) (Sections/02_rationale.tex
-<Images/phases_antenna.pdf, id=116, 489.32813pt x 263.48438pt>
+ [2]) (Sections/02_phases.tex
+<Images/phases_antenna.pdf, id=113, 489.32813pt x 263.48438pt>
 File: Images/phases_antenna.pdf Graphic file (type pdf)
 <use Images/phases_antenna.pdf>
-Package pdftex.def Info: Images/phases_antenna.pdf  used on input line 8.
+Package pdftex.def Info: Images/phases_antenna.pdf  used on input line 9.
 (pdftex.def)             Requested size: 512.14963pt x 275.77823pt.
-) (Sections/03_sizing.tex [3 <./Images/dsn_hga.jpg> <./Images/phases_antenna.pdf>] [4])) [5]
+) (Sections/03_sizing.tex [3 <./Images/dsn_hga.jpg> <./Images/phases_antenna.pdf>]
+<Images/datarate.pdf, id=153, 256.96pt x 192.72pt>
+File: Images/datarate.pdf Graphic file (type pdf)
+<use Images/datarate.pdf>
+Package pdftex.def Info: Images/datarate.pdf  used on input line 112.
+(pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
+<Images/ebn0.pdf, id=154, 256.96pt x 192.72pt>
+File: Images/ebn0.pdf Graphic file (type pdf)
+<use Images/ebn0.pdf>
+Package pdftex.def Info: Images/ebn0.pdf  used on input line 112.
+(pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
+ [4])) [5 <./Images/datarate.pdf> <./Images/ebn0.pdf
+
+pdfTeX warning: pdflatex (file ./Images/ebn0.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Miktex\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1173,23 +1189,23 @@ File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 Package biblatex Info: Reference section=0 on input line 19.
  [6] (H3.aux)
 Package rerunfilecheck Info: File `H3.out' has not changed.
-(rerunfilecheck)             Checksum: 28933B0BE21D9E68D2828AB3AAEF5AB8;1363.
+(rerunfilecheck)             Checksum: 5658128E3302EE91CB52878A4BDB08E9;1198.
 Package logreq Info: Writing requests to 'H3.run.xml'.
 \openout1 = `H3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23878 strings out of 475385
- 403399 string characters out of 2793321
- 1196899 words of memory out of 3000000
- 44838 multiletter control sequences out of 15000+600000
- 594603 words of font info for 155 fonts, out of 8000000 for 9000
+ 23929 strings out of 475385
+ 404155 string characters out of 2793321
+ 1194266 words of memory out of 3000000
+ 44879 multiletter control sequences out of 15000+600000
+ 620130 words of font info for 184 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,15n,97p,2107b,1873s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H3.pdf (8 pages, 432172 bytes).
+ 84i,16n,97p,2107b,1873s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H3.pdf (8 pages, 471691 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
+ 236 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

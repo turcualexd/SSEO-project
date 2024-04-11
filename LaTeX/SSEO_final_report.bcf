@@ -2466,6 +2466,8 @@
     <bcf:citekey order="15" intorder="1">calibration_performance</bcf:citekey>
     <bcf:citekey order="16" intorder="1">juno_telecommunication</bcf:citekey>
     <bcf:citekey order="17" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">juno_telecommunication</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

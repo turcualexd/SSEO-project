@@ -1,6 +1,7 @@
-\section{Rationale of TMTC system}
-\label{sec:TMTC_rationale}
+\section{Phases breakdown}
+\label{sec:phases_breakdown}
 
+The satellite utilizes all the antennas throughout the different phases of the mission. During each one, the TMTC system must satisfy different linking requirements. The main phases are depicted in time in \autoref{fig:phases_antenna} and birefly discussed in \autoref{table:link_phases}. 
 % cosa usiamo, quando e dove (phases/modes) + data volume (space2ground e ground2space)
 % Justify: frequency selection, datarate, bandwidth, encoding e modulation
 % 
@@ -21,7 +22,7 @@
         \textbf{Cruise} & 100 / 7.8125 & 
         Ranging is on during the whole cruise. Since Juno has to point the Sun, HGA is not usable during fly-by so all the other antennas are sequentially employed (\autoref{fig:phases_antenna}). \\
         \hline
-        \textbf{Orbital Operations} & $18 \cdot 10^{4} $ / 7.8125 & 
+        \textbf{Orbital Operations} & $1.8 \cdot 10^{4} $ / 2000 & 
         This is the most demanding phase, it requires at least $18$ kbps in downlink through HGA. Also MGA and TLGA are used during OTMs, the latter only for tones (\autoref{fig:phases_antenna}). \\
         \hline
         \textbf{Critical Event Coverage} & - / - & No data during these phases, just tones through TLGA.\\
