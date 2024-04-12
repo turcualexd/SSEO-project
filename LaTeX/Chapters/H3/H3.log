@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  12 APR 2024 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  12 APR 2024 23:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1156,24 +1156,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.34 
       [1 <./Images/antennas_positioning.jpg>] [2]
-<Images/dsn_hga.jpg, id=111, 581.17125pt x 310.15875pt>
+<Images/dsn_hga.jpg, id=112, 581.17125pt x 310.15875pt>
 File: Images/dsn_hga.jpg Graphic file (type jpg)
 <use Images/dsn_hga.jpg>
 Package pdftex.def Info: Images/dsn_hga.jpg  used on input line 76.
 (pdftex.def)             Requested size: 384.11221pt x 204.9941pt.
 ) (Sections/02_phases.tex
-<Images/phases_antenna.pdf, id=114, 489.32813pt x 263.48438pt>
+<Images/phases_antenna.pdf, id=115, 489.32813pt x 263.48438pt>
 File: Images/phases_antenna.pdf Graphic file (type pdf)
 <use Images/phases_antenna.pdf>
 Package pdftex.def Info: Images/phases_antenna.pdf  used on input line 9.
 (pdftex.def)             Requested size: 512.14963pt x 275.77823pt.
  [3 <./Images/dsn_hga.jpg>]) (Sections/03_sizing.tex [4 <./Images/phases_antenna.pdf>]
-<Images/datarate.pdf, id=167, 256.96pt x 192.72pt>
+<Images/datarate.pdf, id=172, 256.96pt x 192.72pt>
 File: Images/datarate.pdf Graphic file (type pdf)
 <use Images/datarate.pdf>
 Package pdftex.def Info: Images/datarate.pdf  used on input line 112.
 (pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
-<Images/ebn0.pdf, id=168, 256.96pt x 192.72pt>
+<Images/ebn0.pdf, id=173, 256.96pt x 192.72pt>
 File: Images/ebn0.pdf Graphic file (type pdf)
 <use Images/ebn0.pdf>
 Package pdftex.def Info: Images/ebn0.pdf  used on input line 112.
@@ -1197,15 +1197,15 @@ Package logreq Info: Writing requests to 'H3.run.xml'.
 Here is how much of TeX's memory you used:
  23937 strings out of 475385
  404481 string characters out of 2793321
- 1196384 words of memory out of 3000000
+ 1197384 words of memory out of 3000000
  44885 multiletter control sequences out of 15000+600000
  620130 words of font info for 184 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,97p,2107b,1873s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H3.pdf (8 pages, 479004 bytes).
+Output written on H3.pdf (8 pages, 480664 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
+ 247 PDF objects out of 1000 (max. 8388607)
  35 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,10 +20,10 @@ Five antennas are mounted onboard Juno with different orientations, positions an
 In order to process different signals at different frequencies, Juno has two SDSTs, capable of performing different tasks. The prime unit provides X/X and X/Ka link, whereas the secondary unit only operates on the single X-band. Each SDST is composed of four different units: the DPM, the down converter, the power converter and the exciter unit. 
 The DPM is responsible for managing the data incoming from the downconverter, encoding them and providing X-band baseband telemetry. The downconverter module converts the incoming 7.15 GHz signal into an intermediate frequency at 4/3 F1, where F1, approximately 9.55 MHz, is the fundamental frequency from which up and downlink frequencies are derived. The power converter is responsible for supplying a steady voltage to all SDST modules and the exciter is responsible for taking as an input telemetry, DOR, ranging and for phase-modulating the downlink carrier \cite{juno_telecommunication}\cite{ka_uplink}. 
 
-The SDST is responsible for generating the X-band downlink carrier by coherently multiplying the frequency of the uplink carrier by a turn-around ratio of 880/749. All X-band signals are amplified by one of two 25 W TWTAs\cite{juno_telecommunication}.  
+The SDST is responsible for generating the X-band downlink carrier by coherently multiplying the frequency of the uplink carrier by a turn-around ratio of 880/749. All X-band signals are amplified by one of two-redundant 25 W TWTAs\cite{juno_telecommunication}. This kind of technology was imposed by the high power demand for the link on this frequency. For the Ka-band transmission, SSPA was preferred due to less required power for transmission and weight saving.
 
 Before the transmission of the signal actuated by the antennas, the data is manipulated with modulation and encoding techniques. The chosen modulation is BPSK which ensure a good use of spectrum and relatively low BER. Moreover, it was flight-proven and requires less complex on-board architecture.
-Encoding is performed in two ways depending on the type of the transmission: the Reed-Solomon algorithm allowed lower BER to be reached, while Turbocode 1/6 was used for larger for larger datarates of transmission. 
+Encoding is performed in two ways depending on the type of the transmission: the Reed-Solomon algorithm allowed lower BER to be reached, while Turbocode 1/6 was used for larger datarates of transmission. 
 
 \subsection{HGA}
 \label{subsec:hga}
@@ -37,7 +37,7 @@ Other limiting factors were present in designing the HGA in the form of thermal 
 \subsection{MGA \& LGAs}
 \label{subsec:mga e lga}
 
-One MGA and two LGAs are mounted onboard Juno. Their position can be seen in \autoref{fig:antennas_positioning}.
+One MGA and two LGAs are mounted onboard Juno. Their position can be seen in \autoref{fig:antennas_positioning}. Both antennas comes as legacy from previous missions. LGAs were previously used on the Mars Reconnaissance Orbiter and part of a familiy of antennas used for deep space missions. Instead, MGA was used in Mars Exploration Rover cruise stage \cite{telecommunication_antennas}.
 
 The MGA is a conical horn style antenna and it is aligned with the +Z-axis as the HGA and it is used during cruise, safe mode and manuevers. It is capable of both LHCP and RHCP for redundancy and communicates with the DSN only in X-band, using the same frequencies of the HGA. This antenna provides at least 18.1 dBic while receiving and 18.8 dBic in transmitting, with a 3 dB beamwidth of $\pm$ 10.3° and $\pm$ 9.3° respectively. 
 
@@ -52,7 +52,7 @@ The TLGA is placed on the aft deck of Juno, aligned with solar wing $\#$1. This 
 This antenna transmits only in a carrier or subcarrier configuration, where no ranging nor telemetry signals are modulated onto the carrier. During ME manuevers Juno encodes MFSK tones by modulating a varying frequency subcarrier onto the carrier. Every subcarrier frequency is associated to a particular event or state of the spacecraft and allows a complete knowledge of Juno's health. The particular advantage of using a subcarrier is the capability of providing an additional channel of transmission: it allows different signals to be received together as one and then to be separated out by the receiver.
 
 
-A toroidal antenna pattern can be produced by a dipole, but this design limits heavily the maximum gain reachable to around 2.2 dB, insufficient to provide communications between Juno and Earth. Thus, a biconical antenna with corrugated horn has been developed, allowing for a compact and efficient design: this configuration allows to achieve values lower 20 dB in return losses over the entire used X-band\cite{telecommunication_antennas}. 
+A toroidal antenna pattern can be produced by a dipole, but this design limits heavily the maximum gain reachable to around 2.2 dB, insufficient to provide communications between Juno and Earth. Thus, a biconical parabolic-shaped antenna with corrugated horn has been developed, allowing for a compact and efficient design: this configuration allows to achieve values lower 20 dB in return losses over the entire used X-band\cite{telecommunication_antennas}. 
 The RHCP pattern is achieved through a four-layer meander-line polarizer, built to minimize RF losses. As the HGA described in \autoref{subsec:hga}, the TLGA is also covered in a Germanium Kapton blanket to minimize high energy electrons' flux. Gains required for the TLGA are of 5.5 dBic while receiving and 6.5 dBic while transmitting, with a beamwidth of $\pm$ 10° in both reception and transmission at $\pm$ 90° with respect to the boresight angle\cite{juno_telecommunication}. 
 
 \subsection{Ground stations}

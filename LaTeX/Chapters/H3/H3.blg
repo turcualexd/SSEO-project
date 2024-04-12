@@ -1,17 +1,17 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'H3.blg'
-[97] biber-MSWIN64:340> INFO - === 
-[133] Biber.pm:418> INFO - Reading 'H3.bcf'
-[231] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
-[231] Biber.pm:978> INFO - Found 7 citekeys in bib section 1
-[231] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
-[249] Biber.pm:4401> INFO - Processing section 1
-[260] Biber.pm:4592> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
-[315] bibtex.pm:1713> INFO - LaTeX decoding ...
-[354] bibtex.pm:1518> INFO - Found BibTeX data source '../../bibliography.bib'
-[408] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[408] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[408] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[408] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
-[412] bbl.pm:654> INFO - Writing 'H3.bbl' with encoding 'UTF-8'
-[414] bbl.pm:757> INFO - Output to H3.bbl
+[254] biber-MSWIN64:340> INFO - === 
+[359] Biber.pm:418> INFO - Reading 'H3.bcf'
+[455] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[455] Biber.pm:978> INFO - Found 7 citekeys in bib section 1
+[455] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[474] Biber.pm:4401> INFO - Processing section 1
+[507] Biber.pm:4592> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
+[565] bibtex.pm:1713> INFO - LaTeX decoding ...
+[607] bibtex.pm:1518> INFO - Found BibTeX data source '../../bibliography.bib'
+[707] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[707] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[707] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[707] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[712] bbl.pm:654> INFO - Writing 'H3.bbl' with encoding 'UTF-8'
+[714] bbl.pm:757> INFO - Output to H3.bbl
