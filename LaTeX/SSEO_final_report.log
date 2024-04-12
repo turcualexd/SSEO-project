@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  11 APR 2024 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  13 APR 2024 00:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -978,7 +978,9 @@ Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 Package biblatex Info: Redefining '\supercite' on input line 35.
 \ltmcbox=\box111
-) (Config//commands.tex))
+) (Config//commands.tex
+\mylength=\skip89
+))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1242,40 +1244,54 @@ Package biblatex Info: Setting label 'refsection:3' on input line 3.
 File: Chapters/H3//Images/antennas_positioning.jpg Graphic file (type jpg)
 <use Chapters/H3//Images/antennas_positioning.jpg>
 Package pdftex.def Info: Chapters/H3//Images/antennas_positioning.jpg  used on input line 4.
-(pdftex.def)             Requested size: 281.68385pt x 178.53632pt.
- [20 <./Chapters/H3//Images/antennas_positioning.jpg>]
-<Chapters/H3//Images/dsn_hga.jpg, id=1051, 581.17125pt x 310.15875pt>
+(pdftex.def)             Requested size: 256.07481pt x 162.30438pt.
+ [20 <./Chapters/H3//Images/antennas_positioning.jpg>] [21]
+<Chapters/H3//Images/dsn_hga.jpg, id=1060, 581.17125pt x 310.15875pt>
 File: Chapters/H3//Images/dsn_hga.jpg Graphic file (type jpg)
 <use Chapters/H3//Images/dsn_hga.jpg>
-Package pdftex.def Info: Chapters/H3//Images/dsn_hga.jpg  used on input line 68.
+Package pdftex.def Info: Chapters/H3//Images/dsn_hga.jpg  used on input line 76.
 (pdftex.def)             Requested size: 384.11221pt x 204.9941pt.
- [21]) (Chapters/H3//Sections/02_rationale.tex
-<Chapters/H3//Images/phases_antenna.pdf, id=1059, 489.32813pt x 263.48438pt>
+) (Chapters/H3//Sections/02_phases.tex
+<Chapters/H3//Images/phases_antenna.pdf, id=1063, 489.32813pt x 263.48438pt>
 File: Chapters/H3//Images/phases_antenna.pdf Graphic file (type pdf)
 <use Chapters/H3//Images/phases_antenna.pdf>
-Package pdftex.def Info: Chapters/H3//Images/phases_antenna.pdf  used on input line 8.
+Package pdftex.def Info: Chapters/H3//Images/phases_antenna.pdf  used on input line 9.
 (pdftex.def)             Requested size: 512.14963pt x 275.77823pt.
-) (Chapters/H3//Sections/03_sizing.tex [22 <./Chapters/H3//Images/dsn_hga.jpg> <./Chapters/H3//Images/phases_antenna.pdf>] [23])) [24]
+ [22 <./Chapters/H3//Images/dsn_hga.jpg>]) (Chapters/H3//Sections/03_sizing.tex [23 <./Chapters/H3//Images/phases_antenna.pdf>]
+<Chapters/H3//Images/datarate.pdf, id=1123, 256.96pt x 192.72pt>
+File: Chapters/H3//Images/datarate.pdf Graphic file (type pdf)
+<use Chapters/H3//Images/datarate.pdf>
+Package pdftex.def Info: Chapters/H3//Images/datarate.pdf  used on input line 118.
+(pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
+<Chapters/H3//Images/ebn0.pdf, id=1124, 256.96pt x 192.72pt>
+File: Chapters/H3//Images/ebn0.pdf Graphic file (type pdf)
+<use Chapters/H3//Images/ebn0.pdf>
+Package pdftex.def Info: Chapters/H3//Images/ebn0.pdf  used on input line 118.
+(pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
+)) [24 <./Chapters/H3//Images/datarate.pdf> <./Chapters/H3//Images/ebn0.pdf
+
+pdfTeX warning: pdflatex (file ./Chapters/H3//Images/ebn0.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 Package biblatex Info: Reference section=0 on input line 3.
 ) [25] (SSEO_final_report.aux)
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: D6F95CB58127A1B331784E4CC16D380C;7101.
+(rerunfilecheck)             Checksum: CE4A166CB022D69116D69A5E369C2F80;7056.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24582 strings out of 475385
- 423003 string characters out of 2793321
- 1218390 words of memory out of 3000000
- 45315 multiletter control sequences out of 15000+600000
- 625818 words of font info for 221 fonts, out of 8000000 for 9000
+ 24649 strings out of 475385
+ 424407 string characters out of 2793321
+ 1218928 words of memory out of 3000000
+ 45367 multiletter control sequences out of 15000+600000
+ 657350 words of font info for 253 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,98p,2129b,1875s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (27 pages, 2388490 bytes).
+{C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on SSEO_final_report.pdf (27 pages, 2437379 bytes).
 PDF statistics:
- 1206 PDF objects out of 1440 (max. 8388607)
- 174 named destinations out of 1000 (max. 500000)
- 423 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1235 PDF objects out of 1440 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 

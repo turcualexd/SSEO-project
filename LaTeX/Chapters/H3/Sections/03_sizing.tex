@@ -18,7 +18,7 @@ $L_{tot}$ considers the following losses:
 \end{equation}
 
 For each communication link, different minimum required ratios are defined. In particular, $\dfrac{E_b}{N_0}$ must also satisfy the Shannon theorem by ensuring a value higher than $-1.59$ dB. 
-The HGA as described in (sec) is used for the downlink of telemetry and scientific data during the science orbits around Jupiter. It has been sized in the following scenario: 
+The HGA as described in (\autoref{subsec:hga}) is used for the downlink of telemetry and scientific data during the science orbits around Jupiter. It has been sized in the following scenario: 
 \begin{itemize}
     \item the maximum distance from Earth $r_{JE} = 6.5$ AU;
     \item the minimum datarate $R = 18$ kbps has to be ensured regarding the distance.
@@ -107,6 +107,13 @@ From the literature, some other parameters were recovered and reported in \autor
     \caption{Results for HGA}
     \label{table:results_HGA}
 \end{minipage}
+
+\vspace{2mm}
+\small
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\linewidth}{lX}
+    $\,^{I}$ & This value was assumed by the polar diagram of the HGA at Ka-band \cite{juno_telecommunication}.
+\end{tabularx}
 
 \twofig{datarate}{Datarate as function of distance by fixing $E_b/N_0$ = -0.1 dB}      
 {ebn0}{Energy per bit to noise ratio as function of distance by fixing $R$ = 18 kbps}{0.9}

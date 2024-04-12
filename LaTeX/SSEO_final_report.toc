@@ -40,6 +40,6 @@
 \contentsline {subsection}{\numberline {3.1.2}MGA \& LGAs}{21}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}TLGA}{21}{subsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.1.4}Ground stations}{21}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Rationale of TMTC system}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Phases breakdown}{22}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Reverse sizing of the HGA antenna}{23}{section.3.3}%
-\contentsline {section}{Bibliography}{25}{table.caption.33}%
+\contentsline {section}{Bibliography}{25}{figure.caption.34}%

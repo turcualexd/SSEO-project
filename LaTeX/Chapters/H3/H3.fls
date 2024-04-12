@@ -1204,6 +1204,7 @@ INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpbn8t.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpbn8t.tfm
+INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT .\Images\datarate.pdf
 INPUT Images\datarate.pdf
 INPUT .\Images\datarate.pdf
@@ -1229,6 +1230,9 @@ INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpbn7t.vf
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpbne.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpbn8r.tfm
+INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpmn8t.vf
+INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmn8r.tfm
+INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmit8t.tfm
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmit7c.tfm
 INPUT C:\Miktex\tex\latex\kpfonts\t1jkptt.fd

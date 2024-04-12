@@ -741,7 +741,7 @@
         {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
            family={al},
            familyi={a\bibinitperiod},
-           given={Anthony\bibnamedelimb P\bibnamedelima Mittskus},
+           given={Anthony\bibnamedelimb P.\bibnamedelimi Mittskus},
            giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
            prefix={et},
            prefixi={e\bibinitperiod}}}%
@@ -791,7 +791,7 @@
         {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
            family={al},
            familyi={a\bibinitperiod},
-           given={Anthony\bibnamedelimb P\bibnamedelima Mittskus},
+           given={Anthony\bibnamedelimb P.\bibnamedelimi Mittskus},
            giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
            prefix={et},
            prefixi={e\bibinitperiod}}}%
@@ -842,6 +842,38 @@
       \field{howpublished}{Paper}
       \field{title}{Calibration and Performance of Juno Radio Science Data}
       \field{year}{2020}
+    \endentry
+    \entry{communication_support}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4b8377b53a140de219b564cf137de15e}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Dustin\bibnamedelima Buccino},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{fullhash}{4b8377b53a140de219b564cf137de15e}
+      \strng{bibnamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authorbibnamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authornamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authorfullhash}{4b8377b53a140de219b564cf137de15e}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Detecting Juno’s "Heartbeat": Communications Support during Critical Events of the Juno Mission}
+      \field{year}{2020}
+    \endentry
+    \entry{dsn_sito}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://science.nasa.gov/learn/basics-of-space-flight/chapter18-3/}}
+      \field{title}{Deep Space Network}
     \endentry
   \enddatalist
 \endrefsection
