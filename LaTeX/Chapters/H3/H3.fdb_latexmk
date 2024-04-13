@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H3"] 1712960823 "H3.bcf" "H3.bbl" "H3" 1712961857 0
+["biber H3"] 1713013071 "H3.bcf" "H3.bbl" "H3" 1713015373 0
   "../../bibliography.bib" 1712874556 11029 14272441f51e76356419350617ff92dd ""
-  "H3.bcf" 1712961856 108508 af6160922d80090e9bf3ed4bc7ef9e89 "pdflatex"
+  "H3.bcf" 1713015373 108573 934c3d3a97610bcdf9c18845049c64cd "pdflatex"
   (generated)
   "H3.bbl"
   "H3.blg"
   (rewritten before read)
-["pdflatex"] 1712961854 "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H3/H3.tex" "H3.pdf" "H3" 1712961857 0
+["pdflatex"] 1713015370 "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H3/H3.tex" "H3.pdf" "H3" 1713015373 0
   "../../Config//Poli_logo.pdf" 1712563480 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config//commands.tex" 1712874122 2349 e9146ab24633c5ae6d1695536e8074ad ""
   "../../Config//formats.tex" 1712563480 1818 04a9bcdee2dae368f8a5b3a24938da5e ""
@@ -180,21 +180,22 @@
   "C:/Miktex/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1711643108 97205 3fb51b557d06aae17c4f86c5a0b69e11 ""
   "C:/Users/danie/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1671211142 10771596 76531b1fe281d06023726f73b68370e1 ""
-  "H3.aux" 1712961856 7455 152d56fa29017f8deb393de6439dcf89 "pdflatex"
-  "H3.bbl" 1712960825 6807 0d4dfa9d5530744a484c968fda318ae3 "biber H3"
-  "H3.out" 1712961856 1198 5658128e3302ee91cb52878a4bdb08e9 "pdflatex"
-  "H3.run.xml" 1712961856 2299 ca9eb91dcb9d7c85ff5931f342d9e347 "pdflatex"
+  "H3.aux" 1713015373 7713 153b7324e02c591e7154d62c4ac3b1a7 "pdflatex"
+  "H3.bbl" 1713013074 6807 2afd2af7c94b3b0b46a426f08be279ca "biber H3"
+  "H3.out" 1713015373 1155 619260d23b07ba7571d7ba93dfc9a55d "pdflatex"
+  "H3.run.xml" 1713015373 2299 ca9eb91dcb9d7c85ff5931f342d9e347 "pdflatex"
   "H3.tex" 1712874364 309 3db3ef8654341b1c44e26de83b67d5fb ""
-  "H3.toc" 1712961856 729 b8b5437ccd51c6994d93f21b15873464 "pdflatex"
+  "H3.toc" 1713015373 721 43fabb157204f8a9ccdc1479d964c86c "pdflatex"
+  "Images/DSNantenna.png" 1713013007 162115 ea4225f664eaedc282c4680ac43c353a ""
   "Images/antennas_positioning.jpg" 1712778050 112885 a22faf2bb42b828d8fbe6610a9b51093 ""
   "Images/datarate.pdf" 1712874122 19985 15bec9222fee8d948afce70f82a55904 ""
   "Images/dsn_hga.jpg" 1712778050 73432 042280f06e5c8ca4049e72f731b19e6e ""
   "Images/ebn0.pdf" 1712874122 15290 727cd15ea5935f8eb955e0a8d46fb802 ""
   "Images/phases_antenna.pdf" 1712874122 79971 9549fa9710d90eae6920e2916ccb4a10 ""
-  "Sections/00_notation.tex" 1712959573 1846 91120e3067f102daca2eefff78884883 ""
-  "Sections/01_architecture.tex" 1712961853 14452 6a88775c2614842948f9f1dc39f81397 ""
-  "Sections/02_phases.tex" 1712960296 2054 717f958039f24a4b791f9b667f918867 ""
-  "Sections/03_sizing.tex" 1712960881 7058 5048485db238ac4a5b10aba6046fdafc ""
+  "Sections/00_notation.tex" 1713015370 3375 2b892b58f5c2e8cfc82c3a172f274f9b ""
+  "Sections/01_architecture.tex" 1713013440 14497 ac5d788d5e64a6bae923c055c130ac2a ""
+  "Sections/02_phases.tex" 1713013505 2059 9c303427a589434fa533762837c3a7c9 ""
+  "Sections/03_sizing.tex" 1713014801 7046 6beacf98f25a75eb503787b6f33da608 ""
   "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H3/H3.tex" 1712874364 309 3db3ef8654341b1c44e26de83b67d5fb ""
   (generated)
   "H3.aux"

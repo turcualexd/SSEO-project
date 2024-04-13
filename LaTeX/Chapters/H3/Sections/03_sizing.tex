@@ -1,7 +1,7 @@
-\section{Reverse sizing of the HGA antenna}
+\section{Reverse sizing of the HGA}
 \label{sec:HGA_sizing}
 
-The reverse sizing of the HGA antenna is based on the link budget equation that represents a power balance between the transmitted signal and the receiver noise. The same equation can be applied on both uplink and downlink. It is valid for all the architectures, both that transmit data or tones
+The reverse sizing of the HGA is based on the link budget equation that represents a power balance between the transmitted signal and the receiver noise. The same equation can be applied on both uplink and downlink. It is valid for all the architectures, both that transmit data or tones
 
 \begin{equation}
     \dfrac{P_{rx}}{N_0} = \dfrac{P_{tx} G_{tx} G_{rx} L_{tot}}{k T_{eq}} > \left( \dfrac{P_{rx}}{N_0} \right)_{min}
@@ -14,7 +14,7 @@ For antennas that broadcast data, an additional equation is used to constrain th
 
 $L_{tot}$ considers the following losses:
 \begin{equation}
-    L_{tot} = L_{c} \cdot L_{s} \cdot L_{p,tx} \cdot L_{p,rx} \cdot L_{a} \cdot L_{c}
+    L_{tot} = L_{c} \cdot L_{s} \cdot L_{p,tx} \cdot L_{p,rx} \cdot L_{a} \cdot L_{cv}
 \end{equation}
 
 For each communication link, different minimum required ratios are defined. In particular, $\dfrac{E_b}{N_0}$ must also satisfy the Shannon theorem by ensuring a value higher than $-1.59$ dB. 
@@ -55,9 +55,9 @@ From the literature, some other parameters were recovered and reported in \autor
         \hline
         $\boldsymbol{L_{a}}$ \textbf{[dB]} &\multicolumn{2}{c|}{$-0.2$} & \multicolumn{2}{c|}{$-1.09$}\\
         \hline
-        $\boldsymbol{L_{c}}$ \textbf{[dB]} &\multicolumn{2}{c|}{$-0.25$} & \multicolumn{2}{c|}{$-0.5$}\\
+        $\boldsymbol{L_{cv}}$ \textbf{[dB]} &\multicolumn{2}{c|}{$-0.25$} & \multicolumn{2}{c|}{$-0.5$}\\
         \hline
-        $\boldsymbol{T_{sys}}$ \textbf{[K]} & $21$ & $401.25$ & $21$ & $770.63$ \\
+        $\boldsymbol{T_{eq}}$ \textbf{[K]} & $21$ & $401.25$ & $21$ & $770.63$ \\
         \hline
         $\boldsymbol{\left(\frac{P}{N_0}\right)_{min}}$ \textbf{[dB-Hz]} & $43.64$ & $49.13$ & $26.50$ & $42.57$ \\
         \hline
@@ -77,9 +77,9 @@ From the literature, some other parameters were recovered and reported in \autor
         \hline
         & \textbf{X-D/L} & \textbf{X-U/L} & \textbf{Ka-D/L}& \textbf{Ka-U/L} \\
         \hline
-        $\boldsymbol{G_{HGA}}$ \textbf{[dB]} & $44.25$ & $42.79$ & $56.50$ & $55.90$ \\
+        $\boldsymbol{G_{HGA}}$ \textbf{[dBi]} & $44.25$ & $42.79$ & $56.50$ & $55.90$ \\
         \hline
-        $\boldsymbol{G_g}$ \textbf{[dB]} & $66.93$ & $65.47$ & $79.17$ & $78.57$ \\
+        $\boldsymbol{G_g}$ \textbf{[dBi]} & $66.93$ & $65.47$ & $79.17$ & $78.57$ \\
         \hline
         $\boldsymbol{\theta_{bw,HGA}} \textbf{[deg]}$  & $0.932$ & $1.10$ &\multicolumn{2}{c|}{$0.438 \,^{I}$}\\
         \hline
@@ -91,7 +91,7 @@ From the literature, some other parameters were recovered and reported in \autor
         \hline
         $\boldsymbol{EIRP}$ \textbf{[dBm]} & $85.98$ & $138.02$ & $87.98$ & $151.12$ \\
         \hline
-        $\boldsymbol{N_{0}}$ \textbf{[dB/Hz]} & $-185.38$ & $-172.57$ & $-185.38$ & $-169.73$ \\
+        $\boldsymbol{N_{0}}$ \textbf{[dBm/Hz]} & $-185.38$ & $-172.57$ & $-185.38$ & $-169.73$ \\
         \hline
         $\boldsymbol{P_{rx}}$ \textbf{[dBm]} & $-138.83$ & $-109.46$ & $-140.90$ & $-101.36$ \\
         \hline

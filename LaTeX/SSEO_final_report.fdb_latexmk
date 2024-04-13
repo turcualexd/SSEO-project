@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber SSEO_final_report"] 1712960800 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1712960810 0
+["biber SSEO_final_report"] 1713014566 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1713014576 0
   "./bibliography.bib" 1712874556 11029 14272441f51e76356419350617ff92dd ""
-  "SSEO_final_report.bcf" 1712960810 114728 730fdd9a89f6942bc0ca2fdad1eb95bd "pdflatex"
+  "SSEO_final_report.bcf" 1713014575 114793 6d5c58cd2fec0404ed59fd4638d793a9 "pdflatex"
   (generated)
   "SSEO_final_report.bbl"
   "SSEO_final_report.blg"
   (rewritten before read)
-["pdflatex"] 1712960807 "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1712960810 0
+["pdflatex"] 1713014572 "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1713014576 0
   "Body.tex" 1712563479 46 791dedd267acb15bd9d5a65e07b91e5f ""
   "C:/Miktex/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc" 1674488844 2639 b7bbeb66c016cde6fdcad9263fe54a4a ""
@@ -202,15 +202,16 @@
   "Chapters/H2//Sections/02_prop_architecture.tex" 1712563480 7772 020c8119976ea229c61c563fbc9815a4 ""
   "Chapters/H2//Sections/03_reverse_prop.tex" 1712563480 10263 173a96c30dfbff987cd541acb9fbca22 ""
   "Chapters/H2/Body.tex" 1712563479 189 b2d8c6f56cddaea098a78575f1681bdb ""
+  "Chapters/H3//Images/DSNantenna.png" 1713013007 162115 ea4225f664eaedc282c4680ac43c353a ""
   "Chapters/H3//Images/antennas_positioning.jpg" 1712778050 112885 a22faf2bb42b828d8fbe6610a9b51093 ""
   "Chapters/H3//Images/datarate.pdf" 1712874122 19985 15bec9222fee8d948afce70f82a55904 ""
   "Chapters/H3//Images/dsn_hga.jpg" 1712778050 73432 042280f06e5c8ca4049e72f731b19e6e ""
   "Chapters/H3//Images/ebn0.pdf" 1712874122 15290 727cd15ea5935f8eb955e0a8d46fb802 ""
   "Chapters/H3//Images/phases_antenna.pdf" 1712874122 79971 9549fa9710d90eae6920e2916ccb4a10 ""
-  "Chapters/H3//Sections/00_notation.tex" 1712959573 1846 91120e3067f102daca2eefff78884883 ""
-  "Chapters/H3//Sections/01_architecture.tex" 1712960517 14452 431f57e69f5300d2f5882a916e99f555 ""
-  "Chapters/H3//Sections/02_phases.tex" 1712960296 2054 717f958039f24a4b791f9b667f918867 ""
-  "Chapters/H3//Sections/03_sizing.tex" 1712960795 7044 5046486988d6d828f80cedacb026c2a1 ""
+  "Chapters/H3//Sections/00_notation.tex" 1713014562 2409 770670c01b7879aa616600443e707bff ""
+  "Chapters/H3//Sections/01_architecture.tex" 1713013440 14497 ac5d788d5e64a6bae923c055c130ac2a ""
+  "Chapters/H3//Sections/02_phases.tex" 1713013505 2059 9c303427a589434fa533762837c3a7c9 ""
+  "Chapters/H3//Sections/03_sizing.tex" 1713013616 7044 96211c1542d4723c600642ae10a88e30 ""
   "Chapters/H3/Body.tex" 1712874122 175 1f27acce603e49c77c899adfcd69ebe0 ""
   "Config//Poli_logo.pdf" 1712563480 40200 4b51719258b4eb427d3de9091da52c22 ""
   "Config//commands.tex" 1712874122 2349 e9146ab24633c5ae6d1695536e8074ad ""
@@ -218,12 +219,12 @@
   "Config//packages.tex" 1712563480 592 176058019890565b7b52ef11cdf6328c ""
   "Config/input.tex" 1712563480 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "Config/title_page_chapter.tex" 1712563480 1237 37606b3b29c6c05108acd46da5d641db ""
-  "SSEO_final_report.aux" 1712960810 27048 77c812cbefd593ab85f251d683090e7d "pdflatex"
-  "SSEO_final_report.bbl" 1712960807 41634 4f44f52d9aa5bf2142b9e5975c8cceac "biber SSEO_final_report"
-  "SSEO_final_report.out" 1712960810 7056 ce4a166cb022d69116d69a5e369c2f80 "pdflatex"
-  "SSEO_final_report.run.xml" 1712960810 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
+  "SSEO_final_report.aux" 1713014575 27314 a456518c72a3cfd78d76017e0213b656 "pdflatex"
+  "SSEO_final_report.bbl" 1713014568 41634 7fc9a3fc65c4c827000450f2d722f409 "biber SSEO_final_report"
+  "SSEO_final_report.out" 1713014575 7013 523d76eb01b19e1734b3e61556d9cdb6 "pdflatex"
+  "SSEO_final_report.run.xml" 1713014575 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
   "SSEO_final_report.tex" 1712563480 302 b4660636688eb40853cc4b918fb5ca99 ""
-  "SSEO_final_report.toc" 1712960810 3599 e06c06d162b5f23ed15a9ce738cc73fa "pdflatex"
+  "SSEO_final_report.toc" 1713014575 3591 755013d42a4572219a2531f5c4375a23 "pdflatex"
   "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/SSEO_final_report.tex" 1712563480 302 b4660636688eb40853cc4b918fb5ca99 ""
   (generated)
   "SSEO_final_report.aux"
