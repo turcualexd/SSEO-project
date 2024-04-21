@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  21 APR 2024 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  21 APR 2024 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1102,7 +1102,7 @@ Package biblatex Info: ... file 'H4.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config//Poli_logo.pdf, id=30, 527.9725pt x 415.5525pt>
+<../../Config//Poli_logo.pdf, id=62, 527.9725pt x 415.5525pt>
 File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config//Poli_logo.pdf>
 Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
@@ -1140,12 +1140,20 @@ Package biblatex Info: Setting label 'refsection:1' on input line 19.
 
 LaTeX Warning: Missing reference on input line 17.
 
-) [1] (Sections/01_introduction.tex) (Sections/02_modes.tex) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex))
+) [1] (Sections/01_introduction.tex) (Sections/02_modes.tex
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 11.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
+)
+
+LaTeX Warning: Missing reference on input line 24.
+
+) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex))
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.19 \bodyandbib
-                 [1]
+                 [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1158,23 +1166,23 @@ See the caption package documentation for explanation.
 
 [2] (H4.aux)
 Package rerunfilecheck Info: File `H4.out' has not changed.
-(rerunfilecheck)             Checksum: 230E62F68106B3E601261E5DDDC925E4;974.
+(rerunfilecheck)             Checksum: 0AAEFAE3FFD64D4F3EAAB69EA3EB5160;2458.
 Package logreq Info: Writing requests to 'H4.run.xml'.
 \openout1 = `H4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23860 strings out of 476361
- 413215 string characters out of 5788046
- 1857993 words of memory out of 5000000
- 43896 multiletter control sequences out of 15000+600000
- 603100 words of font info for 120 fonts, out of 8000000 for 9000
+ 23934 strings out of 476361
+ 414365 string characters out of 5788046
+ 1863993 words of memory out of 5000000
+ 43954 multiletter control sequences out of 15000+600000
+ 609778 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,14n,98p,1514b,1857s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H4.pdf (4 pages, 93642 bytes).
+ 87i,14n,98p,1514b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H4.pdf (4 pages, 121050 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
