@@ -19,31 +19,6 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
-    \entry{juno_telecommunication}{article}{}
-      \name{author}{1}{}{%
-        {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
-           family={al},
-           familyi={a\bibinitperiod},
-           given={Anthony\bibnamedelimb P\bibnamedelima Mittskus},
-           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \strng{fullhash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \strng{bibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \strng{authorbibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Paper}
-      \field{title}{Juno Telecommunications}
-      \field{year}{2012}
-    \endentry
     \entry{ka_uplink}{article}{}
       \name{author}{1}{}{%
         {{hash=4b8377b53a140de219b564cf137de15e}{%
@@ -60,21 +35,46 @@
       \strng{authorbibnamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authornamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authorfullhash}{4b8377b53a140de219b564cf137de15e}
-      \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
       \field{title}{Juno Gravity Science: Five Years of Radio Science Operations with Ka-band Uplink}
       \field{year}{2022}
     \endentry
+    \entry{juno_telecommunication}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Anthony\bibnamedelimb P.\bibnamedelimi Mittskus},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{fullhash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{bibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authorbibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno Telecommunications}
+      \field{year}{2012}
+    \endentry
     \entry{telecommunication_antennas}{article}{}
       \name{author}{1}{}{%
         {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
            family={al},
            familyi={a\bibinitperiod},
-           given={Anthony\bibnamedelimb P\bibnamedelima Mittskus},
+           given={Anthony\bibnamedelimb P.\bibnamedelimi Mittskus},
            giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
            prefix={et},
            prefixi={e\bibinitperiod}}}%
@@ -86,8 +86,8 @@
       \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
       \field{extraname}{3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}

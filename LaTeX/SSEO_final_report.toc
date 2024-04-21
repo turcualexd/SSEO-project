@@ -35,11 +35,18 @@
 \contentsline {section}{Bibliography}{18}{table.caption.25}%
 \contentsline {chapter}{Homework 3}{19}{chapter*.26}%
 \contentsline {section}{Notation}{19}{section*.27}%
-\contentsline {section}{\numberline {3.1}TMTC architecture}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.1}TMTC system architecture}{20}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}HGA}{20}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}MGA \& LGAs}{21}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}TLGA}{21}{subsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.1.4}Ground stations}{21}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Rationale of TMTC system}{22}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Sizing of TMTC system}{22}{section.3.3}%
-\contentsline {section}{Bibliography}{23}{section.3.3}%
+\contentsline {section}{\numberline {3.2}Phases breakdown}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Reverse sizing of the HGA}{23}{section.3.3}%
+\contentsline {section}{Bibliography}{25}{figure.caption.35}%
+\contentsline {chapter}{Homework 4}{26}{chapter*.36}%
+\contentsline {section}{Notation}{26}{section*.37}%
+\contentsline {section}{\numberline {4.1}Introduction of AOCS}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Breakdown of Juno modes}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Architecture and rationale of AOCS}{27}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Reverse sizing of AOCS}{27}{section.4.4}%
+\contentsline {section}{Bibliography}{28}{section.4.4}%
