@@ -87,3 +87,11 @@
 \newcommand{\mail}[1]{
 	\href{mailto:#1@mail.polimi.it}{#1@mail.polimi.it}
 }
+
+% Bookmark for missing reference
+\makeatletter
+\newcommand{\mref}{
+	\@latex@warning{Missing reference}
+	\textcolor{red}{\textbf{REFERENCE}}
+}
+\makeatother
