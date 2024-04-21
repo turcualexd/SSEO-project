@@ -1,0 +1,33 @@
+\section{Phases breakdown}
+\label{sec:phases_breakdown}
+
+The satellite utilizes all the antennas throughout the different phases of the mission. During each one, the TMTC system must satisfy different linking requirements. The main phases are depicted in time in \autoref{fig:phases_antenna} and then briefly discussed in \autoref{table:link_phases}.
+
+\cfig{phases_antenna}{1}{Antennas operability during mission}
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.7}
+    \centering
+    \begin{tabularx}{\linewidth}{|c|c|X|}
+        \hline
+        \textbf{Phase} & \textbf{Downlink/Uplink [bps]} &  \multicolumn{1}{|c|}{\textbf{Phase summary}}  \\
+        \hline
+        \hline
+        \textbf{Initial Acquisition} & 1745 / - & 
+        Initial acquisition performed through LGAs \newline (zoom on \autoref{fig:phases_antenna}). Reed-Solomon coding was used. \\ 
+        \hline
+        \textbf{Cruise} & 100 / 7.8125 & 
+        Ranging is on during the whole cruise. Since Juno has to point the Sun, HGA is not usable during fly-by so all the other antennas are sequentially employed (\autoref{fig:phases_antenna}). \\
+        \hline
+        \textbf{Orbital Operations} & $1.8 \cdot 10^{4} $ / 2000 & 
+        This is the most demanding phase, it requires at least $18$ kbps in downlink through HGA. Also MGA and TLGA are used during OTMs, the latter only for tones (\autoref{fig:phases_antenna}). \\
+        \hline
+        \textbf{Critical Event Coverage} & - / - & No data during these phases, just tones through TLGA.\\
+        \hline
+        \textbf{Safe Mode} & 10$\div$40 / 7.8125 &
+        Downlink datarate may be changed by flight software. Ranging is switched off during this mode. \\
+        \hline
+    \end{tabularx}
+    \caption{Summary of data links during mission phases \cite{juno_telecommunication}}
+    \label{table:link_phases}
+\end{table}

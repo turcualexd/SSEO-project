@@ -2461,9 +2461,40 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
+    <bcf:citekey order="1" intorder="1">ka_uplink</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">ka_uplink</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">telecommunication_antennas</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">telecommunication_antennas</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">telecommunication_antennas</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">germanio</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">telecommunication_antennas</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">telecommunication_antennas</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">calibration_performance</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">communication_support</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">dsn_sito</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">ka_uplink</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">juno_telecommunication</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 4 -->
+  <bcf:bibdata section="4">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="4">
     <bcf:citekey order="3" intorder="1">2006_overview</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">108_telecom</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">108_telecom</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2497,6 +2528,15 @@
                 labelalphanametemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="3"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="4"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"
