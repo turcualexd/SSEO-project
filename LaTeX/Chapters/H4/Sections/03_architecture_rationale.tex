@@ -9,7 +9,7 @@
 Juno's AOCS employs the following main attitude sensors:
 
 \begin{itemize}
-    \item \textbf{2 Stellar Reference Units (SRUs)} custom built by Selex Galileo (now Leonardo S.p.A.) mounted on the top deck of the spacecraft facing radially outwards. These units are based on the A-STR \mref modified with further radiation shielding to survive the harsh environment of Jupiter bringing the total weight up to 7.8 kg. One of the most important characteristic of these sensors is the ability to operate in a Time Delay Integration (TDI) mode which allows them to compensate for the spin of the spacecraft when capturing an image. Other specifications of the standard A-STR are reported in REF TABLE
+    \item \textbf{2 Stellar Reference Units (SRUs)} custom built by Selex Galileo (now Leonardo S.p.A.) mounted on the top deck of the spacecraft facing radially outwards. These units are based on the A-STR \mref, modified with further radiation shielding to survive the harsh environment of Jupiter, bringing the total weight up to 7.8 kg. One of the most important characteristics of these sensors is the ability to operate in a Time Delay Integration (TDI) mode, which allows them to compensate for the spin of the spacecraft when capturing an image. Other specifications of the standard A-STR are reported in \autoref{table:star_sensors}.
     \begin{table}[H]
         \renewcommand{\arraystretch}{1.3}
         \centering
@@ -27,19 +27,48 @@ Juno's AOCS employs the following main attitude sensors:
             \hline
             \textbf{Size (L $\boldsymbol{\times}$ W $\boldsymbol{\times}$ H) [cm]} & \textbf{Mass [kg]} & \textbf{Power consumption [W]} & \textbf{Operational temperature [°C]} \\
             \hline
-            19.5 $\times$ 17.5 $\times$ 29.1 & 3.55 & \\
+            19.5 $\times$ 17.5 $\times$ 29.1 & 3.55 & 8.9 @ 20°C 13.5 @ 60°C & -30°C to +60°C\\
             \hline
         \end{tabular}
-        \caption{Comparison between estimated and real masses ( ALEX METTI A POSTO)}
-        \label{table:masses}
+        \caption{A-STR specifications ( ALEX METTI A POSTO)}
+        \label{table:star_sensors}
     \end{table}
  
-    \item \textbf{2 Spinning Sun Sensors (SSSes)} by Adcole Maryland Aerospace also positioned on the edge of top deck with a similar orientation as the SRUs. 
+    \item \textbf{2 Spinning Sun Sensors (SSSes)} by Adcole Maryland Aerospace, also positioned on the edge of top deck with a similar orientation as the SRUs. They are specialized for attitude determination on a spinning spacecraft and allow for a fail safe recovery. Sun sensors are required during ME burns, when SRUs might be pointing the Sun. Useful specifications are shown in \autoref{table:sun_sensors}.
+    
+    % Assumiamo siano richiesti per proteggere le sru durante le main engine burn quando Juno non punta la terra o il sole e quindi le sru potrebbero puntare al sole
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \textbf{FOV [deg]} &\textbf{Accuracy [°]} & \textbf{Size of sensor (L $\boldsymbol{\times}$ W $\boldsymbol{\times}$ H) [cm]} & \textbf{Size of electronics (L $\boldsymbol{\times}$ W $\boldsymbol{\times}$ H) [cm]} \\
+            \hline
+            $\pm$ 64° & $\pm$ 0.1 at 0° $\pm$ 0.3 at 40° $\pm$ 0.6 at 64°  & 6.6 $\times$ 3.3 $\times$ 2.5 & 5.1 $\times$ 8.2 $\times$ 8.9 \\   
+            \hline
+        \end{tabular}
+
+        \vspace{5mm}
+
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \textbf{Mass of sensor [g]} & \textbf{Mass of electronics [g]} & \textbf{Power consumption [W]}\\
+            \hline
+            109 & 475 to 725 & 0.4\\
+            \hline
+        \end{tabular}
+        \caption{SSSes specifications (ALEX METTI A POSTO)}
+        \label{table:sun_sensors}
+    \end{table}
+ 
+    
     \item \textbf{2 Inertial Measurement Units (IMUs)} by Northrop (Hypothesizing heritage from Cassini \mref) inside Juno's main body. 
 \end{itemize}
 
 All of this sensors are doubled to provide cold redundancy, meaning that only one unit is powered during nominal operations while the other one is switched off. 
 
+
+Additional sensors, Camera Head Units (CHUs), are present on Juno, to allow a precise attitude determination for magnetic sensors.
 
 \subsection{Actuators}
 \label{subsec:Actuators}
