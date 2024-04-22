@@ -14,7 +14,7 @@ This mode aims at pointing the spin axis of S/C (+Z axis) to the Sun. This mode 
 
 This mode is applied mainly when the SPE angle is too large to ensure the communication through the HGA. This condition occurs during the first phases of the mission and nearby the EGA, when the satellite is in proximity of Earth and relatively close to the Sun. The LGAs are therefore used during this mode to communicate with ground.
 
-The pointing requirement for this mode is not very strict since the solar panels are sized for much higher distances and can provide enough energy, the LGAs have a wide beamwidth to communicate with ground and the HGA is large enough to protect the vault.
+The pointing requirement (APE) for this mode is not very strict since the solar panels are sized for much higher distances and can provide enough energy, the LGAs have a wide beamwidth to communicate with ground and the HGA is large enough to protect the vault.
 The spin rate of the satellite is set to $1$ RPM for this interplanetary mode. This improves the passive stability of the pointing, reducing the burden on the active attitude control.
 
 \subsection{Earth Pointing Mode (EPM)}
@@ -22,10 +22,13 @@ The spin rate of the satellite is set to $1$ RPM for this interplanetary mode. T
 
 The EPM is a contiguous interplanetary mode to the SPM, the +Z axis of the S/C is pointed to Earth.
 It triggers when the distance from the Sun is high enough to ensure a safe thermal dissipation without the aid of the HGA ($\approx 1.4$ AU) \mref.
-Moreover, the S/C will be far enough from Earth to ensure both HGA communications and the fulfillment of power requirements, hence the SPE is low.
+Moreover, the S/C will be far enough from Earth to ensure both HGA communications and the fulfillment of power requirements, hence the SPE is low. The APE for this mode depends on the antenna that will be pointed to Earth: when the switch from SPM happens, the MGA is first pointed to Earth and consequently HGA is activated. This mode is always relative to the interplanetary phase and is the main mode used throughout the cruise. The spin rate of $1$ RPM ensures stability of the axis that is pointing to Earth.
 
 \subsection{GRAVity science Mode (GRAVM)}
 \label{subsec:grav_mode}
+
+The GRAVM is the principal mode during science operations. It aligns the +Z axis towards Earth in order to communicate and to perform the gravity experiment with the HGA. (... info da aggiungere ...  HGA required due to high data flow and distance). Hence, the APE is related to the antenna beamwidth specification, moreover the SPE angle is always low enough (< .. from ephemerides) to ensure enough power generation from the solar cells. 
+The spin rate for this mode is fixed at $2$ RPM to ensure payload requirements and also adds stability to the axis pointing, which is more perturbed due to the vicinity with Jupiter. 
 
 \subsection{MicroWave Radiometer Mode (MWRM)}
 \label{subsec:mwr_mode}
@@ -33,8 +36,12 @@ Moreover, the S/C will be far enough from Earth to ensure both HGA communication
 \subsection{Turn-Burn-Turn Mode (TBTM)}
 \label{subsec:tbt_mode}
 
+The TBTM is performed when the alignment of the main engine (-Z axis) needs to be parallel with the $\Delta V$ direction of the manoeuvre. In particular, a slew manoeuvre of approximately $90$° is first performed to align the +Z axis with the interested direction of the burn. The thrusters are also activated to spin-up the angular rate at $5$ RPM, this is done to ensure stability throughout the ME burn. During this time, the only communication link with Juno is through tones via TLGA. The end of the operation of the ME is followed by the decrease of the spin rate at $2$ or $1$ RPM, depending on the mission phase. (dire che in questa configurazione non si puo stare molto perche non procude abbastanza energia).
+
 \subsection{VECtor Mode (VECM)}
 \label{subsec:vec_mode}
+
+The VECM is performed for OTM or TCM. The +Z axis is continuously pointing to Earth while maintaining its nominal spin (1 or 2 RPM for interplanetary or science phase respectively). The direction of the burn is then decomposed into two directions (axial and lateral). The APE during this mode is relative to the HGA beamwidth since Earth pointing is required. 
 
 \subsection{Spin Change Mode (SCM)}
 \label{subsec:spin_change_mode}

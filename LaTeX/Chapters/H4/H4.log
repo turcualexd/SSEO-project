@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  22 APR 2024 09:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  22 APR 2024 14:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1154,12 +1154,12 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 
 LaTeX Warning: Missing reference on input line 24.
 
-) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex))
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \bodyandbib
-                 [1]
+l.46 \subsection{Spin Change Mode (SCM)}
+                                         [1]) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex)) [2]
 
 LaTeX Warning: Empty bibliography on input line 19.
 
@@ -1184,17 +1184,17 @@ Package logreq Info: Writing requests to 'H4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23704 strings out of 475385
- 399982 string characters out of 2793321
- 1176652 words of memory out of 3000000
- 44705 multiletter control sequences out of 15000+600000
+ 23706 strings out of 475385
+ 400001 string characters out of 2793321
+ 1181652 words of memory out of 3000000
+ 44706 multiletter control sequences out of 15000+600000
  565631 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,97p,1514b,1873s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Miktex/fonts/enc/dvips/base/8r.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on H4.pdf (3 pages, 102179 bytes).
+{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Miktex/fonts/enc/dvips/base/8r.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on H4.pdf (4 pages, 113117 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H4"] 0 "H4.bcf" "H4.bbl" "H4" 1713771647 -1
+["biber H4"] 0 "H4.bcf" "H4.bbl" "H4" 1713788044 -1
   "../../bibliography.bib" 1713771474 11029 14272441f51e76356419350617ff92dd ""
-  "H4.bcf" 1713771646 106747 e44ebd9d94656c6c2392ad51defc0019 "pdflatex"
+  "H4.bcf" 1713788044 106747 e44ebd9d94656c6c2392ad51defc0019 "pdflatex"
   (generated)
   "H4.bbl"
   "H4.blg"
   (rewritten before read)
-["pdflatex"] 1713771645 "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H4/H4.tex" "H4.pdf" "H4" 1713771647 0
+["pdflatex"] 1713788042 "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H4/H4.tex" "H4.pdf" "H4" 1713788044 0
   "../../Config//Poli_logo.pdf" 1712563480 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config//commands.tex" 1713771642 2086 1be4db513453bde042e78c746be5780e ""
   "../../Config//formats.tex" 1713771474 1818 04a9bcdee2dae368f8a5b3a24938da5e ""
@@ -36,6 +36,7 @@
   "C:/Miktex/fonts/tfm/public/kpfonts/jkpsyc.tfm" 1674488844 1028 a2825e2c40d04ba8c0af3998464d86e1 ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb" 1674488844 32613 e064ce644a24deb273c8f670630798ba ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb" 1674488844 29813 d05f8d6ea0d8afa920af22dddafc33f2 ""
+  "C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb" 1674488844 30461 69b749e6d9e6ecbcbda833c4699db58d ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb" 1674488844 35294 e88bb6b7bdd82f594dee041ddea9423c ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb" 1674488844 18013 a3754f8df0b4dd3a76b5353fabb31650 ""
   "C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb" 1674488844 25860 1e4d17fc7bf1d0b47e9b47e6099f1971 ""
@@ -153,15 +154,15 @@
   "C:/Miktex/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1713165721 98856 87a9ac9606a61c06eccae2e23d0ace3d ""
   "C:/Users/danie/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1671211142 10771596 76531b1fe281d06023726f73b68370e1 ""
-  "H4.aux" 1713771646 3731 7506a8b98b84527624c1145a6c5fd834 "pdflatex"
+  "H4.aux" 1713788044 3731 970bc9c83b9e08b57b176ccac9d4ed94 "pdflatex"
   "H4.bbl" 1713771544 0 d41d8cd98f00b204e9800998ecf8427e "biber H4"
-  "H4.out" 1713771646 2354 b54d926d5b4c055a176138ac91c72e04 "pdflatex"
-  "H4.run.xml" 1713771646 2299 899075648a9dead6a5231dc3d33b8ed0 "pdflatex"
+  "H4.out" 1713788044 2354 b54d926d5b4c055a176138ac91c72e04 "pdflatex"
+  "H4.run.xml" 1713788044 2299 899075648a9dead6a5231dc3d33b8ed0 "pdflatex"
   "H4.tex" 1713771453 309 ac53f55a9a3332f64e13e85427394698 ""
-  "H4.toc" 1713771646 1165 724492cd3deede73bbe5c2bc332b2bf0 "pdflatex"
+  "H4.toc" 1713788044 1165 0e619aef3cfa8ff373668954bc8609c6 "pdflatex"
   "Sections/00_notation.tex" 1713771453 562 ae4fd01ea1a02f90c11fba9eeab839ff ""
   "Sections/01_introduction.tex" 1713771453 716 db0fd13da1182ef9904599f1c20f60eb ""
-  "Sections/02_modes.tex" 1713771453 2403 dbdb14338cdfc12ab87f220c1e21d281 ""
+  "Sections/02_modes.tex" 1713788041 4492 ba216d52f15951c338e736ae98926496 ""
   "Sections/03_architecture_rationale.tex" 1713771453 89 492e3c947c798ebcf8d481f280e0e278 ""
   "Sections/04_reverse_sizing.tex" 1713771453 61 d562974c7394eeecb1cb976d58397864 ""
   "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H4/H4.tex" 1713771453 309 ac53f55a9a3332f64e13e85427394698 ""
