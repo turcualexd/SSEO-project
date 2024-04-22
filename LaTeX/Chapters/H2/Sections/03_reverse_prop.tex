@@ -1,0 +1,192 @@
+\section{Reverse engineering of propulsion system}
+\label{sec:reverse_prop}
+
+As described in \autoref{subsec:tanks}, the propulsion system counts four tanks for storing hydrazine, two tanks for storing NTO and two tanks for storing helium.
+To better understand the reasoning behind this choice, a reverse sizing for both the propellants and the pressurizer has been conducted given the data on the engines, the $\Delta V$ highlighted in \autoref{table:deltav} and the total dry mass $M_{dry}$ \cite{masses_ref} of the spacecraft.
+The whole process has taken into account the standardized margins from ESA. \cite{esa_margins}
+Since the actual mission has greatly deviated from its initial design, a second propellant sizing was also performed on the real manoeuvres up to $7^{\textrm{th}}$ June 2021 \cite{juno_inner} \cite{otm} \cite{prm_redesign} plus the required de-orbit to check the compliance with the design masses.
+
+\subsection{Fuel and oxidizer tanks sizing}
+\label{subsec:fuel_ox_sizing}
+
+\begin{enumerate}[itemsep=5mm]
+    \item
+    To estimate the masses of the propellants, Tsiolkovsky rocket equation has been applied iteratively on the $\Delta V$ of the first column of \autoref{table:deltav}. This process needs the dry mass $M_{dry} = M^{(0)}$ of the spacecraft as first input and starts from the last $\Delta V$ (the de-orbit burn) incrementing the computed total mass $M^{(i)}$ and the propellant mass $M_{p,me}^{(i)}$ or $M_{p,rcs}^{(i)}$ after each iteration.
+    \begin{gather}
+        M_{p,me}^{(i+1)} = M^{(i)} \cdot \left[ \exp \left( \frac{1.05 \cdot \Delta V^{(i)}} {I_{s,me} \cdot g_0} \right) - 1 \right] + M_{p,me}^{(i)} 
+        \label{eq:me_iteration} \\
+        M_{p,rcs}^{(i+1)} = M^{(i)} \cdot \left[ \exp \left( \frac{2 \cdot \Delta V^{(i)}} {I_{s,rcs} \cdot g_0} \right) - 1 \right] + M_{p,rcs}^{(i)}
+        \label{eq:rcs_iteration}
+    \end{gather}
+    \begin{gather}
+        M^{(i+1)} = M^{(i)} + M_{p,me}^{(i)}
+        \qquad \textrm{or} \qquad
+        M^{(i+1)} = M^{(i)} + M_{p,rcs}^{(i)}
+    \end{gather}
+    where the respective formula is applied based on which engine type performs the i-th manoeuvre.
+    
+    \item
+    From the final $M_{p,me}$ and $M_{p,rcs}$, the masses of fuel and oxidizer are then computed. This is done by knowing the nominal $O/F$ ratio (0.85) of the ME \cite{Leros} and that the RCS only uses hydrazine as propellant.
+    Exploiting the density of the propellants, the total volumes for fuel and oxidizer are retrieved.
+    \begin{gather}
+        M_{f} = \frac{1}{O/F + 1} \cdot M_{p,me} + M_{p,rcs} 
+        \\
+        M_{ox} = \frac{O/F}{O/F + 1} \cdot M_{p,me}
+    \end{gather}
+    The estimated masses are rather similar to the real ones, as it can be seen in \autoref{table:masses}.
+
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & \textbf{Estimated masses [kg]} & \textbf{Real masses [kg]} \cite{masses_ref} & \textbf{Relative error [\%]} \\
+            \hline
+            $\boldsymbol{M_{f}}$ & 1309.5 & 1280 & 2.304 \\
+            \hline
+            $\boldsymbol{M_{ox}}$ & 751.9 & 752 & 0.013 \\
+            \hline
+        \end{tabular}
+        \caption{Comparison between estimated and real masses}
+        \label{table:masses}
+    \end{table}
+
+    \item
+    Having the total volumes of propellants, they have been split among the number of spherical tanks. Since the radius $r_{tank}$ obtained for the two types of tanks are very similar and having two different tanks is inconvenient, the larger one was selected.
+
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \begin{tabular}{|>{\cellcolor{bluePoli!25}}c|c|}
+            \hline
+            \textbf{Fuel tank radius [cm]} & \textbf{Oxidizer tank radius [cm]} \\
+            \hline
+            43.99 & 40.91 \\
+            \hline
+        \end{tabular}
+        \caption{Comparison between obtained radii}
+        \label{table:radii}
+    \end{table}
+
+    \item
+    The pressure of the tanks $p_{tank}$ is kept constant (as described in \autoref{subsec:tanks}). From the pressure and the volume of one tank, the required thickness $t_{tank}$ can be computed by choosing the material, characterized by its density $\rho$ and its tensile yield strength $\sigma$.
+    \begin{equation}
+        t_{tank} = \frac{r_{tank} p_{tank}}{2 \sigma}
+    \end{equation}
+
+    \item
+    The dry mass of one tank is then computed to select the material:
+    \begin{equation}
+        M_{tank} = \frac{4}{3} \pi \rho \left[ \left( r_{tank} + t_{tank} \right)^3 - r_{tank}^3 \right]
+    \end{equation}
+\end{enumerate}
+
+Three different materials have been taken into consideration, and the lighter configuration has been selected.
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.3}
+    \centering
+    \begin{tabular}{|c|>{\cellcolor{bluePoli!25}}c|c|c|}
+        \hline
+        & \textbf{Ti6Al4V} & \textbf{Al7075} & \textbf{Stainless steel} \\
+        \hline
+        $\boldsymbol{\sigma \; [\textrm{\textbf{MPa}}]}$ &
+        950 & 510 & 1400 \\
+        \hline
+        $\boldsymbol{\rho \; [\textrm{\textbf{kg/m}}^3]}$ &
+        4500 & 2810 & 8100 \\
+        \hline
+        \hline
+        $\boldsymbol{t_{tank} \; [\textrm{\textbf{mm}}]}$ &
+        0.50 & 0.93 & 0.34 \\
+        \hline
+        $\boldsymbol{M_{tank} \; [\textrm{\textbf{kg}}]}$ &
+        5.45 & 6.35 & 6.66 \\
+        \hline
+    \end{tabular}
+    \caption{Properties of the materials tested for the sizing of the tanks}
+    \label{table:materials}
+\end{table}
+
+\subsection{Pressurizer tanks sizing}
+\label{subsec:helium_sizing}
+
+\begin{enumerate}[itemsep=5mm]
+    \item
+    As a first approximation, the pressure for the helium tanks is supposed to be ten times the pressure for the propellant tanks $p_{tank}$, and helium is considered to be a perfect gas (actually it is in a supercritical state).
+    The temperature $T_{tank}$ for the tanks is assumed to be $20$ °C. Starting from these assumptions, the mass and the volume of the total required helium are computed as follows:
+    \begin{gather}
+        M_{He} = 1.2 \cdot \frac{p_{tank} \cdot 6 V_{tank} \cdot \gamma_{He}}{\left( 1 - 1/10 \right) R_{He} T_{tank}}
+        \\
+        V_{He} = \frac{M_{He} R_{He} T_{tank}}{10 p_{tank}}
+    \end{gather}
+
+    \item
+    Since the two tanks are cylindrical, the geometry is undefined given only the volume of one tank. To add the missing constraint, a minimization of the total surface is assumed, which can minimize the internal stress due to pressure and the heat transfer through the walls (\autoref{subsec:tanks}).
+    \begin{align}
+        r_{tank,He} &= \left( \frac{1/2 V_{He}}{2 \pi} \right)^{1/3}
+        \\
+        h_{tank,He} &= \frac{1/2 V_{He}}{r_{tank,He}^2 \pi}
+    \end{align}
+
+    \item
+    As already done in \autoref{subsec:fuel_ox_sizing}, the thickness $t_{tank,He}$ is computed for the materials in \autoref{table:materials} as:
+    \begin{equation}
+        t_{tank,He} = \frac{r_{tank,He} \cdot 10 p_{tank}}{2 \sigma}
+    \end{equation}
+
+    \item
+    The dry mass of one tank is then computed to select the material:
+    \begin{equation}
+        M_{tank,He} = \rho \, h_{tank,He} \, \pi \, \left[ \left( r_{tank,He} + t_{tank,He} \right)^2 - r_{tank,He}^2 \right] + 2 \, \rho \, t_{tank,He} \, r_{tank,He}^2 \, \pi
+    \end{equation}
+\end{enumerate}
+
+As for the propellants tanks, titanium alloy appears to be the lightest solution (\autoref{table:sizing_helium}). This is the material most likely used for the tanks on the real satellite, and it is the most widely used in space due to its high strength to mass ratio and corrosion resistance.
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.3}
+    \centering
+    \begin{tabular}{|c|>{\cellcolor{bluePoli!25}}c|c|c|}
+        \hline
+        & \textbf{Ti6Al4V} & \textbf{Al7075} & \textbf{Stainless steel} \\
+        \hline
+        $\boldsymbol{t_{tank,He} \; [\textrm{\textbf{mm}}]}$ &
+        3.58 & 6.68 & 2.43 \\
+        \hline
+        $\boldsymbol{M_{tank,He} \; [\textrm{\textbf{kg}}]}$ &
+        30.62 & 35.73 & 37.51 \\
+        \hline
+    \end{tabular}
+    \caption{Thickness and mass of helium tanks for different materials}
+    \label{table:sizing_helium}
+\end{table}
+
+\subsection{Computation of actual propellants usage}
+\label{subsec:real_prop_usage}
+The second sizing relies on the same procedure highlighted in \autoref{subsec:fuel_ox_sizing} with the difference that it starts from the launch mass $M_{launch} = M^{(0)}$ \cite{masses_ref} and considers the $\Delta V$ from the second column of \autoref{table:deltav} in chronological order. \autoref{eq:me_iteration} and \autoref{eq:rcs_iteration} are thus modified as follows:
+\begin{gather}
+    M_{p,me}^{(i+1)} = M^{(i)} \cdot \left[ 1 - \exp \left( \frac{-\Delta V^{(i)}} {I_{s,me} \cdot g_0} \right) \right] + M_{p,me}^{(i)} \\
+    M_{p,rcs}^{(i+1)} = M^{(i)} \cdot \left[ 1 - \exp \left( \frac{-\Delta V^{(i)}} {I_{s,rcs} \cdot g_0} \right) \right] + M_{p,rcs}^{(i)}
+\end{gather}
+
+where the ESA margins \cite{esa_margins} were not applied since the actually performed manoeuvre values were utilized.
+The real and consumed masses are reported in \autoref{table:real_masses}.
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.3}
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        & \textbf{Real masses [kg]} & \textbf{Consumed masses [kg]} & \textbf{Remaining masses [kg]} \\
+        \hline
+        $\boldsymbol{M_{f}}$ & 1280 & 986 & 294 \\
+        \hline
+        $\boldsymbol{M_{ox}}$ & 752 & 560 & 192 \\
+        \hline
+    \end{tabular}
+    \caption{Real and consumed propellants masses}
+    \label{table:real_masses}
+\end{table}
+
+The \textit{remaining masses} column denotes the propellants masses still present in the spacecraft as of $7^{\textrm{th}}$ June 2021, which are obtained by subtracting the calculated masses from the real ones. Since the de-orbit is mandatory its $\Delta V$ has been considered as a final real manoeuvre even though it hasn't happened yet.

@@ -1,0 +1,20 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{import}
+
+\import{Config/}{input}
+\addbibresource{bibliography.bib}
+\def\doc{final}
+
+\begin{document}
+
+\firstpage{Final report}
+
+\pagenumbering{roman}
+
+\tableofcontents
+\pagebreak
+
+\pagenumbering{arabic}
+\import{}{Body}
+
+\end{document}
