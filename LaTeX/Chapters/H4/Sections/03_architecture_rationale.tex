@@ -1,3 +1,45 @@
 \section{Architecture and rationale of AOCS}
 \label{sec:AOCS_architecture_rationale}
 
+
+
+\subsection{Sensors}
+\label{subsec:Sensors}
+
+Juno's AOCS employs the following main attitude sensors:
+
+\begin{itemize}
+    \item \textbf{2 Stellar Reference Units (SRUs)} custom built by Selex Galileo (now Leonardo S.p.A.) mounted on the top deck of the spacecraft facing radially outwards. These units are based on the A-STR \mref modified with further radiation shielding to survive the harsh environment of Jupiter bringing the total weight up to 7.8 kg. One of the most important characteristic of these sensors is the ability to operate in a Time Delay Integration (TDI) mode which allows them to compensate for the spin of the spacecraft when capturing an image. Other specifications of the standard A-STR are reported in REF TABLE
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \textbf{FOV [deg]} & \textbf{Update rate [Hz]} & \textbf{Bias Error [arcsec]} & \textbf{FOV error [arcsec]} \\
+            \hline
+            16.4 $\times$ 16.4 & 4 or 10 & 8.25 (pitch/yaw) 11.1 (roll) & $<$ 3.6 (pitch/yaw) $<$ 21 (roll) \\   
+            \hline
+        \end{tabular}
+
+        \vspace{5mm}
+
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \textbf{Size (L $\boldsymbol{\times}$ W $\boldsymbol{\times}$ H) [cm]} & \textbf{Mass [kg]} & \textbf{Power consumption [W]} & \textbf{Operational temperature [°C]} \\
+            \hline
+            19.5 $\times$ 17.5 $\times$ 29.1 & 3.55 & \\
+            \hline
+        \end{tabular}
+        \caption{Comparison between estimated and real masses ( ALEX METTI A POSTO)}
+        \label{table:masses}
+    \end{table}
+ 
+    \item \textbf{2 Spinning Sun Sensors (SSSes)} by Adcole Maryland Aerospace also positioned on the edge of top deck with a similar orientation as the SRUs. 
+    \item \textbf{2 Inertial Measurement Units (IMUs)} by Northrop (Hypothesizing heritage from Cassini \mref) inside Juno's main body. 
+\end{itemize}
+
+All of this sensors are doubled to provide cold redundancy, meaning that only one unit is powered during nominal operations while the other one is switched off. 
+
+
+\subsection{Actuators}
+\label{subsec:Actuators}

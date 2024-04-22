@@ -56,5 +56,7 @@
 \contentsline {subsection}{\numberline {4.2.7}Spin Change Mode (SCM)}{27}{subsection.4.2.7}%
 \contentsline {subsection}{\numberline {4.2.8}Safe Modes}{27}{subsection.4.2.8}%
 \contentsline {section}{\numberline {4.3}Architecture and rationale of AOCS}{27}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Reverse sizing of AOCS}{27}{section.4.4}%
-\contentsline {section}{Bibliography}{28}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.1}Sensors}{27}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Actuators}{28}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Reverse sizing of AOCS}{28}{section.4.4}%
+\contentsline {section}{Bibliography}{29}{section.4.4}%
