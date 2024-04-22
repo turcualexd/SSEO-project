@@ -88,19 +88,10 @@
 	\href{mailto:#1@mail.polimi.it}{#1@mail.polimi.it}
 }
 
-% Custom font size
-\newlength{\mylength}
+% Bookmark for missing reference
 \makeatletter
-\newcommand{\cfs}[1]{%
-  \normalsize
-  \@defaultunits\mylength=#1pt\relax\@nnil
-  \edef\@tempa{{\strip@pt\mylength}}%
-  \ifx\protect\@typeset@protect
-     \edef\@currsize{\noexpand\mycfs\@tempa}% store calculated size
-  \fi
-  \mylength=1.2\mylength
-  \edef\@tempa{\@tempa{\strip@pt\mylength}}%
-  \expandafter\fontsize\@tempa
-  \selectfont
+\newcommand{\mref}{
+	\@latex@warning{Missing reference}
+	\textcolor{red}{\textbf{REFERENCE}}
 }
 \makeatother

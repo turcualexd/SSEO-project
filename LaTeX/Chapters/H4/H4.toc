@@ -13,4 +13,3 @@
 \contentsline {subsection}{\numberline {2.8}Safe Modes}{1}{subsection.2.8}%
 \contentsline {section}{\numberline {3}Architecture and rationale of AOCS}{1}{section.3}%
 \contentsline {section}{\numberline {4}Reverse sizing of AOCS}{1}{section.4}%
-\contentsline {section}{Bibliography}{2}{section.4}%
