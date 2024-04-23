@@ -2,10 +2,9 @@
 clear
 clc
 close all
-
-% ------ calcolo distanze dal sole nella inner cruise 
-
 T = readtable("horizons_results.txt",MissingRule="omitrow");
+% ------ calcolo distanze dal sole nella inner cruise
+
 giorni = [1 60];
 clc
 ev  = table2array(T(1:60,3));
@@ -320,7 +319,6 @@ clc
 
 % ------ calcolo distanze dal sole nella inner cruise 
 
-T = readtable("horizons_results.txt",MissingRule="omitrow");
 giorni = [61 659];
 clc
 ev  = table2array(T(61:659,3));
@@ -397,7 +395,7 @@ kx = (I(3,3) - I(2,2))/I(1,1);
 ky = (I(3,3) - I(1,1))/I(2,2); 
 kz = (I(2,2) - I(1,1))/I(3,3);
 % *------------- parametri simulazione senza controllo SISTEMALA ORA ----------------
-giorni_no_controllo = 14;
+giorni_no_controllo = 20;
 t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
@@ -636,7 +634,6 @@ clc
 
 % ------ calcolo distanze dal sole nella inner cruise 
 
-T = readtable("horizons_results.txt",MissingRule="omitrow");
 giorni = [660 821];
 clc
 ev  = table2array(T(660:821,3));
@@ -713,7 +710,7 @@ kx = (I(3,3) - I(2,2))/I(1,1);
 ky = (I(3,3) - I(1,1))/I(2,2); 
 kz = (I(2,2) - I(1,1))/I(3,3);
 % *------------- parametri simulazione senza controllo SISTEMALA ORA ----------------
-giorni_no_controllo = 14;
+giorni_no_controllo = 20;
 t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
