@@ -35,12 +35,12 @@ rn = vecnorm(R/astroConstants(2), 2); % valore già in AU
 
 r_medio = trapz(rn)/(length(rn));
 
-% figure
-% plot(rn)
-% hold on
-% plot(0*rn + r_medio)
-% title('DIstance for SRP approximation')
-% grid minor
+figure
+plot(rn)
+hold on
+plot(0*rn + r_medio)
+title('DIstance for SRP approximation')
+grid minor
 
 Sr = 1367/r_medio^2; % W/m2, calcolato con la media della distanza
 
@@ -48,14 +48,14 @@ Sr_vect = 1367./(rn).^2;
 Sr_medio = trapz(Sr_vect)/length(rn); % calcolato come media delle radiazioni
 % ----- Sr_medio è quello da usare per la inner----
 
-% figure
-% plot(Sr_vect)
-% hold on
-% plot(0*rn + Sr_medio)
-% plot(0*rn + Sr)
-% title('Sr approximation')
-% grid minor
-% legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
+figure
+plot(Sr_vect)
+hold on
+plot(0*rn + Sr_medio)
+plot(0*rn + Sr)
+title('Sr approximation')
+grid minor
+legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
 
 %close all
 delta_c_12 = sqrt(5.8^2 - 1.5^2);
@@ -81,8 +81,8 @@ braccio_z = 3.2;
 kx = (I(3,3) - I(2,2))/I(1,1);
 ky = (I(3,3) - I(1,1))/I(2,2); 
 kz = (I(2,2) - I(1,1))/I(3,3);
-% *------------- parametri simulazione senza controllo SISTEMALA ORA ----------------
-giorni_no_controllo = 14;
+% *------------- parametri simulazione senza controllo  ----------------
+giorni_no_controllo = 18;
 t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
@@ -178,7 +178,7 @@ consumo_z = sum(abs(M_c(:,3)))/(th*braccio_z);
 tempo_z = consumo_z * step_t;
 m_prop_z_continuo = 2*2*th * tempo_z/(I_sp * 9.81)
 
-% ---------- simulaizone di un'ora per allineare assi
+% ---------- simulaizone per allineare assi
 
 A0 = A_b_n(:,:,end);
 w0 = w(:,end);
@@ -316,7 +316,7 @@ massa_totale_inner1 = (giorni(2)-giorni(1))/giorni_no_controllo * ( m_prop_singo
 %% inner cruise 2 
 % clear
 clc
-%close all
+close all
 
 % ------ calcolo distanze dal sole nella inner cruise 
 
@@ -350,12 +350,12 @@ rn = vecnorm(R/astroConstants(2), 2); % valore già in AU
 
 r_medio = trapz(rn)/(length(rn));
 
-% figure
-% plot(rn)
-% hold on
-% plot(0*rn + r_medio)
-% title('DIstance for SRP approximation')
-% grid minor
+figure
+plot(rn)
+hold on
+plot(0*rn + r_medio)
+title('DIstance for SRP approximation')
+grid minor
 
 Sr = 1367/r_medio^2; % W/m2, calcolato con la media della distanza
 
@@ -363,14 +363,14 @@ Sr_vect = 1367./(rn).^2;
 Sr_medio = trapz(Sr_vect)/length(rn); % calcolato come media delle radiazioni
 % ----- Sr_medio è quello da usare per la inner----
 
-% figure
-% plot(Sr_vect)
-% hold on
-% plot(0*rn + Sr_medio)
-% plot(0*rn + Sr)
-% title('Sr approximation')
-% grid minor
-% legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
+figure
+plot(Sr_vect)
+hold on
+plot(0*rn + Sr_medio)
+plot(0*rn + Sr)
+title('Sr approximation')
+grid minor
+legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
 
 %close all
 delta_c_12 = sqrt(5.8^2 - 1.5^2);
@@ -397,7 +397,7 @@ kx = (I(3,3) - I(2,2))/I(1,1);
 ky = (I(3,3) - I(1,1))/I(2,2); 
 kz = (I(2,2) - I(1,1))/I(3,3);
 % *------------- parametri simulazione senza controllo SISTEMALA ORA ----------------
-giorni_no_controllo = 14;
+giorni_no_controllo = 15;
 t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
@@ -632,7 +632,7 @@ massa_totale_inner2 = (giorni(2)-giorni(1))/giorni_no_controllo * ( m_prop_singo
 
 % clear
 clc
-%close all
+close all
 
 % ------ calcolo distanze dal sole nella inner cruise 
 
@@ -666,12 +666,12 @@ rn = vecnorm(R/astroConstants(2), 2); % valore già in AU
 
 r_medio = trapz(rn)/(length(rn));
 
-% figure
-% plot(rn)
-% hold on
-% plot(0*rn + r_medio)
-% title('DIstance for SRP approximation')
-% grid minor
+figure
+plot(rn)
+hold on
+plot(0*rn + r_medio)
+title('DIstance for SRP approximation')
+grid minor
 
 Sr = 1367/r_medio^2; % W/m2, calcolato con la media della distanza
 
@@ -679,14 +679,14 @@ Sr_vect = 1367./(rn).^2;
 Sr_medio = trapz(Sr_vect)/length(rn); % calcolato come media delle radiazioni
 % ----- Sr_medio è quello da usare per la inner----
 
-% figure
-% plot(Sr_vect)
-% hold on
-% plot(0*rn + Sr_medio)
-% plot(0*rn + Sr)
-% title('Sr approximation')
-% grid minor
-% legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
+figure
+plot(Sr_vect)
+hold on
+plot(0*rn + Sr_medio)
+plot(0*rn + Sr)
+title('Sr approximation')
+grid minor
+legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
 
 %close all
 delta_c_12 = sqrt(5.8^2 - 1.5^2);
@@ -713,7 +713,7 @@ kx = (I(3,3) - I(2,2))/I(1,1);
 ky = (I(3,3) - I(1,1))/I(2,2); 
 kz = (I(2,2) - I(1,1))/I(3,3);
 % *------------- parametri simulazione senza controllo SISTEMALA ORA ----------------
-giorni_no_controllo = 14;
+giorni_no_controllo = 15;
 t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
@@ -948,7 +948,5 @@ massa_totale_inner1
 massa_totale_inner2
 massa_totale_inner3
 
-
-
-
+massa_totale_carbuarnte = massa_totale_inner1 + massa_totale_inner2 + massa_totale_inner3
 
