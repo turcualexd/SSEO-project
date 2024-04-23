@@ -1,6 +1,9 @@
-clear; close all; clc;
-T = readtable("horizons_results.txt",MissingRule="omitrow");
-%
+function R = loadData(filename)
+
+% takes as an input a file name from nasa horizon with the following modes:
+% OOE, ICRF, ecliptic x-y plane, gregorian, km/s, CSV ON
+
+T = readtable(filename,MissingRule="omitrow");
 clc
 ev  = table2array(T(:,3));
 rpv = table2array(T(:,4));
@@ -10,7 +13,7 @@ omv = wrapTo2Pi(deg2rad(table2array(T(:,7))));
 av  = table2array(T(:,12));
 thv = wrapTo2Pi(deg2rad(table2array(T(:,11))));
 mu  = astroConstants(4);
-%%
+
 R = nan(3,length(ev));
 
 for k = 1 : length(ev)
@@ -27,18 +30,3 @@ for k = 1 : length(ev)
 
 end
 rn = vecnorm(R, 2);
-%%
-figure
-hold on
-axis equal
-grid minor
-plot3(R(1, :),R(2,:),R(3,:))
-%%
-figure
-plot(rn/astroConstants(2))
-%%
-figure
-hold on
-plot(R(1,:))
-plot(R(2,:))
-plot(R(3,:))

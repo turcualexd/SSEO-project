@@ -1,0 +1,197 @@
+*******************************************************************************
+ Revised: Mar 21, 2024          Juno Spacecraft  / (Sun, Jupiter)           -61 
+                     http://www.nasa.gov/mission_pages/juno/main/index.html
+                             http://missionjuno.swri.edu/#/mission
+ 
+ NOTE: Post-launch trajectory begins at Centaur separation.
+
+ 2016-Oct-24: A slow-responding helium check-valve issue is being analyzed, 
+  resulting in delay of the main-engine burn to reduce orbit period from 53.4 
+  to 14 days. The next opportunity for the burn is December 11, 2016.
+
+ BACKGROUND:
+ The Juno spacecraft (New Frontiers mission-class) will investigate Jupiter's 
+ origins, interior structure, deep atmosphere and magnetosphere, from a highly 
+ elliptical polar orbit with a close perijove (PJ=1.06 Jupiter-radii, AJ= 39 
+ Jupiter-radii), using a suite of seven science instruments.
+
+ The Juno spacecraft launched aboard an Atlas V-551 rocket from Cape Canaveral, 
+ Fla., on Aug. 2011 at 16:25 UTC. It reached Jupiter in July 2016.  
+ 
+ The spacecraft will orbit Jupiter 76 times during its mission (now extended
+ into 2025 from its original pre-launch 19-month, 34-orbit plan), coming within
+ 3,100 miles (5,000 kilometers) of the planet's cloud tops.
+
+ MAJOR EVENTS 
+  Launch        : Aug 5,  2011 16:25 UTC 
+  Separation    : Aug 5,  2011 17:24:56.12  UTC
+  DSM-1         : Aug 30, 2012 22:29        UTC (344.95 m/s)
+  DSM-2         : Sep 3,  2012 22:29        UTC (387.77 m/s)
+  Shadow entry  : Oct 9,  2013 19:19:36     UTC (alt.= 7069 km, umbral)
+  Earth Flyby   : Oct 9,  2013 19:21:25     UTC (alt.= 558.848) 
+                   (lat=-34.170 deg,E.long= 34.008 deg
+  Shadow exit   : Oct 9,  2013 19:39:01     UTC (alt.= 14896 km, umbral)
+  Arrive Jupiter: Jul 5,  2016 02:30 UTC    (JOI to 53.5-day capture orbit, 
+                                             delta-v= 541.7 m/s)
+  Period Reduction Maneuver:
+                  Oct 19, 2016 (CANCELLED)  (Target 14-day orbit period,
+                                             delta-v= 395.2 m/s)
+  Ganymede flyby: Jun 07, 2021 (PJ34)       (1038 km from surface, per. 53->43 d) 
+  Europa flyby  : Sep 29, 2022 (PJ45)       Period from 43->38 days
+  Io flybys     : Dec 30, 2023 (PJ57)
+                  Feb  3, 2024 (PJ58)       Period reduced to 33 days
+  End of mission: Sep   , 2025 (PJ76)       Jupiter impact, 700 km below
+                                             1-bar atmospheric pressure level)
+
+ SPACECRAFT PHYSICAL  CHARACTERISTICS:
+  * Solar-powered, spin-stablized spacecraft 
+  * 1 rpm in interplanetary cruise, 2 rpm in Jupiter orbit
+  * Three 2x9 m solar panels equally spaced around hexagonal bus (20 m span)
+  * High-gain antenna
+
+ INSTRUMENTS: Juno's scientific payload includes:
+  * A gravity/radio science system
+  * A six-wavelength microwave radiometer for atmospheric sounding 
+     and composition
+  * A vector magnetometer
+  * Plasma and energetic particle detectors
+  * A radio/plasma wave experiment
+  * An ultraviolet imager/spectrometer
+  * An infrared imager/spectrometer
+
+ PROPULSION:
+  * Bipropellant engine: Leros 1B, thrust= 635 N,  Isp= 316.2 s min.
+  * RCS thrusters
+  * Orbit trim maneuvers (OTMs) occur on each orbit at perijove +4 hrs, 
+     beginning at PJ3. Target desired longitude at descending node after 
+     perijove.
+  * Total delta-V budget: 2107 m/s (~1852 m/s on bi-prop; remainder on RCS)
+
+ SPACECRAFT TRAJECTORY (from JPL navigation team)
+   The trajectory after 2024-Mar-12 is a planning prediction.
+
+   Trajectory name                         Start (TDB)         Stop (TDB)
+   ------------------------------        -----------------   -----------------
+   juno_cruise                           2011-Aug-05 17:19   2016-Jul-05 03:48 
+   juno_rec_orbit                        2016-Jul-05 03:48   2024-Feb-21 07:05
+   juno_pred_orbit                       2024-Feb-21 07:05   2024-May-15 03:39
+   spk_ref_231110_251016_231110          2024-May-15 03:39   2025-Oct-16 00:00
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Tue Apr 23 12:59:49 2024 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Juno (spacecraft) (-61)         {source: juno_merged_DE436}
+Center body name: Jupiter (599)                   {source: juno_merged_DE436}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2016-Aug-01 00:00:00.0000 TDB
+Stop  time      : A.D. 2016-Aug-30 00:00:00.0000 TDB
+Step-size       : 1440 minutes
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {W-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {W-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 71492.0, 71492.0, 66854.0 km    {Equator_a, b, pole_c}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 1 (position only)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,
+**************************************************************************************************************************
+$$SOE
+2457601.500000000, A.D. 2016-Aug-01 00:00:00.0000, -9.715989661520494E+04, -8.069269010848185E+06, -7.433815363085535E+05,
+2457602.500000000, A.D. 2016-Aug-02 00:00:00.0000, -9.771136526400637E+04, -8.063874530709459E+06, -6.963744817282031E+05,
+2457603.500000000, A.D. 2016-Aug-03 00:00:00.0000, -9.813266006690718E+04, -8.044200085184116E+06, -6.481291465651016E+05,
+2457604.500000000, A.D. 2016-Aug-04 00:00:00.0000, -9.823971739236118E+04, -8.010003010584785E+06, -5.987130153453108E+05,
+2457605.500000000, A.D. 2016-Aug-05 00:00:00.0000, -9.818028915939877E+04, -7.961210737088522E+06, -5.482046713715116E+05,
+2457606.500000000, A.D. 2016-Aug-06 00:00:00.0000, -9.790932339951591E+04, -7.897501885083148E+06, -4.966720350309219E+05,
+2457607.500000000, A.D. 2016-Aug-07 00:00:00.0000, -9.740702654601674E+04, -7.818730308787709E+06, -4.441908113427483E+05,
+2457608.500000000, A.D. 2016-Aug-08 00:00:00.0000, -9.681188183919583E+04, -7.724436917608920E+06, -3.908315983475498E+05,
+2457609.500000000, A.D. 2016-Aug-09 00:00:00.0000, -9.602127332699265E+04, -7.614416585969022E+06, -3.366763408725136E+05,
+2457610.500000000, A.D. 2016-Aug-10 00:00:00.0000, -9.506834158773608E+04, -7.488194302338297E+06, -2.818058648273200E+05,
+2457611.500000000, A.D. 2016-Aug-11 00:00:00.0000, -9.374597224608233E+04, -7.345091464248931E+06, -2.262988456527567E+05,
+2457612.500000000, A.D. 2016-Aug-12 00:00:00.0000, -9.222570759809071E+04, -7.184461149034223E+06, -1.702534078736142E+05,
+2457613.500000000, A.D. 2016-Aug-13 00:00:00.0000, -9.043387016951936E+04, -7.005396400958102E+06, -1.137712945101676E+05,
+2457614.500000000, A.D. 2016-Aug-14 00:00:00.0000, -8.838397663744973E+04, -6.807057426222727E+06, -5.697821913891239E+04,
+2457615.500000000, A.D. 2016-Aug-15 00:00:00.0000, -8.616787458046614E+04, -6.588142885426030E+06, -1.276157151488587E+01,
+2457616.500000000, A.D. 2016-Aug-16 00:00:00.0000, -8.371572623959031E+04, -6.347490022660663E+06,  5.694557491643960E+04,
+2457617.500000000, A.D. 2016-Aug-17 00:00:00.0000, -8.103397698627658E+04, -6.083401716715763E+06,  1.136843947466277E+05,
+2457618.500000000, A.D. 2016-Aug-18 00:00:00.0000, -7.787337494722487E+04, -5.793744042668963E+06,  1.699403568382745E+05,
+2457619.500000000, A.D. 2016-Aug-19 00:00:00.0000, -7.437762856422755E+04, -5.475894647845471E+06,  2.253598395782774E+05,
+2457620.500000000, A.D. 2016-Aug-20 00:00:00.0000, -7.040048566698587E+04, -5.126430450089279E+06,  2.794714691867274E+05,
+2457621.500000000, A.D. 2016-Aug-21 00:00:00.0000, -6.592625814712640E+04, -4.741050694055842E+06,  3.316027515703875E+05,
+2457622.500000000, A.D. 2016-Aug-22 00:00:00.0000, -6.091846064482030E+04, -4.313565216989472E+06,  3.807721891786631E+05,
+2457623.500000000, A.D. 2016-Aug-23 00:00:00.0000, -5.523957879728644E+04, -3.835580542865561E+06,  4.254177947483663E+05,
+2457624.500000000, A.D. 2016-Aug-24 00:00:00.0000, -4.869895565563390E+04, -3.293848498566220E+06,  4.628747177914606E+05,
+2457625.500000000, A.D. 2016-Aug-25 00:00:00.0000, -4.072192866206651E+04, -2.665918375685003E+06,  4.879453307937244E+05,
+2457626.500000000, A.D. 2016-Aug-26 00:00:00.0000, -3.075337480625144E+04, -1.906326695802707E+06,  4.879830937816663E+05,
+2457627.500000000, A.D. 2016-Aug-27 00:00:00.0000, -1.634059449605176E+04, -8.792099882994798E+05,  4.117234690825585E+05,
+2457628.500000000, A.D. 2016-Aug-28 00:00:00.0000, -2.677308734877220E+03, -6.880660386048006E+05, -5.459272513061155E+05,
+2457629.500000000, A.D. 2016-Aug-29 00:00:00.0000, -1.271483053983450E+04, -1.709637928573293E+06, -8.448699643155467E+05,
+2457630.500000000, A.D. 2016-Aug-30 00:00:00.0000, -2.094871350295438E+04, -2.465521580320240E+06, -1.001816559237042E+06,
+$$EOE
+**************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

@@ -82,7 +82,7 @@ kx = (I(3,3) - I(2,2))/I(1,1);
 ky = (I(3,3) - I(1,1))/I(2,2); 
 kz = (I(2,2) - I(1,1))/I(3,3);
 % *------------- parametri simulazione senza controllo  ----------------
-giorni_no_controllo = 18;
+giorni_no_controllo = 20;
 t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
@@ -397,7 +397,7 @@ kx = (I(3,3) - I(2,2))/I(1,1);
 ky = (I(3,3) - I(1,1))/I(2,2); 
 kz = (I(2,2) - I(1,1))/I(3,3);
 % *------------- parametri simulazione senza controllo SISTEMALA ORA ----------------
-giorni_no_controllo = 15;
+giorni_no_controllo = 20;
 t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
@@ -713,7 +713,7 @@ kx = (I(3,3) - I(2,2))/I(1,1);
 ky = (I(3,3) - I(1,1))/I(2,2); 
 kz = (I(2,2) - I(1,1))/I(3,3);
 % *------------- parametri simulazione senza controllo SISTEMALA ORA ----------------
-giorni_no_controllo = 15;
+giorni_no_controllo = 20;
 t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
