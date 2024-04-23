@@ -348,6 +348,10 @@ INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/colortbl/colortbl.sty
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/colortbl/colortbl.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/color.sty
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/makecell/makecell.sty
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/makecell/makecell.sty
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/makecell/makecell.sty
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/makecell/makecell.sty
 INPUT ../../Config/formats.tex
 INPUT ../../Config/formats.tex
 INPUT ../../Config/formats.tex
@@ -530,16 +534,12 @@ INPUT Sections/00_notation.tex
 INPUT ./Sections/00_notation.tex
 INPUT ./Sections/00_notation.tex
 INPUT Sections/00_notation.tex
-INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn8t.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpbn8t.vf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn8r.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbne.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpbn8t.vf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn8r.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbne.tfm
-INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmn8t.vf
-INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn8r.tfm
-INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmne.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmn8t.vf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn8r.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmne.tfm
@@ -567,6 +567,7 @@ INPUT Sections/03_architecture_rationale.tex
 INPUT ./Sections/03_architecture_rationale.tex
 INPUT ./Sections/03_architecture_rationale.tex
 INPUT Sections/03_architecture_rationale.tex
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn8t.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn7t.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn7t.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn7t.tfm
@@ -601,25 +602,39 @@ INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmn7c.vf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmnc.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmn7t.vf
-INPUT ./Sections/04_reverse_sizing.tex
-INPUT ./Sections/04_reverse_sizing.tex
-INPUT Sections/04_reverse_sizing.tex
-INPUT ./Sections/04_reverse_sizing.tex
-INPUT ./Sections/04_reverse_sizing.tex
-INPUT Sections/04_reverse_sizing.tex
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmn8t.vf
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn8r.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmne.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn8t.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn8t.tfm
+INPUT ./Images/foto_thruster.jpg
+INPUT Images/foto_thruster.jpg
+INPUT ./Images/foto_thruster.jpg
+INPUT ./Images/foto_thruster.jpg
+INPUT ./Images/foto_thruster.jpg
+INPUT ./Images/foto_thruster.jpg
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpbn7c.vf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbnc.tfm
+INPUT ./Sections/04_reverse_sizing.tex
+INPUT ./Sections/04_reverse_sizing.tex
+INPUT Sections/04_reverse_sizing.tex
+INPUT ./Sections/04_reverse_sizing.tex
+INPUT ./Sections/04_reverse_sizing.tex
+INPUT Sections/04_reverse_sizing.tex
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmit8t.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/t1jkptt.fd
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/t1jkptt.fd
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/t1jkptt.fd
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpttmn8t.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmit7c.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmit8t.vf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmit8r.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmite.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpttmn8t.vf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpttmn8r.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpttmne.tfm
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmit7c.vf
+INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmitc.tfm
 INPUT H4.aux
 INPUT ./H4.out
 INPUT ./H4.out

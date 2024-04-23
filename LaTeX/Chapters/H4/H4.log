@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  22 APR 2024 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  23 APR 2024 16:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -964,11 +964,16 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \c@LT@tables=\count449
 \c@LT@chunks=\count450
 \LT@p@ftn=\toks32
-)))) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/colortbl/colortbl.sty
+))) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
 \everycr=\toks33
 \minrowclearance=\skip89
 \rownum=\count451
+)) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen199
+\c@nlinenum=\count452
+\TeXr@lab=\toks34
 ) (../../Config/formats.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 Package biblatex Info: Redefining '\supercite' on input line 35.
@@ -1056,17 +1061,17 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count452
-\scratchdimen=\dimen199
+\scratchcounter=\count453
+\scratchdimen=\dimen256
 \scratchbox=\box113
-\nofMPsegments=\count453
-\nofMParguments=\count454
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count455
-\MPscratchDim=\dimen256
-\MPnumerator=\count456
-\makeMPintoPDFobject=\count457
-\everyMPtoPDFconversion=\toks35
+\nofMPsegments=\count454
+\nofMParguments=\count455
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count456
+\MPscratchDim=\dimen257
+\MPnumerator=\count457
+\makeMPintoPDFobject=\count458
+\everyMPtoPDFconversion=\toks36
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1102,7 +1107,7 @@ Package biblatex Info: ... file 'H4.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/../../Config/title_page_chapter.tex
-<../../Config/../../Config/Poli_logo.pdf, id=70, 527.9725pt x 415.5525pt>
+<../../Config/../../Config/Poli_logo.pdf, id=74, 527.9725pt x 415.5525pt>
 File: ../../Config/../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/../../Config/Poli_logo.pdf  used on input line 6.
@@ -1132,15 +1137,11 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \tf@toc=\write5
 \openout5 = `H4.toc'.
 
-\blx@maxsegment@1=\count458
-\blx@sectionciteorder@1=\count459
+\blx@maxsegment@1=\count459
+\blx@sectionciteorder@1=\count460
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex
-
-LaTeX Warning: Missing reference on input line 17.
-
-) [1] (Sections/01_introduction.tex) (Sections/02_modes.tex
+ (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex) (Sections/02_modes.tex
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 11.
  (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
@@ -1149,51 +1150,45 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 LaTeX Warning: Missing reference on input line 24.
 
 ) (Sections/03_architecture_rationale.tex
-
-LaTeX Warning: Missing reference on input line 12.
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.36 
       [1]
-Overfull \hbox (45.32956pt too wide) in paragraph at lines 43--50
- [][] 
- []
-
-
-LaTeX Warning: Missing reference on input line 65.
-
-) (Sections/04_reverse_sizing.tex)) [2]
+<Images/foto_thruster.jpg, id=131, 678.535pt x 360.34625pt>
+File: Images/foto_thruster.jpg Graphic file (type jpg)
+<use Images/foto_thruster.jpg>
+Package pdftex.def Info: Images/foto_thruster.jpg  used on input line 102.
+(pdftex.def)             Requested size: 358.50317pt x 190.38876pt.
+ [2] [3 <./Images/foto_thruster.jpg>]) (Sections/04_reverse_sizing.tex)) [4]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
 Package biblatex Info: Reference section=0 on input line 19.
- [3] (H4.aux)
+ [5] (H4.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H4.out' has not changed.
-(rerunfilecheck)             Checksum: B976143E28233D27B421FDCB8C6F3917;2654.
+(rerunfilecheck)             Checksum: C131540D7DF26DDC82EC0E6B66566A65;2757.
 Package logreq Info: Writing requests to 'H4.run.xml'.
 \openout1 = `H4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23823 strings out of 474436
- 411976 string characters out of 5739103
- 1941187 words of memory out of 5000000
- 45761 multiletter control sequences out of 15000+600000
- 667223 words of font info for 158 fonts, out of 8000000 for 9000
+ 24054 strings out of 474436
+ 415815 string characters out of 5739103
+ 1947187 words of memory out of 5000000
+ 45967 multiletter control sequences out of 15000+600000
+ 678329 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,16n,102p,1513b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,19n,102p,1513b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}{/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}</Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbsy.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmi.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmit8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmne.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpsy.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H4.pdf (5 pages, 136377 bytes).
+Output written on H4.pdf (7 pages, 208674 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -14,5 +14,6 @@
 \contentsline {section}{\numberline {3}Architecture and rationale of AOCS}{1}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Sensors}{1}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Actuators}{2}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Reverse sizing of AOCS}{2}{section.4}%
-\contentsline {section}{Bibliography}{3}{section.4}%
+\contentsline {subsection}{\numberline {3.3}Rationale}{3}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Reverse sizing of AOCS}{4}{section.4}%
+\contentsline {section}{Bibliography}{5}{section.4}%
