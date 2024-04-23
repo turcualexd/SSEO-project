@@ -7,8 +7,8 @@
 \contentsline {subsection}{\numberline {2.2}Earth Pointing Mode (EPM)}{1}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}GRAVity science Mode (GRAVM)}{1}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}MicroWave Radiometer Mode (MWRM)}{1}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Turn-Burn-Turn Mode (TBTM)}{1}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}VECtor Mode (VECM)}{1}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.5}Turn-Burn-Turn Mode (TBTM)}{2}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}VECtor Mode (VECM)}{2}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Spin Change Mode (SCM)}{2}{subsection.2.7}%
 \contentsline {subsection}{\numberline {2.8}Safe Modes}{2}{subsection.2.8}%
 \contentsline {section}{\numberline {3}Architecture and rationale of AOCS}{2}{section.3}%

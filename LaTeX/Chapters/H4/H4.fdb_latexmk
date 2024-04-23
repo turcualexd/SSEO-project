@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H4"] 0 "H4.bcf" "H4.bbl" "H4" 1713788044 -1
+["biber H4"] 0 "H4.bcf" "H4.bbl" "H4" 1713883932 -1
   "../../bibliography.bib" 1713771474 11029 14272441f51e76356419350617ff92dd ""
-  "H4.bcf" 1713788044 106747 e44ebd9d94656c6c2392ad51defc0019 "pdflatex"
+  "H4.bcf" 1713883931 106747 e44ebd9d94656c6c2392ad51defc0019 "pdflatex"
   (generated)
   "H4.bbl"
   "H4.blg"
   (rewritten before read)
-["pdflatex"] 1713788042 "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H4/H4.tex" "H4.pdf" "H4" 1713788044 0
+["pdflatex"] 1713883930 "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H4/H4.tex" "H4.pdf" "H4" 1713883932 0
   "../../Config//Poli_logo.pdf" 1712563480 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config//commands.tex" 1713771642 2086 1be4db513453bde042e78c746be5780e ""
   "../../Config//formats.tex" 1713771474 1818 04a9bcdee2dae368f8a5b3a24938da5e ""
@@ -154,15 +154,15 @@
   "C:/Miktex/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1713165721 98856 87a9ac9606a61c06eccae2e23d0ace3d ""
   "C:/Users/danie/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1671211142 10771596 76531b1fe281d06023726f73b68370e1 ""
-  "H4.aux" 1713788044 3731 970bc9c83b9e08b57b176ccac9d4ed94 "pdflatex"
+  "H4.aux" 1713883931 3731 8264a90a2523a01b7e15e6ad94297d58 "pdflatex"
   "H4.bbl" 1713771544 0 d41d8cd98f00b204e9800998ecf8427e "biber H4"
-  "H4.out" 1713788044 2354 b54d926d5b4c055a176138ac91c72e04 "pdflatex"
-  "H4.run.xml" 1713788044 2299 899075648a9dead6a5231dc3d33b8ed0 "pdflatex"
+  "H4.out" 1713883931 2354 b54d926d5b4c055a176138ac91c72e04 "pdflatex"
+  "H4.run.xml" 1713883931 2299 899075648a9dead6a5231dc3d33b8ed0 "pdflatex"
   "H4.tex" 1713771453 309 ac53f55a9a3332f64e13e85427394698 ""
-  "H4.toc" 1713788044 1165 0e619aef3cfa8ff373668954bc8609c6 "pdflatex"
+  "H4.toc" 1713883931 1165 0c308f1bed3fc4fc927f265512b9d05b "pdflatex"
   "Sections/00_notation.tex" 1713771453 562 ae4fd01ea1a02f90c11fba9eeab839ff ""
   "Sections/01_introduction.tex" 1713771453 716 db0fd13da1182ef9904599f1c20f60eb ""
-  "Sections/02_modes.tex" 1713788041 4492 ba216d52f15951c338e736ae98926496 ""
+  "Sections/02_modes.tex" 1713883929 6626 aad2844d3795eb9a98f75dd7b16a886c ""
   "Sections/03_architecture_rationale.tex" 1713771453 89 492e3c947c798ebcf8d481f280e0e278 ""
   "Sections/04_reverse_sizing.tex" 1713771453 61 d562974c7394eeecb1cb976d58397864 ""
   "c:/Users/danie/Documents/GitHub/SSEO-project/LaTeX/Chapters/H4/H4.tex" 1713771453 309 ac53f55a9a3332f64e13e85427394698 ""
