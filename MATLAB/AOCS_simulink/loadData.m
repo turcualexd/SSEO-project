@@ -1,4 +1,4 @@
-function R = loadData(filename)
+function [R av ev iv OMv omv thv]  = loadData(filename)
 
 % takes as an input a file name from nasa horizon with the following modes:
 % OOE, ICRF, ecliptic x-y plane, gregorian, km/s, CSV ON

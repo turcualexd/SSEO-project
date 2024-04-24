@@ -3,10 +3,11 @@ clear
 clc
 close all
 
+
 % ------ calcolo distanze dal sole nella inner cruise 
 
 T = readtable("horizons_results.txt",MissingRule="omitrow");
-giorni = [1 60];
+giorni = [1 61];
 clc
 ev  = table2array(T(1:60,3));
 rpv = table2array(T(1:60,4));
@@ -78,16 +79,17 @@ braccio_x = 2.7;
 braccio_y = 2.7;
 braccio_z = 3.2;
 
+giorni_no_controllo = 20;
+
 kx = (I(3,3) - I(2,2))/I(1,1);
 ky = (I(3,3) - I(1,1))/I(2,2); 
 kz = (I(2,2) - I(1,1))/I(3,3);
 % *------------- parametri simulazione senza controllo  ----------------
-giorni_no_controllo = 20;
 t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
 step_t = 0.5*t_s;
-t_f =  giorni_no_controllo*24*60*60; 
+t_f =  (19 * 24 + 23.5) * 3600;  
 gain_omega = [0 0 -95];
 gain_alphas = 0;
 gain_integ = 0;
@@ -196,7 +198,7 @@ sim_options.FixedStep = 'step_t';
 sim_options.StartTime = 't0';
 sim_options.StopTime = 't_f';
 
-t_f =  20*60; 
+t_f =  30*60; 
 
 tic
 results = sim("disturbi_inner_sim", sim_options);
@@ -321,7 +323,7 @@ close all
 % ------ calcolo distanze dal sole nella inner cruise 
 
 T = readtable("horizons_results.txt",MissingRule="omitrow");
-giorni = [61 659];
+giorni = [61 661];
 clc
 ev  = table2array(T(61:659,3));
 rpv = table2array(T(61:659,4));
@@ -402,7 +404,7 @@ t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
 step_t = 0.5*t_s;
-t_f =  giorni_no_controllo*24*60*60; 
+t_f =  (19*24 + 23.5 )*60*60; 
 gain_omega = [0 0 -95];
 gain_alphas = 0;
 gain_integ = 0;
@@ -511,7 +513,7 @@ sim_options.FixedStep = 'step_t';
 sim_options.StartTime = 't0';
 sim_options.StopTime = 't_f';
 
-t_f =  20*60; 
+t_f =  30*60; 
 
 tic
 results = sim("disturbi_inner_sim", sim_options);
@@ -626,7 +628,7 @@ m_prop_x = 2*2*th * tempo_x/(I_sp * 9.81)
 m_prop_y = 2*2*th * tempo_y/(I_sp * 9.81)
 m_prop_z = 2*2*th * tempo_z/(I_sp * 9.81)
 m_prop_singola_ora_inner = (m_prop_x + m_prop_y + m_prop_z)
-massa_totale_inner2 = (giorni(2)-giorni(1))/giorni_no_controllo * ( m_prop_singola_ora_inner + m_prop_z_continuo)
+massa_totale_inner2 = (giorni(2)-giorni(1))/giorni_no_controllo * (m_prop_singola_ora_inner + m_prop_z_continuo )
 
 %% inner cruise 3
 
@@ -637,7 +639,7 @@ close all
 % ------ calcolo distanze dal sole nella inner cruise 
 
 T = readtable("horizons_results.txt",MissingRule="omitrow");
-giorni = [660 821];
+giorni = [660 820];
 clc
 ev  = table2array(T(660:821,3));
 rpv = table2array(T(660:821,4));
@@ -718,7 +720,7 @@ t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
 step_t = 0.5*t_s;
-t_f =  giorni_no_controllo*24*60*60; 
+t_f =  (19 * 24 + 23.5) *60*60; 
 gain_omega = [0 0 -95];
 gain_alphas = 0;
 gain_integ = 0;
@@ -827,7 +829,7 @@ sim_options.FixedStep = 'step_t';
 sim_options.StartTime = 't0';
 sim_options.StopTime = 't_f';
 
-t_f =  20*60; 
+t_f =  30*60; 
 
 tic
 results = sim("disturbi_inner_sim", sim_options);
