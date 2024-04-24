@@ -1,3 +1,28 @@
 \section{Reverse sizing of AOCS}
 \label{sec:AOCS_sizing}
 
+In this section a reverse sizing of the AOCS is performed with the use of a Simulink model, developed by the us. The whole process is based on some reasonable assumptions:
+
+\begin{itemize}
+    \item \textbf{Geometry}: Juno spacecraft has been modelled via SolidWorks software, simplifying its shapes but conserving the general dimensions, in particular size of the solar panels, the vault and the central body. The mass of the system is assumed to be constant throughout the whole mission, so the propellant mass is overestimated even before the applied margins. 
+    Principal moments of inertia are assumed to be aligned with the geometric axes of the model: this assumption is pretty compliant with the real satellite dynamic thanks to the actuators mounted on solar panel as described in \mref. 
+       
+    The view of the used shapes is presented in \autoref{fig:juno_cad}.
+    \cfig{juno_cad}{0.45}{Juno CAD model}
+
+    \item \textbf{Sensors}: the attitude of the spacecraft is assumed to be correct at all times. No errors are present as nor SRUs nor Imus nor SSSes were modelled.
+    \item \textbf{Thrusters}: al twelve thrusters are decoupled one from the other. This assumption forces the real dynamic of the spacecraft as the real satellite has to perform various burn via RCS while in the model only one burn is required. % da controllare la frase.
+    Different arms were considered as the thrusters are not symmetrical with respect to the centre of mass. 
+
+    \item \textbf{Controller}: as the performance of the various manuevers is influenced by the chosen control law, parameters as maximum angular speed and acceleration, total time of the manuevers are employed to verify the obtained results. 
+    
+    \item \textbf{Phases}: only two phases have been considered for disturbances correction with different disturbances: inner cruise from L+3 to L+822 wit SRP and jovian planetary phase. For the inner cruise phase three different sections are considered: inner cruise 1, from L+3 to L+63, inner cruise 2 from L+64 to L+661 and inner cruise 3, from L+661 to L+822. Sun pointing has been considered for all three sections as a worst case scenario sizing, even if inner cruise 2 is a Earth pointing mode ( Earth and Sun are almost aligned in this section so the reasoning is not that far off). During each section the SRP radiation is considered constant as the mean integral value calculated on the length of the section. For the correction manuevers, the following division was implemented: for 20 days only correction about the angular speed are considered as the attitude error is lower than the required as stated in \autoref{sec:AOCS_modes}; then, a 20 minutes correction manuever is performed to align the spinning axis with its nominal direction. Slew manoeuvres are also considered to take in to account the movement of the spacecraft relative to the Sun as the pointing cannot be considered inertial. The simulation take into account only one trial and assumes no difference are present between contiguous sections. 
+    
+    Jupiter planetary phase take into account SRP, magnetic disturbances and gravity gradient (GG). 
+    \item \textbf{Manoeuvres}: two different kind of manoeuvres were modelled. Slew manoeuvres at each DMS, where the TBTM is employed. A worst case scenario has been identified, within the DSMs requirements, with a change of 90° in angular momentum orientation. Observed rate of this manuever from REFERENZA NASA EYE shows an angular velocity of about 0.1 °/s. This value is used as the maximum value allowed. 
+    
+    Spin up and down modes are employed to change the spinning rate of the spacecraft to perform ME manoeuvres. In this mode, only the spin of the spacecraft along the main spin axis ( +Z-axis ) is controlled and no attitude corrections are performed.      
+
+\end{itemize}
+
+

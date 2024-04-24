@@ -49,4 +49,4 @@
 \contentsline {section}{\numberline {4.2}Breakdown of Juno modes}{27}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Architecture and rationale of AOCS}{27}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Reverse sizing of AOCS}{27}{section.4.4}%
-\contentsline {section}{Bibliography}{28}{section.4.4}%
+\contentsline {section}{Bibliography}{29}{figure.caption.38}%
