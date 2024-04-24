@@ -6,4 +6,6 @@
 \contentsline {section}{\numberline {3}Architecture and rationale of AOCS}{1}{section.3}%
 \contentsline {section}{\numberline {4}Reverse sizing of AOCS}{1}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Modelling hypothesis}{1}{subsection.4.1}%
-\contentsline {section}{Bibliography}{3}{figure.caption.4}%
+\contentsline {subsection}{\numberline {4.2}Simulink model description}{2}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Perturbations}{2}{subsection.4.3}%
+\contentsline {section}{Bibliography}{4}{table.caption.6}%

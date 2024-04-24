@@ -516,13 +516,13 @@ INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkps
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
-OUTPUT SSEO_final_report.toc
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
+OUTPUT SSEO_final_report.toc
 INPUT .\Body.tex
 INPUT .\Body.tex
 INPUT Body.tex
@@ -959,6 +959,12 @@ INPUT .\Chapters\H4\Images\juno_cad.png
 INPUT .\Chapters\H4\Images\juno_cad.png
 INPUT .\Chapters\H4\Images\juno_cad.png
 INPUT .\Chapters\H4\Images\juno_cad.png
+INPUT .\Chapters\H4\Images\simulink.png
+INPUT Chapters\H4\Images\simulink.png
+INPUT .\Chapters\H4\Images\simulink.png
+INPUT .\Chapters\H4\Images\simulink.png
+INPUT .\Chapters\H4\Images\simulink.png
+INPUT .\Chapters\H4\Images\simulink.png
 INPUT SSEO_final_report.aux
 INPUT .\SSEO_final_report.out
 INPUT .\SSEO_final_report.out

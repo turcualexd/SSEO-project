@@ -41,6 +41,13 @@
       \field{title}{Overview of the Juno Mission to Jupiter}
       \field{year}{2006}
     \endentry
+    \entry{nasa_eyes}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://eyes.nasa.gov}}
+      \field{title}{Eyes on the sola System}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

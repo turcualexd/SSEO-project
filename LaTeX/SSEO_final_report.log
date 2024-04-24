@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  24 APR 2024 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  24 APR 2024 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1103,7 +1103,7 @@ Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (Config/title_page_chapter.tex
-<Config/Poli_logo.pdf, id=210, 527.9725pt x 415.5525pt>
+<Config/Poli_logo.pdf, id=218, 527.9725pt x 415.5525pt>
 File: Config/Poli_logo.pdf Graphic file (type pdf)
 <use Config/Poli_logo.pdf>
 Package pdftex.def Info: Config/Poli_logo.pdf  used on input line 6.
@@ -1129,13 +1129,13 @@ LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 3
 File: ujkpsyc.fd 2006/08/15 v1.0
 ) [1
 
-{C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Config/Poli_logo.pdf>]) (SSEO_final_report.toc)
+{C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Config/Poli_logo.pdf>]) (SSEO_final_report.toc [1
+
+])
 \tf@toc=\write5
 \openout5 = `SSEO_final_report.toc'.
 
- [1
-
-] [2] (Body.tex
+ [2] (Body.tex
 \blx@maxsegment@1=\count459
 \blx@sectionciteorder@1=\count460
 Package biblatex Info: Reference section=1 on input line 1.
@@ -1152,31 +1152,31 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [2]) (Chapters/H1/Sections/04_functional_analysis.tex
-<Chapters/H1/Images/functional_analysis.pdf, id=337, 1656.9403pt x 1837.61531pt>
+<Chapters/H1/Images/functional_analysis.pdf, id=347, 1656.9403pt x 1837.61531pt>
 File: Chapters/H1/Images/functional_analysis.pdf Graphic file (type pdf)
 <use Chapters/H1/Images/functional_analysis.pdf>
 Package pdftex.def Info: Chapters/H1/Images/functional_analysis.pdf  used on input line 6.
 (pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
 ) (Chapters/H1/Sections/05_phases.tex [3 <./Chapters/H1/Images/functional_analysis.pdf>]) (Chapters/H1/Sections/06_conops.tex
-<Chapters/H1/Images/ConOps.pdf, id=352, 1596.39159pt x 499.24263pt>
+<Chapters/H1/Images/ConOps.pdf, id=362, 1596.39159pt x 499.24263pt>
 File: Chapters/H1/Images/ConOps.pdf Graphic file (type pdf)
 <use Chapters/H1/Images/ConOps.pdf>
 Package pdftex.def Info: Chapters/H1/Images/ConOps.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
 ) [4 <./Chapters/H1/Images/ConOps.pdf>] (Chapters/H1/Sections/07_payload.tex [5]
-<Chapters/H1/Images/Strumenti Juno.jpg, id=384, 1606.0pt x 1159.33125pt>
+<Chapters/H1/Images/Strumenti Juno.jpg, id=394, 1606.0pt x 1159.33125pt>
 File: Chapters/H1/Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Chapters/H1/Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Chapters/H1/Images/Strumenti Juno.jpg  used on input line 31.
 (pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
  [6 <./Chapters/H1/Images/Strumenti Juno.jpg>]) (Chapters/H1/Sections/08_mission_analysis.tex
-<Chapters/H1/Images/orbits.png, id=394, 305.943pt x 509.2626pt>
+<Chapters/H1/Images/orbits.png, id=404, 305.943pt x 509.2626pt>
 File: Chapters/H1/Images/orbits.png Graphic file (type png)
 <use Chapters/H1/Images/orbits.png>
 Package pdftex.def Info: Chapters/H1/Images/orbits.png  used on input line 7.
 (pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
  [7 <./Chapters/H1/Images/orbits.png (PNG copy)>]
-<Chapters/H1/Images/orbits_jupiter.jpg, id=409, 2609.75pt x 919.435pt>
+<Chapters/H1/Images/orbits_jupiter.jpg, id=419, 2609.75pt x 919.435pt>
 File: Chapters/H1/Images/orbits_jupiter.jpg Graphic file (type jpg)
 <use Chapters/H1/Images/orbits_jupiter.jpg>
 Package pdftex.def Info: Chapters/H1/Images/orbits_jupiter.jpg  used on input line 53.
@@ -1197,30 +1197,30 @@ Package biblatex Info: Setting label 'refsection:2' on input line 2.
 ] (Chapters/H2/Sections/01_ma_and_dv.tex [11]
 
 pdfTeX warning: pdflatex (file ./Chapters/H2/Images/trajectory.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapters/H2/Images/trajectory.pdf, id=465, 513.92pt x 385.44pt>
+<Chapters/H2/Images/trajectory.pdf, id=475, 513.92pt x 385.44pt>
 File: Chapters/H2/Images/trajectory.pdf Graphic file (type pdf)
 <use Chapters/H2/Images/trajectory.pdf>
 Package pdftex.def Info: Chapters/H2/Images/trajectory.pdf  used on input line 63.
 (pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
 [12 <./Chapters/H2/Images/trajectory.pdf>]) (Chapters/H2/Sections/02_prop_architecture.tex
-<Chapters/H2/Images/axis.jpg, id=502, 791.95876pt x 278.03876pt>
+<Chapters/H2/Images/axis.jpg, id=512, 791.95876pt x 278.03876pt>
 File: Chapters/H2/Images/axis.jpg Graphic file (type jpg)
 <use Chapters/H2/Images/axis.jpg>
 Package pdftex.def Info: Chapters/H2/Images/axis.jpg  used on input line 6.
 (pdftex.def)             Requested size: 384.11221pt x 134.85287pt.
  [13 <./Chapters/H2/Images/axis.jpg>]
-<Chapters/H2/Images/spin2.png, id=517, 499.26524pt x 201.75375pt>
+<Chapters/H2/Images/spin2.png, id=527, 499.26524pt x 201.75375pt>
 File: Chapters/H2/Images/spin2.png Graphic file (type png)
 <use Chapters/H2/Images/spin2.png>
 Package pdftex.def Info: Chapters/H2/Images/spin2.png  used on input line 17.
 (pdftex.def)             Requested size: 394.35739pt x 159.36215pt.
-<Chapters/H2/Images/foto_thruster.jpg, id=519, 678.535pt x 360.34625pt>
+<Chapters/H2/Images/foto_thruster.jpg, id=529, 678.535pt x 360.34625pt>
 File: Chapters/H2/Images/foto_thruster.jpg Graphic file (type jpg)
 <use Chapters/H2/Images/foto_thruster.jpg>
 Package pdftex.def Info: Chapters/H2/Images/foto_thruster.jpg  used on input line 21.
 (pdftex.def)             Requested size: 281.68385pt x 149.5904pt.
  [14 <./Chapters/H2/Images/spin2.png> <./Chapters/H2/Images/foto_thruster.jpg>]
-<Chapters/H2/Images/architettura_prop.pdf, id=538, 542.025pt x 391.4625pt>
+<Chapters/H2/Images/architettura_prop.pdf, id=548, 542.025pt x 391.4625pt>
 File: Chapters/H2/Images/architettura_prop.pdf Graphic file (type pdf)
 <use Chapters/H2/Images/architettura_prop.pdf>
 Package pdftex.def Info: Chapters/H2/Images/architettura_prop.pdf  used on input line 40.
@@ -1235,35 +1235,35 @@ Package biblatex Info: Setting label 'refsection:3' on input line 3.
  (Chapters/H3/Body.tex (Chapters/H3/Sections/00_notation.tex) [19
 
 ] (Chapters/H3/Sections/01_architecture.tex
-<Chapters/H3/Images/antennas_positioning.jpg, id=1067, 513.117pt x 325.215pt>
+<Chapters/H3/Images/antennas_positioning.jpg, id=1077, 513.117pt x 325.215pt>
 File: Chapters/H3/Images/antennas_positioning.jpg Graphic file (type jpg)
 <use Chapters/H3/Images/antennas_positioning.jpg>
 Package pdftex.def Info: Chapters/H3/Images/antennas_positioning.jpg  used on input line 4.
 (pdftex.def)             Requested size: 256.07481pt x 162.30438pt.
  [20 <./Chapters/H3/Images/antennas_positioning.jpg>] [21]
-<Chapters/H3/Images/DSNantenna.pdf, id=1102, 466.74374pt x 338.76563pt>
+<Chapters/H3/Images/DSNantenna.pdf, id=1112, 466.74374pt x 338.76563pt>
 File: Chapters/H3/Images/DSNantenna.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/DSNantenna.pdf>
 Package pdftex.def Info: Chapters/H3/Images/DSNantenna.pdf  used on input line 81.
 (pdftex.def)             Requested size: 256.07481pt x 185.86678pt.
-<Chapters/H3/Images/dsn_hga.jpg, id=1107, 581.17125pt x 310.15875pt>
+<Chapters/H3/Images/dsn_hga.jpg, id=1117, 581.17125pt x 310.15875pt>
 File: Chapters/H3/Images/dsn_hga.jpg Graphic file (type jpg)
 <use Chapters/H3/Images/dsn_hga.jpg>
 Package pdftex.def Info: Chapters/H3/Images/dsn_hga.jpg  used on input line 92.
 (pdftex.def)             Requested size: 409.72125pt x 218.66194pt.
 ) (Chapters/H3/Sections/02_phases.tex [22 <./Chapters/H3/Images/DSNantenna.pdf> <./Chapters/H3/Images/dsn_hga.jpg>]
-<Chapters/H3/Images/phases_antenna.pdf, id=1136, 489.32813pt x 263.48438pt>
+<Chapters/H3/Images/phases_antenna.pdf, id=1146, 489.32813pt x 263.48438pt>
 File: Chapters/H3/Images/phases_antenna.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/phases_antenna.pdf>
 Package pdftex.def Info: Chapters/H3/Images/phases_antenna.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 275.77823pt.
 ) (Chapters/H3/Sections/03_sizing.tex [23 <./Chapters/H3/Images/phases_antenna.pdf>]
-<Chapters/H3/Images/datarate.pdf, id=1185, 256.96pt x 192.72pt>
+<Chapters/H3/Images/datarate.pdf, id=1195, 256.96pt x 192.72pt>
 File: Chapters/H3/Images/datarate.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/datarate.pdf>
 Package pdftex.def Info: Chapters/H3/Images/datarate.pdf  used on input line 121.
 (pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
-<Chapters/H3/Images/ebn0.pdf, id=1186, 256.96pt x 192.72pt>
+<Chapters/H3/Images/ebn0.pdf, id=1196, 256.96pt x 192.72pt>
 File: Chapters/H3/Images/ebn0.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/ebn0.pdf>
 Package pdftex.def Info: Chapters/H3/Images/ebn0.pdf  used on input line 121.
@@ -1288,36 +1288,42 @@ LaTeX Warning: Missing reference on input line 17.
 
 LaTeX Warning: Missing reference on input line 12.
 
-<Chapters/H4/Images/juno_cad.png, id=1214, 371.58826pt x 386.04225pt>
+<Chapters/H4/Images/juno_cad.png, id=1224, 371.58826pt x 386.04225pt>
 File: Chapters/H4/Images/juno_cad.png Graphic file (type png)
 <use Chapters/H4/Images/juno_cad.png>
 Package pdftex.def Info: Chapters/H4/Images/juno_cad.png  used on input line 15.
-(pdftex.def)             Requested size: 230.46576pt x 239.43207pt.
-[27 <./Chapters/H4/Images/juno_cad.png>])) [28]
+(pdftex.def)             Requested size: 179.2555pt x 186.22887pt.
+[27 <./Chapters/H4/Images/juno_cad.png>]
+<Chapters/H4/Images/simulink.png, id=1233, 796.77675pt x 436.63126pt>
+File: Chapters/H4/Images/simulink.png Graphic file (type png)
+<use Chapters/H4/Images/simulink.png>
+Package pdftex.def Info: Chapters/H4/Images/simulink.png  used on input line 41.
+(pdftex.def)             Requested size: 332.89412pt x 182.42448pt.
+ [28 <./Chapters/H4/Images/simulink.png>])) [29]
 Package biblatex Info: Reference section=0 on input line 4.
-) [29] (SSEO_final_report.aux)
+) [30] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 4ACD51FC1B5A84DD1904609518D0371D;8256.
+(rerunfilecheck)             Checksum: 47C7700937356ABAAB5EFA3FBCC56B52;8580.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24840 strings out of 474436
- 437873 string characters out of 5741955
+ 24864 strings out of 474436
+ 438440 string characters out of 5741955
  1974190 words of memory out of 5000000
- 46480 multiletter control sequences out of 15000+600000
+ 46498 multiletter control sequences out of 15000+600000
  746931 words of font info for 263 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,102p,1950b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,17n,102p,1950b,2300s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (32 pages, 2501318 bytes).
+Output written on SSEO_final_report.pdf (33 pages, 2553925 bytes).
 PDF statistics:
- 1332 PDF objects out of 1440 (max. 8388607)
- 193 named destinations out of 1000 (max. 500000)
- 507 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1353 PDF objects out of 1440 (max. 8388607)
+ 198 named destinations out of 1000 (max. 500000)
+ 528 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,7 @@
 \section{Reverse sizing of AOCS}
 \label{sec:AOCS_sizing}
 
-In this section a reverse sizing of the AOCS is performed. The complexity of the dynamics of a spinning stabilized satellite only controlled via RCS required the use of a Simulink model, developed by the us. 
+In this section a reverse sizing of the AOCS is performed. The complexity of the dynamics of a spinning stabilized satellite only controlled via RCS required the use of a Simulink model, developed by us. 
 
 \subsection{Modelling hypothesis}
 \label{subsec: mod_hypo}
@@ -12,16 +12,20 @@ The preliminary reverse sizing process is based on some reasonable assumptions:
     Principal moments of inertia are assumed to be aligned with the geometric axes of the model: this assumption is pretty compliant with the real satellite dynamic thanks to the actuators mounted on solar panel as described in \mref. 
        
     The view of the used shapes is presented in \autoref{fig:juno_cad}.
-    \cfig{juno_cad}{0.45}{Juno CAD model}
+    \cfig{juno_cad}{0.35}{Juno CAD model}
 
-    \item \textbf{Sensors}: the attitude of the spacecraft is assumed to be correct at all times. No errors are present as nor SRUs nor Imus nor SSSes were modelled.
+    \item \textbf{Sensors}: the attitude of the spacecraft is assumed to be correct at all times. No errors are present as nor SRUs nor IMUs nor SSSes were modelled. QUI VEDERE SE AGGIUNGERE COSE
     
     \item \textbf{Thrusters}: all twelve thrusters are decoupled one from the other. This assumption changes the  dynamics of the spacecraft as the real satellite has to perform various burn via RCS while in the model only one burn is required. % da controllare la frase.
-    Different arms were considered as the thrusters are not symmetrical with respect to the centre of mass. 
+    Different arms were considered as the thrusters are not symmetrical with respect to the centre of mass. QUI VEDERE SE AGGIUNGERE COSE
 
     \item \textbf{Controller}: as the performance of the various manuevers is influenced by the chosen control law, parameters as maximum angular speed and acceleration, total time of the manuevers are employed to verify the obtained results. 
     
-    \item \textbf{Phases}: only two phases have been considered for disturbances correction with different disturbances: inner cruise from L+3 to L+822 wit SRP and jovian planetary phase. For the inner cruise phase three different sections are considered: inner cruise 1, from L+3 to L+63, inner cruise 2 from L+64 to L+661 and inner cruise 3, from L+661 to L+822. Sun pointing has been considered for all three sections as a worst case scenario sizing, even if inner cruise 2 is a Earth pointing mode (Earth and Sun are almost aligned in this section so the reasoning is not that far off). During each section the SRP radiation is considered constant as the mean integral value calculated on the length of the section. For the correction manuevers, the following division was implemented: for 20 days only correction about the angular speed are considered as the attitude error is lower than the required as stated in \autoref{sec:AOCS_modes}; then, a 20 minutes correction manuever is performed to align the spinning axis with its nominal direction. Slew manoeuvres are also considered to take in to account the movement of the spacecraft relative to the Sun as the pointing cannot be considered inertial. The simulation takes into account only one trial and assumes no difference are present between contiguous sections. Realignments of Juno's axis can be related to safe-modes and general correction manuevers as the system is able to handle different disturbances from the nominal orbit. 
+    % dire perchè non parliamo delle perturbazioni nella quei cruise 
+    \item \textbf{Phases}: only two phases have been considered for disturbances correction with different disturbances: inner cruise from L+3 to L+822 and jovian planetary phase. 
+    
+    For the inner cruise phase three different sections are considered: inner cruise 1, from L+3 to L+63, inner cruise 2 from L+64 to L+661 and inner cruise 3, from L+661 to L+822. Sun pointing has been considered for all three sections as a worst case scenario sizing, even if inner cruise 2 is a Earth pointing mode (Earth and Sun are almost aligned in this section so the reasoning is not that far off). During each section of the inner cruise, the SRP is considered constant as the integral mean value calculated on the length of the section.
+     For the correction manuevers, the following division was implemented: for 20 days only correction about the angular speed are considered as the attitude error is lower than the required as stated in \autoref{sec:AOCS_modes}; then, a 20 minutes correction manuever is performed to align the spinning axis with its nominal direction. Slew manoeuvres are also considered to take into account the movement of the spacecraft relative to the Sun as the pointing cannot be considered inertial. The simulation takes into account only one trial and assumes no difference are present between contiguous sections. Realignments of Juno's axis can be related to safe-modes and general to correction manuevers as the system is able to handle different disturbances from the nominal orbit. 
     
     Jupiter planetary phase take into account SRP, magnetic disturbances and gravity gradient (GG). The considered orbits for the simulation consists in a 11-days elliptical orbit, repeated for 33 times as the nominal mission required. 
 
@@ -30,5 +34,47 @@ The preliminary reverse sizing process is based on some reasonable assumptions:
     Spin up and down modes are employed to change the spinning rate of the spacecraft to perform ME manoeuvres. In this mode, only the spin of the spacecraft along the main spin axis ( +Z-axis ) is controlled and no attitude corrections are performed.      
 
 \end{itemize}
+
+\subsection{Simulink model description}
+\label{subsec:simulink}
+
+\cfig{simulink}{0.65}{Simulink model of the dynamics}
+
+The model used to mimic the dynamics of Juno is reported in \autoref{fig:simulink}. Here three main blocks can be distinguished:
+
+\begin{itemize}
+    \item \textbf{Dynamics and kinematics}: the behavior of the spacecraft is described by the Euler equations and the attitude kinematics is continuously updated via Euler angels. 
+    \item \textbf{Disturbances}: all the disturbances affecting Juno's attitude are here implemented. Based on the different requirements of the phase, only some are considered. For the planetary part, the highly elliptical orbit has been modelled as restricted two body problem. 
+    \item \textbf{Control}: this part is responsible of calculating the target attitude and its errors at each time-step, allowing the controller to satisfy the pointing requirements of the current phase. 
+\end{itemize}
+
+\subsection{Perturbations}
+\label{subsec:perturbations}
+
+There are four attitude perturbations that need to be analyzed: solar radiation pressure (SRP), gravity gradient (GG), magnetic and aerodynamic disturbance. In the special environment of Jupiter some of those had a significant impact on the spacecraft, while others could be neglected. 
+
+\begin{itemize}
+    \item \textbf{SRP}: this disturbance is considered both during the inner cruise and the jovian phase, however, in the latter phase, had a less relevant effect as the intensity of the radiation coming from the Sun goes with the inverse of the distance squared. Values considered in the different phases and sections are reported in \autoref{table:SRP}. As can be seen, as previously mentioned in \autoref{sec:AOCS_modes}, solar radiation is higher during Inner cruise 1 and 3, where the spacecraft is closer to the Sun. 
+    
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            $\boldsymbol{F_s Inner Cruise 1 [W/m^2]}$ & $\boldsymbol{F_s Inner Cruise 2 [W/m^2]}$ & $\boldsymbol{F_s Inner Cruise 3 [W/m^2]}$ & $\boldsymbol{F_s Jovian phase [W/m^2]}$ \\
+            \hline
+            \hline
+            1225 & 413 & 1339 & 4.08 $\cdot 10^{-2}$ \\
+            \hline
+        \end{tabular}
+        \caption{Solar constant variation}
+        \label{table:SRP}
+    \end{table}
+
+    SRP applies a torque on different surfaces: the cross section of Juno that faces the Sun is 70 $m^2$. This value was, as a first approximation, divided in three equal parts, as the number of solar arrays: the torque is computed by considering the SRP acting in the barycenter of each panel. The total torque is only applied to the Y-axis due to the geometry of the spacecraft. 
+    
+    
+\end{itemize}
+
 
 
