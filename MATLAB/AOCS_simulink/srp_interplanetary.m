@@ -65,7 +65,8 @@ A_cs = 70; % area frontale
 q = 0.55; % riflettività da slides
 % siamo in sun poiting quasi tutto il tmepo, quindi cos(I) = 1;
 % distanze calcolate sul modello solidworks semplificato 
-T_srp_inner = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * ( 2 * delta_c_12 + 4.5);
+T_srp_inner_x = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) *  4.5;
+T_srp_inner_yy = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * 2 * delta_c_12 ;
 
 % ------------ simulazione -------------
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
@@ -174,7 +175,7 @@ xlabel('time [min]')
 title('Control moment')
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
 consumo_z = sum(abs(M_c(:,3)))/(th*braccio_z);
 tempo_z = consumo_z * step_t;
@@ -299,7 +300,7 @@ title('Control moment')
 % end
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
 consumo_x = sum(abs(M_c(:,1)))/(th*braccio_x)
 consumo_y = sum(abs(M_c(:,2)))/(th*braccio_y)
@@ -381,7 +382,8 @@ A_cs = 70; % area frontale
 q = 0.55; % riflettività da slides
 % siamo in sun poiting quasi tutto il tmepo, quindi cos(I) = 1;
 % distanze calcolate sul modello solidworks semplificato 
-T_srp_inner = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * ( 2 * delta_c_12 + 4.5);
+T_srp_inner_x = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) *  4.5;
+T_srp_inner_yy = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * 2 * delta_c_12 ;
 
 % ------------ simulazione -------------
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
@@ -489,7 +491,7 @@ xlabel('time [min]')
 title('Control moment')
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
 consumo_z = sum(abs(M_c(:,3)))/(th*braccio_z);
 tempo_z = consumo_z * step_t;
@@ -614,7 +616,7 @@ title('Control moment')
 % end
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
 consumo_x = sum(abs(M_c(:,1)))/(th*braccio_x)
 consumo_y = sum(abs(M_c(:,2)))/(th*braccio_y)
@@ -697,7 +699,8 @@ A_cs = 70; % area frontale
 q = 0.55; % riflettività da slides
 % siamo in sun poiting quasi tutto il tmepo, quindi cos(I) = 1;
 % distanze calcolate sul modello solidworks semplificato 
-T_srp_inner = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * ( 2 * delta_c_12 + 4.5);
+T_srp_inner_x = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) *  4.5;
+T_srp_inner_yy = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * 2 * delta_c_12 ;
 
 % ------------ simulazione -------------
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
@@ -805,7 +808,7 @@ xlabel('time [min]')
 title('Control moment')
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
 consumo_z = sum(abs(M_c(:,3)))/(th*braccio_z);
 tempo_z = consumo_z * step_t;
@@ -930,7 +933,7 @@ title('Control moment')
 % end
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
 consumo_x = sum(abs(M_c(:,1)))/(th*braccio_x)
 consumo_y = sum(abs(M_c(:,2)))/(th*braccio_y)
