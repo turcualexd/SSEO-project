@@ -63,6 +63,7 @@ M_c = s.M_c;
 alphas = s.alphas;
 t = s.tout;
 A_b_n = s.A_bn;
+gg = s.gg;
 
 h_b = 0 * w;
 h_n = h_b;

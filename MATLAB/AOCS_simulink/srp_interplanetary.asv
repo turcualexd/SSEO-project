@@ -48,7 +48,7 @@ Sr = 1367/r_medio^2; % W/m2, calcolato con la media della distanza
 Sr_vect = 1367./(rn).^2;
 Sr_medio = trapz(Sr_vect)/length(rn); % calcolato come media delle radiazioni
 % ----- Sr_medio è quello da usare per la inner----
-3*astroConstants(4)/(2*(r_medio*astroConstants(2))^3)*(17593.63-11245.08)
+
 % figure
 % plot(Sr_vect)
 % hold on
@@ -67,7 +67,7 @@ q = 0.55; % riflettività da slides
 % distanze calcolate sul modello solidworks semplificato 
 T_srp_inner_x = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) *  4.5;
 T_srp_inner_yy = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * 2 * delta_c_12 ;
--T_srp_inner_x + 2*T_srp_inner_yy*sind(30)
+-T_srp_inner_x - 2*T_srp_inner_yy*sind(30)
 
 % ------------ simulazione -------------
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
@@ -353,7 +353,7 @@ end
 rn = vecnorm(R/astroConstants(2), 2); % valore già in AU
 
 r_medio = trapz(rn)/(length(rn));
-3*astroConstants(4)/(2*(r_medio*astroConstants(2))^3)*(17593.63-11245.08)
+
 % figure
 % plot(rn)
 % hold on
@@ -385,7 +385,7 @@ q = 0.55; % riflettività da slides
 % distanze calcolate sul modello solidworks semplificato 
 T_srp_inner_x = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) *  4.5;
 T_srp_inner_yy = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * 2 * delta_c_12 ;
--T_srp_inner_x + 2*T_srp_inner_yy*sind(30)
+-T_srp_inner_x - 2*T_srp_inner_yy*sind(30)
 % ------------ simulazione -------------
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
 I_inv = inv(I);
@@ -670,7 +670,7 @@ end
 rn = vecnorm(R/astroConstants(2), 2); % valore già in AU
 
 r_medio = trapz(rn)/(length(rn));
-3*astroConstants(4)/(2*(r_medio*astroConstants(2))^3)*(17593.63-11245.08)
+
 % figure
 % plot(rn)
 % hold on
@@ -702,7 +702,7 @@ q = 0.55; % riflettività da slides
 % distanze calcolate sul modello solidworks semplificato 
 T_srp_inner_x = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) *  4.5;
 T_srp_inner_yy = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * 2 * delta_c_12 ;
--T_srp_inner_x + 2*T_srp_inner_yy*sind(30)
+-T_srp_inner_x - 2*T_srp_inner_yy*sind(30)
 % ------------ simulazione -------------
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
 I_inv = inv(I);
