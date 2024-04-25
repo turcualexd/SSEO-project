@@ -35,8 +35,8 @@ Juno's AOCS employs the following main attitude sensors:
         \caption{A-STR specifications}
         \label{table:star_sensors}
     \end{table}
- 
-    \item \textbf{2 Spinning Sun Sensors (SSSes)} by Adcole Maryland Aerospace \cite{SSS}, also positioned on the edge of the forward deck with a similar orientation as the SRUs. They are specialized for attitude determination on a spinning spacecraft and allow for a fail safe recovery. Useful specifications are shown in \autoref{table:sun_sensors}.
+    
+    \item \textbf{2 Spinning Sun Sensors (SSSes)} by Adcole Maryland Aerospace \cite{SSS}, also positioned on the edge of the forward deck oriented in such a way to include both the Z-axis and a portion of the XY plane in their FOV. They are specialized for attitude determination on a spinning spacecraft and allow for a fail safe recovery. (Possible \mref) Useful specifications are shown in \autoref{table:sun_sensors}.
     
     % Assumiamo siano richiesti per proteggere le sru durante le main engine burn quando Juno non punta la terra o il sole e quindi le sru potrebbero puntare al sole
     \begin{table}[H]
@@ -64,8 +64,8 @@ Juno's AOCS employs the following main attitude sensors:
         \caption{SSSes specifications}
         \label{table:sun_sensors}
     \end{table}
- 
-    
+
+
     \item \textbf{2 Inertial Measurement Units (IMUs)} by Northrop (Hypothesizing heritage from Cassini \cite{gyro_evaluation} and MESSENGER \cite{messenger_imu}) inside Juno's radiation vault. One of their biggest advantage is utilizing Hemispherical Resonator Gyroscopes (HGRs) which, due to their construction and inner workings, are inherently radiation hardened and highly resistant to wear and ageing. In particular Scalable Space Inertial Reference Units (SSIRUs) \cite{SSIRU} are used which were also modified for this specific mission like the A-STR. Their nominal specifications are shown in \autoref{table:SSIRU}.
      
     \begin{table}[H]
@@ -138,10 +138,11 @@ Additional hardware is present on the spacecraft to aid attitude control, while 
 \subsection{Rationale}
 \label{subsec:Rationale}
 
-All specific AOCS components were mainly chosen for their high TRL, like in all other systems of the spacecraft, due both to the complexity of the mission and the harsh environment of Jupiter. Further criteria for the selection and positioning of each unit type can be highlighted:
+All specific AOCS components were mainly chosen for their high TRL and heritage, like in all other systems of the spacecraft, due both to the complexity of the mission and the harsh environment of Jupiter. Further criteria for the selection, positioning and use case of each unit type can be highlighted:
 \begin{itemize}
-    \item \textbf{SRUs:} star sensors are the most accurate and are capable of complete AD independently of any other sensor. Moreover magnetometers weren't really taken into consideration due to the lack of an accurate model of Jupiter's magnetic field. This leaves sun sensors and IMUs as possible options but neither could be used as the main source of AD due respectively to low accuracy or the need to be periodically realigned. SRUs positioning is dictated by the need of leaving their FOV unobstructed.
-    \item \textbf{SSSes:} sun sensors are still needed since during ME burns since the orientation of Juno during this manoeuvre could point the SRUs towards the Sun, possibly damaging them. The SSSes main goal is thus to detect the Sun before it gets too close to the SRUs FOV, in order to shut them when needed. This also explains their proximity to the SRUs.
-    \item \textbf{IMUs:} since the sun sensors aren't capable of a complete AD while the SRUs aren't being used, another component able to do so is required and IMUs were the only remaining choice. They are also employed during large precessions (larger than $\sim$2.5°) and required for active nutation damping and spin control.
-    \item \textbf{RCS Thrusters:} thrusters were chosen since they are able to provide a high control torque while remaining compact and integrated with the propulsion system. On the contrary reaction wheels and CMG would take up much more space to generate the same control action, thus being less space efficient and cumbersome. Magnetorquers, instead, weren't even considered for the same reasons as magnetometers. Regarding the thrusters' positioning, their orientation presented in \autoref{subsec:Actuators} are due to the need of limiting the interaction of the exhaust gasses with the on board instruments, the HGA and the solar arrays.     
+    \item \textbf{SRUs:} star sensors are the most accurate and are capable of complete AD independently of any other sensor, they are used during most of the mission when Juno is pointing either the Sun or the Earth, so in all modes except for the TBTM and safe modes, during which they are shut down. Magnetometers weren't really taken into consideration due to the lack of an accurate model of Jupiter's magnetic field. This leaves sun sensors and IMUs as possible options but neither could be used as the main source of AD due respectively to low accuracy or the need to be periodically realigned. SRUs positioning is dictated by the need of leaving their FOV unobstructed.
+    \item \textbf{SSSes:} one is always on to further enhance AD, while both of them are used during safe mode to obtain a coarse attitude determination if pointing knowledge is lost. Since a safe mode entry could happen at any point of the mission the SSSes FOV need to cover all possible orientations of Juno: Earth pointing, Sun pointing and the necessary pointing for ME burns.
+    \item \textbf{IMUs:} since the sun sensors aren't capable of a complete AD while the SRUs aren't being used, so during TBTM, another component able to do so is required and IMUs were the only remaining choice. They are also employed during large precessions (larger than $\sim$2.5°) and required for active nutation damping and spin control. \cite{juno_sito}
+    \item \textbf{RCS Thrusters:} thrusters were chosen since they are able to provide a high control torque while remaining compact and integrated with the propulsion system. On the contrary reaction wheels and CMG would take up much more space to generate the same control action, thus being less space efficient and cumbersome. Magnetorquers, instead, weren't even considered for the same reasons as magnetometers. Regarding the thrusters' positioning, their orientation presented in \autoref{subsec:Actuators} are due to the need of limiting the interaction of the exhaust gasses with the on board instruments, the HGA and the solar arrays. Being the only actuators present on-board, thrusters are used during all control modes.     
 \end{itemize}  
+ 
