@@ -2494,7 +2494,14 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="4">
-    <bcf:citekey order="3" intorder="1">2006_overview</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">kurth</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">kurth</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">stuart</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">shadan</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">stuart</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">mwr</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">shadan</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">juno_telecommunication</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

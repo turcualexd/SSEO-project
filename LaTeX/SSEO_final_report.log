@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  21 APR 2024 19:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  25 APR 2024 22:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1278,15 +1278,38 @@ Package biblatex Info: Reference section=0 on input line 3.
 \blx@sectionciteorder@4=\count463
 Package biblatex Info: Reference section=4 on input line 4.
 Package biblatex Info: Setting label 'refsection:4' on input line 4.
- (Chapters/H4/Body.tex (Chapters/H4//Sections/00_notation.tex
+ (Chapters/H4/Body.tex (Chapters/H4//Sections/00_notation.tex) [26
 
-LaTeX Warning: Missing reference on input line 17.
+] (Chapters/H4//Sections/01_introduction.tex) (Chapters/H4//Sections/02_modes.tex
+<Chapters/H4//Images/SPM.pdf, id=1243, 1204.5pt x 1053.9375pt>
+File: Chapters/H4//Images/SPM.pdf Graphic file (type pdf)
+<use Chapters/H4//Images/SPM.pdf>
+Package pdftex.def Info: Chapters/H4//Images/SPM.pdf  used on input line 15.
+(pdftex.def)             Requested size: 230.46576pt x 201.64932pt.
 
-) [26
 
-] (Chapters/H4//Sections/01_introduction.tex) (Chapters/H4//Sections/02_modes.tex) (Chapters/H4//Sections/03_architecture_rationale.tex) (Chapters/H4//Sections/04_reverse_sizing.tex)) [27]
+LaTeX Warning: Missing reference on input line 25.
+
+[27 <./Chapters/H4//Images/SPM.pdf>]
+
+LaTeX Warning: Missing reference on input line 75.
+
+<Chapters/H4//Images/alfa_025.pdf, id=1498, 338.76563pt x 301.125pt>
+File: Chapters/H4//Images/alfa_025.pdf Graphic file (type pdf)
+<use Chapters/H4//Images/alfa_025.pdf>
+Package pdftex.def Info: Chapters/H4//Images/alfa_025.pdf  used on input line 79.
+(pdftex.def)             Requested size: 245.82962pt x 218.52368pt.
+<Chapters/H4//Images/alfa_5.pdf, id=1499, 338.76563pt x 301.125pt>
+File: Chapters/H4//Images/alfa_5.pdf Graphic file (type pdf)
+<use Chapters/H4//Images/alfa_5.pdf>
+Package pdftex.def Info: Chapters/H4//Images/alfa_5.pdf  used on input line 79.
+(pdftex.def)             Requested size: 245.82962pt x 218.52368pt.
+[28 <./Chapters/H4//Images/alfa_025.pdf> <./Chapters/H4//Images/alfa_5.pdf
+
+pdfTeX warning: pdflatex (file ./Chapters/H4//Images/alfa_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]) (Chapters/H4//Sections/03_architecture_rationale.tex) (Chapters/H4//Sections/04_reverse_sizing.tex)) [29]
 Package biblatex Info: Reference section=0 on input line 4.
-) [28] (SSEO_final_report.aux)
+) [30] (SSEO_final_report.aux)
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
 (rerunfilecheck)             Checksum: 29F432E53E2AF084DFBDB7608BFD812A;9603.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
@@ -1294,17 +1317,17 @@ Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24997 strings out of 476361
- 443997 string characters out of 5788046
+ 25057 strings out of 476361
+ 445760 string characters out of 5788046
  1899993 words of memory out of 5000000
- 44700 multiletter control sequences out of 15000+600000
+ 44746 multiletter control sequences out of 15000+600000
  701149 words of font info for 259 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,17n,98p,1950b,2293s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (31 pages, 2470486 bytes).
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on SSEO_final_report.pdf (33 pages, 4580173 bytes).
 PDF statistics:
- 1355 PDF objects out of 1440 (max. 8388607)
- 197 named destinations out of 1000 (max. 500000)
- 558 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1652 PDF objects out of 1728 (max. 8388607)
+ 205 named destinations out of 1000 (max. 500000)
+ 573 words of extra memory for PDF output out of 10000 (max. 10000000)
 

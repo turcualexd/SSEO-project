@@ -50,11 +50,11 @@
 \contentsline {subsection}{\numberline {4.2.1}Sun Pointing Mode (SPM)}{27}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Earth Pointing Mode (EPM)}{27}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}GRAVity science Mode (GRAVM)}{27}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}MicroWave Radiometer Mode (MWRM)}{27}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Turn-Burn-Turn Mode (TBTM)}{27}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}VECtor Mode (VECM)}{27}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Spin Change Mode (SCM)}{27}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {4.2.8}Safe Modes}{27}{subsection.4.2.8}%
-\contentsline {section}{\numberline {4.3}Architecture and rationale of AOCS}{27}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Reverse sizing of AOCS}{27}{section.4.4}%
-\contentsline {section}{Bibliography}{28}{section.4.4}%
+\contentsline {subsection}{\numberline {4.2.4}MicroWave Radiometer Mode (MWRM)}{28}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Turn-Burn-Turn Mode (TBTM)}{28}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}VECtor Mode (VECM)}{29}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Spin Change Mode (SCM)}{29}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Safe Modes}{29}{subsection.4.2.8}%
+\contentsline {section}{\numberline {4.3}Architecture and rationale of AOCS}{29}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Reverse sizing of AOCS}{29}{section.4.4}%
+\contentsline {section}{Bibliography}{30}{section.4.4}%

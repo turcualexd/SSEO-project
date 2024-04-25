@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  21 APR 2024 20:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  25 APR 2024 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1136,35 +1136,50 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \blx@sectionciteorder@1=\count456
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex
-
-LaTeX Warning: Missing reference on input line 17.
-
-) [1] (Sections/01_introduction.tex) (Sections/02_modes.tex
+ (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex) (Sections/02_modes.tex
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 11.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
+<Images/SPM.pdf, id=98, 1204.5pt x 1053.9375pt>
+File: Images/SPM.pdf Graphic file (type pdf)
+<use Images/SPM.pdf>
+Package pdftex.def Info: Images/SPM.pdf  used on input line 15.
+(pdftex.def)             Requested size: 230.46576pt x 201.64932pt.
 
-LaTeX Warning: Missing reference on input line 24.
 
-) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex))
+LaTeX Warning: Missing reference on input line 25.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \bodyandbib
-                 [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
-LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
-File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
-)
+l.53 
+      [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/SPM.pdf>]
+
+LaTeX Warning: Missing reference on input line 75.
+
+<Images/alfa_025.pdf, id=355, 338.76563pt x 301.125pt>
+File: Images/alfa_025.pdf Graphic file (type pdf)
+<use Images/alfa_025.pdf>
+Package pdftex.def Info: Images/alfa_025.pdf  used on input line 79.
+(pdftex.def)             Requested size: 245.82962pt x 218.52368pt.
+<Images/alfa_5.pdf, id=356, 338.76563pt x 301.125pt>
+File: Images/alfa_5.pdf Graphic file (type pdf)
+<use Images/alfa_5.pdf>
+Package pdftex.def Info: Images/alfa_5.pdf  used on input line 79.
+(pdftex.def)             Requested size: 245.82962pt x 218.52368pt.
+[2 <./Images/alfa_025.pdf> <./Images/alfa_5.pdf
+
+pdfTeX warning: pdflatex (file ./Images/alfa_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex)) [3]
 Package biblatex Info: Reference section=0 on input line 19.
 
 
 Package caption Warning: Unused \captionsetup[table] on input line 57.
 See the caption package documentation for explanation.
 
-[2] (H4.aux)
+[4] (H4.aux)
 Package rerunfilecheck Info: File `H4.out' has not changed.
 (rerunfilecheck)             Checksum: 0AAEFAE3FFD64D4F3EAAB69EA3EB5160;2458.
 Package logreq Info: Writing requests to 'H4.run.xml'.
@@ -1172,17 +1187,17 @@ Package logreq Info: Writing requests to 'H4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23934 strings out of 476361
- 414365 string characters out of 5788046
- 1863993 words of memory out of 5000000
- 43954 multiletter control sequences out of 15000+600000
- 609778 words of font info for 125 fonts, out of 8000000 for 9000
+ 23965 strings out of 476361
+ 415289 string characters out of 5788046
+ 1867993 words of memory out of 5000000
+ 43981 multiletter control sequences out of 15000+600000
+ 603484 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,14n,98p,1514b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H4.pdf (4 pages, 121050 bytes).
+ 87i,10n,98p,1514b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb>
+Output written on H4.pdf (6 pages, 2223368 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
