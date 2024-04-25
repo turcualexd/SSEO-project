@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  23 APR 2024 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  25 APR 2024 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1293,15 +1293,24 @@ Package biblatex Info: Setting label 'refsection:4' on input line 4.
 
 LaTeX Warning: Missing reference on input line 24.
 
-) (Chapters/H4/Sections/03_architecture_rationale.tex [27]
-<Chapters/H4/Images/foto_thruster.jpg, id=1275, 678.535pt x 360.34625pt>
+
+LaTeX Warning: Missing reference on input line 37.
+
+
+LaTeX Warning: Missing reference on input line 39.
+
+
+LaTeX Warning: Missing reference on input line 42.
+
+[27]) (Chapters/H4/Sections/03_architecture_rationale.tex [28]
+<Chapters/H4/Images/foto_thruster.jpg, id=1283, 678.535pt x 360.34625pt>
 File: Chapters/H4/Images/foto_thruster.jpg Graphic file (type jpg)
 <use Chapters/H4/Images/foto_thruster.jpg>
-Package pdftex.def Info: Chapters/H4/Images/foto_thruster.jpg  used on input line 102.
+Package pdftex.def Info: Chapters/H4/Images/foto_thruster.jpg  used on input line 106.
 (pdftex.def)             Requested size: 358.50317pt x 190.38876pt.
- [28] [29 <./Chapters/H4/Images/foto_thruster.jpg>]) (Chapters/H4/Sections/04_reverse_sizing.tex)) [30]
+ [29] [30 <./Chapters/H4/Images/foto_thruster.jpg>]) (Chapters/H4/Sections/04_reverse_sizing.tex)) [31]
 Package biblatex Info: Reference section=0 on input line 4.
-) [31] (SSEO_final_report.aux)
+) [32] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -1317,17 +1326,17 @@ Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25119 strings out of 474424
- 443480 string characters out of 5741739
+ 25128 strings out of 474424
+ 443807 string characters out of 5741739
  1974496 words of memory out of 5000000
- 46743 multiletter control sequences out of 15000+600000
+ 46749 multiletter control sequences out of 15000+600000
  747662 words of font info for 265 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,19n,102p,1950b,2314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (34 pages, 2539708 bytes).
+Output written on SSEO_final_report.pdf (35 pages, 2546374 bytes).
 PDF statistics:
- 1421 PDF objects out of 1440 (max. 8388607)
- 216 named destinations out of 1000 (max. 500000)
+ 1436 PDF objects out of 1440 (max. 8388607)
+ 219 named destinations out of 1000 (max. 500000)
  587 words of extra memory for PDF output out of 10000 (max. 10000000)
 

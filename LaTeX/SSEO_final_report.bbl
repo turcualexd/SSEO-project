@@ -1136,6 +1136,35 @@
       \field{note}{Site: \url{http://www.astronautix.com/m/mr-111.html}}
       \field{title}{MR-111C datasheet}
     \endentry
+    \entry{LL_early_cruise}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=01c74ef466772b381dbbae5ba420fa82}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{fullhash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{fullhashraw}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{bibnamehash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{authorbibnamehash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{authornamehash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{authorfullhash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{authorfullhashraw}{01c74ef466772b381dbbae5ba420fa82}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno Spacecraft Operations Lessons Learned for Early Cruise Mission Phases}
+      \field{year}{2014}
+    \endentry
+    \entry{juno_sito}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{note}{Site: \url{https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn:nasa:pds:context:instrument_host:spacecraft.jno}}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
