@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  25 APR 2024 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  25 APR 2024 18:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1294,7 +1294,7 @@ File: Chapters/H4/Images/juno_cad.png Graphic file (type png)
 Package pdftex.def Info: Chapters/H4/Images/juno_cad.png  used on input line 17.
 (pdftex.def)             Requested size: 179.2555pt x 186.22887pt.
 [27 <./Chapters/H4/Images/juno_cad.png>]
-<Chapters/H4/Images/simulink.jpg, id=1238, 769.6755pt x 413.74574pt>
+<Chapters/H4/Images/simulink.jpg, id=1239, 769.6755pt x 413.74574pt>
 File: Chapters/H4/Images/simulink.jpg Graphic file (type jpg)
 <use Chapters/H4/Images/simulink.jpg>
 Package pdftex.def Info: Chapters/H4/Images/simulink.jpg  used on input line 43.
@@ -1326,17 +1326,17 @@ Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24881 strings out of 474436
- 438831 string characters out of 5741955
+ 24889 strings out of 474436
+ 439157 string characters out of 5741955
  1974190 words of memory out of 5000000
- 46509 multiletter control sequences out of 15000+600000
+ 46515 multiletter control sequences out of 15000+600000
  746931 words of font info for 263 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,17n,102p,1950b,2300s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (34 pages, 2581292 bytes).
+Output written on SSEO_final_report.pdf (34 pages, 2582825 bytes).
 PDF statistics:
- 1370 PDF objects out of 1440 (max. 8388607)
- 204 named destinations out of 1000 (max. 500000)
+ 1376 PDF objects out of 1440 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
  536 words of extra memory for PDF output out of 10000 (max. 10000000)
 

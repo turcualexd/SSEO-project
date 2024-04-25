@@ -48,6 +48,31 @@
       \field{note}{Site: \url{https://eyes.nasa.gov}}
       \field{title}{Eyes on the solar System}
     \endentry
+    \entry{slides_michele}{article}{}
+      \name{author}{1}{}{%
+        {{hash=122617ecb14dbe951259b61819009831}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Lavagna},
+           giveni={L\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{122617ecb14dbe951259b61819009831}
+      \strng{fullhash}{122617ecb14dbe951259b61819009831}
+      \strng{bibnamehash}{122617ecb14dbe951259b61819009831}
+      \strng{authorbibnamehash}{122617ecb14dbe951259b61819009831}
+      \strng{authornamehash}{122617ecb14dbe951259b61819009831}
+      \strng{authorfullhash}{122617ecb14dbe951259b61819009831}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Presentation}
+      \field{title}{Attitude and orbit determination and control}
+      \field{year}{2024}
+    \endentry
     \entry{jupiter_mag_field}{article}{}
       \name{author}{1}{}{%
         {{hash=df5082fd708f5af48ce8078afff396c6}{%
@@ -64,9 +89,9 @@
       \strng{authorbibnamehash}{df5082fd708f5af48ce8078afff396c6}
       \strng{authornamehash}{df5082fd708f5af48ce8078afff396c6}
       \strng{authorfullhash}{df5082fd708f5af48ce8078afff396c6}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Book}
@@ -89,9 +114,9 @@
       \strng{authorbibnamehash}{fe53f31965099b78dc31508fb03a4074}
       \strng{authornamehash}{fe53f31965099b78dc31508fb03a4074}
       \strng{authorfullhash}{fe53f31965099b78dc31508fb03a4074}
-      \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extraname}{3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Report}
