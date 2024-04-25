@@ -98,7 +98,7 @@ There are four attitude perturbations that need to be analyzed: solar radiation 
     
     \item \textbf{Magnetic Torque}: this disturbance was considered only around Jupiter. The model used to describe its magnetic field consists in a dipole modelled based on the work of Acuña et al\cite{jupiter_mag_field}, and its value is shy of $4.3\cdot 10^{-4}$ T. Juno's magnetic dipole was assumed from literature, considering an high value as a worst case scenario of $0.05 \; Am^2$.
     
-    \item \textbf{Atmospheric Drag}
+    \item \textbf{Atmospheric Drag}: this disturbance is meaningful only in case of a dense atmosphere. During the Inner Cruise phase, Juno is in the vacuum, so no atmosphere is present. For the planetary phase, the atmosphere can neglected as at 1000 km of altitude, density is in the order of $10^{-11}$ and Juno's lowest approach is above 4000 km. Supposing an exponential decay of the density with altitude, as in Earth's atmospheric model, the value of the density allows to not consider the atmospheric drag as a disturbance\cite{jupiter_density}.
     
         
 \end{itemize}
@@ -152,11 +152,7 @@ In this section results of the control action of the spacecraft in various scena
         \label{table:cruise}
     \end{table}
 
-    \item \textbf{Jovian planetary Phase}: while around Jupiter, Juno performs science while spinning at 2 RPM, ensuring natively an higher robustness to disturbances. Major correction must be performed near the pericentre of the orbit, as it speed approaches 58 km/s. 
-    
-    Atmospheric drag (?) .....
-
-
+    \item \textbf{Jovian planetary Phase}: while around Jupiter, Juno performs science while spinning at 2 RPM, ensuring natively an higher robustness to disturbances. Major correction must be performed near the pericentre of the orbit, as it speed approaches 58 km/s.  
     Requirements in pointing could be satisfied in this phase as the maximum error achieved during the simulation was lower than 0.025°.  Consumption of hydrazine is estimated at 1.01 kg per orbit, 33.24 for the whole nominal mission.
     An important note shall be made in regards of the planetary phase: propellant consumption is based on the 11-day orbit around Jupiter, planned but never actually performed. Consumption during the real 53-day orbit is actually lower, as both gravity gradient and magnetic disturbances diminish with distance, allowing for a longer life mission. 
     

@@ -64,6 +64,7 @@
       \strng{authorbibnamehash}{df5082fd708f5af48ce8078afff396c6}
       \strng{authornamehash}{df5082fd708f5af48ce8078afff396c6}
       \strng{authorfullhash}{df5082fd708f5af48ce8078afff396c6}
+      \field{extraname}{1}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -71,6 +72,31 @@
       \field{howpublished}{Book}
       \field{title}{Physics of the Jovian magnetosphere}
       \field{year}{1983}
+    \endentry
+    \entry{jupiter_density}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fe53f31965099b78dc31508fb03a4074}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Cianciolo},
+           giveni={C\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{fullhash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{bibnamehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{authorbibnamehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{authornamehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{authorfullhash}{fe53f31965099b78dc31508fb03a4074}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Report}
+      \field{title}{Jupiter Global Reference Atmospheric Model (Jupiter-GRAM): User Guide}
+      \field{year}{2021}
     \endentry
   \enddatalist
 \endrefsection
