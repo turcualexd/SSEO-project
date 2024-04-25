@@ -50,7 +50,7 @@ step_t = 0.5;
 gain_omega = -1;
 gain_alphas = [-1000; -1000; -10];
 gain_integ = 0;
-&
+
 dist = 1;
 
 model = "planetary_phase";

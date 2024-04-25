@@ -48,6 +48,30 @@
       \field{note}{Site: \url{https://eyes.nasa.gov}}
       \field{title}{Eyes on the sola System}
     \endentry
+    \entry{jupiter_mag_field}{article}{}
+      \name{author}{1}{}{%
+        {{hash=df5082fd708f5af48ce8078afff396c6}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Mario\bibnamedelimb H.\bibnamedelimi Acuña},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{fullhash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{bibnamehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{authorbibnamehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{authornamehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{authorfullhash}{df5082fd708f5af48ce8078afff396c6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Book}
+      \field{title}{Physics of the Jovian magnetosphere}
+      \field{year}{1983}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

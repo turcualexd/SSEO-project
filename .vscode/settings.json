@@ -5,6 +5,7 @@
         "beamwidth",
         "downconverter",
         "MFSK",
+        "Simulink",
         "subcarrier",
         "Telecommand",
         "TLGA"

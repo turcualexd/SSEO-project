@@ -6,7 +6,7 @@ clc
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
 I_inv = inv(I);
 A0 = [0 0 1; 0 1 0; -1 0 0];                                % assetto iniziale 
-n = 2 * pi/60;                                              % spin rate 1 rpm
+n =  2 *2 * pi/60;                                              % spin rate 1 rpm
 w0 = [0 0 n];                                               % velocitè angolare iniziale
 
 braccio_x = 2.7;
@@ -21,7 +21,7 @@ t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
 step_t = 0.5*t_s;
-t_f =  40*60; 
+t_f =  70*60; 
 gain_omega = -9500;
 gain_alphas = [-100 -100 -1]';
 
@@ -141,7 +141,7 @@ tempo_z = consumo_z * step_t;
 m_prop_x = 2*2*th * tempo_x/(I_sp * 9.81)
 m_prop_y = 2*2*th * tempo_y/(I_sp * 9.81)
 m_prop_z = 2*2*th * tempo_z/(I_sp * 9.81)
-m_prop_singola_dsm = 2*(m_prop_x + m_prop_y + m_prop_z)
+m_prop_singola_slew_90 = (m_prop_x + m_prop_y + m_prop_z)
 
 %% SPIN UP-down mode
 
@@ -149,7 +149,7 @@ clc
 close all
 clear
 
-spin = [1 5; 5 1; 1 5; 5 1; 1 2; 2 1; 1 5; 5 1; 1 5; 5 2]; % RPM inizio e fine per riga
+spin = [1 5; 5 1; 1 5; 5 1; 1 2; 2 1; 1 5; 5 2; 2 5; 5 2]; % RPM inizio e fine per riga
 massa_singolo_spin = zeros(1, size(spin, 1));
 massa_totale = 0;
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];            

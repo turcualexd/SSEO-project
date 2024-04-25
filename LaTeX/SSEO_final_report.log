@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  24 APR 2024 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  25 APR 2024 12:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -983,12 +983,13 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+jkp on input line 8.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
-) (SSEO_final_report.aux)
+)
+No file SSEO_final_report.aux.
 \openout1 = `SSEO_final_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 8.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 8.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omljkp.fd
+(C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -1083,7 +1084,6 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 8.
- (SSEO_final_report.out) (SSEO_final_report.out)
 \@outlinefile=\write4
 \openout4 = `SSEO_final_report.out'.
 
@@ -1103,7 +1103,7 @@ Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (Config/title_page_chapter.tex
-<Config/Poli_logo.pdf, id=218, 527.9725pt x 415.5525pt>
+<Config/Poli_logo.pdf, id=3, 527.9725pt x 415.5525pt>
 File: Config/Poli_logo.pdf Graphic file (type pdf)
 <use Config/Poli_logo.pdf>
 Package pdftex.def Info: Config/Poli_logo.pdf  used on input line 6.
@@ -1129,13 +1129,14 @@ LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 3
 File: ujkpsyc.fd 2006/08/15 v1.0
 ) [1
 
-{C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Config/Poli_logo.pdf>]) (SSEO_final_report.toc [1
-
-])
+{C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Config/Poli_logo.pdf>])
+No file SSEO_final_report.toc.
 \tf@toc=\write5
 \openout5 = `SSEO_final_report.toc'.
 
- [2] (Body.tex
+[1
+
+] (Body.tex
 \blx@maxsegment@1=\count459
 \blx@sectionciteorder@1=\count460
 Package biblatex Info: Reference section=1 on input line 1.
@@ -1152,31 +1153,54 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [2]) (Chapters/H1/Sections/04_functional_analysis.tex
-<Chapters/H1/Images/functional_analysis.pdf, id=347, 1656.9403pt x 1837.61531pt>
+
+LaTeX Warning: Reference `fig:functional_analysis' on page 3 undefined on input line 4.
+
+<Chapters/H1/Images/functional_analysis.pdf, id=79, 1656.9403pt x 1837.61531pt>
 File: Chapters/H1/Images/functional_analysis.pdf Graphic file (type pdf)
 <use Chapters/H1/Images/functional_analysis.pdf>
 Package pdftex.def Info: Chapters/H1/Images/functional_analysis.pdf  used on input line 6.
 (pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
-) (Chapters/H1/Sections/05_phases.tex [3 <./Chapters/H1/Images/functional_analysis.pdf>]) (Chapters/H1/Sections/06_conops.tex
-<Chapters/H1/Images/ConOps.pdf, id=362, 1596.39159pt x 499.24263pt>
+) (Chapters/H1/Sections/05_phases.tex [3 <./Chapters/H1/Images/functional_analysis.pdf>]
+
+LaTeX Warning: Reference `sec:mission_analysis' on page 4 undefined on input line 17.
+
+) (Chapters/H1/Sections/06_conops.tex
+
+LaTeX Warning: Reference `fig:ConOps' on page 4 undefined on input line 4.
+
+<Chapters/H1/Images/ConOps.pdf, id=94, 1596.39159pt x 499.24263pt>
 File: Chapters/H1/Images/ConOps.pdf Graphic file (type pdf)
 <use Chapters/H1/Images/ConOps.pdf>
 Package pdftex.def Info: Chapters/H1/Images/ConOps.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
-) [4 <./Chapters/H1/Images/ConOps.pdf>] (Chapters/H1/Sections/07_payload.tex [5]
-<Chapters/H1/Images/Strumenti Juno.jpg, id=394, 1606.0pt x 1159.33125pt>
+) [4 <./Chapters/H1/Images/ConOps.pdf>] (Chapters/H1/Sections/07_payload.tex
+
+LaTeX Warning: Reference `sec:goals' on page 5 undefined on input line 5.
+
+[5]
+
+LaTeX Warning: Reference `fig:Strumenti Juno' on page 6 undefined on input line 30.
+
+<Chapters/H1/Images/Strumenti Juno.jpg, id=127, 1606.0pt x 1159.33125pt>
 File: Chapters/H1/Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Chapters/H1/Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Chapters/H1/Images/Strumenti Juno.jpg  used on input line 31.
 (pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
- [6 <./Chapters/H1/Images/Strumenti Juno.jpg>]) (Chapters/H1/Sections/08_mission_analysis.tex
-<Chapters/H1/Images/orbits.png, id=404, 305.943pt x 509.2626pt>
+
+LaTeX Warning: Reference `table:Payload-goals correlation' on page 6 undefined on input line 34.
+
+
+LaTeX Warning: Reference `table:Payload-phases correlation' on page 6 undefined on input line 60.
+
+[6 <./Chapters/H1/Images/Strumenti Juno.jpg>]) (Chapters/H1/Sections/08_mission_analysis.tex
+<Chapters/H1/Images/orbits.png, id=136, 305.943pt x 509.2626pt>
 File: Chapters/H1/Images/orbits.png Graphic file (type png)
 <use Chapters/H1/Images/orbits.png>
 Package pdftex.def Info: Chapters/H1/Images/orbits.png  used on input line 7.
 (pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
  [7 <./Chapters/H1/Images/orbits.png (PNG copy)>]
-<Chapters/H1/Images/orbits_jupiter.jpg, id=419, 2609.75pt x 919.435pt>
+<Chapters/H1/Images/orbits_jupiter.jpg, id=155, 2609.75pt x 919.435pt>
 File: Chapters/H1/Images/orbits_jupiter.jpg Graphic file (type jpg)
 <use Chapters/H1/Images/orbits_jupiter.jpg>
 Package pdftex.def Info: Chapters/H1/Images/orbits_jupiter.jpg  used on input line 53.
@@ -1194,38 +1218,138 @@ Package biblatex Info: Reference section=2 on input line 2.
 Package biblatex Info: Setting label 'refsection:2' on input line 2.
  (Chapters/H2/Body.tex (Chapters/H2/Sections/00_notation.tex) [10
 
-] (Chapters/H2/Sections/01_ma_and_dv.tex [11]
+] (Chapters/H2/Sections/01_ma_and_dv.tex
+
+LaTeX Warning: Reference `subsec:simulation_interplanetary_trajectory' on page 11 undefined on input line 20.
+
+
+LaTeX Warning: Reference `subsec:me_rcs' on page 11 undefined on input line 23.
+
+
+LaTeX Warning: Reference `fig:axis' on page 11 undefined on input line 26.
+
+[11]
+
+LaTeX Warning: Reference `fig:trajectory' on page 12 undefined on input line 57.
+
+
 
 pdfTeX warning: pdflatex (file ./Chapters/H2/Images/trajectory.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapters/H2/Images/trajectory.pdf, id=475, 513.92pt x 385.44pt>
+<Chapters/H2/Images/trajectory.pdf, id=213, 513.92pt x 385.44pt>
 File: Chapters/H2/Images/trajectory.pdf Graphic file (type pdf)
 <use Chapters/H2/Images/trajectory.pdf>
 Package pdftex.def Info: Chapters/H2/Images/trajectory.pdf  used on input line 63.
 (pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
+
+LaTeX Warning: Reference `table:solution' on page 12 undefined on input line 88.
+
+
+LaTeX Warning: Reference `table:solution' on page 12 undefined on input line 97.
+
+
+LaTeX Warning: Reference `table:deltav' on page 12 undefined on input line 104.
+
 [12 <./Chapters/H2/Images/trajectory.pdf>]) (Chapters/H2/Sections/02_prop_architecture.tex
-<Chapters/H2/Images/axis.jpg, id=512, 791.95876pt x 278.03876pt>
+
+LaTeX Warning: Reference `fig:axis' on page 13 undefined on input line 4.
+
+<Chapters/H2/Images/axis.jpg, id=246, 791.95876pt x 278.03876pt>
 File: Chapters/H2/Images/axis.jpg Graphic file (type jpg)
 <use Chapters/H2/Images/axis.jpg>
 Package pdftex.def Info: Chapters/H2/Images/axis.jpg  used on input line 6.
 (pdftex.def)             Requested size: 384.11221pt x 134.85287pt.
- [13 <./Chapters/H2/Images/axis.jpg>]
-<Chapters/H2/Images/spin2.png, id=527, 499.26524pt x 201.75375pt>
+
+LaTeX Warning: Reference `table:deltav' on page 13 undefined on input line 13.
+
+
+LaTeX Warning: Reference `fig:spin2' on page 13 undefined on input line 15.
+
+[13 <./Chapters/H2/Images/axis.jpg>]
+<Chapters/H2/Images/spin2.png, id=264, 499.26524pt x 201.75375pt>
 File: Chapters/H2/Images/spin2.png Graphic file (type png)
 <use Chapters/H2/Images/spin2.png>
 Package pdftex.def Info: Chapters/H2/Images/spin2.png  used on input line 17.
 (pdftex.def)             Requested size: 394.35739pt x 159.36215pt.
-<Chapters/H2/Images/foto_thruster.jpg, id=529, 678.535pt x 360.34625pt>
+<Chapters/H2/Images/foto_thruster.jpg, id=266, 678.535pt x 360.34625pt>
 File: Chapters/H2/Images/foto_thruster.jpg Graphic file (type jpg)
 <use Chapters/H2/Images/foto_thruster.jpg>
 Package pdftex.def Info: Chapters/H2/Images/foto_thruster.jpg  used on input line 21.
 (pdftex.def)             Requested size: 281.68385pt x 149.5904pt.
- [14 <./Chapters/H2/Images/spin2.png> <./Chapters/H2/Images/foto_thruster.jpg>]
-<Chapters/H2/Images/architettura_prop.pdf, id=548, 542.025pt x 391.4625pt>
+
+
+LaTeX Warning: Reference `fig:foto_thruster' on page 14 undefined on input line 22.
+
+
+LaTeX Warning: Reference `fig:spin2' on page 14 undefined on input line 24.
+
+
+LaTeX Warning: Reference `fig:foto_thruster' on page 14 undefined on input line 24.
+
+
+LaTeX Warning: Reference `fig:architettura_prop' on page 14 undefined on input line 24.
+
+
+LaTeX Warning: Reference `subsec:me_rcs' on page 14 undefined on input line 31.
+
+[14 <./Chapters/H2/Images/spin2.png> <./Chapters/H2/Images/foto_thruster.jpg>]
+<Chapters/H2/Images/architettura_prop.pdf, id=279, 542.025pt x 391.4625pt>
 File: Chapters/H2/Images/architettura_prop.pdf Graphic file (type pdf)
 <use Chapters/H2/Images/architettura_prop.pdf>
 Package pdftex.def Info: Chapters/H2/Images/architettura_prop.pdf  used on input line 40.
 (pdftex.def)             Requested size: 281.68385pt x 203.4422pt.
-) (Chapters/H2/Sections/03_reverse_prop.tex [15 <./Chapters/H2/Images/architettura_prop.pdf>] [16])) [17]
+
+
+LaTeX Warning: Reference `fig:foto_thruster' on page 15 undefined on input line 42.
+
+
+LaTeX Warning: Reference `subsec:fuel_ox_sizing' on page 15 undefined on input line 49.
+
+) (Chapters/H2/Sections/03_reverse_prop.tex
+
+LaTeX Warning: Reference `subsec:tanks' on page 15 undefined on input line 4.
+
+
+LaTeX Warning: Reference `table:deltav' on page 15 undefined on input line 5.
+
+
+LaTeX Warning: Reference `table:deltav' on page 15 undefined on input line 14.
+
+[15 <./Chapters/H2/Images/architettura_prop.pdf>]
+
+LaTeX Warning: Reference `table:masses' on page 16 undefined on input line 36.
+
+
+LaTeX Warning: Reference `subsec:tanks' on page 16 undefined on input line 72.
+
+[16]
+
+LaTeX Warning: Reference `subsec:tanks' on page 17 undefined on input line 125.
+
+
+LaTeX Warning: Reference `subsec:fuel_ox_sizing' on page 17 undefined on input line 133.
+
+
+LaTeX Warning: Reference `table:materials' on page 17 undefined on input line 133.
+
+
+LaTeX Warning: Reference `table:sizing_helium' on page 17 undefined on input line 145.
+
+
+LaTeX Warning: Reference `subsec:fuel_ox_sizing' on page 17 undefined on input line 167.
+
+
+LaTeX Warning: Reference `table:deltav' on page 17 undefined on input line 167.
+
+
+LaTeX Warning: Reference `eq:me_iteration' on page 17 undefined on input line 167.
+
+
+LaTeX Warning: Reference `eq:rcs_iteration' on page 17 undefined on input line 167.
+
+
+LaTeX Warning: Reference `table:real_masses' on page 17 undefined on input line 174.
+
+)) [17]
 Package biblatex Info: Reference section=0 on input line 2.
  [18]
 \blx@maxsegment@3=\count463
@@ -1235,35 +1359,85 @@ Package biblatex Info: Setting label 'refsection:3' on input line 3.
  (Chapters/H3/Body.tex (Chapters/H3/Sections/00_notation.tex) [19
 
 ] (Chapters/H3/Sections/01_architecture.tex
-<Chapters/H3/Images/antennas_positioning.jpg, id=1077, 513.117pt x 325.215pt>
+<Chapters/H3/Images/antennas_positioning.jpg, id=801, 513.117pt x 325.215pt>
 File: Chapters/H3/Images/antennas_positioning.jpg Graphic file (type jpg)
 <use Chapters/H3/Images/antennas_positioning.jpg>
 Package pdftex.def Info: Chapters/H3/Images/antennas_positioning.jpg  used on input line 4.
 (pdftex.def)             Requested size: 256.07481pt x 162.30438pt.
- [20 <./Chapters/H3/Images/antennas_positioning.jpg>] [21]
-<Chapters/H3/Images/DSNantenna.pdf, id=1112, 466.74374pt x 338.76563pt>
+
+
+LaTeX Warning: Reference `fig:antennas_positioning' on page 20 undefined on input line 35.
+
+[20 <./Chapters/H3/Images/antennas_positioning.jpg>]
+
+LaTeX Warning: Reference `fig:antennas_positioning' on page 21 undefined on input line 50.
+
+
+LaTeX Warning: Reference `subsec:hga' on page 21 undefined on input line 68.
+
+
+LaTeX Warning: Reference `fig:DSNantenna' on page 21 undefined on input line 74.
+
+[21]
+<Chapters/H3/Images/DSNantenna.pdf, id=836, 466.74374pt x 338.76563pt>
 File: Chapters/H3/Images/DSNantenna.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/DSNantenna.pdf>
 Package pdftex.def Info: Chapters/H3/Images/DSNantenna.pdf  used on input line 81.
 (pdftex.def)             Requested size: 256.07481pt x 185.86678pt.
-<Chapters/H3/Images/dsn_hga.jpg, id=1117, 581.17125pt x 310.15875pt>
+
+
+LaTeX Warning: Reference `fig:dsn_hga' on page 22 undefined on input line 91.
+
+<Chapters/H3/Images/dsn_hga.jpg, id=840, 581.17125pt x 310.15875pt>
 File: Chapters/H3/Images/dsn_hga.jpg Graphic file (type jpg)
 <use Chapters/H3/Images/dsn_hga.jpg>
 Package pdftex.def Info: Chapters/H3/Images/dsn_hga.jpg  used on input line 92.
 (pdftex.def)             Requested size: 409.72125pt x 218.66194pt.
-) (Chapters/H3/Sections/02_phases.tex [22 <./Chapters/H3/Images/DSNantenna.pdf> <./Chapters/H3/Images/dsn_hga.jpg>]
-<Chapters/H3/Images/phases_antenna.pdf, id=1146, 489.32813pt x 263.48438pt>
+) (Chapters/H3/Sections/02_phases.tex
+
+LaTeX Warning: Reference `fig:phases_antenna' on page 22 undefined on input line 4.
+
+
+LaTeX Warning: Reference `table:link_phases' on page 22 undefined on input line 4.
+
+[22 <./Chapters/H3/Images/DSNantenna.pdf> <./Chapters/H3/Images/dsn_hga.jpg>]
+<Chapters/H3/Images/phases_antenna.pdf, id=868, 489.32813pt x 263.48438pt>
 File: Chapters/H3/Images/phases_antenna.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/phases_antenna.pdf>
 Package pdftex.def Info: Chapters/H3/Images/phases_antenna.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 275.77823pt.
+
+
+LaTeX Warning: Reference `fig:phases_antenna' on page 23 undefined on input line 30.
+
+
+LaTeX Warning: Reference `fig:phases_antenna' on page 23 undefined on input line 30.
+
+
+LaTeX Warning: Reference `fig:phases_antenna' on page 23 undefined on input line 30.
+
 ) (Chapters/H3/Sections/03_sizing.tex [23 <./Chapters/H3/Images/phases_antenna.pdf>]
-<Chapters/H3/Images/datarate.pdf, id=1195, 256.96pt x 192.72pt>
+
+LaTeX Warning: Reference `subsec:hga' on page 24 undefined on input line 21.
+
+
+LaTeX Warning: Reference `table:dati_HGA' on page 24 undefined on input line 27.
+
+
+LaTeX Warning: Reference `table:results_HGA' on page 24 undefined on input line 27.
+
+
+LaTeX Warning: Reference `fig:datarate' on page 24 undefined on input line 27.
+
+
+LaTeX Warning: Reference `fig:ebn0' on page 24 undefined on input line 27.
+
+<Chapters/H3/Images/datarate.pdf, id=905, 256.96pt x 192.72pt>
 File: Chapters/H3/Images/datarate.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/datarate.pdf>
 Package pdftex.def Info: Chapters/H3/Images/datarate.pdf  used on input line 121.
 (pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
-<Chapters/H3/Images/ebn0.pdf, id=1196, 256.96pt x 192.72pt>
+<Chapters/H3/Images/ebn0.pdf, id=906, 256.96pt x 192.72pt>
 File: Chapters/H3/Images/ebn0.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/ebn0.pdf>
 Package pdftex.def Info: Chapters/H3/Images/ebn0.pdf  used on input line 121.
@@ -1286,44 +1460,192 @@ LaTeX Warning: Missing reference on input line 17.
 
 ] (Chapters/H4/Sections/01_introduction.tex) (Chapters/H4/Sections/02_modes.tex) (Chapters/H4/Sections/03_architecture_rationale.tex) (Chapters/H4/Sections/04_reverse_sizing.tex
 
-LaTeX Warning: Missing reference on input line 12.
+LaTeX Warning: Missing reference on input line 13.
 
-<Chapters/H4/Images/juno_cad.png, id=1224, 371.58826pt x 386.04225pt>
+
+LaTeX Warning: Reference `fig:juno_cad' on page 27 undefined on input line 16.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 17.
+
+Chapters/H4/Sections/04_reverse_sizing.tex:17: Missing number, treated as zero.
+<to be read again> 
+                   J
+l.17     \rfig{juno_cad}{0.35}{Juno CAD model}
+                                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H4/Sections/04_reverse_sizing.tex:17: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   J
+l.17     \rfig{juno_cad}{0.35}{Juno CAD model}
+                                              
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Chapters/H4/Sections/04_reverse_sizing.tex:17: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.17     \rfig{juno_cad}{0.35}{Juno CAD model}
+                                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H4/Sections/04_reverse_sizing.tex:17: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.17     \rfig{juno_cad}{0.35}{Juno CAD model}
+                                              
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<Chapters/H4/Images/juno_cad.png, id=936, 371.58826pt x 386.04225pt>
 File: Chapters/H4/Images/juno_cad.png Graphic file (type png)
 <use Chapters/H4/Images/juno_cad.png>
-Package pdftex.def Info: Chapters/H4/Images/juno_cad.png  used on input line 15.
-(pdftex.def)             Requested size: 179.2555pt x 186.22887pt.
-[27 <./Chapters/H4/Images/juno_cad.png>]
-<Chapters/H4/Images/simulink.png, id=1233, 796.77675pt x 436.63126pt>
-File: Chapters/H4/Images/simulink.png Graphic file (type png)
-<use Chapters/H4/Images/simulink.png>
-Package pdftex.def Info: Chapters/H4/Images/simulink.png  used on input line 41.
-(pdftex.def)             Requested size: 332.89412pt x 182.42448pt.
- [28 <./Chapters/H4/Images/simulink.png>])) [29]
+Package pdftex.def Info: Chapters/H4/Images/juno_cad.png  used on input line 17.
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Overfull \hbox (20.38997pt too wide) in paragraph at lines 17--17
+[]\T1/jkp/m/n/10 Juno
+ []
+
+
+Overfull \hbox (21.88998pt too wide) in paragraph at lines 17--17
+\T1/jkp/m/n/10 CAD
+ []
+
+
+Overfull \hbox (27.87996pt too wide) in paragraph at lines 17--17
+\T1/jkp/m/n/10 model[][] 
+ []
+
+
+Overfull \hbox (52.07994pt too wide) in paragraph at lines 17--17
+[][]\T1/jkp/m/n/10 Figure 4.17[][]:
+ []
+
+
+Overfull \hbox (18.94998pt too wide) in paragraph at lines 17--17
+[]|\T1/jkp/m/n/10 0.35| 
+ []
+
+Chapters/H4/Sections/04_reverse_sizing.tex:17: Extra }, or forgotten \endgroup.
+\endwrapfigure ...ip \egroup \box \z@ \fi \egroup 
+                                                  \WF@floatstyhook \def \wid...
+l.17     \rfig{juno_cad}{0.35}{Juno CAD model}
+                                              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 17.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 19.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 21.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 24.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 27.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 29.
+
+
+LaTeX Warning: Reference `sec:AOCS_modes' on page 27 undefined on input line 30.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 32.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 34.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 36.
+
+<Chapters/H4/Images/simulink.jpg, id=938, 788.9475pt x 402.303pt>
+File: Chapters/H4/Images/simulink.jpg Graphic file (type jpg)
+<use Chapters/H4/Images/simulink.jpg>
+Package pdftex.def Info: Chapters/H4/Images/simulink.jpg  used on input line 43.
+(pdftex.def)             Requested size: 332.89412pt x 169.75185pt.
+[27]
+
+LaTeX Warning: Reference `fig:simulink' on page 28 undefined on input line 45.
+
+
+LaTeX Warning: Reference `table:SRP' on page 28 undefined on input line 61.
+
+
+LaTeX Warning: Reference `sec:AOCS_modes' on page 28 undefined on input line 61.
+
+
+LaTeX Warning: Reference `table:GGG' on page 28 undefined on input line 82.
+
+[28 <./Chapters/H4/Images/simulink.jpg>]
+
+LaTeX Warning: Missing reference on input line 133.
+
+)) [29]
 Package biblatex Info: Reference section=0 on input line 4.
-) [30] (SSEO_final_report.aux)
+) [30 <./Chapters/H4/Images/juno_cad.png>] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 47C7700937356ABAAB5EFA3FBCC56B52;8580.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `SSEO_final_report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SSEO_final_report.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  E5DE87A3A101A3465AEE7C52F7269601;8773.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                SSEO_final_report
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24864 strings out of 474436
- 438440 string characters out of 5741955
+ 24802 strings out of 474436
+ 437355 string characters out of 5741955
  1974190 words of memory out of 5000000
- 46498 multiletter control sequences out of 15000+600000
+ 46441 multiletter control sequences out of 15000+600000
  746931 words of font info for 263 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,102p,1950b,2300s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,17n,102p,1950b,1911s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (33 pages, 2553925 bytes).
+Output written on SSEO_final_report.pdf (32 pages, 2535849 bytes).
 PDF statistics:
- 1353 PDF objects out of 1440 (max. 8388607)
- 198 named destinations out of 1000 (max. 500000)
- 528 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1073 PDF objects out of 1200 (max. 8388607)
+ 201 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  24 APR 2024 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  25 APR 2024 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1102,7 +1102,7 @@ Package biblatex Info: ... file 'H4.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config/Poli_logo.pdf, id=43, 527.9725pt x 415.5525pt>
+<../../Config/Poli_logo.pdf, id=47, 527.9725pt x 415.5525pt>
 File: ../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/Poli_logo.pdf  used on input line 6.
@@ -1146,25 +1146,29 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 11
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
 
-LaTeX Warning: Missing reference on input line 12.
+LaTeX Warning: Missing reference on input line 13.
 
-<Images/juno_cad.png, id=79, 371.58826pt x 386.04225pt>
+<Images/juno_cad.png, id=84, 371.58826pt x 386.04225pt>
 File: Images/juno_cad.png Graphic file (type png)
 <use Images/juno_cad.png>
-Package pdftex.def Info: Images/juno_cad.png  used on input line 15.
+Package pdftex.def Info: Images/juno_cad.png  used on input line 17.
 (pdftex.def)             Requested size: 179.2555pt x 186.22887pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 
+l.31 
       [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/juno_cad.png>]
-<Images/simulink.png, id=89, 796.77675pt x 436.63126pt>
-File: Images/simulink.png Graphic file (type png)
-<use Images/simulink.png>
-Package pdftex.def Info: Images/simulink.png  used on input line 41.
-(pdftex.def)             Requested size: 332.89412pt x 182.42448pt.
- [2 <./Images/simulink.png>])) [3]
+<Images/simulink.jpg, id=95, 788.9475pt x 402.303pt>
+File: Images/simulink.jpg Graphic file (type jpg)
+<use Images/simulink.jpg>
+Package pdftex.def Info: Images/simulink.jpg  used on input line 43.
+(pdftex.def)             Requested size: 332.89412pt x 169.75185pt.
+ [2 <./Images/simulink.jpg>]
+
+LaTeX Warning: Missing reference on input line 133.
+
+)) [3]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1176,23 +1180,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H4.out' has not changed.
-(rerunfilecheck)             Checksum: 9BFCB364DF69B0D17163745981DBCAAE;1456.
+(rerunfilecheck)             Checksum: 398631BC66F7ADB1EB2A7CCD4DB21C65;1645.
 Package logreq Info: Writing requests to 'H4.run.xml'.
 \openout1 = `H4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23840 strings out of 474436
- 409154 string characters out of 5741955
- 1940190 words of memory out of 5000000
- 45777 multiletter control sequences out of 15000+600000
- 667253 words of font info for 158 fonts, out of 8000000 for 9000
+ 23817 strings out of 474436
+ 409010 string characters out of 5741955
+ 1944190 words of memory out of 5000000
+ 45760 multiletter control sequences out of 15000+600000
+ 655560 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,15n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H4.pdf (6 pages, 211769 bytes).
+ 87i,14n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H4.pdf (6 pages, 232161 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
