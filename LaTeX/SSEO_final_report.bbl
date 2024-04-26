@@ -971,6 +971,32 @@
       \field{title}{MWR: Microwave Radiometer for the Juno Mission to Jupiter}
       \field{year}{2017}
     \endentry
+    \entry{juno_inner}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1f38713a359af2dce5019a1ed3b581fa}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi Pavlak},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{fullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{bibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorbibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{AIAA space forum}
+      \field{note}{Site: \url{https://arc.aiaa.org/}}
+      \field{title}{Maneuver Design for the Juno Mission: Inner Cruise}
+      \field{year}{2018}
+    \endentry
     \entry{juno_telecommunication}{article}{}
       \name{author}{1}{}{%
         {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
@@ -987,14 +1013,271 @@
       \strng{authorbibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{extraname}{3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
       \field{title}{Juno Telecommunications}
       \field{year}{2012}
+    \endentry
+    \entry{SSS}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=89149fd254816f1cda3e9a2df4ecee7e}{%
+           family={Aerospace},
+           familyi={A\bibinitperiod},
+           given={Adcole\bibnamedelima Maryland},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{fullhash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{bibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authorbibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authornamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authorfullhash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://satcatalog.s3.amazonaws.com/components/362/SatCatalog_-_Adcole_Maryland_Aerospace_-_Fine_Spinning_Sun_Sensor_-_Datasheet.pdf?lastmod=20210708050522}}
+      \field{title}{Fine Spinning Sun Sensor}
+    \endentry
+    \entry{SRU}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bb0e2f69b05e24026482b65ed53ab65e}{%
+           family={S.p.A.},
+           familyi={S\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb0e2f69b05e24026482b65ed53ab65e}
+      \strng{fullhash}{bb0e2f69b05e24026482b65ed53ab65e}
+      \strng{bibnamehash}{bb0e2f69b05e24026482b65ed53ab65e}
+      \strng{authorbibnamehash}{bb0e2f69b05e24026482b65ed53ab65e}
+      \strng{authornamehash}{bb0e2f69b05e24026482b65ed53ab65e}
+      \strng{authorfullhash}{bb0e2f69b05e24026482b65ed53ab65e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://space.leonardo.com/documents/16277711/19573187/Copia_di_A_STR_Autonomous_Star_Trackers_LQ_mm07786_.pdf?t=1538987562062}}
+      \field{title}{AUTONOMOUS STAR TRACKERS}
+    \endentry
+    \entry{gyro_evaluation}{article}{}
+      \name{author}{1}{}{%
+        {{hash=952858ee0fada4fa26d85d349bcd086e}{%
+           family={Jerebets},
+           familyi={J\bibinitperiod},
+           given={Sergei\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{952858ee0fada4fa26d85d349bcd086e}
+      \strng{fullhash}{952858ee0fada4fa26d85d349bcd086e}
+      \strng{bibnamehash}{952858ee0fada4fa26d85d349bcd086e}
+      \strng{authorbibnamehash}{952858ee0fada4fa26d85d349bcd086e}
+      \strng{authornamehash}{952858ee0fada4fa26d85d349bcd086e}
+      \strng{authorfullhash}{952858ee0fada4fa26d85d349bcd086e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Gyro Evaluation for the Mission to Jupiter}
+      \field{year}{2007}
+    \endentry
+    \entry{messenger_imu}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c25bb6f391b5284fdbe4ccbb3f77882f}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Daniel\bibnamedelimb J.\bibnamedelimi O'Shaughnessy},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim O\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{c25bb6f391b5284fdbe4ccbb3f77882f}
+      \strng{fullhash}{c25bb6f391b5284fdbe4ccbb3f77882f}
+      \strng{bibnamehash}{c25bb6f391b5284fdbe4ccbb3f77882f}
+      \strng{authorbibnamehash}{c25bb6f391b5284fdbe4ccbb3f77882f}
+      \strng{authornamehash}{c25bb6f391b5284fdbe4ccbb3f77882f}
+      \strng{authorfullhash}{c25bb6f391b5284fdbe4ccbb3f77882f}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{MESSENGER IMU INTERFACE TIMING ISSUES AND IN-FLIGHT CALIBRATION RESULTS}
+      \field{year}{2006}
+    \endentry
+    \entry{SSIRU}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f4813cd6856477d5be96bb84f391598c}{%
+           family={Grumman},
+           familyi={G\bibinitperiod},
+           given={Northrop},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4813cd6856477d5be96bb84f391598c}
+      \strng{fullhash}{f4813cd6856477d5be96bb84f391598c}
+      \strng{bibnamehash}{f4813cd6856477d5be96bb84f391598c}
+      \strng{authorbibnamehash}{f4813cd6856477d5be96bb84f391598c}
+      \strng{authornamehash}{f4813cd6856477d5be96bb84f391598c}
+      \strng{authorfullhash}{f4813cd6856477d5be96bb84f391598c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://cdn.northropgrumman.com/-/media/wp-content/uploads/pdf/Scalable-SIRU-family-of-products-brochure.pdf?rev=57f1ba8ddcb44783b9e97f979b6e45d9}}
+      \field{title}{Scalable SIRU™ Family}
+    \endentry
+    \entry{ASC_details}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3070dac400d4ab7e2fc1a892407febb6}{%
+           family={Jack\bibnamedelima Connerney},
+           familyi={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Patricia\bibnamedelima Lawton},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3070dac400d4ab7e2fc1a892407febb6}
+      \strng{fullhash}{3070dac400d4ab7e2fc1a892407febb6}
+      \strng{bibnamehash}{3070dac400d4ab7e2fc1a892407febb6}
+      \strng{authorbibnamehash}{3070dac400d4ab7e2fc1a892407febb6}
+      \strng{authornamehash}{3070dac400d4ab7e2fc1a892407febb6}
+      \strng{authorfullhash}{3070dac400d4ab7e2fc1a892407febb6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno Magnetometer (MAG) Standard Product Data Record and Archive Volume Software Interface Specification}
+      \field{year}{2018}
+    \endentry
+    \entry{RCS_info}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online Communication}
+      \field{note}{Site: \url{https://www.proquest.com}}
+      \field{title}{Aerojet Rocketdyne Propulsion plays role in Juno mission}
+      \field{year}{2016}
+    \endentry
+    \entry{RCS_values}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{http://www.astronautix.com/m/mr-111.html}}
+      \field{title}{MR-111C datasheet}
+    \endentry
+    \entry{LL_early_cruise}{article}{}
+      \name{author}{1}{}{%
+        {{hash=01c74ef466772b381dbbae5ba420fa82}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{fullhash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{bibnamehash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{authorbibnamehash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{authornamehash}{01c74ef466772b381dbbae5ba420fa82}
+      \strng{authorfullhash}{01c74ef466772b381dbbae5ba420fa82}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno Spacecraft Operations Lessons Learned for Early Cruise Mission Phases}
+      \field{year}{2014}
+    \endentry
+    \entry{juno_sito}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{note}{Site: \url{https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn:nasa:pds:context:instrument_host:spacecraft.jno}}
+    \endentry
+    \entry{nasa_eyes}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://eyes.nasa.gov}}
+      \field{title}{Eyes on the solar System}
+    \endentry
+    \entry{slides_michele}{article}{}
+      \name{author}{1}{}{%
+        {{hash=122617ecb14dbe951259b61819009831}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Lavagna},
+           giveni={L\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{122617ecb14dbe951259b61819009831}
+      \strng{fullhash}{122617ecb14dbe951259b61819009831}
+      \strng{bibnamehash}{122617ecb14dbe951259b61819009831}
+      \strng{authorbibnamehash}{122617ecb14dbe951259b61819009831}
+      \strng{authornamehash}{122617ecb14dbe951259b61819009831}
+      \strng{authorfullhash}{122617ecb14dbe951259b61819009831}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Presentation}
+      \field{title}{Attitude and orbit determination and control}
+      \field{year}{2024}
+    \endentry
+    \entry{jupiter_mag_field}{article}{}
+      \name{author}{1}{}{%
+        {{hash=df5082fd708f5af48ce8078afff396c6}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Mario\bibnamedelimb H.\bibnamedelimi Acuña},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{fullhash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{bibnamehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{authorbibnamehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{authornamehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{authorfullhash}{df5082fd708f5af48ce8078afff396c6}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Book}
+      \field{title}{Physics of the Jovian magnetosphere}
+      \field{year}{1983}
+    \endentry
+    \entry{jupiter_density}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fe53f31965099b78dc31508fb03a4074}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Cianciolo},
+           giveni={C\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{fullhash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{bibnamehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{authorbibnamehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{authornamehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{authorfullhash}{fe53f31965099b78dc31508fb03a4074}
+      \field{extraname}{7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Report}
+      \field{title}{Jupiter Global Reference Atmospheric Model (Jupiter-GRAM): User Guide}
+      \field{year}{2021}
     \endentry
   \enddatalist
 \endrefsection

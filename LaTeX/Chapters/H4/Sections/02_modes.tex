@@ -22,7 +22,7 @@ To assess a preliminary APE for this mode, the thermal requirement has been inte
 
 This condition has been selected since power generation results not to be critical at the distance at which this mode is triggered ($\lesssim 1.4$ AU) \cite{kurth}.
 The shadow of the antenna shall cover entirely the below vault as a first and conservative approximation.
-The resulting APE angle is reported in \mref.
+The resulting APE angle is reported in \autoref{table:pointing_budget}.
 This value is relatively high with respect to other more restrictive modes, hence it won't be the sizing factor for the choice of AOCS hardware.
 
 \subsection{Earth Pointing Mode (EPM)}
@@ -72,11 +72,11 @@ From ephemeris, the velocity vector after DSM-2 was taken as the nominal one.
 Then, in order to add the error due to APE, the nominal velocity was shifted within a cone of semi-aperture $\alpha_{APE}$ without changing the magnitude and then propagated until the date of the nominal EGA.
 Two values of $\alpha_{APE}$ were tested through this method, results can be seen in \autoref{fig:alfa_025} and \autoref{fig:alfa_5}.
 
-TCMs are performed throughout the interplanetary phase to correct the path, nevertheless their magnitude is limited to $\approx 9$ m/s \mref.
+TCMs are performed throughout the interplanetary phase to correct the path, nevertheless their magnitude is limited to $\approx 9$ m/s \cite{juno_inner}.
 For this reason, a certain precision on TBTM is required.
 
 \twofig{alfa_025}{Simulation results for $\alpha_{APE} = 0.25$°}
-{alfa_5}{Simulation results for $\alpha_{APE} = 5$°}{1}
+{alfa_5}{Simulation results for $\alpha_{APE} = 5$°}{0.7}
 
 \subsection{VECtor Mode (VECM)}
 \label{subsec:vec_mode}
@@ -95,7 +95,7 @@ Due to the nature of the spin-stabilized S/C, a control mode on the angular velo
 
 The tolerance on the spin rate is $\pm 0.05$ RPM \cite{shadan}.
 
-\subsection{Safe Modes}
+\subsection{Safe Modes (SM)}
 \label{subsec:safe_modes}
 
 Safe modes are mainly divided into two different types, depending on whether three-axis attitude knowledge is retained or not.
@@ -106,3 +106,38 @@ Safe modes are mainly divided into two different types, depending on whether thr
 \end{itemize}
 
 
+\subsection{Pointing budget}
+\label{subsec:pointing_budget}
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.4}
+    \cfs{8.5pt}
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \hline
+        & \textbf{SPM} & \textbf{EPM} & \textbf{GRAVM} & \textbf{MWRM}
+        & \textbf{TBTM} & \textbf{VECM} & \textbf{SCM} & \textbf{SM-1} \\
+        \hline
+        \textbf{TCS} & $APE \leq 25$° & - & - & - & -
+        & $APE \leq 25$° & - & $APE \leq 25$° \\
+        \hline
+        \textbf{TMTC} & - & $APE \leq 0.25$° & $APE \leq 0.25$° & -
+        & - & $APE \leq 0.25$° & - & $APE \leq 0.25$° \\
+        \hline
+        \textbf{PS} & - & - & - & -
+        & \makecell{$APE \leq 0.25$° \\ $\textit{rate} = 0.1$°/s}
+        & - & - & - \\
+        \hline
+        \textbf{P/L} & - & - & $APE \leq 0.25$° & $APE \leq 5.4$°
+        & - & - & $APE \leq 0.05$ RPM & - \\
+        \hline
+    \end{tabular}
+    \caption{Pointing budget for AOCS}
+    \label{table:pointing_budget}
+\end{table}
+
+\autoref{table:pointing_budget} synthesizes the pointing requirements of the main subsystems of the S/C in terms of performance for the AOCS.
+The empty cells in the table indicate no influence of the subsystem in the pointing budget for the selected mode.
+It can be noticed that the most stringent APE is $0.25$° (inherited by the beamwidth of HGA), which is compliant with the precision obtainable by the spin-stabilized thruster configuration of Juno coupled with the chosen sensors.
+For TBTM the same APE as the HGA was arbitrarily selected after the analysis described in \autoref{subsec:tbt_mode}.
+In particular, this choice has consequences on the required precision for the sensors: since during TBTM the SRU must be deactivated, the other sensors have to be selected in order to keep the same precision.
