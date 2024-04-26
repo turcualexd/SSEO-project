@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H4"] 1714063997 "H4.bcf" "H4.bbl" "H4" 1714076383 0
+["biber H4"] 1714063997 "H4.bcf" "H4.bbl" "H4" 1714090671 0
   "../../bibliography.bib" 1714063749 11855 f36e309f8a94d102fd319e2d229209ec ""
-  "H4.bcf" 1714076383 107690 98a047bd15efb55b8995834b17f3df63 "pdflatex"
+  "H4.bcf" 1714090670 107690 98a047bd15efb55b8995834b17f3df63 "pdflatex"
   (generated)
   "H4.bbl"
   "H4.blg"
   (rewritten before read)
-["pdflatex"] 1714076381 "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H4/H4.tex" "H4.pdf" "H4" 1714076383 0
+["pdflatex"] 1714090669 "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H4/H4.tex" "H4.pdf" "H4" 1714090671 0
   "../../Config//Poli_logo.pdf" 1710546785 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config//commands.tex" 1714061970 2299 c7284d363d7f529d0c4592d3305843a4 ""
   "../../Config//formats.tex" 1713710954 2245 5320fe037231799d7c4c273b8646a05d ""
@@ -154,15 +154,15 @@
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604489012 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H4.aux" 1714076383 5373 661561c1a84bd258e4585f752694f8b9 "pdflatex"
+  "H4.aux" 1714090670 5373 661561c1a84bd258e4585f752694f8b9 "pdflatex"
   "H4.bbl" 1714064000 5752 d14d3b22bd91a1800d65f0d631ce19c5 "biber H4"
-  "H4.out" 1714076383 2458 0aaefae3ffd64d4f3eaab69ea3eb5160 "pdflatex"
-  "H4.run.xml" 1714076383 2299 73f7a7477e21dff4a2d985f82a09fba9 "pdflatex"
+  "H4.out" 1714090670 2458 0aaefae3ffd64d4f3eaab69ea3eb5160 "pdflatex"
+  "H4.run.xml" 1714090670 2299 73f7a7477e21dff4a2d985f82a09fba9 "pdflatex"
   "H4.tex" 1713710954 309 ac53f55a9a3332f64e13e85427394698 ""
-  "H4.toc" 1714076383 1218 bfd967dbdf2bfa440b8b9ed216bbbe9f "pdflatex"
+  "H4.toc" 1714090670 1218 bfd967dbdf2bfa440b8b9ed216bbbe9f "pdflatex"
   "Images/SPM.pdf" 1714061503 97804 6738c95a53be2d46bf5c2adfa05b03f6 ""
-  "Images/alfa_025.pdf" 1714076153 1000842 ae621cf99550f70630b064cd24c3bbea ""
-  "Images/alfa_5.pdf" 1714076095 997412 957eab410b8ee1d97a4c39bb5badfd41 ""
+  "Images/alfa_025.pdf" 1714090249 1004464 40d5407a76fcf979f9366aee358fccf2 ""
+  "Images/alfa_5.pdf" 1714090605 1001529 b1e5408b15fcab68596a73c57e5e8076 ""
   "Sections/00_notation.tex" 1714062812 547 40897206c4bef1eea982290b24b83e70 ""
   "Sections/01_introduction.tex" 1713712824 716 db0fd13da1182ef9904599f1c20f60eb ""
   "Sections/02_modes.tex" 1714076379 9527 3313d5a5b4755b64eef6e3847598c31d ""
