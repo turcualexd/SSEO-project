@@ -161,27 +161,6 @@
       \field{title}{Juno Telecommunications}
       \field{year}{2012}
     \endentry
-    \entry{SSS}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=89149fd254816f1cda3e9a2df4ecee7e}{%
-           family={Aerospace},
-           familyi={A\bibinitperiod},
-           given={Adcole\bibnamedelima Maryland},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{fullhash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{bibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{authorbibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{authornamehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{authorfullhash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Site: \url{https://satcatalog.s3.amazonaws.com/components/362/SatCatalog_-_Adcole_Maryland_Aerospace_-_Fine_Spinning_Sun_Sensor_-_Datasheet.pdf?lastmod=20210708050522}}
-      \field{title}{Fine Spinning Sun Sensor}
-    \endentry
     \entry{SRU}{misc}{}
       \name{author}{1}{}{%
         {{hash=bb0e2f69b05e24026482b65ed53ab65e}{%
@@ -202,6 +181,27 @@
       \field{labeltitlesource}{title}
       \field{note}{Site: \url{https://space.leonardo.com/documents/16277711/19573187/Copia_di_A_STR_Autonomous_Star_Trackers_LQ_mm07786_.pdf?t=1538987562062}}
       \field{title}{AUTONOMOUS STAR TRACKERS}
+    \endentry
+    \entry{SSS}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=89149fd254816f1cda3e9a2df4ecee7e}{%
+           family={Aerospace},
+           familyi={A\bibinitperiod},
+           given={Adcole\bibnamedelima Maryland},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{fullhash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{bibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authorbibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authornamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authorfullhash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://satcatalog.s3.amazonaws.com/components/362/SatCatalog_-_Adcole_Maryland_Aerospace_-_Fine_Spinning_Sun_Sensor_-_Datasheet.pdf?lastmod=20210708050522}}
+      \field{title}{Fine Spinning Sun Sensor}
     \endentry
     \entry{gyro_evaluation}{article}{}
       \name{author}{1}{}{%

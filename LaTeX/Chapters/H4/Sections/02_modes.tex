@@ -21,7 +21,7 @@ The spin rate of the satellite is set to $1$ RPM for this interplanetary mode. T
 To assess a preliminary APE for this mode, the thermal requirement has been interpreted as visible in \autoref{fig:SPM}.
 
 This condition has been selected since power generation results not to be critical at the distance at which this mode is triggered ($\lesssim 1.4$ AU) \cite{kurth}.
-The shadow of the antenna shall cover entirely the below vault as a first and conservative approximation.
+The shadow of the antenna shall cover entirely the vault below it as a first and conservative approximation.
 The resulting APE angle is reported in \autoref{table:pointing_budget}.
 This value is relatively high with respect to other more restrictive modes, hence it won't be the sizing factor for the choice of AOCS hardware.
 
@@ -63,7 +63,7 @@ In particular, the manoeuvres affected by this uncertainty are:
 \begin{itemize}
     \item \textbf{DSM-1}: an error on this manoeuvre could be easily solved during DSM-2, so it is not critical in APE evaluation;
     \item \textbf{DSM-2}: an error on this manoeuvre could lead to a failure on targeting Earth for EGA, since the following TCMs could not be sufficient to correct the trajectory;
-    \item \textbf{JOI}: an contained error in the direction for this manoeuvre unlikely could lead to a catastrophic failure of the mission; instead the error could be corrected later by OTM;
+    \item \textbf{JOI}: a contained error in the direction for this manoeuvre unlikely could lead to a catastrophic failure of the mission; instead the error could be corrected later by OTM;
     \item \textbf{PRM}: as for the JOI, the error could be fixed easily during the next phases of the mission.
 \end{itemize}
 
@@ -141,3 +141,8 @@ The empty cells in the table indicate no influence of the subsystem in the point
 It can be noticed that the most stringent APE is $0.25$° (inherited by the beamwidth of HGA), which is compliant with the precision obtainable by the spin-stabilized thruster configuration of Juno coupled with the chosen sensors.
 For TBTM the same APE as the HGA was arbitrarily selected after the analysis described in \autoref{subsec:tbt_mode}.
 In particular, this choice has consequences on the required precision for the sensors: since during TBTM the SRU must be deactivated, the other sensors have to be selected in order to keep the same precision.
+
+In \autoref{fig:phases_modes} the sequence of the different modes for the nominal mission is correlated with the phases.
+The OTMs performed in VECM during science phase are not shown for sake of clarity.
+
+\cfig{phases_modes}{1}{Timeline for mission phases (not in scale)}

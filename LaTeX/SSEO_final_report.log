@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  26 APR 2024 19:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  27 APR 2024 16:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1307,36 +1307,25 @@ Package pdftex.def Info: Chapters/H4//Images/alfa_5.pdf  used on input line 79.
 pdfTeX warning: pdflatex (file ./Chapters/H4//Images/alfa_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 116.
-) (Chapters/H4//Sections/03_architecture_rationale.tex [29]
-<Chapters/H4//Images/foto_thruster_2.jpg, id=1590, 678.535pt x 360.34625pt>
+<Chapters/H4//Images/phases_modes.pdf, id=1574, 451.6875pt x 75.28125pt>
+File: Chapters/H4//Images/phases_modes.pdf Graphic file (type pdf)
+<use Chapters/H4//Images/phases_modes.pdf>
+Package pdftex.def Info: Chapters/H4//Images/phases_modes.pdf  used on input line 148.
+(pdftex.def)             Requested size: 512.14963pt x 85.36891pt.
+) (Chapters/H4//Sections/03_architecture_rationale.tex [29 <./Chapters/H4//Images/phases_modes.pdf>]
+<Chapters/H4//Images/foto_thruster_2.jpg, id=1884, 678.535pt x 360.34625pt>
 File: Chapters/H4//Images/foto_thruster_2.jpg Graphic file (type jpg)
 <use Chapters/H4//Images/foto_thruster_2.jpg>
-Package pdftex.def Info: Chapters/H4//Images/foto_thruster_2.jpg  used on input line 75.
+Package pdftex.def Info: Chapters/H4//Images/foto_thruster_2.jpg  used on input line 80.
 (pdftex.def)             Requested size: 230.46576pt x 122.38963pt.
  [30 <./Chapters/H4//Images/foto_thruster_2.jpg>]) (Chapters/H4//Sections/04_reverse_sizing.tex
-
-LaTeX Warning: Missing reference on input line 14.
-
-<Chapters/H4//Images/juno_cad.png, id=1618, 371.58826pt x 386.04225pt>
-File: Chapters/H4//Images/juno_cad.png Graphic file (type png)
-<use Chapters/H4//Images/juno_cad.png>
-Package pdftex.def Info: Chapters/H4//Images/juno_cad.png  used on input line 21.
-(pdftex.def)             Requested size: 159.08604pt x 165.27628pt.
-[31 <./Chapters/H4//Images/juno_cad.png>] [32]
-
-LaTeX Warning: Missing reference on input line 129.
-
-
-LaTeX Warning: Missing reference on input line 129.
-
-
-LaTeX Warning: Missing reference on input line 133.
-
-
-LaTeX Warning: Missing reference on input line 133.
-
-) [33] (Chapters/H4//Sections/05_appendix.tex
-<Chapters/H4//Images/simulink.jpg, id=1651, 769.6755pt x 413.74574pt>
+<Chapters/H4//Images/juno_cad.pdf, id=1914, 376.40625pt x 526.96875pt>
+File: Chapters/H4//Images/juno_cad.pdf Graphic file (type pdf)
+<use Chapters/H4//Images/juno_cad.pdf>
+Package pdftex.def Info: Chapters/H4//Images/juno_cad.pdf  used on input line 21.
+(pdftex.def)             Requested size: 119.31757pt x 167.04134pt.
+ [31 <./Chapters/H4//Images/juno_cad.pdf>] [32]) [33] (Chapters/H4//Sections/05_appendix.tex
+<Chapters/H4//Images/simulink.jpg, id=1960, 769.6755pt x 413.74574pt>
 File: Chapters/H4//Images/simulink.jpg Graphic file (type jpg)
 <use Chapters/H4//Images/simulink.jpg>
 Package pdftex.def Info: Chapters/H4//Images/simulink.jpg  used on input line 7.
@@ -1345,23 +1334,23 @@ Package pdftex.def Info: Chapters/H4//Images/simulink.jpg  used on input line 7.
 Package biblatex Info: Reference section=0 on input line 4.
 ) [35] (SSEO_final_report.aux)
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 9695A499D06AF156C3D60673A50ADFBC;10869.
+(rerunfilecheck)             Checksum: B8D8D9A08D5B970303DDD1870CE01953;10869.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25441 strings out of 476361
- 453560 string characters out of 5788046
+ 25452 strings out of 476361
+ 453990 string characters out of 5788046
  1899993 words of memory out of 5000000
- 45067 multiletter control sequences out of 15000+600000
+ 45076 multiletter control sequences out of 15000+600000
  756489 words of font info for 308 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,20n,98p,1950b,2293s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (38 pages, 4782071 bytes).
+Output written on SSEO_final_report.pdf (38 pages, 4842100 bytes).
 PDF statistics:
- 1791 PDF objects out of 2073 (max. 8388607)
- 245 named destinations out of 1000 (max. 500000)
- 660 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2100 PDF objects out of 2487 (max. 8388607)
+ 246 named destinations out of 1000 (max. 500000)
+ 665 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  26 APR 2024 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  27 APR 2024 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1137,16 +1137,17 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \tf@toc=\write5
 \openout5 = `H4.toc'.
 
+ [1]
 \blx@maxsegment@1=\count456
 \blx@sectionciteorder@1=\count457
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex) (Sections/02_modes.tex
+ (Body.tex (Sections/00_notation.tex) [2] (Sections/01_introduction.tex) (Sections/02_modes.tex
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 11.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
-<Images/SPM.pdf, id=144, 1204.5pt x 1053.9375pt>
+<Images/SPM.pdf, id=150, 1204.5pt x 1053.9375pt>
 File: Images/SPM.pdf Graphic file (type pdf)
 <use Images/SPM.pdf>
 Package pdftex.def Info: Images/SPM.pdf  used on input line 15.
@@ -1157,12 +1158,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.53 
       [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/SPM.pdf>]
-<Images/alfa_025.pdf, id=404, 338.76563pt x 301.125pt>
+<Images/alfa_025.pdf, id=410, 338.76563pt x 301.125pt>
 File: Images/alfa_025.pdf Graphic file (type pdf)
 <use Images/alfa_025.pdf>
 Package pdftex.def Info: Images/alfa_025.pdf  used on input line 79.
 (pdftex.def)             Requested size: 172.07997pt x 152.9652pt.
-<Images/alfa_5.pdf, id=405, 338.76563pt x 301.125pt>
+<Images/alfa_5.pdf, id=411, 338.76563pt x 301.125pt>
 File: Images/alfa_5.pdf Graphic file (type pdf)
 <use Images/alfa_5.pdf>
 Package pdftex.def Info: Images/alfa_5.pdf  used on input line 79.
@@ -1172,36 +1173,25 @@ Package pdftex.def Info: Images/alfa_5.pdf  used on input line 79.
 pdfTeX warning: pdflatex (file ./Images/alfa_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 116.
-) (Sections/03_architecture_rationale.tex [3]
-<Images/foto_thruster_2.jpg, id=448, 678.535pt x 360.34625pt>
+<Images/phases_modes.pdf, id=437, 451.6875pt x 75.28125pt>
+File: Images/phases_modes.pdf Graphic file (type pdf)
+<use Images/phases_modes.pdf>
+Package pdftex.def Info: Images/phases_modes.pdf  used on input line 148.
+(pdftex.def)             Requested size: 512.14963pt x 85.36891pt.
+) (Sections/03_architecture_rationale.tex [3 <./Images/phases_modes.pdf>]
+<Images/foto_thruster_2.jpg, id=748, 678.535pt x 360.34625pt>
 File: Images/foto_thruster_2.jpg Graphic file (type jpg)
 <use Images/foto_thruster_2.jpg>
-Package pdftex.def Info: Images/foto_thruster_2.jpg  used on input line 75.
+Package pdftex.def Info: Images/foto_thruster_2.jpg  used on input line 80.
 (pdftex.def)             Requested size: 230.46576pt x 122.38963pt.
  [4 <./Images/foto_thruster_2.jpg>]) (Sections/04_reverse_sizing.tex
-
-LaTeX Warning: Missing reference on input line 14.
-
-<Images/juno_cad.png, id=477, 371.58826pt x 386.04225pt>
-File: Images/juno_cad.png Graphic file (type png)
-<use Images/juno_cad.png>
-Package pdftex.def Info: Images/juno_cad.png  used on input line 21.
-(pdftex.def)             Requested size: 159.08604pt x 165.27628pt.
-[5 <./Images/juno_cad.png>] [6]
-
-LaTeX Warning: Missing reference on input line 129.
-
-
-LaTeX Warning: Missing reference on input line 129.
-
-
-LaTeX Warning: Missing reference on input line 133.
-
-
-LaTeX Warning: Missing reference on input line 133.
-
-) [7] (Sections/05_appendix.tex
-<Images/simulink.jpg, id=512, 769.6755pt x 413.74574pt>
+<Images/juno_cad.pdf, id=779, 376.40625pt x 526.96875pt>
+File: Images/juno_cad.pdf Graphic file (type pdf)
+<use Images/juno_cad.pdf>
+Package pdftex.def Info: Images/juno_cad.pdf  used on input line 21.
+(pdftex.def)             Requested size: 119.31757pt x 167.04134pt.
+ [5 <./Images/juno_cad.pdf>] [6]) (Sections/05_appendix.tex [7]
+<Images/simulink.jpg, id=825, 769.6755pt x 413.74574pt>
 File: Images/simulink.jpg Graphic file (type jpg)
 <use Images/simulink.jpg>
 Package pdftex.def Info: Images/simulink.jpg  used on input line 7.
@@ -1214,23 +1204,23 @@ File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 Package biblatex Info: Reference section=0 on input line 19.
  [9] (H4.aux)
 Package rerunfilecheck Info: File `H4.out' has not changed.
-(rerunfilecheck)             Checksum: 998464C638C92D94BBFB830C5C228780;3681.
+(rerunfilecheck)             Checksum: 675488D1A4C3CBE504E47385C0BEA8AC;3681.
 Package logreq Info: Writing requests to 'H4.run.xml'.
 \openout1 = `H4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24429 strings out of 476361
- 423725 string characters out of 5788046
- 1876993 words of memory out of 5000000
- 44359 multiletter control sequences out of 15000+600000
- 692981 words of font info for 208 fonts, out of 8000000 for 9000
+ 24450 strings out of 476361
+ 424189 string characters out of 5788046
+ 1887993 words of memory out of 5000000
+ 44377 multiletter control sequences out of 15000+600000
+ 701679 words of font info for 218 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,20n,98p,1514b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H4.pdf (11 pages, 2457313 bytes).
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H4.pdf (12 pages, 2525167 bytes).
 PDF statistics:
- 598 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 228 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 915 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
