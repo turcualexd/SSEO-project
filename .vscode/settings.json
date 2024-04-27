@@ -6,8 +6,11 @@
         "downconverter",
         "MFSK",
         "Simulink",
+        "SPCM",
         "subcarrier",
+        "TBTM",
         "Telecommand",
-        "TLGA"
+        "TLGA",
+        "VECM"
     ]
 }

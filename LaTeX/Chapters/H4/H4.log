@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  26 APR 2024 13:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  27 APR 2024 12:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -636,66 +636,71 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@cntb=\count307
 \multirow@dima=\skip60
 \bigstrutjot=\dimen186
+) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen187
+\c@nlinenum=\count308
+\TeXr@lab=\toks31
 ) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen187
-\WF@size=\dimen188
-\c@WF@wrappedlines=\count308
+\wrapoverhang=\dimen188
+\WF@size=\dimen189
+\c@WF@wrappedlines=\count309
 \WF@box=\box59
-\WF@everypar=\toks31
+\WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count309
+\lrq@indent=\count310
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count310
-\c@listtotal=\count311
-\c@listcount=\count312
-\c@liststart=\count313
-\c@liststop=\count314
-\c@citecount=\count315
-\c@citetotal=\count316
-\c@multicitecount=\count317
-\c@multicitetotal=\count318
-\c@instcount=\count319
-\c@maxnames=\count320
-\c@minnames=\count321
-\c@maxitems=\count322
-\c@minitems=\count323
-\c@citecounter=\count324
-\c@maxcitecounter=\count325
-\c@savedcitecounter=\count326
-\c@uniquelist=\count327
-\c@uniquename=\count328
-\c@refsection=\count329
-\c@refsegment=\count330
-\c@maxextratitle=\count331
-\c@maxextratitleyear=\count332
-\c@maxextraname=\count333
-\c@maxextradate=\count334
-\c@maxextraalpha=\count335
-\c@abbrvpenalty=\count336
-\c@highnamepenalty=\count337
-\c@lownamepenalty=\count338
-\c@maxparens=\count339
-\c@parenlevel=\count340
-\blx@tempcnta=\count341
-\blx@tempcntb=\count342
-\blx@tempcntc=\count343
-\c@blx@maxsection=\count344
-\blx@maxsegment@0=\count345
-\blx@notetype=\count346
-\blx@parenlevel@text=\count347
-\blx@parenlevel@foot=\count348
-\blx@sectionciteorder@0=\count349
-\blx@sectionciteorderinternal@0=\count350
-\blx@entrysetcounter=\count351
-\blx@biblioinstance=\count352
+\c@tabx@nest=\count311
+\c@listtotal=\count312
+\c@listcount=\count313
+\c@liststart=\count314
+\c@liststop=\count315
+\c@citecount=\count316
+\c@citetotal=\count317
+\c@multicitecount=\count318
+\c@multicitetotal=\count319
+\c@instcount=\count320
+\c@maxnames=\count321
+\c@minnames=\count322
+\c@maxitems=\count323
+\c@minitems=\count324
+\c@citecounter=\count325
+\c@maxcitecounter=\count326
+\c@savedcitecounter=\count327
+\c@uniquelist=\count328
+\c@uniquename=\count329
+\c@refsection=\count330
+\c@refsegment=\count331
+\c@maxextratitle=\count332
+\c@maxextratitleyear=\count333
+\c@maxextraname=\count334
+\c@maxextradate=\count335
+\c@maxextraalpha=\count336
+\c@abbrvpenalty=\count337
+\c@highnamepenalty=\count338
+\c@lownamepenalty=\count339
+\c@maxparens=\count340
+\c@parenlevel=\count341
+\blx@tempcnta=\count342
+\blx@tempcntb=\count343
+\blx@tempcntc=\count344
+\c@blx@maxsection=\count345
+\blx@maxsegment@0=\count346
+\blx@notetype=\count347
+\blx@parenlevel@text=\count348
+\blx@parenlevel@foot=\count349
+\blx@sectionciteorder@0=\count350
+\blx@sectionciteorderinternal@0=\count351
+\blx@entrysetcounter=\count352
+\blx@biblioinstance=\count353
 \labelnumberwidth=\skip61
 \labelalphawidth=\skip62
 \biblabelsep=\skip63
@@ -707,9 +712,9 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count353
-\c@maxcomprange=\count354
-\c@mincompwidth=\count355
+\c@mincomprange=\count354
+\c@maxcomprange=\count355
+\c@mincompwidth=\count356
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -719,74 +724,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count356
-\c@savedafterword=\count357
-\c@annotator=\count358
-\c@savedannotator=\count359
-\c@author=\count360
-\c@savedauthor=\count361
-\c@bookauthor=\count362
-\c@savedbookauthor=\count363
-\c@commentator=\count364
-\c@savedcommentator=\count365
-\c@editor=\count366
-\c@savededitor=\count367
-\c@editora=\count368
-\c@savededitora=\count369
-\c@editorb=\count370
-\c@savededitorb=\count371
-\c@editorc=\count372
-\c@savededitorc=\count373
-\c@foreword=\count374
-\c@savedforeword=\count375
-\c@holder=\count376
-\c@savedholder=\count377
-\c@introduction=\count378
-\c@savedintroduction=\count379
-\c@namea=\count380
-\c@savednamea=\count381
-\c@nameb=\count382
-\c@savednameb=\count383
-\c@namec=\count384
-\c@savednamec=\count385
-\c@translator=\count386
-\c@savedtranslator=\count387
-\c@shortauthor=\count388
-\c@savedshortauthor=\count389
-\c@shorteditor=\count390
-\c@savedshorteditor=\count391
-\c@labelname=\count392
-\c@savedlabelname=\count393
-\c@institution=\count394
-\c@savedinstitution=\count395
-\c@lista=\count396
-\c@savedlista=\count397
-\c@listb=\count398
-\c@savedlistb=\count399
-\c@listc=\count400
-\c@savedlistc=\count401
-\c@listd=\count402
-\c@savedlistd=\count403
-\c@liste=\count404
-\c@savedliste=\count405
-\c@listf=\count406
-\c@savedlistf=\count407
-\c@location=\count408
-\c@savedlocation=\count409
-\c@organization=\count410
-\c@savedorganization=\count411
-\c@origlocation=\count412
-\c@savedoriglocation=\count413
-\c@origpublisher=\count414
-\c@savedorigpublisher=\count415
-\c@publisher=\count416
-\c@savedpublisher=\count417
-\c@language=\count418
-\c@savedlanguage=\count419
-\c@origlanguage=\count420
-\c@savedoriglanguage=\count421
-\c@pageref=\count422
-\c@savedpageref=\count423
+\c@afterword=\count357
+\c@savedafterword=\count358
+\c@annotator=\count359
+\c@savedannotator=\count360
+\c@author=\count361
+\c@savedauthor=\count362
+\c@bookauthor=\count363
+\c@savedbookauthor=\count364
+\c@commentator=\count365
+\c@savedcommentator=\count366
+\c@editor=\count367
+\c@savededitor=\count368
+\c@editora=\count369
+\c@savededitora=\count370
+\c@editorb=\count371
+\c@savededitorb=\count372
+\c@editorc=\count373
+\c@savededitorc=\count374
+\c@foreword=\count375
+\c@savedforeword=\count376
+\c@holder=\count377
+\c@savedholder=\count378
+\c@introduction=\count379
+\c@savedintroduction=\count380
+\c@namea=\count381
+\c@savednamea=\count382
+\c@nameb=\count383
+\c@savednameb=\count384
+\c@namec=\count385
+\c@savednamec=\count386
+\c@translator=\count387
+\c@savedtranslator=\count388
+\c@shortauthor=\count389
+\c@savedshortauthor=\count390
+\c@shorteditor=\count391
+\c@savedshorteditor=\count392
+\c@labelname=\count393
+\c@savedlabelname=\count394
+\c@institution=\count395
+\c@savedinstitution=\count396
+\c@lista=\count397
+\c@savedlista=\count398
+\c@listb=\count399
+\c@savedlistb=\count400
+\c@listc=\count401
+\c@savedlistc=\count402
+\c@listd=\count403
+\c@savedlistd=\count404
+\c@liste=\count405
+\c@savedliste=\count406
+\c@listf=\count407
+\c@savedlistf=\count408
+\c@location=\count409
+\c@savedlocation=\count410
+\c@organization=\count411
+\c@savedorganization=\count412
+\c@origlocation=\count413
+\c@savedoriglocation=\count414
+\c@origpublisher=\count415
+\c@savedorigpublisher=\count416
+\c@publisher=\count417
+\c@savedpublisher=\count418
+\c@language=\count419
+\c@savedlanguage=\count420
+\c@origlanguage=\count421
+\c@savedoriglanguage=\count422
+\c@pageref=\count423
+\c@savedpageref=\count424
 \shorthandwidth=\skip69
 \shortjournalwidth=\skip70
 \shortserieswidth=\skip71
@@ -810,19 +815,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count424
-\c@textcitetotal=\count425
-\c@textcitemaxnames=\count426
-\c@biburlbigbreakpenalty=\count427
-\c@biburlbreakpenalty=\count428
-\c@biburlnumpenalty=\count429
-\c@biburlucpenalty=\count430
-\c@biburllcpenalty=\count431
+\c@textcitecount=\count425
+\c@textcitetotal=\count426
+\c@textcitemaxnames=\count427
+\c@biburlbigbreakpenalty=\count428
+\c@biburlbreakpenalty=\count429
+\c@biburlnumpenalty=\count430
+\c@biburlucpenalty=\count431
+\c@biburllcpenalty=\count432
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count432
+\c@smartand=\count433
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -832,8 +837,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count433
-\c@bbx:relatedtotal=\count434
+\c@bbx:relatedcount=\count434
+\c@bbx:relatedtotal=\count435
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -862,7 +867,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2024-02-20 L3 programming layer (loader) 
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count435
+\l__color_backend_stack_int=\count436
 \l__pdf_internal_box=\box60
 ))
 Package biblatex Info: ... and expl3
@@ -875,24 +880,24 @@ Package: xparse 2024-02-18 L3 Experimental document command parser
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count436
+\c@tracingmulticols=\count437
 \mult@box=\box61
-\multicol@leftmargin=\dimen189
-\c@unbalance=\count437
-\c@collectmore=\count438
-\doublecol@number=\count439
-\multicoltolerance=\count440
-\multicolpretolerance=\count441
-\full@width=\dimen190
-\page@free=\dimen191
-\premulticols=\dimen192
-\postmulticols=\dimen193
+\multicol@leftmargin=\dimen190
+\c@unbalance=\count438
+\c@collectmore=\count439
+\doublecol@number=\count440
+\multicoltolerance=\count441
+\multicolpretolerance=\count442
+\full@width=\dimen191
+\page@free=\dimen192
+\premulticols=\dimen193
+\postmulticols=\dimen194
 \multicolsep=\skip83
 \multicolbaselineskip=\skip84
 \partial@page=\box62
 \last@line=\box63
 \mc@boxedresult=\box64
-\maxbalancingoverflow=\dimen194
+\maxbalancingoverflow=\dimen195
 \mult@rightbox=\box65
 \mult@grightbox=\box66
 \mult@firstbox=\box67
@@ -933,15 +938,15 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box102
 \@tempa=\box103
 \@tempa=\box104
-\c@minrows=\count442
-\c@columnbadness=\count443
-\c@finalcolumnbadness=\count444
-\last@try=\dimen195
-\multicolovershoot=\dimen196
-\multicolundershoot=\dimen197
+\c@minrows=\count443
+\c@columnbadness=\count444
+\c@finalcolumnbadness=\count445
+\last@try=\dimen196
+\multicolovershoot=\dimen197
+\multicolundershoot=\dimen198
 \mult@nat@firstbox=\box105
 \colbreak@box=\box106
-\mc@col@check@num=\count445
+\mc@col@check@num=\count446
 ) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
 Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
@@ -952,23 +957,23 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTright=\skip86
 \LTpre=\skip87
 \LTpost=\skip88
-\LTchunksize=\count446
-\LTcapwidth=\dimen198
+\LTchunksize=\count447
+\LTcapwidth=\dimen199
 \LT@head=\box107
 \LT@firsthead=\box108
 \LT@foot=\box109
 \LT@lastfoot=\box110
 \LT@gbox=\box111
-\LT@cols=\count447
-\LT@rows=\count448
-\c@LT@tables=\count449
-\c@LT@chunks=\count450
-\LT@p@ftn=\toks32
+\LT@cols=\count448
+\LT@rows=\count449
+\c@LT@tables=\count450
+\c@LT@chunks=\count451
+\LT@p@ftn=\toks33
 )))) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
-\everycr=\toks33
+\everycr=\toks34
 \minrowclearance=\skip89
-\rownum=\count451
+\rownum=\count452
 ) (../../Config/formats.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 Package biblatex Info: Redefining '\supercite' on input line 35.
@@ -1056,17 +1061,17 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count452
-\scratchdimen=\dimen199
+\scratchcounter=\count453
+\scratchdimen=\dimen256
 \scratchbox=\box113
-\nofMPsegments=\count453
-\nofMParguments=\count454
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count455
-\MPscratchDim=\dimen256
-\MPnumerator=\count456
-\makeMPintoPDFobject=\count457
-\everyMPtoPDFconversion=\toks35
+\nofMPsegments=\count454
+\nofMParguments=\count455
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count456
+\MPscratchDim=\dimen257
+\MPnumerator=\count457
+\makeMPintoPDFobject=\count458
+\everyMPtoPDFconversion=\toks36
 ) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1102,7 +1107,7 @@ Package biblatex Info: ... file 'H4.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config/Poli_logo.pdf, id=47, 527.9725pt x 415.5525pt>
+<../../Config/Poli_logo.pdf, id=99, 527.9725pt x 415.5525pt>
 File: ../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/Poli_logo.pdf  used on input line 6.
@@ -1132,80 +1137,92 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \tf@toc=\write5
 \openout5 = `H4.toc'.
 
-\blx@maxsegment@1=\count458
-\blx@sectionciteorder@1=\count459
+\blx@maxsegment@1=\count459
+\blx@sectionciteorder@1=\count460
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex
-
-LaTeX Warning: Missing reference on input line 17.
-
-) [1] (Sections/01_introduction.tex) (Sections/02_modes.tex) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex
+ (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex) (Sections/02_modes.tex
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 11.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
-
-LaTeX Warning: Missing reference on input line 13.
-
-<Images/juno_cad.png, id=84, 371.58826pt x 386.04225pt>
-File: Images/juno_cad.png Graphic file (type png)
-<use Images/juno_cad.png>
-Package pdftex.def Info: Images/juno_cad.png  used on input line 17.
-(pdftex.def)             Requested size: 179.2555pt x 186.22887pt.
+<Images/SPM.pdf, id=144, 1204.5pt x 1053.9375pt>
+File: Images/SPM.pdf Graphic file (type pdf)
+<use Images/SPM.pdf>
+Package pdftex.def Info: Images/SPM.pdf  used on input line 15.
+(pdftex.def)             Requested size: 230.46576pt x 201.64932pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 
-      [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/juno_cad.png>]
-<Images/simulink.jpg, id=96, 769.6755pt x 413.74574pt>
+l.53 
+      [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/SPM.pdf>]
+<Images/alfa_025.pdf, id=404, 338.76563pt x 301.125pt>
+File: Images/alfa_025.pdf Graphic file (type pdf)
+<use Images/alfa_025.pdf>
+Package pdftex.def Info: Images/alfa_025.pdf  used on input line 79.
+(pdftex.def)             Requested size: 172.07997pt x 152.9652pt.
+<Images/alfa_5.pdf, id=405, 338.76563pt x 301.125pt>
+File: Images/alfa_5.pdf Graphic file (type pdf)
+<use Images/alfa_5.pdf>
+Package pdftex.def Info: Images/alfa_5.pdf  used on input line 79.
+(pdftex.def)             Requested size: 172.07997pt x 152.9652pt.
+ [2 <./Images/alfa_025.pdf> <./Images/alfa_5.pdf
+
+pdfTeX warning: pdflatex (file ./Images/alfa_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 116.
+) (Sections/03_architecture_rationale.tex [3]
+<Images/foto_thruster_2.jpg, id=448, 678.535pt x 360.34625pt>
+File: Images/foto_thruster_2.jpg Graphic file (type jpg)
+<use Images/foto_thruster_2.jpg>
+Package pdftex.def Info: Images/foto_thruster_2.jpg  used on input line 75.
+(pdftex.def)             Requested size: 230.46576pt x 122.38963pt.
+ [4 <./Images/foto_thruster_2.jpg>]) (Sections/04_reverse_sizing.tex
+<Images/juno_cad.png, id=479, 371.58826pt x 386.04225pt>
+File: Images/juno_cad.png Graphic file (type png)
+<use Images/juno_cad.png>
+Package pdftex.def Info: Images/juno_cad.png  used on input line 21.
+(pdftex.def)             Requested size: 159.08604pt x 165.27628pt.
+ [5 <./Images/juno_cad.png>]
+
+LaTeX Warning: Missing reference on input line 34.
+
+[6]) [7] (Sections/05_appendix.tex
+<Images/simulink.jpg, id=519, 769.6755pt x 413.74574pt>
 File: Images/simulink.jpg Graphic file (type jpg)
 <use Images/simulink.jpg>
-Package pdftex.def Info: Images/simulink.jpg  used on input line 45.
-(pdftex.def)             Requested size: 332.89412pt x 178.94888pt.
- [2 <./Images/simulink.jpg>]
-
-LaTeX Warning: Missing reference on input line 137.
-
-
-LaTeX Warning: Missing reference on input line 137.
-
-
-LaTeX Warning: Missing reference on input line 141.
-
-
-LaTeX Warning: Missing reference on input line 141.
-
-[3])) [4]
+Package pdftex.def Info: Images/simulink.jpg  used on input line 7.
+(pdftex.def)             Requested size: 409.72125pt x 220.25012pt.
+)) [8 <./Images/simulink.jpg>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
 Package biblatex Info: Reference section=0 on input line 19.
- [5] (H4.aux)
+ [9] (H4.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H4.out' has not changed.
-(rerunfilecheck)             Checksum: 398631BC66F7ADB1EB2A7CCD4DB21C65;1645.
+(rerunfilecheck)             Checksum: 998464C638C92D94BBFB830C5C228780;3681.
 Package logreq Info: Writing requests to 'H4.run.xml'.
 \openout1 = `H4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23826 strings out of 474436
- 409349 string characters out of 5741955
- 1947190 words of memory out of 5000000
- 45766 multiletter control sequences out of 15000+600000
- 655560 words of font info for 129 fonts, out of 8000000 for 9000
+ 24262 strings out of 474436
+ 417257 string characters out of 5741955
+ 1951190 words of memory out of 5000000
+ 46126 multiletter control sequences out of 15000+600000
+ 738763 words of font info for 212 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,14n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H4.pdf (7 pages, 238210 bytes).
+ 87i,20n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H4.pdf (11 pages, 2458633 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 605 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
