@@ -1,3 +1,155 @@
 \section{Reverse sizing of AOCS}
 \label{sec:AOCS_sizing}
 
+In this section a reverse sizing of the AOCS is performed. The complexity of the dynamics of a spinning stabilized satellite only controlled via RCS required the use of a Simulink model, developed by us.
+\subsection{Modeling hypothesis}
+\label{subsec:mod_hypo}
+The preliminary reverse sizing process is based on some reasonable assumptions:
+
+\begin{itemize}
+    \item
+    \begin{minipage}[t]{0.6\linewidth}
+        \textbf{Geometry}: Juno spacecraft has been modelled via SolidWorks software, simplifying its shapes but conserving the general dimensions, in particular the size of the solar panels, the vault and the central body. The mass of the system is assumed to be constant throughout the whole mission, at 3625 kg, so the propellant mass needed is overestimated even before the applied margins.     
+        % dimensioni dei pannelli, dimensioni del corpo centrale, massa, inerzie 
+        Principal moments of inertia, calculated from the centre of mass, are assumed to be aligned with the geometric axes of the model: this assumption is pretty compliant with the real satellite dynamics thanks to the actuators mounted on solar panel as described in \mref. 
+       
+        The central body was designed as an hexagonal prism with an height of 1.48 m and sides of 1.79 m, the three solar arrays as thin panel of 8 m $\times$ 2.7 m $\times$ 0.03 m, one of them shorter at 6m due to the presence of the MAG boom, the vault as a rectangular prism of 0.8 m $\times$ 0.8 m $\times$ 0.7 m and the HGA as a rotational ellipsoid with a major semi-axis of 1.25 m and a minor semi-axis of 0.625 m. 
+        The view of the used shapes is presented in \autoref{fig:juno_cad}.
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.4\linewidth}
+        \vspace*{-5mm}
+        \cfig{juno_cad}{0.8}{Juno CAD model}
+    \end{minipage}
+
+    \item \textbf{Sensors}: the attitude of the spacecraft is assumed to be correct at all times. No errors are present as nor SRUs nor IMUs nor SSSes were modelled. QUI VEDERE SE AGGIUNGERE COSE
+    
+    \item \textbf{Thrusters}: all twelve thrusters are decoupled one from the other. This assumption changes the  dynamics of the spacecraft as the real satellite has to perform various burn via RCS while in the model only one burn is required. % da controllare la frase.
+    Different arms were considered as the thrusters are not symmetrical with respect to the centre of mass: 2.7 m for thruster controlling X and Y-axis, 3.2 for the thrusters controlling the Z-axis.
+
+    \item \textbf{Controller}: as the performance of the various manoeuvres is influenced by the chosen control law, parameters as maximum angular speed and acceleration, total time of the manoeuvres are employed to verify the obtained results. 
+    
+    % dire perchè non parliamo delle perturbazioni nella quei cruise 
+    \item \textbf{Phases}: only two phases have been considered for disturbances correction with different disturbances: inner cruise from L+3 to L+822 and jovian planetary phase. 
+    
+    For the inner cruise phase three different sections are considered: inner cruise 1, from L+3 to L+63, inner cruise 2 from L+64 to L+661 and inner cruise 3, from L+662 to L+822. Sun pointing has been considered for all three sections as a worst case scenario sizing, even if inner cruise 2 is a Earth pointing mode (Earth and Sun are almost aligned in this section so the reasoning is not that far off). During each section of the inner cruise, the SRP is considered constant as the integral mean value calculated on the length of the section.
+     For the correction manoeuvres, the following division was implemented: for 20 days only correction about the angular speed are considered as the attitude error is lower than the required as stated in \autoref{sec:AOCS_modes}; then, a 20 minutes correction manoeuvre is performed to align the spinning axis with its nominal direction. Slew manoeuvres are also considered to take into account the movement of the spacecraft relative to the Sun as the pointing cannot be considered inertial. The simulation takes into account only one trial and assumes no difference are present between contiguous sections. Realignments of Juno's axis can be related to safe-modes and general to correction manoeuvres as the system is able to handle different disturbances from the nominal orbit. 
+    
+    Jupiter planetary phase takes into account SRP, magnetic disturbances and gravity gradient (GG). The considered orbits for the simulation consists in a 11-days elliptical orbit, repeated for 33 times as the nominal mission required. 
+
+    \item \textbf{Manoeuvres}: two different kind of manoeuvres were modelled. Slew manoeuvres at each DMS, where the TBTM is employed. A worst case scenario has been identified, within the DSMs requirements, with a change of 90° in angular momentum orientation. Observed rate of this manoeuvre from Nasa Eyes\cite{nasa_eyes} shows an angular velocity of about 0.1 °/s \cite{slides_michele}. This will be used as the maximum value allowed. 
+    
+    Spin up and down modes are employed to change the spinning rate of the spacecraft to perform ME manoeuvres. In this mode, only the spin of the spacecraft along the main spin axis ( +Z-axis ) is controlled and no attitude corrections are performed.      
+
+    \item \textbf{Consumption}: this value has been calculated considering each thruster firing and its respective duration over an entire phase. 
+
+\end{itemize}
+
+\subsection{Perturbations}
+\label{subsec:perturbations}
+
+There are four attitude perturbations that need to be analyzed: solar radiation pressure (SRP), gravity gradient (GG), magnetic and aerodynamic disturbance. In the special environment of Jupiter some of those had a significant impact on the spacecraft, while others could be neglected. 
+
+\begin{itemize}
+    \item \textbf{SRP}: this disturbance is considered both during the inner cruise and the jovian phase, however, in the latter phase, had a less relevant effect as the intensity of the radiation coming from the Sun goes with the inverse of the distance squared. Values considered in the different phases and sections are reported in \autoref{table:SRP_GGG}. As can be seen, as previously mentioned in \autoref{sec:AOCS_modes}, solar radiation is higher during Inner cruise 1 and 3, where the spacecraft is closer to the Sun. 
+    
+  %  \begin{table}[H]
+  %      \renewcommand{\arraystretch}{1.3}
+  %      \centering
+  %      \begin{tabular}{|c|c|c|c|c|}
+  %          \hline
+  %%          &\textbf{Inner Cruise 1} & \textbf{Inner Cruise 2} & \textbf{Inner Cruise 3} & \textbf{Jovian phase} \\
+   %         \hline
+    %        \hline
+     %       $F_{s} \; [W/m^2]$ & 1225 & 413 & 1339 & 4.08 $\cdot 10^{-2}$ \\
+      %      \hline
+       %     $Torque_{SRP}$ [Nm] & 0.991 & 0.33 & 1.08 & 0.04 \\
+        %    \hline
+        %%\end{tabular}
+        %\caption{Solar constant variation}
+        %\label{table:SRP}
+    %z\end{table}
+
+    SRP applies a torque on different surfaces: the cross section of Juno that faces the Sun is 70 $m^2$. This value was, as a first approximation, divided in three equal parts, as the number of solar arrays: the torque is computed by considering the SRP acting in the barycenter of each panel. The large area considered made the SRP the dominant perturbation throughout the whole inner cruise phase, despite of the distance from the Sun. The total torque is only applied to the Y-axis due to the geometry of the spacecraft. Reflectivity was considered of 0.55 for all surfaces facing the Sun, while the arms of the torque were calculated from the CAD model. 
+
+    \item \textbf{Gravity Gradient}: this disturbance is considered only during the planetary phase around Jupiter. As can be seen from the last row of \autoref{table:SRP_GGG}, it is various order of magnitude lower than the SRP during the other phases.  The dynamics of this disturbance was modelled around the real first nominal orbit of Juno around Jupiter, when the spacecraft is facing the Sun, so no worst case scenario was considered alone.   % massima deviazione considerata in ogni istante 
+    
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            &\textbf{Inner Cruise 1} & \textbf{Inner Cruise 2} & \textbf{Inner Cruise 3} & \textbf{Jovian phase} \\
+            \hline
+            \hline
+            $F_{s} \; [W/m^2]$ & 1225 & 413 & 1339 & 4.08 $\cdot 10^{-2}$ \\
+            \hline
+            $Torque_{SRP}$ [Nm] & 0.991 & 0.33 & 1.08 & 0.04 \\
+            \hline
+             $Torque_{GG}$ [Nm] & $3.5 \cdot 10^{-10}$ & $5.4 \cdot 10^{-11}$ & $3.5 \cdot 10^{-10}$ & $5.39 \cdot 10^{-4}$ \\
+            \hline
+        \end{tabular}
+        \caption{SRP and Gravity Gradient relevant values}
+        \label{table:SRP_GGG}
+    \end{table}
+    
+    \item \textbf{Magnetic Torque}: this disturbance was considered only around Jupiter. The model used to describe its magnetic field consists in a dipole modelled based on the work of Acuña et al\cite{jupiter_mag_field}, and its value is shy of $4.3\cdot 10^{-4}$ T. Juno's magnetic dipole was assumed from literature, considering an high value as a worst case scenario of $0.05 \; Am^2$.
+    
+    \item \textbf{Atmospheric Drag}: this disturbance is meaningful only in case of a dense atmosphere. During the Inner Cruise phase, Juno is in the vacuum, so no atmosphere is present. For the planetary phase, the atmosphere can be neglected as at 1000 km of altitude, density is in the order of $10^{-11}$ and Juno's lowest approach is above 4000 km. Supposing an exponential decay of the density with altitude, as in Earth's atmospheric model, the value of the density allows to not consider the atmospheric drag as a disturbance\cite{jupiter_density}.
+    
+        
+\end{itemize}
+
+\subsection{Propellant reverse sizing}
+\label{subsec:prop_rev_sizing}
+
+In this section results of the control action of the spacecraft in various scenarios is analyzed.
+
+\begin{itemize}
+    \item \textbf{Spin Up \& Spin Down}: this control mode is employed 10 times to change the angular speed of the spacecraft in order to perform or ME burns or science operations. Nominally Juno is spinning at 1 RPM during every cruise phase, 2 RPM during science operations and Fly-by and at 5 RPM during all ME burns. A total of 10 manoeuvres of this kind were performed, 5 spin-up and 5 spin down, distributed along the whole mission.  A total of 33.14 kg of hydrazine were found to be consumed. A maximum acceleration of $0.05 \; \deg /s^2$ was found. 
+    
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            &\textbf{1 RPM $\leftrightarrow$ 5 RPM } & \textbf{1 RPM $\leftrightarrow$ 2 RPM } &\textbf{5 RPM $\leftrightarrow$ 2 RPM }\\
+            \hline
+            \hline
+            Mass [kg] & 4.27 & 1.07 & 3.21 \\
+            \hline
+            \# of occurrences & 5 & 2 & 3 \\
+            \hline
+        \end{tabular}
+        \caption{Spin manoeuvres}
+        \label{table:spin}
+    \end{table}
+
+    In \autoref{table:spin} are reported the amount of fuel utilized for each change in spin and the number of times it had to be performed, in one way or the other: first column spin change were performed before and after DSMs and before JOI; second column before and after the Fly-by while last column after the JOI and before and after the PRM. 
+
+    \item \textbf{Slew manoeuvre}: this specific manoeuvre is performed eight times to align the ME with the required direction to perform a burn \mref, twice for each DSM while spinning at 1 RPM, twice for the JOI once spinning at 1 RPM and once spinning at 2 RPM and twice for the PRM while spinning at 2 RPM. A worst case scenario is always considered with a 90° realignment. \mref ( early cruise )  
+    All the slew manoeuvres are performed with a maximum velocity of 0.1 °/s as stated in \autoref{subsec:mod_hypo}. 
+    Given the GIGANTIC moment of inertia along the Z-axis, higher rotational speed imply an ENORMOUS augment in fuel consumption. Results are of 2.7 kg for each slew at 1 RPM and 6.28 kg for each slew at 2 RPM.  Total consumption for these manoeuvres is 32.34 kg. 
+    
+    \item \textbf{Interplanetary Phase corrections}: in this control mode only the SRP is considered as perturbation SRP affects both angular speed and the attitude of the spacecraft. Correction of the angular velocity are continuously performed to ensure stability in pointing without correcting the attitude directly. However, after a 20-day period corrections are needed to align the HGA to its nominal pointing requirements \mref ( early cruise ). Al constrains cited in \mref are respected. 
+    The consumption of hydrazine in these phases is reported in \autoref{table:cruise}.
+
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            &\textbf{Inner Cruise 1} &\textbf{Inner Cruise 2} & \textbf{Inner Cruise 3} &\textbf{Total}\\
+            \hline
+            \hline
+            Mass [kg] & 4.82 & 3.00 & 13.94 & 21.76 \\
+            \hline
+        \end{tabular}
+        \caption{Inner Cruise consumption}
+        \label{table:cruise}
+    \end{table}
+
+    \item \textbf{Jovian planetary Phase}: while around Jupiter, Juno performs science while spinning at 2 RPM, ensuring natively an higher robustness to disturbances. Major correction must be performed near the pericentre of the orbit, as it speed approaches 58 km/s.  
+    Requirements in pointing could be satisfied in this phase as the maximum error achieved during the simulation was lower than 0.025°.  Consumption of hydrazine is estimated at 1.01 kg per orbit, 33.24 for the whole nominal mission.
+    An important note shall be made in regards of the planetary phase: propellant consumption is based on the 11-day orbit around Jupiter, planned but never actually performed. Consumption during the real 53-day orbit is actually lower, as both gravity gradient and magnetic disturbances diminish with distance, allowing for a longer life mission. 
+    
+\end{itemize}

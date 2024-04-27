@@ -9,85 +9,55 @@ To achieve the required performance and capabilities of each mode, highlighted i
 Juno's AOCS employs the following main attitude sensors:
 
 \begin{itemize}
-    \item \textbf{2 Stellar Reference Units (SRUs)} custom built by Selex Galileo (now Leonardo S.p.A.) mounted on the forward deck of the spacecraft facing radially outwards. These units are based on the A-STR \cite{SRU}, modified with further radiation shielding to survive the harsh environment of Jupiter, bringing the total weight up to 7.8 kg. One of the most important characteristics of these sensors is the ability to operate in a Time Delay Integration (TDI) mode, which allows them to compensate for the spin of the spacecraft when capturing an image. Other specifications of the standard A-STR are reported in \autoref{table:star_sensors}.
-    \begin{table}[H]
-        \renewcommand{\arraystretch}{1.3}
-        \centering
-        \begin{tabular}{|c|c|c|c|}
-            \hline
-            \textbf{FOV [deg]} & \textbf{Update rate [Hz]} & \textbf{Bias Error [arcsec]} & \textbf{FOV error [arcsec]} \\
-            \hline
-            \hline
-            16.4 $\times$ 16.4 & 4 or 10 & \makecell{8.25 (pitch/yaw) \\ 11.1 (roll)} & \makecell{$<$ 3.6 (pitch/yaw) \\ $<$ 21 (roll)} \\   
-            \hline
-        \end{tabular}
-
-        \vspace{5mm}
-
-        \begin{tabular}{|c|c|c|c|}
-            \hline
-            \textbf{Size (L $\boldsymbol{\times}$ W $\boldsymbol{\times}$ H) [cm]} & \textbf{Mass [kg]} & \textbf{Power consumption [W]} & \textbf{Operational temperature [°C]} \\
-            \hline
-            \hline
-            19.5 $\times$ 17.5 $\times$ 29.1 & 3.55 & \makecell{8.9 @ 20°C \\ 13.5 @ 60°C} & -30 to +60\\
-            \hline
-        \end{tabular}
-        \caption{A-STR specifications}
-        \label{table:star_sensors}
-    \end{table}
-    
-    \item \textbf{2 Spinning Sun Sensors (SSSes)} by Adcole Maryland Aerospace \cite{SSS}, also positioned on the edge of the forward deck oriented in such a way to include both the Z-axis and a portion of the XY plane in their FOV. They are specialized for attitude determination on a spinning spacecraft and allow for a fail safe recovery. (Possible \mref) Useful specifications are shown in \autoref{table:sun_sensors}.
+    \item \textbf{2 Spinning Sun Sensors (SSSes)} by Adcole Maryland Aerospace \cite{SSS}, also positioned on the edge of the forward deck oriented in such a way to include both the Z-axis and a portion of the XY plane in their FOV. They are specialized for attitude determination on a spinning spacecraft and allow for a fail safe recovery. Useful specifications are shown in \autoref{table:sun_sensors}.
     
     % Assumiamo siano richiesti per proteggere le sru durante le main engine burn quando Juno non punta la terra o il sole e quindi le sru potrebbero puntare al sole
     \begin{table}[H]
         \renewcommand{\arraystretch}{1.3}
         \centering
-        \begin{tabular}{|c|c|c|}
+        \small
+        \begin{tabular}{|c|c|c|c|c|}
             \hline
-            \textbf{FOV [deg]} & \textbf{Size of sensor (L $\boldsymbol{\times}$ W $\boldsymbol{\times}$ H) [cm]} & \textbf{Size of electronics (L $\boldsymbol{\times}$ W $\boldsymbol{\times}$ H) [cm]} \\
-            \hline
-            \hline
-            $\pm$ 64 & 6.6 $\times$ 3.3 $\times$ 2.5 & 5.1 $\times$ 8.2 $\times$ 8.9 \\   
-            \hline
-        \end{tabular}
-
-        \vspace{5mm}
-
-        \begin{tabular}{|c|c|c|c|}
-            \hline
-            \textbf{Accuracy [deg]} & \textbf{Mass of sensor [kg]} & \textbf{Mass of electronics [kg]} & \textbf{Power consumption [W]}\\
+            \textbf{FOV [deg]} & \textbf{Accuracy [deg]} & \textbf{Mass of sensor [kg]} & \textbf{Mass of electronics [kg]} & \textbf{PC [W]}\\
             \hline
             \hline
-            \makecell{$\pm$ 0.1 at 0° \\  $\pm$ 0.6 at 64°} & 0.109 & 0.475 to 0.725 & 0.4\\
+            $\pm$ 64 & \makecell{$\pm$ 0.1 at 0° \\  $\pm$ 0.6 at 64°} & 0.109 & 0.475 to 0.725 & 0.4 \\
             \hline
         \end{tabular}
         \caption{SSSes specifications}
         \label{table:sun_sensors}
     \end{table}
 
+    \item \textbf{2 Stellar Reference Units (SRUs)} custom built by Selex Galileo (now Leonardo S.p.A.) mounted on the forward deck of the spacecraft facing radially outwards. These units are based on the A-STR \cite{SRU}, modified with further radiation shielding to survive the harsh environment of Jupiter, bringing the total weight up to 7.8 kg. One of the most important characteristics of these sensors is the ability to operate in a Time Delay Integration (TDI) mode, which allows them to compensate for the spin of the spacecraft when capturing an image. Other specifications of the standard A-STR are reported in \autoref{table:star_sensors}.
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \small
+        \begin{tabular}{|c|c|c|c|c|c|}
+            \hline
+            \textbf{FOV [deg]} & \textbf{Bias Error [arcsec]} & \textbf{FOV error [arcsec]} & \textbf{Mass [kg]} & \textbf{PC [W]} & \textbf{OT [°C]} \\
+            \hline
+            \hline
+            16.4 $\times$ 16.4 & \makecell{8.25 (pitch/yaw) \\ 11.1 (roll)} & \makecell{$<$ 3.6 (pitch/yaw) \\ $<$ 21 (roll)} &
+            3.55 & \makecell{8.9 @ 20°C \\ 13.5 @ 60°C} & -30 to +60\\
+            \hline
+        \end{tabular}
+        \caption{A-STR specifications}
+        \label{table:star_sensors}
+    \end{table}
 
     \item \textbf{2 Inertial Measurement Units (IMUs)} by Northrop (Hypothesizing heritage from Cassini \cite{gyro_evaluation} and MESSENGER \cite{messenger_imu}) inside Juno's radiation vault. One of their biggest advantage is utilizing Hemispherical Resonator Gyroscopes (HGRs) which, due to their construction and inner workings, are inherently radiation hardened and highly resistant to wear and ageing. In particular Scalable Space Inertial Reference Units (SSIRUs) \cite{SSIRU} are used which were also modified for this specific mission like the A-STR. Their nominal specifications are shown in \autoref{table:SSIRU}.
      
     \begin{table}[H]
         \renewcommand{\arraystretch}{1.3}
         \centering
-        \begin{tabular}{|c|c|c|}
+        \small
+        \begin{tabular}{|c|c|c|c|c|}
             \hline
-            \textbf{Power [W]} & \textbf{Size of sensor (L $\boldsymbol{\times}$ W $\boldsymbol{\times}$ H) [cm]} & \textbf{Weight [kg]} \\
-            \hline
-            \hline
-            43 max & 28.9 $\times$ 18 $\times$ 14.9 & 7.1 \\   
-            \hline
-        \end{tabular}
-
-        \vspace{5mm}
-
-        \begin{tabular}{|c|c|c|}
-            \hline
-            \textbf{Operational temperature [°C]} & \textbf{Angle Random Walk [$\textrm{deg} / \sqrt{\textrm{hr}}$]} & \textbf{HAMRR [deg/s]} \\
+            \textbf{Power [W]} & \textbf{Weight [kg]} & \textbf{OT [°C]} & \textbf{ARW [$\textrm{deg} / \sqrt{\textrm{hr}}$]} & \textbf{HAMRR [deg/s]} \\
             \hline
             \hline
-            \makecell{-55 to +85 (non-operational) \\  -10 to +60 (full performance)} & < 0.00015 & $\pm$ 7 \\
+            43 max & 7.1 & \makecell{-55 to +85 (non-operational) \\  -10 to +60 (full performance)} & < 0.00015 & $\pm$ 7 \\
             \hline
         \end{tabular}
         \caption{SSIRUs specifications}
@@ -102,31 +72,22 @@ An additional sensor, the \textbf{Advanced Stellar Compass (ASC)}, is present on
 \subsection{Actuators}
 \label{subsec:Actuators}
 
-As previously described in the analysis of the propulsion system (Homework 2) Juno utilizes twelve MR-111C RCS thrusters by Aerojet Rocketdyne \cite{RCS_info} divided into four groups of three. Each set is housed on a Rocket Engine Module (REM) on top of four pylons, two on the forward deck and two on the aft deck, extending in the Z-axis and mounted along the Y-axis. 
-\cfig{foto_thruster}{0.7}{RCS mount direction}  
-The pylons are raised respectively by 74 cm on the forward deck and about 26 cm on the aft deck. As shown in \autoref{fig:foto_thruster} each cluster includes an axial thruster, denoted by the letter "A", and two lateral ones, denoted as "L".
+\rfigII{foto_thruster_2}{RCS mount direction}{0.45}{12}{-5mm}{-5mm}
+As previously described in the analysis of the propulsion system (Homework 2) Juno utilizes twelve MR-111C RCS thrusters by Aerojet Rocketdyne \cite{RCS_info} divided into four groups of three.
+Each set is housed on a Rocket Engine Module (REM) on top of four pylons, two on the forward deck and two on the aft deck, extending in the Z-axis and mounted along the Y-axis.
+The pylons are raised respectively by 74 cm on the forward deck and about 26 cm on the aft deck. As shown in \autoref{fig:foto_thruster_2} each cluster includes an axial thruster, denoted by the letter "A", and two lateral ones, denoted as "L".
 Axial thrusters are canted 10° away from the Z-axis while the lateral thrusters are canted 5° away from the X-axis and 12.5° toward the Z-axis \cite{juno_inner}. The specifics of the MR-111C thrusters are presented in \autoref{table:RCS_specifications}. \cite{RCS_values}
 
 \begin{table}[H]
     \renewcommand{\arraystretch}{1.3}
     \centering
-    \begin{tabular}{|c|c|c|}
+    \small
+    \begin{tabular}{|c|c|c|c|c|c|c|}
         \hline
-        \textbf{Thrust [N]} & \textbf{Specific impulse [s]} & \textbf{MIB [Ns]} \\
-        \hline
-        \hline
-        4.5 & 220 & 0.08 \\   
-        \hline
-    \end{tabular}
-
-    \vspace{5mm}
-
-    \begin{tabular}{|c|c|c|c|}
-        \hline
-        \textbf{Propellant} & \textbf{Catalyst} & \textbf{Mass [kg]} & \textbf{Power usage [W]}\\
+        \textbf{Thrust [N]} & \textbf{$\boldsymbol{I_{s}}$ [s]} & \textbf{MIB [Ns]} & \textbf{Propellant} & \textbf{Catalyst} & \textbf{Mass [kg]} & \textbf{Power usage [W]} \\
         \hline
         \hline
-        Hydrazine & S-405 & 0.33 & 13.64 \\ 
+        4.5 & 220 & 0.08 & Hydrazine & S-405 & 0.33 & 13.64 \\
         \hline
     \end{tabular}
     \caption{MR-111C specifications}

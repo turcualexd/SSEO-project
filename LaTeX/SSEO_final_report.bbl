@@ -948,6 +948,183 @@
 
 \refsection{4}
   \datalist[entry]{none/global//global/global/global}
+    \entry{kurth}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f31ae4eaed99d08cbb5520fac884d27c}{%
+           family={Kurth},
+           familyi={K\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{f31ae4eaed99d08cbb5520fac884d27c}
+      \strng{fullhash}{f31ae4eaed99d08cbb5520fac884d27c}
+      \strng{fullhashraw}{f31ae4eaed99d08cbb5520fac884d27c}
+      \strng{bibnamehash}{f31ae4eaed99d08cbb5520fac884d27c}
+      \strng{authorbibnamehash}{f31ae4eaed99d08cbb5520fac884d27c}
+      \strng{authornamehash}{f31ae4eaed99d08cbb5520fac884d27c}
+      \strng{authorfullhash}{f31ae4eaed99d08cbb5520fac884d27c}
+      \strng{authorfullhashraw}{f31ae4eaed99d08cbb5520fac884d27c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno Spacecraft Description}
+      \field{year}{2012}
+    \endentry
+    \entry{stuart}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=326f9a48d56b2e513f257a7c00e83a4f}{%
+           family={Stephens},
+           familyi={S\bibinitperiod},
+           given={Stuart\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{326f9a48d56b2e513f257a7c00e83a4f}
+      \strng{fullhash}{326f9a48d56b2e513f257a7c00e83a4f}
+      \strng{fullhashraw}{326f9a48d56b2e513f257a7c00e83a4f}
+      \strng{bibnamehash}{326f9a48d56b2e513f257a7c00e83a4f}
+      \strng{authorbibnamehash}{326f9a48d56b2e513f257a7c00e83a4f}
+      \strng{authornamehash}{326f9a48d56b2e513f257a7c00e83a4f}
+      \strng{authorfullhash}{326f9a48d56b2e513f257a7c00e83a4f}
+      \strng{authorfullhashraw}{326f9a48d56b2e513f257a7c00e83a4f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{The Juno Mission to Jupiter: Lessons from Cruise and Plans for Orbital Operations and Science Return}
+      \field{year}{2015}
+    \endentry
+    \entry{shadan}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0c572da9d23525668d509d2b740704b2}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Shadan\bibnamedelima Ardalan},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c572da9d23525668d509d2b740704b2}
+      \strng{fullhash}{0c572da9d23525668d509d2b740704b2}
+      \strng{fullhashraw}{0c572da9d23525668d509d2b740704b2}
+      \strng{bibnamehash}{0c572da9d23525668d509d2b740704b2}
+      \strng{authorbibnamehash}{0c572da9d23525668d509d2b740704b2}
+      \strng{authornamehash}{0c572da9d23525668d509d2b740704b2}
+      \strng{authorfullhash}{0c572da9d23525668d509d2b740704b2}
+      \strng{authorfullhashraw}{0c572da9d23525668d509d2b740704b2}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno Orbit Determination Experience During First Year at Jupiter}
+      \field{year}{2017}
+    \endentry
+    \entry{mwr}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=85f9a05716225e22f7c6ec90a80a32b8}{%
+           family={Janssen},
+           familyi={J\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{85f9a05716225e22f7c6ec90a80a32b8}
+      \strng{fullhash}{85f9a05716225e22f7c6ec90a80a32b8}
+      \strng{fullhashraw}{85f9a05716225e22f7c6ec90a80a32b8}
+      \strng{bibnamehash}{85f9a05716225e22f7c6ec90a80a32b8}
+      \strng{authorbibnamehash}{85f9a05716225e22f7c6ec90a80a32b8}
+      \strng{authornamehash}{85f9a05716225e22f7c6ec90a80a32b8}
+      \strng{authorfullhash}{85f9a05716225e22f7c6ec90a80a32b8}
+      \strng{authorfullhashraw}{85f9a05716225e22f7c6ec90a80a32b8}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{MWR: Microwave Radiometer for the Juno Mission to Jupiter}
+      \field{year}{2017}
+    \endentry
+    \entry{juno_inner}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1f38713a359af2dce5019a1ed3b581fa}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi Pavlak},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{fullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{fullhashraw}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{bibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorbibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
+      \strng{authorfullhashraw}{1f38713a359af2dce5019a1ed3b581fa}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{AIAA space forum}
+      \field{note}{Site: \url{https://arc.aiaa.org/}}
+      \field{title}{Maneuver Design for the Juno Mission: Inner Cruise}
+      \field{year}{2018}
+    \endentry
+    \entry{juno_telecommunication}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Anthony\bibnamedelimb P.\bibnamedelimi Mittskus},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{fullhash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{fullhashraw}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{bibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authorbibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
+      \strng{authorfullhashraw}{bdd11dce2650f5d19e59c0ab87b76655}
+      \field{extraname}{3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Juno Telecommunications}
+      \field{year}{2012}
+    \endentry
+    \entry{SSS}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=89149fd254816f1cda3e9a2df4ecee7e}{%
+           family={Aerospace},
+           familyi={A\bibinitperiod},
+           given={Adcole\bibnamedelima Maryland},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{fullhash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{fullhashraw}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{bibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authorbibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authornamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authorfullhash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authorfullhashraw}{89149fd254816f1cda3e9a2df4ecee7e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://satcatalog.s3.amazonaws.com/components/362/SatCatalog_-_Adcole_Maryland_Aerospace_-_Fine_Spinning_Sun_Sensor_-_Datasheet.pdf?lastmod=20210708050522}}
+      \field{title}{Fine Spinning Sun Sensor}
+    \endentry
     \entry{SRU}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=bb0e2f69b05e24026482b65ed53ab65e}{%
@@ -971,29 +1148,6 @@
       \field{note}{Site: \url{https://space.leonardo.com/documents/16277711/19573187/Copia_di_A_STR_Autonomous_Star_Trackers_LQ_mm07786_.pdf?t=1538987562062}}
       \field{title}{AUTONOMOUS STAR TRACKERS}
     \endentry
-    \entry{SSS}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=89149fd254816f1cda3e9a2df4ecee7e}{%
-           family={Aerospace},
-           familyi={A\bibinitperiod},
-           given={Adcole\bibnamedelima Maryland},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{fullhash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{fullhashraw}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{bibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{authorbibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{authornamehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{authorfullhash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{authorfullhashraw}{89149fd254816f1cda3e9a2df4ecee7e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Site: \url{https://satcatalog.s3.amazonaws.com/components/362/SatCatalog_-_Adcole_Maryland_Aerospace_-_Fine_Spinning_Sun_Sensor_-_Datasheet.pdf?lastmod=20210708050522}}
-      \field{title}{Fine Spinning Sun Sensor}
-    \endentry
     \entry{gyro_evaluation}{article}{}{}
       \name{author}{1}{}{%
         {{hash=952858ee0fada4fa26d85d349bcd086e}{%
@@ -1010,8 +1164,8 @@
       \strng{authornamehash}{952858ee0fada4fa26d85d349bcd086e}
       \strng{authorfullhash}{952858ee0fada4fa26d85d349bcd086e}
       \strng{authorfullhashraw}{952858ee0fada4fa26d85d349bcd086e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -1036,9 +1190,9 @@
       \strng{authornamehash}{c25bb6f391b5284fdbe4ccbb3f77882f}
       \strng{authorfullhash}{c25bb6f391b5284fdbe4ccbb3f77882f}
       \strng{authorfullhashraw}{c25bb6f391b5284fdbe4ccbb3f77882f}
-      \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -1061,8 +1215,8 @@
       \strng{authornamehash}{f4813cd6856477d5be96bb84f391598c}
       \strng{authorfullhash}{f4813cd6856477d5be96bb84f391598c}
       \strng{authorfullhashraw}{f4813cd6856477d5be96bb84f391598c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Site: \url{https://cdn.northropgrumman.com/-/media/wp-content/uploads/pdf/Scalable-SIRU-family-of-products-brochure.pdf?rev=57f1ba8ddcb44783b9e97f979b6e45d9}}
@@ -1084,8 +1238,8 @@
       \strng{authornamehash}{3070dac400d4ab7e2fc1a892407febb6}
       \strng{authorfullhash}{3070dac400d4ab7e2fc1a892407febb6}
       \strng{authorfullhashraw}{3070dac400d4ab7e2fc1a892407febb6}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -1093,45 +1247,17 @@
       \field{year}{2018}
     \endentry
     \entry{RCS_info}{misc}{}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{howpublished}{Online Communication}
       \field{note}{Site: \url{https://www.proquest.com}}
       \field{title}{Aerojet Rocketdyne Propulsion plays role in Juno mission}
       \field{year}{2016}
     \endentry
-    \entry{juno_inner}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=1f38713a359af2dce5019a1ed3b581fa}{%
-           family={al},
-           familyi={a\bibinitperiod},
-           given={Thomas\bibnamedelimb A.\bibnamedelimi Pavlak},
-           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{1f38713a359af2dce5019a1ed3b581fa}
-      \strng{fullhash}{1f38713a359af2dce5019a1ed3b581fa}
-      \strng{fullhashraw}{1f38713a359af2dce5019a1ed3b581fa}
-      \strng{bibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
-      \strng{authorbibnamehash}{1f38713a359af2dce5019a1ed3b581fa}
-      \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
-      \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
-      \strng{authorfullhashraw}{1f38713a359af2dce5019a1ed3b581fa}
-      \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{AIAA space forum}
-      \field{note}{Site: \url{https://arc.aiaa.org/}}
-      \field{title}{Maneuver Design for the Juno Mission: Inner Cruise}
-      \field{year}{2018}
-    \endentry
     \entry{RCS_values}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{note}{Site: \url{http://www.astronautix.com/m/mr-111.html}}
       \field{title}{MR-111C datasheet}
@@ -1161,9 +1287,97 @@
       \field{year}{2014}
     \endentry
     \entry{juno_sito}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{note}{Site: \url{https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn:nasa:pds:context:instrument_host:spacecraft.jno}}
+    \endentry
+    \entry{nasa_eyes}{misc}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://eyes.nasa.gov}}
+      \field{title}{Eyes on the solar System}
+    \endentry
+    \entry{slides_michele}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=122617ecb14dbe951259b61819009831}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Lavagna},
+           giveni={L\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{122617ecb14dbe951259b61819009831}
+      \strng{fullhash}{122617ecb14dbe951259b61819009831}
+      \strng{fullhashraw}{122617ecb14dbe951259b61819009831}
+      \strng{bibnamehash}{122617ecb14dbe951259b61819009831}
+      \strng{authorbibnamehash}{122617ecb14dbe951259b61819009831}
+      \strng{authornamehash}{122617ecb14dbe951259b61819009831}
+      \strng{authorfullhash}{122617ecb14dbe951259b61819009831}
+      \strng{authorfullhashraw}{122617ecb14dbe951259b61819009831}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Presentation}
+      \field{title}{Attitude and orbit determination and control}
+      \field{year}{2024}
+    \endentry
+    \entry{jupiter_mag_field}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=df5082fd708f5af48ce8078afff396c6}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Mario\bibnamedelimb H.\bibnamedelimi Acuña},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{fullhash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{fullhashraw}{df5082fd708f5af48ce8078afff396c6}
+      \strng{bibnamehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{authorbibnamehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{authornamehash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{authorfullhash}{df5082fd708f5af48ce8078afff396c6}
+      \strng{authorfullhashraw}{df5082fd708f5af48ce8078afff396c6}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Book}
+      \field{title}{Physics of the Jovian magnetosphere}
+      \field{year}{1983}
+    \endentry
+    \entry{jupiter_density}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fe53f31965099b78dc31508fb03a4074}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Cianciolo},
+           giveni={C\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{fullhash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{fullhashraw}{fe53f31965099b78dc31508fb03a4074}
+      \strng{bibnamehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{authorbibnamehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{authornamehash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{authorfullhash}{fe53f31965099b78dc31508fb03a4074}
+      \strng{authorfullhashraw}{fe53f31965099b78dc31508fb03a4074}
+      \field{extraname}{7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Report}
+      \field{title}{Jupiter Global Reference Atmospheric Model (Jupiter-GRAM): User Guide}
+      \field{year}{2021}
     \endentry
   \enddatalist
 \endrefsection

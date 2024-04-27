@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  25 APR 2024 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  27 APR 2024 11:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -637,66 +637,71 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@cntb=\count308
 \multirow@dima=\skip60
 \bigstrutjot=\dimen186
+) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen187
+\c@nlinenum=\count309
+\TeXr@lab=\toks31
 ) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen187
-\WF@size=\dimen188
-\c@WF@wrappedlines=\count309
+\wrapoverhang=\dimen188
+\WF@size=\dimen189
+\c@WF@wrappedlines=\count310
 \WF@box=\box59
-\WF@everypar=\toks31
+\WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count310
+\lrq@indent=\count311
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count311
-\c@listtotal=\count312
-\c@listcount=\count313
-\c@liststart=\count314
-\c@liststop=\count315
-\c@citecount=\count316
-\c@citetotal=\count317
-\c@multicitecount=\count318
-\c@multicitetotal=\count319
-\c@instcount=\count320
-\c@maxnames=\count321
-\c@minnames=\count322
-\c@maxitems=\count323
-\c@minitems=\count324
-\c@citecounter=\count325
-\c@maxcitecounter=\count326
-\c@savedcitecounter=\count327
-\c@uniquelist=\count328
-\c@uniquename=\count329
-\c@refsection=\count330
-\c@refsegment=\count331
-\c@maxextratitle=\count332
-\c@maxextratitleyear=\count333
-\c@maxextraname=\count334
-\c@maxextradate=\count335
-\c@maxextraalpha=\count336
-\c@abbrvpenalty=\count337
-\c@highnamepenalty=\count338
-\c@lownamepenalty=\count339
-\c@maxparens=\count340
-\c@parenlevel=\count341
-\blx@tempcnta=\count342
-\blx@tempcntb=\count343
-\blx@tempcntc=\count344
-\c@blx@maxsection=\count345
-\blx@maxsegment@0=\count346
-\blx@notetype=\count347
-\blx@parenlevel@text=\count348
-\blx@parenlevel@foot=\count349
-\blx@sectionciteorder@0=\count350
-\blx@sectionciteorderinternal@0=\count351
-\blx@entrysetcounter=\count352
-\blx@biblioinstance=\count353
+\c@tabx@nest=\count312
+\c@listtotal=\count313
+\c@listcount=\count314
+\c@liststart=\count315
+\c@liststop=\count316
+\c@citecount=\count317
+\c@citetotal=\count318
+\c@multicitecount=\count319
+\c@multicitetotal=\count320
+\c@instcount=\count321
+\c@maxnames=\count322
+\c@minnames=\count323
+\c@maxitems=\count324
+\c@minitems=\count325
+\c@citecounter=\count326
+\c@maxcitecounter=\count327
+\c@savedcitecounter=\count328
+\c@uniquelist=\count329
+\c@uniquename=\count330
+\c@refsection=\count331
+\c@refsegment=\count332
+\c@maxextratitle=\count333
+\c@maxextratitleyear=\count334
+\c@maxextraname=\count335
+\c@maxextradate=\count336
+\c@maxextraalpha=\count337
+\c@abbrvpenalty=\count338
+\c@highnamepenalty=\count339
+\c@lownamepenalty=\count340
+\c@maxparens=\count341
+\c@parenlevel=\count342
+\blx@tempcnta=\count343
+\blx@tempcntb=\count344
+\blx@tempcntc=\count345
+\c@blx@maxsection=\count346
+\blx@maxsegment@0=\count347
+\blx@notetype=\count348
+\blx@parenlevel@text=\count349
+\blx@parenlevel@foot=\count350
+\blx@sectionciteorder@0=\count351
+\blx@sectionciteorderinternal@0=\count352
+\blx@entrysetcounter=\count353
+\blx@biblioinstance=\count354
 \labelnumberwidth=\skip61
 \labelalphawidth=\skip62
 \biblabelsep=\skip63
@@ -708,9 +713,9 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count354
-\c@maxcomprange=\count355
-\c@mincompwidth=\count356
+\c@mincomprange=\count355
+\c@maxcomprange=\count356
+\c@mincompwidth=\count357
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -720,74 +725,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count357
-\c@savedafterword=\count358
-\c@annotator=\count359
-\c@savedannotator=\count360
-\c@author=\count361
-\c@savedauthor=\count362
-\c@bookauthor=\count363
-\c@savedbookauthor=\count364
-\c@commentator=\count365
-\c@savedcommentator=\count366
-\c@editor=\count367
-\c@savededitor=\count368
-\c@editora=\count369
-\c@savededitora=\count370
-\c@editorb=\count371
-\c@savededitorb=\count372
-\c@editorc=\count373
-\c@savededitorc=\count374
-\c@foreword=\count375
-\c@savedforeword=\count376
-\c@holder=\count377
-\c@savedholder=\count378
-\c@introduction=\count379
-\c@savedintroduction=\count380
-\c@namea=\count381
-\c@savednamea=\count382
-\c@nameb=\count383
-\c@savednameb=\count384
-\c@namec=\count385
-\c@savednamec=\count386
-\c@translator=\count387
-\c@savedtranslator=\count388
-\c@shortauthor=\count389
-\c@savedshortauthor=\count390
-\c@shorteditor=\count391
-\c@savedshorteditor=\count392
-\c@labelname=\count393
-\c@savedlabelname=\count394
-\c@institution=\count395
-\c@savedinstitution=\count396
-\c@lista=\count397
-\c@savedlista=\count398
-\c@listb=\count399
-\c@savedlistb=\count400
-\c@listc=\count401
-\c@savedlistc=\count402
-\c@listd=\count403
-\c@savedlistd=\count404
-\c@liste=\count405
-\c@savedliste=\count406
-\c@listf=\count407
-\c@savedlistf=\count408
-\c@location=\count409
-\c@savedlocation=\count410
-\c@organization=\count411
-\c@savedorganization=\count412
-\c@origlocation=\count413
-\c@savedoriglocation=\count414
-\c@origpublisher=\count415
-\c@savedorigpublisher=\count416
-\c@publisher=\count417
-\c@savedpublisher=\count418
-\c@language=\count419
-\c@savedlanguage=\count420
-\c@origlanguage=\count421
-\c@savedoriglanguage=\count422
-\c@pageref=\count423
-\c@savedpageref=\count424
+\c@afterword=\count358
+\c@savedafterword=\count359
+\c@annotator=\count360
+\c@savedannotator=\count361
+\c@author=\count362
+\c@savedauthor=\count363
+\c@bookauthor=\count364
+\c@savedbookauthor=\count365
+\c@commentator=\count366
+\c@savedcommentator=\count367
+\c@editor=\count368
+\c@savededitor=\count369
+\c@editora=\count370
+\c@savededitora=\count371
+\c@editorb=\count372
+\c@savededitorb=\count373
+\c@editorc=\count374
+\c@savededitorc=\count375
+\c@foreword=\count376
+\c@savedforeword=\count377
+\c@holder=\count378
+\c@savedholder=\count379
+\c@introduction=\count380
+\c@savedintroduction=\count381
+\c@namea=\count382
+\c@savednamea=\count383
+\c@nameb=\count384
+\c@savednameb=\count385
+\c@namec=\count386
+\c@savednamec=\count387
+\c@translator=\count388
+\c@savedtranslator=\count389
+\c@shortauthor=\count390
+\c@savedshortauthor=\count391
+\c@shorteditor=\count392
+\c@savedshorteditor=\count393
+\c@labelname=\count394
+\c@savedlabelname=\count395
+\c@institution=\count396
+\c@savedinstitution=\count397
+\c@lista=\count398
+\c@savedlista=\count399
+\c@listb=\count400
+\c@savedlistb=\count401
+\c@listc=\count402
+\c@savedlistc=\count403
+\c@listd=\count404
+\c@savedlistd=\count405
+\c@liste=\count406
+\c@savedliste=\count407
+\c@listf=\count408
+\c@savedlistf=\count409
+\c@location=\count410
+\c@savedlocation=\count411
+\c@organization=\count412
+\c@savedorganization=\count413
+\c@origlocation=\count414
+\c@savedoriglocation=\count415
+\c@origpublisher=\count416
+\c@savedorigpublisher=\count417
+\c@publisher=\count418
+\c@savedpublisher=\count419
+\c@language=\count420
+\c@savedlanguage=\count421
+\c@origlanguage=\count422
+\c@savedoriglanguage=\count423
+\c@pageref=\count424
+\c@savedpageref=\count425
 \shorthandwidth=\skip69
 \shortjournalwidth=\skip70
 \shortserieswidth=\skip71
@@ -811,19 +816,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count425
-\c@textcitetotal=\count426
-\c@textcitemaxnames=\count427
-\c@biburlbigbreakpenalty=\count428
-\c@biburlbreakpenalty=\count429
-\c@biburlnumpenalty=\count430
-\c@biburlucpenalty=\count431
-\c@biburllcpenalty=\count432
+\c@textcitecount=\count426
+\c@textcitetotal=\count427
+\c@textcitemaxnames=\count428
+\c@biburlbigbreakpenalty=\count429
+\c@biburlbreakpenalty=\count430
+\c@biburlnumpenalty=\count431
+\c@biburlucpenalty=\count432
+\c@biburllcpenalty=\count433
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count433
+\c@smartand=\count434
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -833,8 +838,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count434
-\c@bbx:relatedtotal=\count435
+\c@bbx:relatedcount=\count435
+\c@bbx:relatedtotal=\count436
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -863,7 +868,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2024-03-14 L3 programming layer (loader) 
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count436
+\l__color_backend_stack_int=\count437
 \l__pdf_internal_box=\box60
 ))
 Package biblatex Info: ... and expl3
@@ -876,24 +881,24 @@ Package: xparse 2024-03-14 L3 Experimental document command parser
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 )) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count437
+\c@tracingmulticols=\count438
 \mult@box=\box61
-\multicol@leftmargin=\dimen189
-\c@unbalance=\count438
-\c@collectmore=\count439
-\doublecol@number=\count440
-\multicoltolerance=\count441
-\multicolpretolerance=\count442
-\full@width=\dimen190
-\page@free=\dimen191
-\premulticols=\dimen192
-\postmulticols=\dimen193
+\multicol@leftmargin=\dimen190
+\c@unbalance=\count439
+\c@collectmore=\count440
+\doublecol@number=\count441
+\multicoltolerance=\count442
+\multicolpretolerance=\count443
+\full@width=\dimen191
+\page@free=\dimen192
+\premulticols=\dimen193
+\postmulticols=\dimen194
 \multicolsep=\skip83
 \multicolbaselineskip=\skip84
 \partial@page=\box62
 \last@line=\box63
 \mc@boxedresult=\box64
-\maxbalancingoverflow=\dimen194
+\maxbalancingoverflow=\dimen195
 \mult@rightbox=\box65
 \mult@grightbox=\box66
 \mult@firstbox=\box67
@@ -934,15 +939,15 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box102
 \@tempa=\box103
 \@tempa=\box104
-\c@minrows=\count443
-\c@columnbadness=\count444
-\c@finalcolumnbadness=\count445
-\last@try=\dimen195
-\multicolovershoot=\dimen196
-\multicolundershoot=\dimen197
+\c@minrows=\count444
+\c@columnbadness=\count445
+\c@finalcolumnbadness=\count446
+\last@try=\dimen196
+\multicolovershoot=\dimen197
+\multicolundershoot=\dimen198
 \mult@nat@firstbox=\box105
 \colbreak@box=\box106
-\mc@col@check@num=\count446
+\mc@col@check@num=\count447
 ) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
 Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
@@ -953,28 +958,23 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTright=\skip86
 \LTpre=\skip87
 \LTpost=\skip88
-\LTchunksize=\count447
-\LTcapwidth=\dimen198
+\LTchunksize=\count448
+\LTcapwidth=\dimen199
 \LT@head=\box107
 \LT@firsthead=\box108
 \LT@foot=\box109
 \LT@lastfoot=\box110
 \LT@gbox=\box111
-\LT@cols=\count448
-\LT@rows=\count449
-\c@LT@tables=\count450
-\c@LT@chunks=\count451
-\LT@p@ftn=\toks32
-))) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+\LT@cols=\count449
+\LT@rows=\count450
+\c@LT@tables=\count451
+\c@LT@chunks=\count452
+\LT@p@ftn=\toks33
+)))) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
-\everycr=\toks33
+\everycr=\toks34
 \minrowclearance=\skip89
-\rownum=\count452
-)) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
-Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen199
-\c@nlinenum=\count453
-\TeXr@lab=\toks34
+\rownum=\count453
 ) (Config/formats.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 Package biblatex Info: Redefining '\supercite' on input line 35.
@@ -988,11 +988,7 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+jkp on input line 8.
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
-) (SSEO_final_report.aux
-
-LaTeX Warning: Label `fig:foto_thruster' multiply defined.
-
-)
+) (SSEO_final_report.aux)
 \openout1 = `SSEO_final_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 8.
@@ -1112,7 +1108,7 @@ Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (Config/title_page_chapter.tex
-<Config/Poli_logo.pdf, id=249, 527.9725pt x 415.5525pt>
+<Config/Poli_logo.pdf, id=266, 527.9725pt x 415.5525pt>
 File: Config/Poli_logo.pdf Graphic file (type pdf)
 <use Config/Poli_logo.pdf>
 Package pdftex.def Info: Config/Poli_logo.pdf  used on input line 6.
@@ -1161,31 +1157,31 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [2]) (Chapters/H1/Sections/04_functional_analysis.tex
-<Chapters/H1/Images/functional_analysis.pdf, id=386, 1656.9403pt x 1837.61531pt>
+<Chapters/H1/Images/functional_analysis.pdf, id=407, 1656.9403pt x 1837.61531pt>
 File: Chapters/H1/Images/functional_analysis.pdf Graphic file (type pdf)
 <use Chapters/H1/Images/functional_analysis.pdf>
 Package pdftex.def Info: Chapters/H1/Images/functional_analysis.pdf  used on input line 6.
 (pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
 ) (Chapters/H1/Sections/05_phases.tex [3 <./Chapters/H1/Images/functional_analysis.pdf>]) (Chapters/H1/Sections/06_conops.tex
-<Chapters/H1/Images/ConOps.pdf, id=401, 1596.39159pt x 499.24263pt>
+<Chapters/H1/Images/ConOps.pdf, id=422, 1596.39159pt x 499.24263pt>
 File: Chapters/H1/Images/ConOps.pdf Graphic file (type pdf)
 <use Chapters/H1/Images/ConOps.pdf>
 Package pdftex.def Info: Chapters/H1/Images/ConOps.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
 ) [4 <./Chapters/H1/Images/ConOps.pdf>] (Chapters/H1/Sections/07_payload.tex [5]
-<Chapters/H1/Images/Strumenti Juno.jpg, id=433, 1606.0pt x 1159.33125pt>
+<Chapters/H1/Images/Strumenti Juno.jpg, id=454, 1606.0pt x 1159.33125pt>
 File: Chapters/H1/Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Chapters/H1/Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Chapters/H1/Images/Strumenti Juno.jpg  used on input line 31.
 (pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
  [6 <./Chapters/H1/Images/Strumenti Juno.jpg>]) (Chapters/H1/Sections/08_mission_analysis.tex
-<Chapters/H1/Images/orbits.png, id=443, 305.943pt x 509.2626pt>
+<Chapters/H1/Images/orbits.png, id=464, 305.943pt x 509.2626pt>
 File: Chapters/H1/Images/orbits.png Graphic file (type png)
 <use Chapters/H1/Images/orbits.png>
 Package pdftex.def Info: Chapters/H1/Images/orbits.png  used on input line 7.
 (pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
  [7 <./Chapters/H1/Images/orbits.png (PNG copy)>]
-<Chapters/H1/Images/orbits_jupiter.jpg, id=458, 2609.75pt x 919.435pt>
+<Chapters/H1/Images/orbits_jupiter.jpg, id=479, 2609.75pt x 919.435pt>
 File: Chapters/H1/Images/orbits_jupiter.jpg Graphic file (type jpg)
 <use Chapters/H1/Images/orbits_jupiter.jpg>
 Package pdftex.def Info: Chapters/H1/Images/orbits_jupiter.jpg  used on input line 53.
@@ -1206,30 +1202,30 @@ Package biblatex Info: Setting label 'refsection:2' on input line 2.
 ] (Chapters/H2/Sections/01_ma_and_dv.tex [11]
 
 pdfTeX warning: pdflatex (file ./Chapters/H2/Images/trajectory.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapters/H2/Images/trajectory.pdf, id=514, 513.92pt x 385.44pt>
+<Chapters/H2/Images/trajectory.pdf, id=535, 513.92pt x 385.44pt>
 File: Chapters/H2/Images/trajectory.pdf Graphic file (type pdf)
 <use Chapters/H2/Images/trajectory.pdf>
 Package pdftex.def Info: Chapters/H2/Images/trajectory.pdf  used on input line 63.
 (pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
 [12 <./Chapters/H2/Images/trajectory.pdf>]) (Chapters/H2/Sections/02_prop_architecture.tex
-<Chapters/H2/Images/axis.jpg, id=551, 791.95876pt x 278.03876pt>
+<Chapters/H2/Images/axis.jpg, id=572, 791.95876pt x 278.03876pt>
 File: Chapters/H2/Images/axis.jpg Graphic file (type jpg)
 <use Chapters/H2/Images/axis.jpg>
 Package pdftex.def Info: Chapters/H2/Images/axis.jpg  used on input line 6.
 (pdftex.def)             Requested size: 384.11221pt x 134.85287pt.
  [13 <./Chapters/H2/Images/axis.jpg>]
-<Chapters/H2/Images/spin2.png, id=566, 499.26524pt x 201.75375pt>
+<Chapters/H2/Images/spin2.png, id=587, 499.26524pt x 201.75375pt>
 File: Chapters/H2/Images/spin2.png Graphic file (type png)
 <use Chapters/H2/Images/spin2.png>
 Package pdftex.def Info: Chapters/H2/Images/spin2.png  used on input line 17.
 (pdftex.def)             Requested size: 394.35739pt x 159.36215pt.
-<Chapters/H2/Images/foto_thruster.jpg, id=568, 678.535pt x 360.34625pt>
+<Chapters/H2/Images/foto_thruster.jpg, id=589, 678.535pt x 360.34625pt>
 File: Chapters/H2/Images/foto_thruster.jpg Graphic file (type jpg)
 <use Chapters/H2/Images/foto_thruster.jpg>
 Package pdftex.def Info: Chapters/H2/Images/foto_thruster.jpg  used on input line 21.
 (pdftex.def)             Requested size: 281.68385pt x 149.5904pt.
  [14 <./Chapters/H2/Images/spin2.png> <./Chapters/H2/Images/foto_thruster.jpg>]
-<Chapters/H2/Images/architettura_prop.pdf, id=588, 542.025pt x 391.4625pt>
+<Chapters/H2/Images/architettura_prop.pdf, id=608, 542.025pt x 391.4625pt>
 File: Chapters/H2/Images/architettura_prop.pdf Graphic file (type pdf)
 <use Chapters/H2/Images/architettura_prop.pdf>
 Package pdftex.def Info: Chapters/H2/Images/architettura_prop.pdf  used on input line 40.
@@ -1244,35 +1240,35 @@ Package biblatex Info: Setting label 'refsection:3' on input line 3.
  (Chapters/H3/Body.tex (Chapters/H3/Sections/00_notation.tex) [19
 
 ] (Chapters/H3/Sections/01_architecture.tex
-<Chapters/H3/Images/antennas_positioning.jpg, id=1117, 513.117pt x 325.215pt>
+<Chapters/H3/Images/antennas_positioning.jpg, id=1137, 513.117pt x 325.215pt>
 File: Chapters/H3/Images/antennas_positioning.jpg Graphic file (type jpg)
 <use Chapters/H3/Images/antennas_positioning.jpg>
 Package pdftex.def Info: Chapters/H3/Images/antennas_positioning.jpg  used on input line 4.
 (pdftex.def)             Requested size: 256.07481pt x 162.30438pt.
  [20 <./Chapters/H3/Images/antennas_positioning.jpg>] [21]
-<Chapters/H3/Images/DSNantenna.pdf, id=1152, 466.74374pt x 338.76563pt>
+<Chapters/H3/Images/DSNantenna.pdf, id=1172, 466.74374pt x 338.76563pt>
 File: Chapters/H3/Images/DSNantenna.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/DSNantenna.pdf>
 Package pdftex.def Info: Chapters/H3/Images/DSNantenna.pdf  used on input line 81.
 (pdftex.def)             Requested size: 256.07481pt x 185.86678pt.
-<Chapters/H3/Images/dsn_hga.jpg, id=1157, 581.17125pt x 310.15875pt>
+<Chapters/H3/Images/dsn_hga.jpg, id=1177, 581.17125pt x 310.15875pt>
 File: Chapters/H3/Images/dsn_hga.jpg Graphic file (type jpg)
 <use Chapters/H3/Images/dsn_hga.jpg>
 Package pdftex.def Info: Chapters/H3/Images/dsn_hga.jpg  used on input line 92.
 (pdftex.def)             Requested size: 409.72125pt x 218.66194pt.
 ) (Chapters/H3/Sections/02_phases.tex [22 <./Chapters/H3/Images/DSNantenna.pdf> <./Chapters/H3/Images/dsn_hga.jpg>]
-<Chapters/H3/Images/phases_antenna.pdf, id=1186, 489.32813pt x 263.48438pt>
+<Chapters/H3/Images/phases_antenna.pdf, id=1206, 489.32813pt x 263.48438pt>
 File: Chapters/H3/Images/phases_antenna.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/phases_antenna.pdf>
 Package pdftex.def Info: Chapters/H3/Images/phases_antenna.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 275.77823pt.
 ) (Chapters/H3/Sections/03_sizing.tex [23 <./Chapters/H3/Images/phases_antenna.pdf>]
-<Chapters/H3/Images/datarate.pdf, id=1235, 256.96pt x 192.72pt>
+<Chapters/H3/Images/datarate.pdf, id=1255, 256.96pt x 192.72pt>
 File: Chapters/H3/Images/datarate.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/datarate.pdf>
 Package pdftex.def Info: Chapters/H3/Images/datarate.pdf  used on input line 121.
 (pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
-<Chapters/H3/Images/ebn0.pdf, id=1236, 256.96pt x 192.72pt>
+<Chapters/H3/Images/ebn0.pdf, id=1256, 256.96pt x 192.72pt>
 File: Chapters/H3/Images/ebn0.pdf Graphic file (type pdf)
 <use Chapters/H3/Images/ebn0.pdf>
 Package pdftex.def Info: Chapters/H3/Images/ebn0.pdf  used on input line 121.
@@ -1290,57 +1286,80 @@ Package biblatex Info: Setting label 'refsection:4' on input line 4.
  (Chapters/H4/Body.tex (Chapters/H4/Sections/00_notation.tex) [26
 
 ] (Chapters/H4/Sections/01_introduction.tex) (Chapters/H4/Sections/02_modes.tex
+<Chapters/H4/Images/SPM.pdf, id=1279, 1204.5pt x 1053.9375pt>
+File: Chapters/H4/Images/SPM.pdf Graphic file (type pdf)
+<use Chapters/H4/Images/SPM.pdf>
+Package pdftex.def Info: Chapters/H4/Images/SPM.pdf  used on input line 15.
+(pdftex.def)             Requested size: 230.46576pt x 201.64932pt.
+ [27 <./Chapters/H4/Images/SPM.pdf>]
+<Chapters/H4/Images/alfa_025.pdf, id=1537, 338.76563pt x 301.125pt>
+File: Chapters/H4/Images/alfa_025.pdf Graphic file (type pdf)
+<use Chapters/H4/Images/alfa_025.pdf>
+Package pdftex.def Info: Chapters/H4/Images/alfa_025.pdf  used on input line 79.
+(pdftex.def)             Requested size: 172.07997pt x 152.9652pt.
+<Chapters/H4/Images/alfa_5.pdf, id=1538, 338.76563pt x 301.125pt>
+File: Chapters/H4/Images/alfa_5.pdf Graphic file (type pdf)
+<use Chapters/H4/Images/alfa_5.pdf>
+Package pdftex.def Info: Chapters/H4/Images/alfa_5.pdf  used on input line 79.
+(pdftex.def)             Requested size: 172.07997pt x 152.9652pt.
+ [28 <./Chapters/H4/Images/alfa_025.pdf> <./Chapters/H4/Images/alfa_5.pdf
 
-LaTeX Warning: Missing reference on input line 24.
+pdfTeX warning: pdflatex (file ./Chapters/H4/Images/alfa_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 116.
+) (Chapters/H4/Sections/03_architecture_rationale.tex [29]
+<Chapters/H4/Images/foto_thruster_2.jpg, id=1580, 678.535pt x 360.34625pt>
+File: Chapters/H4/Images/foto_thruster_2.jpg Graphic file (type jpg)
+<use Chapters/H4/Images/foto_thruster_2.jpg>
+Package pdftex.def Info: Chapters/H4/Images/foto_thruster_2.jpg  used on input line 75.
+(pdftex.def)             Requested size: 230.46576pt x 122.38963pt.
+ [30 <./Chapters/H4/Images/foto_thruster_2.jpg>]) (Chapters/H4/Sections/04_reverse_sizing.tex
+
+LaTeX Warning: Missing reference on input line 14.
+
+<Chapters/H4/Images/juno_cad.png, id=1608, 371.58826pt x 386.04225pt>
+File: Chapters/H4/Images/juno_cad.png Graphic file (type png)
+<use Chapters/H4/Images/juno_cad.png>
+Package pdftex.def Info: Chapters/H4/Images/juno_cad.png  used on input line 21.
+(pdftex.def)             Requested size: 159.08604pt x 165.27628pt.
+[31 <./Chapters/H4/Images/juno_cad.png>] [32]
+
+LaTeX Warning: Missing reference on input line 129.
 
 
-LaTeX Warning: Missing reference on input line 37.
+LaTeX Warning: Missing reference on input line 129.
 
 
-LaTeX Warning: Missing reference on input line 39.
+LaTeX Warning: Missing reference on input line 133.
 
 
-LaTeX Warning: Missing reference on input line 42.
+LaTeX Warning: Missing reference on input line 133.
 
-[27]) (Chapters/H4/Sections/03_architecture_rationale.tex
-
-LaTeX Warning: Missing reference on input line 39.
-
-[28]
-<Chapters/H4/Images/foto_thruster.jpg, id=1283, 678.535pt x 360.34625pt>
-File: Chapters/H4/Images/foto_thruster.jpg Graphic file (type jpg)
-<use Chapters/H4/Images/foto_thruster.jpg>
-Package pdftex.def Info: Chapters/H4/Images/foto_thruster.jpg  used on input line 106.
-(pdftex.def)             Requested size: 358.50317pt x 190.38876pt.
- [29] [30 <./Chapters/H4/Images/foto_thruster.jpg>]) (Chapters/H4/Sections/04_reverse_sizing.tex)) [31]
+)) [33]
 Package biblatex Info: Reference section=0 on input line 4.
-) [32] (SSEO_final_report.aux)
+) [34] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 40C109DCE89419AB7BB6B88B9E2B89FA;9914.
+(rerunfilecheck)             Checksum: A579755631CCCA4BED80DDF251B2205D;10573.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25128 strings out of 474424
- 443807 string characters out of 5741739
+ 25298 strings out of 474424
+ 448118 string characters out of 5741739
  1974496 words of memory out of 5000000
- 46749 multiletter control sequences out of 15000+600000
- 747662 words of font info for 265 fonts, out of 8000000 for 9000
+ 46882 multiletter control sequences out of 15000+600000
+ 802271 words of font info for 312 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,19n,102p,1950b,2314s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (35 pages, 2546951 bytes).
+ 87i,20n,102p,1950b,2314s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on SSEO_final_report.pdf (37 pages, 4713020 bytes).
 PDF statistics:
- 1437 PDF objects out of 1440 (max. 8388607)
- 219 named destinations out of 1000 (max. 500000)
- 587 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1774 PDF objects out of 2073 (max. 8388607)
+ 241 named destinations out of 1000 (max. 500000)
+ 639 words of extra memory for PDF output out of 10000 (max. 10000000)
 
