@@ -1325,33 +1325,6 @@
       \field{note}{Site: \url{https://eyes.nasa.gov}}
       \field{title}{Eyes on the solar System}
     \endentry
-    \entry{slides_michele}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=122617ecb14dbe951259b61819009831}{%
-           family={al},
-           familyi={a\bibinitperiod},
-           given={Lavagna},
-           giveni={L\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{122617ecb14dbe951259b61819009831}
-      \strng{fullhash}{122617ecb14dbe951259b61819009831}
-      \strng{fullhashraw}{122617ecb14dbe951259b61819009831}
-      \strng{bibnamehash}{122617ecb14dbe951259b61819009831}
-      \strng{authorbibnamehash}{122617ecb14dbe951259b61819009831}
-      \strng{authornamehash}{122617ecb14dbe951259b61819009831}
-      \strng{authorfullhash}{122617ecb14dbe951259b61819009831}
-      \strng{authorfullhashraw}{122617ecb14dbe951259b61819009831}
-      \field{extraname}{6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Presentation}
-      \field{title}{Attitude and orbit determination and control}
-      \field{year}{2024}
-    \endentry
     \entry{jupiter_mag_field}{article}{}{}
       \name{author}{1}{}{%
         {{hash=df5082fd708f5af48ce8078afff396c6}{%
@@ -1370,7 +1343,7 @@
       \strng{authornamehash}{df5082fd708f5af48ce8078afff396c6}
       \strng{authorfullhash}{df5082fd708f5af48ce8078afff396c6}
       \strng{authorfullhashraw}{df5082fd708f5af48ce8078afff396c6}
-      \field{extraname}{7}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1397,7 +1370,7 @@
       \strng{authornamehash}{fe53f31965099b78dc31508fb03a4074}
       \strng{authorfullhash}{fe53f31965099b78dc31508fb03a4074}
       \strng{authorfullhashraw}{fe53f31965099b78dc31508fb03a4074}
-      \field{extraname}{8}
+      \field{extraname}{7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
