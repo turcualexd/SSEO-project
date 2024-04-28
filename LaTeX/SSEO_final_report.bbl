@@ -1022,27 +1022,6 @@
       \field{title}{Juno Telecommunications}
       \field{year}{2012}
     \endentry
-    \entry{SSS}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=89149fd254816f1cda3e9a2df4ecee7e}{%
-           family={Aerospace},
-           familyi={A\bibinitperiod},
-           given={Adcole\bibnamedelima Maryland},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{fullhash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{bibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{authorbibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{authornamehash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \strng{authorfullhash}{89149fd254816f1cda3e9a2df4ecee7e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Site: \url{https://satcatalog.s3.amazonaws.com/components/362/SatCatalog_-_Adcole_Maryland_Aerospace_-_Fine_Spinning_Sun_Sensor_-_Datasheet.pdf?lastmod=20210708050522}}
-      \field{title}{Fine Spinning Sun Sensor}
-    \endentry
     \entry{SRU}{misc}{}
       \name{author}{1}{}{%
         {{hash=bb0e2f69b05e24026482b65ed53ab65e}{%
@@ -1063,6 +1042,52 @@
       \field{labeltitlesource}{title}
       \field{note}{Site: \url{https://space.leonardo.com/documents/16277711/19573187/Copia_di_A_STR_Autonomous_Star_Trackers_LQ_mm07786_.pdf?t=1538987562062}}
       \field{title}{AUTONOMOUS STAR TRACKERS}
+    \endentry
+    \entry{SRU_description}{article}{}
+      \name{author}{1}{}{%
+        {{hash=552af739794f5d7af4a99214d4230d5a}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={H.\bibnamedelimi N.\bibnamedelimi Becker},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{552af739794f5d7af4a99214d4230d5a}
+      \strng{fullhash}{552af739794f5d7af4a99214d4230d5a}
+      \strng{bibnamehash}{552af739794f5d7af4a99214d4230d5a}
+      \strng{authorbibnamehash}{552af739794f5d7af4a99214d4230d5a}
+      \strng{authornamehash}{552af739794f5d7af4a99214d4230d5a}
+      \strng{authorfullhash}{552af739794f5d7af4a99214d4230d5a}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{The Juno Radiation Monitoring (RM) Investigation}
+      \field{year}{2017}
+    \endentry
+    \entry{SSS}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=89149fd254816f1cda3e9a2df4ecee7e}{%
+           family={Aerospace},
+           familyi={A\bibinitperiod},
+           given={Adcole\bibnamedelima Maryland},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{fullhash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{bibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authorbibnamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authornamehash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \strng{authorfullhash}{89149fd254816f1cda3e9a2df4ecee7e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://satcatalog.s3.amazonaws.com/components/362/SatCatalog_-_Adcole_Maryland_Aerospace_-_Fine_Spinning_Sun_Sensor_-_Datasheet.pdf?lastmod=20210708050522}}
+      \field{title}{Fine Spinning Sun Sensor}
     \endentry
     \entry{gyro_evaluation}{article}{}
       \name{author}{1}{}{%
@@ -1102,7 +1127,7 @@
       \strng{authorbibnamehash}{c25bb6f391b5284fdbe4ccbb3f77882f}
       \strng{authornamehash}{c25bb6f391b5284fdbe4ccbb3f77882f}
       \strng{authorfullhash}{c25bb6f391b5284fdbe4ccbb3f77882f}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1184,8 +1209,8 @@
       \strng{authorbibnamehash}{01c74ef466772b381dbbae5ba420fa82}
       \strng{authornamehash}{01c74ef466772b381dbbae5ba420fa82}
       \strng{authorfullhash}{01c74ef466772b381dbbae5ba420fa82}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -1203,31 +1228,6 @@
       \field{labeltitlesource}{title}
       \field{note}{Site: \url{https://eyes.nasa.gov}}
       \field{title}{Eyes on the solar System}
-    \endentry
-    \entry{slides_michele}{article}{}
-      \name{author}{1}{}{%
-        {{hash=122617ecb14dbe951259b61819009831}{%
-           family={al},
-           familyi={a\bibinitperiod},
-           given={Lavagna},
-           giveni={L\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{122617ecb14dbe951259b61819009831}
-      \strng{fullhash}{122617ecb14dbe951259b61819009831}
-      \strng{bibnamehash}{122617ecb14dbe951259b61819009831}
-      \strng{authorbibnamehash}{122617ecb14dbe951259b61819009831}
-      \strng{authornamehash}{122617ecb14dbe951259b61819009831}
-      \strng{authorfullhash}{122617ecb14dbe951259b61819009831}
-      \field{extraname}{5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Presentation}
-      \field{title}{Attitude and orbit determination and control}
-      \field{year}{2024}
     \endentry
     \entry{jupiter_mag_field}{article}{}
       \name{author}{1}{}{%

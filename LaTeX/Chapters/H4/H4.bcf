@@ -2377,19 +2377,19 @@
     <bcf:citekey order="8" intorder="1">shadan</bcf:citekey>
     <bcf:citekey order="9" intorder="1">juno_telecommunication</bcf:citekey>
     <bcf:citekey order="10" intorder="1">SRU</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">SSS</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">gyro_evaluation</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">messenger_imu</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">SSIRU</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">ASC_details</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">RCS_info</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">juno_inner</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">RCS_values</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">LL_early_cruise</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">juno_sito</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">SRU_description</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">SSS</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">gyro_evaluation</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">messenger_imu</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">SSIRU</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">ASC_details</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">RCS_info</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">juno_inner</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">RCS_values</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">LL_early_cruise</bcf:citekey>
     <bcf:citekey order="21" intorder="1">juno_sito</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">nasa_eyes</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">slides_michele</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">juno_sito</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">nasa_eyes</bcf:citekey>
     <bcf:citekey order="24" intorder="1">jupiter_mag_field</bcf:citekey>
     <bcf:citekey order="25" intorder="1">jupiter_density</bcf:citekey>
     <bcf:citekey order="26" intorder="1">LL_early_cruise</bcf:citekey>

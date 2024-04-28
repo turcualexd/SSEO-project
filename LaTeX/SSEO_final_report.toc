@@ -55,7 +55,7 @@
 \contentsline {subsection}{\numberline {4.2.6}VECtor Mode (VECM)}{28}{subsection.4.2.6}%
 \contentsline {subsection}{\numberline {4.2.7}Spin Change Mode (SCM)}{29}{subsection.4.2.7}%
 \contentsline {subsection}{\numberline {4.2.8}Safe Modes (SM)}{29}{subsection.4.2.8}%
-\contentsline {subsection}{\numberline {4.2.9}Pointing budget}{29}{subsection.4.2.9}%
+\contentsline {subsection}{\numberline {4.2.9}Pointing budget \& Phases/AOCS modes correlation}{29}{subsection.4.2.9}%
 \contentsline {section}{\numberline {4.3}Architecture and rationale of AOCS}{29}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Sensors}{30}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Actuators}{30}{subsection.4.3.2}%

@@ -1,15 +1,15 @@
 # Fdb version 4
-["biber H4"] 1714228225 "H4.bcf" "H4.bbl" "H4" 1714229528 0
-  "../../bibliography.bib" 1714143337 14548 c01cc1686e96953d80d7e647b9960fac ""
-  "H4.bcf" 1714229528 108959 876d941d9972f64bba7dca2254f6af0f "pdflatex"
+["biber H4"] 1714336637 "H4.bcf" "H4.bbl" "H4" 1714338235 0
+  "../../bibliography.bib" 1714336237 14754 afde44d3e77e70002bf9dc76e50616ff ""
+  "H4.bcf" 1714338235 108960 9a43f3882e65d0254baae06c5fb28a9f "pdflatex"
   (generated)
   "H4.bbl"
   "H4.blg"
   (rewritten before read)
-["pdflatex"] 1714229526 "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H4/H4.tex" "H4.pdf" "H4" 1714229528 0
+["pdflatex"] 1714338233 "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H4/H4.tex" "H4.pdf" "H4" 1714338235 0
   "../../Config//Poli_logo.pdf" 1710546785 40200 4b51719258b4eb427d3de9091da52c22 ""
-  "../../Config//commands.tex" 1714061970 2299 c7284d363d7f529d0c4592d3305843a4 ""
-  "../../Config//formats.tex" 1713710954 2245 5320fe037231799d7c4c273b8646a05d ""
+  "../../Config//commands.tex" 1714338026 2372 2e91d3abd36f887990d959cdfcad5bb0 ""
+  "../../Config//formats.tex" 1714336614 2245 5320fe037231799d7c4c273b8646a05d ""
   "../../Config//packages.tex" 1714139511 615 fb10f66a2b18ecdb68111c5055bd040e ""
   "../../Config/input.tex" 1710507240 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "../../Config/title_page_chapter.tex" 1713710954 1238 eb39290e5f913223b60117da7ea690fb ""
@@ -183,12 +183,12 @@
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604489012 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H4.aux" 1714229528 12222 0b63da907b7d9a9939491a9d40d95a69 "pdflatex"
-  "H4.bbl" 1714228228 18784 dcdf4d60b5a6da66d4fd257c1e0aa00a "biber H4"
-  "H4.out" 1714229528 3681 675488d1a4c3cbe504e47385c0bea8ac "pdflatex"
-  "H4.run.xml" 1714229528 2299 73f7a7477e21dff4a2d985f82a09fba9 "pdflatex"
+  "H4.aux" 1714338234 12305 8d2e2b53881a3621fedfbadfbffabc78 "pdflatex"
+  "H4.bbl" 1714336639 18873 907ff71ae7c278a1f28d9043acd269c3 "biber H4"
+  "H4.out" 1714338235 3856 68f18d6d33c6929bf09de47433381c78 "pdflatex"
+  "H4.run.xml" 1714338235 2299 73f7a7477e21dff4a2d985f82a09fba9 "pdflatex"
   "H4.tex" 1714227745 306 9d2647812d0c53a1c12a6bcc6bcc2864 ""
-  "H4.toc" 1714229528 1947 733bc5294468ad2a834bdbfd423d6ed7 "pdflatex"
+  "H4.toc" 1714338235 1980 12f4bf724d074d488283e6a6001ef94f "pdflatex"
   "Images/SPM.pdf" 1714061503 97804 6738c95a53be2d46bf5c2adfa05b03f6 ""
   "Images/alfa_025.pdf" 1714090249 1004464 40d5407a76fcf979f9366aee358fccf2 ""
   "Images/alfa_5.pdf" 1714090605 1001529 b1e5408b15fcab68596a73c57e5e8076 ""
@@ -196,12 +196,12 @@
   "Images/juno_cad.pdf" 1714217121 4521 606ff10ff7a728beb72170951b60c782 ""
   "Images/phases_modes.pdf" 1714221797 83886 7635e2024c13c7ba1f58661999c4fa62 ""
   "Images/simulink.jpg" 1714142750 65614 1a7900c11b0a0c47614c8ba70c859493 ""
-  "Sections/00_notation.tex" 1714229350 2727 2157c845bb457993e1a2aabd113ba6c3 ""
+  "Sections/00_notation.tex" 1714336289 2823 4015c8ea4875afd9348e6b29881c5b25 ""
   "Sections/01_introduction.tex" 1713712824 716 db0fd13da1182ef9904599f1c20f60eb ""
-  "Sections/02_modes.tex" 1714228141 11700 ef950c8c192acba2ae7f23516a7f4cf7 ""
-  "Sections/03_architecture_rationale.tex" 1714228801 10281 ae7476bafe70c6608905c49e2ebc8beb ""
-  "Sections/04_reverse_sizing.tex" 1714229525 14428 74655a9ae7cd9ff7ca6ec4a5cb14f042 ""
-  "Sections/05_appendix.tex" 1714150383 1003 06e0fd4db8c32975f3df004d55ba9556 ""
+  "Sections/02_modes.tex" 1714336336 11747 d9b14a55315d5b62dc9d407e8e09a280 ""
+  "Sections/03_architecture_rationale.tex" 1714336388 10436 6332341d7c74c604ba2d1a5fa8c05967 ""
+  "Sections/04_reverse_sizing.tex" 1714337387 14521 601e78d125845135ff7b17c72605d67b ""
+  "Sections/05_appendix.tex" 1714336456 999 2cb533b7e89fc609c5c31fc17eea19e3 ""
   "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H4/H4.tex" 1714227745 306 9d2647812d0c53a1c12a6bcc6bcc2864 ""
   (generated)
   "H4.aux"
