@@ -57,11 +57,13 @@
 \contentsline {subsection}{\numberline {4.2.8}Safe Modes (SM)}{29}{subsection.4.2.8}%
 \contentsline {subsection}{\numberline {4.2.9}Pointing budget}{29}{subsection.4.2.9}%
 \contentsline {section}{\numberline {4.3}Architecture and rationale of AOCS}{29}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Sensors}{29}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Sensors}{30}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Actuators}{30}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Rationale}{31}{subsection.4.3.3}%
 \contentsline {section}{\numberline {4.4}Reverse sizing of AOCS}{31}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Modeling hypothesis}{31}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Perturbations}{32}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Propellant reverse sizing}{33}{subsection.4.4.3}%
-\contentsline {section}{Bibliography}{34}{table.caption.49}%
+\contentsline {section}{\numberline {4.5}Appendix}{34}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Simulink model description}{34}{subsection.4.5.1}%
+\contentsline {section}{Bibliography}{35}{figure.caption.51}%
