@@ -67,3 +67,10 @@
 \contentsline {section}{\numberline {4.5}Appendix}{34}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Simulink model description}{34}{subsection.4.5.1}%
 \contentsline {section}{Bibliography}{35}{figure.caption.51}%
+\contentsline {chapter}{Homework 5}{36}{chapter*.52}%
+\contentsline {section}{Notation}{36}{section*.53}%
+\contentsline {section}{\numberline {5.1}Introduction of TCS}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Analysis of thermal conditions along the mission}{37}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Architecture and rationale of TCS}{37}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Reverse sizing of TCS}{37}{section.5.4}%
+\contentsline {section}{Bibliography}{38}{section.5.4}%
