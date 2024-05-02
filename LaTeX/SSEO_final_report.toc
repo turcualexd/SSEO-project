@@ -47,6 +47,30 @@
 \contentsline {section}{Notation}{26}{section*.37}%
 \contentsline {section}{\numberline {4.1}Introduction of AOCS}{27}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Breakdown of Juno modes}{27}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Architecture and rationale of AOCS}{27}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Reverse sizing of AOCS}{27}{section.4.4}%
-\contentsline {section}{Bibliography}{28}{section.4.4}%
+\contentsline {subsection}{\numberline {4.2.1}Sun Pointing Mode (SPM)}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Earth Pointing Mode (EPM)}{27}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}GRAVity science Mode (GRAVM)}{27}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}MicroWave Radiometer Mode (MWRM)}{28}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Turn-Burn-Turn Mode (TBTM)}{28}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}VECtor Mode (VECM)}{28}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Spin Change Mode (SCM)}{29}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Safe Modes (SM)}{29}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Pointing budget \& Phases/AOCS modes correlation}{29}{subsection.4.2.9}%
+\contentsline {section}{\numberline {4.3}Architecture and rationale of AOCS}{29}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Sensors}{30}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Actuators}{30}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Rationale}{31}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Reverse sizing of AOCS}{31}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Modeling hypothesis}{31}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Perturbations}{32}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Propellant reverse sizing}{33}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Appendix}{34}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Simulink model description}{34}{subsection.4.5.1}%
+\contentsline {section}{Bibliography}{35}{figure.caption.51}%
+\contentsline {chapter}{Homework 5}{36}{chapter*.52}%
+\contentsline {section}{Notation}{36}{section*.53}%
+\contentsline {section}{\numberline {5.1}Introduction of TCS}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Analysis of thermal conditions along the mission}{37}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Architecture and rationale of TCS}{37}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Reverse sizing of TCS}{37}{section.5.4}%
+\contentsline {section}{Bibliography}{38}{section.5.4}%

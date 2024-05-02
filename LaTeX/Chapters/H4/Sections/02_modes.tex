@@ -1,3 +1,149 @@
 \section{Breakdown of Juno modes}
 \label{sec:AOCS_modes}
 
+Throughout the mission phases, Juno has to accomplish different tasks through various modes. The principal ones that have been identified are here described.
+
+\subsection{Sun Pointing Mode (SPM)}
+\label{subsec:sun_pointing_mode}
+
+This mode aims at pointing the spin axis of S/C (+Z axis) to the Sun. This mode is used in order to:
+\begin{itemize}
+    \item keep the solar panels pointed to the Sun to provide energy; this is even more crucial in the initial phases of the mission, when all the system checkouts have to be performed;
+    \item thermally protect the satellite's vault using the HGA as a shield when the satellite is relatively close to the Sun.
+\end{itemize}
+
+\rfigII{SPM}{Sketch for APE evaluation}{0.45}{19}{-5mm}{-7mm}
+This mode is applied mainly when the SPE angle is too large to ensure the communication through the HGA. This condition occurs during the first phases of the mission and nearby the EGA, when the satellite is in proximity of Earth and relatively close to the Sun. The LGAs (mainly the TLGA) are therefore used during this mode to communicate with ground.
+
+The pointing requirement (APE) for this mode is not very strict since the solar panels are sized for much higher distances and can provide enough energy, the LGAs have a wide beamwidth to communicate with ground and the HGA is large enough to protect the vault.
+The spin rate of the satellite is set to $1$ RPM for this interplanetary mode. This improves the passive stability of the pointing, reducing the burden on the active attitude control.
+
+To assess a preliminary APE for this mode, the thermal requirement has been interpreted as visible in \autoref{fig:SPM}.
+
+This condition has been selected among the others since power generation results not to be critical at the maximum distance at which this mode is triggered ($\lesssim 1.4$ AU) \cite{kurth}.
+The shadow of the antenna shall cover entirely the vault below it as a first and conservative approximation.
+The resulting APE angle is reported in \autoref{table:pointing_budget}.
+This value is relatively high with respect to other more restrictive modes, hence it won't be the sizing factor for the choice of AOCS hardware.
+
+\subsection{Earth Pointing Mode (EPM)}
+\label{subsec:earth_pointing_mode}
+
+The EPM is an interplanetary mode analogous to the SPM, where the +Z axis of the S/C is pointed to Earth.
+It triggers when the distance from the Sun is high enough to ensure a safe thermal dissipation without the aid of the HGA ($\approx 1.4$ AU) \cite{kurth}.
+Moreover, the S/C will be far enough from Earth to ensure both HGA communications and the fulfillment of power requirements, hence the SPE is low. The APE for this mode depends on the antenna that will be pointed to Earth: when the switch from SPM happens, the MGA is first pointed to Earth and subsequently the HGA is activated. The most restrictive APE is given by the beamwidth of HGA. This mode is always relative to the interplanetary phase and is the main one used throughout the cruise. The spin rate of $1$ RPM ensures stability of the axis that is pointing to Earth.
+
+\subsection{GRAVity science Mode (GRAVM)}
+\label{subsec:grav_mode}
+
+The GRAVM is the principal mode for science operations orbits around Jupiter. It aligns the +Z axis towards Earth in order to communicate and to perform the gravity experiment with the HGA.
+Hence, the APE is related to the antenna beamwidth specification, moreover the SPE angle is always low enough ($\lesssim 10$°) \cite{stuart} to ensure enough power generation from the solar cells.
+The spin rate for this mode is fixed at $2$ RPM to ensure payload requirements and higher stability to the axis pointing, which is more perturbed due to the vicinity to Jupiter. 
+
+\subsection{MicroWave Radiometer Mode (MWRM)}
+\label{subsec:mwr_mode}
+
+The MWRM is the secondary mode for science operations orbits around Jupiter. It aligns the +Z axis orthogonally to the orbital plane in order to nadir point the dedicated instrumentations, which are placed on the lateral surfaces of the S/C. 
+The spinning axis is off-set from the Earth direction of $24$°$\div$$27$° \cite{shadan}.
+The MWR orbits are carried out at the early stages of the Juno mission due to the accentuated degradation of the MWR payload. Furthermore, the mode occurs only around the PJ passage to acquire data without D/L.
+To send the information, Juno switches to GRAVM at the end of the experiment in order to align HGA and MGA towards Earth \cite{stuart}.
+The spin-rate is nominally set at $2$ RPM for the same reasons highlighted in the GRAVM. 
+The need to have a dedicated mode for the MWR experiment rises from the requirements on the payload itself.
+In particular, the MWR antennas shall follow the S/C ground track on Jupiter within an aperture of $\pm 5.4$°, which is imposed by the beamwidth of the smallest one \cite{mwr}.
+The latter angle can be identified as the APE for this mode.
+
+\subsection{Turn-Burn-Turn Mode (TBTM)}
+\label{subsec:tbt_mode}
+
+The TBTM is performed to align the main engine (-Z axis) with the $\Delta V$ direction of the ME manoeuvre (DSMs, JOI, PRM).
+In particular, a slew manoeuvre of approximately $90$° with a rate of $0.1$°/s is first performed. 
+The SRUs are deactivated in order to avoid damaging the optics since they could point at the Sun.
+The thrusters are also activated to spin-up the angular rate at $5$ RPM to ensure stability throughout the ME burn. During this time, the only communication link with Juno is through tones via TLGA.
+The end of operation of the ME is followed by the decrease of the spin rate to $1$ or $2$ RPM, depending on the mission phase. The APE for this mode is related to the precision required by the alignment of the ME.
+Since from literature no specific requirement was mentioned, a numerical evaluation was conducted in order to enlighten the effects of a misalignment from the nominal $\Delta V$.
+In particular, the manoeuvres affected by this uncertainty are:
+\begin{itemize}
+    \item \textbf{DSM-1}: an error on this manoeuvre could be easily solved during DSM-2, so it is not critical in APE evaluation;
+    \item \textbf{DSM-2}: an error on this manoeuvre could lead to a failure on targeting Earth for EGA, since the following TCMs could not be sufficient to correct the trajectory;
+    \item \textbf{JOI}: a contained error in the direction for this manoeuvre unlikely could lead to a catastrophic failure of the mission; instead the error could be corrected later by OTMs;
+    \item \textbf{PRM}: as for the JOI, the error could be fixed easily during the next phases of the mission.
+\end{itemize}
+
+From these observations, the DSM-2 was selected as the most critical manoeuvre, hence it was better analyzed through numerical simulation.
+From ephemeris, the velocity vector after DSM-2 was taken as the nominal one.
+Then, in order to add the error due to APE, the nominal velocity was shifted within a cone of semi-aperture $\alpha_{APE}$ without changing the magnitude and then propagated until the date of the nominal EGA.
+Two values of $\alpha_{APE}$ were tested through this method, results can be seen in \autoref{fig:alfa_025} and \autoref{fig:alfa_5}.
+
+TCMs are performed throughout the interplanetary phase to correct the path, nevertheless their magnitude is limited to $\approx 9$ m/s \cite{juno_inner}.
+For this reason a $\alpha_{APE} = 0.25$° was chosen to ensure a certain precision on TBTM.
+
+\twofig{alfa_025}{Simulation results for $\alpha_{APE} = 0.25$°}
+{alfa_5}{Simulation results for $\alpha_{APE} = 5$°}{0.7}
+
+\subsection{VECtor Mode (VECM)}
+\label{subsec:vec_mode}
+
+The VECM is performed for OTM and TCM with RCS only. The +Z axis pointing is maintained (Earth or Sun depending on the phase) and the same for the spin rate (1 or 2 RPM for interplanetary or science phase respectively). The direction of the burn is then decomposed into two directions (axial and lateral). The APE during this mode is inherited from the current phase. 
+
+\subsection{Spin Change Mode (SCM)}
+\label{subsec:spin_change_mode}
+
+Due to the nature of the spin-stabilized S/C, a control mode on the angular velocity is mandatory. The SCM is performed through RCS and it can be requested by other modes (TBTM) or executed by itself during cruise (before and after the fly-by). The Juno nominal spin rates are:
+\begin{itemize}
+    \item $1$ RPM for the interplanetary cruise;
+    \item $2$ RPM for the science orbits and the EGA (for payload requirements and pointing stability respectively); 
+    \item $5$ RPM for the ME manoeuvres (for stability of the $\Delta V$ direction). 
+\end{itemize}
+
+The tolerance on the spin rate is $\pm 0.05$ RPM \cite{shadan}.
+
+\subsection{Safe Modes (SM)}
+\label{subsec:safe_modes}
+
+Safe modes are mainly divided into two different types, depending on whether three-axis attitude knowledge is retained or not.
+\begin{itemize}
+    \item \textbf{SM-1}: the attitude is known, so the satellite maintains its current pointing (Earth or Sun). The required APE is inherited from the particular pointing in which the mode was triggered.
+    \item \textbf{SM-2}: the attitude knowledge is lost. In this critical eventuality, the +Z axis will cone within 2° around the Sun direction. The APE is not specified for this configuration since it cannot be assured. The LGAs could be used to communicate thanks to their large beamwidth.
+    \cite{juno_telecommunication}
+\end{itemize}
+
+
+\subsection{Pointing budget \& Phases/AOCS modes correlation}
+\label{subsec:pointing_budget}
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.4}
+    \cfs{8.5pt}
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \hline
+        & \textbf{SPM} & \textbf{EPM} & \textbf{GRAVM} & \textbf{MWRM}
+        & \textbf{TBTM} & \textbf{VECM} & \textbf{SCM} & \textbf{SM-1} \\
+        \hline
+        \textbf{TCS} & $APE \leq 25$° & - & - & - & -
+        & $APE \leq 25$° & - & $APE \leq 25$° \\
+        \hline
+        \textbf{TMTC} & - & $APE \leq 0.25$° & $APE \leq 0.25$° & -
+        & - & $APE \leq 0.25$° & - & $APE \leq 0.25$° \\
+        \hline
+        \textbf{PS} & - & - & - & -
+        & \makecell{$APE \leq 0.25$° \\ $\textit{rate} = 0.1$°/s}
+        & - & - & - \\
+        \hline
+        \textbf{P/L} & - & - & $APE \leq 0.25$° & $APE \leq 5.4$°
+        & - & - & $APE \leq 0.05$ RPM & - \\
+        \hline
+    \end{tabular}
+    \caption{Pointing budget for AOCS}
+    \label{table:pointing_budget}
+\end{table}
+
+\autoref{table:pointing_budget} synthesizes the pointing requirements of the main subsystems of the S/C in terms of performance for the AOCS.
+The empty cells in the table indicate no influence of the subsystem in the pointing budget for the selected mode.
+It can be noticed that the most stringent pointing APE is $0.25$° (inherited by the beamwidth of HGA), which is compliant with the precision obtainable by the spin-stabilized thruster configuration of Juno coupled with the chosen sensors.
+For TBTM the same APE as the HGA was arbitrarily selected after the analysis described in \autoref{subsec:tbt_mode}.
+In particular, this choice has consequences on the required precision for the sensors: since during TBTM the SRU must be deactivated, the other sensors have to be selected in order to keep the same precision.
+
+In \autoref{fig:phases_modes} the sequence of the different modes for the nominal mission is correlated with the phases.
+The OTMs performed in VECM during science phase are not shown for sake of clarity.
+
+\cfig{phases_modes}{1}{Timeline for mission phases (not in scale)}
