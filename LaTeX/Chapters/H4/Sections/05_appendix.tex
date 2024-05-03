@@ -1,0 +1,15 @@
+\section{Appendix}
+\label{sec:appendix_4}
+
+\subsection{Simulink model description}
+\label{subsec:simulink}
+
+\cfig{simulink}{0.8}{Simulink model of the dynamics}
+
+The model used to mimic the dynamics of Juno is reported in \autoref{fig:simulink}. Three main blocks can be distinguished:
+
+\begin{itemize}
+    \item \textbf{Dynamics and kinematics}: the behavior of the spacecraft is described through Euler equations and the attitude kinematics is continuously updated via Euler angles. 
+    \item \textbf{Disturbances}: all the disturbances affecting Juno's attitude are here implemented. Based on the different requirements of the phase, only some are considered. For the planetary part, the highly elliptical orbit has been modeled as a restricted two-body problem. 
+    \item \textbf{Control}: this part is responsible of calculating the target attitude and its error at each time-step, allowing the controller to satisfy the pointing requirements of the current phase.
+\end{itemize}

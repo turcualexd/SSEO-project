@@ -1,3 +1,139 @@
-\section{Sizing of TMTC system}
-\label{sec:TMTC_sizing}
+\section{Reverse sizing of the HGA}
+\label{sec:HGA_sizing}
 
+The reverse sizing of the HGA is based on the link budget equation that represents a power balance between the transmitted signal and the receiver noise. The same equation can be applied on both uplink and downlink. It is valid for all the architectures, both that transmit data or tones.
+
+\begin{equation}
+    \dfrac{P_{rx}}{N_0} = \dfrac{P_{tx} G_{tx} G_{rx} L_{tot}}{k T_{eq}} > \left( \dfrac{P_{rx}}{N_0} \right)_{min}
+\end{equation}
+
+For antennas that broadcast data, an additional equation is used to constrain the sizing.
+\begin{equation}
+    \dfrac{E_b}{N_0} = \dfrac{P_{tx} G_{tx} G_{rx} L_{tot}}{k T_{eq} R} > \left( \dfrac{E_b}{N_0} \right)_{min}
+\end{equation}
+
+$L_{tot}$ considers the following losses:
+\begin{equation}
+    L_{tot} = L_{c} \cdot L_{s} \cdot L_{p,tx} \cdot L_{p,rx} \cdot L_{a} \cdot L_{cv}
+\end{equation}
+
+For each communication link, different minimum required ratios are defined. In particular, $\frac{E_b}{N_0}$ must also satisfy the Shannon theorem by ensuring a value higher than $-1.59$ dB. 
+The HGA, as described in \autoref{subsec:hga}, is used for the downlink of telemetry and scientific data during the science orbits around Jupiter. It has been sized in the following scenario: 
+\begin{itemize}
+    \item the maximum distance from Earth $r_{JE} = 6.5$ AU;
+    \item the minimum datarate $R = 18$ kbps has to be ensured regarding the distance.
+\end{itemize}
+
+From the literature, some other parameters were recovered and reported in \autoref{table:dati_HGA}. The results of the sizing are shown in \autoref{table:results_HGA}. In particular, some margin is present on both X-band and Ka-band. Since the X-band is the only one transmitting data, \autoref{fig:datarate} and \autoref{fig:ebn0} focus on the margin of the downlink. The principal loss of the link is given by the distance, so the two design parameters have been described as a function of it. 
+
+\vspace{3mm}
+\begin{minipage}{0.5\linewidth}
+    \centering
+    \cfs{8}
+    \captionsetup{type=table}
+    \renewcommand{\arraystretch}{2}
+    \setlength\extrarowheight{-1pt}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        & \textbf{X-D/L} & \textbf{X-U/L} & \textbf{Ka-D/L}& \textbf{Ka-U/L} \\
+        \hline
+        $\boldsymbol{f}$ \textbf{[GHz]} & $8.4$ & $7.1$ & $34.4$ & $32.1$ \\
+        \hline
+        $\boldsymbol{R}$ \textbf{[kbps]} & $18$ & $2$ & $-$ & $-$ \\
+        \hline
+        $\boldsymbol{d_{HGA}}$ \textbf{[m]} &\multicolumn{4}{c|}{$2.5$} \\
+        \hline
+        $\boldsymbol{d_{g}}$ \textbf{[m]} &\multicolumn{4}{c|}{$34$} \\
+        \hline
+        $\boldsymbol{P_{tx}}$ \textbf{[W]} & $25$ & $1.8 \cdot 10^{4}$ & $2.5$ & $1.8 \cdot 10^{4}$ \\
+        \hline
+        $\boldsymbol{\eta_{HGA}}$ \textbf{[deg]} &\multicolumn{4}{c|}{$0.25$} \\
+        \hline
+        $\boldsymbol{\eta_{g}}$ \textbf{[deg]} &\multicolumn{2}{c|}{$4 \cdot 10^{-3}$} & \multicolumn{2}{c|}{$2 \cdot 10^{-3}$}\\
+        \hline
+        $\boldsymbol{L_c}$ \textbf{[dB]} & $-2$ & $-$ & $-2$ & $-$ \\
+        \hline
+        $\boldsymbol{L_{a}}$ \textbf{[dB]} &\multicolumn{2}{c|}{$-0.2$} & \multicolumn{2}{c|}{$-1.09$}\\
+        \hline
+        $\boldsymbol{L_{cv}}$ \textbf{[dB]} &\multicolumn{2}{c|}{$-0.25$} & \multicolumn{2}{c|}{$-0.5$}\\
+        \hline
+        $\boldsymbol{T_{eq}}$ \textbf{[K]} & $21$ & $401.25$ & $21$ & $770.63$ \\
+        \hline
+        $\boldsymbol{\left(\frac{P}{N_0}\right)_{min}}$ \textbf{[dB-Hz]} & $43.64$ & $49.13$ & $26.50$ & $42.57$ \\
+        \hline
+        $\boldsymbol{\left(\frac{E_b}{N_0}\right)_{min}}$ \textbf{[dB]} & $-0.1$ & $9.6$ & $-$ & $-$ \\
+        \hline
+    \end{tabular}
+    \caption{HGA data for sizing \cite{juno_telecommunication}}
+    \label{table:dati_HGA}
+\end{minipage}\hfill
+\begin{minipage}{0.5\linewidth}
+    \centering
+    \cfs{8}
+    \captionsetup{type=table}
+    \renewcommand{\arraystretch}{2}
+    \setlength\extrarowheight{-1pt}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        & \textbf{X-D/L} & \textbf{X-U/L} & \textbf{Ka-D/L}& \textbf{Ka-U/L} \\
+        \hline
+        $\boldsymbol{G_{HGA}}$ \textbf{[dBi]} & $44.25$ & $42.79$ & $56.50$ & $55.90$ \\
+        \hline
+        $\boldsymbol{G_g}$ \textbf{[dBi]} & $66.93$ & $65.47$ & $79.17$ & $78.57$ \\
+        \hline
+        $\boldsymbol{\theta_{bw,HGA}} \textbf{[deg]}$  & $0.932$ & $1.10$ &\multicolumn{2}{c|}{$0.438 \,^{I}$}\\
+        \hline
+        $\boldsymbol{\theta_{bw,g}}$ \textbf{[deg]} & $0.069$ & $0.081$ & $0.017$ & $0.018$ \\
+        \hline
+        $\boldsymbol{L_{s}}$ \textbf{[dB]} & $-290.63$ & $-289.17$ & $-302.88$ & $-302.28$ \\
+        \hline
+        $\boldsymbol{L_{p}}$ \textbf{[dB]} & $-0.904$ & $-0.646$ & $-4.09$ & $-4.51$ \\
+        \hline
+        $\boldsymbol{EIRP}$ \textbf{[dBm]} & $85.98$ & $138.02$ & $87.98$ & $151.12$ \\
+        \hline
+        $\boldsymbol{N_{0}}$ \textbf{[dBm/Hz]} & $-185.38$ & $-172.57$ & $-185.38$ & $-169.73$ \\
+        \hline
+        $\boldsymbol{P_{rx}}$ \textbf{[dBm]} & $-138.83$ & $-109.46$ & $-140.90$ & $-101.36$ \\
+        \hline
+        $\boldsymbol{\frac{P}{N_0}}$ \textbf{[dB-Hz]} & $46.55$ & $63.11$ & $44.47$ & $68.38$ \\
+        \hline
+        $\boldsymbol{\left(\frac{P}{N_0}\right)_{mar}}$ \textbf{[dB-Hz]} & $2.91$ & $13.98$ & $17.97$ & $25.81$ \\
+        \hline
+        $\boldsymbol{\frac{E_b}{N_0}}$ \textbf{[dB]} & $4.00$ & $30.10$ & $-$ & $-$ \\
+        \hline
+        $\boldsymbol{\left(\frac{E_b}{N_0}\right)_{mar}}$ \textbf{[dB]} & $4.10$ & $20.50$ & $-$ & $-$ \\
+        \hline
+    \end{tabular}
+    \caption{Results for HGA}
+    \label{table:results_HGA}
+\end{minipage}
+
+\vspace{2mm}
+
+{
+\small
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\linewidth}{lX}
+    $\,^{I}$ & This value was recovered from a graphical analysis of the HGA Ka-band gain pattern. \cite{juno_telecommunication}
+\end{tabularx}
+
+\twofig{datarate}{Datarate as function of distance by fixing $E_b/N_0$ = -0.1 dB}      
+{ebn0}{Energy per bit to noise ratio as function of distance by fixing $R$ = 18 kbps}{0.9}
+}
+
+
+%The link budget equation can be expressed in a dB form, each term is then calculated as follows:
+% \begin{center}
+% \def\arraystretch{2}
+% \begin{tabular}{ccc}
+    
+%     $G = 10 \cdot \log_{10}\left(\dfrac{\pi d \mu}{\lambda}\right)$ &  \hspace{20mm} & $\theta_{bw} = 65.3 \cdot \dfrac{\lambda}{d}$ \\
+%     $L_{s} = 20 \cdot \log_{10}\left(\dfrac{\lambda}{4 \pi d_{JE}}\right)$ &  \hspace{20mm} & $L_{p} = -12 \cdot \left(\dfrac{\eta}{\theta_{bw}}\right)$ 
+%     \\
+%     $EIRP_{dw} = P_{tx} + G_{HGA} + L_{cb} + L_{cv}$ &  \hspace{20mm} & $EIRP_{up} = P_{tx} + G_{g}$
+%     \\
+%     $P_{rx,dw} = EIRP_{dw} + G_{g} + L_{s} + L_{a} + L_{p}$ &  \hspace{20mm} & $P_{rx,up} = EIRP_{up} + G_{HGA} + L_{a} +  L_{s} + L_{p} + L_{cv}$
+%     \\
+%     $\dfrac{P}{N_{0}} = P_{rx} - N_{0}$ & \hspace{20mm} & $\dfrac{E_b}{N_{0}} = \dfrac{P}{N_{0}} - 10\log_{10}$ \\
+% \end{tabular}
+% \end{center}
