@@ -287,6 +287,10 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
@@ -583,6 +587,11 @@ INPUT Sections\02_phases.tex
 INPUT .\Sections\02_phases.tex
 INPUT .\Sections\02_phases.tex
 INPUT Sections\02_phases.tex
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7c.tfm
 INPUT .\Sections\03_architecture_rationale.tex
 INPUT .\Sections\03_architecture_rationale.tex
 INPUT Sections\03_architecture_rationale.tex
@@ -595,6 +604,9 @@ INPUT Sections\04_reverse_sizing.tex
 INPUT .\Sections\04_reverse_sizing.tex
 INPUT .\Sections\04_reverse_sizing.tex
 INPUT Sections\04_reverse_sizing.tex
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.fd
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.fd
@@ -618,5 +630,7 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jk
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmit8a.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmn8a.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmn8a.pfb
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmne.pfb
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmne.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpttmn8a.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpttmn8a.pfb

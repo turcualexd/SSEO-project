@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  2 MAY 2024 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  3 MAY 2024 12:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -649,7 +649,9 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \WF@box=\box59
 \WF@everypar=\toks31
 Package: wrapfig 2003/01/31  v 3.6
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -711,7 +713,7 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \bibparsep=\skip67
 \bibhang=\skip68
 \blx@bcfin=\read3
-\blx@bcfout=\write3
+\blx@bcfout=\write4
 \blx@langwohyphens=\language80
 \c@mincomprange=\count351
 \c@maxcomprange=\count352
@@ -1088,8 +1090,8 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 8.
  (H5.out) (H5.out)
-\@outlinefile=\write4
-\openout4 = `H5.out'.
+\@outlinefile=\write5
+\openout5 = `H5.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1099,7 +1101,7 @@ File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `H5.bcf'.
+\openout4 = `H5.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'H5.bbl' found.
@@ -1107,7 +1109,7 @@ Package biblatex Info: ... file 'H5.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config//Poli_logo.pdf, id=30, 527.9725pt x 415.5525pt>
+<../../Config//Poli_logo.pdf, id=31, 527.9725pt x 415.5525pt>
 File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config//Poli_logo.pdf>
 Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
@@ -1134,19 +1136,23 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 ) [1
 
 {C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <../../Config//Poli_logo.pdf>]) (H5.toc)
-\tf@toc=\write5
-\openout5 = `H5.toc'.
+\tf@toc=\write6
+\openout6 = `H5.toc'.
 
 \blx@maxsegment@1=\count456
 \blx@sectionciteorder@1=\count457
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex) (Sections/02_phases.tex) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex))
+ (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex Excluding 'comment' comment.) (Sections/02_phases.tex
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 7.
+ (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
+)) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex))
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.19 \bodyandbib
-                 [1]
+                 [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1159,23 +1165,23 @@ See the caption package documentation for explanation.
 
 [2] (H5.aux)
 Package rerunfilecheck Info: File `H5.out' has not changed.
-(rerunfilecheck)             Checksum: 295D7F273340721CB1DD4FA096AFA010;1093.
+(rerunfilecheck)             Checksum: 75BB5F57BF9C3C05EF43AE52EC709962;1094.
 Package logreq Info: Writing requests to 'H5.run.xml'.
 \openout1 = `H5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24025 strings out of 476361
- 415337 string characters out of 5788046
- 1857993 words of memory out of 5000000
- 44057 multiletter control sequences out of 15000+600000
- 603100 words of font info for 120 fonts, out of 8000000 for 9000
+ 24129 strings out of 476361
+ 417230 string characters out of 5788046
+ 1859993 words of memory out of 5000000
+ 44150 multiletter control sequences out of 15000+600000
+ 603832 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,14n,98p,1514b,1857s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (4 pages, 93646 bytes).
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H5.pdf (4 pages, 102436 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
