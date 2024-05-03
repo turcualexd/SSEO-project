@@ -1,7 +1,10 @@
 \section{Architecture and rationale of AOCS}
 \label{sec:AOCS_architecture_rationale}
 
-To achieve the required performance and capabilities of each mode, highlighted in \autoref{sec:AOCS_modes}, Juno's AOCS is rather complex. It is based on the simple concept of a spin-stabilized spacecraft, but it's aggravated by the pointing requirements, the expected harsh environment and the required reliability for the mission. The on-board hardware and the rationale of its choice are presented here.     
+To achieve the required performance and capabilities of each mode, highlighted in \autoref{sec:AOCS_modes}, Juno's AOCS is rather complex.
+It is based on the simple concept of a spin-stabilized spacecraft, but it's aggravated by the pointing requirements, the expected harsh environment and the required reliability for the mission.
+The choice for this particular design is due to several motivations: the possibility to grant visibility to multiple payloads with just one mode, the reduction of total mass and complexity and good stability for limited power consumption by exploiting the mass distribution due to the radial positioning of the large solar arrays.
+The on-board hardware and the rationale behind its choice are here presented.
 
 \subsection{Sensors}
 \label{subsec:Sensors}
@@ -9,7 +12,27 @@ To achieve the required performance and capabilities of each mode, highlighted i
 Juno's AOCS employs the following main attitude sensors:
 
 \begin{itemize}
-    \item \textbf{2 Spinning Sun Sensors (SSSes)} by Adcole Maryland Aerospace \cite{SSS}, also positioned on the edge of the forward deck oriented in such a way to include both the Z-axis and a portion of the XY plane in their FOV. They are specialized for attitude determination on a spinning spacecraft and allow for a fail safe recovery. Useful specifications are shown in \autoref{table:sun_sensors}.
+    \item \textbf{2 Stellar Reference Units (SRUs)} custom built by Selex Galileo (now Leonardo S.p.A.) mounted on the forward deck of the spacecraft facing radially outwards. These units are based on the A-STR \cite{SRU}, modified with further radiation shielding to survive the harsh environment of Jupiter, bringing the total weight of each one up to $7.8$ kg. \cite{SRU_description} 
+    One of the most important characteristics of these sensors is the ability to operate in a Time Delay Integration (TDI) mode, which allows them to compensate for the spin of the spacecraft when capturing an image. Main specifications of the standard A-STR are reported in \autoref{table:star_sensors}.
+    \begin{table}[H]
+        \renewcommand{\arraystretch}{1.3}
+        \centering
+        \small
+        \begin{tabular}{|c|c|c|c|c|c|}
+            \hline
+            \textbf{FOV [deg]} & \textbf{Bias Error [arcsec]} & \textbf{FOV error [arcsec]} & \textbf{Mass [kg]} & \textbf{PC [W]} & \textbf{OT [°C]} \\
+            \hline
+            \hline
+            16.4 $\times$ 16.4 & \makecell{8.25 (pitch/yaw) \\ 11.1 (roll)} & \makecell{$<$ 3.6 (pitch/yaw) \\ $<$ 21 (roll)} &
+            3.55 & \makecell{8.9 @ 20°C \\ 13.5 @ 60°C} & -30 to +60\\
+            \hline
+        \end{tabular}
+        \caption{A-STR specifications}
+        \label{table:star_sensors}
+    \end{table}
+    \vspace*{-3mm}
+
+    \item \textbf{2 Spinning Sun Sensors (SSSes)} by Adcole Maryland Aerospace \cite{SSS}, positioned on the edge of the forward deck oriented in such a way to include both the Z-axis and a portion of the XY plane in their FOV. They are specialized in attitude determination on a spinning spacecraft and allow for a fail safe recovery. Useful specifications are shown in \autoref{table:sun_sensors}.
     
     % Assumiamo siano richiesti per proteggere le sru durante le main engine burn quando Juno non punta la terra o il sole e quindi le sru potrebbero puntare al sole
     \begin{table}[H]
@@ -27,26 +50,9 @@ Juno's AOCS employs the following main attitude sensors:
         \caption{SSSes specifications}
         \label{table:sun_sensors}
     \end{table}
+    \vspace*{-3mm}
 
-    \item \textbf{2 Stellar Reference Units (SRUs)} custom built by Selex Galileo (now Leonardo S.p.A.) mounted on the forward deck of the spacecraft facing radially outwards. These units are based on the A-STR \cite{SRU}, modified with further radiation shielding to survive the harsh environment of Jupiter, bringing the total weight up to 7.8 kg. One of the most important characteristics of these sensors is the ability to operate in a Time Delay Integration (TDI) mode, which allows them to compensate for the spin of the spacecraft when capturing an image. Other specifications of the standard A-STR are reported in \autoref{table:star_sensors}.
-    \begin{table}[H]
-        \renewcommand{\arraystretch}{1.3}
-        \centering
-        \small
-        \begin{tabular}{|c|c|c|c|c|c|}
-            \hline
-            \textbf{FOV [deg]} & \textbf{Bias Error [arcsec]} & \textbf{FOV error [arcsec]} & \textbf{Mass [kg]} & \textbf{PC [W]} & \textbf{OT [°C]} \\
-            \hline
-            \hline
-            16.4 $\times$ 16.4 & \makecell{8.25 (pitch/yaw) \\ 11.1 (roll)} & \makecell{$<$ 3.6 (pitch/yaw) \\ $<$ 21 (roll)} &
-            3.55 & \makecell{8.9 @ 20°C \\ 13.5 @ 60°C} & -30 to +60\\
-            \hline
-        \end{tabular}
-        \caption{A-STR specifications}
-        \label{table:star_sensors}
-    \end{table}
-
-    \item \textbf{2 Inertial Measurement Units (IMUs)} by Northrop (Hypothesizing heritage from Cassini \cite{gyro_evaluation} and MESSENGER \cite{messenger_imu}) inside Juno's radiation vault. One of their biggest advantage is utilizing Hemispherical Resonator Gyroscopes (HGRs) which, due to their construction and inner workings, are inherently radiation hardened and highly resistant to wear and ageing. In particular Scalable Space Inertial Reference Units (SSIRUs) \cite{SSIRU} are used which were also modified for this specific mission like the A-STR. Their nominal specifications are shown in \autoref{table:SSIRU}.
+    \item \textbf{2 Inertial Measurement Units (IMUs)} by Northrop (hypothesizing heritage from Cassini \cite{gyro_evaluation} and MESSENGER \cite{messenger_imu}) placed inside Juno's radiation vault. One of their biggest advantage is utilizing Hemispherical Resonator Gyroscopes (HGRs) which, due to their construction and inner workings, are inherently radiation hardened and highly resistant to wear and ageing. In particular, SSIRUs \cite{SSIRU} are used, also modified for this specific mission like the A-STR. Their nominal specifications are shown in \autoref{table:SSIRU}.
      
     \begin{table}[H]
         \renewcommand{\arraystretch}{1.3}
@@ -64,18 +70,18 @@ Juno's AOCS employs the following main attitude sensors:
         \label{table:SSIRU}
     \end{table}
 \end{itemize}
+\vspace*{-3mm}
 
-All of this sensors are doubled to provide cold redundancy, meaning that only one unit is powered during nominal operations while the other one is switched off.
-
-An additional sensor, the \textbf{Advanced Stellar Compass (ASC)}, is present on Juno to support the MAG experiment suite. It's comprised of four \textbf{Camera Head Units (CHUs)}, two per each FGM for redundancy, mounted on the MAG boom pointing towards the -Z direction and inclined by $\pm$ 13° along the Y-axis. Their objective is to achieve an even more precise attitude determination near the instrument location with the help of the SRUs, which also function as a backup in case the ASC fails. These sensors were designed and built by the Technical University of Denmark (DTU) as largely off-the-shelf products. \cite{ASC_details}
+All of these sensors are doubled to provide cold redundancy, meaning that only one unit is powered during nominal operations while the other one is switched off.
+An additional sensor suite, the \textbf{Advanced Stellar Compass (ASC)}, is present on Juno to support the MAG experiment. It's comprised of four \textbf{Camera Head Units (CHUs)}, two per each FGM for redundancy, mounted on the MAG boom pointing towards the -Z direction and inclined by $\pm$ 13° along the Y-axis. Their objective is to achieve a more precise attitude determination near the instrument location with the help of the SRUs, which can also function as a backup in case the ASC fails. These sensors were designed and built by the Technical University of Denmark (DTU) as largely off-the-shelf products. \cite{ASC_details}
 
 \subsection{Actuators}
 \label{subsec:Actuators}
 
 \rfigII{foto_thruster_2}{RCS mount direction}{0.45}{12}{-5mm}{-5mm}
-As previously described in the analysis of the propulsion system (Homework 2) Juno utilizes twelve MR-111C RCS thrusters by Aerojet Rocketdyne \cite{RCS_info} divided into four groups of three.
+As previously described in the analysis of the propulsion system (Homework 2), Juno utilizes twelve MR-111C RCS thrusters by Aerojet Rocketdyne \cite{RCS_info} divided into four redundant groups of three.
 Each set is housed on a Rocket Engine Module (REM) on top of four pylons, two on the forward deck and two on the aft deck, extending in the Z-axis and mounted along the Y-axis.
-The pylons are raised respectively by 74 cm on the forward deck and about 26 cm on the aft deck. As shown in \autoref{fig:foto_thruster_2} each cluster includes an axial thruster, denoted by the letter "A", and two lateral ones, denoted as "L".
+The pylons are raised respectively by 74 cm on the forward deck and about 26 cm on the aft deck. As shown in \autoref{fig:foto_thruster_2}, each cluster includes an axial thruster, denoted by the letter "A", and two lateral ones, denoted as "L".
 Axial thrusters are canted 10° away from the Z-axis while the lateral thrusters are canted 5° away from the X-axis and 12.5° toward the Z-axis \cite{juno_inner}. The specifics of the MR-111C thrusters are presented in \autoref{table:RCS_specifications}. \cite{RCS_values}
 
 \begin{table}[H]
@@ -93,16 +99,17 @@ Axial thrusters are canted 10° away from the Z-axis while the lateral thrusters
     \caption{MR-111C specifications}
     \label{table:RCS_specifications}
 \end{table}
+\vspace*{-3mm}
 
 Additional hardware is present on the spacecraft to aid attitude control, while not being full-fledged actuators. In particular the supporting struts of the three solar arrays can be moved to adjust their position in order to align the principal inertia axis with the geometrical Z-axis. \cite{LL_early_cruise} An active nutation damper is also installed on-board, able to reduce unwanted nutation by generating a controlled damping torque. \cite{juno_sito} Given the stringent pointing requirements an active system was chosen for its higher damping rate with respect to a passive one.   
 
 \subsection{Rationale}
 \label{subsec:Rationale}
 
-All specific AOCS components were mainly chosen for their high TRL and heritage, like in all other systems of the spacecraft, due both to the complexity of the mission and the harsh environment of Jupiter. Further criteria for the selection, positioning and use case of each unit type can be highlighted:
+Like all other subsystems of the spacecraft, the specific AOCS components were mainly chosen for their high TRL and heritage due both to the complexity of the mission and the harsh environment of Jupiter. Further criteria for the selection, positioning and use case of each unit type can be highlighted:
 \begin{itemize}
-    \item \textbf{SRUs:} star sensors are the most accurate and are capable of complete AD independently of any other sensor, they are used during most of the mission when Juno is pointing either the Sun or the Earth, so in all modes except for the TBTM and safe modes, during which they are shut down. Magnetometers weren't really taken into consideration due to the lack of an accurate model of Jupiter's magnetic field. This leaves sun sensors and IMUs as possible options but neither could be used as the main source of AD due respectively to low accuracy or the need to be periodically realigned. SRUs positioning is dictated by the need of leaving their FOV unobstructed.
-    \item \textbf{SSSes:} one is always on to further enhance AD, while both of them are used during safe mode to obtain a coarse attitude determination if pointing knowledge is lost. Since a safe mode entry could happen at any point of the mission the SSSes FOV need to cover all possible orientations of Juno: Earth pointing, Sun pointing and the necessary pointing for ME burns.
-    \item \textbf{IMUs:} since the sun sensors aren't capable of a complete AD while the SRUs aren't being used, so during TBTM, another component able to do so is required and IMUs were the only remaining choice. They are also employed during large precessions (larger than $\sim$2.5°) and required for active nutation damping and spin control. \cite{juno_sito}
-    \item \textbf{RCS Thrusters:} thrusters were chosen since they are able to provide a high control torque while remaining compact and integrated with the propulsion system. On the contrary reaction wheels and CMG would take up much more space to generate the same control action, thus being less space efficient and cumbersome. Magnetorquers, instead, weren't even considered for the same reasons as magnetometers. Regarding the thrusters' positioning, their orientation presented in \autoref{subsec:Actuators} are due to the need of limiting the interaction of the exhaust gasses with the on board instruments, the HGA and the solar arrays. Being the only actuators present on-board, thrusters are used during all control modes.     
-\end{itemize}  
+    \item \textbf{SRUs:} star sensors are the most accurate and are capable of complete AD independently of any other sensor. They are used during all modes except for the TBTM and the SM-2, during which they are shut down (\autoref{subsec:tbt_mode}). Magnetometers weren't really taken into consideration due to the lack of an accurate model of Jupiter's magnetic field and the long interplanetary cruise. This leaves sun sensors and IMUs as possible options but neither could be used as the main source of AD due respectively to low accuracy or the necessity to be periodically realigned. SRUs positioning is dictated by the need of leaving their FOV unobstructed.
+    \item \textbf{SSSes:} one of them is always on to further enhance AD, while both of them are used during SM-2 to obtain a coarse attitude determination. Since a SM entry could happen at any point of the mission the FOVs of the SSSes need to cover all possible orientations of Juno: Earth pointing, Sun pointing and the pointing for ME burns. Sun sensors were chosen for this task due to their large FOV, simple design and high reliability.
+    \item \textbf{IMUs:} sun sensors aren't capable of a complete AD while the SRUs aren't being used, so during TBTM another component able to do so is required and IMUs were the only remaining choice. They are also employed during large precessions (larger than $\sim$2.5°) and required for active nutation damping and spin control. \cite{juno_sito}
+    \item \textbf{RCS Thrusters:} thrusters were chosen since they are able to provide a high control torque while remaining compact and integrated with the propulsion system. On the contrary reaction wheels and CMG would take up much more space to generate the same control action, thus being less space efficient and cumbersome, especially on a spin-stabilized S/C. Magnetorquers weren't even considered as they need magnetometers to be effective, so they have same limitations described above. Regarding the thrusters' positioning, the orientation presented in \autoref{subsec:Actuators} is due to the need of limiting the interaction of the exhaust gasses with the on-board instruments, the HGA and the solar arrays. Being the only actuators present on-board, thrusters are used during all control modes.
+\end{itemize}
