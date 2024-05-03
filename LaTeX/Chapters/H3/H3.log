@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  9 APR 2024 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  13 APR 2024 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -973,6 +973,7 @@ Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 Package biblatex Info: Redefining '\supercite' on input line 35.
 \ltmcbox=\box111
+\mylength=\skip90
 ) (../../Config//commands.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1101,7 +1102,7 @@ Package biblatex Info: ... file 'H3.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config//Poli_logo.pdf, id=47, 527.9725pt x 415.5525pt>
+<../../Config//Poli_logo.pdf, id=43, 527.9725pt x 415.5525pt>
 File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config//Poli_logo.pdf>
 Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
@@ -1136,50 +1137,75 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
  (Body.tex (Sections/00_notation.tex) [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Sections/01_architecture.tex
-<Images/antennas_positioning.jpg, id=80, 513.117pt x 325.215pt>
+<Images/antennas_positioning.jpg, id=76, 513.117pt x 325.215pt>
 File: Images/antennas_positioning.jpg Graphic file (type jpg)
 <use Images/antennas_positioning.jpg>
 Package pdftex.def Info: Images/antennas_positioning.jpg  used on input line 4.
-(pdftex.def)             Requested size: 281.68385pt x 178.53632pt.
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 13.
+(pdftex.def)             Requested size: 256.07481pt x 162.30438pt.
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 11.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 
-      [1 <./Images/antennas_positioning.jpg>]
-<Images/dsn_hga.jpg, id=108, 581.17125pt x 310.15875pt>
+l.42 
+      [1 <./Images/antennas_positioning.jpg>] [2]
+<Images/DSNantenna.pdf, id=111, 466.74374pt x 338.76563pt>
+File: Images/DSNantenna.pdf Graphic file (type pdf)
+<use Images/DSNantenna.pdf>
+Package pdftex.def Info: Images/DSNantenna.pdf  used on input line 81.
+(pdftex.def)             Requested size: 256.07481pt x 185.86678pt.
+<Images/dsn_hga.jpg, id=116, 581.17125pt x 310.15875pt>
 File: Images/dsn_hga.jpg Graphic file (type jpg)
 <use Images/dsn_hga.jpg>
-Package pdftex.def Info: Images/dsn_hga.jpg  used on input line 68.
-(pdftex.def)             Requested size: 384.11221pt x 204.9941pt.
- [2]) (Sections/02_rationale.tex) (Sections/03_sizing.tex [3 <./Images/dsn_hga.jpg>])) [4]
+Package pdftex.def Info: Images/dsn_hga.jpg  used on input line 92.
+(pdftex.def)             Requested size: 409.72125pt x 218.66194pt.
+) (Sections/02_phases.tex [3 <./Images/DSNantenna.pdf> <./Images/dsn_hga.jpg>]
+<Images/phases_antenna.pdf, id=145, 489.32813pt x 263.48438pt>
+File: Images/phases_antenna.pdf Graphic file (type pdf)
+<use Images/phases_antenna.pdf>
+Package pdftex.def Info: Images/phases_antenna.pdf  used on input line 6.
+(pdftex.def)             Requested size: 512.14963pt x 275.77823pt.
+) (Sections/03_sizing.tex [4 <./Images/phases_antenna.pdf>]
+<Images/datarate.pdf, id=196, 256.96pt x 192.72pt>
+File: Images/datarate.pdf Graphic file (type pdf)
+<use Images/datarate.pdf>
+Package pdftex.def Info: Images/datarate.pdf  used on input line 121.
+(pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
+<Images/ebn0.pdf, id=197, 256.96pt x 192.72pt>
+File: Images/ebn0.pdf Graphic file (type pdf)
+<use Images/ebn0.pdf>
+Package pdftex.def Info: Images/ebn0.pdf  used on input line 121.
+(pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
+)) [5 <./Images/datarate.pdf> <./Images/ebn0.pdf
+
+pdfTeX warning: pdflatex (file ./Images/ebn0.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
 Package biblatex Info: Reference section=0 on input line 19.
- [5] (H3.aux)
+ [6] (H3.aux)
 Package rerunfilecheck Info: File `H3.out' has not changed.
-(rerunfilecheck)             Checksum: B7764C8FB2CFC718D011726470C6DD84;1363.
+(rerunfilecheck)             Checksum: 619260D23B07BA7571D7BA93DFC9A55D;1155.
 Package logreq Info: Writing requests to 'H3.run.xml'.
 \openout1 = `H3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24029 strings out of 476361
- 416214 string characters out of 5788046
- 1882993 words of memory out of 5000000
- 44023 multiletter control sequences out of 15000+600000
- 637631 words of font info for 159 fonts, out of 8000000 for 9000
+ 24142 strings out of 476361
+ 418389 string characters out of 5788046
+ 1898993 words of memory out of 5000000
+ 44112 multiletter control sequences out of 15000+600000
+ 677803 words of font info for 213 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,15n,98p,2107b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H3.pdf (7 pages, 349154 bytes).
+ 87i,16n,98p,1514b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H3.pdf (8 pages, 499433 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
