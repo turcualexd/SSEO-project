@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  3 MAY 2024 12:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  4 MAY 2024 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1109,7 +1109,7 @@ Package biblatex Info: ... file 'H5.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config//Poli_logo.pdf, id=31, 527.9725pt x 415.5525pt>
+<../../Config//Poli_logo.pdf, id=39, 527.9725pt x 415.5525pt>
 File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config//Poli_logo.pdf>
 Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
@@ -1144,15 +1144,15 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
  (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex Excluding 'comment' comment.) (Sections/02_phases.tex
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 7.
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 13.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-)) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex))
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \bodyandbib
-                 [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
+l.51     \item f
+                or the cold case TP-4 and TP-6 have been analyzed, which pre... [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex)) [2]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1163,25 +1163,25 @@ Package biblatex Info: Reference section=0 on input line 19.
 Package caption Warning: Unused \captionsetup[table] on input line 57.
 See the caption package documentation for explanation.
 
-[2] (H5.aux)
+[3] (H5.aux)
 Package rerunfilecheck Info: File `H5.out' has not changed.
-(rerunfilecheck)             Checksum: 75BB5F57BF9C3C05EF43AE52EC709962;1094.
+(rerunfilecheck)             Checksum: FB471241F8CB1AEABDD3D703ABA26957;1473.
 Package logreq Info: Writing requests to 'H5.run.xml'.
 \openout1 = `H5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24129 strings out of 476361
- 417230 string characters out of 5788046
- 1859993 words of memory out of 5000000
- 44150 multiletter control sequences out of 15000+600000
- 603832 words of font info for 122 fonts, out of 8000000 for 9000
+ 24142 strings out of 476361
+ 417422 string characters out of 5788046
+ 1867993 words of memory out of 5000000
+ 44158 multiletter control sequences out of 15000+600000
+ 609778 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,14n,98p,1514b,1857s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (4 pages, 102436 bytes).
+ 87i,14n,98p,1514b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H5.pdf (5 pages, 112354 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,26 +1,54 @@
 \section{Analysis of thermal conditions along the mission}
 \label{sec:TCS_phases}
 
+In this section, the mission will be analyzed and divided in perspective of thermal environment encountered. During this study, the internal heat flux won't enter the reasoning as its maximum value is small and does not affect the sectioning of the TPs and the selection of the hot case and the cold one.
+The architecture of the S/C won't affect the reasoning and only the heat fluxes from the external environment (Sun flux, planets' albedo and IR emission) will enter this preliminary analysis. A deeper study will be conducted during the reverse sizing in \autoref{sec:TCS_sizing}.
+
+\subsection{Thermal phases analysis}
+\label{subsec:TP_analysis}
+
 Different thermal conditions have been encountered by Juno during its cruise. In previous chapters, the mission was divided into phases by different attitude and communication constraints. These phases will be now grouped by the means of thermal constraints to better analyze their evolution during the mission time.
 
 \begin{itemize}
     \item \textbf{TP-1}:
-    in this first phase, which comprehends both LEOP and IC 1, the S/C is in SPM due to thermal and power requirements. In particular, since the trajectory is relatively close to the Sun, Juno has to protect the vault with the HGA (as already explained in the previous chapter).
-    It is a hot phase but not the most critical one and so it will not be considered in the following analysis.
+    in this first phase, which comprehends both LEOP and IC-1, the S/C is in SPM due to thermal and power requirements. In particular, since the trajectory is relatively close to the Sun, Juno has to protect the vault with the HGA (as already explained in the previous chapters).
+    Even if TP-1 is considered a hot phase, it is not the most critical as other phases have more stringent requirements, facing longer periods closer to external heat sources (i.e. Sun and Earth).
 
     \item \textbf{TP-2}:
-    
+    this second phase corresponds to IC-2. Among the ICs it is the longest and the only one featuring EPM. It does not call for any particular thermal requirement, being Juno farther from both Sun and Earth.
+    No specific attitude is required to thermally control the S/C during the different manoeuvres performed during IC-2. Neither hot nor cold phase is considered along TP-2.
     
     \item \textbf{TP-3}:
-    
+    the third thermal phase consists mainly of IC-3 till the EGA, performed in SPM to protect the electronics inside the vault as the S/C passes through the perihelion of its orbit at 0.88 AU.
+    During TP-3, Juno was found to face the most relevant hot environment, occurring at the closest approach to the Sun.
     
     \item \textbf{TP-4}:
-    
+    the fourth phase analyzed consists only of the EGA, from the entrance till the exit of Juno from Earth's SOI. This phase contains both a possible hot case and cold case, the first due to the proximity to the planet, the latter due to the eclipse.
+    It was found that neither of the two conditions are the most extreme in terms of heat flux. However, during TP-4 Juno faces the highest flux excursion of the entire mission.
     
     \item \textbf{TP-5}:
-    
+    this phase is the continuation of the TP-3, except that the S/C does not encounter such high flux environment as at perihelion. It goes from the end of EGA till the end of IC-3.
     
     \item \textbf{TP-6}:
+    this phase only includes the OC up to JOI. The S/C encounters progressively colder environment as it is going away from the Sun.
+    In particular, towards the end of TP-6, Juno experiences the lowest flux from the Sun and the radiation coming from Jupiter is still negligible. This condition was found to be the coldest case along the mission.
     
+    \item \textbf{TP-7}:
+    the last phase goes from the JOI till the end of the mission, including all the science orbits around Jupiter.
+    During this period of time, the spacecraft is subject to the harsh environment of Jupiter, where it faces oscillating flux from the planet: higher nearby the perijoves and lower at apojoves.
+    Overall, the environment stays cold during the whole phase but it is always higher with respect to the cold case found in TP-6.
     
+\end{itemize}
+
+\subsection{External heat flux analysis}
+\label{subsec:heat_flux_analysis}
+
+In order to find the hot and the cold cases, a simplified model of the main external heat fluxes has been carried out. To facilitate the computation, some assumptions have been adopted:
+\begin{itemize}
+    \item as previously mentioned, only the external heat fluxes have been modeled, discarding the internal contribution which is better treated in \autoref{sec:TCS_sizing};
+    \item the only contribution considered during the interplanetary phases is the Sun flux, while in proximity of the planets also albedo and IR emissions are added; \\
+    \item for the hot case only TP-3 and TP-4 have been analyzed, since the other phases do not have critical condition in this sense;
+    \item for the cold case TP-4 and TP-6 have been analyzed, which present the criticalities on the eclipse and on the farther position of the S/C with respect to the Sun;
+    \item the analysis has been carried out from the ephemeris of the real mission instead of taking the nominal cruise;
+    \item the $\cos \theta$ factor in the albedo calculation is assumed to be always at maximum value as a conservative simplification.
 \end{itemize}
