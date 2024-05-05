@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>SSEO_final_report.bcf</file>
+      <file>H5.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>SSEO_final_report.bbl</file>
+      <file>H5.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -60,26 +60,26 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>SSEO_final_report</infile>
+      <infile>H5</infile>
     </cmdline>
     <input>
-      <file>SSEO_final_report.bcf</file>
+      <file>H5.bcf</file>
     </input>
     <output>
-      <file>SSEO_final_report.bbl</file>
+      <file>H5.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>SSEO_final_report.bbl</file>
+      <file>H5.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>SSEO_final_report.bcf</file>
+      <file>H5.bcf</file>
     </requires>
     <requires type="editable">
-      <file>bibliography.bib</file>
+      <file>../../bibliography.bib</file>
     </requires>
   </external>
 </requests>
