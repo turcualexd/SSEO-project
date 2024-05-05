@@ -2478,6 +2478,26 @@
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
+  <!-- SECTION 4 -->
+  <bcf:bibdata section="4">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="4">
+    <bcf:citekey order="3" intorder="1">2006_overview</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 5 -->
+  <bcf:bibdata section="5">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="5">
+    <bcf:citekey order="3" intorder="1">2006_overview</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
     <bcf:sort order="1">
@@ -2507,6 +2527,24 @@
                 labelalphanametemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="3"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="4"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="5"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"

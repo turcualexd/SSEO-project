@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  13 APR 2024 15:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  5 MAY 2024 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -642,66 +642,71 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@cntb=\count305
 \multirow@dima=\skip59
 \bigstrutjot=\dimen186
+) (C:\Miktex\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen187
+\c@nlinenum=\count306
+\TeXr@lab=\toks30
 ) (C:\Miktex\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen187
-\WF@size=\dimen188
-\c@WF@wrappedlines=\count306
+\wrapoverhang=\dimen188
+\WF@size=\dimen189
+\c@WF@wrappedlines=\count307
 \WF@box=\box59
-\WF@everypar=\toks30
+\WF@everypar=\toks31
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Miktex\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
  (C:\Miktex\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count307
+\lrq@indent=\count308
  (C:\Miktex\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Miktex\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count308
-\c@listtotal=\count309
-\c@listcount=\count310
-\c@liststart=\count311
-\c@liststop=\count312
-\c@citecount=\count313
-\c@citetotal=\count314
-\c@multicitecount=\count315
-\c@multicitetotal=\count316
-\c@instcount=\count317
-\c@maxnames=\count318
-\c@minnames=\count319
-\c@maxitems=\count320
-\c@minitems=\count321
-\c@citecounter=\count322
-\c@maxcitecounter=\count323
-\c@savedcitecounter=\count324
-\c@uniquelist=\count325
-\c@uniquename=\count326
-\c@refsection=\count327
-\c@refsegment=\count328
-\c@maxextratitle=\count329
-\c@maxextratitleyear=\count330
-\c@maxextraname=\count331
-\c@maxextradate=\count332
-\c@maxextraalpha=\count333
-\c@abbrvpenalty=\count334
-\c@highnamepenalty=\count335
-\c@lownamepenalty=\count336
-\c@maxparens=\count337
-\c@parenlevel=\count338
-\blx@tempcnta=\count339
-\blx@tempcntb=\count340
-\blx@tempcntc=\count341
-\c@blx@maxsection=\count342
-\blx@maxsegment@0=\count343
-\blx@notetype=\count344
-\blx@parenlevel@text=\count345
-\blx@parenlevel@foot=\count346
-\blx@sectionciteorder@0=\count347
-\blx@sectionciteorderinternal@0=\count348
-\blx@entrysetcounter=\count349
-\blx@biblioinstance=\count350
+\c@tabx@nest=\count309
+\c@listtotal=\count310
+\c@listcount=\count311
+\c@liststart=\count312
+\c@liststop=\count313
+\c@citecount=\count314
+\c@citetotal=\count315
+\c@multicitecount=\count316
+\c@multicitetotal=\count317
+\c@instcount=\count318
+\c@maxnames=\count319
+\c@minnames=\count320
+\c@maxitems=\count321
+\c@minitems=\count322
+\c@citecounter=\count323
+\c@maxcitecounter=\count324
+\c@savedcitecounter=\count325
+\c@uniquelist=\count326
+\c@uniquename=\count327
+\c@refsection=\count328
+\c@refsegment=\count329
+\c@maxextratitle=\count330
+\c@maxextratitleyear=\count331
+\c@maxextraname=\count332
+\c@maxextradate=\count333
+\c@maxextraalpha=\count334
+\c@abbrvpenalty=\count335
+\c@highnamepenalty=\count336
+\c@lownamepenalty=\count337
+\c@maxparens=\count338
+\c@parenlevel=\count339
+\blx@tempcnta=\count340
+\blx@tempcntb=\count341
+\blx@tempcntc=\count342
+\c@blx@maxsection=\count343
+\blx@maxsegment@0=\count344
+\blx@notetype=\count345
+\blx@parenlevel@text=\count346
+\blx@parenlevel@foot=\count347
+\blx@sectionciteorder@0=\count348
+\blx@sectionciteorderinternal@0=\count349
+\blx@entrysetcounter=\count350
+\blx@biblioinstance=\count351
 \labelnumberwidth=\skip60
 \labelalphawidth=\skip61
 \biblabelsep=\skip62
@@ -713,9 +718,9 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count351
-\c@maxcomprange=\count352
-\c@mincompwidth=\count353
+\c@mincomprange=\count352
+\c@maxcomprange=\count353
+\c@mincompwidth=\count354
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Miktex\tex/latex/biblatex\blx-dm.def
@@ -725,74 +730,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count354
-\c@savedafterword=\count355
-\c@annotator=\count356
-\c@savedannotator=\count357
-\c@author=\count358
-\c@savedauthor=\count359
-\c@bookauthor=\count360
-\c@savedbookauthor=\count361
-\c@commentator=\count362
-\c@savedcommentator=\count363
-\c@editor=\count364
-\c@savededitor=\count365
-\c@editora=\count366
-\c@savededitora=\count367
-\c@editorb=\count368
-\c@savededitorb=\count369
-\c@editorc=\count370
-\c@savededitorc=\count371
-\c@foreword=\count372
-\c@savedforeword=\count373
-\c@holder=\count374
-\c@savedholder=\count375
-\c@introduction=\count376
-\c@savedintroduction=\count377
-\c@namea=\count378
-\c@savednamea=\count379
-\c@nameb=\count380
-\c@savednameb=\count381
-\c@namec=\count382
-\c@savednamec=\count383
-\c@translator=\count384
-\c@savedtranslator=\count385
-\c@shortauthor=\count386
-\c@savedshortauthor=\count387
-\c@shorteditor=\count388
-\c@savedshorteditor=\count389
-\c@labelname=\count390
-\c@savedlabelname=\count391
-\c@institution=\count392
-\c@savedinstitution=\count393
-\c@lista=\count394
-\c@savedlista=\count395
-\c@listb=\count396
-\c@savedlistb=\count397
-\c@listc=\count398
-\c@savedlistc=\count399
-\c@listd=\count400
-\c@savedlistd=\count401
-\c@liste=\count402
-\c@savedliste=\count403
-\c@listf=\count404
-\c@savedlistf=\count405
-\c@location=\count406
-\c@savedlocation=\count407
-\c@organization=\count408
-\c@savedorganization=\count409
-\c@origlocation=\count410
-\c@savedoriglocation=\count411
-\c@origpublisher=\count412
-\c@savedorigpublisher=\count413
-\c@publisher=\count414
-\c@savedpublisher=\count415
-\c@language=\count416
-\c@savedlanguage=\count417
-\c@origlanguage=\count418
-\c@savedoriglanguage=\count419
-\c@pageref=\count420
-\c@savedpageref=\count421
+\c@afterword=\count355
+\c@savedafterword=\count356
+\c@annotator=\count357
+\c@savedannotator=\count358
+\c@author=\count359
+\c@savedauthor=\count360
+\c@bookauthor=\count361
+\c@savedbookauthor=\count362
+\c@commentator=\count363
+\c@savedcommentator=\count364
+\c@editor=\count365
+\c@savededitor=\count366
+\c@editora=\count367
+\c@savededitora=\count368
+\c@editorb=\count369
+\c@savededitorb=\count370
+\c@editorc=\count371
+\c@savededitorc=\count372
+\c@foreword=\count373
+\c@savedforeword=\count374
+\c@holder=\count375
+\c@savedholder=\count376
+\c@introduction=\count377
+\c@savedintroduction=\count378
+\c@namea=\count379
+\c@savednamea=\count380
+\c@nameb=\count381
+\c@savednameb=\count382
+\c@namec=\count383
+\c@savednamec=\count384
+\c@translator=\count385
+\c@savedtranslator=\count386
+\c@shortauthor=\count387
+\c@savedshortauthor=\count388
+\c@shorteditor=\count389
+\c@savedshorteditor=\count390
+\c@labelname=\count391
+\c@savedlabelname=\count392
+\c@institution=\count393
+\c@savedinstitution=\count394
+\c@lista=\count395
+\c@savedlista=\count396
+\c@listb=\count397
+\c@savedlistb=\count398
+\c@listc=\count399
+\c@savedlistc=\count400
+\c@listd=\count401
+\c@savedlistd=\count402
+\c@liste=\count403
+\c@savedliste=\count404
+\c@listf=\count405
+\c@savedlistf=\count406
+\c@location=\count407
+\c@savedlocation=\count408
+\c@organization=\count409
+\c@savedorganization=\count410
+\c@origlocation=\count411
+\c@savedoriglocation=\count412
+\c@origpublisher=\count413
+\c@savedorigpublisher=\count414
+\c@publisher=\count415
+\c@savedpublisher=\count416
+\c@language=\count417
+\c@savedlanguage=\count418
+\c@origlanguage=\count419
+\c@savedoriglanguage=\count420
+\c@pageref=\count421
+\c@savedpageref=\count422
 \shorthandwidth=\skip68
 \shortjournalwidth=\skip69
 \shortserieswidth=\skip70
@@ -816,19 +821,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Miktex\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count422
-\c@textcitetotal=\count423
-\c@textcitemaxnames=\count424
-\c@biburlbigbreakpenalty=\count425
-\c@biburlbreakpenalty=\count426
-\c@biburlnumpenalty=\count427
-\c@biburlucpenalty=\count428
-\c@biburllcpenalty=\count429
+\c@textcitecount=\count423
+\c@textcitetotal=\count424
+\c@textcitemaxnames=\count425
+\c@biburlbigbreakpenalty=\count426
+\c@biburlbreakpenalty=\count427
+\c@biburlnumpenalty=\count428
+\c@biburlucpenalty=\count429
+\c@biburllcpenalty=\count430
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count430
+\c@smartand=\count431
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -838,8 +843,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Miktex\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count431
-\c@bbx:relatedtotal=\count432
+\c@bbx:relatedcount=\count432
+\c@bbx:relatedtotal=\count433
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -868,7 +873,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2022-09-28 L3 programming layer (loader) 
  (C:\Miktex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count433
+\l__color_backend_stack_int=\count434
 \l__pdf_internal_box=\box60
 ))
 Package biblatex Info: ... and expl3
@@ -881,23 +886,23 @@ Package: xparse 2022-06-22 L3 Experimental document command parser
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 )) (C:\Miktex\tex/latex/tools\multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count434
+\c@tracingmulticols=\count435
 \mult@box=\box61
-\multicol@leftmargin=\dimen189
-\c@unbalance=\count435
-\c@collectmore=\count436
-\doublecol@number=\count437
-\multicoltolerance=\count438
-\multicolpretolerance=\count439
-\full@width=\dimen190
-\page@free=\dimen191
-\premulticols=\dimen192
-\postmulticols=\dimen193
+\multicol@leftmargin=\dimen190
+\c@unbalance=\count436
+\c@collectmore=\count437
+\doublecol@number=\count438
+\multicoltolerance=\count439
+\multicolpretolerance=\count440
+\full@width=\dimen191
+\page@free=\dimen192
+\premulticols=\dimen193
+\postmulticols=\dimen194
 \multicolsep=\skip82
 \multicolbaselineskip=\skip83
 \partial@page=\box62
 \last@line=\box63
-\maxbalancingoverflow=\dimen194
+\maxbalancingoverflow=\dimen195
 \mult@rightbox=\box64
 \mult@grightbox=\box65
 \mult@firstbox=\box66
@@ -938,15 +943,15 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box101
 \@tempa=\box102
 \@tempa=\box103
-\c@minrows=\count440
-\c@columnbadness=\count441
-\c@finalcolumnbadness=\count442
-\last@try=\dimen195
-\multicolovershoot=\dimen196
-\multicolundershoot=\dimen197
+\c@minrows=\count441
+\c@columnbadness=\count442
+\c@finalcolumnbadness=\count443
+\last@try=\dimen196
+\multicolovershoot=\dimen197
+\multicolundershoot=\dimen198
 \mult@nat@firstbox=\box104
 \colbreak@box=\box105
-\mc@col@check@num=\count443
+\mc@col@check@num=\count444
 ) (C:\Miktex\tex/latex/xltabular\xltabular.sty
 Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
  (C:\Miktex\tex/latex/ltablex\ltablex.sty
@@ -957,30 +962,29 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip85
 \LTpre=\skip86
 \LTpost=\skip87
-\LTchunksize=\count444
-\LTcapwidth=\dimen198
+\LTchunksize=\count445
+\LTcapwidth=\dimen199
 \LT@head=\box106
 \LT@firsthead=\box107
 \LT@foot=\box108
 \LT@lastfoot=\box109
 \LT@gbox=\box110
-\LT@cols=\count445
-\LT@rows=\count446
-\c@LT@tables=\count447
-\c@LT@chunks=\count448
-\LT@p@ftn=\toks31
+\LT@cols=\count446
+\LT@rows=\count447
+\c@LT@tables=\count448
+\c@LT@chunks=\count449
+\LT@p@ftn=\toks32
 )))) (C:\Miktex\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
-\everycr=\toks32
+\everycr=\toks33
 \minrowclearance=\skip88
-\rownum=\count449
+\rownum=\count450
 ) (Config//formats.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 Package biblatex Info: Redefining '\supercite' on input line 35.
 \ltmcbox=\box111
-) (Config//commands.tex
 \mylength=\skip89
-))
+) (Config//commands.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1062,17 +1066,17 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (C:\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count450
-\scratchdimen=\dimen199
+\scratchcounter=\count451
+\scratchdimen=\dimen256
 \scratchbox=\box112
-\nofMPsegments=\count451
-\nofMParguments=\count452
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count453
-\MPscratchDim=\dimen256
-\MPnumerator=\count454
-\makeMPintoPDFobject=\count455
-\everyMPtoPDFconversion=\toks34
+\nofMPsegments=\count452
+\nofMParguments=\count453
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count454
+\MPscratchDim=\dimen257
+\MPnumerator=\count455
+\makeMPintoPDFobject=\count456
+\everyMPtoPDFconversion=\toks35
 ) (C:\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1108,7 +1112,7 @@ Package biblatex Info: ... file 'SSEO_final_report.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (Config/title_page_chapter.tex
-<Config//Poli_logo.pdf, id=178, 527.9725pt x 415.5525pt>
+<Config//Poli_logo.pdf, id=258, 527.9725pt x 415.5525pt>
 File: Config//Poli_logo.pdf Graphic file (type pdf)
 <use Config//Poli_logo.pdf>
 Package pdftex.def Info: Config//Poli_logo.pdf  used on input line 6.
@@ -1134,15 +1138,15 @@ LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 3
 File: ujkpsyc.fd 2006/08/15 v1.0
 ) [1
 
-{C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Config//Poli_logo.pdf>]) (SSEO_final_report.toc)
+{C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Config//Poli_logo.pdf>]) (SSEO_final_report.toc [1
+
+])
 \tf@toc=\write5
 \openout5 = `SSEO_final_report.toc'.
 
- [1
-
-] (Body.tex
-\blx@maxsegment@1=\count456
-\blx@sectionciteorder@1=\count457
+ [2] (Body.tex
+\blx@maxsegment@1=\count457
+\blx@sectionciteorder@1=\count458
 Package biblatex Info: Reference section=1 on input line 1.
 Package biblatex Info: Setting label 'refsection:1' on input line 1.
  (Chapters/H1/Body.tex (Chapters/H1//Sections/00_notation.tex)
@@ -1157,31 +1161,124 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14
  (C:\Miktex\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [2]) (Chapters/H1//Sections/04_functional_analysis.tex
-<Chapters/H1//Images/functional_analysis.pdf, id=293, 1656.9403pt x 1837.61531pt>
+<Chapters/H1//Images/functional_analysis.pdf, id=397, 1656.9403pt x 1837.61531pt>
 File: Chapters/H1//Images/functional_analysis.pdf Graphic file (type pdf)
 <use Chapters/H1//Images/functional_analysis.pdf>
 Package pdftex.def Info: Chapters/H1//Images/functional_analysis.pdf  used on input line 6.
 (pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
 ) (Chapters/H1//Sections/05_phases.tex [3 <./Chapters/H1//Images/functional_analysis.pdf>]) (Chapters/H1//Sections/06_conops.tex
-<Chapters/H1//Images/ConOps.pdf, id=308, 1596.39159pt x 499.24263pt>
+<Chapters/H1//Images/ConOps.pdf, id=412, 1596.39159pt x 499.24263pt>
 File: Chapters/H1//Images/ConOps.pdf Graphic file (type pdf)
 <use Chapters/H1//Images/ConOps.pdf>
 Package pdftex.def Info: Chapters/H1//Images/ConOps.pdf  used on input line 6.
 (pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
 ) [4 <./Chapters/H1//Images/ConOps.pdf>] (Chapters/H1//Sections/07_payload.tex [5]
-<Chapters/H1//Images/Strumenti Juno.jpg, id=340, 1606.0pt x 1159.33125pt>
+<Chapters/H1//Images/Strumenti Juno.jpg, id=444, 1606.0pt x 1159.33125pt>
 File: Chapters/H1//Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Chapters/H1//Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Chapters/H1//Images/Strumenti Juno.jpg  used on input line 31.
 (pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
  [6 <./Chapters/H1//Images/Strumenti Juno.jpg>]) (Chapters/H1//Sections/08_mission_analysis.tex
-<Chapters/H1//Images/orbits.png, id=350, 305.943pt x 509.2626pt>
+Chapters/H1//Sections/08_mission_analysis.tex:7: Missing number, treated as zero.
+<to be read again> 
+                   J
+l.7 ...Juno's trajectory from ecliptic north pole}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H1//Sections/08_mission_analysis.tex:7: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   J
+l.7 ...Juno's trajectory from ecliptic north pole}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Chapters/H1//Sections/08_mission_analysis.tex:7: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.7 ...Juno's trajectory from ecliptic north pole}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H1//Sections/08_mission_analysis.tex:7: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.7 ...Juno's trajectory from ecliptic north pole}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<Chapters/H1//Images/orbits.png, id=454, 305.943pt x 509.2626pt>
 File: Chapters/H1//Images/orbits.png Graphic file (type png)
 <use Chapters/H1//Images/orbits.png>
 Package pdftex.def Info: Chapters/H1//Images/orbits.png  used on input line 7.
-(pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
- [7 <./Chapters/H1//Images/orbits.png (PNG copy)>]
-<Chapters/H1//Images/orbits_jupiter.jpg, id=365, 2609.75pt x 919.435pt>
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Overfull \hbox (26.18993pt too wide) in paragraph at lines 7--7
+\T1/jkp/m/n/10 Juno's
+ []
+
+
+Overfull \hbox (42.53992pt too wide) in paragraph at lines 7--7
+\T1/jkp/m/n/10 tra-jec-tory
+ []
+
+
+Overfull \hbox (21.68999pt too wide) in paragraph at lines 7--7
+\T1/jkp/m/n/10 from
+ []
+
+
+Overfull \hbox (32.56993pt too wide) in paragraph at lines 7--7
+\T1/jkp/m/n/10 eclip-tic
+ []
+
+
+Overfull \hbox (24.54996pt too wide) in paragraph at lines 7--7
+\T1/jkp/m/n/10 north
+ []
+
+
+Overfull \hbox (19.14996pt too wide) in paragraph at lines 7--7
+\T1/jkp/m/n/10 pole[][] 
+ []
+
+
+Overfull \hbox (46.62994pt too wide) in paragraph at lines 7--7
+[][]\T1/jkp/m/n/10 Figure 1.4[][]:
+ []
+
+
+Overfull \hbox (13.49998pt too wide) in paragraph at lines 7--7
+[]|\T1/jkp/m/n/10 0.3| 
+ []
+
+Chapters/H1//Sections/08_mission_analysis.tex:7: Extra }, or forgotten \endgroup.
+\endwrapfigure ...ip \egroup \box \z@ \fi \egroup 
+                                                  \WF@floatstyhook \def \wid...
+l.7 ...Juno's trajectory from ecliptic north pole}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[7 <./Chapters/H1//Images/orbits.png (PNG copy)>]
+<Chapters/H1//Images/orbits_jupiter.jpg, id=469, 2609.75pt x 919.435pt>
 File: Chapters/H1//Images/orbits_jupiter.jpg Graphic file (type jpg)
 <use Chapters/H1//Images/orbits_jupiter.jpg>
 Package pdftex.def Info: Chapters/H1//Images/orbits_jupiter.jpg  used on input line 53.
@@ -1193,8 +1290,8 @@ File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
 Package biblatex Info: Reference section=0 on input line 1.
  [9]
-\blx@maxsegment@2=\count458
-\blx@sectionciteorder@2=\count459
+\blx@maxsegment@2=\count459
+\blx@sectionciteorder@2=\count460
 Package biblatex Info: Reference section=2 on input line 2.
 Package biblatex Info: Setting label 'refsection:2' on input line 2.
  (Chapters/H2/Body.tex (Chapters/H2//Sections/00_notation.tex) [10
@@ -1202,73 +1299,387 @@ Package biblatex Info: Setting label 'refsection:2' on input line 2.
 ] (Chapters/H2//Sections/01_ma_and_dv.tex [11]
 
 pdfTeX warning: pdflatex (file ./Chapters/H2//Images/trajectory.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapters/H2//Images/trajectory.pdf, id=421, 513.92pt x 385.44pt>
+<Chapters/H2//Images/trajectory.pdf, id=525, 513.92pt x 385.44pt>
 File: Chapters/H2//Images/trajectory.pdf Graphic file (type pdf)
 <use Chapters/H2//Images/trajectory.pdf>
 Package pdftex.def Info: Chapters/H2//Images/trajectory.pdf  used on input line 63.
 (pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
 [12 <./Chapters/H2//Images/trajectory.pdf>]) (Chapters/H2//Sections/02_prop_architecture.tex
-<Chapters/H2//Images/axis.jpg, id=458, 791.95876pt x 278.03876pt>
+<Chapters/H2//Images/axis.jpg, id=562, 791.95876pt x 278.03876pt>
 File: Chapters/H2//Images/axis.jpg Graphic file (type jpg)
 <use Chapters/H2//Images/axis.jpg>
 Package pdftex.def Info: Chapters/H2//Images/axis.jpg  used on input line 6.
 (pdftex.def)             Requested size: 384.11221pt x 134.85287pt.
  [13 <./Chapters/H2//Images/axis.jpg>]
-<Chapters/H2//Images/spin2.png, id=473, 499.26524pt x 201.75375pt>
+<Chapters/H2//Images/spin2.png, id=577, 499.26524pt x 201.75375pt>
 File: Chapters/H2//Images/spin2.png Graphic file (type png)
 <use Chapters/H2//Images/spin2.png>
 Package pdftex.def Info: Chapters/H2//Images/spin2.png  used on input line 17.
 (pdftex.def)             Requested size: 394.35739pt x 159.36215pt.
-<Chapters/H2//Images/foto_thruster.jpg, id=475, 678.535pt x 360.34625pt>
+
+Chapters/H2//Sections/02_prop_architecture.tex:21: Missing number, treated as zero.
+<to be read again> 
+                   R
+l.21 \rfig{foto_thruster}{0.55}{RCS Forward mount}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H2//Sections/02_prop_architecture.tex:21: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   R
+l.21 \rfig{foto_thruster}{0.55}{RCS Forward mount}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Chapters/H2//Sections/02_prop_architecture.tex:21: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.21 \rfig{foto_thruster}{0.55}{RCS Forward mount}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H2//Sections/02_prop_architecture.tex:21: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.21 \rfig{foto_thruster}{0.55}{RCS Forward mount}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<Chapters/H2//Images/foto_thruster.jpg, id=579, 678.535pt x 360.34625pt>
 File: Chapters/H2//Images/foto_thruster.jpg Graphic file (type jpg)
 <use Chapters/H2//Images/foto_thruster.jpg>
 Package pdftex.def Info: Chapters/H2//Images/foto_thruster.jpg  used on input line 21.
-(pdftex.def)             Requested size: 281.68385pt x 149.5904pt.
- [14 <./Chapters/H2//Images/spin2.png> <./Chapters/H2//Images/foto_thruster.jpg>]
-<Chapters/H2//Images/architettura_prop.pdf, id=494, 542.025pt x 391.4625pt>
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Overfull \hbox (18.98997pt too wide) in paragraph at lines 21--21
+[]\T1/jkp/m/n/10 RCS
+ []
+
+
+Overfull \hbox (37.53995pt too wide) in paragraph at lines 21--21
+\T1/jkp/m/n/10 For-ward
+ []
+
+
+Overfull \hbox (29.35995pt too wide) in paragraph at lines 21--21
+\T1/jkp/m/n/10 mount[][] 
+ []
+
+
+Overfull \hbox (46.62994pt too wide) in paragraph at lines 21--21
+[][]\T1/jkp/m/n/10 Figure 2.4[][]:
+ []
+
+
+Overfull \hbox (18.94998pt too wide) in paragraph at lines 21--21
+[]|\T1/jkp/m/n/10 0.55| 
+ []
+
+Chapters/H2//Sections/02_prop_architecture.tex:21: Extra }, or forgotten \endgroup.
+\endwrapfigure ...ip \egroup \box \z@ \fi \egroup 
+                                                  \WF@floatstyhook \def \wid...
+l.21 \rfig{foto_thruster}{0.55}{RCS Forward mount}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[14 <./Chapters/H2//Images/spin2.png> <./Chapters/H2//Images/foto_thruster.jpg>]
+Chapters/H2//Sections/02_prop_architecture.tex:40: Missing number, treated as zero.
+<to be read again> 
+                   P
+l.40 ...rop}{0.55}{Propulsion system architecture}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H2//Sections/02_prop_architecture.tex:40: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   P
+l.40 ...rop}{0.55}{Propulsion system architecture}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Chapters/H2//Sections/02_prop_architecture.tex:40: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.40 ...rop}{0.55}{Propulsion system architecture}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H2//Sections/02_prop_architecture.tex:40: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.40 ...rop}{0.55}{Propulsion system architecture}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<Chapters/H2//Images/architettura_prop.pdf, id=598, 542.025pt x 391.4625pt>
 File: Chapters/H2//Images/architettura_prop.pdf Graphic file (type pdf)
 <use Chapters/H2//Images/architettura_prop.pdf>
 Package pdftex.def Info: Chapters/H2//Images/architettura_prop.pdf  used on input line 40.
-(pdftex.def)             Requested size: 281.68385pt x 203.4422pt.
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Overfull \hbox (48.80992pt too wide) in paragraph at lines 40--40
+\T1/jkp/m/n/10 Propulsion
+ []
+
+
+Overfull \hbox (30.57994pt too wide) in paragraph at lines 40--40
+\T1/jkp/m/n/10 sys-tem
+ []
+
+
+Overfull \hbox (53.4799pt too wide) in paragraph at lines 40--40
+\T1/jkp/m/n/10 ar-chi-tec-ture[][] 
+ []
+
+
+Overfull \hbox (46.62994pt too wide) in paragraph at lines 40--40
+[][]\T1/jkp/m/n/10 Figure 2.5[][]:
+ []
+
+
+Overfull \hbox (18.94998pt too wide) in paragraph at lines 40--40
+[]|\T1/jkp/m/n/10 0.55| 
+ []
+
+Chapters/H2//Sections/02_prop_architecture.tex:40: Extra }, or forgotten \endgroup.
+\endwrapfigure ...ip \egroup \box \z@ \fi \egroup 
+                                                  \WF@floatstyhook \def \wid...
+l.40 ...rop}{0.55}{Propulsion system architecture}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ) (Chapters/H2//Sections/03_reverse_prop.tex [15 <./Chapters/H2//Images/architettura_prop.pdf>] [16])) [17]
 Package biblatex Info: Reference section=0 on input line 2.
  [18]
-\blx@maxsegment@3=\count460
-\blx@sectionciteorder@3=\count461
+\blx@maxsegment@3=\count461
+\blx@sectionciteorder@3=\count462
 Package biblatex Info: Reference section=3 on input line 3.
 Package biblatex Info: Setting label 'refsection:3' on input line 3.
  (Chapters/H3/Body.tex (Chapters/H3//Sections/00_notation.tex) [19
 
 ] (Chapters/H3//Sections/01_architecture.tex
-<Chapters/H3//Images/antennas_positioning.jpg, id=1023, 513.117pt x 325.215pt>
+Chapters/H3//Sections/01_architecture.tex:4: Missing number, treated as zero.
+<to be read again> 
+                   L
+l.4 ....5}{Location of telecommunication antennas}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H3//Sections/01_architecture.tex:4: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.4 ....5}{Location of telecommunication antennas}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Chapters/H3//Sections/01_architecture.tex:4: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.4 ....5}{Location of telecommunication antennas}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H3//Sections/01_architecture.tex:4: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.4 ....5}{Location of telecommunication antennas}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<Chapters/H3//Images/antennas_positioning.jpg, id=1127, 513.117pt x 325.215pt>
 File: Chapters/H3//Images/antennas_positioning.jpg Graphic file (type jpg)
 <use Chapters/H3//Images/antennas_positioning.jpg>
 Package pdftex.def Info: Chapters/H3//Images/antennas_positioning.jpg  used on input line 4.
-(pdftex.def)             Requested size: 256.07481pt x 162.30438pt.
- [20 <./Chapters/H3//Images/antennas_positioning.jpg>] [21]
-<Chapters/H3//Images/DSNantenna.png, id=1057, 1027.84pt x 770.88pt>
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Overfull \hbox (38.42993pt too wide) in paragraph at lines 4--4
+\T1/jkp/m/n/10 Location
+ []
+
+
+Overfull \hbox (8.84999pt too wide) in paragraph at lines 4--4
+\T1/jkp/m/n/10 of
+ []
+
+
+Overfull \hbox (85.36984pt too wide) in paragraph at lines 4--4
+\T1/jkp/m/n/10 telecom-mu-ni-ca-tion
+ []
+
+
+Overfull \hbox (39.8799pt too wide) in paragraph at lines 4--4
+\T1/jkp/m/n/10 an-ten-nas[][] 
+ []
+
+
+Overfull \hbox (46.62994pt too wide) in paragraph at lines 4--4
+[][]\T1/jkp/m/n/10 Figure 3.1[][]:
+ []
+
+
+Overfull \hbox (13.49998pt too wide) in paragraph at lines 4--4
+[]|\T1/jkp/m/n/10 0.5| 
+ []
+
+Chapters/H3//Sections/01_architecture.tex:4: Extra }, or forgotten \endgroup.
+\endwrapfigure ...ip \egroup \box \z@ \fi \egroup 
+                                                  \WF@floatstyhook \def \wid...
+l.4 ....5}{Location of telecommunication antennas}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[20 <./Chapters/H3//Images/antennas_positioning.jpg>]
+Chapters/H3//Sections/01_architecture.tex:67: Missing number, treated as zero.
+<to be read again> 
+                   D
+l.67 \rfig{DSNantenna}{0.5}{DSN coverage}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H3//Sections/01_architecture.tex:67: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   D
+l.67 \rfig{DSNantenna}{0.5}{DSN coverage}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Chapters/H3//Sections/01_architecture.tex:67: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.67 \rfig{DSNantenna}{0.5}{DSN coverage}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Chapters/H3//Sections/01_architecture.tex:67: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.67 \rfig{DSNantenna}{0.5}{DSN coverage}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<Chapters/H3//Images/DSNantenna.png, id=1156, 1027.84pt x 770.88pt>
 File: Chapters/H3//Images/DSNantenna.png Graphic file (type png)
 <use Chapters/H3//Images/DSNantenna.png>
 Package pdftex.def Info: Chapters/H3//Images/DSNantenna.png  used on input line 67.
-(pdftex.def)             Requested size: 256.07481pt x 192.04906pt.
-<Chapters/H3//Images/dsn_hga.jpg, id=1062, 581.17125pt x 310.15875pt>
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Overfull \hbox (20.83997pt too wide) in paragraph at lines 67--67
+[]\T1/jkp/m/n/10 DSN
+ []
+
+
+Overfull \hbox (38.56993pt too wide) in paragraph at lines 67--67
+\T1/jkp/m/n/10 cov-er-age[][] 
+ []
+
+
+Overfull \hbox (46.62994pt too wide) in paragraph at lines 67--67
+[][]\T1/jkp/m/n/10 Figure 3.2[][]:
+ []
+
+
+Overfull \hbox (13.49998pt too wide) in paragraph at lines 67--67
+[]|\T1/jkp/m/n/10 0.5| 
+ []
+
+Chapters/H3//Sections/01_architecture.tex:67: Extra }, or forgotten \endgroup.
+\endwrapfigure ...ip \egroup \box \z@ \fi \egroup 
+                                                  \WF@floatstyhook \def \wid...
+l.67 \rfig{DSNantenna}{0.5}{DSN coverage}
+                                         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[21]
+<Chapters/H3//Images/dsn_hga.jpg, id=1167, 581.17125pt x 310.15875pt>
 File: Chapters/H3//Images/dsn_hga.jpg Graphic file (type jpg)
 <use Chapters/H3//Images/dsn_hga.jpg>
 Package pdftex.def Info: Chapters/H3//Images/dsn_hga.jpg  used on input line 72.
 (pdftex.def)             Requested size: 409.72125pt x 218.66194pt.
-) (Chapters/H3//Sections/02_phases.tex [22 <./Chapters/H3//Images/DSNantenna.png> <./Chapters/H3//Images/dsn_hga.jpg>]
-<Chapters/H3//Images/phases_antenna.pdf, id=1075, 489.32813pt x 263.48438pt>
+) (Chapters/H3//Sections/02_phases.tex
+<Chapters/H3//Images/phases_antenna.pdf, id=1170, 489.32813pt x 263.48438pt>
 File: Chapters/H3//Images/phases_antenna.pdf Graphic file (type pdf)
 <use Chapters/H3//Images/phases_antenna.pdf>
 Package pdftex.def Info: Chapters/H3//Images/phases_antenna.pdf  used on input line 9.
 (pdftex.def)             Requested size: 512.14963pt x 275.77823pt.
-) (Chapters/H3//Sections/03_sizing.tex [23 <./Chapters/H3//Images/phases_antenna.pdf>]
-<Chapters/H3//Images/datarate.pdf, id=1125, 256.96pt x 192.72pt>
+ [22 <./Chapters/H3//Images/DSNantenna.png> <./Chapters/H3//Images/dsn_hga.jpg>]) (Chapters/H3//Sections/03_sizing.tex [23 <./Chapters/H3//Images/phases_antenna.pdf>]
+<Chapters/H3//Images/datarate.pdf, id=1231, 256.96pt x 192.72pt>
 File: Chapters/H3//Images/datarate.pdf Graphic file (type pdf)
 <use Chapters/H3//Images/datarate.pdf>
 Package pdftex.def Info: Chapters/H3//Images/datarate.pdf  used on input line 119.
 (pdftex.def)             Requested size: 221.24515pt x 165.93591pt.
-<Chapters/H3//Images/ebn0.pdf, id=1126, 256.96pt x 192.72pt>
+<Chapters/H3//Images/ebn0.pdf, id=1232, 256.96pt x 192.72pt>
 File: Chapters/H3//Images/ebn0.pdf Graphic file (type pdf)
 <use Chapters/H3//Images/ebn0.pdf>
 Package pdftex.def Info: Chapters/H3//Images/ebn0.pdf  used on input line 119.
@@ -1278,25 +1689,75 @@ Package pdftex.def Info: Chapters/H3//Images/ebn0.pdf  used on input line 119.
 pdfTeX warning: pdflatex (file ./Chapters/H3//Images/ebn0.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 Package biblatex Info: Reference section=0 on input line 3.
-) [25] (SSEO_final_report.aux)
-Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 523D76EB01B19E1734B3E61556D9CDB6;7013.
+ [25]
+\blx@maxsegment@4=\count463
+\blx@sectionciteorder@4=\count464
+Package biblatex Info: Reference section=4 on input line 4.
+Package biblatex Info: Setting label 'refsection:4' on input line 4.
+ (Chapters/H4/Body.tex (Chapters/H4//Sections/00_notation.tex
+
+LaTeX Warning: Missing reference on input line 17.
+
+) [26
+
+] (Chapters/H4//Sections/01_introduction.tex) (Chapters/H4//Sections/02_modes.tex
+
+LaTeX Warning: Missing reference on input line 24.
+
+
+LaTeX Warning: Missing reference on input line 37.
+
+
+LaTeX Warning: Missing reference on input line 39.
+
+
+LaTeX Warning: Missing reference on input line 42.
+
+[27]) (Chapters/H4//Sections/03_architecture_rationale.tex) (Chapters/H4//Sections/04_reverse_sizing.tex)) [28]
+Package biblatex Info: Reference section=0 on input line 4.
+ [29]
+\blx@maxsegment@5=\count465
+\blx@sectionciteorder@5=\count466
+Package biblatex Info: Reference section=5 on input line 5.
+Package biblatex Info: Setting label 'refsection:5' on input line 5.
+ (Chapters/H5/Body.tex (Chapters/H5//Sections/00_notation.tex) [30
+
+] (Chapters/H5//Sections/01_introduction.tex) (Chapters/H5//Sections/02_phases.tex) (Chapters/H5//Sections/03_architecture_rationale.tex) (Chapters/H5//Sections/04_reverse_sizing.tex)) [31]
+Package biblatex Info: Reference section=0 on input line 5.
+) [32] (SSEO_final_report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `SSEO_final_report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SSEO_final_report.out':
+(rerunfilecheck)             Before: 199B4942AF5DD4A25816DF35356C4A51;10560
+(rerunfilecheck)             After:  88561D70DC6D232AF34D9DF2E8B023A2;10794.
+
+Package biblatex Warning: Please rerun LaTeX.
+
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24663 strings out of 475385
- 424822 string characters out of 2793321
- 1218968 words of memory out of 3000000
- 45379 multiletter control sequences out of 15000+600000
+ 25018 strings out of 475385
+ 432547 string characters out of 2793321
+ 1224039 words of memory out of 3000000
+ 45659 multiletter control sequences out of 15000+600000
  657350 words of font info for 253 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,98p,2083b,1875s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 84i,17n,98p,2083b,2289s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (27 pages, 2571358 bytes).
+Output written on SSEO_final_report.pdf (35 pages, 2599013 bytes).
 PDF statistics:
- 1239 PDF objects out of 1440 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
- 438 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1388 PDF objects out of 1440 (max. 8388607)
+ 208 named destinations out of 1000 (max. 500000)
+ 598 words of extra memory for PDF output out of 10000 (max. 10000000)
 
