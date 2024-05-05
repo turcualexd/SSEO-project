@@ -599,6 +599,11 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
+INPUT .\Images\EGA_flux_analysis.pdf
+INPUT Images\EGA_flux_analysis.pdf
+INPUT .\Images\EGA_flux_analysis.pdf
+INPUT .\Images\EGA_flux_analysis.pdf
+INPUT .\Images\EGA_flux_analysis.pdf
 INPUT .\Sections\03_architecture_rationale.tex
 INPUT .\Sections\03_architecture_rationale.tex
 INPUT Sections\03_architecture_rationale.tex
