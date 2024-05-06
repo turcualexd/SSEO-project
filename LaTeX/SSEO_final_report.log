@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  6 MAY 2024 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  6 MAY 2024 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1342,10 +1342,10 @@ Package biblatex Info: Setting label 'refsection:5' on input line 5.
  (Chapters/H5/Body.tex (Chapters/H5/Sections/00_notation.tex) [36
 
 ] (Chapters/H5/Sections/01_introduction.tex Excluding 'comment' comment.) (Chapters/H5/Sections/02_phases.tex [37]
-<Chapters/H5/Images/EGA_flux_analysis.pdf, id=2049, 398.99063pt x 301.125pt>
+<Chapters/H5/Images/EGA_flux_analysis.pdf, id=2050, 398.99063pt x 301.125pt>
 File: Chapters/H5/Images/EGA_flux_analysis.pdf Graphic file (type pdf)
 <use Chapters/H5/Images/EGA_flux_analysis.pdf>
-Package pdftex.def Info: Chapters/H5/Images/EGA_flux_analysis.pdf  used on input line 59.
+Package pdftex.def Info: Chapters/H5/Images/EGA_flux_analysis.pdf  used on input line 62.
 (pdftex.def)             Requested size: 307.2929pt x 231.93127pt.
 ) (Chapters/H5/Sections/03_architecture_rationale.tex) (Chapters/H5/Sections/04_reverse_sizing.tex)) [38 <./Chapters/H5/Images/EGA_flux_analysis.pdf>]
 Package biblatex Info: Reference section=0 on input line 5.
@@ -1369,9 +1369,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  87i,20n,102p,1950b,2300s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (42 pages, 4890145 bytes).
+Output written on SSEO_final_report.pdf (42 pages, 4890734 bytes).
 PDF statistics:
- 2182 PDF objects out of 2487 (max. 8388607)
+ 2183 PDF objects out of 2487 (max. 8388607)
  265 named destinations out of 1000 (max. 500000)
  742 words of extra memory for PDF output out of 10000 (max. 10000000)
 
