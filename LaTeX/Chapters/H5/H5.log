@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  6 MAY 2024 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  6 MAY 2024 23:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1153,28 +1153,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.54     \item f
                 or the hot case only TP-3 and TP-4 have been analyzed, since... [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
-<Images/Perihelion_flux_analysis.pdf, id=81, 398.99063pt x 301.125pt>
+<Images/Perihelion_flux_analysis.pdf, id=84, 398.99063pt x 301.125pt>
 File: Images/Perihelion_flux_analysis.pdf Graphic file (type pdf)
 <use Images/Perihelion_flux_analysis.pdf>
 Package pdftex.def Info: Images/Perihelion_flux_analysis.pdf  used on input line 64.
 (pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
-<Images/Jupiter_flux_analysis.pdf, id=82, 398.99063pt x 301.125pt>
+<Images/Jupiter_flux_analysis.pdf, id=85, 398.99063pt x 301.125pt>
 File: Images/Jupiter_flux_analysis.pdf Graphic file (type pdf)
 <use Images/Jupiter_flux_analysis.pdf>
 Package pdftex.def Info: Images/Jupiter_flux_analysis.pdf  used on input line 64.
 (pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
-<Images/EGA_flux_analysis.pdf, id=83, 398.99063pt x 301.125pt>
+<Images/EGA_flux_analysis.pdf, id=86, 398.99063pt x 301.125pt>
 File: Images/EGA_flux_analysis.pdf Graphic file (type pdf)
 <use Images/EGA_flux_analysis.pdf>
 Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 69.
 (pdftex.def)             Requested size: 256.07481pt x 193.2707pt.
-) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex [2 <./Images/Perihelion_flux_analysis.pdf> <./Images/Jupiter_flux_analysis.pdf
+) (Sections/03_architecture_rationale.tex [2 <./Images/Perihelion_flux_analysis.pdf> <./Images/Jupiter_flux_analysis.pdf
 
 pdfTeX warning: pdflatex (file ./Images/Jupiter_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Images/EGA_flux_analysis.pdf
 
 pdfTeX warning: pdflatex (file ./Images/EGA_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->])) [3]
+>]) (Sections/04_reverse_sizing.tex)) [3]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1196,9 +1196,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  87i,17n,98p,1514b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (6 pages, 245073 bytes).
+Output written on H5.pdf (6 pages, 252240 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 146 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
