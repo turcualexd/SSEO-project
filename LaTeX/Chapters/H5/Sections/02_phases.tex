@@ -53,16 +53,39 @@ In order to find the hot and the cold cases, a simplified model of the main exte
     \item for the hot case only TP-3 and TP-4 have been analyzed, since the other phases do not have critical condition in this sense;
     \item for the cold case TP-4, TP-6 and TP-7 have been analyzed, the first because of the criticality of the eclipse condition, the second because of the increasingly farther position of the S/C with respect to the Sun in an interplanetary environment and the third because Juno is orbiting Jupiter at its farthest point from the Sun;
     \item the analysis has been carried out from the ephemeris of the real mission instead of taking the nominal cruise;
-    \item the $\cos \theta$ factor in the albedo formula is assumed to be always equal to $1$ as a conservative simplification, so only the distances are taken into account during the calculations.
-    \item no transient is considered between one time step and the following on, so no heat capacity has been modeled. 
+    \item the $\cos \theta$ factor in the albedo formula is assumed to be always equal to $1$ as a conservative simplification, so only the distances are taken into account during the calculations;
+    \item no transient is considered between one time step and the following on; %nel caso aggiungiamo heat capacity
 \end{itemize}
 
 In \autoref{fig:EGA_flux_analysis} the total external heat flux, sum of albedo, IR and Sun radiation during TP-4 is shown. 
 
 \cfig{EGA_flux_analysis}{0.6}{Flux analysis of TP-4 (EGA phase)}
 
-The passage from perihelion during TP-3 turned out to be the most significant hot environment; despite the added contribution of Earth’s IR and albedo present in the planet’s SOI, Juno is farther from the Sun so the solar flux is much lower. It is worth noting that the flux during TP-4 is greatly overestimated due to the simplification on the albedo discussed before. Moreover, the time spent by Juno in the region where the maximum and the minimum heat flux are respectively higher and lower than the ones encountered during the actual hot and cold case is minimal: around half a minute for the highest heat flux and around four minutes for the lowest one.
+The passage from perihelion during TP-3 turned out to be the most significant hot environment; despite the added contribution of Earth’s IR and albedo present in the planet’s SOI, Juno is farther from the Sun so the solar flux is much lower. It is worth noting that the flux during TP-4 is greatly overestimated due to the simplification on the albedo discussed before. Moreover, the time spent by Juno in the region where the maximum and the minimum heat flux are respectively higher and lower than the ones encountered during the actual hot and cold case is minimal: around half a minute for the highest heat flux and around four minutes for the lowest one. Hence, considering that in the real mission Juno has to overcome a transient before reaching extreme temperatures, it wouldn't make sense to consider EGA's peaks as hot and cold cases. The most relevant cold case was then found to be a few orbits after JOI, around the farthest position of Juno from both Sun and Jupiter, where both solar flux and the planet's albedo and IR are at their lowest. 
+Total heat flux for all cases analyzed is shown in \autoref{table:cases}.
 
 % As shown in … , even if both solar flux and albedo are absent in the first case, near Jupiter the environment is colder due to the extremely large distance from the Sun which makes also Jupiter’s albedo small
 
-% TABELLA CON VALORI TROVATI
+% ALEX SISTEMA QUESTA TABELLA NON SO PERCHè FA COSI e non so come mettere in grassetto il math
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.7}
+    \centering
+    \begin{tabularx}{\linewidth}{|c|c|}
+        \hline
+        \textbf{Phase} & \textbf{Total heat flux [\textbf{$W/
+        m^2$}]}  \\
+        \hline
+        \hline
+        \textbf{EGA hot case} & 1779.33 \\ 
+        \hline
+        \textbf{Selected hot case } & 1759.23 \\
+        \hline
+        \textbf{EGA cold case} & 31.13 \\
+        \hline
+        \textbf{Selected cold case} & 45.62 \\
+        \hline
+    \end{tabularx}
+    \caption{Summary of considered hot and cold cases}
+    \label{table:cases}
+\end{table}

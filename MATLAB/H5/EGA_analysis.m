@@ -1,7 +1,7 @@
-%clear, clc, close all;
+clear, clc, close all;
 
-load("Ephemeris\Radius\EGA\Juno_Earth_EGA.mat")
-load("Ephemeris\Radius\EGA\Juno_Sun_EGA.mat")
+load("Ephemeris/Radius/EGA/Juno_Earth_EGA.mat")
+load("Ephemeris/Radius/EGA/Juno_Sun_EGA.mat")
 
 r_mod_JE = vecnorm(rv_JE_EGA, 2, 2);        % km
 r_mod_JS = vecnorm(rv_JS_EGA, 2, 2);        % km
@@ -32,8 +32,23 @@ q_alb = [q_alb(1:shadow_entry_index-1); zeros(19,1);
     q_alb(shadow_exit_index:end)];
 
 q = q_sun + q_alb + q_ir;
-min(q)
+minimo = min(q);
 
+
+
+% calcolo calore 
+for i = 1:length(q) - 1
+    if q(i) > 45.617358 && q(i+1)<45.617358
+        i_0 = i;
+    end
+    if q(i) < 45.617358 && q(i+1) > 45.617358
+        i_f = i;
+    end
+end
+
+Q = trapz(q(i_0:i_f));
+format long 
+max(q)
 
 %% Plot
 
@@ -68,3 +83,14 @@ indexofinterest= (time>1430) & (time<1500);
 plot(time(indexofinterest), q(indexofinterest), 'LineWidth', linewdth)
 plot(1455, max(q), 'rx', 'MarkerSize', 8, 'LineWidth', linewdth)
 plot(1474, min(q), 'bx', 'MarkerSize', 8, 'LineWidth', linewdth)
+
+
+
+
+
+
+
+
+
+
+
