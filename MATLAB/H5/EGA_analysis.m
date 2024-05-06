@@ -1,4 +1,4 @@
-clear, clc, close all;
+%clear, clc, close all;
 
 load("Ephemeris\Radius\EGA\Juno_Earth_EGA.mat")
 load("Ephemeris\Radius\EGA\Juno_Sun_EGA.mat")
@@ -58,6 +58,7 @@ legend('', 'Maximum flux for EGA', 'Minimum flux for EGA')
 xlim([0 SOI_exit - SOI_entry])
 set(gca, 'FontSize', fontsz)
 yline(45.617358)
+yline(1759.23)
 return
 axes('position',[.25 .18 .2 .5])
 box on

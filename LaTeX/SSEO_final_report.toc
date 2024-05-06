@@ -72,7 +72,7 @@
 \contentsline {section}{\numberline {5.1}Introduction of TCS}{37}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Analysis of thermal conditions along the mission}{37}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Thermal phases analysis}{37}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Heat flux analysis}{37}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Architecture and rationale of TCS}{37}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Reverse sizing of TCS}{37}{section.5.4}%
-\contentsline {section}{Bibliography}{38}{section*.58}%
+\contentsline {subsection}{\numberline {5.2.2}External heat flux analysis}{37}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Architecture and rationale of TCS}{38}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Reverse sizing of TCS}{38}{section.5.4}%
+\contentsline {section}{Bibliography}{39}{section*.59}%

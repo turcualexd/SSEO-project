@@ -21,23 +21,25 @@ Different thermal conditions have been encountered by Juno during its cruise. In
     
     \item \textbf{TP-3}:
     the third thermal phase consists mainly of IC-3 till the EGA, performed in SPM to protect the electronics inside the vault as the S/C passes through the perihelion of its orbit at 0.88 AU.
-    During TP-3, Juno was found to face the most relevant hot environment, occurring at the closest approach to the Sun.
+    During TP-3, Juno was found to face the most relevant hot environment, occurring at the closest approach to the Sun. As a consequence, this condition was selected to be the hot case.
     
     \item \textbf{TP-4}:
-    the fourth phase analyzed consists only of the EGA, from the entrance till the exit of Juno from Earth's SOI. This phase contains both a possible hot case and cold case, the first due to the proximity to the planet, the latter due to the eclipse.
-    It was found that neither of the two conditions are the most extreme in terms of heat flux. However, during TP-4 Juno faces the highest flux excursion of the entire mission.
+    the fourth phase analyzed consists only of the EGA, from the entrance till the exit of Juno from Earth's SOI. This phase contains both a possible hot case and cold case, the first due to the proximity to the planet, the latter due to the eclipse. It was found that both of the two conditions are the most extreme in terms of heat flux as the obtained results are linked with the model used, which does not consider any thermal transient. As explained in \autoref{subsec:heat_flux_analysis}, these conditions won't be selected as hot or cold case.
+
+   %  It was found that neither of the two conditions are the most extreme in terms of heat flux as the obtained results are linked with the model used, which does not consider any thermal transient. As explained in \autoref{subsec:heat_flux_analysis},  However, during TP-4 Juno faces the highest flux excursion of the entire mission.
     
     \item \textbf{TP-5}:
     this phase is the continuation of the TP-3, except that the S/C does not encounter such high flux environment as at perihelion. It goes from the end of EGA till the end of IC-3.
     
     \item \textbf{TP-6}:
-    this phase only includes the OC up to JOI. The S/C encounters progressively colder environment as it is going away from the Sun.
-    In particular, towards the end of TP-6, Juno experiences the lowest flux from the Sun and the radiation coming from Jupiter is still negligible. This condition was found to be the coldest case along the mission.
+    this phase only includes the OC up to JOI. The S/C encounters progressively colder environment as it is going away from the Sun. However, Juno will face colder contexts along its mission.
+
+    % In particular, towards the end of TP-6, Juno experiences the lowest flux from the Sun and the radiation coming from Jupiter is still negligible. This condition was found to be the coldest case along the mission.
     
     \item \textbf{TP-7}:
     the last phase goes from the JOI till the end of the mission, including all the science orbits around Jupiter.
     During this period of time, the spacecraft is subject to the harsh environment of Jupiter, where it faces oscillating flux from the planet: higher nearby the perijoves and lower at apojoves.
-    Overall, the environment stays cold during the whole phase but it is always higher with respect to the cold case found in TP-6.
+    Overall the environment stays cold during the whole phase with a peak when both Jupiter and Juno are around the apocentre of their respective orbits. This condition is elected as the cold case.
     
 \end{itemize}
 
@@ -49,15 +51,17 @@ In order to find the hot and the cold cases, a simplified model of the main exte
     \item as previously mentioned, only the external heat fluxes have been modeled, discarding the internal contribution which is better treated in \autoref{sec:TCS_sizing}; \\
     \item the only contribution considered during the interplanetary phases is the Sun flux, while in proximity of the planets also albedo and IR emissions are added;
     \item for the hot case only TP-3 and TP-4 have been analyzed, since the other phases do not have critical condition in this sense;
-    \item for the cold case TP-4 and TP-6 have been analyzed, the first because of the criticality of the eclipse condition, the second because of the farthest position of the S/C with respect to the Sun in an interplanetary environment;
+    \item for the cold case TP-4, TP-6 and TP-7 have been analyzed, the first because of the criticality of the eclipse condition, the second because of the increasingly farther position of the S/C with respect to the Sun in an interplanetary environment and the third because Juno is orbiting Jupiter at its farthest point from the Sun;
     \item the analysis has been carried out from the ephemeris of the real mission instead of taking the nominal cruise;
     \item the $\cos \theta$ factor in the albedo formula is assumed to be always equal to $1$ as a conservative simplification, so only the distances are taken into account during the calculations.
+    \item no transient is considered between one time step and the following on, so no heat capacity has been modeled. 
 \end{itemize}
+
+In \autoref{fig:EGA_flux_analysis} the total external heat flux, sum of albedo, IR and Sun radiation during TP-4 is shown. 
 
 \cfig{EGA_flux_analysis}{0.6}{Flux analysis of TP-4 (EGA phase)}
 
-The passage from perihelion during TP-3 turned out to be the most significant hot environment; despite the added contribution of Earth’s IR and albedo present in the planet’s SOI, Juno is farther from the Sun so the solar flux is much lower.
-It is worth noting that the flux during TP-4 is greatly overestimated due to the simplification on the albedo discussed before, so the perihelion case is even farther from the real maximum of TP-4.
+The passage from perihelion during TP-3 turned out to be the most significant hot environment; despite the added contribution of Earth’s IR and albedo present in the planet’s SOI, Juno is farther from the Sun so the solar flux is much lower. It is worth noting that the flux during TP-4 is greatly overestimated due to the simplification on the albedo discussed before. Moreover, the time spent by Juno in the region where the maximum and the minimum heat flux are respectively higher and lower than the ones encountered during the actual hot and cold case is minimal: around half a minute for the highest heat flux and around four minutes for the lowest one.
 
 % As shown in … , even if both solar flux and albedo are absent in the first case, near Jupiter the environment is colder due to the extremely large distance from the Sun which makes also Jupiter’s albedo small
 
