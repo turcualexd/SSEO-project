@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  5 MAY 2024 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  6 MAY 2024 12:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1887,7 +1887,14 @@ Package biblatex Info: Reference section=5 on input line 5.
 Package biblatex Info: Setting label 'refsection:5' on input line 5.
  (Chapters/H5/Body.tex (Chapters/H5//Sections/00_notation.tex) [30
 
-] (Chapters/H5//Sections/01_introduction.tex) (Chapters/H5//Sections/02_phases.tex) (Chapters/H5//Sections/03_architecture_rationale.tex) (Chapters/H5//Sections/04_reverse_sizing.tex)) [31]
+] (Chapters/H5//Sections/01_introduction.tex) (Chapters/H5//Sections/02_phases.tex) (Chapters/H5//Sections/03_architecture_rationale.tex
+
+LaTeX Warning: Missing reference on input line 4.
+
+
+LaTeX Warning: Missing reference on input line 11.
+
+) (Chapters/H5//Sections/04_reverse_sizing.tex)) [31]
 Package biblatex Info: Reference section=0 on input line 5.
 ) [32] (SSEO_final_report.aux)
 
@@ -1922,7 +1929,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,17n,98p,2083b,1904s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (34 pages, 2552047 bytes).
+Output written on SSEO_final_report.pdf (34 pages, 2554726 bytes).
 PDF statistics:
  1069 PDF objects out of 1200 (max. 8388607)
  207 named destinations out of 1000 (max. 500000)

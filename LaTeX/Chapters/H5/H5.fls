@@ -1149,6 +1149,7 @@ INPUT .\Sections\04_reverse_sizing.tex
 INPUT Sections\04_reverse_sizing.tex
 INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpmn7c.vf
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmnc.tfm
+INPUT C:\Miktex\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Miktex\fonts\tfm\public\kpfonts\jkpmit8t.tfm
 INPUT C:\Miktex\tex\latex\kpfonts\t1jkptt.fd
 INPUT C:\Miktex\tex\latex\kpfonts\t1jkptt.fd
@@ -1170,6 +1171,8 @@ INPUT C:\Miktex\fonts\enc\dvips\base\8r.enc
 INPUT C:\Miktex\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpbn8a.pfb
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpbn8a.pfb
+INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpmi.pfb
+INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpmi.pfb
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpmit8a.pfb
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpmit8a.pfb
 INPUT C:\Miktex\fonts\type1\public\kpfonts\jkpmn8a.pfb
