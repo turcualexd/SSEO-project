@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  6 MAY 2024 15:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  6 MAY 2024 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1153,10 +1153,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.53     \item f
                 or the hot case only TP-3 and TP-4 have been analyzed, since... [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
-<Images/EGA_flux_analysis.pdf, id=81, 398.99063pt x 301.125pt>
+<Images/EGA_flux_analysis.pdf, id=82, 398.99063pt x 301.125pt>
 File: Images/EGA_flux_analysis.pdf Graphic file (type pdf)
 <use Images/EGA_flux_analysis.pdf>
-Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 60.
+Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 62.
 (pdftex.def)             Requested size: 307.2929pt x 231.93127pt.
 ) (Sections/03_architecture_rationale.tex) (Sections/04_reverse_sizing.tex)) [2 <./Images/EGA_flux_analysis.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
@@ -1189,9 +1189,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  87i,14n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (5 pages, 143929 bytes).
+Output written on H5.pdf (5 pages, 144371 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 131 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
