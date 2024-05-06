@@ -1,7 +1,7 @@
 clear, clc, close all;
 
-load("Ephemeris\Juno_Earth_EGA.mat")
-load("Ephemeris\Juno_Sun_EGA.mat")
+load("Ephemeris\Radius\EGA\Juno_Earth_EGA.mat")
+load("Ephemeris\Radius\EGA\Juno_Sun_EGA.mat")
 
 r_mod_JE = vecnorm(rv_JE_EGA, 2, 2);        % km
 r_mod_JS = vecnorm(rv_JS_EGA, 2, 2);        % km
@@ -32,6 +32,7 @@ q_alb = [q_alb(1:shadow_entry_index-1); zeros(19,1);
     q_alb(shadow_exit_index:end)];
 
 q = q_sun + q_alb + q_ir;
+min(q)
 
 
 %% Plot
@@ -56,7 +57,8 @@ ylabel('q_{tot} [W/m^2]')
 legend('', 'Maximum flux for EGA', 'Minimum flux for EGA')
 xlim([0 SOI_exit - SOI_entry])
 set(gca, 'FontSize', fontsz)
-
+yline(45.617358)
+return
 axes('position',[.25 .18 .2 .5])
 box on
 hold on

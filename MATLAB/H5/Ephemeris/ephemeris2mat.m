@@ -1,7 +1,10 @@
 clear, clc, close all;
 
-T = readtable("Juno_Earth_EGA_original.txt");
-T = T(3:4323,:);
+name = "Science\Juno_Sun_science";
+
+T = readtable("Original\" + name + ".txt");
+%return
+T = T(3:20347,:);
 
 av  = table2array(T(:,12));
 ev  = table2array(T(:,3));
@@ -12,12 +15,12 @@ thv = wrapTo2Pi(deg2rad(table2array(T(:,11))));
 
 muS = astroConstants(4);
 muE = astroConstants(13);
+muJ = astroConstants(15);
 
-rv_JE_EGA = nan(length(av),3);
+rv_JS_science = nan(length(av),3);
 for i = 1:length(av)
-    [rv_JE_EGA(i,:), ~] = kep2car([av(i) ev(i) iv(i) OMv(i) omv(i) thv(i)], muE);
+    [rv_JS_science(i,:), ~] = kep2car([av(i) ev(i) iv(i) OMv(i) omv(i) thv(i)], muS);
 end
 
-clear T i muS muE
-
-save("Juno_Earth_EGA.mat", "rv_JE_EGA")
+%return
+save("Radius\" + name + ".mat", "rv_JS_science")

@@ -1,45 +1,29 @@
 clear, clc, close all;
 
-% Ephemeris of Juno wrt Sun (whole mission, 1 day resolution)
-load("Ephemeris\Juno_Sun.mat");
+AU = astroConstants(2);                     % km
+q0 = astroConstants(31);                    % W/m^2
 
-% Constants
-R_earth = astroConstants(23);
-q0 = astroConstants(31);
-muS = astroConstants(4);
-a = 0.35;
+load("Ephemeris\Radius\Juno_Sun.mat")
 
+r_mod_JS = vecnorm(rv_JS, 2, 2);            % km
 
-%% q_sun for whole mission
+q_sun = q0 * (AU ./ r_mod_JS).^2;
 
-r_vec = zeros(3, length(av));
-r_mod = zeros(1, length(av));
-q_sun  = zeros(1, length(av));
-
-for i = 1:length(av)
-    [r_vec(:,i), ~] = kep2car([av(i) ev(i) iv(i) OMv(i) omv(i) thv(i)], muS);
-    r_mod(i) = norm(r_vec(:,i)) / astroConstants(2);    % norm distance [AU]
-    q_sun(i) = q0 / r_mod(i)^2;                         % flux of power from Sun
-end
-
-
-%% Perihelion
-
-% 0.8 AU case - at perihelion
+% 0.88 AU case - at perihelion
 q_ph_tot = max(q_sun);
 
 
 %% Plot
 
-days = 0:length(av)-1;
-days = days - 661;
+time = 0:length(q_sun)-1;                   % days
+time = time - 661;
 
 linewdth = 1;
 fontsz = 12;
 
 figure
 hold on
-plot(days, q_sun, 'LineWidth', 1)
+plot(time, q_sun, 'LineWidth', 1)
 xline(757-661,'r--', 'LineWidth', linewdth)
 plot(757-661, max(q_sun), 'rx', 'MarkerSize', 8, 'LineWidth', linewdth)
 %xline(767,'g--')    % EGA
@@ -48,7 +32,7 @@ plot(757-661, max(q_sun), 'rx', 'MarkerSize', 8, 'LineWidth', linewdth)
 %xline(661,'--')     % IC-2 -> IC-3
 %xline(822,'--')     % IC-3 -> OC
 %xline(1620,'--')    % End OC
-xlim([0 767-661])
+xlim([661 767]-661)
 box on
 grid minor
 xlabel("Time [days]")
