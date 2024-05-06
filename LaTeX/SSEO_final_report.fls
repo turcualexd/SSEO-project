@@ -1086,6 +1086,11 @@ INPUT Chapters\H5\Sections\02_phases.tex
 INPUT .\Chapters\H5\Sections\02_phases.tex
 INPUT .\Chapters\H5\Sections\02_phases.tex
 INPUT Chapters\H5\Sections\02_phases.tex
+INPUT .\Chapters\H5\Images\EGA_flux_analysis.pdf
+INPUT Chapters\H5\Images\EGA_flux_analysis.pdf
+INPUT .\Chapters\H5\Images\EGA_flux_analysis.pdf
+INPUT .\Chapters\H5\Images\EGA_flux_analysis.pdf
+INPUT .\Chapters\H5\Images\EGA_flux_analysis.pdf
 INPUT .\Chapters\H5\Sections\03_architecture_rationale.tex
 INPUT .\Chapters\H5\Sections\03_architecture_rationale.tex
 INPUT Chapters\H5\Sections\03_architecture_rationale.tex
