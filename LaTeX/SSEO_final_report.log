@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  3 MAY 2024 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  6 MAY 2024 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1341,27 +1341,49 @@ Package biblatex Info: Reference section=5 on input line 5.
 Package biblatex Info: Setting label 'refsection:5' on input line 5.
  (Chapters/H5/Body.tex (Chapters/H5//Sections/00_notation.tex) [36
 
-] (Chapters/H5//Sections/01_introduction.tex Excluding 'comment' comment.) (Chapters/H5//Sections/02_phases.tex) (Chapters/H5//Sections/03_architecture_rationale.tex) (Chapters/H5//Sections/04_reverse_sizing.tex)) [37]
+] (Chapters/H5//Sections/01_introduction.tex Excluding 'comment' comment.) (Chapters/H5//Sections/02_phases.tex [37]
+<Chapters/H5//Images/Perihelion_flux_analysis.pdf, id=2049, 398.99063pt x 301.125pt>
+File: Chapters/H5//Images/Perihelion_flux_analysis.pdf Graphic file (type pdf)
+<use Chapters/H5//Images/Perihelion_flux_analysis.pdf>
+Package pdftex.def Info: Chapters/H5//Images/Perihelion_flux_analysis.pdf  used on input line 64.
+(pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
+<Chapters/H5//Images/Jupiter_flux_analysis.pdf, id=2050, 398.99063pt x 301.125pt>
+File: Chapters/H5//Images/Jupiter_flux_analysis.pdf Graphic file (type pdf)
+<use Chapters/H5//Images/Jupiter_flux_analysis.pdf>
+Package pdftex.def Info: Chapters/H5//Images/Jupiter_flux_analysis.pdf  used on input line 64.
+(pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
+<Chapters/H5//Images/EGA_flux_analysis.pdf, id=2051, 398.99063pt x 301.125pt>
+File: Chapters/H5//Images/EGA_flux_analysis.pdf Graphic file (type pdf)
+<use Chapters/H5//Images/EGA_flux_analysis.pdf>
+Package pdftex.def Info: Chapters/H5//Images/EGA_flux_analysis.pdf  used on input line 69.
+(pdftex.def)             Requested size: 256.07481pt x 193.2707pt.
+) (Chapters/H5//Sections/03_architecture_rationale.tex) (Chapters/H5//Sections/04_reverse_sizing.tex [38 <./Chapters/H5//Images/Perihelion_flux_analysis.pdf> <./Chapters/H5//Images/Jupiter_flux_analysis.pdf
+
+pdfTeX warning: pdflatex (file ./Chapters/H5//Images/Jupiter_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/H5//Images/EGA_flux_analysis.pdf
+
+pdfTeX warning: pdflatex (file ./Chapters/H5//Images/EGA_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>])) [39]
 Package biblatex Info: Reference section=0 on input line 5.
-) [38] (SSEO_final_report.aux)
+) [40] (SSEO_final_report.aux)
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 741ECA3C38C6DC8D500F3CC54C849748;12554.
+(rerunfilecheck)             Checksum: 9DE4554E5B493D349C72A82A7CAFC173;12602.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25610 strings out of 476361
- 458480 string characters out of 5788046
+ 25655 strings out of 476361
+ 460243 string characters out of 5788046
  1899993 words of memory out of 5000000
- 45194 multiletter control sequences out of 15000+600000
+ 45228 multiletter control sequences out of 15000+600000
  756489 words of font info for 308 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,20n,98p,1950b,2293s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (41 pages, 4855763 bytes).
+Output written on SSEO_final_report.pdf (43 pages, 4991026 bytes).
 PDF statistics:
- 2171 PDF objects out of 2487 (max. 8388607)
- 263 named destinations out of 1000 (max. 500000)
- 737 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2194 PDF objects out of 2487 (max. 8388607)
+ 268 named destinations out of 1000 (max. 500000)
+ 752 words of extra memory for PDF output out of 10000 (max. 10000000)
 

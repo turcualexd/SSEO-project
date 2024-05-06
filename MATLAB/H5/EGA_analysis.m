@@ -43,7 +43,7 @@ SOI_exit = 4061 - 1;
 time = time - SOI_entry;
 
 linewdth = 1;
-fontsz = 9;
+fontsz = 10;
 
 figure
 hold on
@@ -57,8 +57,7 @@ ylabel('q_{tot} [W/m^2]')
 legend('', 'Maximum flux for EGA', 'Minimum flux for EGA')
 xlim([0 SOI_exit - SOI_entry])
 set(gca, 'FontSize', fontsz)
-yline(45.617358)
-return
+
 axes('position',[.25 .18 .2 .5])
 box on
 hold on
