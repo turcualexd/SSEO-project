@@ -7,4 +7,4 @@
 \contentsline {subsection}{\numberline {2.2}External heat flux analysis}{1}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Architecture and rationale of TCS}{3}{section.3}%
 \contentsline {section}{\numberline {4}Reverse sizing of TCS}{3}{section.4}%
-\contentsline {section}{Bibliography}{4}{section*.6}%
+\contentsline {section}{Bibliography}{4}{section*.7}%

@@ -1,7 +1,7 @@
-%clear, clc, close all;
+clear, clc, close all;
 
-load("Ephemeris/Radius/Science/Juno_Jupiter_science.mat")
-load("Ephemeris/Radius/Science/Juno_Sun_science.mat")
+load("Ephemeris\Radius\Science\Juno_Jupiter_science.mat")
+load("Ephemeris\Radius\Science\Juno_Sun_science.mat")
 
 r_mod_JJ = vecnorm(rv_JJ_science, 2, 2);    % km
 r_mod_JS = vecnorm(rv_JS_science, 2, 2);    % km

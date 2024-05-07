@@ -1,9 +1,9 @@
-%clear, clc, close all;
+clear, clc, close all;
 
 AU = astroConstants(2);                     % km
 q0 = astroConstants(31);                    % W/m^2
 
-load("Ephemeris/Radius/Juno_Sun.mat")
+load("Ephemeris\Radius\Juno_Sun.mat")
 
 r_mod_JS = vecnorm(rv_JS, 2, 2);            % km
 
