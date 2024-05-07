@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  6 MAY 2024 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  7 MAY 2024 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1162,6 +1162,9 @@ LaTeX Warning: Missing reference on input line 13.
 
 LaTeX Warning: Missing reference on input line 16.
 
+
+LaTeX Warning: Missing reference on input line 24.
+
 ) (Sections/04_reverse_sizing.tex))
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -1188,13 +1191,13 @@ Package logreq Info: Writing requests to 'H5.run.xml'.
 Here is how much of TeX's memory you used:
  23904 strings out of 475385
  402683 string characters out of 2793321
- 1178331 words of memory out of 3000000
+ 1184331 words of memory out of 3000000
  44900 multiletter control sequences out of 15000+600000
  560804 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,97p,1514b,1851s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (4 pages, 116146 bytes).
+Output written on H5.pdf (4 pages, 118316 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
