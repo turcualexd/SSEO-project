@@ -1,7 +1,7 @@
-clear, clc, close all;
+%clear, clc, close all;
 
-load("Ephemeris/Radius/EGA/Juno_Earth_EGA.mat")
-load("Ephemeris/Radius/EGA/Juno_Sun_EGA.mat")
+load("Ephemeris\Radius\EGA\Juno_Earth_EGA.mat")
+load("Ephemeris\Radius\EGA\Juno_Sun_EGA.mat")
 
 r_mod_JE = vecnorm(rv_JE_EGA, 2, 2);        % km
 r_mod_JS = vecnorm(rv_JS_EGA, 2, 2);        % km
@@ -33,7 +33,6 @@ q_alb = [q_alb(1:shadow_entry_index-1); zeros(19,1);
 
 q = q_sun + q_alb + q_ir;
 min(q)
-max(q)
 
 
 %% Plot
@@ -44,7 +43,7 @@ SOI_exit = 4061 - 1;
 time = time - SOI_entry;
 
 linewdth = 1;
-fontsz = 10;
+fontsz = 9;
 
 figure
 hold on
@@ -55,10 +54,12 @@ box on
 grid minor
 xlabel('Time [min]')
 ylabel('q_{tot} [W/m^2]')
-%legend('', 'Maximum flux for EGA', 'Minimum flux for EGA')
+legend('', 'Maximum flux for EGA', 'Minimum flux for EGA')
 xlim([0 SOI_exit - SOI_entry])
 set(gca, 'FontSize', fontsz)
-
+yline(45.617358)
+yline(1759.23)
+return
 axes('position',[.25 .18 .2 .5])
 box on
 hold on
@@ -67,8 +68,3 @@ indexofinterest= (time>1430) & (time<1500);
 plot(time(indexofinterest), q(indexofinterest), 'LineWidth', linewdth)
 plot(1455, max(q), 'rx', 'MarkerSize', 8, 'LineWidth', linewdth)
 plot(1474, min(q), 'bx', 'MarkerSize', 8, 'LineWidth', linewdth)
-yline(1759.2288, 'r--', 'LineWidth', linewdth)
-yline(45.6173, 'b--', 'LineWidth', linewdth)
-lgnd = legend('', 'Maximum flux for EGA', 'Minimum flux for EGA', ...
-    'Selected hot case (TP-3)', 'Selected cold case (TP-7)');
-lgnd.FontSize = fontsz;
