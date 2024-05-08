@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  6 MAY 2024 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  8 MAY 2024 10:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1151,26 +1151,26 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54     \item f
-                or the hot case only TP-3 and TP-4 have been analyzed, since... [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
-<Images/Perihelion_flux_analysis.pdf, id=84, 398.99063pt x 301.125pt>
+l.55     \item t
+                he only contribution considered during the interplanetary ph... [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
+<Images/Perihelion_flux_analysis.pdf, id=87, 398.99063pt x 301.125pt>
 File: Images/Perihelion_flux_analysis.pdf Graphic file (type pdf)
 <use Images/Perihelion_flux_analysis.pdf>
-Package pdftex.def Info: Images/Perihelion_flux_analysis.pdf  used on input line 64.
+Package pdftex.def Info: Images/Perihelion_flux_analysis.pdf  used on input line 66.
 (pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
-<Images/Jupiter_flux_analysis.pdf, id=85, 398.99063pt x 301.125pt>
-File: Images/Jupiter_flux_analysis.pdf Graphic file (type pdf)
-<use Images/Jupiter_flux_analysis.pdf>
-Package pdftex.def Info: Images/Jupiter_flux_analysis.pdf  used on input line 64.
+<Images/Jupiter_flux_analysis_ext.pdf, id=88, 398.99063pt x 301.125pt>
+File: Images/Jupiter_flux_analysis_ext.pdf Graphic file (type pdf)
+<use Images/Jupiter_flux_analysis_ext.pdf>
+Package pdftex.def Info: Images/Jupiter_flux_analysis_ext.pdf  used on input line 66.
 (pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
-<Images/EGA_flux_analysis.pdf, id=86, 398.99063pt x 301.125pt>
+<Images/EGA_flux_analysis.pdf, id=89, 398.99063pt x 301.125pt>
 File: Images/EGA_flux_analysis.pdf Graphic file (type pdf)
 <use Images/EGA_flux_analysis.pdf>
-Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 69.
+Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 71.
 (pdftex.def)             Requested size: 256.07481pt x 193.2707pt.
-) (Sections/03_architecture_rationale.tex [2 <./Images/Perihelion_flux_analysis.pdf> <./Images/Jupiter_flux_analysis.pdf
+) (Sections/03_architecture_rationale.tex [2 <./Images/Perihelion_flux_analysis.pdf> <./Images/Jupiter_flux_analysis_ext.pdf
 
-pdfTeX warning: pdflatex (file ./Images/Jupiter_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Images/Jupiter_flux_analysis_ext.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Images/EGA_flux_analysis.pdf
 
 pdfTeX warning: pdflatex (file ./Images/EGA_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -1189,16 +1189,16 @@ Package logreq Info: Writing requests to 'H5.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  24225 strings out of 476361
- 419282 string characters out of 5788046
+ 419326 string characters out of 5788046
  1867993 words of memory out of 5000000
  44221 multiletter control sequences out of 15000+600000
  631841 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,17n,98p,1514b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (6 pages, 252240 bytes).
+Output written on H5.pdf (6 pages, 201055 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
