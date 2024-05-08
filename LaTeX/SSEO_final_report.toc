@@ -74,5 +74,7 @@
 \contentsline {subsection}{\numberline {5.2.1}Thermal phases analysis}{37}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}External heat flux analysis}{37}{subsection.5.2.2}%
 \contentsline {section}{\numberline {5.3}Architecture and rationale of TCS}{39}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Reverse sizing of TCS}{39}{section.5.4}%
-\contentsline {section}{Bibliography}{40}{section*.61}%
+\contentsline {section}{\numberline {5.4}Reverse sizing of TCS}{40}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Appendix}{41}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Thermal limits and power usage of instrumentation}{41}{subsection.5.5.1}%
+\contentsline {section}{Bibliography}{42}{section*.61}%

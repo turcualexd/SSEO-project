@@ -41,6 +41,30 @@
       \field{title}{Overview of the Juno Mission to Jupiter}
       \field{year}{2006}
     \endentry
+    \entry{solar_panels_coef}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b61f050da6dab86436e5594227372614}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={William\bibnamedelima McAlpine},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{b61f050da6dab86436e5594227372614}
+      \strng{fullhash}{b61f050da6dab86436e5594227372614}
+      \strng{bibnamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authorbibnamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authornamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authorfullhash}{b61f050da6dab86436e5594227372614}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{JUNO Photovoltaic Power at Jupiter}
+      \field{year}{2012}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
