@@ -41,6 +41,28 @@
       \field{title}{Overview of the Juno Mission to Jupiter}
       \field{year}{2006}
     \endentry
+    \entry{masses_ref}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b72ac823d25cea6b75733918733a005d}{%
+           family={JPL},
+           familyi={J\bibinitperiod},
+           given={NASA},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{fullhash}{b72ac823d25cea6b75733918733a005d}
+      \strng{bibnamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authorbibnamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authornamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authorfullhash}{b72ac823d25cea6b75733918733a005d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/juno/facts/}}
+      \field{title}{Juno Quick Facts}
+      \field{year}{2011}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
