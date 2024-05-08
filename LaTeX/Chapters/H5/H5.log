@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  8 MAY 2024 15:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  8 MAY 2024 18:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -880,7 +880,9 @@ Package biblatex Info: ... and expl3
 Package: xparse 2024-02-18 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+)) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count437
 \mult@box=\box61
@@ -1109,7 +1111,7 @@ Package biblatex Info: ... file 'H5.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config/Poli_logo.pdf, id=39, 527.9725pt x 415.5525pt>
+<../../Config/Poli_logo.pdf, id=47, 527.9725pt x 415.5525pt>
 File: ../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/Poli_logo.pdf  used on input line 6.
@@ -1144,33 +1146,33 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
  (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex Excluding 'comment' comment.) (Sections/02_phases.tex
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 14.
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 15.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54     \item t
+l.56     \item t
                 he only contribution considered during the interplanetary ph... [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
-<Images/Perihelion_flux_analysis.pdf, id=83, 398.99063pt x 301.125pt>
+<Images/Perihelion_flux_analysis.pdf, id=93, 398.99063pt x 301.125pt>
 File: Images/Perihelion_flux_analysis.pdf Graphic file (type pdf)
 <use Images/Perihelion_flux_analysis.pdf>
-Package pdftex.def Info: Images/Perihelion_flux_analysis.pdf  used on input line 69.
+Package pdftex.def Info: Images/Perihelion_flux_analysis.pdf  used on input line 67.
 (pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
-<Images/Jupiter_flux_analysis.pdf, id=84, 398.99063pt x 301.125pt>
-File: Images/Jupiter_flux_analysis.pdf Graphic file (type pdf)
-<use Images/Jupiter_flux_analysis.pdf>
-Package pdftex.def Info: Images/Jupiter_flux_analysis.pdf  used on input line 69.
+<Images/Jupiter_flux_analysis_ext.pdf, id=94, 398.99063pt x 301.125pt>
+File: Images/Jupiter_flux_analysis_ext.pdf Graphic file (type pdf)
+<use Images/Jupiter_flux_analysis_ext.pdf>
+Package pdftex.def Info: Images/Jupiter_flux_analysis_ext.pdf  used on input line 67.
 (pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
-<Images/EGA_flux_analysis.pdf, id=85, 398.99063pt x 301.125pt>
+<Images/EGA_flux_analysis.pdf, id=95, 398.99063pt x 301.125pt>
 File: Images/EGA_flux_analysis.pdf Graphic file (type pdf)
 <use Images/EGA_flux_analysis.pdf>
-Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 74.
+Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 72.
 (pdftex.def)             Requested size: 256.07481pt x 193.2707pt.
-) (Sections/03_architecture_rationale.tex [2 <./Images/Perihelion_flux_analysis.pdf> <./Images/Jupiter_flux_analysis.pdf
+) (Sections/03_architecture_rationale.tex [2 <./Images/Perihelion_flux_analysis.pdf> <./Images/Jupiter_flux_analysis_ext.pdf
 
-pdfTeX warning: pdflatex (file ./Images/Jupiter_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Images/Jupiter_flux_analysis_ext.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Images/EGA_flux_analysis.pdf
 
 pdfTeX warning: pdflatex (file ./Images/EGA_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -1190,31 +1192,38 @@ LaTeX Warning: Missing reference on input line 16.
 
 LaTeX Warning: Missing reference on input line 24.
 
-[3]) (Sections/04_reverse_sizing.tex)) [4]
+
+LaTeX Warning: Missing reference on input line 31.
+
+[3]
+
+LaTeX Warning: Missing reference on input line 34.
+
+) (Sections/04_reverse_sizing.tex) [4] (Sections/05_appendix.tex)) [5]
 Package biblatex Info: Reference section=0 on input line 19.
- [5] (H5.aux)
+ [6] (H5.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H5.out' has not changed.
-(rerunfilecheck)             Checksum: 205A04C65D86F7D0B0EA103ECC62A057;1473.
+(rerunfilecheck)             Checksum: 3648F621740B9722ED697BCD2D497B20;1878.
 Package logreq Info: Writing requests to 'H5.run.xml'.
 \openout1 = `H5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24020 strings out of 474436
- 412083 string characters out of 5741955
- 1946190 words of memory out of 5000000
- 45958 multiletter control sequences out of 15000+600000
- 671329 words of font info for 154 fonts, out of 8000000 for 9000
+ 24064 strings out of 474436
+ 413167 string characters out of 5741955
+ 1954190 words of memory out of 5000000
+ 45990 multiletter control sequences out of 15000+600000
+ 672060 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,102p,1842b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,17n,102p,1527b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on H5.pdf (7 pages, 255283 bytes).
+Output written on H5.pdf (8 pages, 213503 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

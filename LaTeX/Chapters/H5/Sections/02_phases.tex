@@ -8,7 +8,8 @@ The architecture of the S/C won't affect the reasoning and only the heat fluxes 
 \subsection{Thermal phases analysis}
 \label{subsec:TP_analysis}
 
-Different thermal conditions have been encountered by Juno during its cruise. In previous chapters, the mission was divided into phases by different attitude and communication constraints. These phases will be now grouped by the means of thermal constraints to better analyze their evolution during the mission time.
+Different thermal conditions have been encountered by Juno during its cruise. In previous chapters, the mission was divided into phases by different attitude and communication constraints.
+These phases will be now grouped by the means of thermal constraints to better analyze their evolution during the mission time.
 
 \begin{itemize}
     \item \textbf{TP-1}:
@@ -34,7 +35,7 @@ Different thermal conditions have been encountered by Juno during its cruise. In
     
     \item \textbf{TP-6}:
     this phase only includes the OC up to JOI. The S/C encounters a progressively colder environment as it is going away from the Sun.
-    However, knowing its trajectory, Juno will face colder contexts along its mission. The transition between TP-6 and TP-7 can be seen in \autoref{fig:Jupiter_flux_analysis}.
+    However, knowing its trajectory, Juno will face colder contexts along its mission. The transition between TP-6 and TP-7 can be seen in \autoref{fig:Jupiter_flux_analysis_ext}.
 
     \item \textbf{TP-7}:
     the last phase goes from the JOI till the end of the mission, including all the science orbits around Jupiter.
@@ -49,25 +50,22 @@ Different thermal conditions have been encountered by Juno during its cruise. In
 
 In order to find the hot and the cold cases, a simplified model of the main external heat fluxes has been carried out. All the formulas for this analysis are reported in \autoref{sec:TCS_sizing}.
 To facilitate the computation, some assumptions have been adopted:
+\vspace*{2mm}
 \begin{itemize}
     \item as previously mentioned, only the external heat fluxes have been modeled discarding the internal contribution, which is better treated in \autoref{sec:TCS_sizing};
     \item the only contribution considered during the interplanetary phases is the Sun flux, while in proximity of the planets also albedo and IR emissions are added;
-
     \item for the hot case only TP-3 and TP-4 have been analyzed, since the other phases do not have critical condition in this sense;
-
-    \item for the cold case TP-4, TP-6 and TP-7 have been analyzed, the first because of the criticality of the eclipse condition, the second because of the increasingly farther position of the spacecraft with respect to the Sun in an interplanetary environment, the third because Juno is orbiting Jupiter at its farthest points from the Sun; 
-
+    \item for the cold case TP-4, TP-6 and TP-7 have been analyzed, the first because of the criticality of the eclipse condition, the second because of the increasingly farther position of the S/C with respect to the Sun in an interplanetary environment, the third because Juno is orbiting Jupiter at its farthest points from the Sun;
     \item the analysis has been carried out from the ephemeris of the real mission instead of taking the nominal cruise;
-
     \item the $\cos \theta$ factor in the albedo formula is assumed to be always equal to $1$ as a conservative simplification, so only the distances are taken into account during the calculations.
-   
+
 \end{itemize}
 
-The external heat fluxes computed by this simplified model for TP-3 (\autoref{fig:Perihelion_flux_analysis}), transition between TP-6 and TP-7 (\autoref{fig:Jupiter_flux_analysis}) and TP-4 (\autoref{fig:EGA_flux_analysis}) are shown in the plots below.
+The external heat fluxes computed by this simplified model for TP-3 (\autoref{fig:Perihelion_flux_analysis}), transition between TP-6 and TP-7 (\autoref{fig:Jupiter_flux_analysis_ext}) and TP-4 (\autoref{fig:EGA_flux_analysis}) are shown in the plots below.
 
 \twofig{Perihelion_flux_analysis}{Flux analysis of TP-3}
-    {Jupiter_flux_analysis}{Flux analysis of TP-7}{1}
-\vspace*{-2mm}
+    {Jupiter_flux_analysis_ext}{Flux analysis of TP-7}{1}
+
 \begin{minipage}{0.5\linewidth}
     \centering
     \captionsetup{type=figure}
@@ -107,4 +105,6 @@ As can be noticed in \autoref{fig:EGA_flux_analysis}, the S/C spends only around
 Moreover, as can be also seen in \autoref{table:cases}, the cases are very close to each other.
 For this reason, the choice is to not consider EGA's peaks as hot and cold cases, also because in reality Juno has to overcome a transient before reaching extreme temperatures.
 The passage from perihelion during TP-3 is hence selected to be the most significant hot environment.
-On the other side, the most relevant cold case was found to be a few orbits after JOI, around the farthest position of Juno from both Sun and Jupiter, where both solar flux and the planet's contribution are at their lowest. Particularly, in \autoref{fig:Jupiter_flux_analysis} oscillations with two different frequencies can be observed: the long period one is related to Jupiter's lightly elliptical orbit around the Sun, the short term oscillation, with its peaks, is related to Juno's highly elliptical orbit around Jupiter. The chosen resolution for the ephemeris determines the non uniform high of the observed peaks. 
+On the other side, the most relevant cold case was found to be a few orbits after JOI, around the farthest position of Juno from both Sun and Jupiter, where both solar flux and the planet's contribution are at their lowest.
+Particularly, in \autoref{fig:Jupiter_flux_analysis_ext} oscillations with two different frequencies can be observed: the long period one is related to Jupiter's lightly elliptical orbit around the Sun, the short term oscillation, with its peaks, is related to Juno's highly elliptical orbit around Jupiter.
+The chosen resolution for the ephemeris determines the non-uniformity of the observed peaks.
