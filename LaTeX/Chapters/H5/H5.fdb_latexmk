@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber H5"] 1715071452.00997 "H5.bcf" "H5.bbl" "H5" 1715092473.56169 0
-  "H5.bcf" 1715092473.33895 107191 794128e73928a1ae3ed2142a11faa621 "pdflatex"
+["biber H5"] 1715071452.00997 "H5.bcf" "H5.bbl" "H5" 1715155558.06438 0
+  "H5.bcf" 1715155557.82155 107191 794128e73928a1ae3ed2142a11faa621 "pdflatex"
   (generated)
   "H5.bbl"
   "H5.blg"
   (rewritten before read)
-["pdflatex"] 1715092472.1421 "/Users/Chiara/Documents/GitHub/SSEO-project/LaTeX/Chapters/H5/H5.tex" "H5.pdf" "H5" 1715092473.56199 0
+["pdflatex"] 1715155556.51762 "/Users/Chiara/Documents/GitHub/SSEO-project/LaTeX/Chapters/H5/H5.tex" "H5.pdf" "H5" 1715155558.06469 0
   "../../Config/Poli_logo.pdf" 1712334013.23834 40200 ce33d04866bc8fcea6b150776dafba1c ""
   "../../Config/commands.tex" 1715092402.49281 2296 2cc2eb798f0de2c9d31a7bf7a1b8d6ec ""
   "../../Config/formats.tex" 1714722225.24158 2146 5320fe037231799d7c4c273b8646a05d ""
@@ -163,19 +163,19 @@
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/wrapfig/wrapfig.sty" 1710519867.2398 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xltabular/xltabular.sty" 1710418874.62307 3623 13474540f7d9568bf6269d154cad18d4 ""
   "Body.tex" 1714722225.23677 224 b6422fcc09bed30baf83f79fac1f580c ""
-  "H5.aux" 1715092473.33556 3040 783b6227f31240c56bd952bee34e3970 "pdflatex"
+  "H5.aux" 1715155557.8178 3040 783b6227f31240c56bd952bee34e3970 "pdflatex"
   "H5.bbl" 1715092402.48482 466 ee04f40f768daeed26442158e95aba61 "biber H5"
-  "H5.out" 1715092473.33778 1369 bc8758a3704e97d3ba82e0c912f0d635 "pdflatex"
-  "H5.run.xml" 1715092473.34018 2299 1b637ddce93173233596c8c65411cb9a "pdflatex"
+  "H5.out" 1715155557.82009 1369 bc8758a3704e97d3ba82e0c912f0d635 "pdflatex"
+  "H5.run.xml" 1715155557.82376 2299 1b637ddce93173233596c8c65411cb9a "pdflatex"
   "H5.tex" 1714999249.71121 289 5a1f73c2cf489b423e776ef35f9172ef ""
-  "H5.toc" 1715092473.34035 657 f33f642d7ea17be8b60b8cb3fd38e431 "pdflatex"
+  "H5.toc" 1715155557.82406 657 f33f642d7ea17be8b60b8cb3fd38e431 "pdflatex"
   "Images/EGA_flux_analysis.pdf" 1715092402.48963 37109 88fdeb6efc8269a9b64493264cf13af5 ""
   "Images/Jupiter_flux_analysis.pdf" 1715092402.48999 83733 0b97cfbce2a5683e2d114e4da00b1653 ""
   "Images/Perihelion_flux_analysis.pdf" 1715092402.49031 15696 f797e1af997a39508b77371b672d8b9a ""
   "Sections/00_notation.tex" 1715092402.49066 888 72d73c8062428cd377c9266262f66672 ""
   "Sections/01_introduction.tex" 1715092402.49146 1658 8d0e5d56eea943821cb8e313a7e12d94 ""
   "Sections/02_phases.tex" 1715092402.49219 8693 416210522a8f0d725b74e9536d37ba16 ""
-  "Sections/03_architecture_rationale.tex" 1715092339.84328 5340 7c9c135bff61ba2255b4aa6dc5864213 ""
+  "Sections/03_architecture_rationale.tex" 1715155555.83809 5341 4bfc5cda8d14a3aebfc3fc15a0ce6df8 ""
   "Sections/04_reverse_sizing.tex" 1714722225.24076 56 ea74ec621a73e4e3cc4f043cdb93266c ""
   (generated)
   "H5.aux"
