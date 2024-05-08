@@ -16,5 +16,34 @@
   {}
 \endgroup
 
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{solar_panels_coef}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b61f050da6dab86436e5594227372614}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={William\bibnamedelima McAlpine},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{b61f050da6dab86436e5594227372614}
+      \strng{fullhash}{b61f050da6dab86436e5594227372614}
+      \strng{bibnamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authorbibnamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authornamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authorfullhash}{b61f050da6dab86436e5594227372614}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{JUNO Photovoltaic Power at Jupiter}
+      \field{year}{2012}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
