@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  7 MAY 2024 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  8 MAY 2024 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1165,12 +1165,19 @@ LaTeX Warning: Missing reference on input line 16.
 
 LaTeX Warning: Missing reference on input line 24.
 
-) (Sections/04_reverse_sizing.tex))
+
+LaTeX Warning: Missing reference on input line 31.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \bodyandbib
-                 [1]
+l.32 
+      [1]
+
+LaTeX Warning: Missing reference on input line 34.
+
+) (Sections/04_reverse_sizing.tex)) [2]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Miktex\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1181,7 +1188,7 @@ Package biblatex Info: Reference section=0 on input line 19.
 Package caption Warning: Unused \captionsetup[table] on input line 57.
 See the caption package documentation for explanation.
 
-[2] (H5.aux)
+[3] (H5.aux)
 Package rerunfilecheck Info: File `H5.out' has not changed.
 (rerunfilecheck)             Checksum: 295D7F273340721CB1DD4FA096AFA010;1093.
 Package logreq Info: Writing requests to 'H5.run.xml'.
@@ -1189,17 +1196,17 @@ Package logreq Info: Writing requests to 'H5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23904 strings out of 475385
- 402683 string characters out of 2793321
- 1184331 words of memory out of 3000000
+ 23905 strings out of 475385
+ 402689 string characters out of 2793321
+ 1187331 words of memory out of 3000000
  44900 multiletter control sequences out of 15000+600000
  560804 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,97p,1514b,1851s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (4 pages, 118395 bytes).
+Output written on H5.pdf (5 pages, 122064 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
