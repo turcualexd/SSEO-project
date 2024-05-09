@@ -6,6 +6,10 @@
 \contentsline {subsection}{\numberline {2.1}Thermal phases analysis}{1}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}External heat flux analysis}{1}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Architecture and rationale of TCS}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Vault}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Main body}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Solar panels}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}External hardware}{4}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Reverse sizing of TCS}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Main body}{5}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Solar panels}{6}{subsection.4.2}%
