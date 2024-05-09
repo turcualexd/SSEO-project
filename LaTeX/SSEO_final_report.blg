@@ -1,0 +1,49 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'SSEO_final_report.blg'
+[81] biber-darwin:340> INFO - === Wed May  8, 2024, 21:34:26
+[101] Biber.pm:419> INFO - Reading 'SSEO_final_report.bcf'
+[198] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[199] Biber.pm:979> INFO - Found 15 citekeys in bib section 1
+[200] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[200] Biber.pm:979> INFO - Found 18 citekeys in bib section 2
+[200] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[201] Biber.pm:979> INFO - Found 7 citekeys in bib section 3
+[201] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[201] Biber.pm:979> INFO - Found 20 citekeys in bib section 4
+[202] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[202] Biber.pm:979> INFO - Found 1 citekeys in bib section 5
+[202] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[238] Biber.pm:4419> INFO - Processing section 1
+[250] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 1
+[253] bibtex.pm:1713> INFO - LaTeX decoding ...
+[300] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[380] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[381] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[381] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[381] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[388] Biber.pm:4419> INFO - Processing section 2
+[388] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 2
+[442] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[443] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[443] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[443] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[451] Biber.pm:4419> INFO - Processing section 3
+[451] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 3
+[473] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[473] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[473] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[473] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[476] Biber.pm:4419> INFO - Processing section 4
+[476] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 4
+[537] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[537] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[538] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[538] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[548] Biber.pm:4419> INFO - Processing section 5
+[548] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 5
+[559] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[559] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[559] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[559] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[560] bbl.pm:660> INFO - Writing 'SSEO_final_report.bbl' with encoding 'UTF-8'
+[579] bbl.pm:763> INFO - Output to SSEO_final_report.bbl
