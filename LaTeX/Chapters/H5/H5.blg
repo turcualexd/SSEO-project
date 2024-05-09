@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'H5.blg'
-[76] biber-darwin:340> INFO - === Thu May  9, 2024, 12:43:09
-[89] Biber.pm:419> INFO - Reading 'H5.bcf'
-[173] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[174] Biber.pm:979> INFO - Found 21 citekeys in bib section 1
-[174] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[191] Biber.pm:4419> INFO - Processing section 1
-[201] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
-[203] bibtex.pm:1713> INFO - LaTeX decoding ...
-[250] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
-[348] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[348] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[348] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[348] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[358] bbl.pm:660> INFO - Writing 'H5.bbl' with encoding 'UTF-8'
-[365] bbl.pm:763> INFO - Output to H5.bbl
+[73] biber-darwin:340> INFO - === Thu May  9, 2024, 14:48:39
+[86] Biber.pm:419> INFO - Reading 'H5.bcf'
+[180] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[181] Biber.pm:979> INFO - Found 21 citekeys in bib section 1
+[181] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[198] Biber.pm:4419> INFO - Processing section 1
+[207] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
+[209] bibtex.pm:1713> INFO - LaTeX decoding ...
+[260] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
+[372] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[372] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[372] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[372] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[385] bbl.pm:660> INFO - Writing 'H5.bbl' with encoding 'UTF-8'
+[393] bbl.pm:763> INFO - Output to H5.bbl

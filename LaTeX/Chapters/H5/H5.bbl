@@ -139,6 +139,31 @@
       \field{title}{Juno Spacecraft Operations Lessons Learned for Early Cruise Mission Phases}
       \field{year}{2014}
     \endentry
+    \entry{solar_panels_coef}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b61f050da6dab86436e5594227372614}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={William\bibnamedelima McAlpine},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{b61f050da6dab86436e5594227372614}
+      \strng{fullhash}{b61f050da6dab86436e5594227372614}
+      \strng{bibnamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authorbibnamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authornamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authorfullhash}{b61f050da6dab86436e5594227372614}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{JUNO Photovoltaic Power at Jupiter}
+      \field{year}{2012}
+    \endentry
     \entry{JIRAM_info}{article}{}
       \name{author}{1}{}{%
         {{hash=31dcb210f2ef76e7a5b6a030ce664779}{%
@@ -155,9 +180,9 @@
       \strng{authorbibnamehash}{31dcb210f2ef76e7a5b6a030ce664779}
       \strng{authornamehash}{31dcb210f2ef76e7a5b6a030ce664779}
       \strng{authorfullhash}{31dcb210f2ef76e7a5b6a030ce664779}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{JIRAM Standard Product, Data Record and Archive Volume, Software Interface Specification}
@@ -179,9 +204,9 @@
       \strng{authorbibnamehash}{f40eea647d3e49b862fe04f5dc35f257}
       \strng{authornamehash}{f40eea647d3e49b862fe04f5dc35f257}
       \strng{authorfullhash}{f40eea647d3e49b862fe04f5dc35f257}
-      \field{extraname}{3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Juno Waves Investigation}
@@ -203,9 +228,9 @@
       \strng{authorbibnamehash}{0340c426bd0a550528e3774f5ad279b6}
       \strng{authornamehash}{0340c426bd0a550528e3774f5ad279b6}
       \strng{authorfullhash}{0340c426bd0a550528e3774f5ad279b6}
-      \field{extraname}{4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Jovian Auroral Distributions Experiment (JADE) on the Juno Mission to Jupiter}
@@ -227,7 +252,7 @@
       \strng{authorbibnamehash}{c9a681ea906e163bb1d7488ff50ddd9b}
       \strng{authornamehash}{c9a681ea906e163bb1d7488ff50ddd9b}
       \strng{authorfullhash}{c9a681ea906e163bb1d7488ff50ddd9b}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -251,7 +276,7 @@
       \strng{authorbibnamehash}{28925e9b358adf6c3b6cc13f55d7ffd3}
       \strng{authornamehash}{28925e9b358adf6c3b6cc13f55d7ffd3}
       \strng{authorfullhash}{28925e9b358adf6c3b6cc13f55d7ffd3}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -275,7 +300,7 @@
       \strng{authorbibnamehash}{9ad22356199626f5e49d4951062a422f}
       \strng{authornamehash}{9ad22356199626f5e49d4951062a422f}
       \strng{authorfullhash}{9ad22356199626f5e49d4951062a422f}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -302,31 +327,6 @@
       \field{howpublished}{Journal of Geophysical Research: Planet}
       \field{note}{Site: \url{https://www.nammo.com/wp-content/uploads/2021/03/2021-Nammo-Westcott-Liquid-Engine-LEROS1B.pdf}}
       \field{title}{Leros 1b engine}
-    \endentry
-    \entry{solar_panels_coef}{article}{}
-      \name{author}{1}{}{%
-        {{hash=b61f050da6dab86436e5594227372614}{%
-           family={al},
-           familyi={a\bibinitperiod},
-           given={William\bibnamedelima McAlpine},
-           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{b61f050da6dab86436e5594227372614}
-      \strng{fullhash}{b61f050da6dab86436e5594227372614}
-      \strng{bibnamehash}{b61f050da6dab86436e5594227372614}
-      \strng{authorbibnamehash}{b61f050da6dab86436e5594227372614}
-      \strng{authornamehash}{b61f050da6dab86436e5594227372614}
-      \strng{authorfullhash}{b61f050da6dab86436e5594227372614}
-      \field{extraname}{8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Paper}
-      \field{title}{JUNO Photovoltaic Power at Jupiter}
-      \field{year}{2012}
     \endentry
     \entry{SSIRU}{misc}{}
       \name{author}{1}{}{%
