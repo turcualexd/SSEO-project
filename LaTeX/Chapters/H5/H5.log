@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  9 MAY 2024 15:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  9 MAY 2024 18:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1145,7 +1145,7 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \blx@sectionciteorder@1=\count460
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex Excluding 'comment' comment.) (Sections/02_phases.tex
+ (Body.tex (Sections/00_notation.tex [1]) [2] (Sections/01_introduction.tex Excluding 'comment' comment.) (Sections/02_phases.tex
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 15.
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
@@ -1155,17 +1155,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.56     \item t
                 he only contribution considered during the interplanetary ph... [1{C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
-<Images/Perihelion_flux_analysis.pdf, id=123, 398.99063pt x 301.125pt>
+<Images/Perihelion_flux_analysis.pdf, id=129, 398.99063pt x 301.125pt>
 File: Images/Perihelion_flux_analysis.pdf Graphic file (type pdf)
 <use Images/Perihelion_flux_analysis.pdf>
 Package pdftex.def Info: Images/Perihelion_flux_analysis.pdf  used on input line 67.
 (pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
-<Images/Jupiter_flux_analysis_ext.pdf, id=124, 398.99063pt x 301.125pt>
+<Images/Jupiter_flux_analysis_ext.pdf, id=130, 398.99063pt x 301.125pt>
 File: Images/Jupiter_flux_analysis_ext.pdf Graphic file (type pdf)
 <use Images/Jupiter_flux_analysis_ext.pdf>
 Package pdftex.def Info: Images/Jupiter_flux_analysis_ext.pdf  used on input line 67.
 (pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
-<Images/EGA_flux_analysis.pdf, id=125, 398.99063pt x 301.125pt>
+<Images/EGA_flux_analysis.pdf, id=131, 398.99063pt x 301.125pt>
 File: Images/EGA_flux_analysis.pdf Graphic file (type pdf)
 <use Images/EGA_flux_analysis.pdf>
 Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 72.
@@ -1177,46 +1177,46 @@ pdfTeX warning: pdflatex (file ./Images/Jupiter_flux_analysis_ext.pdf): PDF incl
 
 pdfTeX warning: pdflatex (file ./Images/EGA_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Images/render_juno.jpg, id=141, 7398.00507pt x 1584.85057pt>
+<Images/render_juno.jpg, id=147, 7398.00507pt x 1584.85057pt>
 File: Images/render_juno.jpg Graphic file (type jpg)
 <use Images/render_juno.jpg>
 Package pdftex.def Info: Images/render_juno.jpg  used on input line 7.
 (pdftex.def)             Requested size: 460.93153pt x 98.73854pt.
  [3 <./Images/render_juno.jpg>] [4]) (Sections/04_reverse_sizing.tex
-<Images/Mononodal_MB.jpg, id=187, 843.15pt x 632.3625pt>
+<Images/Mononodal_MB.jpg, id=195, 878.28125pt x 658.46pt>
 File: Images/Mononodal_MB.jpg Graphic file (type jpg)
 <use Images/Mononodal_MB.jpg>
 Package pdftex.def Info: Images/Mononodal_MB.jpg  used on input line 43.
-(pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
- [5 <./Images/Mononodal_MB.jpg>]) [6] (Sections/05_appendix.tex)) [7]
+(pdftex.def)             Requested size: 256.07481pt x 191.98338pt.
+ [5 <./Images/Mononodal_MB.jpg>] [6]) [7] (Sections/05_appendix.tex)) [8]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
 Package biblatex Info: Reference section=0 on input line 19.
- [8] (H5.aux)
+ [9] (H5.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `H5.out' has not changed.
-(rerunfilecheck)             Checksum: FE105A7DDCA9074AB248F386793B7861;2562.
+(rerunfilecheck)             Checksum: 458A24C69B70DF681EC3834541499F9B;2562.
 Package logreq Info: Writing requests to 'H5.run.xml'.
 \openout1 = `H5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24343 strings out of 474424
- 420954 string characters out of 5741739
- 1956496 words of memory out of 5000000
+ 24346 strings out of 474424
+ 420988 string characters out of 5741739
+ 1959496 words of memory out of 5000000
  46218 multiletter control sequences out of 15000+600000
  691496 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,18n,102p,1534b,1893s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (10 pages, 1527319 bytes).
+Output written on H5.pdf (12 pages, 1524094 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
