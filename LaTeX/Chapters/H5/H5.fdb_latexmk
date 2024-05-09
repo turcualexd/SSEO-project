@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H5"] 1715238854.26407 "H5.bcf" "H5.bbl" "H5" 1715238859.42366 0
-  "../../bibliography.bib" 1715238508 17173 d9d40b647a471d4536e7504808134346 ""
-  "H5.bcf" 1715238859 109178 975d209287bbee7d6bc9d5524d076bfa "pdflatex"
+["biber H5"] 1715258443.93046 "H5.bcf" "H5.bbl" "H5" 1715259134.50736 0
+  "../../bibliography.bib" 1715239968 17495 17073cff0f49f838cd18c6c8236e4a47 ""
+  "H5.bcf" 1715259134 109736 4191e443899c71e7226e778740ddb563 "pdflatex"
   (generated)
   "H5.bbl"
   "H5.blg"
   (rewritten before read)
-["pdflatex"] 1715238858.15992 "c:/Users/ricky/Documents/GitHub/SSEO-project/LaTeX/Chapters/H5/H5.tex" "H5.pdf" "H5" 1715238859.42404 0
+["pdflatex"] 1715259133.20419 "c:/Users/ricky/Documents/GitHub/SSEO-project/LaTeX/Chapters/H5/H5.tex" "H5.pdf" "H5" 1715259134.50777 0
   "../../Config/../../Config/Poli_logo.pdf" 1715067440 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config/../../Config/input.tex" 1715067440 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "../../Config/../../Config/title_page_chapter.tex" 1715067440 1237 37606b3b29c6c05108acd46da5d641db ""
@@ -60,6 +60,7 @@
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/tfm/public/kpfonts/jkpttmne.tfm" 1674488844 1208 64d9ff6faba311f1b1b268db95c6ee67 ""
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb" 1674488844 30150 4444da69a5beffe59b1fbf4cdfec7227 ""
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb" 1674488844 32613 e064ce644a24deb273c8f670630798ba ""
+  "C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb" 1674488844 26098 d5b5e3d8655bb92aee7b17ec362d35e0 ""
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb" 1674488844 26063 1691ba566b0401a2658e6574f5f241e5 ""
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb" 1674488844 29813 d05f8d6ea0d8afa920af22dddafc33f2 ""
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb" 1674488844 37692 ff65f49f493de879aca846e1811bfa1f ""
@@ -186,23 +187,23 @@
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H5.aux" 1715238859 8082 ddd194c6473118551e92d43a232980c1 "pdflatex"
-  "H5.bbl" 1715238855 16981 069e90d9f258b7e60ff86231850cd023 "biber H5"
-  "H5.out" 1715238859 2340 a9c47bf7a10f3d31ed811b6a107b6eef "pdflatex"
-  "H5.run.xml" 1715238859 2299 1b637ddce93173233596c8c65411cb9a "pdflatex"
+  "H5.aux" 1715259134 8951 6e0edeb55087416dcb3483a2b2a88192 "pdflatex"
+  "H5.bbl" 1715258445 21770 bb0fb500fc0050b9d83a6024c7e57874 "biber H5"
+  "H5.out" 1715259134 2106 b35ad87c48fdbd5743cb0087345c0c1b "pdflatex"
+  "H5.run.xml" 1715259134 2299 1b637ddce93173233596c8c65411cb9a "pdflatex"
   "H5.tex" 1715067623 309 5a1f73c2cf489b423e776ef35f9172ef ""
-  "H5.toc" 1715238859 1141 84715c711d1582b07893fe8d021b3886 "pdflatex"
+  "H5.toc" 1715259134 1044 7c3876eacf6bad46ef1d4907d76c6b60 "pdflatex"
   "Images/EGA_flux_analysis.pdf" 1715238349 37109 88fdeb6efc8269a9b64493264cf13af5 ""
-  "Images/Grafico a cazzo.jpg" 1715174757 100156 c96d6a27320072e9dd7baed8cd415760 ""
   "Images/Jupiter_flux_analysis_ext.pdf" 1715238353 31276 56327bb730ebdc29f7a94cd03353a3fe ""
+  "Images/Mononodal_MB.jpg" 1715174757 100156 c96d6a27320072e9dd7baed8cd415760 ""
   "Images/Perihelion_flux_analysis.pdf" 1715238354 15691 baae97215ed2f6a69b2848978b7cb6d3 ""
   "Images/render_juno.jpg" 1715238356 1129280 a679d5df8ec2007485e9e33ba4995360 ""
   "Sections/00_notation.tex" 1715238388 1707 9dcb72847c0e290612bf4b995da6f7e8 ""
   "Sections/01_introduction.tex" 1715238388 1672 8d0e5d56eea943821cb8e313a7e12d94 ""
   "Sections/02_phases.tex" 1715238388 8800 825a6187015762e62524d1ae0f6bdef0 ""
   "Sections/03_architecture_rationale.tex" 1715238446 11085 53b90af26005bfbe1cbeefeaf78fbc67 ""
-  "Sections/04_reverse_sizing.tex" 1715238270 6576 d1d0a90a87898d2a87560e8eeeac6232 ""
-  "Sections/05_appendix.tex" 1715238852 3805 29a445950c50e53908e9c65639feaca4 ""
+  "Sections/04_reverse_sizing.tex" 1715259132 7430 8ff5ea71319896d927fcf81e5581acd1 ""
+  "Sections/05_appendix.tex" 1715257167 3921 fb540783bb2bac4626cbe22b7f38f983 ""
   "c:/Users/ricky/Documents/GitHub/SSEO-project/LaTeX/Chapters/H5/H5.tex" 1715067623 309 5a1f73c2cf489b423e776ef35f9172ef ""
   (generated)
   "H5.aux"
