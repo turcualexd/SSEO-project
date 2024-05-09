@@ -3,6 +3,13 @@
 \contentsline {section}{Notation}{i}{section*.3}%
 \contentsline {section}{\numberline {1}Introduction of TCS}{1}{section.1}%
 \contentsline {section}{\numberline {2}Analysis of thermal conditions along the mission}{1}{section.2}%
-\contentsline {section}{\numberline {3}Architecture and rationale of TCS}{1}{section.3}%
-\contentsline {section}{\numberline {4}Reverse sizing of TCS}{1}{section.4}%
-\contentsline {section}{Bibliography}{2}{section.4}%
+\contentsline {subsection}{\numberline {2.1}Thermal phases analysis}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}External heat flux analysis}{1}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Architecture and rationale of TCS}{3}{section.3}%
+\contentsline {section}{\numberline {4}Reverse sizing of TCS}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Main body (mononodal)}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Main body (binodal)}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Solar arrays}{6}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Appendix}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Thermal limits and power usage of instrumentation}{7}{subsection.5.1}%
+\contentsline {section}{Bibliography}{8}{section*.13}%

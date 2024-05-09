@@ -1,0 +1,81 @@
+\section{Appendix}
+\label{sec:appendix_5}
+
+\subsection{Thermal limits and power usage of instrumentation}
+\label{subsec:thermal_limits}
+In the following table values for temperature range, power consumption of the different instruments are reported, as well as their respective position.
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.5}
+    \centering
+    \begin{tabular}{|c||c|c|c|c|}
+        \hline
+        \textbf{Instrumentation} & \textbf{Specific element} &  \textbf{Temperature range [°C]} & \textbf{Dissipated power [W]} & \textbf{Position}  \\
+        \hline
+        \hline
+        \textbf{C\&DH} &  - &  -55 to +70 & 2 $\times$ 12 & Vault \\
+        \hline
+        \textbf{Tanks \& feeding lines} &  - &  +15 to +50 & - & Main body \\
+        \hline
+        & ME &  -53 to +65 & - & Main body \\
+        \hhline{|~|-|-|-|-|}
+        \multirow{-2}{*}[-.5\arrayrulewidth]{\textbf{Engines}} & RCS &  > 0  & 12 $\times$ 8.25 & External \\
+        \hline
+        \textbf{IMU} \cite{SSIRU} &  - & -10 to +60 & 2 $\times$ 43 & Vault \\
+        \hline
+        &  Electronics & N/A & 2 $\times$ 6.3 & Vault \\
+        \hhline{|~|-|-|-|-|}
+        \multirow{-2}{*}[-.5\arrayrulewidth]{\textbf{SRU} \cite{SRU}} &  Optical head & -30 to + 60 & 2 $\times$ 3.7 & External \\
+        \hline
+        &  E sensors & -25 to +40 & 3 $\times$ 0.67 & External \\
+        \hhline{|~|-|-|-|-|}
+        &  I sensors & -25 to +40 & 3.8 & External \\
+        \hhline{|~|-|-|-|-|}
+        \multirow{-3}{*}[-.5\arrayrulewidth]{\textbf{JADE}\cite{JADE_info}} &  Electronics & -10 to +45 & 18.1 & Vault \\
+        \hline
+        &  Sensors & N/A & 3 $\times$ 3.1 & External \\
+        \hhline{|~|-|-|-|-|}
+        \multirow{-2}{*}[-.5\arrayrulewidth]{\textbf{JEDI} \cite{JEDI_info}} &  Electronics & N/A & 1.53 & Vault \\
+        \hline
+        \textbf{KaTs} \cite{KaTs_info} & - & -40 to +65 & 40 & Vault \\
+        \hline
+        \textbf{TWTA} & - & N/A & 2 $\times$ 31 & Vault \\
+        \hline
+        & X/X & -40 to +60 & 15.8 & Vault \\
+        \hhline{|~|-|-|-|-|}
+        \multirow{-2}{*}[-.5\arrayrulewidth]{\textbf{SDST} \cite{SDST_info}} & X/X \& X/Ka & -40 to +60 & 19.5 & Vault \\
+        \hline
+        \textbf{Batteries} \cite{batteries_info} & - & -20 to +40 & - & External \\
+        \hline
+        & Sensors & N/A & - & External \\
+        \hhline{|~|-|-|-|-|}
+        \multirow{-2}{*}[-.5\arrayrulewidth]{\textbf{MWR} \cite{MWR_info}} & Electronics & -15 to +30 & 32.6 & Vault \\
+        \hline
+        & Sensors & N/A & - & External \\
+        \hhline{|~|-|-|-|-|}
+        \multirow{-2}{*}[-.5\arrayrulewidth]{\textbf{Waves} \cite{Waves_info}} & Electronics & -35 to +75 & 6 & Vault \\
+        \hline
+        & Sensors & N/A & 2.5 & Main body \\
+        \hhline{|~|-|-|-|-|}
+        \multirow{-2}{*}[-.5\arrayrulewidth]{\textbf{UVS} \cite{UVS_info}} & Electronics & -20 to +40 & 7.3 & Vault \\
+        \hline
+        \textbf{JunoCam} \cite{JunoCam_info} & - & -30 to +75 & 5.9 & Main body \\
+        \hline
+        \textbf{JIRAM} \cite{JIRAM_info} & - & $<-173^I$ & 15 & External \\
+        \hline
+        & Sensors & -35 to +75 & N/A & External \\
+        \hhline{|~|-|-|-|-|}
+        \multirow{-2}{*}[-.5\arrayrulewidth]{\textbf{MAG} \cite{MAG_info}} & Electronics & -40 to +80 & N/A & Vault \\
+        \hline
+        \textbf{SP} \cite{solar_panels_coef}& - & -140 to +100 & - & External \\
+        \hline
+    \end{tabular}
+    \caption{Instruments thermal limits and power usage}
+    \label{table:thermal_limits}
+\end{table}
+
+\begin{small}
+\begin{tabular}{ll}
+    $^I$ & This value only refers to the operational range of temperatures, no limits were found for non operational conditions.
+\end{tabular}
+\end{small}

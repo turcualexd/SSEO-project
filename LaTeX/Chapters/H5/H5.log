@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  7 MAY 2024 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  9 MAY 2024 09:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -648,7 +648,9 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \WF@box=\box59
 \WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
-) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -710,7 +712,7 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \bibparsep=\skip67
 \bibhang=\skip68
 \blx@bcfin=\read3
-\blx@bcfout=\write3
+\blx@bcfout=\write4
 \blx@langwohyphens=\language80
 \c@mincomprange=\count354
 \c@maxcomprange=\count355
@@ -878,7 +880,9 @@ Package biblatex Info: ... and expl3
 Package: xparse 2024-03-14 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-)) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+)) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/tools\hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+) (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count437
 \mult@box=\box61
@@ -1088,8 +1092,8 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 8.
  (H5.out) (H5.out)
-\@outlinefile=\write4
-\openout4 = `H5.out'.
+\@outlinefile=\write5
+\openout5 = `H5.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1099,7 +1103,7 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `H5.bcf'.
+\openout4 = `H5.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'H5.bbl' found.
@@ -1107,7 +1111,7 @@ Package biblatex Info: ... file 'H5.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/../../Config/title_page_chapter.tex
-<../../Config/../../Config/Poli_logo.pdf, id=30, 527.9725pt x 415.5525pt>
+<../../Config/../../Config/Poli_logo.pdf, id=59, 527.9725pt x 415.5525pt>
 File: ../../Config/../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/../../Config/Poli_logo.pdf  used on input line 6.
@@ -1134,69 +1138,120 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 ) [1
 
 {C:/Users/ricky/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <../../Config/../../Config/Poli_logo.pdf>]) (H5.toc)
-\tf@toc=\write5
-\openout5 = `H5.toc'.
+\tf@toc=\write6
+\openout6 = `H5.toc'.
 
 \blx@maxsegment@1=\count459
 \blx@sectionciteorder@1=\count460
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex) (Sections/02_phases.tex) (Sections/03_architecture_rationale.tex
-
-LaTeX Warning: Missing reference on input line 4.
-
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 10.
-(C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
+ (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex Excluding 'comment' comment.) (Sections/02_phases.tex
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 15.
+ (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
-
-LaTeX Warning: Missing reference on input line 11.
-
-
-LaTeX Warning: Missing reference on input line 13.
-
-
-LaTeX Warning: Missing reference on input line 16.
-
-) (Sections/04_reverse_sizing.tex))
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \bodyandbib
-                 [1{C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
+l.56     \item t
+                he only contribution considered during the interplanetary ph... [1{C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
+<Images/Perihelion_flux_analysis.pdf, id=108, 398.99063pt x 301.125pt>
+File: Images/Perihelion_flux_analysis.pdf Graphic file (type pdf)
+<use Images/Perihelion_flux_analysis.pdf>
+Package pdftex.def Info: Images/Perihelion_flux_analysis.pdf  used on input line 67.
+(pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
+<Images/Jupiter_flux_analysis_ext.pdf, id=109, 398.99063pt x 301.125pt>
+File: Images/Jupiter_flux_analysis_ext.pdf Graphic file (type pdf)
+<use Images/Jupiter_flux_analysis_ext.pdf>
+Package pdftex.def Info: Images/Jupiter_flux_analysis_ext.pdf  used on input line 67.
+(pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
+<Images/EGA_flux_analysis.pdf, id=110, 398.99063pt x 301.125pt>
+File: Images/EGA_flux_analysis.pdf Graphic file (type pdf)
+<use Images/EGA_flux_analysis.pdf>
+Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 72.
+(pdftex.def)             Requested size: 256.07481pt x 193.2707pt.
+) (Sections/03_architecture_rationale.tex [2 <./Images/Perihelion_flux_analysis.pdf> <./Images/Jupiter_flux_analysis_ext.pdf
+
+pdfTeX warning: pdflatex (file ./Images/Jupiter_flux_analysis_ext.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Images/EGA_flux_analysis.pdf
+
+pdfTeX warning: pdflatex (file ./Images/EGA_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Missing reference on input line 4.
+
+<Images/render_juno.jpg, id=125, 7398.00507pt x 1584.85057pt>
+File: Images/render_juno.jpg Graphic file (type jpg)
+<use Images/render_juno.jpg>
+Package pdftex.def Info: Images/render_juno.jpg  used on input line 7.
+(pdftex.def)             Requested size: 460.93153pt x 98.73854pt.
+
+LaTeX Warning: Missing reference on input line 15.
+
+
+LaTeX Warning: Missing reference on input line 17.
+
+
+LaTeX Warning: Missing reference on input line 20.
+
+
+LaTeX Warning: Missing reference on input line 28.
+
+[3 <./Images/render_juno.jpg>]
+
+LaTeX Warning: Missing reference on input line 35.
+
+
+LaTeX Warning: Missing reference on input line 38.
+
+) (Sections/04_reverse_sizing.tex [4]
+
+LaTeX Warning: Missing reference on input line 10.
+
+
+LaTeX Warning: Missing reference on input line 42.
+
+<Images/Grafico a cazzo.jpg, id=143, 843.15pt x 632.3625pt>
+File: Images/Grafico a cazzo.jpg Graphic file (type jpg)
+<use Images/Grafico a cazzo.jpg>
+Package pdftex.def Info: Images/Grafico a cazzo.jpg  used on input line 44.
+(pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
+
+LaTeX Warning: Missing reference on input line 53.
+
+[5 <./Images/Grafico a cazzo.jpg>]
+
+LaTeX Warning: Missing reference on input line 95.
+
+) [6] (Sections/05_appendix.tex)) [7]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\ricky\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
 Package biblatex Info: Reference section=0 on input line 19.
-
-
-Package caption Warning: Unused \captionsetup[table] on input line 57.
-See the caption package documentation for explanation.
-
-[2] (H5.aux)
+ [8] (H5.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `H5.out' has not changed.
-(rerunfilecheck)             Checksum: 295D7F273340721CB1DD4FA096AFA010;1093.
+(rerunfilecheck)             Checksum: A9C47BF7A10F3D31ED811B6A107B6EEF;2340.
 Package logreq Info: Writing requests to 'H5.run.xml'.
 \openout1 = `H5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23953 strings out of 474424
- 411190 string characters out of 5741739
- 1938496 words of memory out of 5000000
- 45924 multiletter control sequences out of 15000+600000
- 649614 words of font info for 126 fonts, out of 8000000 for 9000
+ 24285 strings out of 474424
+ 419039 string characters out of 5741739
+ 1956496 words of memory out of 5000000
+ 46174 multiletter control sequences out of 15000+600000
+ 690740 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,14n,102p,1514b,1871s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (4 pages, 117342 bytes).
+ 87i,17n,102p,1534b,1893s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H5.pdf (10 pages, 1506386 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
