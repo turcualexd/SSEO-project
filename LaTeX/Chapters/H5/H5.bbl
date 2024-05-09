@@ -19,6 +19,31 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
+    \entry{Rad_vault}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1ea42210608fc521bff03c1b57641bff}{%
+           family={vault},
+           familyi={v\bibinitperiod},
+           given={Installing\bibnamedelima Juno's},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={radiation},
+           prefixi={r\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ea42210608fc521bff03c1b57641bff}
+      \strng{fullhash}{1ea42210608fc521bff03c1b57641bff}
+      \strng{bibnamehash}{1ea42210608fc521bff03c1b57641bff}
+      \strng{authorbibnamehash}{1ea42210608fc521bff03c1b57641bff}
+      \strng{authornamehash}{1ea42210608fc521bff03c1b57641bff}
+      \strng{authorfullhash}{1ea42210608fc521bff03c1b57641bff}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://www.nasa.gov/image-article/installing-junos-radiation-vault/}}
+      \field{title}{Radiation vault characteristics}
+      \field{year}{2024}
+    \endentry
     \entry{mli_blankets}{article}{}
       \name{author}{1}{}{%
         {{hash=b8d1e239810275c69aae86e204c06146}{%
@@ -33,8 +58,8 @@
       \strng{authorbibnamehash}{b8d1e239810275c69aae86e204c06146}
       \strng{authornamehash}{b8d1e239810275c69aae86e204c06146}
       \strng{authorfullhash}{b8d1e239810275c69aae86e204c06146}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -55,8 +80,8 @@
       \strng{authorbibnamehash}{4873aa39222e5c95ffa01422788cf36e}
       \strng{authornamehash}{4873aa39222e5c95ffa01422788cf36e}
       \strng{authorfullhash}{4873aa39222e5c95ffa01422788cf36e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Passive thermal louvers}
@@ -79,8 +104,8 @@
       \strng{authornamehash}{f2458bdb1e24633d7906df5640c9f926}
       \strng{authorfullhash}{f2458bdb1e24633d7906df5640c9f926}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -88,8 +113,8 @@
       \field{year}{2015}
     \endentry
     \entry{alum_poly}{misc}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{note}{Site: \url{https://www.dunmore.com/products/aluminized-polyester-film.html}}
     \endentry
     \entry{LL_early_cruise}{article}{}
@@ -106,8 +131,8 @@
       \strng{authorbibnamehash}{01c74ef466772b381dbbae5ba420fa82}
       \strng{authornamehash}{01c74ef466772b381dbbae5ba420fa82}
       \strng{authorfullhash}{01c74ef466772b381dbbae5ba420fa82}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -131,8 +156,8 @@
       \strng{authornamehash}{31dcb210f2ef76e7a5b6a030ce664779}
       \strng{authorfullhash}{31dcb210f2ef76e7a5b6a030ce664779}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{JIRAM Standard Product, Data Record and Archive Volume, Software Interface Specification}
@@ -155,8 +180,8 @@
       \strng{authornamehash}{f40eea647d3e49b862fe04f5dc35f257}
       \strng{authorfullhash}{f40eea647d3e49b862fe04f5dc35f257}
       \field{extraname}{3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Juno Waves Investigation}
@@ -179,8 +204,8 @@
       \strng{authornamehash}{0340c426bd0a550528e3774f5ad279b6}
       \strng{authorfullhash}{0340c426bd0a550528e3774f5ad279b6}
       \field{extraname}{4}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Jovian Auroral Distributions Experiment (JADE) on the Juno Mission to Jupiter}
@@ -203,8 +228,8 @@
       \strng{authornamehash}{c9a681ea906e163bb1d7488ff50ddd9b}
       \strng{authorfullhash}{c9a681ea906e163bb1d7488ff50ddd9b}
       \field{extraname}{5}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Jupiter Energetic Particle Detector Instrument (JEDI) Investigation for the Juno Mission}
