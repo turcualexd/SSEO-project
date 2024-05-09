@@ -1,0 +1,69 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Contents}{i}{chapter*.2}%
+\contentsline {chapter}{Homework 1}{1}{chapter*.3}%
+\contentsline {section}{Notation}{1}{section*.4}%
+\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}High level goals}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Mission drivers}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Functional analysis}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Main mission phases}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}ConOps}{4}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Payload analysis}{5}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Instruments overview}{5}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Payload and Goals correlation}{6}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}Payload and Phases/ConOps correlation}{7}{subsection.1.7.3}%
+\contentsline {section}{\numberline {1.8}Mission analysis}{7}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Launch and cruise}{7}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Jupiter approach and insertion}{7}{subsection.1.8.2}%
+\contentsline {subsection}{\numberline {1.8.3}Science operations and extended mission}{8}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.8.4}Mission disposal}{8}{subsection.1.8.4}%
+\contentsline {section}{Bibliography}{9}{subsection.1.8.4}%
+\contentsline {chapter}{Homework 2}{10}{chapter*.12}%
+\contentsline {section}{Notation}{10}{section*.13}%
+\contentsline {section}{\numberline {2.1} Mission analysis and $\Delta V$ budget }{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Rationale of the mission analysis}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Simulation of the interplanetary trajectory}{11}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}$\Delta V$ budget}{12}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Propulsion system architecture}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Main Engine and RCS}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Manoeuvre Implementation Modes}{14}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Tanks}{15}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Reverse engineering of propulsion system}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Fuel and oxidizer tanks sizing}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Pressurizer tanks sizing}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Computation of actual propellants usage}{17}{subsection.2.3.3}%
+\contentsline {section}{Bibliography}{18}{table.caption.25}%
+\contentsline {chapter}{Homework 3}{19}{chapter*.26}%
+\contentsline {section}{Notation}{19}{section*.27}%
+\contentsline {section}{\numberline {3.1}TMTC system architecture}{20}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}HGA}{20}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}MGA \& LGAs}{21}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}TLGA}{21}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Ground stations}{21}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Phases breakdown}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Reverse sizing of the HGA}{23}{section.3.3}%
+\contentsline {section}{Bibliography}{25}{figure.caption.35}%
+\contentsline {chapter}{Homework 4}{26}{chapter*.36}%
+\contentsline {section}{Notation}{26}{section*.37}%
+\contentsline {section}{\numberline {4.1}Introduction of AOCS}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Breakdown of Juno modes}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Sun Pointing Mode (SPM)}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Earth Pointing Mode (EPM)}{27}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}GRAVity science Mode (GRAVM)}{27}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}MicroWave Radiometer Mode (MWRM)}{28}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Turn-Burn-Turn Mode (TBTM)}{28}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}VECtor Mode (VECM)}{28}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Spin Change Mode (SCM)}{29}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Safe Modes (SM)}{29}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Pointing budget \& Phases/AOCS modes correlation}{29}{subsection.4.2.9}%
+\contentsline {section}{\numberline {4.3}Architecture and rationale of AOCS}{29}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Sensors}{30}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Actuators}{30}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Rationale}{31}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Reverse sizing of AOCS}{31}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Modeling hypothesis}{31}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Perturbations}{32}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Propellant reverse sizing}{33}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Appendix}{35}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Simulink model description}{35}{subsection.4.5.1}%
+\contentsline {section}{Bibliography}{36}{figure.caption.51}%

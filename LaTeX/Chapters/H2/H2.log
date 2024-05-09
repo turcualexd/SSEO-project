@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  29 MAR 2024 23:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  13 APR 2024 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H2/H2.tex
-(c:/Users/turcu/Desktop/Progetti/SSEO-project/Chapters/H2/H2.tex
+**c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H2/H2.tex
+(c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H2/H2.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-11> (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -973,6 +973,7 @@ Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 Package biblatex Info: Redefining '\supercite' on input line 35.
 \ltmcbox=\box111
+\mylength=\skip90
 ) (../../Config//commands.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1189,15 +1190,15 @@ Package logreq Info: Writing requests to 'H2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24234 strings out of 476361
- 420395 string characters out of 5788046
+ 24238 strings out of 476361
+ 420555 string characters out of 5788046
  1899993 words of memory out of 5000000
- 44175 multiletter control sequences out of 15000+600000
+ 44179 multiletter control sequences out of 15000+600000
  668110 words of font info for 223 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,98p,1508b,1960s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,17n,98p,1514b,1960s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H2.pdf (10 pages, 1042780 bytes).
+Output written on H2.pdf (10 pages, 1042782 bytes).
 PDF statistics:
  795 PDF objects out of 1000 (max. 8388607)
  80 named destinations out of 1000 (max. 500000)

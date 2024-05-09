@@ -1,7 +1,7 @@
 \section{Reverse sizing of the HGA}
 \label{sec:HGA_sizing}
 
-The reverse sizing of the HGA is based on the link budget equation that represents a power balance between the transmitted signal and the receiver noise. The same equation can be applied on both uplink and downlink. It is valid for all the architectures, both that transmit data or tones
+The reverse sizing of the HGA is based on the link budget equation that represents a power balance between the transmitted signal and the receiver noise. The same equation can be applied on both uplink and downlink. It is valid for all the architectures, both that transmit data or tones.
 
 \begin{equation}
     \dfrac{P_{rx}}{N_0} = \dfrac{P_{tx} G_{tx} G_{rx} L_{tot}}{k T_{eq}} > \left( \dfrac{P_{rx}}{N_0} \right)_{min}
@@ -17,14 +17,14 @@ $L_{tot}$ considers the following losses:
     L_{tot} = L_{c} \cdot L_{s} \cdot L_{p,tx} \cdot L_{p,rx} \cdot L_{a} \cdot L_{cv}
 \end{equation}
 
-For each communication link, different minimum required ratios are defined. In particular, $\dfrac{E_b}{N_0}$ must also satisfy the Shannon theorem by ensuring a value higher than $-1.59$ dB. 
-The HGA as described in (\autoref{subsec:hga}) is used for the downlink of telemetry and scientific data during the science orbits around Jupiter. It has been sized in the following scenario: 
+For each communication link, different minimum required ratios are defined. In particular, $\frac{E_b}{N_0}$ must also satisfy the Shannon theorem by ensuring a value higher than $-1.59$ dB. 
+The HGA, as described in \autoref{subsec:hga}, is used for the downlink of telemetry and scientific data during the science orbits around Jupiter. It has been sized in the following scenario: 
 \begin{itemize}
     \item the maximum distance from Earth $r_{JE} = 6.5$ AU;
     \item the minimum datarate $R = 18$ kbps has to be ensured regarding the distance.
 \end{itemize}
 
-From the literature, some other parameters were recovered and reported in \autoref{table:dati_HGA}. The sizing of the antenna is shown in \autoref{table:results_HGA}. In particular, some margin is present on both X-band and Ka-band. Since the X-band is the only one transmitting data, \autoref{fig:datarate} and \autoref{fig:ebn0} focus on the margin of the downlink. The principal loss of the link is given by the distance, so two design parameters have been described as a function of it. 
+From the literature, some other parameters were recovered and reported in \autoref{table:dati_HGA}. The results of the sizing are shown in \autoref{table:results_HGA}. In particular, some margin is present on both X-band and Ka-band. Since the X-band is the only one transmitting data, \autoref{fig:datarate} and \autoref{fig:ebn0} focus on the margin of the downlink. The principal loss of the link is given by the distance, so the two design parameters have been described as a function of it. 
 
 \vspace{3mm}
 \begin{minipage}{0.5\linewidth}
@@ -109,14 +109,18 @@ From the literature, some other parameters were recovered and reported in \autor
 \end{minipage}
 
 \vspace{2mm}
+
+{
 \small
 \renewcommand{\arraystretch}{1.1}
 \begin{tabularx}{\linewidth}{lX}
-    $\,^{I}$ & This value was assumed by the polar diagram of the HGA at Ka-band \cite{juno_telecommunication}.
+    $\,^{I}$ & This value was recovered from a graphical analysis of the HGA Ka-band gain pattern. \cite{juno_telecommunication}
 \end{tabularx}
 
 \twofig{datarate}{Datarate as function of distance by fixing $E_b/N_0$ = -0.1 dB}      
 {ebn0}{Energy per bit to noise ratio as function of distance by fixing $R$ = 18 kbps}{0.9}
+}
+
 
 %The link budget equation can be expressed in a dB form, each term is then calculated as follows:
 % \begin{center}
