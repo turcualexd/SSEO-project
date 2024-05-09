@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  9 MAY 2024 10:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  9 MAY 2024 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1181,34 +1181,12 @@ pdfTeX warning: pdflatex (file ./Images/Jupiter_flux_analysis_ext.pdf): PDF incl
 
 pdfTeX warning: pdflatex (file ./Images/EGA_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-
-LaTeX Warning: Missing reference on input line 4.
-
-<Images/render_juno.jpg, id=115, 7398.00507pt x 1584.85057pt>
+<Images/render_juno.jpg, id=116, 7398.00507pt x 1584.85057pt>
 File: Images/render_juno.jpg Graphic file (type jpg)
 <use Images/render_juno.jpg>
 Package pdftex.def Info: Images/render_juno.jpg  used on input line 7.
 (pdftex.def)             Requested size: 460.93153pt x 98.73854pt.
-
-LaTeX Warning: Missing reference on input line 15.
-
-
-LaTeX Warning: Missing reference on input line 17.
-
-
-LaTeX Warning: Missing reference on input line 20.
-
-
-LaTeX Warning: Missing reference on input line 28.
-
-[3 <./Images/render_juno.jpg>]
-
-LaTeX Warning: Missing reference on input line 35.
-
-
-LaTeX Warning: Missing reference on input line 38.
-
-) (Sections/04_reverse_sizing.tex [4]
+ [3 <./Images/render_juno.jpg>]) (Sections/04_reverse_sizing.tex [4]
 
 LaTeX Warning: Missing reference on input line 38.
 
@@ -1226,17 +1204,17 @@ Package logreq Info: Writing requests to 'H5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24192 strings out of 475385
- 409218 string characters out of 2793321
- 1201084 words of memory out of 3000000
- 45117 multiletter control sequences out of 15000+600000
+ 24216 strings out of 475385
+ 410076 string characters out of 2793321
+ 1201378 words of memory out of 3000000
+ 45135 multiletter control sequences out of 15000+600000
  601930 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,97p,1527b,1873s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (9 pages, 1396626 bytes).
+Output written on H5.pdf (9 pages, 1402088 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
  122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
