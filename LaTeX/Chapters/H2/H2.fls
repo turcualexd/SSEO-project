@@ -1,6 +1,6 @@
-PWD c:\Users\turcu\Desktop\Progetti\SSEO-project\LaTeX\Chapters\H2
+PWD c:\Users\turcu\Desktop\Progetti\SSEO-project\Chapters\H2
 INPUT C:\Users\turcu\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\turcu\Desktop\Progetti\SSEO-project\LaTeX\Chapters\H2\H2.tex
+INPUT c:\Users\turcu\Desktop\Progetti\SSEO-project\Chapters\H2\H2.tex
 OUTPUT H2.log
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -279,10 +279,6 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.s
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty

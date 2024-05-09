@@ -1,3 +1,52 @@
 \section{Reverse sizing of TCS}
 \label{sec:TCS_sizing}
 
+\subsection{Solar Panels}
+\label{subsec: solar_panels}
+
+The decoupled analysis for the solar panels is carried out in this section. The panels have high absorptivity on the side which points the Sun. This side also points deep space, hence it emits in the infrared. Regarding the back of the solar arrays, the surface only emits in the infrared to deep space.
+The mathematical modelling is described by the following formula:
+
+\begin{equation}
+    \alpha_{sa,fr}A_{sa} J_{sun} - P_{in} = \sigma \varepsilon_{sa,eq}2 A_{sa}T_{sa}^4
+\end{equation}
+
+Where $\alpha_{sa,fr}$ is the absorptivity of the front surface of the solar array, that is pointing the Sun. $P_{in}$ is the requested power from all the other hardware of the S/C (without considering heaters), which depends on the mission phase. $\varepsilon_{sa,eq}$ is the mean emissivity of the front and back surfaces of the solar array wighted on the area. Since they are equal, it turns out to be just an arithmetic
+mean. By inverting the formula:
+
+\begin{equation}
+    T_{sa} = \sqrt [4] {\frac{\alpha_{sa,fr}A_{sa} J_{sun}}{\sigma  \varepsilon_{sa,eq}2 A_{sa}} - \frac{P_{in}}{\sigma  \varepsilon_{sa,eq}2 A_{sa}}}
+\end{equation}
+
+The known values are the following
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.3}
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|}
+        \hline
+        $\boldsymbol{\alpha_{sa,fr}}$ [-] & $\boldsymbol{\varepsilon_{sa,eq}}$ [-] & $\boldsymbol{A_{sa}}\;[\textrm{\textbf{m}}^2]$ & $\boldsymbol{P_{in,hot}}$ [W] & $\boldsymbol{P_{in,cold}}$ [W] & $\boldsymbol{J_{sun,hot}}$ [W/m2] & $\boldsymbol{J_{sun,cold}}$ [W/m2]\\
+        \hline
+        0.92 & 0.825 & 60 &  133.48 & 297.01 & 1765.2 & 45.19 \\
+        \hline
+    \end{tabular}
+    \caption{Input data for solar arrays}
+    \label{table:sa_data}
+\end{table}
+
+The temperature obtained in the two cases are expressed in \autoref{table:sa_out}. 
+In both cases the values are compliant with the specifics of the solar panels given in \mref (table), no additional radiator or heater is needed:
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.3}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        $\boldsymbol{T_{sa,hot}}$ [°C] & $\boldsymbol{T_{sa,cold}}$ [°C]  \\
+        \hline
+        89.74 & -132.49 \\
+        \hline
+    \end{tabular}
+    \caption{Solar array temperatures for the two cases}
+    \label{table:sa_out}
+\end{table}
