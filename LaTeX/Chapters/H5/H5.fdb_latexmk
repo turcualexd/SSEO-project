@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H5"] 1715259675.16082 "H5.bcf" "H5.bbl" "H5" 1715271470.0702 0
+["biber H5"] 1715259675.16082 "H5.bcf" "H5.bbl" "H5" 1715286361.91853 0
   "../../bibliography.bib" 1715259884 18225 46bebbf32ed33c7035304f66d3be0df1 ""
-  "H5.bcf" 1715271469 110584 39f274f6788bde0cb343da44372aaddf "pdflatex"
+  "H5.bcf" 1715286361 110584 39f274f6788bde0cb343da44372aaddf "pdflatex"
   (generated)
   "H5.bbl"
   "H5.blg"
   (rewritten before read)
-["pdflatex"] 1715271468.72958 "c:/Users/ricky/Documents/GitHub/SSEO-project/LaTeX/Chapters/H5/H5.tex" "H5.pdf" "H5" 1715271470.07062 0
+["pdflatex"] 1715286360.39583 "c:/Users/ricky/Documents/GitHub/SSEO-project/LaTeX/Chapters/H5/H5.tex" "H5.pdf" "H5" 1715286361.91904 0
   "../../Config/../../Config/Poli_logo.pdf" 1715067440 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config/../../Config/input.tex" 1715067440 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "../../Config/../../Config/title_page_chapter.tex" 1715067440 1237 37606b3b29c6c05108acd46da5d641db ""
@@ -187,24 +187,24 @@
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/ricky/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H5.aux" 1715271469 11169 9ed44c22a45c3246032f63d58292620a "pdflatex"
+  "H5.aux" 1715286361 11191 a27da5d050e3be3c245ca571066b2f3d "pdflatex"
   "H5.bbl" 1715259676 27956 9f89e321939eff57ad8cfb762f2b5057 "biber H5"
-  "H5.out" 1715271469 2562 458a24c69b70df681ec3834541499f9b "pdflatex"
-  "H5.run.xml" 1715271469 2299 1b637ddce93173233596c8c65411cb9a "pdflatex"
-  "H5.tex" 1715067623 309 5a1f73c2cf489b423e776ef35f9172ef ""
-  "H5.toc" 1715271469 1352 4d0e87cda4d6ff885b3b329826b165ce "pdflatex"
+  "H5.out" 1715286361 2562 458a24c69b70df681ec3834541499f9b "pdflatex"
+  "H5.run.xml" 1715286361 2299 1b637ddce93173233596c8c65411cb9a "pdflatex"
+  "H5.tex" 1715284660 309 5a1f73c2cf489b423e776ef35f9172ef ""
+  "H5.toc" 1715286361 1352 2676f3c95e5a72a55d117536886eb7fd "pdflatex"
   "Images/EGA_flux_analysis.pdf" 1715238349 37109 88fdeb6efc8269a9b64493264cf13af5 ""
   "Images/Jupiter_flux_analysis_ext.pdf" 1715238353 31276 56327bb730ebdc29f7a94cd03353a3fe ""
-  "Images/Mononodal_MB.jpg" 1715271006 91734 c89eb1b35572c807bf68912f15939817 ""
+  "Images/Mononodal_MB.pdf" 1715284826 15972 657c7dfaffb2f6a9286d56dfb72a97c6 ""
   "Images/Perihelion_flux_analysis.pdf" 1715238354 15691 baae97215ed2f6a69b2848978b7cb6d3 ""
   "Images/render_juno.jpg" 1715238356 1129280 a679d5df8ec2007485e9e33ba4995360 ""
   "Sections/00_notation.tex" 1715262352 2851 bd43e047bc48c154e412e9c2c8374d82 ""
   "Sections/01_introduction.tex" 1715238388 1672 8d0e5d56eea943821cb8e313a7e12d94 ""
   "Sections/02_phases.tex" 1715260755 8825 33c643f83e4df0cfacda3edab3290e7d ""
-  "Sections/03_architecture_rationale.tex" 1715261575 11806 c48b7e62865504cd1171a261bd90cc69 ""
-  "Sections/04_reverse_sizing.tex" 1715271468 8973 cbb7a13e0232f689dfa50d7587196b38 ""
+  "Sections/03_architecture_rationale.tex" 1715286328 11815 d66ad1e8187b8972d9f1ed1309f86ff1 ""
+  "Sections/04_reverse_sizing.tex" 1715286359 9021 c68c299038b161acf3ba055d91f12e6c ""
   "Sections/05_appendix.tex" 1715257167 3921 fb540783bb2bac4626cbe22b7f38f983 ""
-  "c:/Users/ricky/Documents/GitHub/SSEO-project/LaTeX/Chapters/H5/H5.tex" 1715067623 309 5a1f73c2cf489b423e776ef35f9172ef ""
+  "c:/Users/ricky/Documents/GitHub/SSEO-project/LaTeX/Chapters/H5/H5.tex" 1715284660 309 5a1f73c2cf489b423e776ef35f9172ef ""
   (generated)
   "H5.aux"
   "H5.bcf"

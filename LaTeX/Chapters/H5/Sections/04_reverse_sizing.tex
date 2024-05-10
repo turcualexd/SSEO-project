@@ -6,7 +6,7 @@ The reverse sizing of Juno's TCS focuses independently on the main body and the 
 \subsection{Main body}
 \label{subsec:mb_mono_sizing}
 
-A first approximate model for the main body consists in a mononodal analysis of an equivalent sphere of the S/C. This sphere has the same area as the exterior of the hexagonal body, radiation vault and HGA combined, for a total of $A_{tot} = 34.78 \; \textrm{m}^2$. he internal generated heat $Q_{in}$ has been recovered from \autoref{table:thermal_limits}. Its value is reported in \autoref{table:mononodal_heat} together with the solar heat flux for both cases. From the same \autoref{table:thermal_limits} the most stringent operating temperature range was also recovered, ranging from -10°C to +30°C. 
+A first approximate model for the main body consists in a mononodal analysis of an equivalent sphere of the S/C. This sphere has the same area as the exterior of the hexagonal body, radiation vault and HGA combined, for a total of $A_{tot} = 34.78 \; \textrm{m}^2$. The internal generated heat $Q_{in}$ has been recovered from \autoref{table:thermal_limits}. Its value is reported in \autoref{table:mononodal_heat} together with the solar heat flux for both cases. From the same \autoref{table:thermal_limits} the most stringent operating temperature range was also recovered, ranging from -10 °C to +30 °C. 
 \begin{table}[H]
     \renewcommand{\arraystretch}{1.3}
     \centering
@@ -24,6 +24,8 @@ A first approximate model for the main body consists in a mononodal analysis of 
     \label{table:mononodal_heat}
 \end{table}
 
+\vspace*{-3mm}
+
 Considering now that only the cross section of the sphere is illuminated by the Sun while the whole surface radiates into deep space, the following equation can be recovered by imposing heat equilibrium.
 
 \begin{equation}
@@ -38,10 +40,11 @@ This equation can be rewritten to obtain $\alpha$ as a linear function of $\vare
     \label{eq:eps_alpha_relation}
 \end{equation}
 
-Substituting the extremes of the temperature range for both thermal cases defines two couples of lines in the $\varepsilon-\alpha$ plane. Each pair encompass a region of plane in which the S/C can operate without any thermal control as seen \autoref{fig:Mononodal_MB}. Their intersection identifies all $(\varepsilon, \alpha)$ couples that allow safe operation in both cases.
+Substituting the extremes of the temperature range for both thermal cases defines two couples of lines in the $\varepsilon-\alpha$ plane. Each pair encompasses a region of plane in which the S/C can operate without any thermal control as seen in \autoref{fig:Mononodal_MB}. Their intersection identifies all $(\varepsilon, \alpha)$ couples that allow safe operation in both cases.
 
 \cfig{Mononodal_MB}{0.5}{Admissible $(\varepsilon,\alpha)$ couples}
-%\rfigII{Mononodal_MB}{Admissible $(\varepsilon,\alpha)$ couples}{0.45}{19}{-5mm}{-7mm}
+
+\vspace*{-3mm}
 
 The black dot identifies the specific $\varepsilon_{mb}$ and $\alpha_{mb}$ values of the S/C (0.121 and 0.132 respectively), computed as the weighted average of the optical characteristics of the various external surfaces, highlighted in \autoref{sec:TCS_architecture_rationale}, without considering any thermal control hardware. It clearly does not fall into any of the two previously identified regions, meaning that in this model Juno requires both radiators/louvres and heaters to function properly. In fact it's possible to calculate the S/C temperature from \autoref{eq:heat_equlibrium} imposing all previously defined parameters in both cases. The results are reported in \autoref{table:mb_temp} and, as expected, they are outside the valid range previously identified.
 
@@ -52,6 +55,7 @@ The black dot identifies the specific $\varepsilon_{mb}$ and $\alpha_{mb}$ value
         \hline
         $\boldsymbol{T_{mb}^{(hot)} \; [\textrm{\textbf{°C}}]}$ & $\boldsymbol{T_{mb}^{(cold)} \; [\textrm{\textbf{°C}}]}$ \\
         \hline
+        \hline
         34.91 & -77.53 \\
         \hline
     \end{tabular}
@@ -59,7 +63,10 @@ The black dot identifies the specific $\varepsilon_{mb}$ and $\alpha_{mb}$ value
     \label{table:mb_temp}
 \end{table}
 
+\vspace*{-3mm}
+
 For both the hot and cold case, then, the minimum heat that needs to be exchanged to keep the temperature inside its range can be computed ($Q$ is positive if heat is entering the S/C):
+
 \begin{gather}
     Q_{ht} = \sigma \varepsilon_{mb} A_{tot} T_{min}^4 - \alpha_{mb} A_c q_{sun}^{(cold)} - Q_{in}^{(cold)} = 794.5 \; W
     \label{eq:mb_mono_cold_heat}
@@ -67,13 +74,14 @@ For both the hot and cold case, then, the minimum heat that needs to be exchange
     Q_{lv} = \sigma \varepsilon_{mb} A_{tot} T_{max}^4 - \alpha_{mb} A_c q_{sun}^{(hot)} - Q_{in}^{(hot)} = -133.8 \; W
     \label{eq:mb_mono_hot_heat}
 \end{gather}
-Where $Q_{ht}$ is the heater power required to keep Juno's main body at the minimum temperature of -10°C during the cold case and $Q_{lv}$ is the heat that needs to be removed to maintain the temperature at +30°C in the hot case. The latter can be easily handled by the louvres present on the S/C as can be seen by the position of the black "x" in \autoref{fig:Mononodal_MB}, which is inside the hot case viable region. $Q_{ht}$, instead, is completely unrealistic, especially considering that the solar arrays only produce $\approx 420$ W at Jupiter \cite{solar_panels_coef}. This is caused by the fact that Juno's main body consists of various sections with totally different thermal characteristics and requirements which can't really be lumped all together in a single spherical node model. A multinodal approach that considers both the complex geometry of Juno and the optical properties of each surface independently would yield more realistic conclusions. Furthermore, the results are also in contrast with the cold-biased design of the S/C, where a larger $Q_{lv}$ and a smaller $Q_{ht}$ (in magnitude) would be expected. This is due to the fact that only radiative heat transfer was considered in the model, while neglecting completely the considerable external insulation. 
+
+Where $Q_{ht}$ is the heater power required to keep Juno's main body at the minimum temperature of -10 °C during the cold case and $Q_{lv}$ is the heat that needs to be removed to maintain the temperature at +30 °C in the hot case. The latter can be easily handled by the louvres present on the S/C as can be seen by the position of the black "x" in \autoref{fig:Mononodal_MB}, which is inside the hot case viable region. $Q_{ht}$, instead, is completely unrealistic, especially considering that the solar arrays only produce $\approx 420$ W at Jupiter \cite{solar_panels_coef}. This is caused by the fact that Juno's main body consists of various sections with totally different thermal characteristics and requirements which can't really be lumped all together in a single spherical node model. A multinodal approach that considers both the complex geometry of Juno and the optical properties of each surface independently would yield more realistic conclusions. Furthermore, the results are also in contrast with the cold-biased design of the S/C, where a larger $Q_{lv}$ and a smaller $Q_{ht}$ (in magnitude) would be expected. This is due to the fact that only radiative heat transfer was considered in the model, while neglecting completely the considerable external insulation. 
 
 
 \subsection{Solar panels}
 \label{subsec:solar_arrays_sizing}
 
-For the solar panels a mononodal analysis was also employed,but in this case the considered geometry is a flat plate with the total area of the solar panels $A_{sp} = 60 \; \textrm{m}^2$. In reality the three arrays are physically separated from each other, but there are no reasons to believe that they will exhibit different thermal behaviors, so they were studied as a single entity. 
+For the solar panels a mononodal analysis was also employed, but in this case the considered geometry is a flat plate with the total area of the solar panels $A_{sp} = 60 \; \textrm{m}^2$. In reality the three arrays are physically separated from each other, but there are no reasons to believe that they will exhibit different thermal behaviors, so they were studied as a single entity. 
 The panels have high absorptivity on the side which points the Sun. This side also points deep space, hence it emits in the infrared. Regarding the back of the solar arrays, the surface only emits in the infrared to deep space.
 The mathematical modelling is described by the following formula:
 
@@ -98,6 +106,7 @@ The known values are the following
         \hline
         $\boldsymbol{\alpha_{sp} \; [-]}$ & $\boldsymbol{\varepsilon_{sp} \; [-]}$ & $\boldsymbol{A_{sp}}\;[\textrm{\textbf{m}}^2]$ & $\boldsymbol{Q_{in}^{(hot)} \; [\textrm{\textbf{W}}]}$ & $\boldsymbol{Q_{in}^{(cold)} \; [\textrm{\textbf{W}}]}$ & $\boldsymbol{q_{sun}^{(hot)} \; [\textrm{\textbf{W}}/\textrm{\textbf{m}}^2]}$ & $\boldsymbol{q_{sun}^{(cold)} \; [\textrm{\textbf{W}}/\textrm{\textbf{m}}^2]}$ \\
         \hline
+        \hline
         0.92 & 0.825 & 60 &  133.48 & 297.01 & 1759.23 & 45.62 \\
         \hline
     \end{tabular}
@@ -105,8 +114,10 @@ The known values are the following
     \label{table:sa_data}
 \end{table}
 
-The temperature obtained in the two cases are expressed in \autoref{table:sa_out}. 
-In both cases the values are compliant with the specifics of the solar panels given in \autoref{table:thermal_limits}, so no additional radiator or heater is needed. These results are also inline with a thermal simulation of the panels performed by NASA itself \cite{solar_panels_coef}.
+\vspace*{-3mm}
+
+The temperatures obtained in the two cases are expressed in \autoref{table:sa_out}. 
+Both values are compliant with the specifics of the solar panels given in \autoref{table:thermal_limits}, so no additional radiators or heaters are needed. These results are also inline with a thermal simulation of the panels performed by NASA itself. \cite{solar_panels_coef}
 
 \begin{table}[H]
     \renewcommand{\arraystretch}{1.5}
@@ -115,10 +126,11 @@ In both cases the values are compliant with the specifics of the solar panels gi
         \hline
         $\boldsymbol{T_{sp}^{(hot)} \; [\textrm{\textbf{°C}}]}$ & $\boldsymbol{T_{sp}^{(cold)} \; [\textrm{\textbf{°C}}]}$ \\
         \hline
+        \hline
         89.39 & -132.11 \\
         \hline
     \end{tabular}
-    \caption{Solar panels temperatures}
+    \caption{Calculated solar panels temperatures}
     \label{table:sa_out}
 \end{table}
 
