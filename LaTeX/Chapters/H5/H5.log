@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  8 MAY 2024 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  12 MAY 2024 00:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1111,7 +1111,7 @@ Package biblatex Info: ... file 'H5.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config//Poli_logo.pdf, id=51, 527.9725pt x 415.5525pt>
+<../../Config//Poli_logo.pdf, id=71, 527.9725pt x 415.5525pt>
 File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config//Poli_logo.pdf>
 Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
@@ -1141,11 +1141,12 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \tf@toc=\write6
 \openout6 = `H5.toc'.
 
+ [1]
 \blx@maxsegment@1=\count456
 \blx@sectionciteorder@1=\count457
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction.tex Excluding 'comment' comment.) (Sections/02_phases.tex
+ (Body.tex (Sections/00_notation.tex) [2] (Sections/01_introduction.tex Excluding 'comment' comment.) (Sections/02_phases.tex
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 15.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
@@ -1155,17 +1156,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.56     \item t
                 he only contribution considered during the interplanetary ph... [1{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
-<Images/Perihelion_flux_analysis.pdf, id=98, 398.99063pt x 301.125pt>
+<Images/Perihelion_flux_analysis.pdf, id=129, 398.99063pt x 301.125pt>
 File: Images/Perihelion_flux_analysis.pdf Graphic file (type pdf)
 <use Images/Perihelion_flux_analysis.pdf>
 Package pdftex.def Info: Images/Perihelion_flux_analysis.pdf  used on input line 67.
 (pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
-<Images/Jupiter_flux_analysis_ext.pdf, id=99, 398.99063pt x 301.125pt>
+<Images/Jupiter_flux_analysis_ext.pdf, id=130, 398.99063pt x 301.125pt>
 File: Images/Jupiter_flux_analysis_ext.pdf Graphic file (type pdf)
 <use Images/Jupiter_flux_analysis_ext.pdf>
 Package pdftex.def Info: Images/Jupiter_flux_analysis_ext.pdf  used on input line 67.
 (pdftex.def)             Requested size: 245.82962pt x 185.53308pt.
-<Images/EGA_flux_analysis.pdf, id=100, 398.99063pt x 301.125pt>
+<Images/EGA_flux_analysis.pdf, id=131, 398.99063pt x 301.125pt>
 File: Images/EGA_flux_analysis.pdf Graphic file (type pdf)
 <use Images/EGA_flux_analysis.pdf>
 Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 72.
@@ -1177,62 +1178,42 @@ pdfTeX warning: pdflatex (file ./Images/Jupiter_flux_analysis_ext.pdf): PDF incl
 
 pdfTeX warning: pdflatex (file ./Images/EGA_flux_analysis.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-
-LaTeX Warning: Missing reference on input line 4.
-
-<Images/render_juno.jpg, id=115, 7398.00507pt x 1584.85057pt>
+<Images/render_juno.jpg, id=147, 7398.00507pt x 1584.85057pt>
 File: Images/render_juno.jpg Graphic file (type jpg)
 <use Images/render_juno.jpg>
-Package pdftex.def Info: Images/render_juno.jpg  used on input line 7.
-(pdftex.def)             Requested size: 460.93153pt x 98.73854pt.
-
-LaTeX Warning: Missing reference on input line 15.
-
-
-LaTeX Warning: Missing reference on input line 17.
-
-
-LaTeX Warning: Missing reference on input line 20.
-
-
-LaTeX Warning: Missing reference on input line 28.
-
-[3 <./Images/render_juno.jpg>]
-
-LaTeX Warning: Missing reference on input line 35.
-
-
-LaTeX Warning: Missing reference on input line 38.
-
-) (Sections/04_reverse_sizing.tex [4]
-
-LaTeX Warning: Missing reference on input line 38.
-
-) [5] (Sections/05_appendix.tex)) [6]
+Package pdftex.def Info: Images/render_juno.jpg  used on input line 8.
+(pdftex.def)             Requested size: 409.72125pt x 87.75952pt.
+ [3 <./Images/render_juno.jpg>] [4]) (Sections/04_reverse_sizing.tex
+<Images/Mononodal_MB.pdf, id=195, 398.99063pt x 301.125pt>
+File: Images/Mononodal_MB.pdf Graphic file (type pdf)
+<use Images/Mononodal_MB.pdf>
+Package pdftex.def Info: Images/Mononodal_MB.pdf  used on input line 45.
+(pdftex.def)             Requested size: 256.07481pt x 193.2707pt.
+ [5 <./Images/Mononodal_MB.pdf>]) [6] (Sections/05_appendix.tex)) [7]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
 Package biblatex Info: Reference section=0 on input line 19.
- [7] (H5.aux)
+ [8] (H5.aux)
 Package rerunfilecheck Info: File `H5.out' has not changed.
-(rerunfilecheck)             Checksum: F4B7C74DE359CE60D84D7844D3C2CBD2;2000.
+(rerunfilecheck)             Checksum: 458A24C69B70DF681EC3834541499F9B;2562.
 Package logreq Info: Writing requests to 'H5.run.xml'.
 \openout1 = `H5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24367 strings out of 476361
- 423020 string characters out of 5788046
- 1881993 words of memory out of 5000000
- 44321 multiletter control sequences out of 15000+600000
- 644958 words of font info for 166 fonts, out of 8000000 for 9000
+ 24454 strings out of 476361
+ 425508 string characters out of 5788046
+ 1884993 words of memory out of 5000000
+ 44382 multiletter control sequences out of 15000+600000
+ 645714 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,98p,1527b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H5.pdf (9 pages, 1396864 bytes).
+ 87i,18n,98p,1530b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H5.pdf (11 pages, 1444760 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

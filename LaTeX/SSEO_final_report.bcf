@@ -2530,24 +2530,45 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="5">
-    <bcf:citekey order="1" intorder="1">solar_panels_coef</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">solar_panels_coef</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">solar_panels_coef</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">solar_panels_coef</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">SSIRU</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">SRU</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">JADE_info</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">JEDI_info</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">KaTs_info</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">SDST_info</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">batteries_info</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">MWR_info</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">Waves_info</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">UVS_info</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">JunoCam_info</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">JIRAM_info</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">MAG_info</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">Rad_vault</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">mli_blankets</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">louvers</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">ge_kapton</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">alum_poly</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">LL_early_cruise</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">JIRAM_info</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Waves_info</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">JADE_info</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">JEDI_info</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">MWR_info</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">MAG_info</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">Leros</bcf:citekey>
     <bcf:citekey order="18" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">C&amp;DH_temperature</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">C&amp;DH_power</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Leros</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Leros</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">RCS_values</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">SSIRU</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">SRU</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">JADE_info</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">JEDI_info</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">KaTs_info</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">juno_telecommunication</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">SDST_info</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">batteries_info</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">MWR_info</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Waves_info</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">UVS_info</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">JunoCam_info</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">JIRAM_info</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">MAG_info</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">solar_panels_coef</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
