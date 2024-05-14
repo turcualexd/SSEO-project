@@ -84,3 +84,10 @@
 \contentsline {section}{\numberline {5.5}Appendix}{43}{section.5.5}%
 \contentsline {subsection}{\numberline {5.5.1}Thermal limits and power usage of instrumentation}{43}{subsection.5.5.1}%
 \contentsline {section}{Bibliography}{44}{section*.68}%
+\contentsline {chapter}{Homework 6}{45}{chapter*.69}%
+\contentsline {section}{Notation}{45}{section*.70}%
+\contentsline {section}{\numberline {6.1}Introduction of EPS}{46}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Analysis of power requirements along the mission}{46}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Architecture and rationale of EPS}{46}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Reverse sizing of EPS}{46}{section.6.4}%
+\contentsline {section}{Bibliography}{47}{section*.71}%
