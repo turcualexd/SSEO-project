@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  15 MAY 2024 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  15 MAY 2024 22:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1111,7 +1111,7 @@ Package biblatex Info: ... file 'H6.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config/Poli_logo.pdf, id=35, 527.9725pt x 415.5525pt>
+<../../Config/Poli_logo.pdf, id=39, 527.9725pt x 415.5525pt>
 File: ../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/Poli_logo.pdf  used on input line 6.
@@ -1153,6 +1153,9 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 
 LaTeX Warning: Missing reference on input line 11.
 
+
+LaTeX Warning: Missing reference on input line 13.
+
 ) (Sections/04_reverse_sizing.tex))
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -1175,23 +1178,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H6.out' has not changed.
-(rerunfilecheck)             Checksum: BB6234ECFF11E31B11F3B7BD57343FFD;1264.
+(rerunfilecheck)             Checksum: 93DC779A9E1DC84ECD734BD8B451C86D;1462.
 Package logreq Info: Writing requests to 'H6.run.xml'.
 \openout1 = `H6.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23980 strings out of 474436
- 411116 string characters out of 5741955
- 1932190 words of memory out of 5000000
- 45929 multiletter control sequences out of 15000+600000
+ 23983 strings out of 474436
+ 411182 string characters out of 5741955
+ 1933190 words of memory out of 5000000
+ 45931 multiletter control sequences out of 15000+600000
  655560 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,14n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H6.pdf (4 pages, 101942 bytes).
+Output written on H6.pdf (4 pages, 103745 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
