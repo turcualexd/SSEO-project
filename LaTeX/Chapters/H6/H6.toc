@@ -4,5 +4,6 @@
 \contentsline {section}{\numberline {1}Introduction of EPS}{1}{section.1}%
 \contentsline {section}{\numberline {2}Analysis of power requirements along the mission}{1}{section.2}%
 \contentsline {section}{\numberline {3}Architecture and rationale of EPS}{1}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Available alternatives}{1}{subsection.3.1}%
 \contentsline {section}{\numberline {4}Reverse sizing of EPS}{1}{section.4}%
 \contentsline {section}{Bibliography}{2}{section*.4}%
