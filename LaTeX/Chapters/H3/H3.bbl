@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{1}
-  \datalist[entry]{none/global//global/global/global}
-    \entry{ka_uplink}{article}{}{}
+  \datalist[entry]{none/global//global/global}
+    \entry{ka_uplink}{article}{}
       \name{author}{1}{}{%
         {{hash=4b8377b53a140de219b564cf137de15e}{%
            family={al},
@@ -31,12 +31,10 @@
       }
       \strng{namehash}{4b8377b53a140de219b564cf137de15e}
       \strng{fullhash}{4b8377b53a140de219b564cf137de15e}
-      \strng{fullhashraw}{4b8377b53a140de219b564cf137de15e}
       \strng{bibnamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authorbibnamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authornamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authorfullhash}{4b8377b53a140de219b564cf137de15e}
-      \strng{authorfullhashraw}{4b8377b53a140de219b564cf137de15e}
       \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -46,7 +44,7 @@
       \field{title}{Juno Gravity Science: Five Years of Radio Science Operations with Ka-band Uplink}
       \field{year}{2022}
     \endentry
-    \entry{juno_telecommunication}{article}{}{}
+    \entry{juno_telecommunication}{article}{}
       \name{author}{1}{}{%
         {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
            family={al},
@@ -58,12 +56,10 @@
       }
       \strng{namehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{fullhash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \strng{fullhashraw}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{bibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authorbibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \strng{authorfullhashraw}{bdd11dce2650f5d19e59c0ab87b76655}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -73,7 +69,7 @@
       \field{title}{Juno Telecommunications}
       \field{year}{2012}
     \endentry
-    \entry{telecommunication_antennas}{article}{}{}
+    \entry{telecommunication_antennas}{article}{}
       \name{author}{1}{}{%
         {{hash=bdd11dce2650f5d19e59c0ab87b76655}{%
            family={al},
@@ -85,12 +81,10 @@
       }
       \strng{namehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{fullhash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \strng{fullhashraw}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{bibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authorbibnamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authornamehash}{bdd11dce2650f5d19e59c0ab87b76655}
       \strng{authorfullhash}{bdd11dce2650f5d19e59c0ab87b76655}
-      \strng{authorfullhashraw}{bdd11dce2650f5d19e59c0ab87b76655}
       \field{extraname}{3}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
@@ -100,14 +94,14 @@
       \field{title}{Telecommunications Antennas for the Juno Mission to Jupiter}
       \field{year}{2012}
     \endentry
-    \entry{germanio}{misc}{}{}
+    \entry{germanio}{misc}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{howpublished}{Site: \url{kapton.com}}
       \field{title}{DuPont™ Kapton}
     \endentry
-    \entry{calibration_performance}{article}{}{}
+    \entry{calibration_performance}{article}{}
       \name{author}{1}{}{%
         {{hash=4b8377b53a140de219b564cf137de15e}{%
            family={al},
@@ -119,12 +113,10 @@
       }
       \strng{namehash}{4b8377b53a140de219b564cf137de15e}
       \strng{fullhash}{4b8377b53a140de219b564cf137de15e}
-      \strng{fullhashraw}{4b8377b53a140de219b564cf137de15e}
       \strng{bibnamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authorbibnamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authornamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authorfullhash}{4b8377b53a140de219b564cf137de15e}
-      \strng{authorfullhashraw}{4b8377b53a140de219b564cf137de15e}
       \field{extraname}{4}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -134,7 +126,7 @@
       \field{title}{Calibration and Performance of Juno Radio Science Data}
       \field{year}{2020}
     \endentry
-    \entry{communication_support}{article}{}{}
+    \entry{communication_support}{article}{}
       \name{author}{1}{}{%
         {{hash=4b8377b53a140de219b564cf137de15e}{%
            family={al},
@@ -146,12 +138,10 @@
       }
       \strng{namehash}{4b8377b53a140de219b564cf137de15e}
       \strng{fullhash}{4b8377b53a140de219b564cf137de15e}
-      \strng{fullhashraw}{4b8377b53a140de219b564cf137de15e}
       \strng{bibnamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authorbibnamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authornamehash}{4b8377b53a140de219b564cf137de15e}
       \strng{authorfullhash}{4b8377b53a140de219b564cf137de15e}
-      \strng{authorfullhashraw}{4b8377b53a140de219b564cf137de15e}
       \field{extraname}{5}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -161,7 +151,7 @@
       \field{title}{Detecting Juno’s "Heartbeat": Communications Support during Critical Events of the Juno Mission}
       \field{year}{2020}
     \endentry
-    \entry{dsn_sito}{misc}{}{}
+    \entry{dsn_sito}{misc}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
