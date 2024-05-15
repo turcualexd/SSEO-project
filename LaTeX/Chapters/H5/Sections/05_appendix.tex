@@ -6,20 +6,20 @@
 In the following table values for temperature range, power consumption of the different instruments are reported, as well as their respective position.
 
 \begin{table}[H]
-    \renewcommand{\arraystretch}{1.7}
+    \renewcommand{\arraystretch}{1.5}
     \centering
     \begin{tabular}{|c||c|c|c|c|}
         \hline
         \textbf{Instrumentation} & \textbf{Specific element} &  \textbf{Temperature range [°C]} & \textbf{Dissipated power [W]} & \textbf{Position}  \\
         \hline
         \hline
-        \textbf{CDH} &  - &  -55 to +70 & 24 & Vault \\
+        \textbf{C\&DH} \cite{C&DH_temperature} \cite{C&DH_power} &  - &  -55 to +70 & 2 $\times$ 12 & Vault \\
         \hline
-        \textbf{Tanks \& feeding lines} &  - &  +15 to +50 & - & Main body \\
+        \textbf{Tanks \& feeding lines} \cite{Leros} &  - &  +10 to +35 & - & Main body \\
         \hline
         & ME &  -53 to +65 & - & Main body \\
         \hhline{|~|-|-|-|-|}
-        \multirow{-2}{*}[-.5\arrayrulewidth]{\textbf{Engines}} & RCS &  > 0  & 12 $\times$ 8.25 & External \\
+        \multirow{-2}{*}[-.5\arrayrulewidth]{\textbf{Engines} \cite{Leros} \cite{RCS_values}} & RCS &  > 0  & 12 $\times$ 5.39 & External \\
         \hline
         \textbf{IMU} \cite{SSIRU} &  - & -10 to +60 & 2 $\times$ 43 & Vault \\
         \hline
@@ -39,7 +39,7 @@ In the following table values for temperature range, power consumption of the di
         \hline
         \textbf{KaTs} \cite{KaTs_info} & - & -40 to +65 & 40 & Vault \\
         \hline
-        \textbf{TWTA} & - & N/A & 2 $\times$ 31 & Vault \\
+        \textbf{TWTA} \cite{juno_telecommunication} & - & N/A & 2 $\times$ 31 & Vault \\
         \hline
         & X/X & -40 to +60 & 15.8 & Vault \\
         \hhline{|~|-|-|-|-|}
@@ -74,8 +74,8 @@ In the following table values for temperature range, power consumption of the di
     \label{table:thermal_limits}
 \end{table}
 
-$^I$ This value only refers to the operational range of temperatures, no limits were found for non operational conditions.
-
-
-
-
+\begin{small}
+\begin{tabular}{ll}
+    $^I$ & This value only refers to the operational range of temperatures, no limits were found for non operational conditions.
+\end{tabular}
+\end{small}
