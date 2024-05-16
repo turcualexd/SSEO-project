@@ -91,5 +91,6 @@
 \contentsline {section}{\numberline {6.3}Architecture and rationale of EPS}{46}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Available alternatives}{46}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}Components and distribution}{46}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Operational profile}{46}{subsection.6.3.3}%
 \contentsline {section}{\numberline {6.4}Reverse sizing of EPS}{46}{section.6.4}%
-\contentsline {section}{Bibliography}{47}{section*.71}%
+\contentsline {section}{Bibliography}{47}{section*.73}%

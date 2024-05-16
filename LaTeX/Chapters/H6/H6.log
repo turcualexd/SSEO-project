@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  15 MAY 2024 22:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  16 MAY 2024 14:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1111,7 +1111,7 @@ Package biblatex Info: ... file 'H6.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config/Poli_logo.pdf, id=39, 527.9725pt x 415.5525pt>
+<../../Config/Poli_logo.pdf, id=43, 527.9725pt x 415.5525pt>
 File: ../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/Poli_logo.pdf  used on input line 6.
@@ -1156,45 +1156,45 @@ LaTeX Warning: Missing reference on input line 11.
 
 LaTeX Warning: Missing reference on input line 13.
 
+<Images/EGA_flux_analysis.pdf, id=79, 398.99063pt x 301.125pt>
+File: Images/EGA_flux_analysis.pdf Graphic file (type pdf)
+<use Images/EGA_flux_analysis.pdf>
+Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 29.
+(pdftex.def)             Requested size: 256.07481pt x 193.2707pt.
 ) (Sections/04_reverse_sizing.tex))
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.19 \bodyandbib
-                 [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
+                 [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/EGA_flux_analysis.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
 Package biblatex Info: Reference section=0 on input line 19.
-
-
-Package caption Warning: Unused \captionsetup[table] on input line 57.
-See the caption package documentation for explanation.
-
-[2] (H6.aux)
+ [2] (H6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H6.out' has not changed.
-(rerunfilecheck)             Checksum: 93DC779A9E1DC84ECD734BD8B451C86D;1462.
+(rerunfilecheck)             Checksum: 71B28650CEC6D87EED46C180D5BC29CB;1618.
 Package logreq Info: Writing requests to 'H6.run.xml'.
 \openout1 = `H6.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23983 strings out of 474436
- 411182 string characters out of 5741955
- 1933190 words of memory out of 5000000
- 45931 multiletter control sequences out of 15000+600000
+ 24011 strings out of 474436
+ 411897 string characters out of 5741955
+ 1941190 words of memory out of 5000000
+ 45952 multiletter control sequences out of 15000+600000
  655560 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,14n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H6.pdf (4 pages, 103745 bytes).
+<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H6.pdf (4 pages, 153825 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

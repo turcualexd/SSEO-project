@@ -41,6 +41,28 @@
       \field{title}{Overview of the Juno Mission to Jupiter}
       \field{year}{2006}
     \endentry
+    \entry{nh_rtg}{article}{}
+      \name{author}{1}{}{%
+        {{hash=56b44983d002d0a201b3b1390cb6d840}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Gary\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{56b44983d002d0a201b3b1390cb6d840}
+      \strng{fullhash}{56b44983d002d0a201b3b1390cb6d840}
+      \strng{bibnamehash}{56b44983d002d0a201b3b1390cb6d840}
+      \strng{authorbibnamehash}{56b44983d002d0a201b3b1390cb6d840}
+      \strng{authornamehash}{56b44983d002d0a201b3b1390cb6d840}
+      \strng{authorfullhash}{56b44983d002d0a201b3b1390cb6d840}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{4th International Energy Conversion Engineering Conference and Exhibit (IECEC) 26-29 June 2006, San Diego, California}
+      \field{title}{Space Nuclear Power: Opening the Final Frontier}
+      \field{year}{2006}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

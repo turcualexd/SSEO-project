@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H6"] 1715788080.39637 "H6.bcf" "H6.bbl" "H6" 1715805552.25117 0
-  "../../bibliography.bib" 1715785110 18212 68a31edfd775f34d2b906a6a986c7b0a ""
-  "H6.bcf" 1715805551 107259 c17b3d6ebd49db3605609b7090b2167e "pdflatex"
+["biber H6"] 1715844093.26156 "H6.bcf" "H6.bbl" "H6" 1715862254.13601 0
+  "../../bibliography.bib" 1715840811 18515 727c752c4f5d1b149b91668d50b92060 ""
+  "H6.bcf" 1715862253 107320 cb56f057a93259afb020db01bc1ff3aa "pdflatex"
   (generated)
   "H6.bbl"
   "H6.blg"
   (rewritten before read)
-["pdflatex"] 1715805549.89632 "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" "H6.pdf" "H6" 1715805552.2532 0
+["pdflatex"] 1715862251.75443 "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" "H6.pdf" "H6" 1715862254.137 0
   "../../Config/Poli_logo.pdf" 1713433114 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config/commands.tex" 1715259185 2408 2cc2eb798f0de2c9d31a7bf7a1b8d6ec ""
   "../../Config/formats.tex" 1713880123 2245 5320fe037231799d7c4c273b8646a05d ""
@@ -46,10 +46,12 @@
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb" 1674488844 37692 ff65f49f493de879aca846e1811bfa1f ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb" 1674488844 35294 e88bb6b7bdd82f594dee041ddea9423c ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb" 1674488844 18013 a3754f8df0b4dd3a76b5353fabb31650 ""
+  "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb" 1674488844 25860 1e4d17fc7bf1d0b47e9b47e6099f1971 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb" 1674488844 29290 b94d44d3fae42765ed5c2398183bb1ca ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpbn8t.vf" 1674488844 1800 bde6e91770b65baf214fcc34f4229391 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpmit8t.vf" 1674488844 1804 fe65055d8ef06903d74a3f6f34728152 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpmn7c.vf" 1674488844 948 0ed5db617d744e3cca3bcade1853e77a ""
+  "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpmn7t.vf" 1674488844 984 276aff85044bc68260a465c2ce58c070 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpmn8t.vf" 1674488844 1800 3acf620f6c07a0390a9d216a40a331bc ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/vf/public/kpfonts/jkpttmn8t.vf" 1674488844 1812 b50baa4195e7ff2d92f7befecf594007 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -162,18 +164,19 @@
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H6.aux" 1715805551 2273 254dc828a982340d64b647a15af10be5 "pdflatex"
-  "H6.bbl" 1715788083 1569 9fc988e582741c421f734387a991393a "biber H6"
-  "H6.out" 1715805551 1462 93dc779a9e1dc84ecd734bd8b451c86d "pdflatex"
-  "H6.run.xml" 1715805551 2299 e042f2dd3548995e0766f5bf07c8fff4 "pdflatex"
-  "H6.tex" 1715805546 309 2917f78eb69f2c12fc56fab93ca25078 ""
-  "H6.toc" 1715805551 710 e5216aa24a05a1f7e3f0cab3f82f364b "pdflatex"
+  "H6.aux" 1715862253 3113 b10c48d3cb4888d08b53ae91fb3b9047 "pdflatex"
+  "H6.bbl" 1715844096 2667 a4dac19f341d30016fddae8ecadee15a "biber H6"
+  "H6.out" 1715862253 1618 71b28650cec6d87eed46c180d5bc29cb "pdflatex"
+  "H6.run.xml" 1715862253 2299 e042f2dd3548995e0766f5bf07c8fff4 "pdflatex"
+  "H6.tex" 1715862247 309 2917f78eb69f2c12fc56fab93ca25078 ""
+  "H6.toc" 1715862253 795 7c9018f1375bb5d35fa5ac73c202b9bd "pdflatex"
+  "Images/EGA_flux_analysis.pdf" 1715067217 37109 88fdeb6efc8269a9b64493264cf13af5 ""
   "Sections/00_notation.tex" 1715785110 517 b828042036ecd24581ea87ca9e9432d5 ""
   "Sections/01_introduction.tex" 1715785110 1017 8d9cb2405a60a8045c594b5034109e79 ""
   "Sections/02_phases.tex" 1715785110 86 6e773c29ac58e42fa18e728d4100323d ""
-  "Sections/03_architecture_rationale.tex" 1715805426 1974 beacb1f50d97c681b8495fd567ab8683 ""
+  "Sections/03_architecture_rationale.tex" 1715862247 4469 ecf31eec9416156328bd0749483b9215 ""
   "Sections/04_reverse_sizing.tex" 1715785110 59 fed5b303edda4aa82e1a1beb6136fbbd ""
-  "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" 1715805546 309 2917f78eb69f2c12fc56fab93ca25078 ""
+  "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" 1715862247 309 2917f78eb69f2c12fc56fab93ca25078 ""
   (generated)
   "H6.aux"
   "H6.bcf"

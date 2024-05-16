@@ -5,6 +5,7 @@
         "beamwidth",
         "downconverter",
         "MFSK",
+        "oversizing",
         "Simulink",
         "SPCM",
         "subcarrier",
