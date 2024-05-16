@@ -13,4 +13,4 @@
 \contentsline {subsection}{\numberline {3.1}Fuel and oxidizer tanks sizing}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Pressurizer tanks sizing}{6}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Computation of actual propellants usage}{7}{subsection.3.3}%
-\contentsline {section}{Bibliography}{8}{table.caption.15}%
+\contentsline {section}{Bibliography}{8}{section*.16}%

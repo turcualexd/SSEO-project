@@ -17,9 +17,9 @@
 \contentsline {subsection}{\numberline {1.8.2}Jupiter approach and insertion}{7}{subsection.1.8.2}%
 \contentsline {subsection}{\numberline {1.8.3}Science operations and extended mission}{8}{subsection.1.8.3}%
 \contentsline {subsection}{\numberline {1.8.4}Mission disposal}{8}{subsection.1.8.4}%
-\contentsline {section}{Bibliography}{9}{subsection.1.8.4}%
-\contentsline {chapter}{Homework 2}{10}{chapter*.12}%
-\contentsline {section}{Notation}{10}{section*.13}%
+\contentsline {section}{Bibliography}{9}{section*.12}%
+\contentsline {chapter}{Homework 2}{10}{chapter*.13}%
+\contentsline {section}{Notation}{10}{section*.14}%
 \contentsline {section}{\numberline {2.1} Mission analysis and $\Delta V$ budget }{11}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Rationale of the mission analysis}{11}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Simulation of the interplanetary trajectory}{11}{subsection.2.1.2}%
@@ -32,9 +32,9 @@
 \contentsline {subsection}{\numberline {2.3.1}Fuel and oxidizer tanks sizing}{15}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Pressurizer tanks sizing}{16}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Computation of actual propellants usage}{17}{subsection.2.3.3}%
-\contentsline {section}{Bibliography}{18}{table.caption.25}%
-\contentsline {chapter}{Homework 3}{19}{chapter*.26}%
-\contentsline {section}{Notation}{19}{section*.27}%
+\contentsline {section}{Bibliography}{18}{section*.27}%
+\contentsline {chapter}{Homework 3}{19}{chapter*.28}%
+\contentsline {section}{Notation}{19}{section*.29}%
 \contentsline {section}{\numberline {3.1}TMTC system architecture}{20}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}HGA}{20}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}MGA \& LGAs}{21}{subsection.3.1.2}%
@@ -42,9 +42,9 @@
 \contentsline {subsection}{\numberline {3.1.4}Ground stations}{21}{subsection.3.1.4}%
 \contentsline {section}{\numberline {3.2}Phases breakdown}{23}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Reverse sizing of the HGA}{23}{section.3.3}%
-\contentsline {section}{Bibliography}{25}{figure.caption.35}%
-\contentsline {chapter}{Homework 4}{26}{chapter*.36}%
-\contentsline {section}{Notation}{26}{section*.37}%
+\contentsline {section}{Bibliography}{25}{section*.38}%
+\contentsline {chapter}{Homework 4}{26}{chapter*.39}%
+\contentsline {section}{Notation}{26}{section*.40}%
 \contentsline {section}{\numberline {4.1}Introduction of AOCS}{27}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Breakdown of Juno modes}{27}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Sun Pointing Mode (SPM)}{27}{subsection.4.2.1}%
@@ -64,6 +64,32 @@
 \contentsline {subsection}{\numberline {4.4.1}Modeling hypothesis}{31}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Perturbations}{32}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Propellant reverse sizing}{33}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Appendix}{35}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Simulink model description}{35}{subsection.4.5.1}%
-\contentsline {section}{Bibliography}{36}{figure.caption.51}%
+\contentsline {section}{\numberline {4.5}Appendix}{34}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Simulink model description}{34}{subsection.4.5.1}%
+\contentsline {section}{Bibliography}{35}{section*.55}%
+\contentsline {chapter}{Homework 5}{36}{chapter*.56}%
+\contentsline {section}{Notation}{36}{section*.57}%
+\contentsline {section}{\numberline {5.1}Introduction of TCS}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Analysis of thermal conditions along the mission}{37}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Thermal phases analysis}{37}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}External heat flux analysis}{37}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Architecture and rationale of TCS}{39}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Vault}{39}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Main body}{39}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Solar panels}{40}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}External hardware}{40}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}Reverse sizing of TCS}{41}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Main body}{41}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Solar panels}{42}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Appendix}{43}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Thermal limits and power usage of instrumentation}{43}{subsection.5.5.1}%
+\contentsline {section}{Bibliography}{44}{section*.68}%
+\contentsline {chapter}{Homework 6}{45}{chapter*.69}%
+\contentsline {section}{Notation}{45}{section*.70}%
+\contentsline {section}{\numberline {6.1}Introduction of EPS}{46}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Analysis of power requirements along the mission}{46}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Architecture and rationale of EPS}{46}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Available alternatives}{46}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Components and distribution}{46}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Reverse sizing of EPS}{47}{section.6.4}%
+\contentsline {section}{Bibliography}{48}{section*.73}%

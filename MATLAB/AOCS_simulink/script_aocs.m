@@ -6,7 +6,7 @@ clc
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
 I_inv = inv(I);
 A0 = [0 0 1; 0 1 0; -1 0 0];                                % assetto iniziale 
-n = 2 * pi/60;                                              % spin rate 1 rpm
+n =  2 *2 * pi/60;                                              % spin rate 1 rpm
 w0 = [0 0 n];                                               % velocitè angolare iniziale
 
 braccio_x = 2.7;
@@ -21,7 +21,7 @@ t_s = 1;
 toll = deg2rad(15);
 t0 = 0;
 step_t = 0.5*t_s;
-t_f =  40*60; 
+t_f =  70*60; 
 gain_omega = -9500;
 gain_alphas = [-100 -100 -1]';
 
@@ -98,11 +98,11 @@ legend('M_{xb}', 'M_{yb}', 'M_{zb}')
 xlabel('time [min]')
 title('Control moment')
 
-%% fuel consumption computation
+% fuel consumption computation
 
-max_x = max(abs(M_c(:,1)));
-max_y = max(abs(M_c(:,2)));
-max_z = max(abs(M_c(:,3)));
+% max_x = max(abs(M_c(:,1)));
+% max_y = max(abs(M_c(:,2)));
+% max_z = max(abs(M_c(:,3)));
 
 max_x = trapz(abs(M_c(:,1)))/length(M_c(:,1));
 max_y = trapz(abs(M_c(:,2)))/length(M_c(:,2));
@@ -127,19 +127,21 @@ for i = 1:length(M_c)
      end
 end
 
+th = 4.5;
+I_sp = 220;
+
+consumo_x = ceil(sum(abs(M_c(:,1)))/(th*braccio_x));
+consumo_y = ceil(sum(abs(M_c(:,2)))/(th*braccio_y));
+consumo_z = ceil(sum(abs(M_c(:,3)))/(th*braccio_z));
 
 tempo_x = consumo_x * step_t;
 tempo_y = consumo_y * step_t;
 tempo_z = consumo_z * step_t;
 
-
-th = 4.5;
-I_sp = 250;
-
 m_prop_x = 2*2*th * tempo_x/(I_sp * 9.81)
 m_prop_y = 2*2*th * tempo_y/(I_sp * 9.81)
 m_prop_z = 2*2*th * tempo_z/(I_sp * 9.81)
-m_prop_singola_dsm = 2*(m_prop_x + m_prop_y + m_prop_z)
+m_prop_singola_slew_90 = (m_prop_x + m_prop_y + m_prop_z)
 
 %% SPIN UP-down mode
 
@@ -147,8 +149,7 @@ clc
 close all
 clear
 
-spin = [1 5; 5 1; 1 5; 5 1; 1 2; 2 1; 1 5; 5 1; 1 5; 5 2]; % RPM inizio e fine per riga
-% spin = [1.1 1]
+spin = [1 5; 5 1; 1 5; 5 1; 1 2; 2 1; 1 5; 5 2; 2 5; 5 2]; % RPM inizio e fine per riga
 massa_singolo_spin = zeros(1, size(spin, 1));
 massa_totale = 0;
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];            
@@ -206,13 +207,13 @@ for j = 1:size(spin, 1)
     % end
      
 
-    % figure
-    % hold on
-    % grid minor
-    % plot(t, w)
-    % legend('w_x', 'w_y', 'w_z')
-    % title('Angular velocity')
-    % hold off
+    figure
+    hold on
+    grid minor
+    plot(t, w)
+    legend('w_x', 'w_y', 'w_z')
+    title('Angular velocity')
+    hold off
     % 
     % figure
     % hold on
@@ -231,28 +232,33 @@ for j = 1:size(spin, 1)
     consumo_y = 0;
     consumo_z = 0;
     
-    for i = 1:length(M_c)
-    
-        if abs(M_c(i, 1)) == max_x && max_x ~= 0
-            consumo_x = consumo_x + 1;
-        end
-    
-         if abs(M_c(i, 2)) == max_y && max_y ~= 0
-            consumo_y = consumo_y + 1;
-         end
-    
-         if abs(M_c(i, 3)) == max_z && max_z ~= 0
-           consumo_z = consumo_z + 1;
-         end
-    end
-    
+    % for i = 1:length(M_c)
+    % 
+    %     if abs(M_c(i, 1)) == max_x && max_x ~= 0
+    %         consumo_x = consumo_x + 1;
+    %     end
+    % 
+    %      if abs(M_c(i, 2)) == max_y && max_y ~= 0
+    %         consumo_y = consumo_y + 1;
+    %      end
+    % 
+    %      if abs(M_c(i, 3)) == max_z && max_z ~= 0
+    %        consumo_z = consumo_z + 1;
+    %      end
+    % end
+    % 
+
+    th = 4.5;
+    I_sp = 220;
+
+    consumo_x = ceil(sum(abs(M_c(:,1)))/(th*braccio_x))
+    consumo_y = ceil(sum(abs(M_c(:,2)))/(th*braccio_y))
+    consumo_z = ceil(sum(abs(M_c(:,3)))/(th*braccio_z))
+
     tempo_x = consumo_x * step_t;
     tempo_y = consumo_y * step_t;
     tempo_z = consumo_z * step_t;
-    
-    th = 4.5;
-    I_sp = 250;
-    
+           
     m_prop_x = 2 * 2 * th * tempo_x/(I_sp * 9.81);
     m_prop_y = 2 * 2 * th * tempo_y/(I_sp * 9.81);
     m_prop_z = 2 * 2 * th * tempo_z/(I_sp * 9.81);

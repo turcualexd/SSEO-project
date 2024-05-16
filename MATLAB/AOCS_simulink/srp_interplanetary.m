@@ -36,27 +36,27 @@ rn = vecnorm(R/astroConstants(2), 2); % valore già in AU
 
 r_medio = trapz(rn)/(length(rn));
 
-figure
-plot(rn)
-hold on
-plot(0*rn + r_medio)
-title('DIstance for SRP approximation')
-grid minor
+% figure
+% plot(rn)
+% hold on
+% plot(0*rn + r_medio)
+% title('DIstance for SRP approximation')
+% grid minor
 
-Sr = 1367/5.2^2; % W/m2, calcolato con la media della distanza
+Sr = 1367/r_medio^2; % W/m2, calcolato con la media della distanza
 
 Sr_vect = 1367./(rn).^2;
 Sr_medio = trapz(Sr_vect)/length(rn); % calcolato come media delle radiazioni
 % ----- Sr_medio è quello da usare per la inner----
-
-figure
-plot(Sr_vect)
-hold on
-plot(0*rn + Sr_medio)
-plot(0*rn + Sr)
-title('Sr approximation')
-grid minor
-legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
+3*astroConstants(4)/(2*(r_medio*astroConstants(2))^3)*(17593.63-11245.08)
+% figure
+% plot(Sr_vect)
+% hold on
+% plot(0*rn + Sr_medio)
+% plot(0*rn + Sr)
+% title('Sr approximation')
+% grid minor
+% legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
 
 %close all
 delta_c_12 = sqrt(5.8^2 - 1.5^2);
@@ -65,7 +65,9 @@ A_cs = 70; % area frontale
 q = 0.55; % riflettività da slides
 % siamo in sun poiting quasi tutto il tmepo, quindi cos(I) = 1;
 % distanze calcolate sul modello solidworks semplificato 
-T_srp_inner = Sr/astroConstants(5) * A_cs/3 * ( 1 + q ) * ( 2 * delta_c_12 + 4.5);
+T_srp_inner_x = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) *  4.5;
+T_srp_inner_yy = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * 2 * delta_c_12 ;
+-T_srp_inner_x + 2*T_srp_inner_yy*sind(30)
 
 % ------------ simulazione -------------
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
@@ -126,57 +128,57 @@ for i = 1 : length(t)
       
 end
 
-figure
-hold on
-grid minor
-plot(t, w)
-legend('w_x', 'w_y', 'w_z')
-title('Angular velocity')
+% figure
+% hold on
+% grid minor
+% plot(t, w)
+% legend('w_x', 'w_y', 'w_z')
+% title('Angular velocity')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, alphas*180/pi)
+% legend('err_x', 'err_y', 'err_z')
+% title('Errors in attitude')
+% xlabel('time [min]')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, w_err*180/pi)
+% legend('w_{err_x}', 'w_{err_y}', 'w_{err_z}')
+% title('Errors angular speed')
+% xlabel('time [min]')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, h_n)
+% legend('h_{xn}', 'h_{yn}', 'h_{zn}')
+% xlabel('time [min]')
+% title('Angular momentum (inertial)')
+% 
+% figure
+% hold on
+% grid minor 
+% plot(t, h_b)
+% legend('h_{xb}', 'h_{yb}', 'h_{zb}')
+% xlabel('time [min]')
+% title('Angular momentum (body)')
 
-figure
-hold on
-grid minor
-plot(t, alphas*180/pi)
-legend('err_x', 'err_y', 'err_z')
-title('Errors in attitude')
-xlabel('time [min]')
-
-figure
-hold on
-grid minor
-plot(t, w_err*180/pi)
-legend('w_{err_x}', 'w_{err_y}', 'w_{err_z}')
-title('Errors angular speed')
-xlabel('time [min]')
-
-figure
-hold on
-grid minor
-plot(t, h_n)
-legend('h_{xn}', 'h_{yn}', 'h_{zn}')
-xlabel('time [min]')
-title('Angular momentum (inertial)')
-
-figure
-hold on
-grid minor 
-plot(t, h_b)
-legend('h_{xb}', 'h_{yb}', 'h_{zb}')
-xlabel('time [min]')
-title('Angular momentum (body)')
-
-figure
-hold on
-grid minor 
-plot(t,M_c)
-legend('M_{xb}', 'M_{yb}', 'M_{zb}')
-xlabel('time [min]')
-title('Control moment')
+% figure
+% hold on
+% grid minor 
+% plot(t,M_c)
+% legend('M_{xb}', 'M_{yb}', 'M_{zb}')
+% xlabel('time [min]')
+% title('Control moment')
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
-consumo_z = sum(abs(M_c(:,3)))/(th*braccio_z);
+consumo_z = ceil(sum(abs(M_c(:,3)))/(th*braccio_z));
 tempo_z = consumo_z * step_t;
 m_prop_z_continuo = 2*2*th * tempo_z/(I_sp * 9.81)
 
@@ -223,52 +225,52 @@ for i = 1 : length(t)
       
 end
 
-figure
-hold on
-grid minor
-plot(t, w)
-legend('w_x', 'w_y', 'w_z')
-title('Angular velocity')
-
-figure
-hold on
-grid minor
-plot(t, alphas*180/pi)
-legend('err_x', 'err_y', 'err_z')
-title('Errors in attitude')
-xlabel('time [min]')
-
-figure
-hold on
-grid minor
-plot(t, w_err*180/pi)
-legend('w_{err_x}', 'w_{err_y}', 'w_{err_z}')
-title('Errors angular speed')
-xlabel('time [min]')
-
-figure
-hold on
-grid minor
-plot(t, h_n)
-legend('h_{xn}', 'h_{yn}', 'h_{zn}')
-xlabel('time [min]')
-title('Angular momentum (inertial)')
-
-figure
-hold on
-grid minor 
-plot(t, h_b)
-legend('h_{xb}', 'h_{yb}', 'h_{zb}')
-xlabel('time [min]')
-title('Angular momentum (body)')
-
-figure
-hold on
-grid minor 
-plot(t,M_c)
-legend('M_{xb}', 'M_{yb}', 'M_{zb}')
-xlabel('time [min]')
-title('Control moment')
+% figure
+% hold on
+% grid minor
+% plot(t, w)
+% legend('w_x', 'w_y', 'w_z')
+% title('Angular velocity')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, alphas*180/pi)
+% legend('err_x', 'err_y', 'err_z')
+% title('Errors in attitude')
+% xlabel('time [min]')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, w_err*180/pi)
+% legend('w_{err_x}', 'w_{err_y}', 'w_{err_z}')
+% title('Errors angular speed')
+% xlabel('time [min]')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, h_n)
+% legend('h_{xn}', 'h_{yn}', 'h_{zn}')
+% xlabel('time [min]')
+% title('Angular momentum (inertial)')
+% 
+% figure
+% hold on
+% grid minor 
+% plot(t, h_b)
+% legend('h_{xb}', 'h_{yb}', 'h_{zb}')
+% xlabel('time [min]')
+% title('Angular momentum (body)')
+% 
+% figure
+% hold on
+% grid minor 
+% plot(t,M_c)
+% legend('M_{xb}', 'M_{yb}', 'M_{zb}')
+% xlabel('time [min]')
+% title('Control moment')
 
 % fuel consumption computation in inner 1
 
@@ -299,11 +301,11 @@ title('Control moment')
 % end
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
-consumo_x = sum(abs(M_c(:,1)))/(th*braccio_x)
-consumo_y = sum(abs(M_c(:,2)))/(th*braccio_y)
-consumo_z = sum(abs(M_c(:,3)))/(th*braccio_z)
+consumo_x = ceil(sum(abs(M_c(:,1)))/(th*braccio_x))
+consumo_y = ceil(sum(abs(M_c(:,2)))/(th*braccio_y))
+consumo_z = ceil(sum(abs(M_c(:,3)))/(th*braccio_z))
 
 tempo_x = consumo_x * step_t;
 tempo_y = consumo_y * step_t;
@@ -351,13 +353,13 @@ end
 rn = vecnorm(R/astroConstants(2), 2); % valore già in AU
 
 r_medio = trapz(rn)/(length(rn));
-
-figure
-plot(rn)
-hold on
-plot(0*rn + r_medio)
-title('DIstance for SRP approximation')
-grid minor
+3*astroConstants(4)/(2*(r_medio*astroConstants(2))^3)*(17593.63-11245.08)
+% figure
+% plot(rn)
+% hold on
+% plot(0*rn + r_medio)
+% title('DIstance for SRP approximation')
+% grid minor
 
 Sr = 1367/r_medio^2; % W/m2, calcolato con la media della distanza
 
@@ -365,14 +367,14 @@ Sr_vect = 1367./(rn).^2;
 Sr_medio = trapz(Sr_vect)/length(rn); % calcolato come media delle radiazioni
 % ----- Sr_medio è quello da usare per la inner----
 
-figure
-plot(Sr_vect)
-hold on
-plot(0*rn + Sr_medio)
-plot(0*rn + Sr)
-title('Sr approximation')
-grid minor
-legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
+% figure
+% plot(Sr_vect)
+% hold on
+% plot(0*rn + Sr_medio)
+% plot(0*rn + Sr)
+% title('Sr approximation')
+% grid minor
+% legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
 
 %close all
 delta_c_12 = sqrt(5.8^2 - 1.5^2);
@@ -381,8 +383,9 @@ A_cs = 70; % area frontale
 q = 0.55; % riflettività da slides
 % siamo in sun poiting quasi tutto il tmepo, quindi cos(I) = 1;
 % distanze calcolate sul modello solidworks semplificato 
-T_srp_inner = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * ( 2 * delta_c_12 + 4.5);
-
+T_srp_inner_x = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) *  4.5;
+T_srp_inner_yy = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * 2 * delta_c_12 ;
+-T_srp_inner_x + 2*T_srp_inner_yy*sind(30)
 % ------------ simulazione -------------
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
 I_inv = inv(I);
@@ -440,58 +443,58 @@ for i = 1 : length(t)
     h_n(:,i) = A_b_n(:,:,i)' * h_b(:,i);
       
 end
-
-figure
-hold on
-grid minor
-plot(t, w)
-legend('w_x', 'w_y', 'w_z')
-title('Angular velocity')
-
-figure
-hold on
-grid minor
-plot(t, alphas*180/pi)
-legend('err_x', 'err_y', 'err_z')
-title('Errors in attitude')
-xlabel('time [min]')
-
-figure
-hold on
-grid minor
-plot(t, w_err*180/pi)
-legend('w_{err_x}', 'w_{err_y}', 'w_{err_z}')
-title('Errors angular speed')
-xlabel('time [min]')
-
-figure
-hold on
-grid minor
-plot(t, h_n)
-legend('h_{xn}', 'h_{yn}', 'h_{zn}')
-xlabel('time [min]')
-title('Angular momentum (inertial)')
-
-figure
-hold on
-grid minor 
-plot(t, h_b)
-legend('h_{xb}', 'h_{yb}', 'h_{zb}')
-xlabel('time [min]')
-title('Angular momentum (body)')
-
-figure
-hold on
-grid minor 
-plot(t,M_c)
-legend('M_{xb}', 'M_{yb}', 'M_{zb}')
-xlabel('time [min]')
-title('Control moment')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, w)
+% legend('w_x', 'w_y', 'w_z')
+% title('Angular velocity')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, alphas*180/pi)
+% legend('err_x', 'err_y', 'err_z')
+% title('Errors in attitude')
+% xlabel('time [min]')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, w_err*180/pi)
+% legend('w_{err_x}', 'w_{err_y}', 'w_{err_z}')
+% title('Errors angular speed')
+% xlabel('time [min]')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, h_n)
+% legend('h_{xn}', 'h_{yn}', 'h_{zn}')
+% xlabel('time [min]')
+% title('Angular momentum (inertial)')
+% 
+% figure
+% hold on
+% grid minor 
+% plot(t, h_b)
+% legend('h_{xb}', 'h_{yb}', 'h_{zb}')
+% xlabel('time [min]')
+% title('Angular momentum (body)')
+% 
+% figure
+% hold on
+% grid minor 
+% plot(t,M_c)
+% legend('M_{xb}', 'M_{yb}', 'M_{zb}')
+% xlabel('time [min]')
+% title('Control moment')
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
-consumo_z = sum(abs(M_c(:,3)))/(th*braccio_z);
+consumo_z = ceil(sum(abs(M_c(:,3)))/(th*braccio_z));
 tempo_z = consumo_z * step_t;
 m_prop_z_continuo = 2*2*th * tempo_z/(I_sp * 9.81)
 
@@ -614,11 +617,11 @@ title('Control moment')
 % end
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
-consumo_x = sum(abs(M_c(:,1)))/(th*braccio_x)
-consumo_y = sum(abs(M_c(:,2)))/(th*braccio_y)
-consumo_z = sum(abs(M_c(:,3)))/(th*braccio_z)
+consumo_x = ceil(sum(abs(M_c(:,1)))/(th*braccio_x))
+consumo_y = ceil(sum(abs(M_c(:,2)))/(th*braccio_y))
+consumo_z = ceil(sum(abs(M_c(:,3)))/(th*braccio_z))
 
 tempo_x = consumo_x * step_t;
 tempo_y = consumo_y * step_t;
@@ -667,13 +670,13 @@ end
 rn = vecnorm(R/astroConstants(2), 2); % valore già in AU
 
 r_medio = trapz(rn)/(length(rn));
-
-figure
-plot(rn)
-hold on
-plot(0*rn + r_medio)
-title('DIstance for SRP approximation')
-grid minor
+3*astroConstants(4)/(2*(r_medio*astroConstants(2))^3)*(17593.63-11245.08)
+% figure
+% plot(rn)
+% hold on
+% plot(0*rn + r_medio)
+% title('DIstance for SRP approximation')
+% grid minor
 
 Sr = 1367/r_medio^2; % W/m2, calcolato con la media della distanza
 
@@ -681,14 +684,14 @@ Sr_vect = 1367./(rn).^2;
 Sr_medio = trapz(Sr_vect)/length(rn); % calcolato come media delle radiazioni
 % ----- Sr_medio è quello da usare per la inner----
 
-figure
-plot(Sr_vect)
-hold on
-plot(0*rn + Sr_medio)
-plot(0*rn + Sr)
-title('Sr approximation')
-grid minor
-legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
+% figure
+% plot(Sr_vect)
+% hold on
+% plot(0*rn + Sr_medio)
+% plot(0*rn + Sr)
+% title('Sr approximation')
+% grid minor
+% legend('Sr as function of time', 'Sr medium', 'Sr with medium distance' )
 
 %close all
 delta_c_12 = sqrt(5.8^2 - 1.5^2);
@@ -697,8 +700,9 @@ A_cs = 70; % area frontale
 q = 0.55; % riflettività da slides
 % siamo in sun poiting quasi tutto il tmepo, quindi cos(I) = 1;
 % distanze calcolate sul modello solidworks semplificato 
-T_srp_inner = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * ( 2 * delta_c_12 + 4.5);
-
+T_srp_inner_x = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) *  4.5;
+T_srp_inner_yy = Sr_medio/astroConstants(5) * A_cs/3 * ( 1 + q ) * 2 * delta_c_12 ;
+-T_srp_inner_x + 2*T_srp_inner_yy*sind(30)
 % ------------ simulazione -------------
 I = [11245.08 0 0; 0 10044.71 0; 0 0 17593.63];             % inertia matrix, solo assi principali considerati, dire che usiamo i pannelli per ottenerli corretti
 I_inv = inv(I);
@@ -757,57 +761,57 @@ for i = 1 : length(t)
       
 end
 
-figure
-hold on
-grid minor
-plot(t, w)
-legend('w_x', 'w_y', 'w_z')
-title('Angular velocity')
-
-figure
-hold on
-grid minor
-plot(t, alphas*180/pi)
-legend('err_x', 'err_y', 'err_z')
-title('Errors in attitude')
-xlabel('time [min]')
-
-figure
-hold on
-grid minor
-plot(t, w_err*180/pi)
-legend('w_{err_x}', 'w_{err_y}', 'w_{err_z}')
-title('Errors angular speed')
-xlabel('time [min]')
-
-figure
-hold on
-grid minor
-plot(t, h_n)
-legend('h_{xn}', 'h_{yn}', 'h_{zn}')
-xlabel('time [min]')
-title('Angular momentum (inertial)')
-
-figure
-hold on
-grid minor 
-plot(t, h_b)
-legend('h_{xb}', 'h_{yb}', 'h_{zb}')
-xlabel('time [min]')
-title('Angular momentum (body)')
-
-figure
-hold on
-grid minor 
-plot(t,M_c)
-legend('M_{xb}', 'M_{yb}', 'M_{zb}')
-xlabel('time [min]')
-title('Control moment')
+% figure
+% hold on
+% grid minor
+% plot(t, w)
+% legend('w_x', 'w_y', 'w_z')
+% title('Angular velocity')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, alphas*180/pi)
+% legend('err_x', 'err_y', 'err_z')
+% title('Errors in attitude')
+% xlabel('time [min]')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, w_err*180/pi)
+% legend('w_{err_x}', 'w_{err_y}', 'w_{err_z}')
+% title('Errors angular speed')
+% xlabel('time [min]')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, h_n)
+% legend('h_{xn}', 'h_{yn}', 'h_{zn}')
+% xlabel('time [min]')
+% title('Angular momentum (inertial)')
+% 
+% figure
+% hold on
+% grid minor 
+% plot(t, h_b)
+% legend('h_{xb}', 'h_{yb}', 'h_{zb}')
+% xlabel('time [min]')
+% title('Angular momentum (body)')
+% 
+% figure
+% hold on
+% grid minor 
+% plot(t,M_c)
+% legend('M_{xb}', 'M_{yb}', 'M_{zb}')
+% xlabel('time [min]')
+% title('Control moment')
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
-consumo_z = sum(abs(M_c(:,3)))/(th*braccio_z);
+consumo_z = ceil(sum(abs(M_c(:,3)))/(th*braccio_z));
 tempo_z = consumo_z * step_t;
 m_prop_z_continuo = 2*2*th * tempo_z/(I_sp * 9.81)
 
@@ -853,53 +857,53 @@ for i = 1 : length(t)
     h_n(:,i) = A_b_n(:,:,i)' * h_b(:,i);
       
 end
-
-figure
-hold on
-grid minor
-plot(t, w)
-legend('w_x', 'w_y', 'w_z')
-title('Angular velocity')
-
-figure
-hold on
-grid minor
-plot(t, alphas*180/pi)
-legend('err_x', 'err_y', 'err_z')
-title('Errors in attitude')
-xlabel('time [min]')
-
-figure
-hold on
-grid minor
-plot(t, w_err*180/pi)
-legend('w_{err_x}', 'w_{err_y}', 'w_{err_z}')
-title('Errors angular speed')
-xlabel('time [min]')
-
-figure
-hold on
-grid minor
-plot(t, h_n)
-legend('h_{xn}', 'h_{yn}', 'h_{zn}')
-xlabel('time [min]')
-title('Angular momentum (inertial)')
-
-figure
-hold on
-grid minor 
-plot(t, h_b)
-legend('h_{xb}', 'h_{yb}', 'h_{zb}')
-xlabel('time [min]')
-title('Angular momentum (body)')
-
-figure
-hold on
-grid minor 
-plot(t,M_c)
-legend('M_{xb}', 'M_{yb}', 'M_{zb}')
-xlabel('time [min]')
-title('Control moment')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, w)
+% legend('w_x', 'w_y', 'w_z')
+% title('Angular velocity')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, alphas*180/pi)
+% legend('err_x', 'err_y', 'err_z')
+% title('Errors in attitude')
+% xlabel('time [min]')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, w_err*180/pi)
+% legend('w_{err_x}', 'w_{err_y}', 'w_{err_z}')
+% title('Errors angular speed')
+% xlabel('time [min]')
+% 
+% figure
+% hold on
+% grid minor
+% plot(t, h_n)
+% legend('h_{xn}', 'h_{yn}', 'h_{zn}')
+% xlabel('time [min]')
+% title('Angular momentum (inertial)')
+% 
+% figure
+% hold on
+% grid minor 
+% plot(t, h_b)
+% legend('h_{xb}', 'h_{yb}', 'h_{zb}')
+% xlabel('time [min]')
+% title('Angular momentum (body)')
+% 
+% figure
+% hold on
+% grid minor 
+% plot(t,M_c)
+% legend('M_{xb}', 'M_{yb}', 'M_{zb}')
+% xlabel('time [min]')
+% title('Control moment')
 
 % fuel consumption computation in inner 1
 
@@ -930,11 +934,11 @@ title('Control moment')
 % end
 
 th = 4.5;
-I_sp = 250;
+I_sp = 220;
 
-consumo_x = sum(abs(M_c(:,1)))/(th*braccio_x)
-consumo_y = sum(abs(M_c(:,2)))/(th*braccio_y)
-consumo_z = sum(abs(M_c(:,3)))/(th*braccio_z)
+consumo_x = ceil(sum(abs(M_c(:,1)))/(th*braccio_x))
+consumo_y = ceil(sum(abs(M_c(:,2)))/(th*braccio_y))
+consumo_z = ceil(sum(abs(M_c(:,3)))/(th*braccio_z))
 
 tempo_x = consumo_x * step_t;
 tempo_y = consumo_y * step_t;
