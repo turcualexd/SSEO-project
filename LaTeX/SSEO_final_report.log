@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  15 MAY 2024 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  16 MAY 2024 15:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1386,9 +1386,9 @@ Package biblatex Info: Reference section=6 on input line 6.
 Package biblatex Info: Setting label 'refsection:6' on input line 6.
  (Chapters/H6/Body.tex (Chapters/H6/Sections/00_notation.tex) [45
 
-] (Chapters/H6/Sections/01_introduction.tex Excluding 'comment' comment.) (Chapters/H6/Sections/02_phases.tex) (Chapters/H6/Sections/03_architecture_rationale.tex) (Chapters/H6/Sections/04_reverse_sizing.tex)) [46]
+] (Chapters/H6/Sections/01_introduction.tex Excluding 'comment' comment.) (Chapters/H6/Sections/02_phases.tex) (Chapters/H6/Sections/03_architecture_rationale.tex) (Chapters/H6/Sections/04_reverse_sizing.tex)) [46] [47]
 Package biblatex Info: Reference section=0 on input line 6.
-) [47] (SSEO_final_report.aux)
+) [48] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -1400,17 +1400,17 @@ Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25848 strings out of 474424
- 465309 string characters out of 5741739
+ 25866 strings out of 474424
+ 465982 string characters out of 5741739
  1974496 words of memory out of 5000000
- 47283 multiletter control sequences out of 15000+600000
+ 47296 multiletter control sequences out of 15000+600000
  803758 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,20n,102p,1950b,2314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (50 pages, 6151844 bytes).
+Output written on SSEO_final_report.pdf (51 pages, 6156979 bytes).
 PDF statistics:
- 2424 PDF objects out of 2487 (max. 8388607)
- 329 named destinations out of 1000 (max. 500000)
+ 2439 PDF objects out of 2487 (max. 8388607)
+ 334 named destinations out of 1000 (max. 500000)
  882 words of extra memory for PDF output out of 10000 (max. 10000000)
 

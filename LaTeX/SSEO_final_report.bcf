@@ -2590,6 +2590,10 @@
   </bcf:bibdata>
   <bcf:section number="6">
     <bcf:citekey order="3" intorder="1">2006_overview</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">RCS_values</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">LL_complete_mission</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">C&amp;DH_power</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">esa_margins</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

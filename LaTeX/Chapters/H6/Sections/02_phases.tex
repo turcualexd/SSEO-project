@@ -34,7 +34,16 @@ In the following section the power budget is presented (\autoref{table:power_bud
     \label{table:power_budget}
 \end{table}  
 
-Where for each subsystem the following assumptions were made:
+Where for each subsystem the following assumptions and considerations were made:
 \begin{itemize}
-    \item \textbf{PS:} 
+    \item \textbf{PS:} only the power required to operate the valves of the RCS thruster or the ME was considered. For the RCS six thrusters were assumed to be on simultaneously at any given time. It can also be noted that the RCS require power only in short burst as the thrusters are turned on and off during a manoeuvre, so the average power request is actually lower than the one reported above.
+    \item \textbf{TMTC:} for this subsystem one X/X SDST and one TWTA are supposed to be on for the entire mission while also presuming that the amplifiers are always operating at their maximum capability. During the GRAV PJ passes the KaTS and the SSPA are turned on. The redundant X/X/Ka SDST was not considered in this analysis.
+    \item \textbf{AOCS:} the 10.4 W value is recovered by considering only one SRU and SSS active (nominal AOCS setup), while the 43.4 W power request during ME manoeuvres is due to the utilization of one IMU instead of the SRU.
+    \item \textbf{TCS:} only the PS heaters were considered, while neglecting other possible TCS hardware required by the other subsystems. In particular RCS valves and catalyst beds heaters, ME valves heaters and tanks heaters were focused on. Both of the RCS requirements were available in their datasheet. \cite{RCS_values}
+    For the ME valve heaters no data was found, so their requested power was assumed to be the same of the RCS. A rough estimation of the tanks heaters was performed considering MLI-covered titanium tanks partially radiating into deep space. An overall value of 133 W was obtained, which includes all propellant and pressurizer tanks. This approach ignores the whole insulating body of the spacecraft, so the aforementioned result is overestimated. The obtained value was assumed constant for the whole mission, which is rather unrealistic considering the large variations of the Juno-Sun distance along its trajectory.  
+    \item \textbf{EPS:}
+    \item \textbf{P/L:} during the real mission numerous instrument checkouts were carried out. To estimate the power request, it was assumed that only the sensors were turned on, while the electronics was off. This value is also overestimated since the various tests were accomplished separately in time for each P/L. Similar to the RCS valves operation this power requested is also infrequent and not continuous over the whole mission. 
+    Concerning the science modes (GRAV and MWR) the stated value considers all P/Ls operating at maximum power for the entire PJ pass, while in reality this request is only achieved for a narrower time period. \cite{LL_complete_mission} 
+    \item \textbf{C\&DH:} only one of the two redundant RAD750 single board computers is assumed to be on along the entire mission, the specific value was obtained from its datasheet. \cite{C&DH_power}
 \end{itemize}
+A 20\% was then applied to the total values as required by standard guidelines \cite{esa_margins} to obtain the values highlighted in the last row of \autoref{table:power_budget}.
