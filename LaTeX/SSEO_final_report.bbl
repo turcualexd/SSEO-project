@@ -1975,36 +1975,35 @@
 
 \refsection{6}
   \datalist[entry]{none/global//global/global/global}
-    \entry{2006_overview}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=6b4abdd86ffba2654cb9815f5e0be02a}{%
-           family={Grammier},
-           familyi={G\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{fullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{fullhashraw}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{bibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorfullhashraw}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/missions/juno}}
-      \field{title}{Overview of the Juno Mission to Jupiter}
-      \field{year}{2006}
-    \endentry
     \entry{RCS_values}{misc}{}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{note}{Site: \url{http://www.astronautix.com/m/mr-111.html}}
       \field{title}{MR-111C datasheet}
+    \endentry
+    \entry{batteries_info}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=70bf597bb74205a7b9bcc0c9df2fae26}{%
+           family={technologies},
+           familyi={t\bibinitperiod},
+           given={Eaglepicher},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{70bf597bb74205a7b9bcc0c9df2fae26}
+      \strng{fullhash}{70bf597bb74205a7b9bcc0c9df2fae26}
+      \strng{fullhashraw}{70bf597bb74205a7b9bcc0c9df2fae26}
+      \strng{bibnamehash}{70bf597bb74205a7b9bcc0c9df2fae26}
+      \strng{authorbibnamehash}{70bf597bb74205a7b9bcc0c9df2fae26}
+      \strng{authornamehash}{70bf597bb74205a7b9bcc0c9df2fae26}
+      \strng{authorfullhash}{70bf597bb74205a7b9bcc0c9df2fae26}
+      \strng{authorfullhashraw}{70bf597bb74205a7b9bcc0c9df2fae26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Proven battery technology utilizing high energy, long-cycle life, low weight and small volume lithium-ion cells}
+      \field{year}{2022}
     \endentry
     \entry{LL_complete_mission}{article}{}{}
       \name{author}{1}{}{%
@@ -2022,8 +2021,8 @@
       \strng{authornamehash}{326f9a48d56b2e513f257a7c00e83a4f}
       \strng{authorfullhash}{326f9a48d56b2e513f257a7c00e83a4f}
       \strng{authorfullhashraw}{326f9a48d56b2e513f257a7c00e83a4f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Juno Mission to Jupiter: Lessons from Cruise and Plans for Orbital Operations and Science Return}
@@ -2045,8 +2044,8 @@
       \strng{authornamehash}{dd386bb35000eb387a6c047153269a48}
       \strng{authorfullhash}{dd386bb35000eb387a6c047153269a48}
       \strng{authorfullhashraw}{dd386bb35000eb387a6c047153269a48}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{RAD750 3U CompactPCI single-board computer}
@@ -2067,8 +2066,8 @@
       \strng{authornamehash}{d514c60212474a803f48a06974d89110}
       \strng{authorfullhash}{d514c60212474a803f48a06974d89110}
       \strng{authorfullhashraw}{d514c60212474a803f48a06974d89110}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
