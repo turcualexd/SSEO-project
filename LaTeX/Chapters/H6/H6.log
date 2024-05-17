@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  16 MAY 2024 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  17 MAY 2024 16:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1111,7 +1111,7 @@ Package biblatex Info: ... file 'H6.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/../../Config/title_page_chapter.tex
-<../../Config/../../Config/Poli_logo.pdf, id=39, 527.9725pt x 415.5525pt>
+<../../Config/../../Config/Poli_logo.pdf, id=43, 527.9725pt x 415.5525pt>
 File: ../../Config/../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/../../Config/Poli_logo.pdf  used on input line 6.
@@ -1154,47 +1154,53 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 LaTeX Warning: Missing reference on input line 11.
 
 
-LaTeX Warning: Missing reference on input line 13.
 
-<Images/EGA_flux_analysis.pdf, id=76, 398.99063pt x 301.125pt>
-File: Images/EGA_flux_analysis.pdf Graphic file (type pdf)
-<use Images/EGA_flux_analysis.pdf>
-Package pdftex.def Info: Images/EGA_flux_analysis.pdf  used on input line 55.
-(pdftex.def)             Requested size: 256.07481pt x 193.2707pt.
-) (Sections/04_reverse_sizing.tex
+pdfTeX warning: pdflatex (file ./Images/Solar panels reasoning.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/Solar panels reasoning.pdf, id=82, 331.2375pt x 257.04028pt>
+File: Images/Solar panels reasoning.pdf Graphic file (type pdf)
+<use Images/Solar panels reasoning.pdf>
+Package pdftex.def Info: Images/Solar panels reasoning.pdf  used on input line 38.
+(pdftex.def)             Requested size: 307.2929pt x 238.46844pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \section{Reverse sizing of EPS}
-                                    [1])) [2 <./Images/EGA_flux_analysis.pdf>]
+l.38 ...ing.pdf}{0.6}{Cell distribution rationale}
+                                                   [1]
+<Images/Juno panels.jpg, id=94, 3956.52803pt x 4155.01605pt>
+File: Images/Juno panels.jpg Graphic file (type jpg)
+<use Images/Juno panels.jpg>
+Package pdftex.def Info: Images/Juno panels.jpg  used on input line 79.
+(pdftex.def)             Requested size: 230.46576pt x 241.99916pt.
+) (Sections/04_reverse_sizing.tex [2 <./Images/Solar panels reasoning.pdf>])) [3 <./Images/Juno panels.jpg>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
 Package biblatex Info: Reference section=0 on input line 19.
- [3] (H6.aux)
+ [4] (H6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H6.out' has not changed.
-(rerunfilecheck)             Checksum: DBA1E1D6DE1415071FCA05597B542538;1462.
+(rerunfilecheck)             Checksum: DDD6C303FFA99DED77602223561CF0CC;1593.
 Package logreq Info: Writing requests to 'H6.run.xml'.
 \openout1 = `H6.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24011 strings out of 474436
- 415277 string characters out of 5739103
+ 24043 strings out of 474436
+ 416131 string characters out of 5739103
  1943187 words of memory out of 5000000
- 45952 multiletter control sequences out of 15000+600000
+ 45976 multiletter control sequences out of 15000+600000
  655560 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,14n,102p,1590b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,14n,102p,1513b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}{/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}</Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmit8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmne.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpsy.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H6.pdf (5 pages, 155593 bytes).
+Output written on H6.pdf (6 pages, 1383991 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

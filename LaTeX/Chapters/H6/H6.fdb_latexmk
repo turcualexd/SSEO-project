@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H6"] 1715873013.51244 "H6.bcf" "H6.bbl" "H6" 1715890422.4799 0
-  "../../bibliography.bib" 1715872896.78265 17944 727c752c4f5d1b149b91668d50b92060 ""
-  "H6.bcf" 1715890422.23872 107320 cb56f057a93259afb020db01bc1ff3aa "pdflatex"
+["biber H6"] 1715936139.05885 "H6.bcf" "H6.bbl" "H6" 1715957023.66729 0
+  "../../bibliography.bib" 1715932328.25556 18275 61f5b3941e09afd44383b8832329c975 ""
+  "H6.bcf" 1715957023.44752 107450 663c4bcb01dbb19c1ed6810972221e94 "pdflatex"
   (generated)
   "H6.bbl"
   "H6.blg"
   (rewritten before read)
-["pdflatex"] 1715890420.93098 "/Users/Chiara/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" "H6.pdf" "H6" 1715890422.48028 0
+["pdflatex"] 1715957022.23667 "/Users/Chiara/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" "H6.pdf" "H6" 1715957023.66762 0
   "../../Config/../../Config/Poli_logo.pdf" 1715872934.02316 40200 ce33d04866bc8fcea6b150776dafba1c ""
   "../../Config/../../Config/input.tex" 1715872934.02364 60 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "../../Config/../../Config/title_page_chapter.tex" 1715872934.0239 1178 37606b3b29c6c05108acd46da5d641db ""
@@ -168,17 +168,18 @@
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/wrapfig/wrapfig.sty" 1710519867.2398 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xltabular/xltabular.sty" 1710418874.62307 3623 13474540f7d9568bf6269d154cad18d4 ""
   "Body.tex" 1715872896.75166 271 accac33e6faab66b44e309caa6d75a3c ""
-  "H6.aux" 1715890422.23483 2900 4581d2d39f23bef6ccee1a3993a7e06d "pdflatex"
-  "H6.bbl" 1715873030.65878 2598 a4dac19f341d30016fddae8ecadee15a "biber H6"
-  "H6.out" 1715890422.23698 1462 dba1e1d6de1415071fca05597b542538 "pdflatex"
-  "H6.run.xml" 1715890422.24026 2299 e042f2dd3548995e0766f5bf07c8fff4 "pdflatex"
+  "H6.aux" 1715957023.44323 4050 529b902f014d298dc8c7b6716500c3a4 "pdflatex"
+  "H6.bbl" 1715936142.09511 3146 9cb7f913659cbbd6f52486c13caa2c5a "biber H6"
+  "H6.out" 1715957023.44601 1593 ddd6c303ffa99ded77602223561cf0cc "pdflatex"
+  "H6.run.xml" 1715957023.44874 2299 e042f2dd3548995e0766f5bf07c8fff4 "pdflatex"
   "H6.tex" 1715872896.75451 289 2917f78eb69f2c12fc56fab93ca25078 ""
-  "H6.toc" 1715890422.24049 710 3a70ceea662f956302f474f64efe23f0 "pdflatex"
-  "Images/EGA_flux_analysis.pdf" 1715872896.75501 37109 88fdeb6efc8269a9b64493264cf13af5 ""
+  "H6.toc" 1715957023.44892 798 29d5a77247b339d30ed5f9257b9d0810 "pdflatex"
+  "Images/Juno panels.jpg" 1715951581.42952 1179447 bbe42eb927ec45c2f24d6b61f7c812a7 ""
+  "Images/Solar panels reasoning.pdf" 1715952429.22161 77733 7749677104dbe09b95e533a834aa73b5 ""
   "Sections/00_notation.tex" 1715872896.75551 498 b828042036ecd24581ea87ca9e9432d5 ""
   "Sections/01_introduction.tex" 1715872896.75571 1008 8d9cb2405a60a8045c594b5034109e79 ""
   "Sections/02_phases.tex" 1715872896.75588 83 6e773c29ac58e42fa18e728d4100323d ""
-  "Sections/03_architecture_rationale.tex" 1715890420.27727 6642 0568cb3088591fae8eb53aad95a60091 ""
+  "Sections/03_architecture_rationale.tex" 1715957021.61813 9546 4742c411f35a92a48271505308f970ea ""
   "Sections/04_reverse_sizing.tex" 1715872896.7564 56 fed5b303edda4aa82e1a1beb6136fbbd ""
   (generated)
   "H6.aux"

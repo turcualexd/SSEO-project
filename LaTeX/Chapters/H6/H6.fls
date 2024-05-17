@@ -579,24 +579,31 @@ INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ts1jkp.fd
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ts1jkp.fd
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmn7c.tfm
-INPUT ./Images/EGA_flux_analysis.pdf
-INPUT ./Images/EGA_flux_analysis.pdf
-INPUT Images/EGA_flux_analysis.pdf
-INPUT ./Images/EGA_flux_analysis.pdf
-INPUT ./Images/EGA_flux_analysis.pdf
-INPUT ./Images/EGA_flux_analysis.pdf
-INPUT ./Sections/04_reverse_sizing.tex
-INPUT ./Sections/04_reverse_sizing.tex
-INPUT Sections/04_reverse_sizing.tex
-INPUT ./Sections/04_reverse_sizing.tex
-INPUT ./Sections/04_reverse_sizing.tex
-INPUT Sections/04_reverse_sizing.tex
+INPUT ./Images/Solar panels reasoning.pdf
+INPUT ./Images/Solar panels reasoning.pdf
+INPUT Images/Solar panels reasoning.pdf
+INPUT ./Images/Solar panels reasoning.pdf
+INPUT ./Images/Solar panels reasoning.pdf
+INPUT ./Images/Solar panels reasoning.pdf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpbn8t.vf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbn8r.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpbne.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmn7c.vf
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmnc.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/kpfonts/jkpmn7t.vf
+INPUT ./Images/Juno panels.jpg
+INPUT ./Images/Juno panels.jpg
+INPUT Images/Juno panels.jpg
+INPUT ./Images/Juno panels.jpg
+INPUT ./Images/Juno panels.jpg
+INPUT ./Images/Juno panels.jpg
+INPUT ./Images/Juno panels.jpg
+INPUT ./Sections/04_reverse_sizing.tex
+INPUT ./Sections/04_reverse_sizing.tex
+INPUT Sections/04_reverse_sizing.tex
+INPUT ./Sections/04_reverse_sizing.tex
+INPUT ./Sections/04_reverse_sizing.tex
+INPUT Sections/04_reverse_sizing.tex
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/kpfonts/jkpmit8t.tfm
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/t1jkptt.fd
 INPUT /Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/t1jkptt.fd
