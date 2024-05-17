@@ -90,4 +90,6 @@
 \contentsline {section}{\numberline {6.2}Analysis of power requirements along the mission}{46}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Architecture and rationale of EPS}{46}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Reverse sizing of EPS}{46}{section.6.4}%
-\contentsline {section}{Bibliography}{47}{section*.71}%
+\contentsline {subsection}{\numberline {6.4.1}Solar panels}{46}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Batteries}{47}{subsection.6.4.2}%
+\contentsline {section}{Bibliography}{48}{section*.73}%
