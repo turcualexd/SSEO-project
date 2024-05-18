@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  18 MAY 2024 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  18 MAY 2024 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1192,6 +1192,9 @@ LaTeX Warning: Missing reference on input line 114.
 
 LaTeX Warning: Missing reference on input line 116.
 
+
+LaTeX Warning: Missing reference on input line 124.
+
 )) [2]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
@@ -1218,9 +1221,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  87i,17n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H6.pdf (5 pages, 147556 bytes).
+Output written on H6.pdf (5 pages, 147426 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
+ 161 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
