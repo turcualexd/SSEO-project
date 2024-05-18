@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber SSEO_final_report"] 1715841138.65954 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1715871475.07697 0
-  "SSEO_final_report.bcf" 1715871474 121625 994aac50fa19b1b6bcd648322eeb7829 "pdflatex"
-  "bibliography.bib" 1715840811 18515 727c752c4f5d1b149b91668d50b92060 ""
+["biber SSEO_final_report"] 1716022765.0523 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1716022786.04312 0
+  "SSEO_final_report.bcf" 1716022785 121824 57f6f9fe4e042b89a18c9dd06eae8812 "pdflatex"
+  "bibliography.bib" 1716021198 19128 132d265d23dbc71771ca8a7398b83ae6 ""
   (generated)
   "SSEO_final_report.bbl"
   "SSEO_final_report.blg"
   (rewritten before read)
-["pdflatex"] 1715871463.54743 "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1715871475.07868 0
+["pdflatex"] 1716022780.52719 "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1716022786.04429 0
   "Body.tex" 1715785110 94 9c016409aa5cf5f839c3f7ff8f597ecb ""
   "C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1714737821 98856 87a9ac9606a61c06eccae2e23d0ace3d ""
   "C:/Users/paolo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1709996701 24233102 ffd0b880f648f975b92d2d4a3809c2a4 ""
@@ -245,11 +245,12 @@
   "Chapters/H5/Sections/04_reverse_sizing.tex" 1715785110 9017 9c928edc037cca3e7813a0b8b549328e ""
   "Chapters/H5/Sections/05_appendix.tex" 1715785110 3921 fb540783bb2bac4626cbe22b7f38f983 ""
   "Chapters/H6/Body.tex" 1715785110 279 accac33e6faab66b44e309caa6d75a3c ""
-  "Chapters/H6/Images/EGA_flux_analysis.pdf" 1715067217 37109 88fdeb6efc8269a9b64493264cf13af5 ""
+  "Chapters/H6/Images/Juno panels.jpg" 1716019620 1179447 b5405832e64d041656eaf3dac7c6d787 ""
+  "Chapters/H6/Images/Solar panels reasoning.pdf" 1716019620 90064 7e6a3da1ac548bc7ec73c537b098c356 ""
   "Chapters/H6/Sections/00_notation.tex" 1715785110 517 b828042036ecd24581ea87ca9e9432d5 ""
   "Chapters/H6/Sections/01_introduction.tex" 1715785110 1017 8d9cb2405a60a8045c594b5034109e79 ""
   "Chapters/H6/Sections/02_phases.tex" 1715785110 86 6e773c29ac58e42fa18e728d4100323d ""
-  "Chapters/H6/Sections/03_architecture_rationale.tex" 1715871450 5640 01ee8788b8471d531cf4f8db63b9ec3f ""
+  "Chapters/H6/Sections/03_architecture_rationale.tex" 1716022754 12559 d7391f92ba04bee0c17b7e85fb231d2d ""
   "Chapters/H6/Sections/04_reverse_sizing.tex" 1715785110 59 fed5b303edda4aa82e1a1beb6136fbbd ""
   "Config/Poli_logo.pdf" 1713433114 40200 4b51719258b4eb427d3de9091da52c22 ""
   "Config/commands.tex" 1715259185 2408 2cc2eb798f0de2c9d31a7bf7a1b8d6ec ""
@@ -257,12 +258,12 @@
   "Config/input.tex" 1713433114 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "Config/packages.tex" 1715184568 658 288ea85c6948f714480add2028104403 ""
   "Config/title_page_chapter.tex" 1713880123 1238 eb39290e5f913223b60117da7ea690fb ""
-  "SSEO_final_report.aux" 1715871474 51462 1f6a468c00871b76167bde7224a8c094 "pdflatex"
-  "SSEO_final_report.bbl" 1715841142 86671 db328ae7e0e6c17a5dbb83dcd2f59c79 "biber SSEO_final_report"
-  "SSEO_final_report.out" 1715871474 15300 e050b873ba0bd20876fb330a76fe7958 "pdflatex"
-  "SSEO_final_report.run.xml" 1715871474 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
+  "SSEO_final_report.aux" 1716022785 52940 68fd9b8939707d28bd2254939909f8ab "pdflatex"
+  "SSEO_final_report.bbl" 1716022768 87646 b251082e20b774c692d09e30138eeeb2 "biber SSEO_final_report"
+  "SSEO_final_report.out" 1716022785 15300 05e3afec381f683b78e46d3a7656219d "pdflatex"
+  "SSEO_final_report.run.xml" 1716022785 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
   "SSEO_final_report.tex" 1713433114 302 b4660636688eb40853cc4b918fb5ca99 ""
-  "SSEO_final_report.toc" 1715871474 7746 8bf848772e345392f3b5058b3a33560f "pdflatex"
+  "SSEO_final_report.toc" 1716022785 7879 bdaa66c50b5253b48f6cdf6395c80ada "pdflatex"
   "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/SSEO_final_report.tex" 1713433114 302 b4660636688eb40853cc4b918fb5ca99 ""
   (generated)
   "SSEO_final_report.aux"

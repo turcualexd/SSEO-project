@@ -91,5 +91,7 @@
 \contentsline {section}{\numberline {6.3}Architecture and rationale of EPS}{46}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Available alternatives}{46}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}Components and distribution}{46}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}Reverse sizing of EPS}{47}{section.6.4}%
-\contentsline {section}{Bibliography}{48}{section*.73}%
+\contentsline {subsubsection}{Solar arrays}{46}{subsubsection*.71}%
+\contentsline {subsubsection}{Batteries}{48}{subsubsection*.76}%
+\contentsline {section}{\numberline {6.4}Reverse sizing of EPS}{48}{section.6.4}%
+\contentsline {section}{Bibliography}{49}{section*.77}%
