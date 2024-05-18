@@ -136,6 +136,78 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{note}{Site: \url{https://www.eaglepicher.com/blog/batteries-enabling-planetary-and-deep-space-exploration/}}
     \endentry
+    \entry{JEDI_info}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c9a681ea906e163bb1d7488ff50ddd9b}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={S.E.\bibnamedelimi Jaskulek},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9a681ea906e163bb1d7488ff50ddd9b}
+      \strng{fullhash}{c9a681ea906e163bb1d7488ff50ddd9b}
+      \strng{bibnamehash}{c9a681ea906e163bb1d7488ff50ddd9b}
+      \strng{authorbibnamehash}{c9a681ea906e163bb1d7488ff50ddd9b}
+      \strng{authornamehash}{c9a681ea906e163bb1d7488ff50ddd9b}
+      \strng{authorfullhash}{c9a681ea906e163bb1d7488ff50ddd9b}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Jupiter Energetic Particle Detector Instrument (JEDI) Investigation for the Juno Mission}
+      \field{year}{2013}
+    \endentry
+    \entry{JADE_info}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0340c426bd0a550528e3774f5ad279b6}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={D.J.\bibnamedelimi McComas},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{0340c426bd0a550528e3774f5ad279b6}
+      \strng{fullhash}{0340c426bd0a550528e3774f5ad279b6}
+      \strng{bibnamehash}{0340c426bd0a550528e3774f5ad279b6}
+      \strng{authorbibnamehash}{0340c426bd0a550528e3774f5ad279b6}
+      \strng{authornamehash}{0340c426bd0a550528e3774f5ad279b6}
+      \strng{authorfullhash}{0340c426bd0a550528e3774f5ad279b6}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Jovian Auroral Distributions Experiment (JADE) on the Juno Mission to Jupiter}
+      \field{year}{2012}
+    \endentry
+    \entry{MAG_info}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9ad22356199626f5e49d4951062a422f}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={R.\bibnamedelimi Schnurr},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ad22356199626f5e49d4951062a422f}
+      \strng{fullhash}{9ad22356199626f5e49d4951062a422f}
+      \strng{bibnamehash}{9ad22356199626f5e49d4951062a422f}
+      \strng{authorbibnamehash}{9ad22356199626f5e49d4951062a422f}
+      \strng{authornamehash}{9ad22356199626f5e49d4951062a422f}
+      \strng{authorfullhash}{9ad22356199626f5e49d4951062a422f}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Juno Magnetic Field Investigation}
+      \field{year}{2016}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
