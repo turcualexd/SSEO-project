@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H6"] 1716064582.94125 "H6.bcf" "H6.bbl" "H6" 1716065485.03942 0
+["biber H6"] 1716064582.94125 "H6.bcf" "H6.bbl" "H6" 1716065661.85568 0
   "../../bibliography.bib" 1716064440 19282 8890095563f4cb35d7a7bb4eac08704c ""
-  "H6.bcf" 1716065484 108136 f9c6a97a375bfab3579b43da02e0e205 "pdflatex"
+  "H6.bcf" 1716065661 108136 f9c6a97a375bfab3579b43da02e0e205 "pdflatex"
   (generated)
   "H6.bbl"
   "H6.blg"
   (rewritten before read)
-["pdflatex"] 1716065480.96697 "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" "H6.pdf" "H6" 1716065485.04051 0
+["pdflatex"] 1716065658.43152 "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" "H6.pdf" "H6" 1716065661.85679 0
   "../../Config/Poli_logo.pdf" 1713433114 40200 4b51719258b4eb427d3de9091da52c22 ""
   "../../Config/commands.tex" 1716059945 2408 2cc2eb798f0de2c9d31a7bf7a1b8d6ec ""
   "../../Config/formats.tex" 1716064440 2463 46d9aaaefb7050ce719a041fbf80d3d3 ""
@@ -164,19 +164,19 @@
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/paolo/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604485412 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H6.aux" 1716065484 6072 6e9e63e4583ec3d44b06ee085247a8c5 "pdflatex"
+  "H6.aux" 1716065661 6072 6e9e63e4583ec3d44b06ee085247a8c5 "pdflatex"
   "H6.bbl" 1716064586 9369 ab858dcc88600254c74fac9af7ba0147 "biber H6"
-  "H6.out" 1716065484 1979 fb5d0864581c7766f9ee2a2c922e1071 "pdflatex"
-  "H6.run.xml" 1716065484 2299 e042f2dd3548995e0766f5bf07c8fff4 "pdflatex"
+  "H6.out" 1716065661 1979 fb5d0864581c7766f9ee2a2c922e1071 "pdflatex"
+  "H6.run.xml" 1716065661 2299 e042f2dd3548995e0766f5bf07c8fff4 "pdflatex"
   "H6.tex" 1716046315 309 2917f78eb69f2c12fc56fab93ca25078 ""
-  "H6.toc" 1716065484 1046 147aa272a425ca9b42eac16364fff066 "pdflatex"
+  "H6.toc" 1716065661 1046 147aa272a425ca9b42eac16364fff066 "pdflatex"
   "Images/Juno batteries.png" 1716064440 1347520 54b4b5564b0387bd10cdb18b4cdcd135 ""
   "Images/Juno panels.jpg" 1716063970 1179447 b5405832e64d041656eaf3dac7c6d787 ""
   "Images/Solar panels reasoning.pdf" 1716063970 90064 7e6a3da1ac548bc7ec73c537b098c356 ""
   "Sections/00_notation.tex" 1716064440 1052 588df9a2dcbaca9a17ac2bb94c6236ef ""
   "Sections/01_introduction.tex" 1716063970 1017 8d9cb2405a60a8045c594b5034109e79 ""
   "Sections/02_phases.tex" 1716064440 86 6e773c29ac58e42fa18e728d4100323d ""
-  "Sections/03_architecture_rationale.tex" 1716065473 16465 2715fae1c610afed3482d613d2403a9b ""
+  "Sections/03_architecture_rationale.tex" 1716065656 16463 aa803d78c0c3a03d545bf306a57cbb03 ""
   "Sections/04_reverse_sizing.tex" 1716063970 59 fed5b303edda4aa82e1a1beb6136fbbd ""
   "c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" 1716046315 309 2917f78eb69f2c12fc56fab93ca25078 ""
   (generated)
