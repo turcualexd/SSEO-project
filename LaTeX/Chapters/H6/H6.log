@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  18 MAY 2024 11:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  18 MAY 2024 17:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1164,18 +1164,21 @@ pdfTeX warning: pdflatex (file ./Images/Solar panels reasoning.pdf): PDF inclusi
 <Images/Solar panels reasoning.pdf, id=91, 377.49028pt x 257.04028pt>
 File: Images/Solar panels reasoning.pdf Graphic file (type pdf)
 <use Images/Solar panels reasoning.pdf>
-Package pdftex.def Info: Images/Solar panels reasoning.pdf  used on input line 36.
-(pdftex.def)             Requested size: 358.50317pt x 244.12413pt.
+Package pdftex.def Info: Images/Solar panels reasoning.pdf  used on input line 38.
+(pdftex.def)             Requested size: 307.2929pt x 209.25261pt.
 <Images/Juno panels.jpg, id=95, 3956.52803pt x 4155.01605pt>
 File: Images/Juno panels.jpg Graphic file (type jpg)
 <use Images/Juno panels.jpg>
-Package pdftex.def Info: Images/Juno panels.jpg  used on input line 66.
-(pdftex.def)             Requested size: 230.46576pt x 241.99916pt.
-[2 <./Images/Solar panels reasoning.pdf>]
+Package pdftex.def Info: Images/Juno panels.jpg  used on input line 72.
+(pdftex.def)             Requested size: 204.85672pt x 215.11742pt.
+[2 <./Images/Solar panels reasoning.pdf> <./Images/Juno panels.jpg>]
 
-LaTeX Warning: Missing reference on input line 114.
+LaTeX Warning: Missing reference on input line 119.
 
-) (Sections/04_reverse_sizing.tex)) [3 <./Images/Juno panels.jpg>]
+
+LaTeX Warning: Missing reference on input line 122.
+
+) (Sections/04_reverse_sizing.tex)) [3]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1193,17 +1196,17 @@ Package logreq Info: Writing requests to 'H6.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24049 strings out of 474436
- 412823 string characters out of 5741955
- 1942190 words of memory out of 5000000
- 45981 multiletter control sequences out of 15000+600000
+ 24064 strings out of 474436
+ 413404 string characters out of 5741955
+ 1946190 words of memory out of 5000000
+ 45993 multiletter control sequences out of 15000+600000
  655560 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,10n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,10n,102p,1604b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H6.pdf (6 pages, 1402041 bytes).
+Output written on H6.pdf (6 pages, 1406801 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
  104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
