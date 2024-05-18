@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  18 MAY 2024 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  18 MAY 2024 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1199,21 +1199,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H6.out' has not changed.
-(rerunfilecheck)             Checksum: BFFDF0FA8B545BDD7B2C940AEF7BC41A;1999.
+(rerunfilecheck)             Checksum: FB5D0864581C7766F9EE2A2C922E1071;1979.
 Package logreq Info: Writing requests to 'H6.run.xml'.
 \openout1 = `H6.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24101 strings out of 474436
- 414455 string characters out of 5741955
+ 24102 strings out of 474436
+ 414468 string characters out of 5741955
  1947190 words of memory out of 5000000
- 46020 multiletter control sequences out of 15000+600000
+ 46021 multiletter control sequences out of 15000+600000
  655560 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,10n,102p,1604b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H6.pdf (7 pages, 2666556 bytes).
+Output written on H6.pdf (7 pages, 2667513 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)
