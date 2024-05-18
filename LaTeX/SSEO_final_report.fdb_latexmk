@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber SSEO_final_report"] 1715933119.03674 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1715933185.42005 0
-  "SSEO_final_report.bcf" 1715933185 122893 28dbd02cf853fd2199e91b0510b03f6f "pdflatex"
-  "bibliography.bib" 1715866829 18444 55781844464b791d9dbaeb66fb2b2722 ""
+["biber SSEO_final_report"] 1716050730.03025 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1716050740.29962 0
+  "SSEO_final_report.bcf" 1716050740 123649 7fecf03238d512aa0836146cb3f59625 "pdflatex"
+  "bibliography.bib" 1716050729 19500 d4cd21d34768ba780e3d45a132c309ca ""
   (generated)
   "SSEO_final_report.bbl"
   "SSEO_final_report.blg"
   (rewritten before read)
-["pdflatex"] 1715933182.80817 "c:/Users/ricky/Documents/GitHub/SSEO-project/LaTeX/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1715933185.42047 0
+["pdflatex"] 1716050737.48238 "c:/Users/ricky/Documents/GitHub/SSEO-project/LaTeX/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1716050740.30018 0
   "Body.tex" 1715781527 94 9c016409aa5cf5f839c3f7ff8f597ecb ""
   "C:/Users/ricky/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1714999233 98856 87a9ac9606a61c06eccae2e23d0ace3d ""
   "C:/Users/ricky/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1713037009 24236006 aed284780b67cb5d81229c114ac539a8 ""
@@ -245,10 +245,12 @@
   "Chapters/H5/Sections/04_reverse_sizing.tex" 1715781521 9017 9c928edc037cca3e7813a0b8b549328e ""
   "Chapters/H5/Sections/05_appendix.tex" 1715257167 3921 fb540783bb2bac4626cbe22b7f38f983 ""
   "Chapters/H6/Body.tex" 1715781527 279 accac33e6faab66b44e309caa6d75a3c ""
-  "Chapters/H6/Sections/00_notation.tex" 1715929673 1418 9841998101cbf18d6ab270033cdcbe18 ""
+  "Chapters/H6/Images/Juno panels.jpg" 1716037513 1179447 b5405832e64d041656eaf3dac7c6d787 ""
+  "Chapters/H6/Images/Solar panels reasoning.pdf" 1716037516 90064 7e6a3da1ac548bc7ec73c537b098c356 ""
+  "Chapters/H6/Sections/00_notation.tex" 1716050663 2009 8c657707d698fa1ce8d3ecd9aeb30e8f ""
   "Chapters/H6/Sections/01_introduction.tex" 1715781792 1017 8d9cb2405a60a8045c594b5034109e79 ""
-  "Chapters/H6/Sections/02_phases.tex" 1715933182 5041 ac2cd1e96f008fe19301cb5d71f31c79 ""
-  "Chapters/H6/Sections/03_architecture_rationale.tex" 1715781527 87 9de9d0cec7edef5fa6e2dc67fddb6c7b ""
+  "Chapters/H6/Sections/02_phases.tex" 1716050554 5225 89c8cbc7578e8188c1c4cc98ce76c464 ""
+  "Chapters/H6/Sections/03_architecture_rationale.tex" 1716050700 14313 38ce853b3beef0b80172650d5792330e ""
   "Chapters/H6/Sections/04_reverse_sizing.tex" 1715781527 59 fed5b303edda4aa82e1a1beb6136fbbd ""
   "Config/Poli_logo.pdf" 1713771757 40200 4b51719258b4eb427d3de9091da52c22 ""
   "Config/commands.tex" 1715259892 2408 2cc2eb798f0de2c9d31a7bf7a1b8d6ec ""
@@ -256,12 +258,12 @@
   "Config/input.tex" 1713771757 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "Config/packages.tex" 1715238488 658 288ea85c6948f714480add2028104403 ""
   "Config/title_page_chapter.tex" 1713771757 1238 eb39290e5f913223b60117da7ea690fb ""
-  "SSEO_final_report.aux" 1715933185 51824 287ea9b3e90233abb88d159ab840442d "pdflatex"
-  "SSEO_final_report.bbl" 1715933125 98833 55dc2fcfb840901ce9c9e3525325d11d "biber SSEO_final_report"
-  "SSEO_final_report.out" 1715933185 14922 3c5f278cd262ee2ca92c8f3c2cd430a1 "pdflatex"
-  "SSEO_final_report.run.xml" 1715933185 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
+  "SSEO_final_report.aux" 1716050740 55206 9e7051ffec5558126d8ea414938cbcc6 "pdflatex"
+  "SSEO_final_report.bbl" 1716050731 104941 0fc7d6b4b3be72516ac2bd5904d9c6e7 "biber SSEO_final_report"
+  "SSEO_final_report.out" 1716050740 15300 4ce9b678f10425e8ee7860900cc25931 "pdflatex"
+  "SSEO_final_report.run.xml" 1716050740 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
   "SSEO_final_report.tex" 1715177532 302 b4660636688eb40853cc4b918fb5ca99 ""
-  "SSEO_final_report.toc" 1715933185 7555 4d25428868aea25ed100bec1507da831 "pdflatex"
+  "SSEO_final_report.toc" 1716050740 7879 f636d8f5cae6f730c0c0be9852a4c79e "pdflatex"
   "c:/Users/ricky/Documents/GitHub/SSEO-project/LaTeX/SSEO_final_report.tex" 1715177532 302 b4660636688eb40853cc4b918fb5ca99 ""
   (generated)
   "SSEO_final_report.aux"

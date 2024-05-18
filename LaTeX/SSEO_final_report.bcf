@@ -2594,6 +2594,17 @@
     <bcf:citekey order="3" intorder="1">LL_complete_mission</bcf:citekey>
     <bcf:citekey order="4" intorder="1">C&amp;DH_power</bcf:citekey>
     <bcf:citekey order="5" intorder="1">esa_margins</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">nh_rtg</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">plutonium</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">arrays_mass</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">masses_ref</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">batteries_juno</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">batteries_juno</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">juno_inner</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">batteries_position</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">batteries_position</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

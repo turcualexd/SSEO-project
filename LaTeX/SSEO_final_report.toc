@@ -89,5 +89,9 @@
 \contentsline {section}{\numberline {6.1}Introduction of EPS}{46}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Analysis of power requirements along the mission}{46}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Architecture and rationale of EPS}{47}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Reverse sizing of EPS}{47}{section.6.4}%
-\contentsline {section}{Bibliography}{48}{section*.72}%
+\contentsline {subsection}{\numberline {6.3.1}Available alternatives}{47}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Components and distribution}{47}{subsection.6.3.2}%
+\contentsline {subsubsection}{Solar arrays}{47}{subsubsection*.72}%
+\contentsline {subsubsection}{Batteries}{49}{subsubsection*.77}%
+\contentsline {section}{\numberline {6.4}Reverse sizing of EPS}{49}{section.6.4}%
+\contentsline {section}{Bibliography}{50}{section*.78}%
