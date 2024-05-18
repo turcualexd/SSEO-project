@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  16 MAY 2024 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  18 MAY 2024 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1391,38 +1391,48 @@ Package biblatex Info: Setting label 'refsection:6' on input line 6.
 LaTeX Warning: Missing reference on input line 11.
 
 
-LaTeX Warning: Missing reference on input line 13.
 
-<Chapters/H6/Images/EGA_flux_analysis.pdf, id=2293, 398.99063pt x 301.125pt>
-File: Chapters/H6/Images/EGA_flux_analysis.pdf Graphic file (type pdf)
-<use Chapters/H6/Images/EGA_flux_analysis.pdf>
-Package pdftex.def Info: Chapters/H6/Images/EGA_flux_analysis.pdf  used on input line 43.
-(pdftex.def)             Requested size: 256.07481pt x 193.2707pt.
-) (Chapters/H6/Sections/04_reverse_sizing.tex [46])) [47 <./Chapters/H6/Images/EGA_flux_analysis.pdf>]
+pdfTeX warning: pdflatex (file ./Chapters/H6/Images/Solar panels reasoning.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Chapters/H6/Images/Solar panels reasoning.pdf, id=2294, 377.49028pt x 257.04028pt>
+File: Chapters/H6/Images/Solar panels reasoning.pdf Graphic file (type pdf)
+<use Chapters/H6/Images/Solar panels reasoning.pdf>
+Package pdftex.def Info: Chapters/H6/Images/Solar panels reasoning.pdf  used on input line 37.
+(pdftex.def)             Requested size: 358.50317pt x 244.12413pt.
+[46]
+<Chapters/H6/Images/Juno panels.jpg, id=2307, 3956.52803pt x 4155.01605pt>
+File: Chapters/H6/Images/Juno panels.jpg Graphic file (type jpg)
+<use Chapters/H6/Images/Juno panels.jpg>
+Package pdftex.def Info: Chapters/H6/Images/Juno panels.jpg  used on input line 67.
+(pdftex.def)             Requested size: 230.46576pt x 241.99916pt.
+ [47 <./Chapters/H6/Images/Solar panels reasoning.pdf>]
+
+LaTeX Warning: Missing reference on input line 115.
+
+) (Chapters/H6/Sections/04_reverse_sizing.tex)) [48 <./Chapters/H6/Images/Juno panels.jpg>]
 Package biblatex Info: Reference section=0 on input line 6.
-) [48] (SSEO_final_report.aux)
+) [49] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: E050B873BA0BD20876FB330A76FE7958;15300.
+(rerunfilecheck)             Checksum: 05E3AFEC381F683B78E46D3A7656219D;15300.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25817 strings out of 474436
- 463693 string characters out of 5741955
+ 25854 strings out of 474436
+ 464874 string characters out of 5741955
  1974190 words of memory out of 5000000
- 47232 multiletter control sequences out of 15000+600000
+ 47259 multiletter control sequences out of 15000+600000
  803758 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,20n,102p,1950b,2300s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (51 pages, 6193744 bytes).
+Output written on SSEO_final_report.pdf (52 pages, 7434569 bytes).
 PDF statistics:
- 2446 PDF objects out of 2487 (max. 8388607)
- 334 named destinations out of 1000 (max. 500000)
- 903 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2477 PDF objects out of 2487 (max. 8388607)
+ 342 named destinations out of 1000 (max. 500000)
+ 908 words of extra memory for PDF output out of 10000 (max. 10000000)
 

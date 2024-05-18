@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'H6.blg'
+[175] biber-MSWIN64:340> INFO - === 
+[230] Biber.pm:419> INFO - Reading 'H6.bcf'
+[376] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[376] Biber.pm:979> INFO - Found 4 citekeys in bib section 1
+[376] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[407] Biber.pm:4419> INFO - Processing section 1
+[428] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
+[523] bibtex.pm:1713> INFO - LaTeX decoding ...
+[641] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
+[692] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[692] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[693] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[693] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[696] bbl.pm:660> INFO - Writing 'H6.bbl' with encoding 'UTF-8'
+[698] bbl.pm:763> INFO - Output to H6.bbl
