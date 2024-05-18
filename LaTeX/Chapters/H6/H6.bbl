@@ -19,38 +19,6 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
-    \entry{nh_rtg}{article}{}
-      \name{author}{1}{}{%
-        {{hash=56b44983d002d0a201b3b1390cb6d840}{%
-           family={Bennett},
-           familyi={B\bibinitperiod},
-           given={Gary\bibnamedelima L.},
-           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \strng{namehash}{56b44983d002d0a201b3b1390cb6d840}
-      \strng{fullhash}{56b44983d002d0a201b3b1390cb6d840}
-      \strng{bibnamehash}{56b44983d002d0a201b3b1390cb6d840}
-      \strng{authorbibnamehash}{56b44983d002d0a201b3b1390cb6d840}
-      \strng{authornamehash}{56b44983d002d0a201b3b1390cb6d840}
-      \strng{authorfullhash}{56b44983d002d0a201b3b1390cb6d840}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{4th International Energy Conversion Engineering Conference and Exhibit (IECEC) 26-29 June 2006, San Diego, California}
-      \field{title}{Space Nuclear Power: Opening the Final Frontier}
-      \field{year}{2006}
-    \endentry
-    \entry{plutonium}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{note}{Site: \url{https://web.archive.org/web/20200803065501/https://www.npr.org/templates/story/story.php?storyId=113223613}}
-    \endentry
-    \entry{arrays_mass}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{note}{Site: \url{https://web.archive.org/web/20141225031236/http://www.nasa-usa.de/mission_pages/juno/launch/Juno_solarpower.html}}
-    \endentry
     \entry{masses_ref}{misc}{}
       \name{author}{1}{}{%
         {{hash=b72ac823d25cea6b75733918733a005d}{%
@@ -72,13 +40,6 @@
       \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/juno/facts/}}
       \field{title}{Juno Quick Facts}
       \field{year}{2011}
-    \endentry
-    \entry{batteries_juno}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labeltitlesource}{title}
-      \field{note}{Site: \url{https://www.eaglepicher.com/technology/battery-chemistries/lithium-ion/}}
-      \field{title}{Proven battery technology utilizing high energy long-cycle life, low weight and small volume lithium-ion cells}
     \endentry
     \entry{solar_panels_coef}{article}{}
       \name{author}{1}{}{%
@@ -131,12 +92,12 @@
       \field{title}{Maneuver Design for the Juno Mission: Inner Cruise}
       \field{year}{2018}
     \endentry
-    \entry{batteries_position}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{note}{Site: \url{https://www.eaglepicher.com/blog/batteries-enabling-planetary-and-deep-space-exploration/}}
-    \endentry
   \enddatalist
+  \missing{arrays_mass}
+  \missing{batteries_juno}
+  \missing{batteries_position}
+  \missing{nh_rtg}
+  \missing{plutonium}
 \endrefsection
 \endinput
 

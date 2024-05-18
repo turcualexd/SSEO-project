@@ -1,17 +1,23 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'H6.blg'
-[163] biber-MSWIN64:340> INFO - === 
-[218] Biber.pm:419> INFO - Reading 'H6.bcf'
-[360] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[361] Biber.pm:979> INFO - Found 8 citekeys in bib section 1
-[361] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[389] Biber.pm:4419> INFO - Processing section 1
-[405] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
-[482] bibtex.pm:1713> INFO - LaTeX decoding ...
-[572] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
-[638] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[638] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[638] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[638] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[645] bbl.pm:660> INFO - Writing 'H6.bbl' with encoding 'UTF-8'
-[649] bbl.pm:763> INFO - Output to H6.bbl
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'H6.blg'
+[108] biber-MSWIN64:340> INFO - === 
+[144] Biber.pm:418> INFO - Reading 'H6.bcf'
+[241] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[241] Biber.pm:978> INFO - Found 8 citekeys in bib section 1
+[241] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[262] Biber.pm:4401> INFO - Processing section 1
+[273] Biber.pm:4592> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
+[331] bibtex.pm:1713> INFO - LaTeX decoding ...
+[386] bibtex.pm:1518> INFO - Found BibTeX data source '../../bibliography.bib'
+[442] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[442] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[443] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[443] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[447] bbl.pm:654> INFO - Writing 'H6.bbl' with encoding 'UTF-8'
+[449] bbl.pm:757> INFO - Output to H6.bbl
+[449] Biber.pm:130> WARN - I didn't find a database entry for 'nh_rtg' (section 1)
+[449] Biber.pm:130> WARN - I didn't find a database entry for 'plutonium' (section 1)
+[449] Biber.pm:130> WARN - I didn't find a database entry for 'arrays_mass' (section 1)
+[449] Biber.pm:130> WARN - I didn't find a database entry for 'batteries_juno' (section 1)
+[449] Biber.pm:130> WARN - I didn't find a database entry for 'batteries_position' (section 1)
+[449] Biber.pm:132> INFO - WARNINGS: 5

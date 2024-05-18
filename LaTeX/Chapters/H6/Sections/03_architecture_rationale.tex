@@ -125,3 +125,20 @@ This design mission required 33 science orbits around Jupiter, one EGA and a tot
 The positioning of the batteries is critical given the harsh environment Juno faces: temperature range for the on board batteries is tighter than the solar panels' one. The latter are rated to work between -133 °C and +96 °C, the batteries instead are only capable to withstand temperatures between -20°C to +40°C. 
 
 As the batteries are mounted on top of the propulsion module, and linked to all the instruments by external and shielded cables, on the exterior of the S/C, they need to be protected thermally, while they are rated to withstand the predicted radiation along Juno's orbit around Jupiter\cite{batteries_position}. A MLI blanket over a Beryllium box is present to help the heaters keeping the batteries inside their operating range. Given the size of the batteries, 30.1 cm $\times$ 20.56 cm $\times$ 23.85 cm each, they could not be placed inside the vault, where all the electronics is positioned: dimension needed for the vault (now at  $\approx$ 80 cm $\times$ 80 cm $\times$ 70 cm ) would have almost doubled and thus its mass would have been significantly higher, at over 200 kg \cite{batteries_position}. 
+
+\subsubsection{Power distribution}
+\label{subsec: pwr_distribution}
+
+The EPS of Juno handles the generation of power from the solar array  in order to cope with the large Sun range variation. Before 2000s, few missions were capable to produce such energy with merely solar panels. The increased efficiency of solar cells technology, reliability and methods to cleverly rearrange cell strings configuration have allowed the access of this technology also to deep space missions such Juno. 
+Due to lack of information about the primary source distribution method, the Solar Array Switching Unit (SASU) patent developed by Nasa and Lockheed Martin in 1998 was assumed to be the one used. \mref 
+As previously said, the need to have three different strings is driven by the different radiation and temperature conditions encountered along the mission that change the performances of the cells. The patent of the SASU comes from the need to manage in a clever way the power generation, in order to furnish always a constant voltage to the main bus and fulfil the power demand of the subsystems. The switching unit is composed by:
+\begin{itemize}
+    \item switch circuits to connect the strings as imposed by the control system;
+    \item the control system;
+    \item external shunt power card, which shunts the excess of power generated;
+\end{itemize}
+
+Regarding the batteries, since they are kept in a range of charge dictated by survivability requirements, it can be reasonably assumed that a BCR and BDR are present. 
+
+The central bus supplies all the loads which are then self-regulated in order to generate the required tension and current. This is particularly true for the P/L subsystem in which every instrument have high voltage request or the need to be supplied by AC. 
+
