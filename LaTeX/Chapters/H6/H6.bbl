@@ -169,13 +169,6 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{note}{Site: \url{https://www.spectrolab.com/photovoltaics/UTJ-CIC_Data_Sheet.pdf}}
     \endentry
-    \entry{batteries_juno}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{note}{Site: \url{https://www.eaglepicher.com/technology/battery-chemistries/lithium-ion/}}
-      \field{title}{Proven battery technology utilizing high energy long-cycle life, low weight and small volume lithium-ion cells}
-    \endentry
     \entry{solar_panels_coef}{article}{}
       \name{author}{1}{}{%
         {{hash=b61f050da6dab86436e5594227372614}{%
@@ -200,6 +193,13 @@
       \field{howpublished}{Paper}
       \field{title}{JUNO Photovoltaic Power at Jupiter}
       \field{year}{2012}
+    \endentry
+    \entry{batteries_juno}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Site: \url{https://www.eaglepicher.com/technology/battery-chemistries/lithium-ion/}}
+      \field{title}{Proven battery technology utilizing high energy long-cycle life, low weight and small volume lithium-ion cells}
     \endentry
     \entry{juno_inner}{misc}{}
       \name{author}{1}{}{%
@@ -233,13 +233,13 @@
       \field{note}{Site: \url{https://www.eaglepicher.com/blog/batteries-enabling-planetary-and-deep-space-exploration/}}
     \endentry
     \entry{sasu}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{note}{Site: \url{https://ntrs.nasa.gov/citations/20080004115}}
     \endentry
     \entry{bat_regulator}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{note}{Site: \url{https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/JUNO/juno.html}}
     \endentry
     \entry{systems_book}{article}{}
@@ -351,8 +351,8 @@
       \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
       \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
       \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Website}
