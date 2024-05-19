@@ -93,5 +93,7 @@
 \contentsline {subsection}{\numberline {6.3.2}Components and distribution}{46}{subsection.6.3.2}%
 \contentsline {subsubsection}{Solar arrays}{46}{subsubsection*.71}%
 \contentsline {subsubsection}{Batteries}{48}{subsubsection*.76}%
-\contentsline {section}{\numberline {6.4}Reverse sizing of EPS}{48}{section.6.4}%
-\contentsline {section}{Bibliography}{49}{section*.77}%
+\contentsline {subsubsection}{Power distribution}{48}{subsubsection*.78}%
+\contentsline {section}{\numberline {6.4}EPS operation}{49}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Reverse sizing of EPS}{49}{section.6.5}%
+\contentsline {section}{Bibliography}{50}{section*.79}%

@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {3.2}Components and distribution}{1}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Solar arrays}{1}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Batteries}{3}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Power distribution}{4}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3}Power distribution}{3}{subsubsection.3.2.3}%
 \contentsline {section}{\numberline {4}EPS operation}{4}{section.4}%
 \contentsline {section}{\numberline {5}Reverse sizing of EPS}{4}{section.5}%
 \contentsline {section}{Bibliography}{5}{section*.9}%
