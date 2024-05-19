@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  19 MAY 2024 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  19 MAY 2024 15:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1419,52 +1419,33 @@ Package pdftex.def Info: Chapters/H6/Images/Juno batteries.png  used on input li
 (pdftex.def)             Requested size: 230.46576pt x 230.4611pt.
 
 
-LaTeX Warning: Missing reference on input line 123.
+LaTeX Warning: Missing reference on input line 121.
 
-[48 <./Chapters/H6/Images/Juno batteries.png>]
-
-LaTeX Warning: Citation 'JEDI_info' on page 49 undefined on input line 133.
-
-
-LaTeX Warning: Citation 'JADE_info' on page 49 undefined on input line 133.
-
-
-LaTeX Warning: Citation 'MAG_info' on page 49 undefined on input line 133.
-
-) (Chapters/H6/Sections/04_reverse_sizing.tex)) [49]
+[48 <./Chapters/H6/Images/Juno batteries.png>]) (Chapters/H6/Sections/04_reverse_sizing.tex)) [49]
 Package biblatex Info: Reference section=0 on input line 6.
 ) [50] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
 (rerunfilecheck)             Checksum: 793722BBEEAEA9CDAFDAB16C81C18921;15425.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                SSEO_final_report
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25887 strings out of 474436
- 465957 string characters out of 5741955
+ 25899 strings out of 474436
+ 466376 string characters out of 5741955
  1974190 words of memory out of 5000000
- 47284 multiletter control sequences out of 15000+600000
+ 47293 multiletter control sequences out of 15000+600000
  803758 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,20n,102p,1966b,2300s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,20n,102p,2913b,2300s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (53 pages, 8696624 bytes).
+Output written on SSEO_final_report.pdf (53 pages, 8698148 bytes).
 PDF statistics:
- 2502 PDF objects out of 2984 (max. 8388607)
- 349 named destinations out of 1000 (max. 500000)
+ 2509 PDF objects out of 2984 (max. 8388607)
+ 352 named destinations out of 1000 (max. 500000)
  921 words of extra memory for PDF output out of 10000 (max. 10000000)
 
