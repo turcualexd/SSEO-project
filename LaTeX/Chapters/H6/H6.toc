@@ -1,14 +1,16 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{Contents}{i}{section*.2}%
-\contentsline {section}{Notation}{i}{section*.3}%
+\contentsline {section}{Notation}{ii}{section*.3}%
 \contentsline {section}{\numberline {1}Introduction of EPS}{1}{section.1}%
 \contentsline {section}{\numberline {2}Analysis of power requirements along the mission}{1}{section.2}%
-\contentsline {section}{\numberline {3}Architecture and rationale of EPS}{1}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Available alternatives}{1}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Components and distribution}{1}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Solar arrays}{1}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Batteries}{3}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Power distribution}{3}{subsubsection.3.2.3}%
-\contentsline {section}{\numberline {4}EPS operation}{4}{section.4}%
-\contentsline {section}{\numberline {5}Reverse sizing of EPS}{4}{section.5}%
-\contentsline {section}{Bibliography}{5}{section*.9}%
+\contentsline {section}{\numberline {3}Architecture and rationale of EPS}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Available alternatives}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Components and distribution}{2}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Solar arrays}{2}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Batteries}{4}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Power distribution}{4}{subsubsection.3.2.3}%
+\contentsline {section}{\numberline {4}EPS operation}{5}{section.4}%
+\contentsline {section}{\numberline {5}Reverse sizing of EPS}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Solar panels}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Batteries}{6}{subsection.5.2}%
+\contentsline {section}{Bibliography}{7}{section*.13}%
