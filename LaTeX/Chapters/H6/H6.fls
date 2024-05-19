@@ -531,18 +531,6 @@ INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpe
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpexa.tfm
 OUTPUT H6.toc
-INPUT .\Body.tex
-INPUT .\Body.tex
-INPUT Body.tex
-INPUT .\Body.tex
-INPUT .\Body.tex
-INPUT Body.tex
-INPUT .\Sections\00_notation.tex
-INPUT .\Sections\00_notation.tex
-INPUT Sections\00_notation.tex
-INPUT .\Sections\00_notation.tex
-INPUT .\Sections\00_notation.tex
-INPUT Sections\00_notation.tex
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
@@ -552,6 +540,61 @@ INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
+INPUT .\Body.tex
+INPUT .\Body.tex
+INPUT Body.tex
+INPUT .\Body.tex
+INPUT .\Body.tex
+INPUT Body.tex
+INPUT .\Sections\00_notation.tex
+INPUT .\Sections\00_notation.tex
+INPUT Sections\00_notation.tex
+INPUT .\Sections\00_notation.tex
+INPUT .\Sections\00_notation.tex
+INPUT Sections\00_notation.tex
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn7t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn7t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn7t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbmi.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbmi.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbmi.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsy.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsy.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsy.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbex.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbex.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbex.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbmia.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbmia.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbmia.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsya.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsya.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsya.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsyb.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsyb.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsyb.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsyc.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsyc.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsyc.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbexa.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbexa.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbexa.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7c.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn7t.vf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
 INPUT .\Sections\01_introduction.tex
 INPUT .\Sections\01_introduction.tex
 INPUT Sections\01_introduction.tex
@@ -564,6 +607,15 @@ INPUT Sections\02_phases.tex
 INPUT .\Sections\02_phases.tex
 INPUT .\Sections\02_phases.tex
 INPUT Sections\02_phases.tex
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
 INPUT .\Sections\03_architecture_rationale.tex
 INPUT .\Sections\03_architecture_rationale.tex
 INPUT Sections\03_architecture_rationale.tex
@@ -571,28 +623,14 @@ INPUT .\Sections\03_architecture_rationale.tex
 INPUT .\Sections\03_architecture_rationale.tex
 INPUT Sections\03_architecture_rationale.tex
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7c.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
-INPUT .\Images\Solar panels reasoning.pdf
 INPUT .\Images\Solar panels reasoning.pdf
 INPUT Images\Solar panels reasoning.pdf
 INPUT .\Images\Solar panels reasoning.pdf
 INPUT .\Images\Solar panels reasoning.pdf
 INPUT .\Images\Solar panels reasoning.pdf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
 INPUT .\Images\Juno panels.jpg
 INPUT .\Images\Juno panels.jpg
 INPUT Images\Juno panels.jpg
@@ -600,30 +638,72 @@ INPUT .\Images\Juno panels.jpg
 INPUT .\Images\Juno panels.jpg
 INPUT .\Images\Juno panels.jpg
 INPUT .\Images\Juno panels.jpg
-INPUT .\Sections\04_reverse_sizing.tex
-INPUT .\Sections\04_reverse_sizing.tex
-INPUT Sections\04_reverse_sizing.tex
-INPUT .\Sections\04_reverse_sizing.tex
-INPUT .\Sections\04_reverse_sizing.tex
-INPUT Sections\04_reverse_sizing.tex
+INPUT .\Images\Juno batteries.jpg
+INPUT Images\Juno batteries.jpg
+INPUT .\Images\Juno batteries.jpg
+INPUT .\Images\Juno batteries.jpg
+INPUT .\Images\Juno batteries.jpg
+INPUT .\Images\Juno batteries.jpg
+INPUT .\Sections\04_eps_operations.tex
+INPUT .\Sections\04_eps_operations.tex
+INPUT Sections\04_eps_operations.tex
+INPUT .\Sections\04_eps_operations.tex
+INPUT .\Sections\04_eps_operations.tex
+INPUT Sections\04_eps_operations.tex
+INPUT .\Images\aspect_angle.pdf
+INPUT Images\aspect_angle.pdf
+INPUT .\Images\aspect_angle.pdf
+INPUT .\Images\aspect_angle.pdf
+INPUT .\Images\aspect_angle.pdf
+INPUT .\Images\EPS_strings_distance.pdf
+INPUT Images\EPS_strings_distance.pdf
+INPUT .\Images\EPS_strings_distance.pdf
+INPUT .\Images\EPS_strings_distance.pdf
+INPUT .\Images\EPS_strings_distance.pdf
+INPUT .\Sections\05_reverse_sizing.tex
+INPUT .\Sections\05_reverse_sizing.tex
+INPUT Sections\05_reverse_sizing.tex
+INPUT .\Sections\05_reverse_sizing.tex
+INPUT .\Sections\05_reverse_sizing.tex
+INPUT Sections\05_reverse_sizing.tex
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn7t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbmi.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsy.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbex.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbmia.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsya.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsyb.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsyc.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbexa.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.fd
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.fd
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\t1jkptt.fd
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmn8t.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpttmn8t.vf
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmn8r.tfm
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmne.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit8t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8r.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmite.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpttmn8t.vf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmn8r.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmne.tfm
 INPUT H6.aux
 INPUT .\H6.out
 INPUT .\H6.out
 INPUT H6.run.xml
 OUTPUT H6.run.xml
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbmi.pfb
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbmi.pfb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbn8a.pfb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbn8a.pfb
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbsy.pfb
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbsy.pfb
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpex.pfb
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpex.pfb
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmi.pfb
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmi.pfb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmit8a.pfb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmit8a.pfb
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmn8a.pfb

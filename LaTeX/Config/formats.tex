@@ -77,12 +77,16 @@
 \titlespacing*{\subsection}
 {0pt}{2ex}{1ex}
 
-% Subsubsection format --- paolo was here ---
+% Subsubsection format
 \titleformat{\subsubsection}
-{\color{bluePoli}\normalfont\large\bfseries}
+{\color{bluePoli}\normalfont\normalsize\bfseries}
 {\color{bluePoli}\thesubsubsection}{1em}{}
 \titlespacing*{\subsubsection}
 {0pt}{2ex}{1ex}
+
+% Add numbering for subsubsection in report
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
 
 % Commands for notation table
 \newsavebox\ltmcbox

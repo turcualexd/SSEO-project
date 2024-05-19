@@ -1,4 +1,4 @@
-%clear, clc, close all;
+clear, clc, close all;
 
 load("Ephemeris\Radius\EGA\Juno_Earth_EGA.mat")
 load("Ephemeris\Radius\EGA\Juno_Sun_EGA.mat")
@@ -43,7 +43,7 @@ SOI_exit = 4061 - 1;
 time = time - SOI_entry;
 
 linewdth = 1;
-fontsz = 9;
+fontsz = 10;
 
 figure
 hold on
@@ -54,12 +54,10 @@ box on
 grid minor
 xlabel('Time [min]')
 ylabel('q_{tot} [W/m^2]')
-legend('', 'Maximum flux for EGA', 'Minimum flux for EGA')
+%legend('', 'Maximum flux for EGA', 'Minimum flux for EGA')
 xlim([0 SOI_exit - SOI_entry])
 set(gca, 'FontSize', fontsz)
-yline(45.617358)
-yline(1759.23)
-return
+
 axes('position',[.25 .18 .2 .5])
 box on
 hold on
@@ -68,3 +66,8 @@ indexofinterest= (time>1430) & (time<1500);
 plot(time(indexofinterest), q(indexofinterest), 'LineWidth', linewdth)
 plot(1455, max(q), 'rx', 'MarkerSize', 8, 'LineWidth', linewdth)
 plot(1474, min(q), 'bx', 'MarkerSize', 8, 'LineWidth', linewdth)
+yline(1759.2288, 'r--', 'LineWidth', linewdth)
+yline(45.6173, 'b--', 'LineWidth', linewdth)
+lgnd = legend('', 'Maximum flux for EGA', 'Minimum flux for EGA', ...
+    'Selected hot case (TP-3)', 'Selected cold case (TP-7)');
+lgnd.FontSize = fontsz;

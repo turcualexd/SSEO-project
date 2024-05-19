@@ -1,4 +1,4 @@
-%clear, clc, close all;
+clear, clc, close all;
 
 AU = astroConstants(2);                     % km
 q0 = astroConstants(31);                    % W/m^2
