@@ -1192,12 +1192,45 @@ INPUT Chapters\H6\\Sections\03_architecture_rationale.tex
 INPUT .\Chapters\H6\\Sections\03_architecture_rationale.tex
 INPUT .\Chapters\H6\\Sections\03_architecture_rationale.tex
 INPUT Chapters\H6\\Sections\03_architecture_rationale.tex
-INPUT .\Chapters\H6\\Sections\04_reverse_sizing.tex
-INPUT .\Chapters\H6\\Sections\04_reverse_sizing.tex
-INPUT Chapters\H6\\Sections\04_reverse_sizing.tex
-INPUT .\Chapters\H6\\Sections\04_reverse_sizing.tex
-INPUT .\Chapters\H6\\Sections\04_reverse_sizing.tex
-INPUT Chapters\H6\\Sections\04_reverse_sizing.tex
+INPUT .\Chapters\H6\\Images\Solar panels reasoning.pdf
+INPUT Chapters\H6\\Images\Solar panels reasoning.pdf
+INPUT .\Chapters\H6\\Images\Solar panels reasoning.pdf
+INPUT .\Chapters\H6\\Images\Solar panels reasoning.pdf
+INPUT .\Chapters\H6\\Images\Solar panels reasoning.pdf
+INPUT .\Chapters\H6\\Images\Juno panels.jpg
+INPUT Chapters\H6\\Images\Juno panels.jpg
+INPUT .\Chapters\H6\\Images\Juno panels.jpg
+INPUT .\Chapters\H6\\Images\Juno panels.jpg
+INPUT .\Chapters\H6\\Images\Juno panels.jpg
+INPUT .\Chapters\H6\\Images\Juno panels.jpg
+INPUT .\Chapters\H6\\Images\Juno batteries.jpg
+INPUT Chapters\H6\\Images\Juno batteries.jpg
+INPUT .\Chapters\H6\\Images\Juno batteries.jpg
+INPUT .\Chapters\H6\\Images\Juno batteries.jpg
+INPUT .\Chapters\H6\\Images\Juno batteries.jpg
+INPUT .\Chapters\H6\\Images\Juno batteries.jpg
+INPUT .\Chapters\H6\\Sections\04_eps_operations.tex
+INPUT .\Chapters\H6\\Sections\04_eps_operations.tex
+INPUT Chapters\H6\\Sections\04_eps_operations.tex
+INPUT .\Chapters\H6\\Sections\04_eps_operations.tex
+INPUT .\Chapters\H6\\Sections\04_eps_operations.tex
+INPUT Chapters\H6\\Sections\04_eps_operations.tex
+INPUT .\Chapters\H6\\Images\aspect_angle.pdf
+INPUT Chapters\H6\\Images\aspect_angle.pdf
+INPUT .\Chapters\H6\\Images\aspect_angle.pdf
+INPUT .\Chapters\H6\\Images\aspect_angle.pdf
+INPUT .\Chapters\H6\\Images\aspect_angle.pdf
+INPUT .\Chapters\H6\\Images\EPS_strings_distance.pdf
+INPUT Chapters\H6\\Images\EPS_strings_distance.pdf
+INPUT .\Chapters\H6\\Images\EPS_strings_distance.pdf
+INPUT .\Chapters\H6\\Images\EPS_strings_distance.pdf
+INPUT .\Chapters\H6\\Images\EPS_strings_distance.pdf
+INPUT .\Chapters\H6\\Sections\05_reverse_sizing.tex
+INPUT .\Chapters\H6\\Sections\05_reverse_sizing.tex
+INPUT Chapters\H6\\Sections\05_reverse_sizing.tex
+INPUT .\Chapters\H6\\Sections\05_reverse_sizing.tex
+INPUT .\Chapters\H6\\Sections\05_reverse_sizing.tex
+INPUT Chapters\H6\\Sections\05_reverse_sizing.tex
 INPUT SSEO_final_report.aux
 INPUT .\SSEO_final_report.out
 INPUT .\SSEO_final_report.out
