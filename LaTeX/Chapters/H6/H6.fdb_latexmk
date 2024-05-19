@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber H6"] 1716140598.95405 "H6.bcf" "H6.bbl" "H6" 1716141041.57489 0
+["biber H6"] 1716140598.95405 "H6.bcf" "H6.bbl" "H6" 1716141914.37552 0
   "../../bibliography.bib" 1716139318.85554 19449 ae76cdb71f80823ad0189e8d7b7aaa88 ""
-  "H6.bcf" 1716141041.33738 109452 1d5844c905fe906889b007d6602f4eb2 "pdflatex"
+  "H6.bcf" 1716141914.12699 109452 1d5844c905fe906889b007d6602f4eb2 "pdflatex"
   (generated)
   "H6.bbl"
   "H6.blg"
   (rewritten before read)
-["pdflatex"] 1716141039.78418 "/Users/Chiara/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" "H6.pdf" "H6" 1716141041.57522 0
+["pdflatex"] 1716141912.55357 "/Users/Chiara/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex" "H6.pdf" "H6" 1716141914.37605 0
   "../../Config/Poli_logo.pdf" 1712334013.23834 40200 ce33d04866bc8fcea6b150776dafba1c ""
   "../../Config/commands.tex" 1715260031.41539 2296 2cc2eb798f0de2c9d31a7bf7a1b8d6ec ""
   "../../Config/formats.tex" 1716139318.81949 2437 2b73c27f007a04a261c8ed00dc9c4089 ""
@@ -179,12 +179,12 @@
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/wrapfig/wrapfig.sty" 1710519867.2398 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xltabular/xltabular.sty" 1710418874.62307 3623 13474540f7d9568bf6269d154cad18d4 ""
   "Body.tex" 1716139318.79894 262 59a45c3247e5038f8cf802bdfb0a1252 ""
-  "H6.aux" 1716141041.33167 9884 8e9c91fb4793334c3b169fe6e8dc9b76 "pdflatex"
+  "H6.aux" 1716141914.1212 9884 8e9c91fb4793334c3b169fe6e8dc9b76 "pdflatex"
   "H6.bbl" 1716140601.67421 15894 4136ccae2c59985ede8b191f101a3ad1 "biber H6"
-  "H6.out" 1716141041.33592 2204 9cef03b962556cf31e4b520cbd7e5d45 "pdflatex"
-  "H6.run.xml" 1716141041.33857 2299 e042f2dd3548995e0766f5bf07c8fff4 "pdflatex"
+  "H6.out" 1716141914.12565 2204 9cef03b962556cf31e4b520cbd7e5d45 "pdflatex"
+  "H6.run.xml" 1716141914.12816 2299 e042f2dd3548995e0766f5bf07c8fff4 "pdflatex"
   "H6.tex" 1716139318.81524 286 7ecbccdf0b8eccfee5e5ef1df05cc5cf ""
-  "H6.toc" 1716141041.33875 1201 12bb69608223fcfd8328096e11a5a9a8 "pdflatex"
+  "H6.toc" 1716141914.12835 1201 12bb69608223fcfd8328096e11a5a9a8 "pdflatex"
   "Images/EPS_strings_distance.pdf" 1716139318.81569 33445 f2da65f74f54d20eb8c9ddd1eef6ca2e ""
   "Images/Juno batteries.jpg" 1716139318.81653 289359 12fc0f31bab5f7fe0da5a577ae8e0234 ""
   "Images/Juno panels.jpg" 1715951581.42952 1179447 bbe42eb927ec45c2f24d6b61f7c812a7 ""
@@ -193,7 +193,7 @@
   "Sections/00_notation.tex" 1716141039.05101 3980 0a3bf059d427819344efda47160bd203 ""
   "Sections/01_introduction.tex" 1716140518.28582 685 3ea7f04f1429f7cfca83845cbfed245e ""
   "Sections/02_phases.tex" 1716139318.81833 5198 486f5321ec9c41b71e51b0603db2c838 ""
-  "Sections/03_architecture_rationale.tex" 1716141039.17419 16849 abfb727b6ad898f3d45c8f94ccad27f8 ""
+  "Sections/03_architecture_rationale.tex" 1716141911.89151 16848 7431898d159b64a84c545880a703b38f ""
   "Sections/04_eps_operations.tex" 1716139318.81882 1737 d528ab671a3d40bf109ced51e11ebf50 ""
   "Sections/05_reverse_sizing.tex" 1716139318.81922 7314 b0e178a140a4930651f29c0bc4c9e87e ""
   (generated)
