@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  19 MAY 2024 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  19 MAY 2024 19:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex
-(c:/Users/paolo/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex
+**/Users/Chiara/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex
+(/Users/Chiara/Documents/GitHub/SSEO-project/LaTeX/Chapters/H6/H6.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
-(C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count188
@@ -23,25 +23,25 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
-) (../../Config/input.tex (../../Config/packages.tex (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (../../Config/input.tex (../../Config/packages.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
 Package: babel 2024/02/07 v24.2 The Babel package
 \babel@savecnt=\count196
 \U@D=\dimen141
 \l@unhyphenated=\language79
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count197
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -49,15 +49,15 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
-)) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count198
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
@@ -68,14 +68,14 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \csq@maxlvl=\count269
 \csq@tshold=\count270
 \csq@ltx@everypar=\toks18
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-)) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+)) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box51
 \beforetitleunit=\skip50
@@ -86,25 +86,25 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen144
 \titlewidthlast=\dimen145
 \titlewidthfirst=\dimen146
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\kpfonts.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/kpfonts.sty
 Package: kpfonts  2023/01/18 v3.35
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen147
-)) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen148
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count271
@@ -421,9 +421,9 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
 (Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 643.
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 963.
 LaTeX Info: Redefining \not on input line 1603.
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count287
@@ -438,22 +438,22 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen162
 \Gm@layoutvoffset=\dimen163
 \Gm@dimlist=\toks25
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen164
 \Gin@req@width=\dimen165
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip55
 \enit@outerparindent=\dimen166
@@ -461,20 +461,20 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box54
 \enit@count@id=\count290
 \enitdp@description=\count291
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count292
 \float@exts=\toks27
 \float@box=\box55
 \@float@everytoks=\toks28
 \@floatcapt=\box56
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -484,9 +484,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen167
 \captionmargin=\dimen168
@@ -501,35 +501,35 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count293
 \c@continuedfloat=\count294
 Package caption Info: float package is loaded.
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count295
@@ -537,15 +537,15 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen175
 \Hy@linkcounter=\count296
 \Hy@pagecounter=\count297
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count298
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -558,15 +558,15 @@ Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
 \c@Hy@tempcnt=\count299
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen176
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count300
@@ -579,7 +579,7 @@ Package hyperref Info: backreferencing OFF on input line 6078.
 Package hyperref Info: Link coloring OFF on input line 6083.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -588,32 +588,32 @@ package with kernel methods
 \c@Hfootnote=\count303
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count304
 \c@bookmark@seq@number=\count305
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip56
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 
 Package tocbibind Note: Using section or other style headings.
 
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen179
 \ar@mcellbox=\box57
@@ -630,34 +630,34 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen185
 \TX@cols=\count306
 \TX@ftn=\toks30
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip59
 \multirow@cntb=\count307
 \multirow@dima=\skip60
 \bigstrutjot=\dimen186
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen187
 \c@nlinenum=\count308
 \TeXr@lab=\toks31
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen188
 \WF@size=\dimen189
 \c@WF@wrappedlines=\count309
 \WF@box=\box59
 \WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/comment/comment.sty
 \CommentStream=\write3
- Excluding comment 'comment') (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+ Excluding comment 'comment') (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count310
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \c@tabx@nest=\count311
@@ -719,7 +719,7 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \c@mincompwidth=\count356
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -810,12 +810,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip82
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \c@textcitecount=\count425
 \c@textcitetotal=\count426
@@ -833,18 +833,18 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count434
 \c@bbx:relatedtotal=\count435
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/cbx/numeric.cbx
 File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -860,14 +860,14 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-02-20 L3 programming layer (loader) 
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count436
 \l__pdf_internal_box=\box60
@@ -876,13 +876,13 @@ Package biblatex Info: ... and expl3
 (biblatex)             2024-02-20 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/blx-case-expl3.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2024-02-18 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\hhline.sty
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count437
 \mult@box=\box61
@@ -951,11 +951,11 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \mult@nat@firstbox=\box105
 \colbreak@box=\box106
 \mc@col@check@num=\count446
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
+) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xltabular/xltabular.sty
 Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ltablex/ltablex.sty
 Package: ltablex 2014/08/13 v1.1 Modified tabularx
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTleft=\skip85
 \LTright=\skip86
@@ -973,7 +973,7 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \c@LT@tables=\count450
 \c@LT@chunks=\count451
 \LT@p@ftn=\toks33
-)))) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+)))) (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
 \everycr=\toks34
 \minrowclearance=\skip89
@@ -989,20 +989,20 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+jkp on input line 8.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkp.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ) (H6.aux)
 \openout1 = `H6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 8.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 8.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omljkp.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 8.
 LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 8.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omsjkp.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -1014,13 +1014,13 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 8.
 LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 8.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omxjkp.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 8.
 LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 8.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpexa.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -1063,7 +1063,7 @@ LaTeX Font Info:    ... okay on input line 8.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count453
 \scratchdimen=\dimen256
@@ -1076,16 +1076,16 @@ LaTeX Font Info:    ... okay on input line 8.
 \MPnumerator=\count457
 \makeMPintoPDFobject=\count458
 \everyMPtoPDFconversion=\toks36
-) (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
@@ -1097,7 +1097,7 @@ Package hyperref Info: Link coloring ON on input line 8.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1117,27 +1117,27 @@ File: ../../Config/Poli_logo.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../../Config/Poli_logo.pdf  used on input line 6.
 (pdftex.def)             Requested size: 307.2929pt x 241.8576pt.
 LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 37.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
 LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 37.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 37.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 37.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 37.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 ) [1
 
-{C:/Users/paolo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <../../Config/Poli_logo.pdf>]) (H6.toc)
+{/Users/Chiara/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <../../Config/Poli_logo.pdf>]) (H6.toc)
 \tf@toc=\write6
 \openout6 = `H6.toc'.
 
@@ -1146,7 +1146,7 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \blx@sectionciteorder@1=\count460
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd)) [2{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Sections/01_introduction.tex) (Sections/02_phases.tex
+ (Body.tex (Sections/00_notation.tex (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/ts1jkp.fd)) [2] (Sections/01_introduction.tex) (Sections/02_phases.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1160,24 +1160,24 @@ File: Images/Solar panels reasoning.pdf Graphic file (type pdf)
 Package pdftex.def Info: Images/Solar panels reasoning.pdf  used on input line 30.
 (pdftex.def)             Requested size: 281.68385pt x 191.81097pt.
 [2]
-<Images/Juno panels.jpg, id=147, 3956.52803pt x 4155.01605pt>
+<Images/Juno panels.jpg, id=149, 3956.52803pt x 4155.01605pt>
 File: Images/Juno panels.jpg Graphic file (type jpg)
 <use Images/Juno panels.jpg>
 Package pdftex.def Info: Images/Juno panels.jpg  used on input line 62.
 (pdftex.def)             Requested size: 204.85672pt x 215.11742pt.
  [3 <./Images/Solar panels reasoning.pdf> <./Images/Juno panels.jpg>]
-<Images/Juno batteries.jpg, id=170, 1496.29437pt x 1440.31056pt>
+<Images/Juno batteries.jpg, id=172, 1496.29437pt x 1440.31056pt>
 File: Images/Juno batteries.jpg Graphic file (type jpg)
 <use Images/Juno batteries.jpg>
 Package pdftex.def Info: Images/Juno batteries.jpg  used on input line 113.
 (pdftex.def)             Requested size: 204.85672pt x 197.1807pt.
  [4 <./Images/Juno batteries.jpg>]) (Sections/04_eps_operations.tex
-<Images/aspect_angle.pdf, id=197, 398.99063pt x 301.125pt>
+<Images/aspect_angle.pdf, id=199, 398.99063pt x 301.125pt>
 File: Images/aspect_angle.pdf Graphic file (type pdf)
 <use Images/aspect_angle.pdf>
 Package pdftex.def Info: Images/aspect_angle.pdf  used on input line 17.
 (pdftex.def)             Requested size: 221.24515pt x 166.97931pt.
-<Images/EPS_strings_distance.pdf, id=198, 398.99063pt x 301.125pt>
+<Images/EPS_strings_distance.pdf, id=200, 398.99063pt x 301.125pt>
 File: Images/EPS_strings_distance.pdf Graphic file (type pdf)
 <use Images/EPS_strings_distance.pdf>
 Package pdftex.def Info: Images/EPS_strings_distance.pdf  used on input line 17.
@@ -1187,7 +1187,7 @@ Package pdftex.def Info: Images/EPS_strings_distance.pdf  used on input line 17.
 pdfTeX warning: pdflatex (file ./Images/EPS_strings_distance.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >])) [6]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
- (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
+ (/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kpfonts/t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
 Package biblatex Info: Reference section=0 on input line 19.
@@ -1203,17 +1203,17 @@ Package logreq Info: Writing requests to 'H6.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24260 strings out of 474436
- 418284 string characters out of 5741955
- 1974190 words of memory out of 5000000
- 46134 multiletter control sequences out of 15000+600000
+ 24256 strings out of 474436
+ 421539 string characters out of 5739103
+ 1980187 words of memory out of 5000000
+ 46131 multiletter control sequences out of 15000+600000
  698092 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,102p,2926b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H6.pdf (10 pages, 1825227 bytes).
+ 87i,17n,102p,2925b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}{/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}</Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbmi.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbsy.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpex.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmi.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmit8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmne.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpsy.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H6.pdf (10 pages, 1825544 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
+ 329 PDF objects out of 1000 (max. 8388607)
  62 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
