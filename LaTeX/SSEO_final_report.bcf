@@ -2605,6 +2605,11 @@
     <bcf:citekey order="14" intorder="1">solar_panels_coef</bcf:citekey>
     <bcf:citekey order="15" intorder="1">batteries_position</bcf:citekey>
     <bcf:citekey order="16" intorder="1">batteries_position</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">JEDI_info</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">JADE_info</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">MAG_info</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">masses_ref</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
