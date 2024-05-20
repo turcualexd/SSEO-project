@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  19 MAY 2024 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  20 MAY 2024 08:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1157,30 +1157,30 @@ pdfTeX warning: pdflatex (file ./Images/Solar panels reasoning.pdf): PDF inclusi
 <Images/Solar panels reasoning.pdf, id=129, 377.49028pt x 257.04028pt>
 File: Images/Solar panels reasoning.pdf Graphic file (type pdf)
 <use Images/Solar panels reasoning.pdf>
-Package pdftex.def Info: Images/Solar panels reasoning.pdf  used on input line 30.
+Package pdftex.def Info: Images/Solar panels reasoning.pdf  used on input line 28.
 (pdftex.def)             Requested size: 281.68385pt x 191.81097pt.
 [2]
-<Images/Juno panels.jpg, id=147, 3956.52803pt x 4155.01605pt>
+<Images/Juno panels.jpg, id=149, 3956.52803pt x 4155.01605pt>
 File: Images/Juno panels.jpg Graphic file (type jpg)
 <use Images/Juno panels.jpg>
-Package pdftex.def Info: Images/Juno panels.jpg  used on input line 62.
+Package pdftex.def Info: Images/Juno panels.jpg  used on input line 60.
 (pdftex.def)             Requested size: 204.85672pt x 215.11742pt.
  [3 <./Images/Solar panels reasoning.pdf> <./Images/Juno panels.jpg>]
-<Images/Juno batteries.jpg, id=170, 1496.29437pt x 1440.31056pt>
-File: Images/Juno batteries.jpg Graphic file (type jpg)
-<use Images/Juno batteries.jpg>
-Package pdftex.def Info: Images/Juno batteries.jpg  used on input line 113.
-(pdftex.def)             Requested size: 204.85672pt x 197.1807pt.
- [4 <./Images/Juno batteries.jpg>]) (Sections/04_eps_operations.tex
-<Images/aspect_angle.pdf, id=197, 398.99063pt x 301.125pt>
+<Images/Juno batteries.png, id=172, 1420.30624pt x 1420.30624pt>
+File: Images/Juno batteries.png Graphic file (type png)
+<use Images/Juno batteries.png>
+Package pdftex.def Info: Images/Juno batteries.png  used on input line 111.
+(pdftex.def)             Requested size: 204.85672pt x 204.84468pt.
+ [4 <./Images/Juno batteries.png>]) (Sections/04_eps_operations.tex
+<Images/aspect_angle.pdf, id=202, 398.99063pt x 301.125pt>
 File: Images/aspect_angle.pdf Graphic file (type pdf)
 <use Images/aspect_angle.pdf>
-Package pdftex.def Info: Images/aspect_angle.pdf  used on input line 17.
+Package pdftex.def Info: Images/aspect_angle.pdf  used on input line 16.
 (pdftex.def)             Requested size: 221.24515pt x 166.97931pt.
-<Images/EPS_strings_distance.pdf, id=198, 398.99063pt x 301.125pt>
+<Images/EPS_strings_distance.pdf, id=203, 398.99063pt x 301.125pt>
 File: Images/EPS_strings_distance.pdf Graphic file (type pdf)
 <use Images/EPS_strings_distance.pdf>
-Package pdftex.def Info: Images/EPS_strings_distance.pdf  used on input line 17.
+Package pdftex.def Info: Images/EPS_strings_distance.pdf  used on input line 16.
 (pdftex.def)             Requested size: 221.24515pt x 166.97931pt.
 ) (Sections/05_reverse_sizing.tex [5 <./Images/aspect_angle.pdf> <./Images/EPS_strings_distance.pdf
 
@@ -1203,17 +1203,17 @@ Package logreq Info: Writing requests to 'H6.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24260 strings out of 474436
- 418284 string characters out of 5741955
- 1974190 words of memory out of 5000000
- 46134 multiletter control sequences out of 15000+600000
+ 24258 strings out of 474436
+ 418222 string characters out of 5741955
+ 1980190 words of memory out of 5000000
+ 46132 multiletter control sequences out of 15000+600000
  698092 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,102p,2926b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,17n,102p,2811b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H6.pdf (10 pages, 1825227 bytes).
+Output written on H6.pdf (10 pages, 2788705 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
+ 332 PDF objects out of 1000 (max. 8388607)
  62 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
