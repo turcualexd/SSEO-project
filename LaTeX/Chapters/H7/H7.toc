@@ -4,6 +4,6 @@
 \contentsline {section}{\numberline {1}Introduction of Juno's configuration}{1}{section.1}%
 \contentsline {section}{\numberline {2}Shape and appendages}{1}{section.2}%
 \contentsline {section}{\numberline {3}Configuration inside the launcher}{1}{section.3}%
-\contentsline {section}{\numberline {4}External configuration}{1}{section.4}%
-\contentsline {section}{\numberline {5}Internal configuration}{1}{section.5}%
-\contentsline {section}{Bibliography}{2}{section*.5}%
+\contentsline {section}{\numberline {4}External configuration}{2}{section.4}%
+\contentsline {section}{\numberline {5}Internal configuration}{2}{section.5}%
+\contentsline {section}{Bibliography}{3}{section*.5}%
