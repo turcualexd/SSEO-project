@@ -6,4 +6,4 @@
 \contentsline {section}{\numberline {3}Configuration inside the launcher}{1}{section.3}%
 \contentsline {section}{\numberline {4}External configuration}{1}{section.4}%
 \contentsline {section}{\numberline {5}Internal configuration}{1}{section.5}%
-\contentsline {section}{Bibliography}{2}{section*.4}%
+\contentsline {section}{Bibliography}{2}{section*.5}%

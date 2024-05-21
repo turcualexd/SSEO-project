@@ -41,6 +41,67 @@
       \field{title}{Overview of the Juno Mission to Jupiter}
       \field{year}{2006}
     \endentry
+    \entry{masses_ref}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b72ac823d25cea6b75733918733a005d}{%
+           family={JPL},
+           familyi={J\bibinitperiod},
+           given={NASA},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{fullhash}{b72ac823d25cea6b75733918733a005d}
+      \strng{bibnamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authorbibnamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authornamehash}{b72ac823d25cea6b75733918733a005d}
+      \strng{authorfullhash}{b72ac823d25cea6b75733918733a005d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/juno/facts/}}
+      \field{title}{Juno Quick Facts}
+      \field{year}{2011}
+    \endentry
+    \entry{solar_panels_coef}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b61f050da6dab86436e5594227372614}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={William\bibnamedelima McAlpine},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{b61f050da6dab86436e5594227372614}
+      \strng{fullhash}{b61f050da6dab86436e5594227372614}
+      \strng{bibnamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authorbibnamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authornamehash}{b61f050da6dab86436e5594227372614}
+      \strng{authorfullhash}{b61f050da6dab86436e5594227372614}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{JUNO Photovoltaic Power at Jupiter}
+      \field{year}{2012}
+    \endentry
+    \entry{solar_panels_testing}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{note}{Site: \url{https://www.jpl.nasa.gov/news/juno-solar-panels-complete-testing}}
+    \endentry
+    \entry{atlas_manual}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{note}{Site: \url{https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf}}
+    \endentry
+    \entry{foto_fairing}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{note}{Site: \url{https://spaceflightnow.com/atlas/av029/fairing/}}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
