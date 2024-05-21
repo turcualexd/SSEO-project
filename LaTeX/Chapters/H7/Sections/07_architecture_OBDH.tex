@@ -1,3 +1,9 @@
 \subsection{Architecture of OBDH}
 \label{subsec:OBDH_architecture}
 
+The OBDH system is based on two redundant, single fault redundant C\&DH boxes, each including:
+\begin{itemize}
+    \item \textbf{RAD750 Processor:} a 3U radiation hardened single-board computer by BAE systems with 256 Mbytes of NVM flash memory and 128 Mbytes of DRAM local memory. \cite{juno_sito} It's able to handle 100 Mbps of instrument throughput, much higher than needed for payloads requirements, and can operate at up to 200 MHz with a substantial performance improvement over older rad-hard processors. Furthermore the CPU itself can withstand a total radiation dose of up to 1 Mrad (Si) and has already been employed on various missions such as NASA's Mars Science Laboratory proving its effectiveness. \cite{RAD750} \cite{batterie}
+    \item \textbf{DTCI card:} it contains the interface between the C\&DH box and all the instruments of the spacecraft, while also providing science data storage capabilities. In particular 32 Gbits are available for data storage with a further 8 Gbits dedicated to EDAC. This is sufficient both for all science orbit downlink data requirements and representative stress cases. Unlike all other cards present in the C\&DH box it's characterized by a 6U format instead of a 3U one. \cite{juno_sito}
+    \item 
+\end{itemize} 
