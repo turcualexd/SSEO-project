@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  21 MAY 2024 11:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  21 MAY 2024 12:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1111,7 +1111,7 @@ Package biblatex Info: ... file 'H7.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config//Poli_logo.pdf, id=35, 527.9725pt x 415.5525pt>
+<../../Config//Poli_logo.pdf, id=55, 527.9725pt x 415.5525pt>
 File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config//Poli_logo.pdf>
 Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
@@ -1145,12 +1145,12 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \blx@sectionciteorder@1=\count457
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction_config.tex) (Sections/02_shape_appendages.tex) (Sections/03_configuration.tex) (Sections/04_external_config.tex) (Sections/05_internal_config.tex))
+ (Body.tex (Sections/00_notation.tex) [1] (Sections/01_introduction_config.tex) (Sections/02_shape_appendages.tex) (Sections/03_configuration.tex) (Sections/04_external_config.tex) (Sections/05_internal_config.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \bodyandbib
-                 [1]
+l.15 
+      [1] (Sections/06_introduction_OBDH.tex) (Sections/07_architecture_OBDH.tex) (Sections/08_reverse_OBDH.tex)) [2]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1161,25 +1161,25 @@ Package biblatex Info: Reference section=0 on input line 19.
 Package caption Warning: Unused \captionsetup[table] on input line 57.
 See the caption package documentation for explanation.
 
-[2] (H7.aux)
+[3] (H7.aux)
 Package rerunfilecheck Info: File `H7.out' has not changed.
-(rerunfilecheck)             Checksum: 808DFB0DC2306E6923E0CBDB5D1088FC;1182.
+(rerunfilecheck)             Checksum: 3A270BE91986B9241CAB81E094DD6728;1985.
 Package logreq Info: Writing requests to 'H7.run.xml'.
 \openout1 = `H7.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24116 strings out of 476361
- 417650 string characters out of 5788046
- 1857993 words of memory out of 5000000
- 44136 multiletter control sequences out of 15000+600000
- 603100 words of font info for 120 fonts, out of 8000000 for 9000
+ 24162 strings out of 476361
+ 419061 string characters out of 5788046
+ 1858993 words of memory out of 5000000
+ 44165 multiletter control sequences out of 15000+600000
+ 609046 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,14n,98p,1514b,1857s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,14n,98p,1514b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H7.pdf (4 pages, 94955 bytes).
+Output written on H7.pdf (5 pages, 100851 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 

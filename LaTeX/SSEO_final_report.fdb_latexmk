@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber SSEO_final_report"] 1716192665 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1716193105 0
+["biber SSEO_final_report"] 1716287888 "SSEO_final_report.bcf" "SSEO_final_report.bbl" "SSEO_final_report" 1716287906 0
   "./bibliography.bib" 1716133672 20062 ae76cdb71f80823ad0189e8d7b7aaa88 ""
-  "SSEO_final_report.bcf" 1716193104 123830 126708f983b5d1e35b8060cebc2b250e "pdflatex"
+  "SSEO_final_report.bcf" 1716287905 124598 8e0c9579ed24903d615d3b1f2470a844 "pdflatex"
   (generated)
   "SSEO_final_report.bbl"
   "SSEO_final_report.blg"
   (rewritten before read)
-["pdflatex"] 1716193100 "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1716193105 0
-  "Body.tex" 1715678410 94 9c016409aa5cf5f839c3f7ff8f597ecb ""
+["pdflatex"] 1716287901 "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/SSEO_final_report.tex" "SSEO_final_report.pdf" "SSEO_final_report" 1716287906 0
+  "Body.tex" 1716287882 110 4e5610fab3305f6279abe1213763ce9b ""
   "C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1713102523 98856 87a9ac9606a61c06eccae2e23d0ace3d ""
   "C:/Users/turcu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1684236545 23188739 a2fc3e86f82404b52dad9870f4800c11 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458477487 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -257,18 +257,28 @@
   "Chapters/H6//Sections/04_eps_operations.tex" 1716193087 1773 34ad7ceec2ca7c67e4fd2c1028b42ae5 ""
   "Chapters/H6//Sections/05_reverse_sizing.tex" 1716192438 7440 f7b8088e3581a003e1164a30220ddc24 ""
   "Chapters/H6/Body.tex" 1716135630 269 59a45c3247e5038f8cf802bdfb0a1252 ""
+  "Chapters/H7//Sections/00_notation.tex" 1716282567 539 a82cb97634a22207a99acfba8c6fcf8d ""
+  "Chapters/H7//Sections/01_introduction_config.tex" 1716287682 89 52a7ee8a7075fa6f860497ba692b226b ""
+  "Chapters/H7//Sections/02_shape_appendages.tex" 1716287703 70 e5705091db1ad132600c9bdf79d3ebe2 ""
+  "Chapters/H7//Sections/03_configuration.tex" 1716287712 82 0e32739681d8e5122668539f585c4ac6 ""
+  "Chapters/H7//Sections/04_external_config.tex" 1716287721 71 eb88e06d634cce9456d9e7487d5183c2 ""
+  "Chapters/H7//Sections/05_internal_config.tex" 1716287733 71 3ea73d5cb2c1f632d25d8a4bf7fd7a6a ""
+  "Chapters/H7//Sections/06_introduction_OBDH.tex" 1716287741 70 f8cb3967cfd839fdfd724975717b0eae ""
+  "Chapters/H7//Sections/07_architecture_OBDH.tex" 1716287756 71 792fd5a6e2bef13b5ec25e9ee961fbb0 ""
+  "Chapters/H7//Sections/08_reverse_OBDH.tex" 1716287770 67 2a93e4c24bc217632700038c77b30b46 ""
+  "Chapters/H7/Body.tex" 1716287813 521 cd55e3880ba6317462766137f493871b ""
   "Config//Poli_logo.pdf" 1710546785 40200 4b51719258b4eb427d3de9091da52c22 ""
   "Config//commands.tex" 1714723263 2408 2cc2eb798f0de2c9d31a7bf7a1b8d6ec ""
   "Config//formats.tex" 1716136464 2547 2b73c27f007a04a261c8ed00dc9c4089 ""
   "Config//packages.tex" 1715197912 658 288ea85c6948f714480add2028104403 ""
   "Config/input.tex" 1710507240 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
   "Config/title_page_chapter.tex" 1713710954 1238 eb39290e5f913223b60117da7ea690fb ""
-  "SSEO_final_report.aux" 1716193104 59962 89deffea126c26b9155ff6b8d7c007b7 "pdflatex"
-  "SSEO_final_report.bbl" 1716192668 100264 a16f45ab9ac7cf88abadb31da8b6a8cf "biber SSEO_final_report"
-  "SSEO_final_report.out" 1716193104 16075 e3aaec4d321cf59b89f816867e45e63c "pdflatex"
-  "SSEO_final_report.run.xml" 1716193104 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
+  "SSEO_final_report.aux" 1716287905 62876 173c70186b2afb6b360fddcd8eb53168 "pdflatex"
+  "SSEO_final_report.bbl" 1716287891 101347 d6aaee92aeb99817404796f7886b9504 "biber SSEO_final_report"
+  "SSEO_final_report.out" 1716287905 18178 676e46c948aa9fc4eaa63f4747a652d0 "pdflatex"
+  "SSEO_final_report.run.xml" 1716287905 2398 c4cb6737ad91fa80e3fc928150c20c0b "pdflatex"
   "SSEO_final_report.tex" 1711041590 302 b4660636688eb40853cc4b918fb5ca99 ""
-  "SSEO_final_report.toc" 1716193104 8265 b5692d6f9d150ff89af841b37b7ecbd4 "pdflatex"
+  "SSEO_final_report.toc" 1716287905 9339 aafbe2284345096314b0e4c840e37941 "pdflatex"
   "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/SSEO_final_report.tex" 1711041590 302 b4660636688eb40853cc4b918fb5ca99 ""
   (generated)
   "SSEO_final_report.aux"
