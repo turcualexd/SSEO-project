@@ -1,0 +1,16 @@
+\section{EPS operation}
+\label{sec:eps_ops}
+
+During the cruise of Juno, different conditions are encountered: prior to the arrival at Jupiter (about 5 years after launch), the solar aspect angle (\autoref{fig:aspect_angle}) varies between 0° and 90°.
+For the majority of time (as reported in previous chapters) Juno is in EPM, while during DSMs the angle increases.
+This variation cannot be appreciated because the resolution of the graph is not enough to show the peaks.
+At around year 2, the angle is zero as due to thermal requirement the S/C is in SPM.
+Science operations are nominally performed in EPM, but peaks can be observed after 5 years as Juno performs MWR PJ passes.
+This condition is not treated in \autoref{sec:EPS_sizing} since the sizing is conducted on the nominal mission, where such values of aspect angle were not expected. Despite this, the batteries are capable of handling the real situation since their capacity presents a reasonable margin.
+
+In \autoref{fig:EPS_strings_distance} the distance of Juno from the Sun and the type of string used by the solar arrays is displayed, as described in \autoref{susubsec:solar_arrays}.
+In particular, the long strings are used during the whole mission, the medium strings from $1.8$ AU and the short strings from $3.8$ AU.
+The region between $1.2$ and $1.9$ AU, highlighted by the red lines, is critical as any trigger of the short or medium strings could lead to the loss of these (as explained in \autoref{subsubsec:Batteries}). However, inside the region between $1.8$ and $1.9$ AU Juno can function with or without the medium strings enabled.\cite{solar_panels_coef}
+
+\vspace*{-3mm}
+\twofig{aspect_angle}{Aspect angle during the mission}{EPS_strings_distance}{Strings utilization}{0.9}
