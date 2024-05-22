@@ -2367,36 +2367,11 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">../../bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1" intorder="1">masses_ref</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">solar_panels_coef</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">solar_panels_testing</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">atlas_manual</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">Juno_launch</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">masses_ref</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">solar_panels_testing</bcf:citekey>
     <bcf:citekey order="5" intorder="1">atlas_manual</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">masses_ref</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">foto_fairing</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">batteries_position</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Leros</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="none">
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2">
-      <bcf:sortitem order="1">intciteorder</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sortingtemplate>
-  <!-- DATALISTS -->
-  <bcf:datalist section="1"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-</bcf:controlfile>
+    <bcf:citekey order="6" intorder="1">atlas_manual</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">masses_ref</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">foto_fairing</bcf:citekey>
