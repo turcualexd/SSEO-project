@@ -20,11 +20,9 @@
 \contentsline {paragraph}{MLI:}{2}{paragraph*.13}%
 \contentsline {paragraph}{Solar Arrays:}{2}{paragraph*.14}%
 \contentsline {paragraph}{Vault:}{3}{paragraph*.15}%
-\contentsline {paragraph}{Forward deck instruments:}{3}{paragraph*.16}%
+\contentsline {paragraph}{Instruments on the main body:}{3}{paragraph*.16}%
 \contentsline {subsection}{\numberline {4.5}EPS subsystem}{3}{subsection.4.5}%
-\contentsline {paragraph}{MLI:}{3}{paragraph*.17}%
-\contentsline {paragraph}{Solar Arrays:}{3}{paragraph*.18}%
-\contentsline {paragraph}{Vault:}{3}{paragraph*.19}%
-\contentsline {paragraph}{Forward deck instruments:}{3}{paragraph*.20}%
+\contentsline {paragraph}{Solar Arrays:}{3}{paragraph*.17}%
+\contentsline {paragraph}{Batteries:}{3}{paragraph*.18}%
 \contentsline {section}{\numberline {5}Internal configuration}{3}{section.5}%
-\contentsline {section}{Bibliography}{4}{section*.21}%
+\contentsline {section}{Bibliography}{4}{section*.19}%
