@@ -1,22 +1,24 @@
 \section{External configuration}
 \label{sec:external_config}
 
-Juno is a spin stabilized S/C that performs science operations in a LILT environment, with a trajectory ranging between 0.85 AU and 5.45 AU. The positioning of the instruments and the scientific payload is defined such that during science operations each face of the main body has a clear view of Jupiter twice a minute. ICs and OC are performed at 1 RPM while all the critical maneuvers are conducted at 2 RPM. All the on board subsystems will be analyzed. 
+Juno is a spin stabilized S/C that performs science operations in a LILT environment, with a trajectory ranging between 0.85 AU and 5.45 AU. The positioning of the instruments and the scientific payload is defined such that during science operations each face of the main body has a clear view of Jupiter twice a minute. All the on board subsystems will be analyzed. 
 
-\subsection{Propulsion subsystem}
+\subsection{Propulsion subsystem - exterior}
 \label{subsec:prop_sub}
 
 \paragraph{RCS:}the twelve RCS thrusters are mounted on four REMs, three thrusters each, two REMs are on the forward deck (F-REMs) and two are on the aft deck (A-REMs). 
 Each REM is mounted on top of a pylon: F-REMs are raised by 74 cm while A-REMs are raised by 26 cm from their respective decks. Each thruster features a different orientation with respect to the Z and X axis: axial thrusters are canted 10° from the Z-axis on the top deck. Lateral thrusters are canted 5° from the X-axis and 12.5° from the Z-axis. Axial thrusters can be utilized as an alternative to the main engine.  
 \mref
 All this precautions are needed as plum from the firing of the thruster must not interact nor with the solar arrays nor with the antennas.
-% RCS is responsible for the realignment of the spin axis to the requested attitude and are needed to control the spin rate of the S/C. Thrusters are based on Hydrazine and decompose on a S-405 catalytic bed. The REMs are raised  
+
 \vspace{-4mm}
 
 \paragraph{ME:}the Leros 1b main engine is stored inside the main body. On the aft deck its cover is visible: this device is needed to protect the engine from collisions with debris along the cruise. 
 
 \subsection{TMTC subsystem}
 \label{subsec:tmtc_sub}
+
+\vspace{-1mm}
 
 \paragraph{HGA:}this antenna is both responsible for communications along the mission and for conducting science operations. It is mounted on top of the electronic vault and has a diameter of 2.5 m. It is located along the spin axis, such that its pointing requirements of 0.25° are satisfied. In addition to transmitting and receiving in X or Ka-band, the HGA also serves the fundamental role of thermally protecting the spacecraft from the radiations coming the Sun during the IC: the whole antenna is covered with a highly reflective Germanium Kapton blanket. 
 
@@ -35,6 +37,8 @@ All this precautions are needed as plum from the firing of the thruster must not
 \subsection{AOCS subsystem}
 \label{subsec:aocs_sub}
 
+\vspace{-1mm}
+
 The \textbf{RCS} used to control the attitude of the S/C is presented in \autoref{subsec:prop_sub}
 
 \vspace{-4mm}
@@ -48,6 +52,8 @@ The \textbf{RCS} used to control the attitude of the S/C is presented in \autore
 \subsection{TCS subsystem}
 \label{subsec:tcs_sub}
 
+\vspace{-1mm}
+
 \paragraph{MLI:}this kind of passive thermal control is needed as the trajectory of Juno ranges between 0.88 AU and 5.45 AU. Active thermal control is not the only option as it requires power, a precious resource around Jupiter. Moreover, MLIs are also used to shied the body and the instruments from the radiation present around Jupiter. 
 
 \vspace{-4mm}
@@ -57,7 +63,7 @@ The MAG boom and the MOBs are thus thermally decoupled via titanium made hinges 
 
 \vspace{-4mm}
 
-\paragraph{Vault:}this particular element, made of titanium, is positioned on the centre of the forward deck of the S/C and its dimensions are  $\approx$ 0.8 m $\times$ 0.8 m $\times$ 0.7 m. It houses all the electronics as it is able to shield it from the radiations around Jupiter. It also manages to keep its interior within the correct temperature range thanks to the presence of heaters and louvers. The position of the louvers is critical as they must radiate to the deep space and not face other instruments on the deck: thermal control prior the EGA and during science operation is critical as any loss inside the vault could lead to the loss of the mission. During operations it is thermally shielded by the HGA. All the cabling coming from the electronics housed inside the vault exits from its lower face and it is linked to be batteries, in order to not create thermal bridges on the main body.
+\paragraph{Vault:}this particular element, made of titanium, is positioned on the centre of the forward deck of the S/C and its dimensions are  $\approx$ 0.8 m $\times$ 0.8 m $\times$ 0.7 m. It houses all the electronics as it is able to shield it from the radiations around Jupiter. It also manages to keep its interior within the correct temperature range thanks to the presence of heaters and louvers. The position of the louvers is critical as they must radiate to the deep space and not face other instruments on the deck: thermal control prior the EGA and during science operation is critical as any loss inside the vault could lead to the loss of the mission. The elements inside the vault are placed in order to conduct the heat to the louvers via thermal straps. During operations it is thermally shielded by the HGA. All the cabling coming from the electronics housed inside the vault exits from its lower face and it is linked to be batteries, in order to not create thermal bridges on the main body.
 
 \vspace{-4mm}
 
@@ -66,10 +72,11 @@ The MAG boom and the MOBs are thus thermally decoupled via titanium made hinges 
 \subsection{EPS subsystem}
 \label{subsec:eps_sub}
 
-\paragraph{Solar Arrays:} Juno is powered by $\approx$ 60 m$^2$ of solar panels: at 5.45 AU they are able to produce up to 400 W. They placement is heavily influenced by the spinning architecture of Juno, as they are fundamental in keeping the inertia matrix as diagonal as possible and have a deep influence in the stability of the platform. The arrays in fact move massa away from the CG, allowing for a more stable pointing. The full reasoning behind the disposition of the cells inside the panels is fully reported in the previous chapter and won't be covered in this paragraph. Solar arrays are deployed soon after the separation from the Centaur upper stage, reducing the spin rate from 1.4 RPM to 1 RPM, the one used during all cruise operations. Their positioning is controlled via electrically actuated struts and hinges. It is important to note that the arrays should not be shadowed by any instruments, as this could potentially lead to a loss of power, which might not guarantee safe and correct operations. The backside of the panels is pointing the deep space during the majority of the mission, guaranteeing heat dissipation and gain in efficiency as temperature lowers. 
+\vspace{-2mm}
+
+\paragraph{Solar Arrays:} Juno is equipped with $\approx$ 60 m$^2$ of solar panels, which generate up to 400 W of power at a distance of 5.45 AU from the Sun. The placement of these panels is influenced by Juno's spinning architecture, helping maintain a stable inertia matrix and improving platform stability due to their mass distribution. Detailed reasoning for the cell arrangement within the panels is provided in a previous chapter. After separating from the Centaur upper stage, the solar arrays are deployed, reducing the spacecraft's spin rate from 1.4 RPM to 1 RPM for cruise operations. These arrays are positioned using electrically actuated struts and hinges and must remain unshadowed by instruments to ensure consistent power generation. The panels' backsides face deep space for most of the mission, aiding in heat dissipation and efficiency. The MAG suite on the edge of panel A1 includes SRUs to monitor any flexing of the array, essential for accurate readings of Jupiter's magnetic field. 
 
 \vspace{-4mm}
 
-\paragraph{Batteries:} ciao
+\paragraph{Batteries:} Juno's two 55-Ah Li-Ion batteries are essential for providing power to the instruments during EGA when Juno is behind Earth and during perijove passages when solar array power is insufficient. They are positioned on the forward deck and are connected to the electronics of Juno with satellites coming from the main body and via shielded cables running on the outside of the deck. The batteries are positioned under the HGA in such a way to minimize the length of the cables running to the SRUs and not to interfere with the louvers. Due to their size, the batteries couldn't be housed inside the vault or main body, as doing so would significantly increase structural mass. Thermally regulated and shielded with an MLI blanket over a beryllium box, the batteries are designed to withstand environmental radiation\cite{batteries_position}. 
 
-\vspace{-4mm}

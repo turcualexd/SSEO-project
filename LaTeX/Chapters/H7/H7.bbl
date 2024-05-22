@@ -80,6 +80,31 @@
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{note}{Site: \url{https://spaceflightnow.com/atlas/av029/fairing/}}
     \endentry
+    \entry{batteries_position}{misc}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{note}{Site: \url{https://www.eaglepicher.com/blog/batteries-enabling-planetary-and-deep-space-exploration/}}
+    \endentry
+    \entry{Leros}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fb2f7c65f5d2d087cd52f151c468dda8}{%
+           family={Nammo},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{fullhash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{bibnamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authorbibnamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authornamehash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \strng{authorfullhash}{fb2f7c65f5d2d087cd52f151c468dda8}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Journal of Geophysical Research: Planet}
+      \field{note}{Site: \url{https://www.nammo.com/wp-content/uploads/2021/03/2021-Nammo-Westcott-Liquid-Engine-LEROS1B.pdf}}
+      \field{title}{Leros 1b engine}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

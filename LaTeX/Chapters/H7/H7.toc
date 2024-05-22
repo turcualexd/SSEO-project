@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {2}Shape and appendages}{1}{section.2}%
 \contentsline {section}{\numberline {3}Configuration inside the launcher}{1}{section.3}%
 \contentsline {section}{\numberline {4}External configuration}{2}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Propulsion subsystem}{2}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Propulsion subsystem - exterior}{2}{subsection.4.1}%
 \contentsline {paragraph}{RCS:}{2}{paragraph*.5}%
 \contentsline {paragraph}{ME:}{2}{paragraph*.6}%
 \contentsline {subsection}{\numberline {4.2}TMTC subsystem}{2}{subsection.4.2}%
@@ -25,4 +25,5 @@
 \contentsline {paragraph}{Solar Arrays:}{3}{paragraph*.17}%
 \contentsline {paragraph}{Batteries:}{3}{paragraph*.18}%
 \contentsline {section}{\numberline {5}Internal configuration}{3}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Propulsion subsystem - interior}{3}{subsection.5.1}%
 \contentsline {section}{Bibliography}{4}{section*.19}%

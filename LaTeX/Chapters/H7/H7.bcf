@@ -2374,6 +2374,8 @@
     <bcf:citekey order="5" intorder="1">atlas_manual</bcf:citekey>
     <bcf:citekey order="6" intorder="1">masses_ref</bcf:citekey>
     <bcf:citekey order="7" intorder="1">foto_fairing</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">batteries_position</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Leros</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
