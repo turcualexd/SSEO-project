@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  22 MAY 2024 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  22 MAY 2024 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1111,7 +1111,7 @@ Package biblatex Info: ... file 'H7.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config/Poli_logo.pdf, id=51, 527.9725pt x 415.5525pt>
+<../../Config/Poli_logo.pdf, id=55, 527.9725pt x 415.5525pt>
 File: ../../Config/Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config/Poli_logo.pdf>
 Package pdftex.def Info: ../../Config/Poli_logo.pdf  used on input line 6.
@@ -1154,7 +1154,7 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 LaTeX Warning: Missing reference on input line 7.
 
 ) (Sections/03_configuration.tex
-<Images/juno_packed.jpg, id=89, 115.632pt x 146.2263pt>
+<Images/juno_packed.jpg, id=94, 115.632pt x 146.2263pt>
 File: Images/juno_packed.jpg Graphic file (type jpg)
 <use Images/juno_packed.jpg>
 Package pdftex.def Info: Images/juno_packed.jpg  used on input line 5.
@@ -1168,7 +1168,7 @@ l.1 \section{External configuration}
 
 LaTeX Warning: Missing reference on input line 11.
 
-) (Sections/05_internal_config.tex)) [2]
+[2]) (Sections/05_internal_config.tex)) [3]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1179,29 +1179,29 @@ Package biblatex Info: Reference section=0 on input line 19.
 Package caption Warning: Unused \captionsetup[table] on input line 57.
 See the caption package documentation for explanation.
 
-[3] (H7.aux)
+[4] (H7.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H7.out' has not changed.
-(rerunfilecheck)             Checksum: B933F03EF88E20E77894797D33DA2662;1731.
+(rerunfilecheck)             Checksum: AA72B5362EAE0A5827C28C9C71FB584E;1857.
 Package logreq Info: Writing requests to 'H7.run.xml'.
 \openout1 = `H7.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24056 strings out of 474436
- 413037 string characters out of 5741955
- 1947190 words of memory out of 5000000
- 45975 multiletter control sequences out of 15000+600000
+ 24064 strings out of 474436
+ 413141 string characters out of 5741955
+ 1948190 words of memory out of 5000000
+ 45977 multiletter control sequences out of 15000+600000
  655560 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,10n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H7.pdf (5 pages, 229234 bytes).
+Output written on H7.pdf (6 pages, 233359 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
