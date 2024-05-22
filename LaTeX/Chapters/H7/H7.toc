@@ -25,5 +25,4 @@
 \contentsline {paragraph}{Solar Arrays:}{3}{paragraph*.18}%
 \contentsline {paragraph}{Batteries:}{3}{paragraph*.20}%
 \contentsline {section}{\numberline {5}Internal configuration}{3}{section.5}%
-\contentsline {paragraph}{Tanks:}{3}{paragraph*.21}%
-\contentsline {section}{Bibliography}{4}{section*.22}%
+\contentsline {section}{Bibliography}{4}{section*.21}%

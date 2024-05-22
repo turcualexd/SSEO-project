@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  22 MAY 2024 21:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  22 MAY 2024 22:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1168,7 +1168,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.10 
       [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/juno_config.pdf> <./Images/juno_packed.jpg>]) (Sections/04_external_config.tex [2]
-<Images/nuovo_foto_interno.jpg, id=170, 389.455pt x 271.0125pt>
+<Images/nuovo_foto_interno.jpg, id=169, 389.455pt x 271.0125pt>
 File: Images/nuovo_foto_interno.jpg Graphic file (type jpg)
 <use Images/nuovo_foto_interno.jpg>
 Package pdftex.def Info: Images/nuovo_foto_interno.jpg  used on input line 79.
@@ -1190,23 +1190,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H7.out' has not changed.
-(rerunfilecheck)             Checksum: AD0852C8090F8229F451540F22A83627;1857.
+(rerunfilecheck)             Checksum: AA72B5362EAE0A5827C28C9C71FB584E;1857.
 Package logreq Info: Writing requests to 'H7.run.xml'.
 \openout1 = `H7.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24163 strings out of 474436
- 416633 string characters out of 5741955
+ 24162 strings out of 474436
+ 416620 string characters out of 5741955
  1950190 words of memory out of 5000000
  46055 multiletter control sequences out of 15000+600000
  655560 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,10n,102p,1824b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H7.pdf (6 pages, 8748708 bytes).
+Output written on H7.pdf (6 pages, 2138959 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
