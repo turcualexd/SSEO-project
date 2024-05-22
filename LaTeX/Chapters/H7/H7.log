@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.26)  22 MAY 2024 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.26)  22 MAY 2024 21:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1087,6 +1087,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 8.
+ (./H7.out) (./H7.out)
 \@outlinefile=\write5
 \openout5 = `H7.out'.
 
@@ -1106,7 +1107,7 @@ Package biblatex Info: ... file 'H7.bbl' found.
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
  (../../Config/title_page_chapter.tex
-<../../Config//Poli_logo.pdf, id=4, 527.9725pt x 415.5525pt>
+<../../Config//Poli_logo.pdf, id=60, 527.9725pt x 415.5525pt>
 File: ../../Config//Poli_logo.pdf Graphic file (type pdf)
 <use ../../Config//Poli_logo.pdf>
 Package pdftex.def Info: ../../Config//Poli_logo.pdf  used on input line 6.
@@ -1132,8 +1133,7 @@ LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 3
 File: ujkpsyc.fd 2006/08/15 v1.0
 ) [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <../../Config//Poli_logo.pdf>])
-No file H7.toc.
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <../../Config//Poli_logo.pdf>]) (./H7.toc)
 \tf@toc=\write6
 \openout6 = `H7.toc'.
 
@@ -1141,51 +1141,57 @@ No file H7.toc.
 \blx@sectionciteorder@1=\count457
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
-(./Body.tex (./Sections/00_notation.tex) [1] (./Sections/01_introduction_config.tex) (./Sections/02_shape_appendages.tex
-
-pdfTeX warning: pdflatex (file ./Images/juno_appendages.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/juno_appendages.pdf, id=28, 342.31888pt x 181.6386pt>
-File: Images/juno_appendages.pdf Graphic file (type pdf)
-<use Images/juno_appendages.pdf>
-Package pdftex.def Info: Images/juno_appendages.pdf  used on input line 3.
-(pdftex.def)             Requested size: 179.2555pt x 95.115pt.
+ (./Body.tex (./Sections/00_notation.tex) [1] (./Sections/01_introduction_config.tex) (./Sections/02_shape_appendages.tex
+<Images/TO_REMOVE.pdf, id=96, 398.99063pt x 301.125pt>
+File: Images/TO_REMOVE.pdf Graphic file (type pdf)
+<use Images/TO_REMOVE.pdf>
+Package pdftex.def Info: Images/TO_REMOVE.pdf  used on input line 3.
+(pdftex.def)             Requested size: 179.2555pt x 135.28444pt.
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 4.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )) (./Sections/03_configuration.tex
-<Images/juno_packed.jpg, id=29, 115.632pt x 146.2263pt>
+<Images/juno_packed.jpg, id=97, 115.632pt x 146.2263pt>
 File: Images/juno_packed.jpg Graphic file (type jpg)
 <use Images/juno_packed.jpg>
 Package pdftex.def Info: Images/juno_packed.jpg  used on input line 3.
 (pdftex.def)             Requested size: 179.2555pt x 226.69527pt.
 
-
-LaTeX Warning: Reference `sec:config_introduction' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:juno_packed' on page 1 undefined on input line 8.
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.10 
-      [1{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/juno_appendages.pdf
-./Sections/03_configuration.tex:10: TeX capacity exceeded, sorry [PDF object stream buffer=5000000].
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.10 
-     
-If you really absolutely need more capacity,
-you can ask a wizard to enlarge me.
+      [1{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images/TO_REMOVE.pdf> <./Images/juno_packed.jpg>]) (./Sections/04_external_config.tex [2]) (./Sections/05_internal_config.tex)) [3]
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
+File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
+)
+Package biblatex Info: Reference section=0 on input line 19.
 
- 
+
+Package caption Warning: Unused \captionsetup[table] on input line 57.
+See the caption package documentation for explanation.
+
+[4] (./H7.aux)
+Package rerunfilecheck Info: File `H7.out' has not changed.
+(rerunfilecheck)             Checksum: B646CD3A9423CF32CA463DF8E94B0ADB;2140.
+Package logreq Info: Writing requests to 'H7.run.xml'.
+\openout1 = `H7.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 23985 strings out of 476025
- 410902 string characters out of 5790016
- 1870388 words of memory out of 5000000
- 44070 multiletter control sequences out of 15000+600000
- 597538 words of font info for 116 fonts, out of 8000000 for 9000
+ 24182 strings out of 476025
+ 415192 string characters out of 5790016
+ 1873388 words of memory out of 5000000
+ 44191 multiletter control sequences out of 15000+600000
+ 609778 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,10n,96p,1841b,1383s stack positions out of 10000i,1000n,20000p,200000b,200000s
-./Sections/03_configuration.tex:10:  ==> Fatal error occurred, no output PDF file produced!
+ 87i,10n,96p,1841b,1879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on H7.pdf (6 pages, 253164 bytes).
+PDF statistics:
+ 266 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+

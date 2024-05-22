@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'H7.blg'
+[178] biber-darwin:340> INFO - === Wed May 22, 2024, 21:05:02
+[204] Biber.pm:419> INFO - Reading 'H7.bcf'
+[378] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[380] Biber.pm:979> INFO - Found 23 citekeys in bib section 1
+[381] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[420] Biber.pm:4419> INFO - Processing section 1
+[438] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
+[443] bibtex.pm:1713> INFO - LaTeX decoding ...
+[563] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
+[741] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[742] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[742] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[742] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[763] bbl.pm:660> INFO - Writing 'H7.bbl' with encoding 'UTF-8'
+[777] bbl.pm:763> INFO - Output to H7.bbl
+[777] Biber.pm:131> WARN - Duplicate entry key: 'atlas_manual' in file '../../bibliography.bib', skipping ...
+[778] Biber.pm:133> INFO - WARNINGS: 1
