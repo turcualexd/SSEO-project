@@ -19,28 +19,6 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
-    \entry{2006_overview}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=6b4abdd86ffba2654cb9815f5e0be02a}{%
-           family={Grammier},
-           familyi={G\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{fullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{bibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorbibnamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authornamehash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \strng{authorfullhash}{6b4abdd86ffba2654cb9815f5e0be02a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/missions/juno}}
-      \field{title}{Overview of the Juno Mission to Jupiter}
-      \field{year}{2006}
-    \endentry
     \entry{masses_ref}{misc}{}
       \name{author}{1}{}{%
         {{hash=b72ac823d25cea6b75733918733a005d}{%
@@ -55,8 +33,8 @@
       \strng{authorbibnamehash}{b72ac823d25cea6b75733918733a005d}
       \strng{authornamehash}{b72ac823d25cea6b75733918733a005d}
       \strng{authorfullhash}{b72ac823d25cea6b75733918733a005d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Site: \url{https://www.jpl.nasa.gov/news/press_kits/juno/facts/}}
@@ -79,8 +57,8 @@
       \strng{authorbibnamehash}{b61f050da6dab86436e5594227372614}
       \strng{authornamehash}{b61f050da6dab86436e5594227372614}
       \strng{authorfullhash}{b61f050da6dab86436e5594227372614}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Paper}
@@ -88,18 +66,18 @@
       \field{year}{2012}
     \endentry
     \entry{solar_panels_testing}{misc}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{note}{Site: \url{https://www.jpl.nasa.gov/news/juno-solar-panels-complete-testing}}
     \endentry
     \entry{atlas_manual}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{note}{Site: \url{https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf}}
     \endentry
     \entry{foto_fairing}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{note}{Site: \url{https://spaceflightnow.com/atlas/av029/fairing/}}
     \endentry
   \enddatalist

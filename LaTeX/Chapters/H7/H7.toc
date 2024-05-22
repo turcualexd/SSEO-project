@@ -5,5 +5,21 @@
 \contentsline {section}{\numberline {2}Shape and appendages}{1}{section.2}%
 \contentsline {section}{\numberline {3}Configuration inside the launcher}{1}{section.3}%
 \contentsline {section}{\numberline {4}External configuration}{2}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Propulsion subsystem}{2}{subsection.4.1}%
+\contentsline {paragraph}{RCS:}{2}{paragraph*.5}%
+\contentsline {paragraph}{ME:}{2}{paragraph*.6}%
+\contentsline {subsection}{\numberline {4.2}TMTC subsystem}{2}{subsection.4.2}%
+\contentsline {paragraph}{HGA:}{2}{paragraph*.7}%
+\contentsline {paragraph}{MGA:}{2}{paragraph*.8}%
+\contentsline {paragraph}{LGA:}{2}{paragraph*.9}%
+\contentsline {paragraph}{TLGA:}{2}{paragraph*.10}%
+\contentsline {subsection}{\numberline {4.3}AOCS subsystem}{2}{subsection.4.3}%
+\contentsline {paragraph}{SRU:}{2}{paragraph*.11}%
+\contentsline {paragraph}{SSS:}{2}{paragraph*.12}%
+\contentsline {subsection}{\numberline {4.4}TCS subsystem}{2}{subsection.4.4}%
+\contentsline {paragraph}{MLI:}{2}{paragraph*.13}%
+\contentsline {paragraph}{Solar Arrays:}{2}{paragraph*.14}%
+\contentsline {paragraph}{Vault:}{2}{paragraph*.15}%
+\contentsline {paragraph}{Forward deck instruments:}{2}{paragraph*.16}%
 \contentsline {section}{\numberline {5}Internal configuration}{2}{section.5}%
-\contentsline {section}{Bibliography}{3}{section*.5}%
+\contentsline {section}{Bibliography}{3}{section*.17}%

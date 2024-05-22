@@ -1,3 +1,63 @@
 \section{External configuration}
 \label{sec:external_config}
 
+Juno is a spin stabilized S/C that performs science operations in a LILT environment, with a trajectory ranging between 0.85 AU and 5.45 AU. The positioning of the instruments and the scientific payload is defined such that during science operations each face of the main body has a clear view of Jupiter twice a minute. ICs and OC are performed at 1 RPM while all the critical maneuvers are conducted at 2 RPM. All the on board subsystems will be analyzed. 
+
+\subsection{Propulsion subsystem}
+\label{subsec:prop_sub}
+
+\paragraph{RCS:}the twelve RCS thrusters are mounted on four REMs, three thrusters each, two REMs are on the forward deck (F-REMs) and two are on the aft deck (A-REMs). 
+Each REM is mounted on top of a pylon: F-REMs are raised by 74 cm while A-REMs are raised by 26 cm from their respective decks. Each thruster features a different orientation with respect to the Z and X axis: axial thrusters are canted 10° from the Z-axis on the top deck. Lateral thrusters are canted 5° from the X-axis and 12.5° from the Z-axis. Axial thrusters can be utilized as an alternative to the main engine.  
+\mref
+All this precautions are needed as plum from the firing of the thruster must not interact nor with the solar arrays nor with the antennas.
+% RCS is responsible for the realignment of the spin axis to the requested attitude and are needed to control the spin rate of the S/C. Thrusters are based on Hydrazine and decompose on a S-405 catalytic bed. The REMs are raised  
+\vspace{-4mm}
+
+\paragraph{ME:}the Leros 1b main engine is stored inside the main body. On the aft deck the cover is visible: this device is needed to protect the engine from collisions with debris along the cruise. 
+
+\subsection{TMTC subsystem}
+\label{subsec:tmtc_sub}
+
+\paragraph{HGA:}this antenna is both responsible for communications along the mission and for conducting science operations. It is mounted on top of the electronic vault and has a diameter of 2.5 m. It is located along the spin axis, such that its pointing requirements of 0.25° are satisfied. In addition to transmitting and receiving in X or Ka-band, the HGA also serves the fundamental role of thermally protecting the spacecraft from the radiations coming the Sun during the IC: the whole antenna is covered with a highly reflective Germanium Kapton blanket. 
+
+\vspace{-4mm}
+
+\paragraph{MGA:}this antenna is mounted near the HGA on the forward deck and it is used for communications only. It serves as alternative to the HGA during the different manuevers as its beamwidth is larger ar 10.3°. 
+
+\vspace{-4mm}
+
+\paragraph{LGA:}two of this type of antennas are present on Juno, on on the forward deck, on the same structure of the MGA, and one on the aft deck. The two antennas are coupled together as are not independently controllable and are only used during the EGA due their limited power. 
+
+\vspace{-4mm}
+
+\paragraph{TLGA:}this antenna serves a crucial role during all the manuevers that Juno performs and in the event of a safe mode. It is mounted on the aft deck, aligned with A1, and has the peculiarity to be a biconical horn style antenna. The TLGA transmits only tones that are necessary to assess the health status of the spacecraft. During the DSMs the SEP angle must be carefully monitored in order to not exceed safe operational values for this antenna. 
+
+\subsection{AOCS subsystem}
+\label{subsec:aocs_sub}
+
+The \textbf{RCS} used to control the attitude of the S/C is presented in \autoref{subsec:prop_sub}
+
+\vspace{-4mm}
+
+\paragraph{SRU:}two of this type of sensor are mounted on the forward deck of Juno, looking in the radial direction. They are responsible for the attitude determination of the S/C during all the ICs, the OC, and science operations. Software calculations are required as the spin rate of Juno changes throughout the mission, from 1 to 2 RPM. The SRUs are turned off and covered during the two DSMs as a direct sight of the Sun would have damaged their sensible optics. While performing EPM or SPM no precautions are needed. 
+
+\vspace{-4mm}
+
+\paragraph{SSS:}two of this type of sensors are positioned on the edge of the forward deck amd are oriented in such a way to include both the Z-axis and a portion of the XY plane inside their FOV. They are used during critical manuevers to provide accurate attitude determination while the SRUs are not in working conditions and allow for a fail safe recovery. 
+
+\subsection{TCS subsystem}
+\label{subsec:tcs_sub}
+
+\paragraph{MLI:} 
+
+\paragraph{Solar Arrays:} 
+
+\vspace{-4mm}
+
+\paragraph{Vault:} 
+
+\vspace{-4mm}
+
+\paragraph{Forward deck instruments:} 
+
+\vspace{-4mm}
