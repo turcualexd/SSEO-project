@@ -2394,12 +2394,13 @@
     <bcf:citekey order="25" intorder="1">JEDI_info</bcf:citekey>
     <bcf:citekey order="26" intorder="1">JADE_info</bcf:citekey>
     <bcf:citekey order="27" intorder="1">MAG_info</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">esa_margins</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">solar_datasheet</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">solar_panels_coef</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">masses_ref</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">batterie</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">esa_margins</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">esa_margins</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">solar_datasheet</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">solar_panels_coef</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">masses_ref</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">batterie</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">esa_margins</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
