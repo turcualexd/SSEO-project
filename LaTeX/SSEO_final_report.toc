@@ -110,5 +110,5 @@
 \contentsline {section}{\numberline {7.2}Juno OBDH}{55}{section.7.2}%
 \contentsline {subsection}{\numberline {7.2.1}Introduction of OBDH}{55}{subsection.7.2.1}%
 \contentsline {subsection}{\numberline {7.2.2}Architecture of OBDH}{55}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Reverse sizing of OBDH}{55}{subsection.7.2.3}%
-\contentsline {section}{Bibliography}{56}{section*.83}%
+\contentsline {subsection}{\numberline {7.2.3}Reverse sizing of OBDH}{56}{subsection.7.2.3}%
+\contentsline {section}{Bibliography}{57}{section*.84}%

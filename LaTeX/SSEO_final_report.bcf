@@ -2642,6 +2642,8 @@
     <bcf:citekey order="8" intorder="1">juno_telecommunication</bcf:citekey>
     <bcf:citekey order="9" intorder="1">UVS_info</bcf:citekey>
     <bcf:citekey order="10" intorder="1">MWR_info</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">JADE_info</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">JEDI_info</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

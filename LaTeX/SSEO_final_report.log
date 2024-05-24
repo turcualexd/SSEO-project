@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  22 MAY 2024 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  24 MAY 2024 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1429,31 +1429,37 @@ Package biblatex Info: Reference section=7 on input line 7.
 Package biblatex Info: Setting label 'refsection:7' on input line 7.
  (Chapters/H7/Body.tex (Chapters/H7/Sections/00_notation.tex) [53
 
-] (Chapters/H7/Sections/01_introduction_config.tex) (Chapters/H7/Sections/02_shape_appendages.tex) (Chapters/H7/Sections/03_configuration.tex) (Chapters/H7/Sections/04_external_config.tex) (Chapters/H7/Sections/05_internal_config.tex) [54] (Chapters/H7/Sections/06_introduction_OBDH.tex) (Chapters/H7/Sections/07_architecture_OBDH.tex) (Chapters/H7/Sections/08_reverse_OBDH.tex)) [55]
+] (Chapters/H7/Sections/01_introduction_config.tex) (Chapters/H7/Sections/02_shape_appendages.tex) (Chapters/H7/Sections/03_configuration.tex) (Chapters/H7/Sections/04_external_config.tex) (Chapters/H7/Sections/05_internal_config.tex) [54] (Chapters/H7/Sections/06_introduction_OBDH.tex) (Chapters/H7/Sections/07_architecture_OBDH.tex
+<Chapters/H7/Images/RAD750 schema.png, id=2560, 741.26938pt x 431.11063pt>
+File: Chapters/H7/Images/RAD750 schema.png Graphic file (type png)
+<use Chapters/H7/Images/RAD750 schema.png>
+Package pdftex.def Info: Chapters/H7/Images/RAD750 schema.png  used on input line 9.
+(pdftex.def)             Requested size: 358.50317pt x 208.50293pt.
+ [55 <./Chapters/H7/Images/RAD750 schema.png>]) (Chapters/H7/Sections/08_reverse_OBDH.tex)) [56]
 Package biblatex Info: Reference section=0 on input line 7.
-) [56] (SSEO_final_report.aux)
+) [57] (SSEO_final_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `SSEO_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 676E46C948AA9FC4EAA63F4747A652D0;18178.
+(rerunfilecheck)             Checksum: EF2B0110965D8A535F10671B331C5B2A;18178.
 Package logreq Info: Writing requests to 'SSEO_final_report.run.xml'.
 \openout1 = `SSEO_final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26247 strings out of 474424
- 479153 string characters out of 5741739
+ 26274 strings out of 474424
+ 480033 string characters out of 5741739
  1986496 words of memory out of 5000000
- 47562 multiletter control sequences out of 15000+600000
+ 47581 multiletter control sequences out of 15000+600000
  803758 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,20n,102p,2840b,2314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/ricky/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (60 pages, 8805173 bytes).
+Output written on SSEO_final_report.pdf (61 pages, 8977490 bytes).
 PDF statistics:
- 2730 PDF objects out of 2984 (max. 8388607)
- 402 named destinations out of 1000 (max. 500000)
- 1075 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2744 PDF objects out of 2984 (max. 8388607)
+ 406 named destinations out of 1000 (max. 500000)
+ 1080 words of extra memory for PDF output out of 10000 (max. 10000000)
 
