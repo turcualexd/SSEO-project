@@ -2644,6 +2644,13 @@
     <bcf:citekey order="10" intorder="1">MWR_info</bcf:citekey>
     <bcf:citekey order="11" intorder="1">JADE_info</bcf:citekey>
     <bcf:citekey order="12" intorder="1">JEDI_info</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">JunoCam_info</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">MAG_info</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">MWR_info</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">UVS_info</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">Waves_info</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">JIRAM_info</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">JIRAM_info_2</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

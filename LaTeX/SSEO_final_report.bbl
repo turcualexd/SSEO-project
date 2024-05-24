@@ -2577,6 +2577,136 @@
       \field{title}{The Jupiter Energetic Particle Detector Instrument (JEDI) Investigation for the Juno Mission}
       \field{year}{2013}
     \endentry
+    \entry{JunoCam_info}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=9bd27c7e6205f04bb07d01b0077ac312}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={C.J.\bibnamedelimi Hansen},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{9bd27c7e6205f04bb07d01b0077ac312}
+      \strng{fullhash}{9bd27c7e6205f04bb07d01b0077ac312}
+      \strng{fullhashraw}{9bd27c7e6205f04bb07d01b0077ac312}
+      \strng{bibnamehash}{9bd27c7e6205f04bb07d01b0077ac312}
+      \strng{authorbibnamehash}{9bd27c7e6205f04bb07d01b0077ac312}
+      \strng{authornamehash}{9bd27c7e6205f04bb07d01b0077ac312}
+      \strng{authorfullhash}{9bd27c7e6205f04bb07d01b0077ac312}
+      \strng{authorfullhashraw}{9bd27c7e6205f04bb07d01b0077ac312}
+      \field{extraname}{6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Junocam: Juno’s Outreach Camera}
+      \field{year}{2013}
+    \endentry
+    \entry{MAG_info}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=9ad22356199626f5e49d4951062a422f}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={R.\bibnamedelimi Schnurr},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ad22356199626f5e49d4951062a422f}
+      \strng{fullhash}{9ad22356199626f5e49d4951062a422f}
+      \strng{fullhashraw}{9ad22356199626f5e49d4951062a422f}
+      \strng{bibnamehash}{9ad22356199626f5e49d4951062a422f}
+      \strng{authorbibnamehash}{9ad22356199626f5e49d4951062a422f}
+      \strng{authornamehash}{9ad22356199626f5e49d4951062a422f}
+      \strng{authorfullhash}{9ad22356199626f5e49d4951062a422f}
+      \strng{authorfullhashraw}{9ad22356199626f5e49d4951062a422f}
+      \field{extraname}{7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Juno Magnetic Field Investigation}
+      \field{year}{2016}
+    \endentry
+    \entry{Waves_info}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f40eea647d3e49b862fe04f5dc35f257}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={B.T.\bibnamedelimi Mokrzycki},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{f40eea647d3e49b862fe04f5dc35f257}
+      \strng{fullhash}{f40eea647d3e49b862fe04f5dc35f257}
+      \strng{fullhashraw}{f40eea647d3e49b862fe04f5dc35f257}
+      \strng{bibnamehash}{f40eea647d3e49b862fe04f5dc35f257}
+      \strng{authorbibnamehash}{f40eea647d3e49b862fe04f5dc35f257}
+      \strng{authornamehash}{f40eea647d3e49b862fe04f5dc35f257}
+      \strng{authorfullhash}{f40eea647d3e49b862fe04f5dc35f257}
+      \strng{authorfullhashraw}{f40eea647d3e49b862fe04f5dc35f257}
+      \field{extraname}{8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Juno Waves Investigation}
+      \field{year}{2017}
+    \endentry
+    \entry{JIRAM_info}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=31dcb210f2ef76e7a5b6a030ce664779}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={R.Noschese},
+           giveni={R\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{fullhash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{fullhashraw}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{bibnamehash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{authorbibnamehash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{authornamehash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{authorfullhash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{authorfullhashraw}{31dcb210f2ef76e7a5b6a030ce664779}
+      \field{extraname}{9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JIRAM Standard Product, Data Record and Archive Volume, Software Interface Specification}
+      \field{year}{2013}
+    \endentry
+    \entry{JIRAM_info_2}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=31dcb210f2ef76e7a5b6a030ce664779}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={R.Noschese},
+           giveni={R\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{fullhash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{fullhashraw}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{bibnamehash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{authorbibnamehash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{authornamehash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{authorfullhash}{31dcb210f2ef76e7a5b6a030ce664779}
+      \strng{authorfullhashraw}{31dcb210f2ef76e7a5b6a030ce664779}
+      \field{extraname}{10}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Juno/JIRAM: Planning and commanding activities}
+      \field{year}{2020}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
