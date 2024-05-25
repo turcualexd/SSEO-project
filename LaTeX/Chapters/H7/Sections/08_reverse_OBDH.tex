@@ -1,3 +1,334 @@
 \subsection{Reverse sizing of OBDH}
 \label{subsec:OBDH_sizing}
 
+For this sizing, an estimation by similarity has been conducted. This method grants a preliminary evaluation of the memory and the processor that are necessary for OBDH to handle the functionalities of the S/C along the mission.
+Some typical values have been considered by the method for each process, which include data, codes and instructions per second.
+Then, the acquisition frequency and the occurrences of each process is hypothesized by the knowledge of the various subsystems present on Juno.
+
+The method has been applied for two main phases that have been identified: manoeuvering and telecommunication.
+The manoeuvering includes both the manoeuvres executed by RCS and by the main engine. A less conservative approach could have treated the two cases separately in terms of data budget.
+The payload contribution has not been considered since, as mentioned in \autoref{subsec:OBDH_architecture}, every science instrument possesses its own data handling unit, which communicates with a central unit.
+The data budget has been computed and reported in the tables below.
+
+\newcommand{\widthtab}{8}
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.4}
+    \centering
+    \cfs{\widthtab}
+    \begin{tabularx}{\linewidth}{|Y|c|c|c|c|c|c|c|}
+        \hline
+        \multicolumn{8}{|c|}{\cellcolor{bluePoli!25}\textbf{PS}} \\
+        \hline
+        \hline
+        \textbf{Components} & \textbf{Number} & \textbf{Code [words]} &
+        \textbf{Data [words]} & \textbf{Typical KIPS} &
+        \textbf{Typical freq. [Hz]} & \textbf{Acq. freq. [Hz]} &
+        \textbf{KIPS} \\
+        \hline
+        \textbf{Main engine} & 1 & 1200 & 500 & 5.0 & 0.1 & 0.1 & 5.0 \\
+        \hline
+        \textbf{Tank control valve} & 14 & 800 & 1500 & 3.0 & 0.1 & 0.1 & 3.0 \\
+        \hline
+        \textbf{Tank pressure sensor} & 8 & 800 & 1500 & 3.0 & 0.1 & 0.1 & 3.0 \\
+        \hline
+    \end{tabularx}
+    \caption{Data budget for PS}
+    \label{table:data_budget_PS}
+\end{table}
+\vspace*{-3mm}
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.4}
+    \centering
+    \cfs{\widthtab}
+    \begin{tabularx}{\linewidth}{|Y|c|c|c|c|c|c|c|}
+        \hline
+        \multicolumn{8}{|c|}{\cellcolor{bluePoli!25}\textbf{AOCS}} \\
+        \hline
+        \hline
+        \textbf{Components} & \textbf{Number} & \textbf{Code [words]} &
+        \textbf{Data [words]} & \textbf{Typical KIPS} &
+        \textbf{Typical freq. [Hz]} & \textbf{Acq. freq. [Hz]} &
+        \textbf{KIPS} \\
+        \hline
+        \textbf{Thruster control} & 12 & 600 & 400 & 1.2 & 2.0 & 2.0 & 1.2 \\
+        \hline
+        \textbf{Star tracker} & 1 & 2000 & 15000 & 2.0 & 0.01 & 10.0 & 2000.0 \\
+        \hline
+        \textbf{IMU} & 1 & 800 & 500 & 9.0 & 10.0 & 100.0 & 90.0 \\
+        \hline
+        \textbf{Sun sensor} & 1 & 500 & 100 & 1.0 & 1.0 & 1.0 & 1.0 \\
+        \hline
+        \textbf{Kinematic integration} & 1 & 2000 & 200 & 15.0 & 10.0 & 10.0 & 15.0 \\
+        \hline
+        \textbf{Error determination} & 1 & 1000 & 100 & 12.0 & 10.0 & 10.0 & 12.0 \\
+        \hline
+        \textbf{Attitude determination} & 1 & 15000 & 3500 & 150.0 & 10.0 & 10.0 & 150.0 \\
+        \hline
+        \textbf{Attitude control} & 1 & 24000 & 4200 & 60.0 & 10.0 & 10.0 & 60.0 \\
+        \hline
+        \textbf{Complex ephemeris} & 1 & 3500 & 2500 & 4.0 & 0.5 & 0.5 & 4.0 \\
+        \hline
+        \textbf{Orbit propagation} & 1 & 13000 & 4000 & 20.0 & 1.0 & 1.0 & 20.0 \\
+        \hline
+    \end{tabularx}
+    \caption{Data budget for AOCS}
+    \label{table:data_budget_AOCS}
+\end{table}
+\vspace*{-3mm}
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.4}
+    \centering
+    \cfs{\widthtab}
+    \begin{tabularx}{\linewidth}{|Y|c|c|c|c|c|c|c|}
+        \hline
+        \multicolumn{8}{|c|}{\cellcolor{bluePoli!25}\textbf{TCS}} \\
+        \hline
+        \hline
+        \textbf{Components} & \textbf{Number} & \textbf{Code [words]} &
+        \textbf{Data [words]} & \textbf{Typical KIPS} &
+        \textbf{Typical freq. [Hz]} & \textbf{Acq. freq. [Hz]} &
+        \textbf{KIPS} \\
+        \hline
+        \textbf{Thermal control} & 1 & 800 & 1500 & 3.0 & 0.1 & 0.1 & 3.0 \\
+        \hline
+    \end{tabularx}
+    \caption{Data budget for TCS}
+    \label{table:data_budget_TCS}
+\end{table}
+\vspace*{-3mm}
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.4}
+    \centering
+    \cfs{\widthtab}
+    \begin{tabularx}{\linewidth}{|Y|c|c|c|c|c|c|c|}
+        \hline
+        \multicolumn{8}{|c|}{\cellcolor{bluePoli!25}\textbf{TMTC}} \\
+        \hline
+        \hline
+        \textbf{Components} & \textbf{Number} & \textbf{Code [words]} &
+        \textbf{Data [words]} & \textbf{Typical KIPS} &
+        \textbf{Typical freq. [Hz]} & \textbf{Acq. freq. [Hz]} &
+        \textbf{KIPS} \\
+        \hline
+        \textbf{Transponder U/L} & 1 & 1000 & 4000 & 7.0 & 10.0 & 10.0 & 7.0 \\
+        \hline
+        \textbf{Transponder D/L} & 1 & 1000 & 2500 & 3.0 & 10.0 & 10.0 & 3.0 \\
+        \hline
+    \end{tabularx}
+    \caption{Data budget for TMTC}
+    \label{table:data_budget_TMTC}
+\end{table}
+\vspace*{-3mm}
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.4}
+    \centering
+    \cfs{\widthtab}
+    \begin{tabularx}{\linewidth}{|Y|c|c|c|c|c|c|c|}
+        \hline
+        \multicolumn{8}{|c|}{\cellcolor{bluePoli!25}\textbf{OS}} \\
+        \hline
+        \hline
+        \textbf{Components} & \textbf{Number} & \textbf{Code [words]} &
+        \textbf{Data [words]} & \textbf{Typical KIPS} &
+        \textbf{Typical freq. [Hz]} & \textbf{Acq. freq. [Hz]} &
+        \textbf{KIPS} \\
+        \hline
+        \textbf{I/O device handler} & 1 & 2000 & 700 & 50.0 & 5.0 & 5.0 & 50.0 \\
+        \hline
+        \textbf{Test and diagnostics} & 1 & 700 & 400 & 0.5 & 0.1 & 0.1 & 0.5 \\
+        \hline
+        \textbf{Math utilities} & 1 & 1200 & 200 & 0.5 & 0.1 & 0.1 & 0.5 \\
+        \hline
+        \textbf{Executive} & 1 & 3500 & 2000 & 60.0 & 10.0 & 10.0 & 60.0 \\
+        \hline
+        \textbf{Runtime kernel} & 1 & 8000 & 4000 & 60.0 & 10.0 & 10.0 & 60.0 \\
+        \hline
+        \textbf{Complex autonomy} & 1 & 15000 & 10000 & 20.0 & 10.0 & 10.0 & 20.0 \\
+        \hline
+        \textbf{Fault detection} & 1 & 4000 & 1000 & 15.0 & 5.0 & 5.0 & 15.0 \\
+        \hline
+        \textbf{Fault correction} & 1 & 2000 & 10000 & 5.0 & 5.0 & 5.0 & 5.0 \\
+        \hline
+    \end{tabularx}
+    \caption{Data budget for OS}
+    \label{table:data_budget_OS}
+\end{table}
+\vspace*{-3mm}
+
+For the PS $14$ control valves have been assumed, one for each thruster and two for the main engine. For the tanks $8$ pressure sensors have been considered, one for each tank (of fuel, oxidizer and pressurizer).
+
+For the AOCS $12$ thrusters are considered. The acquisition frequency of the star tracker \cite{SRU} is relatively high and rises the KIPS.
+This value has been taken into account to size the processor, but in reality the star tracker has its own microprocessor.
+
+For the TCS the thermal control refers to the centralized unit that handles all the heaters in the S/C.
+
+For each phase the total throughput, data and code are calculated and margined by $400\%$.
+
+The total KIPS for each subsystem is calculated as follows:
+\begin{equation}
+    \textrm{KIPS}_{tot} = \sum_{i = 1}^{n_{fun}} k_{i} \, \textrm{KIPS}_{i}
+\end{equation}
+
+The KIPS for each subsystem is then summed up in the data budget of each phase if the subsystem is active.
+
+The results of the data budgets are reported in \autoref{table:data_budget_manoeuvering} and \autoref{table:data_budget_communication}.
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.4}
+    \centering
+    \cfs{\widthtab}
+    \begin{tabularx}{0.6\linewidth}{|Y|c|c|c|c|c||c|}
+        \hline
+        \multicolumn{7}{|c|}{\cellcolor{bluePoli!25}\textbf{Manoeuvering}} \\
+        \hline
+        \hline
+        & \textbf{PS} & \textbf{AOCS} & \textbf{TCS}
+        & \textbf{TMTC} & \textbf{OS} & \textbf{TOT} \\
+        \hline
+        \textbf{Active?} & \cellcolor{green!25}1 & \cellcolor{green!25}1 & \cellcolor{green!25}1 & \cellcolor{green!25}1 & \cellcolor{green!25}1 & \\
+        \hline
+        \textbf{Throughput} & 71 & 2366.4 & 3 & 10 & 211 & 2661.4 \\
+        \hline
+        \textbf{Margined} & 355 & 11832 & 15 & 50 & 1055 & 13307 \\
+        \hline
+        \textbf{Code} & 18800 & 69000 & 800 & 2000 & 36400 & 127000 \\
+        \hline
+        \textbf{Margined} & 94000 & 345000 & 4000 & 10000 & 182000 & 635000 \\
+        \hline
+        \textbf{Data} & 34500 & 34900 & 1500 & 6500 & 28300 & 105700 \\
+        \hline
+        \textbf{Margined} & 172500 & 174500 & 7500 & 32500 & 141500 & 528500 \\
+        \hline
+    \end{tabularx}
+    \caption{Data budget for manoeuvering phase}
+    \label{table:data_budget_manoeuvering}
+\end{table}
+\vspace*{-3mm}
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.4}
+    \centering
+    \cfs{\widthtab}
+    \begin{tabularx}{0.6\linewidth}{|Y|c|c|c|c|c||c|}
+        \hline
+        \multicolumn{7}{|c|}{\cellcolor{bluePoli!25}\textbf{Communication}} \\
+        \hline
+        \hline
+        & \textbf{PS} & \textbf{AOCS} & \textbf{TCS}
+        & \textbf{TMTC} & \textbf{OS} & \textbf{TOT} \\
+        \hline
+        \textbf{Active?} & \cellcolor{red!25}0 & \cellcolor{green!25}1 & \cellcolor{green!25}1 & \cellcolor{green!25}1 & \cellcolor{green!25}1 & \\
+        \hline
+        \textbf{Throughput} & 0 & 2366.4 & 3 & 10 & 211 & 2590.4 \\
+        \hline
+        \textbf{Margined} & 0 & 11832 & 15 & 50 & 1055 & 12952 \\
+        \hline
+        \textbf{Code} & 0 & 69000 & 800 & 2000 & 36400 & 108200 \\
+        \hline
+        \textbf{Margined} & 0 & 345000 & 4000 & 10000 & 182000 & 541000 \\
+        \hline
+        \textbf{Data} & 0 & 34900 & 1500 & 6500 & 28300 & 71200 \\
+        \hline
+        \textbf{Margined} & 0 & 174500 & 7500 & 32500 & 141500 & 356000 \\
+        \hline
+    \end{tabularx}
+    \caption{Data budget for communication phase}
+    \label{table:data_budget_communication}
+\end{table}
+\vspace*{-3mm}
+
+For the ROM sizing, the relevant value is the maximum total code (margined) expressed in Mb, for the RAM is the maximum total memory, which is the sum of both the code and the data, while for the processor is the maximum total throughput (expressed in MIPS).
+The architecture of the OBDH is assumed to be 32-bit in order to calculate the word size.
+
+\vspace*{5mm}
+\begin{minipage}{0.5\linewidth}
+    \centering
+    \cfs{\widthtab}
+    \captionsetup{type=table}
+    \renewcommand{\arraystretch}{1.4}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \multicolumn{3}{|c|}{\cellcolor{bluePoli!25}\textbf{Total code [Mb]}} \\
+        \hline
+        \hline
+        & \textbf{Manoeuvering} & \textbf{Communication} \\
+        \hline
+        \textbf{Total} & 0.508 & 0.433 \\
+        \hline
+        \textbf{Margined} & \cellcolor{yellow!50}2.540 & 2.164 \\
+        \hline
+    \end{tabular}
+    \caption{Total code per phase}
+    \label{table:tot_code}
+\end{minipage}\hfill
+\begin{minipage}{0.5\linewidth}
+    \centering
+    \cfs{\widthtab}
+    \captionsetup{type=table}
+    \renewcommand{\arraystretch}{1.4}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \multicolumn{3}{|c|}{\cellcolor{bluePoli!25}\textbf{Total data [Mb]}} \\
+        \hline
+        \hline
+        & \textbf{Manoeuvering} & \textbf{Communication} \\
+        \hline
+        \textbf{Total} & 0.423 & 0.285 \\
+        \hline
+        \textbf{Margined} & 2.114 & 1.424 \\
+        \hline
+    \end{tabular}
+    \caption{Total data per phase}
+    \label{table:tot_data}
+\end{minipage}
+
+\vspace*{5mm}
+\begin{minipage}{0.5\linewidth}
+    \centering
+    \cfs{\widthtab}
+    \captionsetup{type=table}
+    \renewcommand{\arraystretch}{1.4}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \multicolumn{3}{|c|}{\cellcolor{bluePoli!25}\textbf{Total throughput [MIPS]}} \\
+        \hline
+        \hline
+        & \textbf{Manoeuvering} & \textbf{Communication} \\
+        \hline
+        \textbf{Total} & 2.661 & 2.590 \\
+        \hline
+        \textbf{Margined} & \cellcolor{yellow!50}13.307 & 12.952 \\
+        \hline
+    \end{tabular}
+    \caption{Total throughput per phase}
+    \label{table:tot_throughput}
+\end{minipage}\hfill
+\begin{minipage}{0.5\linewidth}
+    \centering
+    \cfs{\widthtab}
+    \captionsetup{type=table}
+    \renewcommand{\arraystretch}{1.4}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \multicolumn{3}{|c|}{\cellcolor{bluePoli!25}\textbf{Total memory [Mb]}} \\
+        \hline
+        \hline
+        & \textbf{Manoeuvering} & \textbf{Communication} \\
+        \hline
+        \textbf{Total} & 0.931 & 0.718 \\
+        \hline
+        \textbf{Margined} & \cellcolor{yellow!50}4.654 & 3.588 \\
+        \hline
+    \end{tabular}
+    \caption{Total memory per phase}
+    \label{table:tot_memory}
+\end{minipage}
+\vspace*{5mm}
+
+From the above table the sizing value have been enlightened.
+Comparing those with the real ones (\autoref{subsec:OBDH_architecture}), the compliance is proved.
+It can be noticed that the real computer board has much higher performances in terms of memory and computational power with respect to the computed ones.

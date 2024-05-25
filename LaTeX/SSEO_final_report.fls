@@ -1255,18 +1255,35 @@ INPUT Chapters\H7\\Sections\02_shape_appendages.tex
 INPUT .\Chapters\H7\\Sections\02_shape_appendages.tex
 INPUT .\Chapters\H7\\Sections\02_shape_appendages.tex
 INPUT Chapters\H7\\Sections\02_shape_appendages.tex
+INPUT .\Chapters\H7\\Images\juno_config.pdf
+INPUT Chapters\H7\\Images\juno_config.pdf
+INPUT .\Chapters\H7\\Images\juno_config.pdf
+INPUT .\Chapters\H7\\Images\juno_config.pdf
+INPUT .\Chapters\H7\\Images\juno_config.pdf
 INPUT .\Chapters\H7\\Sections\03_configuration.tex
 INPUT .\Chapters\H7\\Sections\03_configuration.tex
 INPUT Chapters\H7\\Sections\03_configuration.tex
 INPUT .\Chapters\H7\\Sections\03_configuration.tex
 INPUT .\Chapters\H7\\Sections\03_configuration.tex
 INPUT Chapters\H7\\Sections\03_configuration.tex
+INPUT .\Chapters\H7\\Images\juno_packed.jpg
+INPUT Chapters\H7\\Images\juno_packed.jpg
+INPUT .\Chapters\H7\\Images\juno_packed.jpg
+INPUT .\Chapters\H7\\Images\juno_packed.jpg
+INPUT .\Chapters\H7\\Images\juno_packed.jpg
+INPUT .\Chapters\H7\\Images\juno_packed.jpg
 INPUT .\Chapters\H7\\Sections\04_external_config.tex
 INPUT .\Chapters\H7\\Sections\04_external_config.tex
 INPUT Chapters\H7\\Sections\04_external_config.tex
 INPUT .\Chapters\H7\\Sections\04_external_config.tex
 INPUT .\Chapters\H7\\Sections\04_external_config.tex
 INPUT Chapters\H7\\Sections\04_external_config.tex
+INPUT .\Chapters\H7\\Images\nuovo_foto_interno.jpg
+INPUT Chapters\H7\\Images\nuovo_foto_interno.jpg
+INPUT .\Chapters\H7\\Images\nuovo_foto_interno.jpg
+INPUT .\Chapters\H7\\Images\nuovo_foto_interno.jpg
+INPUT .\Chapters\H7\\Images\nuovo_foto_interno.jpg
+INPUT .\Chapters\H7\\Images\nuovo_foto_interno.jpg
 INPUT .\Chapters\H7\\Sections\05_internal_config.tex
 INPUT .\Chapters\H7\\Sections\05_internal_config.tex
 INPUT Chapters\H7\\Sections\05_internal_config.tex
@@ -1285,12 +1302,19 @@ INPUT Chapters\H7\\Sections\07_architecture_OBDH.tex
 INPUT .\Chapters\H7\\Sections\07_architecture_OBDH.tex
 INPUT .\Chapters\H7\\Sections\07_architecture_OBDH.tex
 INPUT Chapters\H7\\Sections\07_architecture_OBDH.tex
+INPUT .\Chapters\H7\\Images\RAD750 schema.png
+INPUT Chapters\H7\\Images\RAD750 schema.png
+INPUT .\Chapters\H7\\Images\RAD750 schema.png
+INPUT .\Chapters\H7\\Images\RAD750 schema.png
+INPUT .\Chapters\H7\\Images\RAD750 schema.png
+INPUT .\Chapters\H7\\Images\RAD750 schema.png
 INPUT .\Chapters\H7\\Sections\08_reverse_OBDH.tex
 INPUT .\Chapters\H7\\Sections\08_reverse_OBDH.tex
 INPUT Chapters\H7\\Sections\08_reverse_OBDH.tex
 INPUT .\Chapters\H7\\Sections\08_reverse_OBDH.tex
 INPUT .\Chapters\H7\\Sections\08_reverse_OBDH.tex
 INPUT Chapters\H7\\Sections\08_reverse_OBDH.tex
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
 INPUT SSEO_final_report.aux
 INPUT .\SSEO_final_report.out
 INPUT .\SSEO_final_report.out
