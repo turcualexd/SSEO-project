@@ -86,8 +86,8 @@
       \field{note}{Site: \url{https://www.ulalaunch.com/docs/default-source/rockets/atlasvusersguide2010.pdf}}
     \endentry
     \entry{foto_fairing}{misc}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{note}{Site: \url{https://spaceflightnow.com/atlas/av029/fairing/}}
     \endentry
     \entry{juno_inner}{misc}{}
@@ -107,8 +107,8 @@
       \strng{authornamehash}{1f38713a359af2dce5019a1ed3b581fa}
       \strng{authorfullhash}{1f38713a359af2dce5019a1ed3b581fa}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{AIAA space forum}
@@ -387,8 +387,8 @@
       \strng{authorbibnamehash}{70bf597bb74205a7b9bcc0c9df2fae26}
       \strng{authornamehash}{70bf597bb74205a7b9bcc0c9df2fae26}
       \strng{authorfullhash}{70bf597bb74205a7b9bcc0c9df2fae26}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Proven battery technology utilizing high energy, long-cycle life, low weight and small volume lithium-ion cells}
@@ -503,8 +503,8 @@
       \strng{authornamehash}{dd386bb35000eb387a6c047153269a48}
       \strng{authorfullhash}{dd386bb35000eb387a6c047153269a48}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{RAD750® radiation-hardened PowerPC microprocessor}
@@ -597,8 +597,8 @@
       \strng{authornamehash}{9bd27c7e6205f04bb07d01b0077ac312}
       \strng{authorfullhash}{9bd27c7e6205f04bb07d01b0077ac312}
       \field{extraname}{11}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Junocam: Juno’s Outreach Camera}
