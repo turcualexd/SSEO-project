@@ -106,23 +106,23 @@
 \contentsline {subsection}{\numberline {7.1.2}Shape and appendages}{54}{subsection.7.1.2}%
 \contentsline {subsection}{\numberline {7.1.3}Configuration inside the launcher}{54}{subsection.7.1.3}%
 \contentsline {subsection}{\numberline {7.1.4}External configuration}{55}{subsection.7.1.4}%
-\contentsline {subsubsection}{\numberline {7.1.4.1}Propulsion subsystem}{55}{subsubsection.7.1.4.1}%
+\contentsline {subsubsection}{\numberline {7.1.4.1}Propulsion Subsystem}{55}{subsubsection.7.1.4.1}%
 \contentsline {paragraph}{RCS:}{55}{paragraph*.85}%
 \contentsline {paragraph}{ME:}{55}{paragraph*.86}%
-\contentsline {subsubsection}{\numberline {7.1.4.2}TMTC subsystem}{55}{subsubsection.7.1.4.2}%
+\contentsline {subsubsection}{\numberline {7.1.4.2}Telemetry and Telecommand Subsystem}{55}{subsubsection.7.1.4.2}%
 \contentsline {paragraph}{HGA:}{55}{paragraph*.87}%
 \contentsline {paragraph}{MGA:}{55}{paragraph*.88}%
 \contentsline {paragraph}{LGA:}{55}{paragraph*.89}%
 \contentsline {paragraph}{TLGA:}{55}{paragraph*.90}%
-\contentsline {subsubsection}{\numberline {7.1.4.3}AOCS subsystem}{55}{subsubsection.7.1.4.3}%
+\contentsline {subsubsection}{\numberline {7.1.4.3}Attitude and Orbit Control Subsystem}{55}{subsubsection.7.1.4.3}%
 \contentsline {paragraph}{SRU:}{55}{paragraph*.91}%
 \contentsline {paragraph}{SSS:}{55}{paragraph*.92}%
-\contentsline {subsubsection}{\numberline {7.1.4.4}TCS subsystem}{55}{subsubsection.7.1.4.4}%
+\contentsline {subsubsection}{\numberline {7.1.4.4}Thermal Control Subsystem}{55}{subsubsection.7.1.4.4}%
 \contentsline {paragraph}{MLI:}{55}{paragraph*.93}%
 \contentsline {paragraph}{Solar Arrays:}{56}{paragraph*.94}%
 \contentsline {paragraph}{Vault:}{56}{paragraph*.95}%
 \contentsline {paragraph}{Instruments on the main body:}{56}{paragraph*.96}%
-\contentsline {subsubsection}{\numberline {7.1.4.5}EPS subsystem}{56}{subsubsection.7.1.4.5}%
+\contentsline {subsubsection}{\numberline {7.1.4.5}Electric Power Subsystem}{56}{subsubsection.7.1.4.5}%
 \contentsline {paragraph}{Solar Arrays:}{56}{paragraph*.97}%
 \contentsline {paragraph}{Batteries:}{56}{paragraph*.99}%
 \contentsline {subsection}{\numberline {7.1.5}Internal configuration}{56}{subsection.7.1.5}%

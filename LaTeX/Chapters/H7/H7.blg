@@ -1,19 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'H7.blg'
-[72] biber-darwin:340> INFO - === Mon May 27, 2024, 10:03:02
-[84] Biber.pm:419> INFO - Reading 'H7.bcf'
-[169] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[171] Biber.pm:979> INFO - Found 33 citekeys in bib section 1
-[171] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[187] Biber.pm:4419> INFO - Processing section 1
-[196] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
-[198] bibtex.pm:1713> INFO - LaTeX decoding ...
-[250] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
-[375] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[375] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[375] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[375] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[388] bbl.pm:660> INFO - Writing 'H7.bbl' with encoding 'UTF-8'
-[397] bbl.pm:763> INFO - Output to H7.bbl
-[397] Biber.pm:131> WARN - Duplicate entry key: 'atlas_manual' in file '../../bibliography.bib', skipping ...
-[397] Biber.pm:133> INFO - WARNINGS: 1
+[181] biber-MSWIN64:340> INFO - === 
+[244] Biber.pm:419> INFO - Reading 'H7.bcf'
+[337] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[339] Biber.pm:979> INFO - Found 33 citekeys in bib section 1
+[339] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[357] Biber.pm:4419> INFO - Processing section 1
+[382] Biber.pm:4610> INFO - Looking for bibtex file '../../bibliography.bib' for section 1
+[430] bibtex.pm:1713> INFO - LaTeX decoding ...
+[485] bibtex.pm:1519> INFO - Found BibTeX data source '../../bibliography.bib'
+[621] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[622] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[622] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[622] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[636] bbl.pm:660> INFO - Writing 'H7.bbl' with encoding 'UTF-8'
+[645] bbl.pm:763> INFO - Output to H7.bbl
+[645] Biber.pm:131> WARN - Duplicate entry key: 'atlas_manual' in file '../../bibliography.bib', skipping ...
+[645] Biber.pm:133> INFO - WARNINGS: 1
