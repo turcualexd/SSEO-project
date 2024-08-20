@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  28 JUN 2024 15:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.9)  20 AUG 2024 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1188,7 +1188,7 @@ Package pdftex.def Info: Chapters/H1/Images/orbits.png  used on input line 7.
 <Chapters/H1/Images/orbits_jupiter.jpg, id=719, 2609.75pt x 919.435pt>
 File: Chapters/H1/Images/orbits_jupiter.jpg Graphic file (type jpg)
 <use Chapters/H1/Images/orbits_jupiter.jpg>
-Package pdftex.def Info: Chapters/H1/Images/orbits_jupiter.jpg  used on input line 53.
+Package pdftex.def Info: Chapters/H1/Images/orbits_jupiter.jpg  used on input line 57.
 (pdftex.def)             Requested size: 460.93153pt x 162.39066pt.
 )) [8 <./Chapters/H1/Images/orbits_jupiter.jpg>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 1.
@@ -1451,7 +1451,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  87i,20n,102p,2832b,2300s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}{/Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}</Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbex.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbmi.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbmia.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpbsy.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpex.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmi.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmia.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmit8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmn8a.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpmne.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpsy.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpsya.pfb></Users/Chiara/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on SSEO_final_report.pdf (60 pages, 8805200 bytes).
+Output written on SSEO_final_report.pdf (60 pages, 8805774 bytes).
 PDF statistics:
  2730 PDF objects out of 2984 (max. 8388607)
  402 named destinations out of 1000 (max. 500000)
