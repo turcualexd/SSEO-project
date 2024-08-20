@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  20 AUG 2024 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  20 AUG 2024 14:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1157,11 +1157,11 @@ File: Images/functional_analysis.pdf Graphic file (type pdf)
 Package pdftex.def Info: Images/functional_analysis.pdf  used on input line 6.
 (pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
 ) (Sections/05_phases.tex [2 <./Images/functional_analysis.pdf>]) (Sections/06_conops.tex
-<Images/ConOps.pdf, id=171, 1596.39159pt x 499.24263pt>
+<Images/ConOps.pdf, id=171, 1822.5892pt x 591.58264pt>
 File: Images/ConOps.pdf Graphic file (type pdf)
 <use Images/ConOps.pdf>
-Package pdftex.def Info: Images/ConOps.pdf  used on input line 6.
-(pdftex.def)             Requested size: 512.14963pt x 160.16464pt.
+Package pdftex.def Info: Images/ConOps.pdf  used on input line 9.
+(pdftex.def)             Requested size: 512.14963pt x 166.22874pt.
 ) [3 <./Images/ConOps.pdf>] (Sections/07_payload.tex
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 9.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
@@ -1210,7 +1210,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  87i,14n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H1.pdf (10 pages, 1168632 bytes).
+Output written on H1.pdf (10 pages, 1191421 bytes).
 PDF statistics:
  316 PDF objects out of 1000 (max. 8388607)
  63 named destinations out of 1000 (max. 500000)
