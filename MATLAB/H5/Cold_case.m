@@ -1,4 +1,4 @@
-%clear, clc, close all;
+clear, clc, close all;
 
 load("Ephemeris\Radius\Science\Juno_Jupiter_science.mat")
 load("Ephemeris\Radius\Science\Juno_Sun_science.mat")

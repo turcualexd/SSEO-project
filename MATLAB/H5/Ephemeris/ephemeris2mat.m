@@ -1,10 +1,10 @@
 clear, clc, close all;
 
-name = "Science\Juno_Sun_science";
+name = "Science\Juno_Jupiter_science_extended";
 
 T = readtable("Original\" + name + ".txt");
 %return
-T = T(3:20347,:);
+T = T(3:30056,:);
 
 av  = table2array(T(:,12));
 ev  = table2array(T(:,3));
@@ -17,10 +17,10 @@ muS = astroConstants(4);
 muE = astroConstants(13);
 muJ = astroConstants(15);
 
-rv_JS_science = nan(length(av),3);
+rv_JJ_science_ext = nan(length(av),3);
 for i = 1:length(av)
-    [rv_JS_science(i,:), ~] = kep2car([av(i) ev(i) iv(i) OMv(i) omv(i) thv(i)], muS);
+    [rv_JJ_science_ext(i,:), ~] = kep2car([av(i) ev(i) iv(i) OMv(i) omv(i) thv(i)], muJ);
 end
 
 %return
-save("Radius\" + name + ".mat", "rv_JS_science")
+save("Radius\" + name + ".mat", "rv_JJ_science_ext")

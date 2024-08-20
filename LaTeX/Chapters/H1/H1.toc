@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {2}High level goals}{1}{section.2}%
 \contentsline {section}{\numberline {3}Mission drivers}{1}{section.3}%
 \contentsline {section}{\numberline {4}Functional analysis}{2}{section.4}%
-\contentsline {section}{\numberline {5}Main mission phases}{3}{section.5}%
+\contentsline {section}{\numberline {5}Main mission phases}{2}{section.5}%
 \contentsline {section}{\numberline {6}ConOps}{3}{section.6}%
 \contentsline {section}{\numberline {7}Payload analysis}{4}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Instruments overview}{4}{subsection.7.1}%
