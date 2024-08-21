@@ -7,6 +7,7 @@
 \rfig{orbits}{Juno's trajectory from ecliptic north pole}{0.3}
 The spacecraft was launched into orbit with an Atlas V 551 Rocket from Cape Canaveral. The actual launch date belonged to a 21-day time window limited by a number of events and their timings such as the Deep Space Maneuvers, the Earth Flyby, the Jupiter Insertion and the science orbits. The adopted transfer strategy allowed for significant reduction in $\Delta V$ with respect to a direct transfer between Earth and Jupiter.
 
+\textcolor{red}{The spacecraft was powered three days prior to the scheduled launch, allowing all required pre-flight inspections and check-ups, concerning the operational status and integrity of both the spacecraft and the launch vehicle.}
 Following the launch, after booster separation, Juno was put in a low Earth parking orbit thanks to a first burn of the Centaur upper stage. Afterwards, at time L+645 s, via a second burn given by the same stage, Juno entered an heliocentric trajectory. Solar arrays were deployed and initial checks on the instruments were performed at this time. This procedure is fundamental in order to provide enough electrical power to the spacecraft to perform initial check on its health. 
 The specific trajectory followed by Juno is called "2 + dV-EGA", which means that the spacecraft will perform an Earth gravity assist at around two years after launch.
 During the initial cruise various correction maneuvers were performed: the main ones being the two DSMs needed to place Juno on the correct path to achieve the planned fly-by. 
@@ -22,8 +23,9 @@ After the flyby, Juno spent 791 days on its last interplanetary leg in which no 
 
 % insertion: orbit insertion, quando e cosa succede: in che orbita ci troviamo, orbita polare quanto dura la manovra, contiamo i perigiovi 
 
-JOI burn was made at the closest approach to Jupiter: this moment is called PJ-0, indicating the first passage at the perijove of Juno. The targeted point for this maneuver is at an altitude of 4200 km, calculated above the 1-bar level of Jupiter. The spacecraft is left on a highly elliptical 53-days period around Jupiter with and inclination of 90\textdegree \; ($\pm$10\textdegree). Additional clean-up manuevers were planned to correct the trajectory. The attitude during JOI phase, as the spacecraft was slowing down, was such that the HGA was not pointing Earth, constraining communications to low tones, only meant to send information about the completion or failure of the events. 
-After 50 hours from PJ0 all instruments were successfully powered up and started to perform nominal science operations.
+JOI, \textcolor{red}{which was obtained through a main engine burn}, was made at the closest approach to Jupiter: this moment is called PJ-0, indicating the first passage at the perijove of Juno. The targeted point for this maneuver is at an altitude of 4200 km, calculated above the 1-bar level of Jupiter. 
+\textcolor{red}{JOI burn was timed to happen in the area of minimum magnetic field strength, reducing the risk of hardware damage during such a critical manoeuvre.} The spacecraft is left on a highly elliptical 53-days period around Jupiter with and inclination of 90\textdegree \; ($\pm$10\textdegree). Additional clean-up manuevers were planned to correct the trajectory. The attitude during JOI phase, as the spacecraft was slowing down, was such that the HGA was not pointing Earth, constraining communications to low tones, only meant to send information about the completion or failure of the events. 
+After 50 hours from PJ-0 all instruments were successfully powered up and started to perform nominal science operations.
 
 \subsection{Science operations and extended mission}
 \label{sec: science ops}
@@ -44,11 +46,6 @@ During science operations, two types of orbits should have been performed, diffe
 However, due to a malfunctioning of an helium tank valve, Juno entered Safe Mode for 13.5 hours and PRW was discarded. This change showed the robustness of the designed capture orbit. It was in fact possible to conduct science operations on this longer path with only minor changes: the disposal of the spacecraft had to be moved from 2017 to 2021 to allow the completion of the 35 orbits. Moreover, the 53-days orbit required a slight plane change (from 90\textdegree \;to 105\textdegree) between PJ-22 and PJ-23 to avoid a solar eclipse since the batteries are only suited for the 19 minutes eclipse during the Earth fly-by. 
 
 The so conducted mission was scheduled to end on July 2021 but the conditions of the spacecraft and the remaining fuel on board allowed to extend the mission by other 42 orbits for 5 more years of mission. During the nominal phases, the PJ had been shifted northwards, so during the extended phase a series of close passes of Jupiter's north polar cyclones occurred. Furthermore, flybys of Ganymede, Io and Europa are performed in addition to an analysis of the faint rings of the observed planet. \cite{fact_sheet}
-% dopo quanti perigiove non è successa la PRM, safety modes 
-% cambiamenti orbite per longitudini
-% puntamento diverso degli strumenti 
-% cambio di strategie e cambio piano per eclipse avoidance, progetto robusto ( mission extended anal )
-% cosa facciamo nella extended: flyby sulle diverse lune e analisi anelli 
 
 \cfig{orbits_jupiter}{0.9}{Orbits around Jupiter}
 
@@ -56,6 +53,6 @@ The so conducted mission was scheduled to end on July 2021 but the conditions of
 \label{sec: disposal}
 
 % per evitare contaminations of environment
-Under the planetary protection requirements, Juno is designed to de-orbit itself after the extended mission succeeds. The dose of radiations absorbed during the lifetime of the spacecraft won't allow for safe operations. The de-orbit manuever is supposed to begin with an apocentre burn, slowing down Juno by 75 m/s, enough to lower its perijove in the atmosphere of Jupiter. The dense gas layers will cause the spacecraft to disintegrate.
+Under the planetary protection requirements, Juno is designed to de-orbit itself after the extended mission succeeds. \textcolor{red}{In this phase, it may be necessary to establish communication with the ground station, hence an alignment between the HGA boresight and the spin-axis, to ensure that data is transmitted at adequate downlink rates.} The dose of radiations absorbed during the lifetime of the spacecraft won't allow for safe operations. The de-orbit manuever is supposed to begin with an apocentre burn, slowing down Juno by 75 m/s, enough to lower its perijove in the atmosphere of Jupiter. The dense gas layers will cause the spacecraft to disintegrate.
 
 De-orbiting the spacecraft, now planned in 2025, will eliminate the possibility of contamination of Jupiter and its Moons' environment, especially to avoid unreliable results from the planned ESA Juice mission, expected to enter Jupiter's orbit in 2031. \cite{NASA2} \cite{NASA1}

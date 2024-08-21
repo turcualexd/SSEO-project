@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  20 AUG 2024 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  21 AUG 2024 10:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1145,19 +1145,19 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \blx@sectionciteorder@1=\count460
 Package biblatex Info: Reference section=1 on input line 19.
 Package biblatex Info: Setting label 'refsection:1' on input line 19.
- (Body.tex (Sections/00_notation.tex) [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}] (Sections/01_introduction.tex) (Sections/02_goals.tex) (Sections/03_drivers.tex
+ (Body.tex (Sections/00_notation.tex [1{C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]) [2] (Sections/01_introduction.tex) (Sections/02_goals.tex) (Sections/03_drivers.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.20 
       [1]) (Sections/04_functional_analysis.tex
-<Images/functional_analysis.pdf, id=158, 1656.9403pt x 1837.61531pt>
+<Images/functional_analysis.pdf, id=166, 1656.9403pt x 1837.61531pt>
 File: Images/functional_analysis.pdf Graphic file (type pdf)
 <use Images/functional_analysis.pdf>
 Package pdftex.def Info: Images/functional_analysis.pdf  used on input line 6.
-(pdftex.def)             Requested size: 368.74835pt x 408.95926pt.
+(pdftex.def)             Requested size: 460.93153pt x 511.19206pt.
 ) (Sections/05_phases.tex [2 <./Images/functional_analysis.pdf>]) (Sections/06_conops.tex
-<Images/ConOps.pdf, id=171, 1822.5892pt x 591.58264pt>
+<Images/ConOps.pdf, id=177, 1822.5892pt x 591.58264pt>
 File: Images/ConOps.pdf Graphic file (type pdf)
 <use Images/ConOps.pdf>
 Package pdftex.def Info: Images/ConOps.pdf  used on input line 9.
@@ -1167,22 +1167,22 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 9.
  (C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ) [4]
-<Images/Strumenti Juno.jpg, id=200, 1606.0pt x 1159.33125pt>
+<Images/Strumenti Juno.jpg, id=209, 1606.0pt x 1159.33125pt>
 File: Images/Strumenti Juno.jpg Graphic file (type jpg)
 <use Images/Strumenti Juno.jpg>
 Package pdftex.def Info: Images/Strumenti Juno.jpg  used on input line 31.
 (pdftex.def)             Requested size: 409.72125pt x 295.75824pt.
  [5 <./Images/Strumenti Juno.jpg>]) (Sections/08_mission_analysis.tex
-<Images/orbits.png, id=211, 305.943pt x 509.2626pt>
+<Images/orbits.png, id=219, 305.943pt x 509.2626pt>
 File: Images/orbits.png Graphic file (type png)
 <use Images/orbits.png>
 Package pdftex.def Info: Images/orbits.png  used on input line 7.
 (pdftex.def)             Requested size: 153.64644pt x 255.75742pt.
  [6 <./Images/orbits.png (PNG copy)>]
-<Images/orbits_jupiter.jpg, id=228, 2609.75pt x 919.435pt>
+<Images/orbits_jupiter.jpg, id=236, 2609.75pt x 919.435pt>
 File: Images/orbits_jupiter.jpg Graphic file (type jpg)
 <use Images/orbits_jupiter.jpg>
-Package pdftex.def Info: Images/orbits_jupiter.jpg  used on input line 53.
+Package pdftex.def Info: Images/orbits_jupiter.jpg  used on input line 50.
 (pdftex.def)             Requested size: 460.93153pt x 162.39066pt.
 )) [7 <./Images/orbits_jupiter.jpg>]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 19.
@@ -1196,23 +1196,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `H1.out' has not changed.
-(rerunfilecheck)             Checksum: 07DA5A1047FBBEC28BDB2B6727101FE3;2635.
+(rerunfilecheck)             Checksum: B601636D24BBDF8562B4F9D25CBE936F;2635.
 Package logreq Info: Writing requests to 'H1.run.xml'.
 \openout1 = `H1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24244 strings out of 474436
- 417432 string characters out of 5741955
+ 24246 strings out of 474436
+ 417455 string characters out of 5741955
  1945190 words of memory out of 5000000
  46114 multiletter control sequences out of 15000+600000
  666492 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,14n,102p,1514b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/paolo/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on H1.pdf (10 pages, 1191428 bytes).
+Output written on H1.pdf (11 pages, 1193824 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
  175 words of extra memory for PDF output out of 10000 (max. 10000000)
 

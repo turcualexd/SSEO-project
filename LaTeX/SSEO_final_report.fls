@@ -605,11 +605,6 @@ INPUT Chapters\H1\Sections\03_drivers.tex
 INPUT .\Chapters\H1\Sections\03_drivers.tex
 INPUT .\Chapters\H1\Sections\03_drivers.tex
 INPUT Chapters\H1\Sections\03_drivers.tex
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7c.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
@@ -631,8 +626,6 @@ INPUT Chapters\H1\Sections\05_phases.tex
 INPUT .\Chapters\H1\Sections\05_phases.tex
 INPUT .\Chapters\H1\Sections\05_phases.tex
 INPUT Chapters\H1\Sections\05_phases.tex
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
-INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
 INPUT .\Chapters\H1\Sections\06_conops.tex
 INPUT .\Chapters\H1\Sections\06_conops.tex
 INPUT Chapters\H1\Sections\06_conops.tex
@@ -651,9 +644,16 @@ INPUT .\Chapters\H1\Sections\07_payload.tex
 INPUT .\Chapters\H1\Sections\07_payload.tex
 INPUT Chapters\H1\Sections\07_payload.tex
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkp.fd
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn7c.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
+INPUT C:\Users\paolo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
 INPUT .\Chapters\H1\Images\Strumenti Juno.jpg
 INPUT Chapters\H1\Images\Strumenti Juno.jpg
 INPUT .\Chapters\H1\Images\Strumenti Juno.jpg
