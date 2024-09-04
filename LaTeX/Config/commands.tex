@@ -70,6 +70,7 @@
 \begin{refsection}
 	\import{Chapters/H#1/}{Body}
 	\pagebreak
+	\phantomsection
 	\printbibliography[heading=subbibintoc,title=Bibliography]
 \end{refsection}
 }
@@ -85,6 +86,7 @@
 \begin{refsection}
 	\import{}{Body}
 	\pagebreak
+	\phantomsection
 	\printbibliography[heading=bibintoc,title=Bibliography]
 \end{refsection}
 }
@@ -109,3 +111,6 @@
 	\textcolor{red}{\textbf{REFERENCE}}
 }
 \makeatother
+
+% Centred column in tabularx
+\newcolumntype{Y}{>{\centering\arraybackslash}X}

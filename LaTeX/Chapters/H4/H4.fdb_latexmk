@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber H4"] 1714336637 "H4.bcf" "H4.bbl" "H4" 1714338235 0
+["biber H4"] 1714336637 "H4.bcf" "H4.bbl" "H4" 1714723480 0
   "../../bibliography.bib" 1714336237 14754 afde44d3e77e70002bf9dc76e50616ff ""
-  "H4.bcf" 1714338235 108960 9a43f3882e65d0254baae06c5fb28a9f "pdflatex"
+  "H4.bcf" 1714723479 108960 9a43f3882e65d0254baae06c5fb28a9f "pdflatex"
   (generated)
   "H4.bbl"
   "H4.blg"
   (rewritten before read)
-["pdflatex"] 1714338233 "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H4/H4.tex" "H4.pdf" "H4" 1714338235 0
+["pdflatex"] 1714723478 "c:/Users/turcu/Desktop/Progetti/SSEO-project/LaTeX/Chapters/H4/H4.tex" "H4.pdf" "H4" 1714723480 0
   "../../Config//Poli_logo.pdf" 1710546785 40200 4b51719258b4eb427d3de9091da52c22 ""
-  "../../Config//commands.tex" 1714338026 2372 2e91d3abd36f887990d959cdfcad5bb0 ""
+  "../../Config//commands.tex" 1714723263 2408 2cc2eb798f0de2c9d31a7bf7a1b8d6ec ""
   "../../Config//formats.tex" 1714336614 2245 5320fe037231799d7c4c273b8646a05d ""
   "../../Config//packages.tex" 1714139511 615 fb10f66a2b18ecdb68111c5055bd040e ""
   "../../Config/input.tex" 1710507240 64 8ae8ba5ae95956199c19f4f8bc84f8b0 ""
@@ -183,12 +183,12 @@
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1604489012 3623 13474540f7d9568bf6269d154cad18d4 ""
-  "H4.aux" 1714338234 12305 8d2e2b53881a3621fedfbadfbffabc78 "pdflatex"
+  "H4.aux" 1714723479 12299 e0eba84b66526f0b84d18567b9fbffce "pdflatex"
   "H4.bbl" 1714336639 18873 907ff71ae7c278a1f28d9043acd269c3 "biber H4"
-  "H4.out" 1714338235 3856 68f18d6d33c6929bf09de47433381c78 "pdflatex"
-  "H4.run.xml" 1714338235 2299 73f7a7477e21dff4a2d985f82a09fba9 "pdflatex"
+  "H4.out" 1714723479 3850 1b700ca780e88b36899fa1ed442b8c87 "pdflatex"
+  "H4.run.xml" 1714723479 2299 73f7a7477e21dff4a2d985f82a09fba9 "pdflatex"
   "H4.tex" 1714227745 306 9d2647812d0c53a1c12a6bcc6bcc2864 ""
-  "H4.toc" 1714338235 1980 12f4bf724d074d488283e6a6001ef94f "pdflatex"
+  "H4.toc" 1714723479 1974 a7e661e51bd1c003cb411bef7dcf3bf2 "pdflatex"
   "Images/SPM.pdf" 1714061503 97804 6738c95a53be2d46bf5c2adfa05b03f6 ""
   "Images/alfa_025.pdf" 1714090249 1004464 40d5407a76fcf979f9366aee358fccf2 ""
   "Images/alfa_5.pdf" 1714090605 1001529 b1e5408b15fcab68596a73c57e5e8076 ""
