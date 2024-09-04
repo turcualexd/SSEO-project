@@ -177,81 +177,6 @@
       \field{title}{Key and Driving Requirements for the Juno Payload Suite of Instruments}
       \field{year}{2012}
     \endentry
-    \entry{pannelli}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=d46f21ead07f61acd265e34dfaad003e}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Stephen\bibnamedelimb F\bibnamedelimb Dawson\bibnamedelimb Paul\bibnamedelimb Stella\bibnamedelimb William\bibnamedelimb McAlpine\bibnamedelima Brian},
-           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{fullhash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{fullhashraw}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{bibnamehash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{authorbibnamehash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{authornamehash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{authorfullhash}{d46f21ead07f61acd265e34dfaad003e}
-      \strng{authorfullhashraw}{d46f21ead07f61acd265e34dfaad003e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Site: \url{https://ntrs.nasa.gov/citations/20130010565}}
-      \field{title}{Juno Photovoltaic Power at Jupiter}
-      \field{year}{2012}
-    \endentry
-    \entry{batterie}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=f22794f69ce5910cb4be68ff9026570d}{%
-           family={Various},
-           familyi={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{f22794f69ce5910cb4be68ff9026570d}
-      \strng{fullhash}{f22794f69ce5910cb4be68ff9026570d}
-      \strng{fullhashraw}{f22794f69ce5910cb4be68ff9026570d}
-      \strng{bibnamehash}{f22794f69ce5910cb4be68ff9026570d}
-      \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
-      \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
-      \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
-      \strng{authorfullhashraw}{f22794f69ce5910cb4be68ff9026570d}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Website}
-      \field{note}{Site: \url{https://spaceflight101.com/juno/spacecraft-information/}}
-      \field{title}{Spacecraft Information}
-      \field{year}{2024}
-    \endentry
-    \entry{Rad_vault}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=1ea42210608fc521bff03c1b57641bff}{%
-           family={vault},
-           familyi={v\bibinitperiod},
-           given={Installing\bibnamedelima Juno's},
-           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
-           prefix={radiation},
-           prefixi={r\bibinitperiod}}}%
-      }
-      \strng{namehash}{1ea42210608fc521bff03c1b57641bff}
-      \strng{fullhash}{1ea42210608fc521bff03c1b57641bff}
-      \strng{fullhashraw}{1ea42210608fc521bff03c1b57641bff}
-      \strng{bibnamehash}{1ea42210608fc521bff03c1b57641bff}
-      \strng{authorbibnamehash}{1ea42210608fc521bff03c1b57641bff}
-      \strng{authornamehash}{1ea42210608fc521bff03c1b57641bff}
-      \strng{authorfullhash}{1ea42210608fc521bff03c1b57641bff}
-      \strng{authorfullhashraw}{1ea42210608fc521bff03c1b57641bff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Website}
-      \field{note}{Site: \url{https://www.nasa.gov/image-article/installing-junos-radiation-vault/}}
-      \field{title}{Radiation vault characteristics}
-      \field{year}{2024}
-    \endentry
     \entry{atmosphere}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=88f8533425775f59b8bc206277efa3f2}{%
@@ -270,14 +195,42 @@
       \strng{authornamehash}{88f8533425775f59b8bc206277efa3f2}
       \strng{authorfullhash}{88f8533425775f59b8bc206277efa3f2}
       \strng{authorfullhashraw}{88f8533425775f59b8bc206277efa3f2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Journal of Geophysical Research: Planet}
       \field{note}{Site: \url{https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2018GL077312}}
       \field{title}{A New Model of Jupiter's Magnetic Field from Juno'sFirst Nine Orbits}
       \field{year}{2018}
+    \endentry
+    \entry{communication_support}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4b8377b53a140de219b564cf137de15e}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Dustin\bibnamedelima Buccino},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{fullhash}{4b8377b53a140de219b564cf137de15e}
+      \strng{fullhashraw}{4b8377b53a140de219b564cf137de15e}
+      \strng{bibnamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authorbibnamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authornamehash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authorfullhash}{4b8377b53a140de219b564cf137de15e}
+      \strng{authorfullhashraw}{4b8377b53a140de219b564cf137de15e}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Paper}
+      \field{title}{Detecting Juno’s "Heartbeat": Communications Support during Critical Events of the Juno Mission}
+      \field{year}{2020}
     \endentry
     \entry{NASA2}{misc}{}{}
       \name{author}{1}{}{%
@@ -329,6 +282,30 @@
       \field{howpublished}{Website}
       \field{note}{Site: \url{https://www.jpl.nasa.gov/news/nasas-juno-mission-expands-into-the-future}}
       \field{title}{NASA’s Juno Mission Expands Into the Future}
+      \field{year}{2024}
+    \endentry
+    \entry{batterie}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f22794f69ce5910cb4be68ff9026570d}{%
+           family={Various},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhashraw}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{bibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhashraw}{f22794f69ce5910cb4be68ff9026570d}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Site: \url{https://spaceflight101.com/juno/spacecraft-information/}}
+      \field{title}{Spacecraft Information}
       \field{year}{2024}
     \endentry
     \entry{spaceflight101}{misc}{}{}

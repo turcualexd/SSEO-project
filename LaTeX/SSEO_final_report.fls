@@ -599,19 +599,10 @@ INPUT Chapters/H1/Sections/03_drivers.tex
 INPUT ./Chapters/H1/Sections/03_drivers.tex
 INPUT ./Chapters/H1/Sections/03_drivers.tex
 INPUT Chapters/H1/Sections/03_drivers.tex
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpmn8t.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpmn7c.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/kpfonts/jkpmn7t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/kpfonts/jkpmn8t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpmn8r.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpmne.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/kpfonts/jkpmn7t.vf
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/kpfonts/jkpmn7c.vf
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpmnc.tfm
 INPUT ./Chapters/H1/Sections/04_functional_analysis.tex
 INPUT ./Chapters/H1/Sections/04_functional_analysis.tex
 INPUT Chapters/H1/Sections/04_functional_analysis.tex
@@ -645,9 +636,16 @@ INPUT ./Chapters/H1/Sections/07_payload.tex
 INPUT ./Chapters/H1/Sections/07_payload.tex
 INPUT Chapters/H1/Sections/07_payload.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpbn8t.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpmn7c.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/kpfonts/jkpbn8t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpbn8r.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpbne.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/kpfonts/jkpmn7c.vf
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpmnc.tfm
 INPUT ./Chapters/H1/Images/Strumenti Juno.jpg
 INPUT Chapters/H1/Images/Strumenti Juno.jpg
 INPUT ./Chapters/H1/Images/Strumenti Juno.jpg
@@ -691,10 +689,12 @@ INPUT ./Chapters/H2/Sections/00_notation.tex
 INPUT ./Chapters/H2/Sections/00_notation.tex
 INPUT Chapters/H2/Sections/00_notation.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpbn8t.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpmn8t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpbn8t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/kpfonts/jkpbn8t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpbn8r.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpbne.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/kpfonts/jkpmn7t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/kpfonts/jkpbn7t.vf
 INPUT ./Chapters/H2/Sections/01_ma_and_dv.tex
 INPUT ./Chapters/H2/Sections/01_ma_and_dv.tex
